@@ -1,0 +1,2465 @@
+{
+  "file": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 74,
+  "chunks": 7,
+  "truncations": 4,
+  "emptyChunks": 4,
+  "rawRowCount": 174,
+  "finalRows": 263,
+  "duplicatesRemoved": 6,
+  "dropped": {
+    "total": 3,
+    "verbatimNotFound": 3,
+    "pageOutOfRange": 0,
+    "invalidShape": 0
+  },
+  "reviewFlagged": 31,
+  "coverage": {
+    "verb_occurrences": 162,
+    "captured": 52,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 3
+    },
+    "swept_pages": [
+      13,
+      20,
+      30,
+      31,
+      35,
+      36,
+      38,
+      41,
+      42,
+      43,
+      44,
+      45,
+      47,
+      49,
+      50,
+      54,
+      55,
+      56,
+      57,
+      58,
+      60,
+      61,
+      62
+    ],
+    "uncaptured_pages": [
+      15,
+      19,
+      30,
+      32,
+      37,
+      39,
+      48,
+      51
+    ],
+    "unresolved": 10
+  },
+  "unresolvedBefore": 110,
+  "sweeperNewRows": 99,
+  "sweeperExclusions": [
+    {
+      "page": 62,
+      "quote": "All seeded areas to receive a settled minimum depth of 4” of topsoil.",
+      "rule": "toc-echo"
+    },
+    {
+      "page": 13,
+      "quote": "which must be performed",
+      "rule": "definitional"
+    },
+    {
+      "page": 13,
+      "quote": "costs that must be incurred",
+      "rule": "definitional"
+    },
+    {
+      "page": 20,
+      "quote": "One print will be marked with action taken and returned.",
+      "rule": "government-actor"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 72475,
+    "outputTokens": 253620,
+    "cacheReadTokens": 43680,
+    "cacheCreationTokens": 0,
+    "usd": 1.344943
+  },
+  "rows": [
+    {
+      "verbatim": "The Contractor shall clear the old road corridor along the top of Wild Boar Ridge leading to the well as necessary to allow construction vehicle access.",
+      "normalized": "Contractor must clear the old road corridor along Wild Boar Ridge as necessary for construction vehicle access.",
+      "section_ref": "011000 §1.1.C",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any tree removal shall occur during the Indiana bat and Northern long-eared bat’s hibernation season (between November 1 and March 31).",
+      "normalized": "Contractor must perform any tree removal only during the bat hibernation season (Nov 1 - Mar 31).",
+      "section_ref": "011000 §1.1.C",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The electric line along Missouri State Highway DD shall be installed utilizing directional drilling methods.",
+      "normalized": "Contractor must install the electric line along Highway DD using directional drilling methods.",
+      "section_ref": "011000 §1.1.C",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall coordinate with the Public Utility (PU) provider, Ameren, to obtain all permits, pay all fees, and provide all labor, materials and equipment to extend the primary distribution system which includes transformers, meter bases, metering, and service connection requirements.",
+      "normalized": "Contractor must coordinate with Ameren to obtain permits, pay fees, and provide labor/materials/equipment to extend the primary distribution system.",
+      "section_ref": "011000 §1.1.C",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A pull box will be placed at approximately every 500-ft along the buried cable.",
+      "normalized": "A pull box is to be placed approximately every 500 feet along the buried cable (subject/responsibility unclear).",
+      "section_ref": "011000 §1.1.C",
+      "page": 5,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Primary electric installation shall follow Ameren’s specifications (latest version) which can be found on their website (https://www.ameren.com/property/construction).",
+      "normalized": "Contractor must follow Ameren's latest specifications for primary electric installation.",
+      "section_ref": "011000 §1.1.C",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "D. The Contractor’s electrician shall provide plans for transformer sizing based on the following future needs:",
+      "normalized": "Contractor's electrician must provide transformer sizing plans based on the listed future electrical needs.",
+      "section_ref": "011000 §1.1.D",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. Limits on Use of Site: Limit use of Project site to areas within the Contract limits indicated.",
+      "normalized": "Contractor must limit use of the Project site to areas within the indicated Contract limits.",
+      "section_ref": "011000 §1.2.B",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not disturb portions of the Project site beyond areas in which Work is indicated.",
+      "normalized": "Contractor must not disturb Project site areas beyond those indicated for Work.",
+      "section_ref": "011000 §1.2.B",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. The Contractor is responsible for the security of the Contractor’s equipment and materials.",
+      "normalized": "Contractor is responsible for securing its own equipment and materials.",
+      "section_ref": "011000 §1.2.B.1",
+      "page": 6,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Schedule deliveries to minimize on-site storage of materials and equipment.",
+      "normalized": "Contractor must schedule deliveries to minimize on-site storage of materials/equipment.",
+      "section_ref": "011000 §1.2.B.2",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "3. Existing materials and equipment that are removed as part of the construction operations, and that are not reused or salvaged as Government property, shall become the property of the Contractor and shall be promptly removed from the site.",
+      "normalized": "Contractor must take ownership of and promptly remove non-salvaged materials/equipment removed during construction.",
+      "section_ref": "011000 §1.2.B.3",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor will be responsible for signing, limiting access, and safety of public and/or government employees in the area.",
+      "normalized": "Contractor is responsible for signage, access control, and safety of the public/government employees in the work area.",
+      "section_ref": "011000 §1.2.B.5",
+      "page": 6,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "6. Keep driveways, loading areas, and entrances serving premises clear and available to Owner, Owner’s employees, and emergency vehicles at all times.",
+      "normalized": "Contractor must keep driveways, loading areas, and entrances clear and available at all times.",
+      "section_ref": "011000 §1.2.B.6",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not use these areas for parking or storage of materials.",
+      "normalized": "Contractor must not use driveways/loading areas/entrances for parking or material storage.",
+      "section_ref": "011000 §1.2.B.6",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Areas for staging operations and storage of materials shall be approved by the COR.",
+      "normalized": "Staging/storage areas require COR approval before Contractor use.",
+      "section_ref": "011000 §1.2.C.1",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must request in writing for approval from the COR to stage trailers on site.",
+      "normalized": "Contractor must submit written request to COR for approval to stage trailers on site.",
+      "section_ref": "011000 §1.2.C.1",
+      "page": 7,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Comply with restrictions on construction operations.",
+      "normalized": "Contractor must comply with restrictions on construction operations.",
+      "section_ref": "011000 §1.3.A",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Comply with limitations on use of public streets, work on public streets, rights of way, and other requirements of authorities having jurisdiction.",
+      "normalized": "Contractor must comply with limitations on use of public streets, rights of way, and requirements of authorities having jurisdiction.",
+      "section_ref": "011000 §1.3.A.1",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. On-Site Work Hours: Limit work in all project areas to normal business working hours of 8 a.m. to 5 p.m., Monday through Friday, unless otherwise indicated or approved by the COR.",
+      "normalized": "Contractor must limit on-site work to 8am-5pm Monday-Friday unless otherwise approved by COR.",
+      "section_ref": "011000 §1.3.B",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. No work is permitted without written authorization from the CO on Government Holidays or weekends.",
+      "normalized": "Contractor must not work on Government Holidays or weekends without written CO authorization.",
+      "section_ref": "011000 §1.3.B.1",
+      "page": 7,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "C. Existing Utility Interruptions: Do not interrupt utilities serving facilities occupied by Owner or others unless permitted under the following conditions and then only after providing temporary utility services according to requirements indicated:",
+      "normalized": "If Contractor must interrupt existing utilities, it may only do so under specified permitted conditions and after providing temporary utility services.",
+      "section_ref": "011000 §1.3.C",
+      "page": 7,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Notify Owner not less than two days in advance of proposed utility interruptions.",
+      "normalized": "Contractor must notify Owner at least two days before proposed utility interruptions.",
+      "section_ref": "011000 §1.3.C.1",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Obtain Owner’s written permission before proceeding with utility interruptions.",
+      "normalized": "Contractor must obtain Owner's written permission before proceeding with utility interruptions.",
+      "section_ref": "011000 §1.3.C.2",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "D. Noise, Vibration, Dust, and Odors: Coordinate operations that may result in high levels of noise and vibration, dust, odors, or other disruption to Owner occupancy with Owner.",
+      "normalized": "Contractor must coordinate disruptive operations (noise, vibration, dust, odors) with Owner.",
+      "section_ref": "011000 §1.3.D",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Notify Owner not less than two days in advance of proposed disruptive operations.",
+      "normalized": "Contractor must notify Owner at least two days before proposed disruptive operations.",
+      "section_ref": "011000 §1.3.D.1",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Obtain Owner’s written permission before proceeding with disruptive operations.",
+      "normalized": "Contractor must obtain Owner's written permission before proceeding with disruptive operations.",
+      "section_ref": "011000 §1.3.D.2",
+      "page": 7,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "E. Smoking and Controlled Substance Restrictions: Use of tobacco products, alcoholic beverages, and other controlled substances on Project site is not permitted.",
+      "normalized": "Tobacco, alcohol, and controlled substances are not permitted on the Project site.",
+      "section_ref": "011000 §1.3.E",
+      "page": 7,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "F. Site Cleanup: Before leaving the Site each day the Contractor shall secure equipment, tools, and materials; pickup and dispose of paper and other debris/construction waste.",
+      "normalized": "Contractor must secure equipment/tools/materials and dispose of debris before leaving the site each day.",
+      "section_ref": "011000 §1.3.F",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Site shall be left in a safe and secure manner with the public protected from construction hazards.",
+      "normalized": "Contractor must leave the site safe and secure, protecting the public from construction hazards, each day.",
+      "section_ref": "011000 §1.3.F",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "G. Before leaving the Site on Fridays a more complete policing, pickup and securing of the Site shall be performed.",
+      "normalized": "Contractor must perform more complete site policing, pickup, and securing before leaving on Fridays.",
+      "section_ref": "011000 §1.3.G",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Site shall be left in a neat and orderly manner as determined by the COR with the public protected from construction related hazards.",
+      "normalized": "Contractor must leave the site neat and orderly (as determined by COR) with public protected from hazards, on Fridays.",
+      "section_ref": "011000 §1.3.G",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any failure of the contractor to take the actions described and acknowledged in this paragraph will not relieve the Contractor from the responsibility of estimating properly the difficulty and cost of successfully performing the work,",
+      "normalized": "Contractor remains responsible for properly estimating difficulty and cost of work regardless of failure to investigate site conditions (sentence continues on next page).",
+      "section_ref": "011000 §1.4.A",
+      "page": 7,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "A. Contractor shall comply with all State and Federal safety regulations during the performance of the work.",
+      "normalized": "Contractor must comply with all State and Federal safety regulations during performance.",
+      "section_ref": "011000 §1.5.A",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Contractor shall field verify all new and existing dimensions affecting the work of this contract before ordering products.",
+      "normalized": "Contractor must field verify all relevant dimensions before ordering products.",
+      "section_ref": "011000 §1.6.A",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Contractor shall remove and legally dispose of all debris offsite.",
+      "normalized": "Contractor must remove and legally dispose of all debris offsite.",
+      "section_ref": "011000 §1.7.A",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. 120 Calendar Days",
+      "normalized": "Contract performance period is 120 calendar days.",
+      "section_ref": "011000 §1.9",
+      "page": 8,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "A. Performance of the contract shall begin within ten (10) calendar days after receipt of the Notice to Proceed.",
+      "normalized": "Contractor must begin contract performance within 10 calendar days of receiving Notice to Proceed.",
+      "section_ref": "011000 §1.10.A",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Schedule of Items Form (SOI): The Contractor is required to complete the SOI Form, provided by the Government, as part of their Proposal or Bid.",
+      "normalized": "Offeror/Contractor must complete the Government-provided SOI Form as part of the Proposal or Bid.",
+      "section_ref": "012700 §1.1.B.1",
+      "page": 9,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Invoice Processing Platform (IPP) System: All invoices are to be submitted via the electronic IPP System.",
+      "normalized": "Contractor must submit all invoices via the electronic IPP System.",
+      "section_ref": "012700 §1.1.B.2",
+      "page": 9,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must follow the instructions on how to register and submit invoices via IPP as prescribed in communications from USDA and Treasury.",
+      "normalized": "Contractor must follow USDA/Treasury instructions to register and submit invoices via IPP.",
+      "section_ref": "012700 §1.1.B.2",
+      "page": 9,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Ensure your company has registered at https://www.ipp.gov/vendors/enrollmentvendors.htm to establish your account.",
+      "normalized": "Contractor must register its company at the IPP vendor enrollment site to establish an account.",
+      "section_ref": "012700 §1.1.B.2",
+      "page": 9,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror must have an established account prior to commencement of work.",
+      "normalized": "Offeror must have an established IPP account prior to commencing work.",
+      "section_ref": "012700 §1.1.B.2",
+      "page": 9,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "3. Certified Payrolls: Certified payrolls for construction work must be submitted to the CO/COR for review at regular intervals as work progresses.",
+      "normalized": "Contractor must submit certified payrolls to CO/COR at regular intervals during construction.",
+      "section_ref": "012700 §1.1.B.3",
+      "page": 9,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At least one week prior to Contractor requesting payment via IPP, all certified payrolls related to the subject pay request work must have been received by the CO/COR.",
+      "normalized": "Contractor must ensure CO/COR receives all related certified payrolls at least one week before requesting payment via IPP.",
+      "section_ref": "012700 §1.1.B.3",
+      "page": 9,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Incomplete or inaccurate payroll submittal will result in rejection of the IPP invoice.",
+      "normalized": "An incomplete or inaccurate payroll submission will cause the IPP invoice to be rejected.",
+      "section_ref": "012700 §1.1.B.3",
+      "page": 9,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor and all subcontractors, through the contractor, shall furnish all certified payrolls covering payments to laborers and mechanics for on-site work.",
+      "normalized": "Contractor (and subcontractors through the contractor) must furnish all certified payrolls for on-site labor payments.",
+      "section_ref": "012700 §1.1.B.3",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Payroll hourly rates and fringe benefits must be in accordance with the established Wage Determination for the project.",
+      "normalized": "Payroll hourly rates and fringe benefits must comply with the project's established Wage Determination.",
+      "section_ref": "012700 §1.1.B.3",
+      "page": 9,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Pay Request Documentation from Contractor: Contractor must submit the following documentation to the CO/COR for review and approval at least seven (7) days prior to requesting a payment via IPP.",
+      "normalized": "Contractor must submit specified pay request documentation to CO/COR at least 7 days before requesting payment via IPP.",
+      "section_ref": "012700 §1.4.A",
+      "page": 10,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. The maximum Mobilization bid price shall not exceed fifteen percent (15%) of the total base bid contract price or optional bid contract price (not including Mobilization).",
+      "normalized": "Offeror's mobilization bid price must not exceed 15% of the total base/optional bid contract price.",
+      "section_ref": "012800 §1.2.B",
+      "page": 13,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Spill and Erosion Control Plans: At a minimum, the Contractor shall install erosion control devices as indicated on the plans.",
+      "normalized": "Contractor must, at a minimum, install erosion control devices as shown on the plans.",
+      "section_ref": "013100 §1.3.A",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall install additional erosion control features to prevent sediment from entering wetlands or waters of the United States and to provide for containment of hazardous materials and unplanned spills in accordance with all applicable federal, state, and local laws.",
+      "normalized": "Contractor must install additional erosion control features to prevent sediment/spill contamination per applicable laws.",
+      "section_ref": "013100 §1.3.A",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. In accordance with FAR 52.236-6, at all times during performance of this contract and until the work is completed and accepted, the Contractor shall directly superintend the work or assign and have on the worksite a competent supervisor who is satisfactory to the Contracting Officer and has the authority to act for the Contractor.",
+      "normalized": "Contractor must directly superintend the work or maintain a competent, CO-approved on-site supervisor at all times until completion/acceptance.",
+      "section_ref": "013100 §1.4.A",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. In addition to meeting the requirements of FAR 52.236-6 for an on-site Project Superintendent, the Contractor shall provide other administrative and supervisory personnel as required for the performance of the Work.",
+      "normalized": "Contractor must provide additional administrative and supervisory personnel as required for performance of the Work.",
+      "section_ref": "013100 §1.4.B",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Staff Names: Within 5 calendar days after Notice to Proceed, submit a list of principal staff assignments including the Superintendent and other primary personnel.",
+      "normalized": "Contractor must submit a list of principal staff assignments (including Superintendent) within 5 calendar days after Notice to Proceed.",
+      "section_ref": "013100 §1.6.A",
+      "page": 15,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Coordination of Trades: Coordinate construction operations to provide an efficient and orderly installation of each part of the Work.",
+      "normalized": "Contractor must coordinate construction operations for efficient and orderly installation of the Work.",
+      "section_ref": "013100 §1.2.A",
+      "page": 15,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Post copies of this list in the temporary field office (if present).",
+      "normalized": "Contractor must post copies of the staff list in the temporary field office, if present.",
+      "section_ref": "013100 §1.6.A",
+      "page": 16,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Inspection of Conditions: Prior to installations, require the installer of each major component to inspect both the substrate and conditions under which work is to be performed.",
+      "normalized": "Contractor must require installers to inspect substrate/conditions prior to installation of each major component.",
+      "section_ref": "013100 §3.1.A",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Keep construction in progress, adjoining materials in place, and clean during handling and installation.",
+      "normalized": "Contractor must keep construction, adjoining materials, and work areas clean during handling and installation.",
+      "section_ref": "013100 3.1.B",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Apply protective enclosures or coverings for protection from damage or deterioration.",
+      "normalized": "Contractor must apply protective enclosures/coverings to prevent damage or deterioration.",
+      "section_ref": "013100 §3.1.B",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "C. Completed Construction: Clean completed construction and provide maintenance to prevent damage, soiling, or other deterioration through the remainder of the construction period.",
+      "normalized": "Contractor must clean and maintain completed construction to prevent damage/deterioration through the remainder of the construction period.",
+      "section_ref": "013100 §3.1.C",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Adjust and lubricate operable components to assure operability without damage.",
+      "normalized": "Contractor must adjust and lubricate operable components to ensure operability without damage.",
+      "section_ref": "013100 §3.1.C",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "D. Limiting Exposures: Supervise construction operations to prevent exposure of any part of construction, completed or in progress, to harmful, dangerous, damaging, or otherwise deleterious conditions during the construction period.",
+      "normalized": "Contractor must supervise operations to prevent exposure of construction (complete or in progress) to harmful/damaging conditions.",
+      "section_ref": "013100 §3.1.D",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. Construction in Progress: Keep construction in progress, adjoining materials in place, and clean during handling and installation.",
+      "normalized": "Contractor must keep construction, adjoining materials clean during handling/installation.",
+      "section_ref": "013100 §3.1.B",
+      "page": 16,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit a comprehensive, fully developed schedule within 10 days of Notice to Proceed date.",
+      "normalized": "Contractor must submit a comprehensive, fully developed schedule within 10 days of the Notice to Proceed date.",
+      "section_ref": "013250 1.2.A",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Indicate each significant construction activity and the location on the site separately.",
+      "normalized": "Contractor must indicate each significant construction activity and its site location separately in the schedule.",
+      "section_ref": "013250 3.1.A",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify first workday of each week.",
+      "normalized": "Contractor must identify the first workday of each week in the schedule.",
+      "section_ref": "013250 3.1.A",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Show complete sequence of construction by activity, with dates for beginning and completion of each element of construction.",
+      "normalized": "Contractor must show the complete construction sequence by activity with begin/end dates for each element.",
+      "section_ref": "013250 3.1.B",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify each item by specification section number.",
+      "normalized": "Contractor must identify each schedule item by specification section number.",
+      "section_ref": "013250 3.1.C",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Show accumulated percentage of completion of each item, and total percentage of Work completed, as of the first day of each week.",
+      "normalized": "Contractor must show accumulated percent completion of each item and total percent of Work completed as of the first day of each week.",
+      "section_ref": "013250 3.1.D",
+      "page": 17,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor to revise schedule if Work is more than one week behind schedule.",
+      "normalized": "If Work is more than one week behind schedule, Contractor must revise the schedule.",
+      "section_ref": "013250 3.1.E",
+      "page": 17,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Allow 15 calendar days each for submittal review, corrections following the initial review and re-submittal review before activities scheduled after the submittal approval.",
+      "normalized": "Contractor must allow 15 calendar days each for submittal review, corrections, and re-submittal review before scheduling dependent activities.",
+      "section_ref": "013300 1.2.A.1",
+      "page": 19,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When the Contractor desires to submit for approval a product for an “approved equal”, the Contractor MUST provide documentation of the original specified product and the Contractor proposed product in a side-by-side comparison, such as a table, which clearly demonstrates the Contractor proposed product meets or exceeds the originally specified product.",
+      "normalized": "If the Contractor proposes an 'approved equal' product, the Contractor must provide a side-by-side comparison documenting that the proposed product meets or exceeds the specified product.",
+      "section_ref": "013300 1.2.A.3",
+      "page": 19,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this product comparison is not done the first time it is submitted, the proposed product will be rejected, and the Contractor will be required to provide the specified product.",
+      "normalized": "If the product comparison is not provided at first submission, the proposed product will be rejected and the Contractor will be required to provide the originally specified product.",
+      "section_ref": "013300 1.2.A.3",
+      "page": 19,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Transmittal format to be approved by COR and shall include the following information on the transmittal form.",
+      "normalized": "Contractor's transmittal form format must be approved by the COR and shall include the listed information.",
+      "section_ref": "013300 1.2.A.4",
+      "page": 20,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit electronic copies of each submittal to the COR for review unless otherwise stated.",
+      "normalized": "Contractor must submit electronic copies of each submittal to the COR for review, unless otherwise stated.",
+      "section_ref": "013300 1.2.B",
+      "page": 20,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit originally prepared information, drawn accurately to scale.",
+      "normalized": "Contractor must submit originally prepared shop drawing information drawn accurately to scale.",
+      "section_ref": "013300 1.3.A",
+      "page": 20,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit three blue-line or black-line prints of each drawing submittal.",
+      "normalized": "Contractor must submit three blue-line or black-line prints of each drawing submittal.",
+      "section_ref": "013300 1.3.B",
+      "page": 20,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When submittal is approved, the Contractor shall prepare and submit three final copies.",
+      "normalized": "Once a submittal is approved, the Contractor shall prepare and submit three final copies.",
+      "section_ref": "013300 1.3.B",
+      "page": 20,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Shop drawings shall be done in AutoCAD format.",
+      "normalized": "Contractor's shop drawings shall be prepared in AutoCAD format.",
+      "section_ref": "013300 1.3.C",
+      "page": 20,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Upon final approval the drawings shall be sent on a thumb drive or via email to the COR.",
+      "normalized": "Upon final approval, Contractor shall send the drawings to the COR via thumb drive or email.",
+      "section_ref": "013300 1.3.C",
+      "page": 20,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Specifications shall be done in Microsoft Word format and a copy sent on a thumb drive or via email to the COR.",
+      "normalized": "Contractor's specifications shall be prepared in Microsoft Word format and a copy sent to the COR via thumb drive or email.",
+      "section_ref": "013300 1.3.D",
+      "page": 20,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Collect Product Data into a single submittal for each system or element of construction.",
+      "normalized": "Contractor must collect Product Data into a single submittal for each system or element of construction.",
+      "section_ref": "013300 1.4.A",
+      "page": 20,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mark each copy to show specific product choices and options applicable to the project.",
+      "normalized": "Contractor must mark each Product Data copy to show specific product choices and options applicable to the project.",
+      "section_ref": "013300 1.4.A",
+      "page": 20,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Product Data shall include the following information, where applicable:",
+      "normalized": "Contractor's Product Data submittals shall include the listed information where applicable.",
+      "section_ref": "013300 1.4.A",
+      "page": 20,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Prior to submittal of complete Product Data, submit a preliminary single copy of that part of Product Data when selection of options is required, such as for color charts.",
+      "normalized": "If selection of options is required (e.g., color charts), Contractor must submit a preliminary single copy of that Product Data prior to the complete submittal.",
+      "section_ref": "013300 1.4.B",
+      "page": 21,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submittals: Unless otherwise indicated, submit 3 copies of each Product Data submittal.",
+      "normalized": "Unless otherwise indicated, Contractor must submit 3 copies of each Product Data submittal.",
+      "section_ref": "013300 1.4.C",
+      "page": 21,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit full-size, fully fabricated samples, cured and finished in the manner specified.",
+      "normalized": "Contractor must submit full-size, fully fabricated samples, cured and finished as specified.",
+      "section_ref": "013300 1.5.A",
+      "page": 21,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Samples shall be physically identical to the material or product proposed for use.",
+      "normalized": "Samples shall be physically identical to the material or product proposed for use.",
+      "section_ref": "013300 1.5.A",
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where color, pattern, texture or similar characteristics are to be selected from a manufacturer's range of standard choices, submit a preliminary single set sample of available choices when required by the CO.",
+      "normalized": "If color/pattern/texture selection from manufacturer's standard choices is required by the CO, Contractor must submit a preliminary single set sample of available choices.",
+      "section_ref": "013300 1.5.B",
+      "page": 21,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit other quality assurance submittals in compliance with requirements in the individual specification sections.",
+      "normalized": "Contractor must submit other quality assurance submittals in compliance with the individual specification sections.",
+      "section_ref": "013300 1.6.A",
+      "page": 21,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submittals that do not contain an appropriate marking of approval by the Government shall not be used for construction.",
+      "normalized": "Contractor shall not use submittals for construction unless marked with appropriate Government approval.",
+      "section_ref": "013300 1.7.B",
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A qualified independent testing Agency shall be an accredited entity engaged to perform tests or inspections, and to report on and, if required, to interpret results of those tests or inspections.",
+      "normalized": "The independent testing Agency the Contractor engages shall be an accredited entity that performs tests/inspections and reports/interprets results.",
+      "section_ref": "014000 1.2.A",
+      "page": 23,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall submit a certified written report, in duplicate (or electronic format), of each test, inspection or other quality control service to the Government.",
+      "normalized": "Contractor shall submit a certified written report (duplicate or electronic) of each test, inspection, or QC service to the Government.",
+      "section_ref": "014000 1.3.A",
+      "page": 23,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Written reports shall include but not be limited to the following:",
+      "normalized": "Contractor's written reports shall include, at minimum, the listed information.",
+      "section_ref": "014000 1.3.B",
+      "page": 23,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide for tests, inspections and other quality control services (such as well water, electrical, etc. tests and inspections) where specified in the Contract or when required by authorities having jurisdiction such as the State of Missouri Agencies—MODOT and MODNR.",
+      "normalized": "Contractor shall provide tests, inspections, and other QC services as specified in the Contract or as required by authorities having jurisdiction (e.g., MODOT, MODNR).",
+      "section_ref": "014000 1.5.A",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall maintain complete inspection records and make them available to the Government.",
+      "normalized": "Contractor shall maintain complete inspection records and make them available to the Government.",
+      "section_ref": "014000 1.5.A",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall employ and pay for a qualified independent testing agency (Agency) to perform the quality control services.",
+      "normalized": "Contractor shall employ and pay for a qualified independent testing agency to perform quality control services.",
+      "section_ref": "014000 1.5.B",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall cooperate with others performing required tests, inspections and other quality control services,",
+      "normalized": "Contractor shall cooperate with others performing required tests, inspections, and other QC services.",
+      "section_ref": "014000 1.5.C",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall provide access to the work,",
+      "normalized": "Contractor shall provide access to the work for QC-related tests and inspections.",
+      "section_ref": "014000 1.5.C",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "and shall furnish incidental labor and facilities necessary to facilitate inspections and tests.",
+      "normalized": "Contractor shall furnish incidental labor and facilities necessary to facilitate inspections and tests.",
+      "section_ref": "014000 1.5.C",
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain a clean, undamaged set of blue or black line prints of Contract Drawings and Shop Drawings.",
+      "normalized": "Contractor must maintain a clean, undamaged set of blue/black line prints of Contract Drawings and Shop Drawings for record purposes.",
+      "section_ref": "017700 1.3.A.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mark the set to show the actual installation where the installation varies from the Work as originally shown.",
+      "normalized": "Contractor must mark the record set to show actual installation where it varies from the originally shown Work.",
+      "section_ref": "017700 1.3.A.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mark all drawings that are affected by the variation(s) fully and accurately.",
+      "normalized": "Contractor must fully and accurately mark all drawings affected by variations.",
+      "section_ref": "017700 1.3.A.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where Shop Drawings are used, record a cross-reference at the corresponding location on the Contract Drawings.",
+      "normalized": "Where Shop Drawings are used, Contractor must record a cross-reference at the corresponding location on the Contract Drawings.",
+      "section_ref": "017700 1.3.A.1",
+      "page": 25,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Give particular attention to concealed and buried elements that would be difficult to measure and record at a later date.",
+      "normalized": "Contractor must give particular attention to recording concealed and buried elements difficult to measure later.",
+      "section_ref": "017700 1.3.A.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Maintain one copy of each Product Data submittal.",
+      "normalized": "Contractor must maintain one copy of each Product Data submittal for record purposes.",
+      "section_ref": "017700 1.3.B",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Note related Change Orders and markup of Record Drawings and Specifications.",
+      "normalized": "Contractor must note related Change Orders and markup of Record Drawings and Specifications.",
+      "section_ref": "017700 1.3.B",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mark these documents to show significant variations in actual Work performed in comparison with information submitted.",
+      "normalized": "Contractor must mark record documents to show significant variations between actual Work performed and submitted information.",
+      "section_ref": "017700 1.3.B.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Include variations in products delivered to the site and from the manufacturer’s installation instructions and recommendations.",
+      "normalized": "Contractor must include variations in delivered products and deviations from manufacturer's installation instructions in record documents.",
+      "section_ref": "017700 1.3.B.1",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Give particular attention to concealed products and portions of the Work that cannot otherwise be readily determined later by direct observation.",
+      "normalized": "Contractor must give particular attention to recording concealed products/Work portions not readily observable later.",
+      "section_ref": "017700 1.3.B.2",
+      "page": 25,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Submit the following a minimum of 10 days before scheduling a final inspection for determining Final Completion and Acceptance:",
+      "normalized": "Contractor must submit the listed items at least 10 days before scheduling the final inspection for Final Completion and Acceptance.",
+      "section_ref": "017700 1.4.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit a final Schedule of Items (SOI) form to reflect the final payment values in accordance with Section 012700 \"Measurement and Payment.\"",
+      "normalized": "Contractor must submit a final Schedule of Items (SOI) form reflecting final payment values per Section 012700.",
+      "section_ref": "017700 1.4.A.1",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit all remaining Certified Payrolls for the project not previously submitted.",
+      "normalized": "Contractor must submit all remaining, not-previously-submitted Certified Payrolls for the project.",
+      "section_ref": "017700 1.4.A.2",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit completed, signed Contract Release form.",
+      "normalized": "Contractor must submit a completed, signed Contract Release form.",
+      "section_ref": "017700 1.4.A.3",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit a signed copy of the Substantial Completion inspection list of items to be completed or corrected (punch list), endorsed and dated by Government CO/COR.",
+      "normalized": "Contractor must submit a signed, CO/COR-endorsed and dated copy of the Substantial Completion punch list.",
+      "section_ref": "017700 1.4.A.4",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Certified copy of the list shall state that each item has been completed or otherwise resolved for acceptance.",
+      "normalized": "The certified punch-list copy shall state that each item has been completed or otherwise resolved for acceptance.",
+      "section_ref": "017700 1.4.A.4",
+      "page": 26,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit all remaining specific warranties, workmanship bonds, maintenance agreements, final certifications and similar documents not previously submitted.",
+      "normalized": "Contractor must submit all remaining warranties, workmanship bonds, maintenance agreements, final certifications, and similar documents not previously submitted.",
+      "section_ref": "017700 1.4.A.5",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit all remaining record documents and similar final record information not previously submitted.",
+      "normalized": "Contractor must submit all remaining record documents and similar final record information not previously submitted.",
+      "section_ref": "017700 1.4.A.6",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Deliver tools, spare parts, extra stock and similar items not previously delivered.",
+      "normalized": "Contractor must deliver tools, spare parts, extra stock, and similar items not previously delivered.",
+      "section_ref": "017700 1.4.A.7",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete final clean-up requirements including touch-up painting of marred surfaces, adjustments, lubrication, etc.",
+      "normalized": "Contractor must complete final clean-up requirements, including touch-up painting, adjustments, and lubrication.",
+      "section_ref": "017700 1.4.A.8",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Perform final cleaning.",
+      "normalized": "Contractor must perform final cleaning.",
+      "section_ref": "017700 3.1.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Conduct cleaning and waste-removal operations to comply with local laws and ordinances and Federal and local environmental and antipollution regulations.",
+      "normalized": "Contractor must conduct cleaning and waste-removal operations in compliance with applicable laws and environmental/antipollution regulations.",
+      "section_ref": "017700 3.1.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not burn waste materials.",
+      "normalized": "Contractor must not burn waste materials.",
+      "section_ref": "017700 3.1.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not bury debris or excess materials on Government property.",
+      "normalized": "Contractor must not bury debris or excess materials on Government property.",
+      "section_ref": "017700 3.1.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not discharge volatile, harmful, or dangerous materials into drainage or septic systems.",
+      "normalized": "Contractor must not discharge volatile, harmful, or dangerous materials into drainage or septic systems.",
+      "section_ref": "017700 3.1.A",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete the following cleaning operations before requesting inspection for certification of Substantial Completion for entire Project:",
+      "normalized": "Contractor must complete the listed cleaning operations before requesting the Substantial Completion inspection.",
+      "section_ref": "017700 3.1.A.1",
+      "page": 26,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Clean Project site of rubbish, waste material, litter, and other foreign substances.",
+      "normalized": "Contractor must clean the Project site of rubbish, waste material, litter, and other foreign substances.",
+      "section_ref": "017700 3.1.A.1.a",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Clean exposed exterior and interior hard-surfaced finishes to a dirt-free condition, free of stains, films, and similar foreign substances.",
+      "normalized": "Contractor must clean exposed exterior and interior hard-surfaced finishes to a dirt-free, stain-free condition.",
+      "section_ref": "017700 3.1.A.1.b",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Avoid disturbing natural weathering of exterior surfaces.",
+      "normalized": "Contractor must avoid disturbing natural weathering of exterior surfaces during cleaning.",
+      "section_ref": "017700 3.1.A.1.b",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Restore reflective surfaces to their original condition.",
+      "normalized": "Contractor must restore reflective surfaces to their original condition.",
+      "section_ref": "017700 3.1.A.1.b",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove labels that are not permanent.",
+      "normalized": "Contractor must remove non-permanent labels.",
+      "section_ref": "017700 3.1.A.1.c",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Leave Project clean and ready for occupancy.",
+      "normalized": "Contractor must leave the Project clean and ready for occupancy.",
+      "section_ref": "017700 3.1.A.1.d",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Comply with waste-disposal requirements in all applicable specification sections and contract clauses.",
+      "normalized": "Contractor must comply with waste-disposal requirements in all applicable specification sections and contract clauses.",
+      "section_ref": "017700 3.1.B",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove waste materials from the site and dispose of it lawfully.",
+      "normalized": "Contractor must remove waste materials from the site and dispose of them lawfully.",
+      "section_ref": "017700 3.1.B",
+      "page": 27,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Product Data: For all piping specialties to include, but not limited to, all valves, transition fittings, GIP pipe and fittings and any other item used in the construction of the water distribution system.",
+      "normalized": "Contractor must submit Product Data for all piping specialties, including valves, transition fittings, GIP pipe/fittings, and other water distribution system items.",
+      "section_ref": "221114 1.3.A",
+      "page": 29,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Pump Test data written results",
+      "normalized": "Contractor must submit written pump test data results.",
+      "section_ref": "221114 1.3.B",
+      "page": 29,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Pump operation and maintenance manual and pump curve",
+      "normalized": "Contractor must submit pump operation and maintenance manual and pump curve.",
+      "section_ref": "221114 1.3.C",
+      "page": 29,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Water Sample written results clearly stating MCL for each contaminant, corresponding test result with units and clearly stating if the contaminant exceeds the MCL.",
+      "normalized": "Contractor must submit written water sample results stating MCL, test results with units, and whether contaminants exceed MCL.",
+      "section_ref": "221114 1.3.D",
+      "page": 29,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Proof of Laboratory’s current EPA certification for PFAS analysis",
+      "normalized": "Contractor must submit proof of the laboratory's current EPA certification for PFAS analysis.",
+      "section_ref": "221114 1.3.E",
+      "page": 29,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide a copy of current Missouri Well Driller License.",
+      "normalized": "Contractor must provide a copy of a current Missouri Well Driller License.",
+      "section_ref": "221114 1.3.F.1",
+      "page": 29,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide a copy of current Missouri Electrician License.",
+      "normalized": "Contractor must provide a copy of a current Missouri Electrician License.",
+      "section_ref": "221114 1.3.F.2",
+      "page": 29,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Piping materials shall bear label, stamp, or other markings of specified testing agency.",
+      "normalized": "Contractor shall ensure piping materials bear a label, stamp, or other marking of the specified testing agency.",
+      "section_ref": "221114",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The submersible well pump and controls shall be capable of delivering 15 gallons per minute at 680 feet of total dynamic head.",
+      "normalized": "Contractor shall supply a submersible well pump and controls capable of delivering 15 GPM at 680 feet of total dynamic head.",
+      "section_ref": "221114 2.1.A",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Drop pipe shall be 1.5” diameter, Galvanized steel, Schedule 40, pipe shall be in accordance with ASTM A53 Grade B and have threaded and coupled fittings in accordance with ANSI B16.1.",
+      "normalized": "Contractor shall provide drop pipe that is 1.5-inch diameter galvanized steel Schedule 40, and pipe shall conform to ASTM A53 Grade B with threaded/coupled fittings per ANSI B16.1.",
+      "section_ref": "221114 2.1.B",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Pipe shall be NSF 61 approved and rated not less than 200 psig.",
+      "normalized": "Contractor shall provide pipe that is NSF 61 approved and rated no less than 200 psig.",
+      "section_ref": "221114 2.1.B",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Check valves shall be of the same size as the drop pipe and placed every 200’ with one being just above the pump.",
+      "normalized": "Contractor shall install check valves the same size as the drop pipe, placed every 200 feet with one just above the pump.",
+      "section_ref": "221114 2.1.D",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Check valve body shall be lead-free bronze or brass, with stainless steel spring material and be NSF-61 approved.",
+      "normalized": "Contractor shall provide check valve bodies of lead-free bronze or brass with stainless steel spring material, NSF-61 approved.",
+      "section_ref": "221114 2.1.D",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Valves must be rated to at least 200 psi water pressure and designed for either horizontal or vertical orientation.",
+      "normalized": "Contractor's valves must be rated to at least 200 psi and designed for horizontal or vertical orientation.",
+      "section_ref": "221114 2.1.D",
+      "page": 30,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Valve body must be rated to handle the weight of the pump and drop pipe assembly, water column and pressure.",
+      "normalized": "Contractor's valve body must be rated to handle the weight of the pump/drop pipe assembly, water column, and pressure.",
+      "section_ref": "221114 2.1.D",
+      "page": 30,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Torque Arrestors shall be flexible molded rubber adjustable torque arrestors that adjusts to fit 4” to 8” diameter well casings, placed at each check valve location.",
+      "normalized": "Contractor shall provide flexible molded rubber adjustable torque arrestors fitting 4-8 inch diameter well casings, placed at each check valve location.",
+      "section_ref": "221114 2.1.E",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each torque arrestor shall include 2 each stainless-steel hose clamps to secure the torque arrestor to the drop pipe.",
+      "normalized": "Contractor shall include 2 stainless-steel hose clamps per torque arrestor to secure it to the drop pipe.",
+      "section_ref": "221114 2.1.E",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Well cap shall meet State of Missouri requirements but must be at least a metal sanitary cap that fits over the top of the casing forming a waterproof and vermin seal with threaded hole for electrical PVC conduit.",
+      "normalized": "Contractor's well cap shall meet Missouri requirements and must be at least a metal sanitary cap forming a waterproof, vermin-proof seal with a threaded hole for electrical PVC conduit.",
+      "section_ref": "221114 2.1.F",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Well cap shall have an integral vent screen.",
+      "normalized": "Contractor shall provide a well cap with an integral vent screen.",
+      "section_ref": "221114 2.1.F",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The vent shall terminate in a downturned position, at or above the top of the casing or pitless unit in a minimum 1 ½ inch",
+      "normalized": "Contractor shall terminate the vent in a downturned position at or above the top of the casing or pitless unit (minimum 1 1/2 inch, detail continues on next page).",
+      "section_ref": "221114 2.1.F",
+      "page": 30,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The pipe connecting the casing to the vent shall be of adequate size to provide rapid venting of the casing.",
+      "normalized": "Contractor must size the vent-connecting pipe adequately to provide rapid venting of the casing.",
+      "section_ref": "221114 2.1",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "There shall be no other openings in the well cap.",
+      "normalized": "Contractor shall ensure the well cap has no openings other than those specified.",
+      "section_ref": "221114 2.1",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The well cap shall be lockable, Baker-Monitor well cap part number 6WTCL or approved equal.",
+      "normalized": "Contractor shall provide a lockable well cap, Baker-Monitor part number 6WTCL or approved equal.",
+      "section_ref": "221114 2.1",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "G. Pitless adapter shall be a weld on type or approved equal, State of Missouri approved, with\nminimum 3.5’ bury depth.",
+      "normalized": "Contractor shall provide a weld-on type pitless adapter (or approved equal), State of Missouri approved, with minimum 3.5' bury depth.",
+      "section_ref": "221114 2.1.G",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. Pipe thread compound shall be Blue Magic Industrial Grade or approved equal.",
+      "normalized": "Contractor shall use Blue Magic Industrial Grade pipe thread compound or approved equal.",
+      "section_ref": "221114 2.2.B",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "It shall be NDF 61 approved for potable water, grit free, lead free and non-hardening once applied to the pipe\nthreads.",
+      "normalized": "Contractor shall use pipe thread compound that is NDF 61 approved for potable water, grit free, lead free, and non-hardening once applied.",
+      "section_ref": "221114 2.2.B",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Samples of water shall be collected in laboratory provided sample\nbottles and tested by a State of Missouri certified laboratory for the following constituents:",
+      "normalized": "Contractor shall collect water samples in laboratory-provided bottles and have them tested by a State of Missouri certified laboratory for listed constituents.",
+      "section_ref": "221114 3.1.B",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall coordinate with the Public Utility (PU) provider, Ameren, to pay all fees and provide all labor, materials and equipment to extend their primary distribution system which includes transformers, meter bases, metering, and service connection requirements.",
+      "normalized": "Contractor shall coordinate with Ameren to pay all fees and provide labor, materials, and equipment to extend the primary distribution system.",
+      "section_ref": "260010 1.2.A",
+      "page": 35,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide the COR with copies of all permit applications and other requirements provided by the utility company for review.",
+      "normalized": "Contractor shall provide the COR with copies of all permit applications and utility company requirements for review.",
+      "section_ref": "260010 1.2.B",
+      "page": 35,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide and install the electrical system as shown on the drawings and indicated in the specifications.",
+      "normalized": "Contractor shall provide and install the electrical system as shown on drawings and specifications.",
+      "section_ref": "260010 1.2.C",
+      "page": 35,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor is required to provide all additional equipment, materials, and labor necessary to complete the electrical system and make it fully operational in accordance with the Contract and National Electric Code (NFPA 70) latest edition.",
+      "normalized": "Contractor is required to provide additional equipment, materials, and labor to complete and make the electrical system fully operational per NEC latest edition.",
+      "section_ref": "260010 1.2.D",
+      "page": 35,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Transformer, meter/panel locations, and feeder corridors shall be staked in the field and reviewed and approved by the COR prior to the start of any electrical work.",
+      "normalized": "Transformer, meter/panel locations, and feeder corridors shall be staked in the field and reviewed/approved by the COR before electrical work begins.",
+      "section_ref": "260010 1.2.E",
+      "page": 35,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All materials shall conform to the applicable current standards (standard rules, regulations and specifications), Institute of Electrical and Electronic Engineers (IEEE), Insulated Power Cable Engineers Association (IPCEA), NFPA-70 National Electric Code (NEC).",
+      "normalized": "Contractor's materials shall conform to applicable IEEE/IPCEA/NFPA-70 NEC standards and regulations.",
+      "section_ref": "1.4.A",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All materials shall bear the label of, or be listed by, the Underwriter’s Laboratory, Inc., (U.L.).",
+      "normalized": "Contractor's materials shall bear the U.L. label or be U.L.-listed.",
+      "section_ref": "1.4.A",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where conflicts exist between any of the above standards, the standard which is the most stringent shall take precedence.",
+      "normalized": "When standards conflict, the contractor shall apply the most stringent standard.",
+      "section_ref": "1.4.A",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any errors found in the plans or specifications shall be brought to the attention of the COR.",
+      "normalized": "Contractor shall bring any errors found in plans or specifications to the COR's attention.",
+      "section_ref": "1.4.B",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor is responsible for execution of all work to meet applicable codes.",
+      "normalized": "Contractor is responsible for executing all work to meet applicable codes.",
+      "section_ref": "1.4.B",
+      "page": 36,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All work shall be done by electricians licensed by the State of Missouri.",
+      "normalized": "Contractor shall have all work performed by electricians licensed by the State of Missouri.",
+      "section_ref": "1.4.D",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All penetrations through fire rated walls and floors shall be fire sealed with UL listed fire rated material.",
+      "normalized": "Contractor shall fire seal all penetrations through fire rated walls and floors with UL listed fire rated material.",
+      "section_ref": "3.2.D",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All exposed conduit shall be clean and in new condition free of dents and machine markings.",
+      "normalized": "Contractor shall keep all exposed conduit clean and in new condition, free of dents and machine markings.",
+      "section_ref": "3.3.E",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Equipment or panels that are being replaced shall have wire numbers put on each conductor prior to removing equipment and a drawing of the connections be made for reconnection of the conductors.",
+      "normalized": "Contractor shall put wire numbers on each conductor of equipment/panels being replaced prior to removal, and make a drawing of connections for reconnection.",
+      "section_ref": "3.8.B",
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Wire numbers shall correspond to control panel schematic and wiring diagram's external connection terminal numbers.",
+      "normalized": "Contractor shall ensure wire numbers correspond to the control panel schematic and wiring diagram's external connection terminal numbers.",
+      "section_ref": "3.8.D",
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor shall provide motor disconnects, where specified, shown or required by code, under this division of the specifications.",
+      "normalized": "Contractor must provide motor disconnects where specified, shown, or required by code.",
+      "section_ref": "3.13",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "those below grade shall be made by a fusion-welding process.",
+      "normalized": "Contractor must make grounding connections below grade by a fusion-welding process.",
+      "section_ref": "3.14",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Where not otherwise indicated, grounding conductor size shall conform to the most stringent of the governing codes.",
+      "normalized": "Contractor must size grounding conductors to conform to the most stringent governing code where not otherwise indicated.",
+      "section_ref": "260010",
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A ground rod enclosure shall be provided flush at final grade with a lid to access ground connection.",
+      "normalized": "Contractor must provide a ground rod enclosure flush at final grade with an access lid for the ground connection.",
+      "section_ref": "260010",
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The instrument must be equipped with a meter reading directly in ohms or fractions thereof to indicate the ground value of the ground rod or grounding systems under test.",
+      "normalized": "The ground resistance tester instrument must be equipped with a meter reading directly in ohms (or fractions) to indicate the ground value of the ground rod or grounding system under test.",
+      "section_ref": "3.17.D",
+      "page": 44,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Measured resistance from rod to earth shall be 25 ohms or less and less then 15 ohms for a ground ring measure at point of connection.",
+      "normalized": "Contractor shall ensure measured resistance from rod to earth is 25 ohms or less, and less than 15 ohms for a ground ring measured at the point of connection.",
+      "section_ref": "3.17.D",
+      "page": 44,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Minimum resistance shall be 200 megohms.",
+      "normalized": "Contractor shall ensure minimum insulation resistance is 200 megohms.",
+      "section_ref": "3.17.E.2",
+      "page": 44,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All electronic devices must be disconnected to avoid damage.",
+      "normalized": "Contractor must disconnect all electronic devices during insulation resistance testing to avoid damage.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "GFI breakers in branch panels must be removed, with the phase and neutral wires connected to an adjacent breaker for testing.",
+      "normalized": "Contractor must remove GFI breakers in branch panels and connect phase and neutral wires to an adjacent breaker for testing.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The neutral and isolated ground must be disconnected from ground at the main service switchgear in order to test the feeders.",
+      "normalized": "Contractor must disconnect the neutral and isolated ground from ground at the main service switchgear to test the feeders.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Failure of any phase of the operation tests shall constitute failure of the system.",
+      "normalized": "Contractor's system testing is considered failed if any phase of the operation tests fails.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Shop drawings shall include, an overall system drawing, one-line fault current diagram with system fault calculations and Short Circuit Current Requirements (SCCR) determine and shown for all panelboards, disconnects and other equipment where a SCCR is required.",
+      "normalized": "Contractor's shop drawings must include an overall system drawing, one-line fault current diagram with fault calculations, and SCCR shown for all panelboards, disconnects, and equipment requiring SCCR.",
+      "section_ref": "260050 1.3",
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Calculations shall be performed after coordination with the electric utility provider to determine the supply side transformer sizes and impedance.",
+      "normalized": "Contractor must perform calculations after coordinating with the electric utility provider to determine supply side transformer sizes and impedance.",
+      "section_ref": "260050 1.3",
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For bidding purchases the contractor shall base cost on requirements shown in the drawings.",
+      "normalized": "For bidding purposes, the contractor must base cost on requirements shown in the drawings.",
+      "section_ref": "260050 1.3",
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Panelboard drawings shall provide detail of the size, materials, and ratings of all panel board construction components including circuit breakers.",
+      "normalized": "Contractor's panelboard drawings must detail the size, materials, and ratings of all panelboard construction components, including circuit breakers.",
+      "section_ref": "260050 1.3",
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A listing of compliance standards shall be provided.",
+      "normalized": "Contractor must provide a listing of compliance standards.",
+      "section_ref": "260050 1.3",
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Receptacle nameplates shall have panel and circuit number engraved at top of plate in 0.25 inch\nhigh letters.",
+      "normalized": "Contractor shall engrave receptacle nameplates with panel and circuit number at top of plate in 0.25 inch high letters.",
+      "section_ref": "260050 2.4.B",
+      "page": 49,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Engraving shall be filled with black enamel for ivory plates, white enamel for brown\nplates and ivory plates filled with orange paint for isolated ground receptacle.",
+      "normalized": "Contractor shall fill engraving with black enamel (ivory plates), white enamel (brown plates), or orange paint (isolated ground receptacle, ivory plates).",
+      "section_ref": "260050 2.4.B",
+      "page": 49,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Compression fittings shall be applied with a factory matched die in a hydraulic compression tool that stamps manufacturers name when fully compressed to manufactures specifications.",
+      "normalized": "Contractor shall apply compression fittings using a factory matched die in a hydraulic compression tool that stamps manufacturer's name when fully compressed to manufacturer's specifications.",
+      "section_ref": "2.8.D",
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All feeder terminations shall be rated at 75 degrees C. or higher.",
+      "normalized": "Contractor shall ensure all feeder terminations are rated at 75 degrees C or higher.",
+      "section_ref": "2.8.E",
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Excessive bending of the cable will not be permitted.",
+      "normalized": "Contractor must not excessively bend the cable during handling.",
+      "section_ref": "260400",
+      "page": 54,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Non-metallic conduit and fitting shall be electrical grade, UL Listed, schedule 40 PVC and shall\nconform to applicable sections of NEMA TC2-latest edition and UL 651.",
+      "normalized": "Contractor shall use electrical grade, UL Listed, schedule 40 PVC non-metallic conduit and fittings conforming to NEMA TC2 and UL 651.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any PVC conduit not having the proper NEMA and UL markings will not be accepted.",
+      "normalized": "PVC conduit lacking proper NEMA and UL markings will be rejected by the government.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Only gray-colored conduit will be accepted.",
+      "normalized": "Contractor must supply only gray-colored conduit.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Coilable Duct for directional boring installations shall be high density polyethylene (HDPE) in\n3”, 4”, or 5” nominal inside diameter, as specified on the Drawings and shall meet ASTM D-\n1248.",
+      "normalized": "Contractor shall use HDPE coilable duct (3, 4, or 5 inch nominal ID) meeting ASTM D-1248 for directional boring installations.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The stripes shall have a thickness in range of 10-15 mils and be 3/16’ to 3/8” wide.",
+      "normalized": "Contractor shall ensure duct stripes are 10-15 mils thick and 3/16 to 3/8 inch wide.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The stripes shall be evenly spaced at 120° intervals around the circumference of the duct.",
+      "normalized": "Contractor shall space duct stripes evenly at 120-degree intervals around the duct circumference.",
+      "section_ref": "260400 - 2.1",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All conductors shall be copper or aluminum as indicated on the drawings.",
+      "normalized": "Contractor shall use copper or aluminum conductors as indicated on the drawings.",
+      "section_ref": "260400 - 2.2",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Conductor shall be #10 AWG, XLP-USE insulation 0.045” thick.",
+      "normalized": "Contractor shall provide tracer conductor that is #10 AWG with XLP-USE insulation 0.045 inches thick.",
+      "section_ref": "2.7 TRACER CONDUCTORS",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Conductors shall be installed above conduits and tie wrapped to conduit.",
+      "normalized": "Contractor shall install tracer conductors above conduits and tie wrap them to the conduit.",
+      "section_ref": "2.7 TRACER CONDUCTORS",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Before any backfilling operations are begun, the Contractor and COR shall jointly inspect all trenches, cable placement, splice vaults, risers, marking tape, tracer conductors and other construction not accessible after backfilling.",
+      "normalized": "Contractor and COR must jointly inspect all trenches, cable placement, splice vaults, risers, marking tape, tracer conductors, and other construction not accessible after backfilling, before backfilling begins.",
+      "section_ref": "PWS 3.1",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Trenching and backfill for electrical conduits shall conform to details shown in the drawings.",
+      "normalized": "Contractor must ensure trenching and backfill for electrical conduits conform to the drawings.",
+      "section_ref": "PWS 3.2",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Coilable duct shall be directionally bored at standard burial depths of 36” of cover for ducts housing primary cables and 24” to 36” of cover for ducts housing secondary cables.",
+      "normalized": "Contractor must directionally bore coilable duct at specified burial depths for primary and secondary cable ducts.",
+      "section_ref": "PWS 3.3.A.1",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Sections of coilable duct shall be joined using fusion couplings.",
+      "normalized": "Contractor must join sections of coilable duct using fusion couplings.",
+      "section_ref": "PWS 3.3.A.2",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Prior to fusing, the Contractor shall make circumferential scores around the outside of the PVC conduit at the end that is to be installed into the fusion coupling.",
+      "normalized": "Contractor must make circumferential scores on the PVC conduit end prior to fusing it into the fusion coupling.",
+      "section_ref": "PWS 3.3.A.2",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All vertical bends shall be made using Schedule 40 PVC bends with belled or coupled ends.",
+      "normalized": "Contractor must make all vertical bends using Schedule 40 PVC bends with belled or coupled ends.",
+      "section_ref": "PWS 3.3.A.3",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Under no circumstances shall a vertical bend be fabricated by “sweeping” it up to grade using the guided boring machine.",
+      "normalized": "Contractor must never fabricate a vertical bend by sweeping it up to grade with the guided boring machine.",
+      "section_ref": "PWS 3.3.A.3",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The vertical bend shall be joined directly to a 36” straight piece of matching size PVC conduit, which is installed to transition between the bend and the coilable duct.",
+      "normalized": "Contractor must join the vertical bend directly to a 36-inch straight matching-size PVC conduit piece as a transition to the coilable duct.",
+      "section_ref": "PWS 3.3.A.3",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In places where the radius is too small for this, a PVC bend shall be installed between two 36” straight PVC transition sections.",
+      "normalized": "Where the radius is too small for sweeping, Contractor must install a PVC bend between two 36-inch straight PVC transition sections.",
+      "section_ref": "PWS 3.3.A.3",
+      "page": 56,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Bored coilable duct shall end 4’-5’ from a new vault or manhole.",
+      "normalized": "Contractor must end bored coilable duct 4 to 5 feet from a new vault or manhole.",
+      "section_ref": "PWS 3.3.A.4",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This coilable duct shall then be transitioned to the same size PVC before connecting into the structure.",
+      "normalized": "Contractor must transition the coilable duct to same-size PVC before connecting into the structure.",
+      "section_ref": "PWS 3.3.A.4",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The transition to PVC shall be made using the techniques described above in 3.3.B.2 – Duct Joining.",
+      "normalized": "Contractor must make the PVC transition using the techniques described in 3.3.B.2 Duct Joining.",
+      "section_ref": "PWS 3.3.A.4",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Power, communications cable and fiber optic cable shall be installed in conduit only.",
+      "normalized": "Contractor must install power, communications, and fiber optic cable in conduit only.",
+      "section_ref": "PWS 3.3.C.1",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Wherever possible, cable shall be played out from the reel mounted on a moving vehicle or trailer.",
+      "normalized": "Wherever possible, Contractor must play out cable from a reel mounted on a moving vehicle or trailer.",
+      "section_ref": "PWS 3.3.C.2",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Cable must be pulled through conduit; duct or other locations shall be lubricated with a\nsuitable cable lubricant approved by cable manufacturer prior to pulling into conduit or\nduct.",
+      "normalized": "Contractor must pull cable through conduit and shall lubricate duct/other locations with a manufacturer-approved cable lubricant prior to pulling.",
+      "section_ref": null,
+      "page": 57,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Bends will not be permitted within 12 inches of the ends of splice.",
+      "normalized": "Contractor will not be permitted to bend cable within 12 inches of splice ends.",
+      "section_ref": null,
+      "page": 57,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The cable or circuit numbers and the exact location of the splices shall be noted and given\nto the COR.",
+      "normalized": "Contractor shall note cable/circuit numbers and exact splice locations and give them to the COR.",
+      "section_ref": null,
+      "page": 57,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Tracer conductor shall be tie wrapped with nylon straps to conduit every 10’.",
+      "normalized": "Contractor shall tie-wrap tracer conductor to conduit with nylon straps every 10 feet.",
+      "section_ref": "3.6",
+      "page": 57,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All exposed ends of conduit shall be plugged during construction.",
+      "normalized": "Contractor shall plug all exposed ends of conduit during construction.",
+      "section_ref": "3.8",
+      "page": 58,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No bends shall be permitted within six inches of the ends of stress cones.",
+      "normalized": "Contractor shall not permit bends within six inches of the ends of stress cones.",
+      "section_ref": "3.10",
+      "page": 58,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grounding shall conform to Section 260010.",
+      "normalized": "Contractor shall ensure grounding conforms to Section 260010.",
+      "section_ref": "3.11",
+      "page": 58,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The number of steps shall be from five to eight.",
+      "normalized": "Contractor shall use five to eight steps when performing the stepped voltage test.",
+      "section_ref": "260400",
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All faults discovered by this test shall be corrected and the tests rerun until cable splice meet requirements.",
+      "normalized": "Contractor shall correct all faults discovered by the test and rerun the tests until the cable splice meets requirements.",
+      "section_ref": "260400",
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The conductor shall be grounded to permit any charge to drain to earth.",
+      "normalized": "Contractor shall ground the conductor to allow any charge to drain to earth.",
+      "section_ref": "260400",
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit all test results in hard copy and PDF.",
+      "normalized": "Contractor must submit all test results in hard copy and PDF.",
+      "section_ref": "260400",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Materials must be kept dry until ready to use.",
+      "normalized": "Contractor must keep seed materials dry until ready to use.",
+      "section_ref": "329200 1.3",
+      "page": 61,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seeds shall be from Missouri eco-types or, if unavailable, from adjacent states.",
+      "normalized": "Contractor shall use seeds from Missouri eco-types, or adjacent states if unavailable.",
+      "section_ref": "329200 2.1.B.1",
+      "page": 61,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seeding shall be at a rate recommended by the vendor.",
+      "normalized": "Contractor shall seed at the rate recommended by the vendor.",
+      "section_ref": "329200 2.1.B.1",
+      "page": 61,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In areas where slope is greater than 35%, then an annual rye and/or winter wheat and weed free straw shall be applied at 50 pounds per acre.",
+      "normalized": "If slope exceeds 35%, contractor shall apply annual rye and/or winter wheat and weed-free straw at 50 pounds per acre.",
+      "section_ref": "329200 2.1.B.1",
+      "page": 61,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Topsoil shall have a pH range of 5.5 to 7.4.",
+      "normalized": "Contractor must provide topsoil with a pH range of 5.5 to 7.4",
+      "section_ref": "2.2",
+      "page": 62,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "NOTE: The C.O.R. shall approve the Contractor’s provided soil sample prior to installation and planting",
+      "normalized": "Contractor must obtain C.O.R. approval of the provided soil sample before installation and planting begins",
+      "section_ref": "2.2",
+      "page": 62,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Spread organic topsoil at a minimum depth of 4 inches over area to be planted and integrate with the top layer of subsoil to prevent hardpan separation.",
+      "normalized": "Contractor must spread organic topsoil to a minimum depth of 4 inches over planting areas and integrate it with subsoil",
+      "section_ref": "3.2",
+      "page": 62,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seed shall be installed by means of mechanical and/or hand broadcast methods to ensure even\ndistribution of seeds throughout all designated seeded areas.",
+      "normalized": "Contractor shall install seed by mechanical and/or hand broadcast methods to ensure even distribution throughout all designated seeded areas.",
+      "section_ref": "329200 I",
+      "page": 63,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Native seed mix shall be mixed\nthoroughly by vendor/supplier at their recommended ratios.",
+      "normalized": "Vendor/supplier shall thoroughly mix native seed mix at their recommended ratios.",
+      "section_ref": "329200 I",
+      "page": 63,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Apply seed evenly in two intersecting directions.",
+      "normalized": "Contractor shall apply seed evenly in two intersecting directions.",
+      "section_ref": "329200 J",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Rake in lightly, then lightly mulch with clean, weed free straw.",
+      "normalized": "Contractor shall rake in lightly, then lightly mulch with clean, weed-free straw.",
+      "section_ref": "329200 J",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seeded areas shall be watered immediately following installation to accelerate\ncover crop germination.",
+      "normalized": "Contractor shall water seeded areas immediately following installation to accelerate cover crop germination.",
+      "section_ref": "329200 J",
+      "page": 63,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No bare spots larger than 1 square foot after substantial germination.",
+      "normalized": "Acceptable seed installation requires no bare spots larger than 1 square foot after substantial germination.",
+      "section_ref": "329200 K.1",
+      "page": 63,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "No more than 10% of the total area with bare spots larger than 1 square foot.",
+      "normalized": "Acceptable seed installation requires no more than 10% of total area with bare spots larger than 1 square foot.",
+      "section_ref": "329200 K.2",
+      "page": 63,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "A uniform coverage throughout all seeded areas.",
+      "normalized": "Acceptable seed installation requires uniform coverage throughout all seeded areas.",
+      "section_ref": "329200 K.3",
+      "page": 63,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Do not perform seeding in windy conditions.",
+      "normalized": "Contractor shall not perform seeding in windy conditions.",
+      "section_ref": "329200 L",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Surface layer of soil for seeded areas shall be kept moist throughout gemination period.",
+      "normalized": "Contractor shall keep surface layer of soil for seeded areas moist throughout germination period.",
+      "section_ref": "329200 M",
+      "page": 63,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mulch\nthe areas with a light covering of clean, chopped straw to retain moisture and use a tackifier to\nprevent wind damage.",
+      "normalized": "Contractor shall mulch the areas with a light covering of clean, chopped straw to retain moisture and use a tackifier to prevent wind damage.",
+      "section_ref": "329200 M",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If installed in spring, lightly water 4-6 weeks after germination at regular\nintervals (depending on rainfall), or if an extended drought occurs throughout the summer months.",
+      "normalized": "If seed is installed in spring, contractor shall lightly water 4-6 weeks after germination at regular intervals, or if extended drought occurs during summer.",
+      "section_ref": "329200 M",
+      "page": 63,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Protect seeded areas from pedestrian traffic or vehicular trespassing with temporary fences, signs,\nbarriers, etc. while seed is germinating.",
+      "normalized": "Contractor shall protect seeded areas from pedestrian or vehicular trespassing with temporary fences, signs, barriers, etc. while seed is germinating.",
+      "section_ref": "329200 N",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Repair damage resulting from trespass, erosion,\nsettlement, etc.",
+      "normalized": "Contractor shall repair damage resulting from trespass, erosion, settlement, etc.",
+      "section_ref": "329200 N",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove temporary protective devices after final acceptance.",
+      "normalized": "Contractor shall remove temporary protective devices after final acceptance.",
+      "section_ref": "329200 N",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain seeded areas immediately after placement until vegetation is well established and\nexhibits a vigorous growing condition.",
+      "normalized": "Contractor shall maintain seeded areas immediately after placement until vegetation is well established and exhibits vigorous growth.",
+      "section_ref": "329200 O",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Control the growth of weeds to the extent possible by using various methods such as line\ntrimming, mowing and selective herbicide use.",
+      "normalized": "Contractor shall control weed growth to the extent possible using line trimming, mowing, and selective herbicide use.",
+      "section_ref": "329200 P",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Apply herbicide in accordance with\nmanufacturer’s instructions.",
+      "normalized": "Contractor shall apply herbicide in accordance with manufacturer's instructions.",
+      "section_ref": "329200 P",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor will be responsible for any damage resulting from improper use of herbicides.",
+      "normalized": "Contractor is responsible for any damage resulting from improper use of herbicides.",
+      "section_ref": "329200 P",
+      "page": 63,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Immediately reseed areas that show bare spots.",
+      "normalized": "Contractor shall immediately reseed areas that show bare spots.",
+      "section_ref": "329200 Q",
+      "page": 63,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Well shall be pump tested to determine its maximum pumping rate at a stabilized drawdown which does not\nexceed 1.5 times the design pumping rate (15 gpm) or the maximum amount the screen (if present) can\nsafely pass.",
+      "normalized": "Contractor shall pump test the well to determine maximum pumping rate at a stabilized drawdown not exceeding 1.5 times the design pumping rate (15 gpm) or the maximum the screen can safely pass.",
+      "section_ref": "Appendix A",
+      "page": 67,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This reading should be the same as the original static\nwater level. If not, continue time and recordings until\nthe static water level has stabilized.",
+      "normalized": "If the 30-minute recovery reading does not match the original static water level, the person conducting the test shall continue timing and recording until the static water level stabilizes.",
+      "section_ref": "Appendix A",
+      "page": 68,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Contractor to replace\nexisting control box to coordinate with new well pump.",
+      "normalized": "Contractor shall replace the existing control box to coordinate with the new well pump.",
+      "section_ref": "Appendix B",
+      "page": 72,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor to connect new electric to existing electric control\npanel to power new well pump.",
+      "normalized": "Contractor shall connect new electric to the existing electric control panel to power the new well pump.",
+      "section_ref": "Appendix B",
+      "page": 73,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    }
+  ]
+}

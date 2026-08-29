@@ -1,0 +1,114 @@
+{
+  "file": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 8,
+  "chunks": 1,
+  "truncations": 1,
+  "emptyChunks": 1,
+  "rawRowCount": 0,
+  "finalRows": 5,
+  "duplicatesRemoved": 0,
+  "dropped": {
+    "total": 9,
+    "verbatimNotFound": 9,
+    "pageOutOfRange": 0,
+    "invalidShape": 0
+  },
+  "reviewFlagged": 2,
+  "coverage": {
+    "verb_occurrences": 12,
+    "captured": 0,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 0
+    },
+    "swept_pages": [
+      2,
+      7,
+      8
+    ],
+    "uncaptured_pages": [
+      1,
+      3,
+      6,
+      8
+    ],
+    "unresolved": 5
+  },
+  "unresolvedBefore": 12,
+  "sweeperNewRows": 5,
+  "sweeperExclusions": [
+    {
+      "page": 2,
+      "quote": "'ĞŶĞƌĂů^ĞƌǀŝĐĞƐĚŵŝŶŝƐƚƌĂƚŝŽŶƌĞƋƵŝƌĞƐƉƌŽĐƵƌĞŵĞŶƚŽĨa minimum of thirty;30Ϳvehicles\nĂůůĚĞůŝǀĞƌĞĚiawƚƚĂĐŚŵĞŶƚƐĂŶĚ͘",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "The Government intends to award to ONE Vendor, a minimum quantity of thirty (30) vehicles and may award up\nto a maximum quantity of sixty (60) vehicles under this solicitation.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "The actual quantity awarded may be\nany quantity between thirty (30) and sixty (60) vehicles, at the Government's discretion, based on the\nGovernment's requirements, available funding, and the results of the evaluation.",
+      "rule": "government-actor"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 35975,
+    "outputTokens": 60844,
+    "cacheReadTokens": 5824,
+    "cacheCreationTokens": 0,
+    "usd": 0.3407774
+  },
+  "rows": [
+    {
+      "verbatim": "Partial minimum quoted\nquantities will NOT be evaluated.",
+      "normalized": "Partial minimum quoted quantities submitted by offerors will not be evaluated.",
+      "section_ref": "B.1",
+      "page": 2,
+      "verb": "will",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For purposes of price evaluation, offerors shall provide a unit price for each vehicle.",
+      "normalized": "Offerors must provide a unit price for each vehicle for purposes of price evaluation.",
+      "section_ref": null,
+      "page": 7,
+      "verb": "shall",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The evaluated unit price shall be applied to the quantity determined by the Government at the time of award.",
+      "normalized": "The evaluated unit price must be applied to the quantity the Government determines at time of award.",
+      "section_ref": null,
+      "page": 7,
+      "verb": "shall",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors shall not assume that the Government will award sixty (60) vehicles for purposes of pricing, and the Government will not be obligated to purchase quantities exceeding the minimum quantity stated herein.",
+      "normalized": "Offerors must not assume the Government will award sixty (60) vehicles when pricing their quote.",
+      "section_ref": null,
+      "page": 7,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Vendors are required to complete the GSA\nSource of Supply Letter.",
+      "normalized": "Vendors must complete the GSA Source of Supply Letter.",
+      "section_ref": "E.1.2",
+      "page": 8,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    }
+  ]
+}

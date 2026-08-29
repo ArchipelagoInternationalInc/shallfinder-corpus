@@ -1,0 +1,409 @@
+{
+  "file": "0020153254COHEN__Attachment-1-Statement-of-Work-RFI.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 13,
+  "chunks": 2,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 51,
+  "finalRows": 40,
+  "duplicatesRemoved": 10,
+  "dropped": {
+    "total": 1,
+    "verbatimNotFound": 1,
+    "pageOutOfRange": 0,
+    "invalidShape": 0
+  },
+  "reviewFlagged": 7,
+  "coverage": {
+    "verb_occurrences": 31,
+    "captured": 27,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 1
+    },
+    "swept_pages": [],
+    "uncaptured_pages": [
+      3,
+      4,
+      9,
+      13
+    ],
+    "unresolved": 4
+  },
+  "unresolvedBefore": 4,
+  "sweeperNewRows": 0,
+  "sweeperExclusions": [],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 10682,
+    "outputTokens": 24223,
+    "cacheReadTokens": 2912,
+    "cacheCreationTokens": 0,
+    "usd": 0.13208820000000002
+  },
+  "rows": [
+    {
+      "verbatim": "Offerors proposing an “equal” product must:\n• Clearly identify the manufacturer, model, and specifications of the proposed system.",
+      "normalized": "If an offeror proposes an 'equal' product, the offeror must clearly identify the manufacturer, model, and specifications of the proposed system.",
+      "section_ref": "SOW 2.1",
+      "page": 3,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the offeror fails to provide sufficient information to demonstrate equivalence, the Government will determine that the offeror’s product does not meet the requirements.",
+      "normalized": "If the offeror fails to provide sufficient information demonstrating equivalence, its proposal will be deemed to not meet the requirements.",
+      "section_ref": "SOW 2.1",
+      "page": 3,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall adhere to the following applicable Federal standard /DHS/CBP/Office of\nInformation and Technology (OIT) policies, standards, directives, processes, and procedures in\nperforming work under this contract. These include, and are not limited to the following:",
+      "normalized": "The Contractor shall adhere to the listed Federal/DHS/CBP standards, policies, directives, processes, and procedures when performing work.",
+      "section_ref": "SOW 3",
+      "page": 4,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall complete the following tasks as required to comply with this SOW.",
+      "normalized": "The Contractor shall complete the tasks described in Section 4 to comply with the SOW.",
+      "section_ref": "SOW 4",
+      "page": 4,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The replacement radio systems must, at a minimum, provide:\n• Frequency range: 1.5 to 29.9999 MHz transmit-and-receive\n• Output power: 1 kW (+/-1dB) PEP and average\n• Duty cycle: 100%\n• Modes: SSB, ISB, CW, AM, AME Tx, WBHF\n• Data rates: Waveforms supporting from 75 bps up to 240 kbps in up to 16 x 3 kHz\nchannels (48 kHz max. BW)\n• Built-in 4G ALE\n• Remote control via web browser or external remote-control software",
+      "normalized": "The replacement radio systems must, at a minimum, provide the listed frequency range, output power, duty cycle, modes, data rates, ALE, and remote control capabilities (list continues on next page).",
+      "section_ref": "SOW 4.1",
+      "page": 4,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "• Compliance with MIL-STD-188-110D and MIL-STD-188-141D\n• Interoperability with the existing COTHEN High Frequency Cellular Network, including\ncompatibility with Collins Aerospace software and protocols currently in use\n• All other specifications and requirements listed in this SOW",
+      "normalized": "The replacement radio systems must also comply with MIL-STD-188-110D/141D, be interoperable with COTHEN, and meet all other SOW specifications (continuation of 4.1 list from prior page).",
+      "section_ref": "SOW 4.1",
+      "page": 5,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall test and functionally certify all equipment prior to delivery to ensure\ncompliance and specifications.",
+      "normalized": "The Contractor shall test and functionally certify all equipment prior to delivery.",
+      "section_ref": "SOW 4.2",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall deliver equipment as outlined below.",
+      "normalized": "The Contractor shall deliver equipment as outlined in Section 5.",
+      "section_ref": "SOW 5",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The equipment shall be shipped to the address provided in section 5.1.",
+      "normalized": "The Contractor shall ship equipment to the address in Section 5.1.",
+      "section_ref": "SOW 5",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government Purchase Order number must be reflected on the Shipping label and clearly\ndelineated on the packing slip(s).",
+      "normalized": "The Contractor must reflect the Government Purchase Order number on the shipping label and packing slip(s).",
+      "section_ref": "SOW 5.1",
+      "page": 6,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The delivery of goods will be provided to the following CBP location:",
+      "normalized": "The Contractor will deliver goods to the specified CBP location.",
+      "section_ref": "SOW 7",
+      "page": 7,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The period of performance is Date of Award (DOA) for Six Months.",
+      "normalized": "The period of performance is six months from the Date of Award.",
+      "section_ref": "SOW 8",
+      "page": 7,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Absence of any comments by the COR does not relieve the Contractor\nof the responsibility for complying with the requirements of the Task Order.",
+      "normalized": "The Contractor remains responsible for complying with Task Order requirements even absent COR comments.",
+      "section_ref": "SOW 10.1",
+      "page": 8,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall have five (5) business days to make corrections and redeliver.",
+      "normalized": "The Contractor shall make corrections and redeliver within five business days of COR notice.",
+      "section_ref": "SOW 10.2",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any such proposed changes must be brought to the immediate attention of the CO for action.",
+      "normalized": "The Contractor must bring any proposed changes to the CO's immediate attention.",
+      "section_ref": "SOW 10.4",
+      "page": 9,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The acceptance of any changes by the contractor without specific approval and written consent of the CO\nshall be at the contractor’s risk.",
+      "normalized": "The Contractor accepting changes without CO written consent does so at its own risk.",
+      "section_ref": "SOW 10.4",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Payment requests shall be submitted electronically through the U. S. Department of the\nTreasury's Invoice Processing Platform System (IPP).",
+      "normalized": "The Contractor shall submit payment requests electronically through IPP.",
+      "section_ref": "SOW 10.5",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Contractor is unable to comply with the requirement to use IPP for submitting\ninvoices for payment, the Contractor must submit a waiver request in writing to the\nContracting Officer.",
+      "normalized": "If unable to use IPP, the Contractor must submit a written waiver request to the CO.",
+      "section_ref": "SOW 10.5",
+      "page": 9,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Please ensure the following are included in all invoices:\n• Purchase Order number\n• Description of services provided for a specified time period.\n• Unit price and total amount of each item.\n• Discount terms\n• Company name, telephone number, taxpayer’s identification number, and\ncomplete mailing address to which payment will be mailed.",
+      "normalized": "The Contractor must include PO number, service description, pricing, discount terms, and company/contact information in all invoices.",
+      "section_ref": "SOW 10.5",
+      "page": 9,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A courtesy e-mail notification upon invoice submission in IPP shall be sent by the\nContractor to the COR.",
+      "normalized": "The Contractor shall send a courtesy email to the COR upon IPP invoice submission.",
+      "section_ref": "SOW 10.5",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All contract questions and concerns shall be directed to the point of contracts as designated\nbelow.",
+      "normalized": "The Contractor shall direct all contract questions and concerns to the designated points of contact.",
+      "section_ref": "SOW 10.6",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall ensure that the design conforms to the Department of Homeland Security\n(DHS) and Customs and Border Protection (CBP) Enterprise Architecture (EA), the DHS and\nCBP Technical Reference Models (TRM), and all DHS and CBP policies and guidelines (such as\nthe CBP Information Technology Enterprise Principles and the DHS Service Oriented\nArchitecture - Technical Framework), as promulgated by the DHS and CBP Chief Information\nOfficers (CIO), Chief Technology Officers (CTO) and Chief Architects (CA).",
+      "normalized": "The Offeror shall ensure design conformance with DHS/CBP EA, TRM, and related policies/guidelines.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall conform to the Federal Enterprise Architecture (FEA) model and the DHS and\nCBP versions of the FEA model, as described in their respective EAs.",
+      "normalized": "The Offeror shall conform to the FEA model and DHS/CBP versions thereof.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All models will be submitted using Business Process Modeling Notation (BPMN 1.1 or BPMN\n2.0 when available) and the CBP Architectural Modeling Standards.",
+      "normalized": "The Offeror will submit all models using BPMN 1.1/2.0 and CBP Architectural Modeling Standards.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Data semantics shall be in conformance with the National Information Exchange Model\n(NIEM).",
+      "normalized": "The Offeror's data semantics shall conform to NIEM.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Development solutions will also ensure compliance with the current version of the DHS and\nCBP target architectures.",
+      "normalized": "Development solutions will ensure compliance with current DHS/CBP target architectures.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Where possible, the Offeror shall use DHS/CBP approved products, standards, services, and\nprofiles, as reflected by the hardware, software, application, and infrastructure components of the\nDHS/CBP TRM/standards profile.",
+      "normalized": "Where possible, the Offeror shall use DHS/CBP approved products, standards, services, and profiles per the TRM.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If new hardware, software, or infrastructure components are required to develop, test, or\nimplement the program, these products will be coordinated through the DHS and CBP formal\nTechnology Insertion (TI) process",
+      "normalized": "If new hardware/software/infrastructure components are required, they will be coordinated through the DHS/CBP Technology Insertion process.",
+      "section_ref": "Addendum B",
+      "page": 11,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All developed solutions shall be compliant with the Homeland Security (HLS) EA.",
+      "normalized": "All developed solutions shall comply with the HLS EA.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All IT hardware and software shall be compliant with the HLS EA.",
+      "normalized": "All IT hardware and software shall comply with the HLS EA.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Compliance with the HLS EA shall be derived from and aligned through the CBP EA.",
+      "normalized": "HLS EA compliance shall be derived from and aligned through the CBP EA.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Description information for all data assets, information exchanges and data standards, whether\nadopted or developed, shall be submitted to the Enterprise Data Management Office (EDMO) for\nreview, approval, and insertion into the DHS Data Reference Model and Enterprise Architecture\nInformation Repository.",
+      "normalized": "The Contractor shall submit description information for all data assets/exchanges/standards to EDMO for review and insertion into the DHS Data Reference Model/EA Repository.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Development of data assets, information exchanges, and data standards will comply with the\nDHS Data Management Policy MD 103-01.",
+      "normalized": "Development of data assets/exchanges/standards will comply with DHS Data Management Policy MD 103-01.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All data-related artifacts will be developed and validated according to DHS Data Management\nArchitectural Guidelines.",
+      "normalized": "All data-related artifacts will be developed and validated per DHS Data Management Architectural Guidelines.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Applicability of Internet Protocol version 6 (IPv6) to DHS-related components (networks,\ninfrastructure, and applications) specific to individual acquisitions shall be in accordance with\nthe DHS EA (per OMB Memorandum M-05-22, August 2, 2005), regardless of whether the\nacquisition is for modification, upgrade, or replacement.",
+      "normalized": "IPv6 applicability to DHS-related components shall be in accordance with the DHS EA regardless of acquisition type.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All EA related component acquisitions shall be IPv6 compliant, as defined in the USGv6 Profile\n(NIST Special Publication 500-267) and the corresponding declarations of conformance, defined\nin the USGv6 Test Program.",
+      "normalized": "All EA-related component acquisitions shall be IPv6 compliant per USGv6 Profile and Test Program.",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All products, platforms and services delivered as part of this work statement that, by definition,\nare deemed ICT shall conform to the revised regulatory implementation of Section 508\nStandards, which are located at 36 C.F.R. § 1194.1 & Appendixes A, C & D, and available\nat https://www.ecfr.gov/cgi-bin/text-\nidx?SID=e1c6735e25593339a9db63534259d8ec&mc=true&node=pt36.3.1194&rgn=div5.",
+      "normalized": "All ICT products/platforms/services delivered under this SOW shall conform to Section 508 Standards (36 C.F.R. § 1194.1 & Appendixes A, C & D).",
+      "section_ref": "Addendum B",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any request for additional exceptions shall be sent to the Contracting Officer and a determination will be made according to DHS Directive 139-05,\nOffice of Accessible Systems and Technology, dated November 12, 2018 and DHS Instruction\n139-05-001, Managing the Accessible Systems and Technology Program, dated November 20,\n2018, or any successor publication.",
+      "normalized": "Contractor shall send any request for additional Section 508 exceptions to the Contracting Officer for determination per DHS Directive 139-05 and DHS Instruction 139-05-001.",
+      "section_ref": null,
+      "page": 13,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All hardware, software, and services provided under this task order must be compliant with DHS\n4300A DHS Sensitive System Policy and the DHS 4300A Sensitive Directive Handbook.",
+      "normalized": "All hardware, software, and services provided under this task order must be compliant with DHS 4300A Sensitive System Policy and Sensitive Directive Handbook.",
+      "section_ref": null,
+      "page": 13,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If encryption is require, the following methods are acceptable for encrypting sensitive\ninformation:",
+      "normalized": "If encryption is required, only the following listed methods are acceptable for encrypting sensitive information.",
+      "section_ref": null,
+      "page": 13,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    }
+  ]
+}
