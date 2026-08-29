@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 157,
   "chunks": 20,
-  "truncations": 5,
-  "emptyChunks": 5,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 521,
-  "finalRows": 781,
+  "finalRows": 858,
   "duplicatesRemoved": 20,
   "dropped": {
-    "total": 24,
-    "verbatimNotFound": 22,
+    "total": 29,
+    "verbatimNotFound": 27,
     "pageOutOfRange": 0,
     "invalidShape": 2
   },
   "reviewFlagged": 184,
   "coverage": {
     "verb_occurrences": 688,
-    "captured": 326,
+    "captured": 587,
     "excluded": {
       "definitional": 2,
       "government_actor": 32
@@ -80,30 +80,51 @@
       146
     ],
     "uncaptured_pages": [
+      12,
+      16,
+      21,
+      28,
+      33,
       36,
       41,
+      42,
       43,
       44,
       48,
+      56,
       57,
+      58,
       59,
+      64,
       67,
       69,
       70,
+      72,
       74,
+      76,
       77,
-      89,
+      78,
+      80,
+      83,
       100,
+      101,
       102,
+      104,
+      105,
       115,
+      120,
       123,
-      127,
+      125,
+      129,
       133,
-      136
+      136,
+      139,
+      140,
+      141
     ],
-    "unresolved": 20
+    "unresolved": 57
   },
-  "unresolvedBefore": 362,
+  "unresolvedBefore": 101,
   "sweeperNewRows": 377,
   "sweeperExclusions": [
     {
@@ -706,6 +727,96 @@
       "confidence": "high"
     },
     {
+      "verbatim": "IMPORTANT - The \"offer\" section on the reverse must be fully completed by offeror.",
+      "normalized": "Offeror must fully complete the 'offer' section on the reverse of the form.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "d. Offers providing less than\nSTANDARD FORM 1442 (REV. 12/2022)\nPrescribed by GSA - FAR (48 CFR) 53.236-1(d)\ncalendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
+      "normalized": "Offers providing less than the stated number of calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
+      "section_ref": "Item 13d",
+      "page": 1,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "c. All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.",
+      "normalized": "All offers are subject to the work requirements and other provisions/clauses incorporated in the solicitation in full text or by reference.",
+      "section_ref": "Item 13c",
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "“FAILURE TO FURNISH A BID GUARANTEE IN THE PROPER FORM AND AMOUNT, BY THE TIME SET FOR OPENING OF BIDS, MAY CAUSE FOR REJECTION OF BIDS.”",
+      "normalized": "If the offeror fails to furnish a bid guarantee in the proper form and amount by the time set for opening of bids, the bid may be rejected.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "ALL BID BONDS MUST BE ORIGINALS; PHOTOCOPIES WILL NOT BE ACCEPTED.",
+      "normalized": "Offeror must submit original bid bonds; photocopies will not be accepted.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "THIS POSITION SHALL NOT BE SUBCONTRACTED AND MUST WORK DIRECTLY FOR THE PRIME CONTRACTOR.",
+      "normalized": "The superintendent position shall not be subcontracted and must work directly for the prime contractor.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "THE MINIMUM DOLLAR VALUE FOR EACH TASK ORDER IS $2,000.00.",
+      "normalized": "Each task order must have a minimum dollar value of $2,000.00.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "THE MAXIMUM DOLLAR VALUE FOR EACH TASK ORDER IS $3,000,000.00.",
+      "normalized": "Each task order must not exceed a maximum dollar value of $3,000,000.00.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "notice to proceed. This performance period is mandatory negotiable.",
+      "normalized": "The contract performance period, beginning upon notice to proceed, is mandatory/negotiable.",
+      "section_ref": "Item 11",
+      "page": 1,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "calendar days and complete it within calendar days after receiving",
+      "normalized": "Contractor shall complete performance within a specified number of calendar days after receiving notice to proceed.",
+      "section_ref": "Item 11",
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "OFFER (Must be fully completed by offeror)",
       "normalized": "The offeror must fully complete the OFFER section of this form.",
       "section_ref": null,
@@ -733,31 +844,103 @@
       "confidence": "review"
     },
     {
-      "verbatim": "The bidder shall furnish a bid guarantee in the form of a firm commitment, e.g., bid bond\nsupported by good and sufficient surety or sureties acceptable to the Government, postal\nmoney order, certified check, cashier's check, irrevocable letter of credit, or, under Treasury\nDepartment regulations, certain bonds or notes of the United States.",
-      "normalized": "The bidder must furnish a bid guarantee (e.g., bid bond, postal money order, certified/cashier's check, irrevocable letter of credit, or certain Treasury bonds/notes).",
-      "section_ref": null,
+      "verbatim": "17. The offeror agrees to perform the work required at the prices specified below in strict accordance with the terms of this solicitation, if this offer is accepted\ncalendar days after the date offers are due. (Insert any number equal to or greater than the minimum requirementby the Government in writing within\nstated in Item 13d. Failure to insert any number means the offeror accepts the minimum in Item 13d.)",
+      "normalized": "Offeror agrees to perform the work at the specified prices if the offer is accepted by the Government in writing within a number of calendar days after offers are due that the offeror inserts (must be equal to or greater than the Item 13d minimum); failure to insert a number means the offeror accepts the Item 13d minimum.",
+      "section_ref": "Item 17",
+      "page": 2,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "18. The offeror agrees to furnish any required performance and payment bonds.",
+      "normalized": "Offeror agrees to furnish any required performance and payment bonds.",
+      "section_ref": "Item 18",
+      "page": 2,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "19. ACKNOWLEDGMENT OF AMENDMENTS\n(The offeror acknowledges receipt of amendments to the solicitation -- give number and date of each)",
+      "normalized": "Offeror must acknowledge receipt of amendments to the solicitation by giving the number and date of each.",
+      "section_ref": "Item 19",
+      "page": 2,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "24. SUBMIT INVOICES TO ADDRESS SHOWN IN\n(4 copies unless otherwise specified)",
+      "normalized": "Contractor must submit invoices, in 4 copies unless otherwise specified, to the address shown.",
+      "section_ref": "Item 24",
+      "page": 2,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "28. NEGOTIATED AGREEMENT (Contractor is required to sign this document\nand return\nand deliver all items or perform all work requirements identified on this form and\nany continuation sheets for the consideration stated in this contract. The rights\nand obligations of the parties to this contract shall be governed by (a) this contract\naward, (b) the solicitation, and (c) the clauses, representations, certifications, and\nspecifications incorporated by reference in or attached to this contract.\ncopies to issuing office.) Contractor agrees to furnish",
+      "normalized": "Contractor is required to sign the Negotiated Agreement (Item 28), return copies to the issuing office, and deliver all items or perform all work requirements identified on the form and continuation sheets.",
+      "section_ref": "Item 28",
+      "page": 2,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "FAR Provisions Incorporated by Reference",
+      "normalized": "Solicitation incorporates numerous FAR/DFARS provisions and clauses by reference (Section 00 21 00, pp.8-9); not itemized individually per collapsing rule.",
+      "section_ref": "00 21 00",
+      "page": 8,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to furnish a bid guarantee in the proper form and amount, by the time set for opening of bids, may be cause for rejection of the bid.",
+      "normalized": "Bidder's failure to furnish a bid guarantee in proper form/amount by bid opening time may cause bid rejection.",
+      "section_ref": "52.228-1",
+      "page": 9,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The bidder shall furnish a bid guarantee in the form of a firm commitment, e.g., bid bond supported by good and sufficient surety or sureties acceptable to the Government, postal money order, certified check, cashier's check, irrevocable letter of credit, or, under Treasury Department regulations, certain bonds or notes of the United States.",
+      "normalized": "Bidder shall furnish a bid guarantee in an acceptable form (bid bond, money order, certified/cashier's check, letter of credit, or eligible bonds/notes).",
+      "section_ref": "52.228-1(b)",
       "page": 10,
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "The amount of the bid guarantee shall be 20 percent of the bid price or $3,000,000.00,\nwhichever is less.",
-      "normalized": "The bid guarantee amount must be 20 percent of the bid price or $3,000,000.00, whichever is less.",
-      "section_ref": null,
+      "verbatim": "The amount of the bid guarantee shall be 20 percent of the bid price or $3,000,000.00, whichever is less.",
+      "normalized": "Bidder's bid guarantee amount shall be 20% of bid price or $3,000,000.00, whichever is less.",
+      "section_ref": "52.228-1(c)",
       "page": 10,
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "The offeror is cautioned that the listed provisions may include blocks that\nmust be completed by the offeror and submitted with its quotation or offer.",
-      "normalized": "The offeror must complete and submit any blocks in the listed incorporated provisions with its quotation or offer.",
-      "section_ref": null,
+      "verbatim": "The offeror is cautioned that the listed provisions may include blocks that must be completed by the offeror and submitted with its quotation or offer.",
+      "normalized": "Offeror must complete and submit any required blocks in incorporated-by-reference provisions with its quotation/offer.",
+      "section_ref": "52.252-1",
       "page": 10,
       "verb": "must",
-      "category": "instruction",
+      "category": "admin",
       "confidence": "high"
+    },
+    {
+      "verbatim": "If the successful bidder, upon acceptance of its bid by the Government within the period specified for acceptance, fails to execute all contractual documents or furnish executed bond(s) within 10 days after receipt of the forms by the bidder, the Contracting Officer may terminate the contract for default.",
+      "normalized": "If the successful bidder fails to execute contractual documents/bonds within 10 days of receipt, the contract may be terminated for default.",
+      "section_ref": "52.228-1(d)",
+      "page": 10,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Information provided at this conference or site visit shall not qualify the terms and conditions of the solicitation and specifications.",
@@ -778,9 +961,54 @@
       "confidence": "review"
     },
     {
+      "verbatim": "You are invited to submit a bid in response to our Invitation for Bids (IFB) W911SG-27-B-A002 New Paving IDIQ Contract, at 9AM MDT on 10 September 2026 at Ft. Bliss, TX, Bldg. 111 Rm 220.",
+      "normalized": "Bidder must submit its bid for IFB W911SG-27-B-A002 by 9AM MDT on 10 September 2026 at Ft. Bliss, TX, Bldg. 111 Rm 220.",
+      "section_ref": "00 21 13 / 2.1",
+      "page": 12,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This solicitation is set-aside 100% for 8(a) Small Businesses.",
+      "normalized": "Bidders must qualify as 8(a) Small Businesses since the solicitation is 100% set aside for that category.",
+      "section_ref": "00 21 13 / 2.3",
+      "page": 12,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The conference/site visit is limited to a maximum of two (2) attendees per company.",
+      "normalized": "Contractor may send no more than two attendees per company to the conference/site visit.",
+      "section_ref": "00 21 13 / 3.2",
+      "page": 12,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor representatives should be prepared to furnish identification if requested.",
+      "normalized": "Contractor representatives should be ready to provide identification if requested at the site visit.",
+      "section_ref": "00 21 13 / 3.2",
+      "page": 12,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Email the following attendees to Jakeb James at jakeb.i.james.civ@army.mil",
+      "normalized": "Contractor must email attendee information to Jakeb James at jakeb.i.james.civ@army.mil.",
+      "section_ref": "00 21 13 / 3.2",
+      "page": 12,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Submit all questions in the format below by email to the contracting office address shown below.",
       "normalized": "Offeror must submit all questions in the specified format by email to the contracting office.",
-      "section_ref": "4",
+      "section_ref": "00 21 13 / 4",
       "page": 13,
       "verb": "imperative",
       "category": "admin",
@@ -789,7 +1017,7 @@
     {
       "verbatim": "Do NOT contact DPW directly.",
       "normalized": "Offeror must not contact DPW directly.",
-      "section_ref": "4",
+      "section_ref": "00 21 13 / 4",
       "page": 13,
       "verb": "imperative",
       "category": "admin",
@@ -797,8 +1025,8 @@
     },
     {
       "verbatim": "All questions must come through the Contracting Office.",
-      "normalized": "Offeror must route all questions through the Contracting Office.",
-      "section_ref": "4",
+      "normalized": "Offeror's questions must be routed through the Contracting Office.",
+      "section_ref": "00 21 13 / 4",
       "page": 13,
       "verb": "must",
       "category": "admin",
@@ -806,8 +1034,8 @@
     },
     {
       "verbatim": "Any explanation desired by bidder regarding the meaning or interpretation of the solicitation, or proposals, drawings, specifications, etc. must be requested in writing and with sufficient time allowed for a reply to reach bidders before the submission of their bid.",
-      "normalized": "Bidder must request any explanation of solicitation meaning/interpretation in writing with sufficient time for a reply before bid submission.",
-      "section_ref": "4.1",
+      "normalized": "Bidder must request any needed explanation of the solicitation in writing with enough time for a reply before bid submission.",
+      "section_ref": "00 21 13 / 4.1",
       "page": 13,
       "verb": "must",
       "category": "admin",
@@ -815,8 +1043,8 @@
     },
     {
       "verbatim": "All questions and requests for information (RFI) must be received NO LATER THAN 2:00PM . BIDDERS ARE STRONGLY ENCOURAGED TOMDT 21 August 2026 SUBMIT QUESTIONS EARLY IN THIS PROCESS.",
-      "normalized": "Bidder must ensure questions/RFIs are received no later than 2:00PM MDT, 21 August 2026.",
-      "section_ref": "4.2",
+      "normalized": "All bidder questions/RFIs must be received no later than 2:00PM MDT on 21 August 2026.",
+      "section_ref": "00 21 13 / 4.2",
       "page": 13,
       "verb": "must",
       "category": "admin",
@@ -824,8 +1052,8 @@
     },
     {
       "verbatim": "**After the due date no additional RFI's will be answered**",
-      "normalized": "RFIs submitted after the due date will not be answered.",
-      "section_ref": "4.2",
+      "normalized": "RFIs submitted after the 21 August 2026 due date will not be answered.",
+      "section_ref": "00 21 13 / 4.2",
       "page": 13,
       "verb": "declaration",
       "category": "admin",
@@ -833,8 +1061,8 @@
     },
     {
       "verbatim": "Receipt by the bidder must be acknowledged in the space provided on the SF 1442 or by returning a signed copy of the amendment by the time set for receipt of bids.",
-      "normalized": "Bidder must acknowledge receipt of amendments on the SF1442 or by returning a signed copy by the bid receipt deadline.",
-      "section_ref": "4.4",
+      "normalized": "Bidder must acknowledge receipt of amendments on the SF 1442 or by returning a signed copy by the bid receipt deadline.",
+      "section_ref": "00 21 13 / 4.4",
       "page": 13,
       "verb": "must",
       "category": "admin",
@@ -842,8 +1070,8 @@
     },
     {
       "verbatim": "Interested bidders/offerors must register with SAM before accessing the system.",
-      "normalized": "Bidder must register with SAM before accessing the SAM system.",
-      "section_ref": "4.5",
+      "normalized": "Bidders/offerors must register with SAM before accessing the SAM system.",
+      "section_ref": "00 21 13 / 4.5",
       "page": 13,
       "verb": "must",
       "category": "admin",
@@ -2291,8 +2519,8 @@
     },
     {
       "verbatim": "As a minimum, the Contractor shall include in each VECP the information described in paragraphs (c)(1) through (7) of this clause.",
-      "normalized": "Contractor must include, at a minimum, the information described in paragraphs (c)(1)-(7) in each VECP.",
-      "section_ref": null,
+      "normalized": "Contractor shall include, at a minimum, the information in paragraphs (c)(1)-(7) in each VECP.",
+      "section_ref": "(c)",
       "page": 80,
       "verb": "shall",
       "category": "performance",
@@ -2300,8 +2528,8 @@
     },
     {
       "verbatim": "If the proposed change is affected by contractually required configuration management or similar procedures, the instructions in those procedures relating to format, identification, and priority assignment shall govern VECP preparation.",
-      "normalized": "If the proposed change is affected by contractually required configuration management procedures, Contractor must follow those procedures' instructions for format, identification, and priority assignment when preparing the VECP.",
-      "section_ref": null,
+      "normalized": "If contractually required configuration management procedures affect the proposed change, those procedures' format/identification/priority-assignment instructions shall govern VECP preparation.",
+      "section_ref": "(c)",
       "page": 80,
       "verb": "conditional",
       "category": "performance",
@@ -2309,8 +2537,8 @@
     },
     {
       "verbatim": "The VECP shall include the following:",
-      "normalized": "Contractor must include the following items in the VECP.",
-      "section_ref": null,
+      "normalized": "The VECP shall include the listed content items (1)-(7).",
+      "section_ref": "(c)",
       "page": 80,
       "verb": "shall",
       "category": "performance",
@@ -2327,8 +2555,8 @@
     },
     {
       "verbatim": "The cost reduction associated with the VECP shall take into account the Contractor's allowable development and implementation costs, including any amount attributable to subcontracts under paragraph (h) of this clause.",
-      "normalized": "The Contractor's VECP cost reduction estimate shall take into account the Contractor's allowable development and implementation costs, including subcontract amounts under paragraph (h).",
-      "section_ref": null,
+      "normalized": "Contractor shall account for allowable development/implementation costs, including subcontract amounts under (h), when computing the VECP cost reduction.",
+      "section_ref": "(c)(3)",
       "page": 81,
       "verb": "shall",
       "category": "performance",
@@ -2345,19 +2573,46 @@
     },
     {
       "verbatim": "The Contractor shall submit VECP's to the Resident Engineer at the worksite, with a copy to the Contracting Officer.",
-      "normalized": "The Contractor shall submit VECPs to the Resident Engineer at the worksite, with a copy to the Contracting Officer.",
-      "section_ref": null,
+      "normalized": "Contractor shall submit VECPs to the Resident Engineer at the worksite and copy the Contracting Officer.",
+      "section_ref": "(d)",
       "page": 81,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "The Contracting Officer will notify the Contractor of the status of the VECP within 45 calendar days after the contracting office receives it.",
+      "normalized": "Government will notify Contractor of VECP status within 45 calendar days of receipt, creating a contractor-facing timeline dependency.",
+      "section_ref": "(e)(1)",
+      "page": 81,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Until a notice to proceed is issued or a contract modification applies a VECP to this contract, the Contractor shall perform in accordance with the existing contract.",
-      "normalized": "The Contractor must perform in accordance with the existing contract until a notice to proceed is issued or a contract modification applies a VECP.",
-      "section_ref": null,
+      "normalized": "Until a notice to proceed or contract modification applies the VECP, Contractor shall perform under the existing contract terms.",
+      "section_ref": "(e)(3)",
       "page": 82,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contracting Officer may require that the Contractor provide written notification before undertaking significant expenditures for VECP effort.",
+      "normalized": "If the Contracting Officer requires it, Contractor must provide written notification before undertaking significant VECP expenditures.",
+      "section_ref": "(e)(2)",
+      "page": 82,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "However, the Contractor's share of collateral savings will not exceed the contract's firm-fixed-price or estimated cost, at the time the VECP is accepted, or $100,000, whichever is greater.",
+      "normalized": "Contractor's share of collateral savings will not exceed the greater of the contract's firm-fixed-price/estimated cost (at VECP acceptance) or $100,000.",
+      "section_ref": "(g)",
+      "page": 82,
+      "verb": "will",
       "category": "performance",
       "confidence": "high"
     },
@@ -2386,6 +2641,24 @@
       "page": 83,
       "verb": "conditional",
       "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a VECP is accepted, the Contractor hereby grants the Government unlimited rights in the VECP and supporting data, except that, with respect to data qualifying and submitted as limited rights technical data, the Government shall have the rights specified in the contract modification implementing the VECP and shall appropriately mark the data.",
+      "normalized": "If a VECP is accepted, Contractor grants the Government unlimited rights in the VECP and supporting data, except for qualifying limited rights technical data.",
+      "section_ref": "(i)",
+      "page": 83,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This contract incorporates one or more clauses by reference, with the same force and effect as if they were given in full text.",
+      "normalized": "Contract incorporates by reference the listed FAR/DFARS clauses (52.252-2, 52.252-6, 252.219-7009) shown on pp.83-84; full text available on request or via acquisition.gov.",
+      "section_ref": "52.252-2/52.252-6/252.219-7009",
+      "page": 84,
+      "verb": "declaration",
+      "category": "admin",
       "confidence": "high"
     },
     {
@@ -2434,57 +2707,84 @@
       "confidence": "high"
     },
     {
-      "verbatim": "(4) Be responsible for any errors that might have been avoided by complying with this paragraph (b); and",
-      "normalized": "Contractor is responsible for errors that could have been avoided by complying with paragraph (b).",
-      "section_ref": null,
+      "verbatim": "(1) Check all drawings furnished immediately upon receipt;",
+      "normalized": "Contractor shall check all drawings furnished immediately upon receipt.",
+      "section_ref": "252.236-7001",
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(4) Be responsible for any errors that might have been avoided by complying with this\nparagraph (b); and",
+      "normalized": "Contractor is responsible for any errors that could have been avoided by complying with paragraph (b).",
+      "section_ref": "252.236-7001",
       "page": 86,
-      "verb": "required",
+      "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "Large-scale drawings shall govern small-scale drawings; and",
-      "normalized": "Large-scale drawings shall govern over small-scale drawings.",
-      "section_ref": null,
+      "verbatim": "(1) Large-scale drawings shall govern small-scale drawings; and",
+      "normalized": "Large-scale drawings govern over small-scale drawings.",
+      "section_ref": "252.236-7001",
       "page": 86,
-      "verb": "shall",
+      "verb": "declaration",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "The Contractor shall follow figures marked on drawings in preference to scale measurements.",
-      "normalized": "The Contractor shall follow figures marked on drawings in preference to scale measurements.",
-      "section_ref": null,
+      "verbatim": "(2) The Contractor shall follow figures marked on drawings in preference to scale\nmeasurements.",
+      "normalized": "Contractor shall follow figures marked on drawings in preference to scale measurements.",
+      "section_ref": "252.236-7001",
       "page": 86,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Omissions from the drawings or specifications or the misdescription of details of work that are manifestly necessary to carry out the intent of the drawings and specifications, or that are customarily performed, shall not relieve the Contractor from performing such omitted or misdescribed details of the work.",
-      "normalized": "Omissions or misdescriptions in the drawings/specifications shall not relieve the Contractor from performing the omitted or misdescribed work details.",
-      "section_ref": null,
+      "verbatim": "Omissions from the drawings or specifications or the misdescription of details of work\nthat are manifestly necessary to carry out the intent of the drawings and specifications, or that\nare customarily performed, shall not relieve the Contractor from performing such omitted or\nmisdescribed details of the work.",
+      "normalized": "Omissions or misdescriptions in drawings/specifications do not relieve the Contractor from performing the omitted or misdescribed work.",
+      "section_ref": "252.236-7001",
+      "page": 86,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall perform such details as if fully and correctly set forth and\ndescribed in the drawings and specifications.",
+      "normalized": "Contractor shall perform omitted/misdescribed details as if fully and correctly set forth in the drawings and specifications.",
+      "section_ref": "252.236-7001",
       "page": 86,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The Contractor shall perform such details as if fully and correctly set forth and described in the drawings and specifications.",
-      "normalized": "The Contractor shall perform omitted or misdescribed details as if fully and correctly set forth in the drawings and specifications.",
-      "section_ref": null,
-      "page": 86,
-      "verb": "shall",
-      "category": "performance",
-      "confidence": "high"
-    },
-    {
-      "verbatim": "The work shall conform to the specifications and the contract drawings identified on the following index of drawings:",
+      "verbatim": "The work shall conform to the specifications and the contract drawings identified on the\nfollowing index of drawings:",
       "normalized": "The work shall conform to the specifications and contract drawings identified in the index of drawings.",
-      "section_ref": null,
+      "section_ref": "252.236-7001",
       "page": 86,
       "verb": "shall",
       "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(5) Reproduce and print contract drawings and specifications as needed.",
+      "normalized": "Contractor shall reproduce and print contract drawings and specifications as needed.",
+      "section_ref": "252.236-7001",
+      "page": 86,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "52.242-15 Stop-Work Order. 1989-08",
+      "normalized": "FAR clause 52.242-15 Stop-Work Order is incorporated by reference (clause list entry).",
+      "section_ref": "FAR Clauses Incorporated by Reference",
+      "page": 87,
+      "verb": "declaration",
+      "category": "admin",
       "confidence": "review"
     },
     {
@@ -2508,11 +2808,101 @@
     {
       "verbatim": "(1) The Contractor shall submit payment requests using the following\nDocument type.\ndocument type(s):",
       "normalized": "Contractor shall submit payment requests using the specified document type(s).",
-      "section_ref": null,
+      "section_ref": "252.232-7006",
       "page": 88,
       "verb": "shall",
       "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) Have a designated electronic business point of contact in the System for Award\nManagement at https://www.sam.gov; and",
+      "normalized": "Contractor shall have a designated electronic business point of contact in SAM.gov to access WAWF.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step\nprocedures for self-registration available at this web site.",
+      "normalized": "Contractor shall be registered to use WAWF at wawf.eb.mil following the self-registration procedures.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) For cost-type line items, including labor-hour or time-and-materials, submit a\ncost voucher.",
+      "normalized": "If line items are cost-type (including labor-hour or time-and-materials), Contractor must submit a cost voucher.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(ii) For fixed price line items-\n(A) That require shipment of a deliverable, submit the invoice and receiving\nreport specified by the Contracting Officer.",
+      "normalized": "If fixed price line items require shipment of a deliverable, Contractor must submit the invoice and receiving report specified by the CO.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(B) For services that do not require shipment of a deliverable, submit either\nthe Invoice 2in1, which meets the requirements for the invoice and receiving report, or the\napplicable invoice and receiving report, as specified by the Contracting Officer.",
+      "normalized": "If services do not require shipment of a deliverable, Contractor must submit the Invoice 2in1 or the applicable invoice/receiving report as specified by the CO.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(iii) For customary progress payments based on costs incurred, submit a progress\npayment request.",
+      "normalized": "If customary progress payments based on costs incurred apply, Contractor must submit a progress payment request.",
+      "section_ref": "252.232-7006",
+      "page": 88,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(iv) For performance based payments, submit a performance based payment\nrequest.",
+      "normalized": "If performance based payments apply, Contractor must submit a performance based payment request.",
+      "section_ref": "252.232-7006",
+      "page": 89,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(v) For commercial financing, submit a commercial financing request.",
+      "normalized": "If commercial financing applies, Contractor must submit a commercial financing request.",
+      "section_ref": "252.232-7006",
+      "page": 89,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) ) Fast Pay requests are only permitted when Federal Acquisition Regulation (FAR)\n52.213-1 is included in the contract.",
+      "normalized": "Fast Pay requests are only permitted when FAR 52.213-1 is included in the contract.",
+      "section_ref": "252.232-7006",
+      "page": 89,
+      "verb": "declaration",
+      "category": "admin",
       "confidence": "review"
+    },
+    {
+      "verbatim": "(3) The Contractor shall use the information in the Routing Data\nDocument routing.\nTable below only to fill in applicable fields in WAWF when creating payment requests and\nreceiving reports in the system.",
+      "normalized": "Contractor shall use the Routing Data Table information only to fill in applicable WAWF fields when creating payment requests and receiving reports.",
+      "section_ref": "252.232-7006",
+      "page": 89,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
     },
     {
       "verbatim": "The Contractor shall ensure a payment request includes Payment request. documentation appropriate to the type of payment request in accordance with the payment clause, contract financing clause, or Federal Acquisition Regulation 52.216-7, Allowable Cost and Payment, as applicable.",
@@ -2885,17 +3275,17 @@
     },
     {
       "verbatim": "When the Government grants excused absences to its employees, the Contractor agrees to continue to provide sufficient personnel to perform critical tasks already in operation or scheduled and shall be guided by the instructions issued by the KO or the Contracting Officer Representative (COR).",
-      "normalized": "Contractor must continue providing sufficient personnel for critical tasks during Government excused absences and follow KO/COR instructions.",
-      "section_ref": "1.12.3",
+      "normalized": "If the Government grants excused absences, Contractor shall continue providing sufficient personnel for critical tasks and follow KO/COR instructions.",
+      "section_ref": "PWS 1.12.3",
       "page": 103,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "If Government personnel are furloughed, the Contractor shall contact the KO to receive directions.",
       "normalized": "If Government personnel are furloughed, Contractor shall contact the KO for directions.",
-      "section_ref": "1.12.4",
+      "section_ref": "PWS 1.12.4",
       "page": 103,
       "verb": "conditional",
       "category": "performance",
@@ -2903,17 +3293,17 @@
     },
     {
       "verbatim": "Coordination of work other than normal work hours of the military reservation requires Contractor receipt of prior written approval from KO and will be based upon the requirements of the task, technical or safety factors and not for the convenience of the Contractor.",
-      "normalized": "Contractor must obtain prior written approval from the KO before performing work outside normal hours.",
-      "section_ref": "1.13",
+      "normalized": "Contractor is required to obtain prior written KO approval before performing work outside normal hours.",
+      "section_ref": "PWS 1.13",
       "page": 103,
       "verb": "required",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "The Contractor shall give prior notice of such requirements to the KO and COR.",
-      "normalized": "Contractor shall give prior notice of continuous-work requirements to the KO and COR.",
-      "section_ref": "1.13",
+      "normalized": "Contractor shall give prior notice of off-hours work requirements to the KO and COR.",
+      "section_ref": "PWS 1.13",
       "page": 103,
       "verb": "shall",
       "category": "performance",
@@ -2921,8 +3311,8 @@
     },
     {
       "verbatim": "When the Government requires the Contractor to work outside normal hours, the Contractor will be notified at the onset of the project, but not less than 24 hours in advance.",
-      "normalized": "Government will notify Contractor of required outside-normal-hours work no less than 24 hours in advance, creating a dependency for Contractor scheduling.",
-      "section_ref": "1.13",
+      "normalized": "Contractor will receive notice at least 24 hours in advance when required to work outside normal hours.",
+      "section_ref": "PWS 1.13",
       "page": 103,
       "verb": "will",
       "category": "admin",
@@ -2931,7 +3321,7 @@
     {
       "verbatim": "Contractor personnel and their employees who are assigned to work in a secure facility shall be escorted by the activity that owns the secure facility.",
       "normalized": "Contractor personnel assigned to a secure facility shall be escorted by the facility-owning activity.",
-      "section_ref": "1.14",
+      "section_ref": "PWS 1.14",
       "page": 103,
       "verb": "shall",
       "category": "performance",
@@ -2940,7 +3330,7 @@
     {
       "verbatim": "At the close of each work period, Government facilities, equipment and materials shall be secured by the Contractor.",
       "normalized": "Contractor shall secure Government facilities, equipment, and materials at the close of each work period.",
-      "section_ref": "1.15",
+      "section_ref": "PWS 1.15",
       "page": 103,
       "verb": "shall",
       "category": "performance",
@@ -2948,8 +3338,8 @@
     },
     {
       "verbatim": "The Contractor shall establish and implement methods of making sure all keys /key cards issued to the Contractor by the Government are not lost or misplaced and are not used by unauthorized persons.",
-      "normalized": "Contractor shall establish and implement methods to prevent loss, misplacement, or unauthorized use of Government-issued keys/key cards.",
-      "section_ref": "1.16",
+      "normalized": "Contractor shall establish and implement methods to prevent loss/misplacement or unauthorized use of issued keys/key cards.",
+      "section_ref": "PWS 1.16",
       "page": 103,
       "verb": "shall",
       "category": "performance",
@@ -2957,35 +3347,35 @@
     },
     {
       "verbatim": "In the event keys, other than master keys, are lost or duplicated, the Contractor shall, upon direction of the KO, re-key or replace the affected lock or locks; however, the Government, at its option, may replace the affected lock or locks or perform re- keying.",
-      "normalized": "Contractor shall re-key or replace affected lock(s) upon KO direction when non-master keys are lost or duplicated.",
-      "section_ref": "1.16.1",
+      "normalized": "If non-master keys are lost or duplicated, Contractor shall re-key or replace the affected locks upon KO direction.",
+      "section_ref": "PWS 1.16.1",
       "page": 104,
-      "verb": "shall",
-      "category": "performance",
-      "confidence": "review"
-    },
-    {
-      "verbatim": "When the replacement of locks or re-keying is performed by the Government, the total cost of re-keying or the replacement of lock or locks shall be reimbursed by the Contractor.",
-      "normalized": "Contractor shall reimburse the Government for the total cost of re-keying or lock replacement when the Government performs it.",
-      "section_ref": "1.16.1",
-      "page": 104,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "In the event a master key is lost or duplicated, all locks and keys for that system shall be replaced by the Contractor.",
-      "normalized": "Contractor shall replace all locks and keys for the system if a master key is lost or duplicated.",
-      "section_ref": "1.16.1",
+      "verbatim": "When the replacement of locks or re-keying is performed by the Government, the total cost of re-keying or the replacement of lock or locks shall be reimbursed by the Contractor.",
+      "normalized": "If the Government performs re-keying/replacement, Contractor shall reimburse the total cost.",
+      "section_ref": "PWS 1.16.1",
       "page": 104,
-      "verb": "shall",
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event a master key is lost or duplicated, all locks and keys for that system shall be replaced by the Contractor.",
+      "normalized": "If a master key is lost or duplicated, Contractor shall replace all locks and keys for that system.",
+      "section_ref": "PWS 1.16.1",
+      "page": 104,
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "Any Government property stolen or damaged in association with keys being duplicated, misplaced, or lost by the Contractor personnel, shall be replaced by Contractor.",
-      "normalized": "Contractor shall replace Government property stolen or damaged due to keys duplicated, misplaced, or lost by Contractor personnel.",
-      "section_ref": "1.16.1",
+      "normalized": "Contractor shall replace Government property stolen or damaged due to Contractor personnel's key duplication, misplacement, or loss.",
+      "section_ref": "PWS 1.16.1",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -2993,8 +3383,8 @@
     },
     {
       "verbatim": "Contractor shall only give keys to their employees.",
-      "normalized": "Contractor shall give keys only to its own employees.",
-      "section_ref": "1.16.1",
+      "normalized": "Contractor shall only give keys to its own employees.",
+      "section_ref": "PWS 1.16.1",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3002,8 +3392,8 @@
     },
     {
       "verbatim": "Contractor shall only allow personnel in an area who are either a Contractor employee performing their duties or someone the KO has authorized to allow in.",
-      "normalized": "Contractor shall only allow Contractor employees performing duties or KO-authorized personnel into an area.",
-      "section_ref": "1.16.1",
+      "normalized": "Contractor shall only allow Contractor employees or KO-authorized personnel into the area.",
+      "section_ref": "PWS 1.16.1",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3011,8 +3401,8 @@
     },
     {
       "verbatim": "The Contractor shall establish and implement methods of ensuring that all lock combinations are not revealed to unauthorized persons.",
-      "normalized": "Contractor shall establish and implement methods ensuring lock combinations are not revealed to unauthorized persons.",
-      "section_ref": "1.16.2",
+      "normalized": "Contractor shall establish methods ensuring lock combinations are not revealed to unauthorized persons.",
+      "section_ref": "PWS 1.16.2",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3020,8 +3410,8 @@
     },
     {
       "verbatim": "The Contractor shall ensure lock combinations are changed when personnel having access to the combinations no longer have a need to know such combinations.",
-      "normalized": "Contractor shall ensure lock combinations are changed when personnel no longer need access.",
-      "section_ref": "1.16.2",
+      "normalized": "Contractor shall change lock combinations when personnel no longer have a need to know.",
+      "section_ref": "PWS 1.16.2",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3029,17 +3419,17 @@
     },
     {
       "verbatim": "These procedures shall be included in the Contractor's Quality Control Plan.",
-      "normalized": "Contractor shall include lock-combination procedures in its Quality Control Plan.",
-      "section_ref": "1.16.2",
+      "normalized": "Contractor shall include lock-combination security procedures in its Quality Control Plan.",
+      "section_ref": "PWS 1.16.2",
       "page": 104,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The Contractor shall not have access to classified information;",
+      "verbatim": "The Contractor shall not have access to classified information",
       "normalized": "Contractor shall not have access to classified information.",
-      "section_ref": "1.16.3",
+      "section_ref": "PWS 1.16.3",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3047,8 +3437,8 @@
     },
     {
       "verbatim": "should classified documents fall into the possession of the Contractor, the Contractor shall immediately contact the COR for disposition instructions.",
-      "normalized": "If classified documents come into the Contractor's possession, Contractor shall immediately contact the COR for disposition instructions.",
-      "section_ref": "1.16.3",
+      "normalized": "If classified documents come into Contractor's possession, Contractor shall immediately contact the COR for disposition instructions.",
+      "section_ref": "PWS 1.16.3",
       "page": 104,
       "verb": "conditional",
       "category": "performance",
@@ -3056,8 +3446,8 @@
     },
     {
       "verbatim": "The Contractor shall provide a safe working environment for key consultants and all persons in his/her employ as prescribed by United States Army Corps of Engineers (USACE) Engineering Manual (EM) 385-1-1, \"Safety and Occupational Health (SOH) Requirements Manual\" and 29 Code of Federal Regulation (CFR) 1910 \"Occupational Health and Safety\" and all other applicable Department of Defense (DoD), Army, Federal, State, and Local safety and health requirements.",
-      "normalized": "Contractor shall provide a safe working environment for key consultants and employees per EM 385-1-1, 29 CFR 1910, and other applicable safety requirements.",
-      "section_ref": "1.17",
+      "normalized": "Contractor shall provide a safe working environment per EM 385-1-1, 29 CFR 1910, and all applicable DoD/Army/Federal/State/Local safety requirements.",
+      "section_ref": "PWS 1.17",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3065,8 +3455,8 @@
     },
     {
       "verbatim": "The Contractor shall be responsible for all damages to persons and property that occur in connection with the work and service under this contract, without recourse against the Government.",
-      "normalized": "Contractor shall be responsible for all damages to persons and property arising from work/services under the contract.",
-      "section_ref": "1.17",
+      "normalized": "Contractor shall be responsible for all damages to persons/property connected to contract work, without recourse against the Government.",
+      "section_ref": "PWS 1.17",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3083,8 +3473,8 @@
     },
     {
       "verbatim": "All Contractors and their employees working on the confines of the Fort Bliss Installation will be required to abide by the standards outlined in Part 6, Applicable Publications and Forms.",
-      "normalized": "All Contractors and their employees working on Fort Bliss will be required to abide by standards outlined in Part 6, Applicable Publications and Forms.",
-      "section_ref": "1.17.1",
+      "normalized": "Contractors and employees working at Fort Bliss will be required to abide by the standards in Part 6.",
+      "section_ref": "PWS 1.17.1",
       "page": 104,
       "verb": "required",
       "category": "performance",
@@ -3092,17 +3482,17 @@
     },
     {
       "verbatim": "The Contractor shall establish and maintain a safety plan of which a draft plan shall be submitted to the KO fourteen (14) days after award.",
-      "normalized": "Contractor shall establish and maintain a safety plan.",
-      "section_ref": "1.17.1",
+      "normalized": "Contractor shall establish and maintain a safety plan and submit a draft plan to the KO within 14 days after award.",
+      "section_ref": "PWS 1.17.1",
       "page": 104,
       "verb": "shall",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "Contractor's final Contract Safety Plan shall be submitted no later than (NTL) twenty (20) calendar days after contract award.",
-      "normalized": "Contractor shall submit its final Contract Safety Plan no later than 20 calendar days after contract award.",
-      "section_ref": "1.17.1",
+      "normalized": "Contractor shall submit the final Contract Safety Plan no later than 20 calendar days after contract award.",
+      "section_ref": "PWS 1.17.1",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3110,8 +3500,8 @@
     },
     {
       "verbatim": "The Contractor shall comply with 29 CFR part 1926, 29 CFR part 1910, all state and local occupational safety and health requirements, and the requirements of EM 385-1-1, U.S. Army Corps of Engineers Safety and Occupational Health (SOH) Requirements Manual.",
-      "normalized": "Contractor shall comply with 29 CFR 1926, 29 CFR 1910, state/local safety and health requirements, and EM 385-1-1.",
-      "section_ref": "1.18",
+      "normalized": "Contractor shall comply with 29 CFR 1926, 29 CFR 1910, state/local OSH requirements, and EM 385-1-1.",
+      "section_ref": "PWS 1.18",
       "page": 104,
       "verb": "shall",
       "category": "performance",
@@ -3119,12 +3509,30 @@
     },
     {
       "verbatim": "The Contractor is responsible for accident prevention and safety and shall establish and maintain an effective system to safeguard the public, Government",
-      "normalized": "Contractor is responsible for accident prevention and safety.",
-      "section_ref": "1.18",
+      "normalized": "Contractor is responsible for accident prevention/safety and shall establish an effective safeguarding system (sentence continues on next page, not captured).",
+      "section_ref": "PWS 1.18",
+      "page": 104,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Contractor shall submit a site-specific safety plan during pre-construction meeting.",
+      "normalized": "Contractor shall submit a site-specific safety plan during the pre-construction meeting.",
+      "section_ref": "PWS 1.17.1",
+      "page": 104,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "it is the responsibility of the Contractor to be acquainted with all current issues and any changes thereto.",
+      "normalized": "Contractor is responsible for staying acquainted with current issues and changes to applicable standards.",
+      "section_ref": "PWS 1.17.1",
       "page": 104,
       "verb": "required",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "The Contractor shall provide a written site-specific APP per task order\n(TO) that documents project, contract, and job-specific potential hazards and the company\npolicies, controls, and work practices used to minimize those hazards.",
@@ -3298,6 +3706,60 @@
       "confidence": "review"
     },
     {
+      "verbatim": "Submit the APP for review and acceptance by the KO and COR fourteen (14) calendar days after award",
+      "normalized": "Contractor must submit the APP to KO and COR for review/acceptance within 14 calendar days after award.",
+      "section_ref": "1.18",
+      "page": 105,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "field work may not begin until the APP is accepted",
+      "normalized": "Field work may not begin until the APP is accepted by KO/COR.",
+      "section_ref": "1.18",
+      "page": 105,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notify the KO and COR 14 days prior to the start of any subsurface investigations.",
+      "normalized": "Contractor must notify KO and COR 14 days prior to the start of any subsurface investigations.",
+      "section_ref": "1.18",
+      "page": 105,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Prime Contractor is the \"controlling authority\" for all work site safety.",
+      "normalized": "The Prime Contractor is designated the controlling authority for all worksite safety.",
+      "section_ref": "1.18.1",
+      "page": 105,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Once accepted, the APP and its attachments will be enforced as part of the Contract.",
+      "normalized": "Once accepted, the APP and attachments will be enforced as part of the Contract.",
+      "section_ref": "1.18.2",
+      "page": 105,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Submit AHAs to the KO and COR for review at least 14 working days after award.",
+      "normalized": "Contractor must submit AHAs to KO and COR for review at least 14 working days after award.",
+      "section_ref": "1.19",
+      "page": 105,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The AHA list shall be updated as necessary when work conditions or hazards change.",
       "normalized": "The Contractor must update the AHA list as necessary when work conditions or hazards change.",
       "section_ref": "PWS 1.19.1",
@@ -3402,6 +3864,33 @@
       "section_ref": "PWS 1.20",
       "page": 106,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "provide appropriate safety barricades, signs, and signal lights",
+      "normalized": "For construction/demolition/removal contracts, Contractor shall provide appropriate safety barricades, signs, and signal lights.",
+      "section_ref": "1.19.3",
+      "page": 106,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Comply with the standards issued by the Secretary of Labor at 29 Code of Federal Regulations (CFR) part 1926 and 29 CFR part 1910",
+      "normalized": "For construction/demolition/removal contracts, Contractor shall comply with 29 CFR part 1926 and 29 CFR part 1910 standards.",
+      "section_ref": "1.19.3",
+      "page": 106,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "ensure that any additional measures the KO determines to be reasonably necessary for the purposes are taken",
+      "normalized": "For construction/demolition/removal contracts, Contractor shall ensure any additional measures the KO deems reasonably necessary are taken.",
+      "section_ref": "1.19.3",
+      "page": 106,
+      "verb": "conditional",
       "category": "performance",
       "confidence": "review"
     },
@@ -3577,18 +4066,18 @@
       "confidence": "review"
     },
     {
-      "verbatim": "and working in other situations where their Contractor status is not obvious to third parties are\nrequired to identify themselves as such to avoid creating an impression in the minds of members\nof the public that they are Government officials.",
-      "normalized": "Contractor personnel are required to identify themselves as contractors when their status is not obvious to third parties.",
-      "section_ref": null,
+      "verbatim": "and working in other situations where their Contractor status is not obvious to third parties are required to identify themselves as such to avoid creating an impression in the minds of members of the public that they are Government officials.",
+      "normalized": "Contract personnel whose status isn't obvious are required to identify themselves as contractors.",
+      "section_ref": "1.23",
       "page": 108,
       "verb": "required",
-      "category": "performance",
+      "category": "admin",
       "confidence": "review"
     },
     {
-      "verbatim": "They must also ensure that all documents or\nreports produced by Contractors are suitably marked as Contractor products or that Contractor\nparticipation is appropriately disclosed.",
-      "normalized": "Contractor personnel must ensure documents/reports are marked as Contractor products or that participation is disclosed.",
-      "section_ref": null,
+      "verbatim": "They must also ensure that all documents or reports produced by Contractors are suitably marked as Contractor products or that Contractor participation is appropriately disclosed.",
+      "normalized": "Contractor personnel must ensure documents/reports are marked as Contractor products or disclose Contractor participation.",
+      "section_ref": "1.23",
       "page": 108,
       "verb": "must",
       "category": "performance",
@@ -3710,6 +4199,15 @@
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
+    },
+    {
+      "verbatim": "A copy of the authorization will be provided to the COR.",
+      "normalized": "A copy of the employment authorization will be provided to the COR.",
+      "section_ref": "1.23.3",
+      "page": 108,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "The Contractor shall not place or display advertising of any kind on Government property.",
@@ -4000,6 +4498,33 @@
       "confidence": "review"
     },
     {
+      "verbatim": "The Contractor shall provide a qualified on-site Superintendent and shall be\ndesignated in writing (listing name, address, and 24-hour telephone number) to the COR.",
+      "normalized": "The Contractor must provide a qualified on-site Superintendent and designate them in writing (name, address, 24-hour phone) to the COR.",
+      "section_ref": "1.29",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Superintendent shall be responsible for\nthe overall performance, management, and coordination of the TO and shall be the central point of\ncontact with the DPW for the performance of all work under each TO.",
+      "normalized": "The Superintendent must be responsible for overall TO performance/management/coordination and serve as the central DPW point of contact for all TO work.",
+      "section_ref": "1.29",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The PM and designated Site Superintendent shall have the following:\na. The applicable skills and qualifications as specified in each TO.\nb. A minimum of five (5) years of experience in building construction and PM experience with TO\nsupervisory positions, e.g., PM or construction superintendent, five (5) years of which are\nexperience as a PM for construction projects similar in scope to those that will be required by this\ncontract.\nc. The qualifications to direct work require extensive understanding of and intimate familiarity with\nthe principles, methods, and techniques of architectural, civil, mechanical, and electrical\nengineering.\nd. Sufficient technical capabilities to coordinate, acquire, and respond to the Government's\nrequirements for technical design as it relates to the production of final record drawings.\ne. The qualifications to negotiate and manage multiple projects at the same time.\nf. The qualifications to recruit and manage qualified Subcontractors in all construction disciplines.",
+      "normalized": "The PM and Site Superintendent must meet listed qualifications (a-f): TO-specific skills, 5+ years relevant PM experience, engineering familiarity, technical design capability, multi-project negotiation, and subcontractor management.",
+      "section_ref": "1.29.2",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The Site Safety and Health Officer (SSHO) must possess at least five (5) years of experience in construction project management and inspection.",
       "normalized": "The SSHO must possess at least 5 years of experience in construction project management and inspection.",
       "section_ref": "1.30",
@@ -4106,6 +4631,33 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "g. The qualifications to respond in a timely manner to all contractual agreements, instructions, and\ninquiries from authorized Government personnel.\nh. Demonstrated success in Government TO construction requirements, completely familiar with\nFederal, State, and local laws, policies, procedures, and regulations pertaining to construction.\ni. The qualifications to prepare project proposals and authorized to negotiate.",
+      "normalized": "(Continuation) The PM and Site Superintendent must also meet qualifications g-i: timely response to Government, demonstrated TO construction success/legal familiarity, and ability to prepare proposals and negotiate.",
+      "section_ref": "1.29.2",
+      "page": 111,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The QCM shall be responsible for the overall quality of work performed under this contract and\nshall certify that all submittals are in compliance with the contract requirements.",
+      "normalized": "The QCM must be responsible for overall quality of work and must certify all submittals comply with contract requirements.",
+      "section_ref": "1.31.1",
+      "page": 111,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The QCM, at a minimum, shall have the following:\na. A minimum of five (5) years of experience in managing and inspecting construction projects.\nb. Formal QC education or training in building construction inspection.\nc. A minimum of five (5) years of experience in construction QC with Department of Defense\n(DOD) agency.\nd. The minimum experience for the Contractor's QC Manager without an engineering degree is five\n(5) years of experience in the construction industry and five (5) years as a QCM.\ne. A minimum of five (5) years of experience as a QCM or senior QC inspector in the building\nconstruction industry.\nf. Experience with construction industry standards and codes.\ng. The ability to establish and maintain an effective QC system.",
+      "normalized": "The QCM must at minimum meet qualifications a-g: 5 years managing/inspecting construction, formal QC education, DOD QC experience, minimum experience thresholds, industry standards experience, and ability to maintain a QC system.",
+      "section_ref": "1.31.2",
+      "page": 111,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
     },
     {
       "verbatim": "Proof of completed OSHA training shall be provided to the KO.",
@@ -4223,6 +4775,15 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "h. The ability to perform daily QC inspections on all active construction projects and send a daily\nreport to the COR on all active projects.\ni. The ability to assist the PM in preparing critical path construction schedules.\nj. Completed a total of thirty (30) hours in OSHA General Construction training courses. Proof of\ncompleted OSHA training shall be provided to the KO.\nk. Environmental training and the capability of preparing State Erosion Prevention and Sediment\nControl, IAW Federal, State, and local codes, rules, and practices.",
+      "normalized": "(Continuation) The QCM must also meet qualifications h-k: daily QC inspections/reporting, scheduling assistance, 30 hours OSHA training, and environmental training/capability.",
+      "section_ref": "1.31.2",
+      "page": 112,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
     },
     {
       "verbatim": "the Contractor shall appraise the Government of problems, if any, being experienced.",
@@ -5629,101 +6190,146 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Prior to use of hazardous or regulated material, the Contractor shall provide the COR and DPW Environmental Division a list of methods for review and approval, pertaining to regulated /hazardous materials, storage, and disposal of waste generated.",
-      "normalized": "Contractor must provide the COR and DPW Environmental Division a list of methods for review/approval regarding hazardous/regulated materials, storage, and waste disposal prior to use of such materials.",
-      "section_ref": "4.23.1",
+      "verbatim": "Prior to use of hazardous or regulated material, the Contractor shall provide the COR and\nDPW Environmental Division a list of methods for review and approval, pertaining to regulated\n/hazardous materials, storage, and disposal of waste generated.",
+      "normalized": "Prior to using hazardous/regulated material, the Contractor shall provide the COR and DPW Environmental Division a list of methods for review and approval.",
+      "section_ref": "PWS 4.23.1",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "All recyclable / reusable waste and recycled materials shall be reported in the units of measure, pounds for diversion reporting purposes.",
-      "normalized": "Contractor must report all recyclable/reusable waste and recycled materials in pounds for diversion reporting.",
-      "section_ref": "4.23.2",
+      "verbatim": "All recyclable / reusable waste and recycled materials shall be reported in the units of\nmeasure, pounds for diversion reporting purposes.",
+      "normalized": "The Contractor shall report all recyclable/reusable waste and recycled materials in pounds for diversion reporting.",
+      "section_ref": "PWS 4.23.2",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "During ground disturbance or excavation, if any soil discoloration, stains, odors, rubbish, buried objects and/or any environmental concerns are uncovered, the Contractor shall suspend work immediately and notify the DPW-ED via the COR.",
-      "normalized": "If soil discoloration, stains, odors, rubbish, buried objects, or environmental concerns are uncovered during ground disturbance/excavation, Contractor must immediately suspend work and notify DPW-ED via the COR.",
-      "section_ref": "4.24",
+      "verbatim": "During ground disturbance or excavation, if any soil discoloration,\nstains, odors, rubbish, buried objects and/or any environmental concerns are uncovered, the\nContractor shall suspend work immediately and notify the DPW-ED via the COR.",
+      "normalized": "If soil discoloration, stains, odors, rubbish, buried objects, or environmental concerns are uncovered during ground disturbance, the Contractor shall immediately suspend work and notify DPW-ED via the COR.",
+      "section_ref": "PWS 4.24",
       "page": 124,
       "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "For this reason, any potential waste shall be treated as hazardous until DPW-ED completes the corresponding characterization",
-      "normalized": "Any potential waste must be treated as hazardous until DPW-ED completes characterization.",
-      "section_ref": "4.24",
+      "verbatim": "For this reason, any potential waste shall be treated as\nhazardous until DPW-ED completes the corresponding characterization).",
+      "normalized": "The Contractor shall treat any potential waste as hazardous until DPW-ED completes characterization.",
+      "section_ref": "PWS 4.24",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "Cleanup and disposal of any encountered contaminated soil shall be coordinated with DPW-ED via the COR.",
-      "normalized": "Contractor must coordinate cleanup and disposal of any encountered contaminated soil with DPW-ED via the COR.",
-      "section_ref": "4.24",
+      "verbatim": "Cleanup and disposal of\nany encountered contaminated soil shall be coordinated with DPW-ED via the COR.",
+      "normalized": "The Contractor shall coordinate cleanup and disposal of encountered contaminated soil with DPW-ED via the COR.",
+      "section_ref": "PWS 4.24",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Waste manifests shall use the Fort Bliss Environmental Protection Agency Identification Number.",
-      "normalized": "Contractor must use the Fort Bliss EPA Identification Number on waste manifests.",
-      "section_ref": "4.24",
+      "verbatim": "Waste\nmanifests shall use the Fort Bliss Environmental Protection Agency Identification Number.",
+      "normalized": "Waste manifests shall use the Fort Bliss EPA Identification Number.",
+      "section_ref": "PWS 4.24",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The original manifests signed by the disposal facilities shall be provided to DPW-ED via the COR.",
-      "normalized": "Contractor must provide original signed disposal facility manifests to DPW-ED via the COR.",
-      "section_ref": "4.24",
+      "verbatim": "The original manifests signed by the disposal facilities shall be provided to\nDPW-ED via the COR.",
+      "normalized": "The Contractor shall provide original signed disposal manifests to DPW-ED via the COR.",
+      "section_ref": "PWS 4.24",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "During construction activities, any accidental releases of hazardous materials such as fuel on the ground shall be reported to the Fort Bliss Fire Department at 911.",
-      "normalized": "Contractor must report accidental hazardous material releases (e.g., fuel) to the Fort Bliss Fire Department at 911 during construction activities.",
-      "section_ref": "4.24.1",
+      "verbatim": "During construction activities, any accidental releases of hazardous materials such as fuel\non the ground shall be reported to the Fort Bliss Fire Department at 911.",
+      "normalized": "The Contractor shall report accidental hazardous material releases to the Fort Bliss Fire Department at 911.",
+      "section_ref": "PWS 4.24.1",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The Contractor will be responsible for remediation of contaminated areas to background limits.",
-      "normalized": "Contractor is responsible for remediating contaminated areas to background limits.",
-      "section_ref": "4.24.1",
+      "verbatim": "The Contractor will be\nresponsible for remediation of contaminated areas to background limits.",
+      "normalized": "The Contractor is responsible for remediating contaminated areas to background limits.",
+      "section_ref": "PWS 4.24.1",
       "page": 124,
       "verb": "will",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Proponent shall ensure compliance with the Clean Water Act, the Safe Drinking Water Act, American Water Works Association (AWWA) Standards, and State's Regulations and Fees (refer to 30TAC290 and NMAC20.7.10).",
-      "normalized": "Proponent must ensure compliance with the Clean Water Act, Safe Drinking Water Act, AWWA Standards, and applicable state regulations/fees.",
-      "section_ref": "4.26",
+      "verbatim": "Proponent shall ensure compliance with the Clean Water Act, the Safe\nDrinking Water Act, American Water Works Association (AWWA) Standards, and State's\nRegulations and Fees (refer to 30TAC290 and NMAC20.7.10).",
+      "normalized": "Proponent shall ensure compliance with Clean Water Act, Safe Drinking Water Act, AWWA Standards, and State regulations.",
+      "section_ref": "PWS 4.26",
       "page": 124,
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "Responsible authorities must implement, administer, and maintain ongoing back-flow prevention and crossconnection control programs to prevent back-flow; protect public water systems from the actual or potential hazards originating on the premises of end user building",
-      "normalized": "Responsible authorities must implement, administer, and maintain back-flow prevention and cross-connection control programs to protect public water systems.",
-      "section_ref": "4.26",
+      "verbatim": "Responsible authorities must implement, administer, and maintain ongoing\nback-flow prevention and crossconnection control programs to prevent back-flow; protect public\nwater systems from the actual or potential hazards originating on the premises of end user building",
+      "normalized": "Responsible authorities must implement, administer, and maintain back-flow prevention and cross-connection control programs.",
+      "section_ref": "PWS 4.26",
       "page": 124,
       "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide data to the Solid Waste and Recycling\nmanager via COR.",
+      "normalized": "The Contractor shall provide diversion data to the Solid Waste and Recycling manager via the COR.",
+      "section_ref": "PWS 4.23.2",
+      "page": 124,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If cultural materials are found during any excavation\n(esp. possible bone) stop working in that area and contact COR and DPW-E at 915-568-3782.",
+      "normalized": "If cultural materials are found during excavation, the Contractor shall stop work in that area and contact COR and DPW-E.",
+      "section_ref": "PWS 4.25",
+      "page": 124,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If changes to the design occur, please re-submit for review.",
+      "normalized": "If design changes occur, the Contractor shall re-submit for review.",
+      "section_ref": "PWS 4.25",
+      "page": 124,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All construction activities with potential to impact Natural\nResources need approval from the DPW-E Division prior to activities.",
+      "normalized": "Construction activities with potential to impact Natural Resources require DPW-E Division approval prior to activity.",
+      "section_ref": "PWS 4.25.1",
+      "page": 124,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "There shall be no cross-\nconnection, open or potential, between a system furnishing potable water and a system furnishing\nnon-potable water.",
+      "normalized": "There shall be no cross-connection between potable and non-potable water systems.",
+      "section_ref": "PWS 4.26",
+      "page": 124,
+      "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
@@ -5800,6 +6406,51 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Segmentation is prohibited.",
+      "normalized": "The Contractor shall not segment the disturbance area to avoid SWPPP requirements.",
+      "section_ref": "PWS 4.28",
+      "page": 125,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All construction activities with potential to remove vegetation\nduring the migratory bird nesting season (February 15th through September 15th) need to have an\navian nest search completed by a qualified biologist prior to activities to prevent the \"take\" of a\nprotected species.",
+      "normalized": "Construction activities with potential to remove vegetation during nesting season (Feb 15-Sep 15) require an avian nest search by a qualified biologist prior to activities.",
+      "section_ref": "PWS 4.30",
+      "page": 125,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Before any ground disturbance, a burrowing owl burrow survey needs to be\ncompleted if construction activities occur between March 1st and October 30th.",
+      "normalized": "If construction occurs between March 1 and October 30, a burrowing owl burrow survey must be completed before ground disturbance.",
+      "section_ref": "PWS 4.30",
+      "page": 125,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Bird deterrents or alternative perches need to be installed on poles and cross arms\nwhen line configurations do not allow for adequate wire separation to avoid avian electrocutions.",
+      "normalized": "Bird deterrents or alternative perches must be installed where wire separation is inadequate to avoid avian electrocutions.",
+      "section_ref": "PWS 4.30.1",
+      "page": 125,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Dispose of the construction related wastewater off Government property in accordance with 40 CFR 403, state, regional, and local laws, and regulations.",
+      "normalized": "Contractor must dispose of construction-related wastewater off Government property per 40 CFR 403 and state/regional/local laws.",
+      "section_ref": "PWS 4.32.1",
+      "page": 126,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Water discharges into the sewer system as a result of this project shall abide by the conditions and requirements of El Paso Water (EPW) Rules 9 and 15.",
       "normalized": "Contractor's project-related sewer water discharges shall abide by El Paso Water Rules 9 and 15.",
       "section_ref": "PWS 4.32.2",
@@ -5814,15 +6465,6 @@
       "section_ref": "PWS 4.32.2",
       "page": 126,
       "verb": "shall",
-      "category": "performance",
-      "confidence": "high"
-    },
-    {
-      "verbatim": "Dispose of the construction related wastewater off Government property in accordance with 40 CFR 403, state, regional, and local laws, and regulations.",
-      "normalized": "Contractor must dispose of construction-related wastewater off Government property per 40 CFR 403 and state/regional/local laws.",
-      "section_ref": "PWS 4.32.1",
-      "page": 126,
-      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
@@ -5879,6 +6521,69 @@
       "verb": "will",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "Fenced areas need to include design option with a buried apron of chain-link\nfabric buried up to 24\" and extending 48\" outward to prevent animals from burrowing under the\nfence.",
+      "normalized": "Fenced areas must include a buried chain-link apron (up to 24\" deep, 48\" outward) to prevent burrowing.",
+      "section_ref": "PWS 4.30.2",
+      "page": 126,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "all earth moving equipment should be thoroughly washed prior to and before leaving the\nsite to prevent both the introduction and spread of invasive plant species.",
+      "normalized": "The Contractor should thoroughly wash earth moving equipment before/after leaving the site to prevent invasive species spread.",
+      "section_ref": "PWS 4.31",
+      "page": 126,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If any holes/pits/trenches\nrequired are to be left open (unfilled) overnight, one side of the excavation needs to be sloped to\nallow any potentially trapped wildlife to escape.",
+      "normalized": "If holes/pits/trenches are left open overnight, one side must be sloped to allow trapped wildlife to escape.",
+      "section_ref": "PWS 4.31",
+      "page": 126,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Conduct cleaning and waste removal operations to comply\nwith Federal and local environmental and anti-pollution regulations.",
+      "normalized": "The Contractor shall conduct cleaning and waste removal operations in compliance with Federal and local environmental/anti-pollution regulations.",
+      "section_ref": "PWS 4.32",
+      "page": 126,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Applying to contracts for the construction, alteration, or repair of any\npublic building or public work in the United States, the Contractor shall utilize commercially\navailable off-the-shelf (COTS) construction materials in accordance with Executive Order 10582\nand 41 U.S.C. chapter 83, Buy American.",
+      "normalized": "The Contractor shall utilize COTS construction materials in accordance with the Buy American Act and Executive Order 10582.",
+      "section_ref": "PWS 4.34",
+      "page": 126,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All pre-\nconstruction deliverables must be approved prior to the start of construction (work).",
+      "normalized": "All pre-construction deliverables must be approved before construction work begins.",
+      "section_ref": "PWS 4.35",
+      "page": 126,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor shall submit Material Submittals prior the beginning of construction to COR for review within thirty (30) calendar days after award date.",
+      "normalized": "Contractor must submit Material Submittals to COR for review within 30 calendar days after award date, prior to beginning construction.",
+      "section_ref": "4.36",
+      "page": 127,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "Contractor shall Prepare and submit an Equal or Better Plan if required.",
@@ -6043,13 +6748,13 @@
       "confidence": "high"
     },
     {
-      "verbatim": "AHAs must identify competent persons required for phases\ninvolving high risk activities, including confined entry, crane and rigging, excavations, trenching,\nelectrical work, fall protection, and scaffolding.",
-      "normalized": "Contractor's AHAs must identify competent persons required for high-risk activity phases (confined entry, crane/rigging, excavation, trenching, electrical, fall protection, scaffolding).",
-      "section_ref": null,
+      "verbatim": "AHAs must identify competent persons required for phases involving high risk activities, including confined entry, crane and rigging, excavations, trenching, electrical work, fall protection, and scaffolding.",
+      "normalized": "AHAs must identify competent persons required for high-risk activity phases (confined entry, crane/rigging, excavations, trenching, electrical, fall protection, scaffolding).",
+      "section_ref": "4.39",
       "page": 129,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "Any Contractor wishing to use, store, or possess radioactive materials or\nradioactive devices (e.g. nuclear soil density meters, X-Ray Fluorescence) shall require an Army\nRadiation Permit (ARP) before activities take place in the Installation.",
@@ -6194,6 +6899,15 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "The weather experienced at the project site during the contract period must be found to be unusually severe, that is, more severe than the adverse weather anticipated for the project location during any given month.",
+      "normalized": "For a weather-related time extension, weather experienced must be found unusually severe compared to anticipated adverse weather for that month.",
+      "section_ref": "4.43.1",
+      "page": 129,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Anticipated weather delays are typically based on National Oceanic and Atmospheric Administration (NOAA) or similar data for the project location and shall constitute the base line for monthly weather evaluations as specified in the TO.",
@@ -7626,5 +8340,6 @@
       "category": "admin",
       "confidence": "review"
     }
-  ]
+  ],
+  "patchedRowsAdded": 77
 }

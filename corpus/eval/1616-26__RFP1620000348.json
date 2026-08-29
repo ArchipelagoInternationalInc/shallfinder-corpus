@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 104,
   "chunks": 10,
-  "truncations": 3,
-  "emptyChunks": 3,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 222,
-  "finalRows": 353,
+  "finalRows": 385,
   "duplicatesRemoved": 9,
   "dropped": {
-    "total": 4,
-    "verbatimNotFound": 4,
+    "total": 6,
+    "verbatimNotFound": 6,
     "pageOutOfRange": 0,
     "invalidShape": 0
   },
   "reviewFlagged": 91,
   "coverage": {
     "verb_occurrences": 265,
-    "captured": 121,
+    "captured": 227,
     "excluded": {
       "definitional": 0,
       "government_actor": 8
@@ -54,23 +54,24 @@
       35,
       53,
       55,
+      56,
       57,
       58,
       59,
       61,
       62,
+      63,
       75,
-      78,
       81,
       82,
-      87,
+      83,
       95,
       99,
       104
     ],
-    "unresolved": 17
+    "unresolved": 24
   },
-  "unresolvedBefore": 144,
+  "unresolvedBefore": 38,
   "sweeperNewRows": 150,
   "sweeperExclusions": [
     {
@@ -1031,6 +1032,15 @@
       "confidence": "high"
     },
     {
+      "verbatim": "The protective materials shall not be bolted, glued, or stapled to floors, carpeted areas, walls, ceilings, or doors but instead shall either be free-standing or braced to not cause any damages.",
+      "normalized": "Protective materials shall not be bolted, glued, or stapled to surfaces, but shall be free-standing or braced instead.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "work performed outside of normal hours will be priced on a case by case\nbasis.",
       "normalized": "Offeror must price work performed outside normal hours on a case-by-case basis.",
       "section_ref": null,
@@ -1040,27 +1050,27 @@
       "confidence": "review"
     },
     {
-      "verbatim": "This shall be calculated using the contracted prices of each item\ninstalled and half of the contracted hourly rate (over-time).",
-      "normalized": "Offeror shall calculate after-hours pricing using contracted item prices plus half the contracted hourly rate.",
-      "section_ref": null,
-      "page": 42,
-      "verb": "shall",
-      "category": "performance",
-      "confidence": "review"
-    },
-    {
-      "verbatim": "Pricing\nshall be based on a ten (10) workstations per day average.",
-      "normalized": "Offeror shall base pricing on an average of ten workstations installed per day.",
-      "section_ref": null,
+      "verbatim": "This shall be calculated using the contracted prices of each item installed and half of the contracted hourly rate (over-time).",
+      "normalized": "Off-hours work pricing shall be calculated using contracted item prices plus half the contracted hourly rate for overtime.",
+      "section_ref": "Pricing",
       "page": 42,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "This shall be\nused as a general way to determine the length of a project.",
-      "normalized": "The workstations-per-day average shall be used as a general method to determine project length.",
-      "section_ref": null,
+      "verbatim": "Pricing shall be based on a ten (10) workstations per day average.",
+      "normalized": "Pricing shall be based on an average of ten workstations installed per day.",
+      "section_ref": "Pricing",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This shall be used as a general way to determine the length of a project.",
+      "normalized": "The ten-workstations-per-day average shall be used to generally determine project length.",
+      "section_ref": "Pricing",
       "page": 42,
       "verb": "shall",
       "category": "performance",
@@ -1310,6 +1320,15 @@
       "confidence": "high"
     },
     {
+      "verbatim": "the installer shall obtain the\ncustomer's signature and date on an Acceptance Form.",
+      "normalized": "If no deficiencies are found, the installer must obtain the customer's signature and date on an Acceptance Form.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "If\nthe installer does not provide the storage quote 2 weeks prior, the\nstorage costs will be assed to the installer unless the storage need is\ndiscovered in a lesser time frame.",
       "normalized": "If the installer fails to provide the storage quote 2 weeks prior, storage costs will be assessed to the installer.",
       "section_ref": null,
@@ -1418,6 +1437,15 @@
       "confidence": "review"
     },
     {
+      "verbatim": "All go-back quotes and/or additional work should be completed\nonly after receipt of a purchase order/official authorization from an\nauthorized UNICOR contractor.",
+      "normalized": "Go-back quotes and additional work should be completed only after receipt of a purchase order/official authorization from an authorized UNICOR contractor.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Installers will be responsible for utilizing SAP to update ship-to\naddresses for late product, update warehouse addresses, track product,\nand obtain UNICOR part numbers for shortage sheets and punch lists.",
       "normalized": "Installers must use SAP to update ship-to and warehouse addresses, track product, and obtain UNICOR part numbers for shortage sheets and punch lists.",
       "section_ref": null,
@@ -1450,6 +1478,33 @@
       "section_ref": null,
       "page": 45,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Periodic log-in requirements apply to maintain access.",
+      "normalized": "Offerors must meet periodic log-in requirements to maintain SAP access.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Regional Installation Managers- (One required for each of the West,\nCentral, and East regions)",
+      "normalized": "One Regional Installation Manager is required for each of the West, Central, and East regions.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Go-back Coordinator- a minimum of 2 staff dedicated to completing and\nissuing go-back paperwork, tracking project go-back status,  and\nscheduling go-backs.",
+      "normalized": "A minimum of 2 Go-back Coordinator staff must be dedicated to completing/issuing go-back paperwork, tracking status, and scheduling go-backs.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
       "category": "performance",
       "confidence": "high"
     },
@@ -2399,6 +2454,24 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Contractor is prohibited from providing any products or services to the Government or using in the performance of the contract any of the following:",
+      "normalized": "Contractor must not provide or use any of the listed prohibited products/services (covered applications, Kaspersky-covered articles, or covered telecommunications equipment) in Government IT or contract performance.",
+      "section_ref": null,
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Delivering any FASC-prohibited unmanned aircraft system, which\nincludes unmanned aircraft (i.e., drones) and associated elements\n(sections 1823 and 1826 of American Security Drone Act of 2023, within\nthe National Defense Authorization Act for Fiscal Year 2024, Pub. L.\n118-31, Div. A, Title XVIII, Subtitle B, 41 U.S.C. 3901 note prec.);",
+      "normalized": "Contractor must not deliver any FASC-prohibited unmanned aircraft system.",
+      "section_ref": null,
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The Contractor shall search SAM for the FASC-maintained\nlist of American Security Drone Act—covered foreign entities before\nproposing, or using in performance of the contract, any unmanned\naircraft system.",
       "normalized": "The Contractor must search SAM for the FASC-maintained list of American Security Drone Act-covered foreign entities before proposing or using any unmanned aircraft system in contract performance.",
       "section_ref": null,
@@ -2417,9 +2490,45 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, the contractor shall not engage in certain activities or transactions relating to Iran (section 6(b)(1)(A) of Iran Sanctions Act (50 U.S.C. 1701 note).",
-      "normalized": "Contractor shall not engage in certain activities or transactions relating to Iran, unless an exception applies or the Government grants a waiver.",
+      "verbatim": "(ii) On or after December 22, 2025, operating a FASC-prohibited unmanned\naircraft system in the performance of the contract (section 1824 of Pub.\nL. 118-31); and",
+      "normalized": "Contractor must not operate a FASC-prohibited unmanned aircraft system in contract performance on or after December 22, 2025.",
       "section_ref": null,
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(iii) On or after December 22, 2025, using Federal funds to procure or\noperate a FASC-prohibited unmanned aircraft system (section 1825 of Pub.\nL. 118-31).",
+      "normalized": "Contractor must not use Federal funds to procure or operate a FASC-prohibited unmanned aircraft system on or after December 22, 2025.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(i) Unless an applicable waiver has been issued by the Government, the\nContractor cannot use any equipment, systems, or services that uses\ncovered telecommunications equipment or services as a substantial or\nessential component of any system, or as critical technology as part of\nany system (paragraph (a)(1)(B) of section 889 of the John S. McCain\nNational Defense Authorization Act for Fiscal Year 2019 (Pub. L.\n115-232)).",
+      "normalized": "Unless the Government issues a waiver, Contractor cannot use equipment/systems/services containing covered telecommunications equipment as a substantial/essential component or critical technology.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Except as authorized by the Office of Foreign Assets Control (OFAC)\nin the Department of the Treasury, the Contractor shall not acquire, for\nuse in the performance of this contract, any supplies or services if any\nproclamation, Executive order, or statute administered by OFAC, or if\nOFAC’s implementing regulations at 31 CFR chapter V, would prohibit such\na transaction by a person subject to the jurisdiction of the United\nStates.",
+      "normalized": "Unless authorized by OFAC, Contractor shall not acquire supplies/services for contract performance that would violate OFAC-administered proclamations, Executive orders, statutes, or regulations.",
+      "section_ref": null,
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, the contractor shall not engage in certain activities or transactions relating to Iran (section 6(b)(1)(A) of Iran Sanctions Act (50 U.S.C. 1701 note).",
+      "normalized": "Unless an exception or waiver applies, contractor shall not engage in certain activities or transactions relating to Iran.",
+      "section_ref": "(d)(4)(i)",
       "page": 79,
       "verb": "shall",
       "category": "performance",
@@ -2427,8 +2536,8 @@
     },
     {
       "verbatim": "Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, contractor shall not export certain sensitive technology to Iran, as determined by the President, and has an active exclusion in SAM (22 U.S.C. 8515).",
-      "normalized": "Contractor shall not export certain sensitive technology to Iran, as determined by the President, unless an exception applies or the Government grants a waiver.",
-      "section_ref": null,
+      "normalized": "Unless an exception or waiver applies, contractor shall not export certain sensitive technology to Iran and shall have an active exclusion in SAM.",
+      "section_ref": "(d)(4)(ii)",
       "page": 79,
       "verb": "shall",
       "category": "performance",
@@ -2444,18 +2553,45 @@
       "confidence": "review"
     },
     {
-      "verbatim": "The Contractor shall search for the phrase “FASCSA order” in the\nSystem for Award Management (SAM) at https://www.sam.gov to locate\napplicable FASCSA orders.",
+      "verbatim": "The Contractor is prohibited from conducting any restricted business operations in Sudan in accordance with Accountability and Divestment Act of 2007 (Pub. L. 110-174).",
+      "normalized": "Contractor must not conduct restricted business operations in Sudan (per Pub. L. 110-174).",
+      "section_ref": "(d)(3)",
+      "page": 79,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The prohibition in paragraphs (d)(4)(i) and (d)(4)(ii) do not apply if the acquisition is subject to trade agreements and the offeror certifies that all the offered products are designated country end products or designated country construction material (see part 25).",
+      "normalized": "If the acquisition is subject to trade agreements, offeror must certify that all offered products are designated country end products or construction material for the prohibition exception to apply.",
+      "section_ref": "(d)(4)(iii)",
+      "page": 79,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless an exception applies or the Government grants a waiver, contractors are prohibited from knowingly engaging in any significant transaction (i.e., over $15,000) with Iran’s Revolutionary Guard Corps or any of its officials, agents, or affiliates, the property and interests in property of which are blocked according to the International Emergency Economic Powers Act (section 6(b)(1)(B) of Iran Sanctions Act (50 U.S.C. 1701 note)).",
+      "normalized": "Unless an exception or waiver applies, contractors must not knowingly engage in significant transactions (over $15,000) with Iran's Revolutionary Guard Corps or its officials/agents/affiliates.",
+      "section_ref": "(d)(4)(iv)",
+      "page": 79,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall search for the phrase “FASCSA order” in the System for Award Management (SAM) at https://www.sam.gov to locate applicable FASCSA orders.",
       "normalized": "Contractor shall search SAM for the phrase 'FASCSA order' to locate applicable FASCSA orders.",
-      "section_ref": null,
+      "section_ref": "(e)(2)",
       "page": 80,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The contractor shall conduct a reasonable\ninquiry to determine if there are any prohibited products or services.",
-      "normalized": "Contractor shall conduct a reasonable inquiry to determine if any prohibited products or services exist.",
-      "section_ref": null,
+      "verbatim": "The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services.",
+      "normalized": "Contractor shall conduct a reasonable inquiry to determine if there are prohibited products or services.",
+      "section_ref": "(f)",
       "page": 80,
       "verb": "shall",
       "category": "performance",
@@ -2465,6 +2601,15 @@
       "verbatim": "the Contractor shall promptly make any\nnecessary changes or modifications to remove any product or service\nproduced or provided by a source that this clause prohibits.",
       "normalized": "Contractor shall promptly make any necessary changes or modifications to remove prohibited products/services upon CO notification.",
       "section_ref": null,
+      "page": 80,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For Federal Supply Schedules, Governmentwide acquisition contracts, multi-agency contracts or any other procurement instrument intended for use by multiple agencies, upon notification from the Contracting Officer, during the performance of the contract, the Contractor shall promptly make any necessary changes or modifications to remove any product or service produced or provided by a source that this clause prohibits.",
+      "normalized": "Upon CO notification, during contract performance, contractor shall promptly remove prohibited products/services (applies to FSS, GWACs, multi-agency contracts).",
+      "section_ref": "(g)",
       "page": 80,
       "verb": "shall",
       "category": "performance",
@@ -2535,8 +2680,8 @@
     },
     {
       "verbatim": "If the Contractor identifies a new FASCSA order(s) that could impact their supply chain, then the Contractor shall conduct a reasonable inquiry to identify whether a covered article or product or service produced or provided by a source subject to the FASCSA order(s) was provided to the Government or used during contract performance.",
-      "normalized": "If the Contractor identifies a new FASCSA order that could impact its supply chain, the Contractor must conduct a reasonable inquiry to determine whether a covered article/product/service from a source subject to that order was provided to the Government or used during contract performance.",
-      "section_ref": null,
+      "normalized": "If Contractor identifies a new FASCSA order impacting its supply chain, Contractor shall conduct a reasonable inquiry into whether affected articles/products/services were provided to or used by the Government.",
+      "section_ref": "(i)(2)",
       "page": 83,
       "verb": "conditional",
       "category": "performance",
@@ -2544,8 +2689,8 @@
     },
     {
       "verbatim": "The Contractor shall submit a report to the contracting office identified in paragraph (h)(2) of this clause if the Contractor identifies, including through any notification by a subcontractor at any tier, that a covered article or product or service produced or provided by a source was provided to the Government or used during contract performance and is subject to a FASCSA order(s).",
-      "normalized": "If the Contractor identifies (including via subcontractor notification) that a covered article/product/service was provided to the Government or used during performance and is subject to a FASCSA order, the Contractor must submit a report to the identified contracting office.",
-      "section_ref": null,
+      "normalized": "Contractor shall submit a report to the contracting office if it identifies (including via subcontractor notification) a covered article/product/service subject to a FASCSA order provided to or used by the Government.",
+      "section_ref": "(i)(3)",
       "page": 83,
       "verb": "conditional",
       "category": "performance",
@@ -2553,8 +2698,8 @@
     },
     {
       "verbatim": "The Contractor shall report the following information within 72 hours for each covered article or each product or service produced or provided by a source, where the covered article or source is subject to a FASCSA order:",
-      "normalized": "The Contractor must report specified information within 72 hours for each covered article or product/service from a source subject to a FASCSA order.",
-      "section_ref": null,
+      "normalized": "Contractor shall report specified information within 72 hours for each covered article/product/service subject to a FASCSA order.",
+      "section_ref": "(i)(3)",
       "page": 83,
       "verb": "shall",
       "category": "performance",
@@ -2562,12 +2707,21 @@
     },
     {
       "verbatim": "The Contractor shall insert the substance of this clause, including this paragraph (j) but excluding subparagraphs (d)(1) and (i)(1), in all subcontracts and other contractual instruments, including subcontracts for acquiring commercial products or commercial services.",
-      "normalized": "The Contractor must insert the substance of this clause (excluding subparagraphs (d)(1) and (i)(1)) into all subcontracts and other contractual instruments, including those for commercial products or services.",
-      "section_ref": null,
+      "normalized": "Contractor shall insert the substance of this clause (excluding (d)(1) and (i)(1)) into all subcontracts and contractual instruments.",
+      "section_ref": "(j)",
       "page": 83,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "52.244-6Subcontracts for Commercial Products and Commercial",
+      "normalized": "FAR clause 52.244-6 (Subcontracts for Commercial Products and Commercial Services) incorporated by reference.",
+      "section_ref": "52.244-6",
+      "page": 83,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Within 30 days of contract award, the contractor and its subcontractors\nmust distribute the “Whistleblower Information for Employees of DOJ\nContractors, Subcontractors, Grantees, or Sub-Grantees or Personal\nServices Contractors” (“Whistleblower Information”) document to their\nemployees performing work in support of the products and services\ndelivered under this contract",
@@ -2588,9 +2742,9 @@
       "confidence": "high"
     },
     {
-      "verbatim": "the Contractor\nshall perform all tasks on authorized Government networks, using\nGovernment-furnished IT and other equipment and/or WaaS and Government",
-      "normalized": "Contractor shall perform all tasks on authorized Government networks using Government-furnished IT/equipment or WaaS, except where Contractor networks/equipment are specifically authorized",
-      "section_ref": "DOJ-02",
+      "verbatim": "the Contractor shall perform all tasks on authorized Government networks, using Government-furnished IT and other equipment and/or WaaS and Government",
+      "normalized": "Contractor shall perform all tasks on authorized Government networks using Government-furnished IT/equipment/WaaS, unless contractor use is specifically authorized.",
+      "section_ref": "DOJ-02.A(2)",
       "page": 84,
       "verb": "shall",
       "category": "performance",
@@ -2598,8 +2752,8 @@
     },
     {
       "verbatim": "information shall remain within the confines of authorized Government networks at all times.",
-      "normalized": "Government information must remain within authorized Government networks at all times.",
-      "section_ref": null,
+      "normalized": "Government information shall remain within authorized Government networks at all times.",
+      "section_ref": "DOJ-02.A(2)",
       "page": 85,
       "verb": "shall",
       "category": "performance",
@@ -2607,8 +2761,8 @@
     },
     {
       "verbatim": "Any handling of Government information on Contractor networks or IT must be approved by the Senior Component Official for Privacy of the component entering into this contract.",
-      "normalized": "Contractor must obtain approval from the Senior Component Official for Privacy before handling Government information on Contractor networks or IT.",
-      "section_ref": null,
+      "normalized": "Any handling of Government information on Contractor networks/IT must be approved by the Senior Component Official for Privacy.",
+      "section_ref": "DOJ-02.A(2)",
       "page": 85,
       "verb": "must",
       "category": "performance",
@@ -2634,17 +2788,17 @@
     },
     {
       "verbatim": "The Contractor is required to obtain the Contracting Officer's approval prior to engaging in any contractual relationship (Subcontractor) in support of this contract requiring the disclosure of information, documentary material and/or records generated under or relating to this contract.",
-      "normalized": "Contractor must obtain Contracting Officer approval before entering any subcontractor relationship involving disclosure of contract-related information/records.",
-      "section_ref": null,
+      "normalized": "Contractor is required to obtain CO approval before engaging any subcontractor relationship requiring disclosure of contract-related information/records.",
+      "section_ref": "DOJ-02.A(3)",
       "page": 85,
       "verb": "required",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The Contractor (and any Subcontractor) is required to abide by Government and Agency guidance for protecting sensitive and proprietary information.",
-      "normalized": "Contractor and subcontractors must abide by Government and Agency guidance for protecting sensitive and proprietary information.",
-      "section_ref": null,
+      "normalized": "Contractor and any subcontractor are required to abide by Government/Agency guidance protecting sensitive and proprietary information.",
+      "section_ref": "DOJ-02.A(3)",
       "page": 85,
       "verb": "required",
       "category": "performance",
@@ -2652,29 +2806,29 @@
     },
     {
       "verbatim": "The Contractor shall complete and submit an appropriate separation checklist to the Contracting Officer before any employee or Subcontractor employee terminates working on the contract.",
-      "normalized": "Contractor shall complete and submit a separation checklist to the Contracting Officer before an employee/subcontractor employee terminates work on the contract.",
-      "section_ref": null,
+      "normalized": "Contractor shall complete and submit a separation checklist to the CO before any employee/subcontractor employee terminates work on the contract.",
+      "section_ref": "DOJ-02.A(4)",
       "page": 85,
       "verb": "shall",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The Contractor must submit the separation checklist on or before the last day of employment or work on the contract.",
-      "normalized": "Contractor must submit the separation checklist no later than the employee's last day of employment or work on the contract.",
-      "section_ref": null,
+      "normalized": "Contractor must submit the separation checklist on or before the employee's last day of employment/work.",
+      "section_ref": "DOJ-02.A(4)",
       "page": 85,
       "verb": "must",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The separation checklist must verify: ( 1) return of any Government-furnished equipment; (2) return or proper disposition of personally identifiable information (PI1) [2], in paper or electronic form, in the custody of the employee or Subcontractor employee including the sanitization of data on any computer systems or media as appropriate; and (3) termination of any technological access to the Contractor's facilities or systems that would permit the terminated employee's access to PII or other sensitive information.",
-      "normalized": "The separation checklist must verify return of GFE, proper disposition/sanitization of PII, and termination of technological access for the departing employee.",
-      "section_ref": null,
+      "normalized": "Separation checklist must verify return of GFE, proper disposition/sanitization of PII, and termination of technological access.",
+      "section_ref": "DOJ-02.A(4)",
       "page": 85,
       "verb": "must",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
@@ -2687,9 +2841,36 @@
       "confidence": "review"
     },
     {
+      "verbatim": "Except where remote work is specifically authorized within this contract, the Contractor shall perform all tasks described in this document at authorized Government facilities; the Contractor is prohibited from performing these tasks at or removing Government-furnished information to any other facility; and Government information shall remain within the confines of authorized Government facilities at all times.",
+      "normalized": "Unless remote work is authorized, Contractor shall perform tasks only at authorized Government facilities, is prohibited from performing tasks elsewhere or removing Government-furnished information, and Government information shall remain within authorized facilities at all times.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractors may only access classified materials on government furnished equipment in authorized government owned facilities regardless of remote work authorizations.",
+      "normalized": "Contractors may only access classified materials on government-furnished equipment in authorized government-owned facilities, regardless of remote work authorization.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event of adverse job actions resulting in the dismissal of a Contractor or Subcontractor employee before the separation checklist can be completed, the Prime Contractor must notify the Contracting Officer",
+      "normalized": "Prime Contractor must notify the CO in the event of adverse job action dismissal before the separation checklist is completed.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 85,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Contractors must complete the separation checklist with the Contracting Officer or COR by returning all Government-furnished property including, but not limited to, computer equipment, media, credentials and passports, smart cards, mobile devices, Personal Identity Verification (PIV) cards, calling cards, and keys and terminating access to all user accounts and systems.",
-      "normalized": "Contractor must complete the separation checklist with the CO/COR by returning all Government-furnished property and terminating access to all user accounts and systems.",
-      "section_ref": null,
+      "normalized": "Contractors must complete the separation checklist with the CO/COR by returning all Government-furnished property and terminating access to all accounts/systems.",
+      "section_ref": "DOJ-02.A(4)",
       "page": 86,
       "verb": "must",
       "category": "performance",
@@ -2697,8 +2878,8 @@
     },
     {
       "verbatim": "The Contractor must ensure that all employees take appropriate privacy training, including Subcontractors who have access to PII as well as the creation, use, dissemination and/or destruction of PII at the outset of the employee's work on the contract and every year thereafter.",
-      "normalized": "Contractor must ensure all employees (including subcontractors with PII access) complete privacy training at the outset of work and annually thereafter.",
-      "section_ref": "B.(1)",
+      "normalized": "Contractor must ensure all employees (including subcontractors with PII access) take privacy training at the outset of work and annually thereafter.",
+      "section_ref": "DOJ-02.B(1)",
       "page": 86,
       "verb": "must",
       "category": "performance",
@@ -2706,8 +2887,8 @@
     },
     {
       "verbatim": "Training must include procedures on how to properly handle PII, including heightened security requirements for the transporting or transmission of sensitive PII, and reporting requirements for a suspected breach or loss of PII.",
-      "normalized": "Training must include procedures for handling PII, heightened security requirements for transporting/transmitting sensitive PII, and reporting requirements for suspected breach or loss of PII.",
-      "section_ref": "B.(1)",
+      "normalized": "Required training must include PII handling procedures, heightened security for PII transport/transmission, and breach/loss reporting requirements.",
+      "section_ref": "DOJ-02.B(1)",
       "page": 86,
       "verb": "must",
       "category": "performance",
@@ -2715,17 +2896,17 @@
     },
     {
       "verbatim": "Contractor employees are required to sign the \"Privacy Rules of Behavior,\" acknowledging and agreeing to abide by privacy law, policy, and certain privacy safeguards, prior to accessing DOJ information.",
-      "normalized": "Contractor employees are required to sign the Privacy Rules of Behavior prior to accessing DOJ information.",
-      "section_ref": "B.(1)",
+      "normalized": "Contractor employees are required to sign the Privacy Rules of Behavior before accessing DOJ information.",
+      "section_ref": "DOJ-02.B(1)",
       "page": 86,
       "verb": "required",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The Contractor should maintain copies of certificates as a record of compliance and must submit an email notification annually to the COR verifying that all employees working under this contract have completed the required privacy and cybersecurity training.",
-      "normalized": "Contractor must submit an email notification annually to the COR verifying all employees have completed the required privacy and cybersecurity training.",
-      "section_ref": "B.(1)",
+      "normalized": "Contractor must submit an annual email notification to the COR verifying that all employees completed required privacy and cybersecurity training.",
+      "section_ref": "DOJ-02.B(1)",
       "page": 86,
       "verb": "must",
       "category": "admin",
@@ -2739,6 +2920,96 @@
       "verb": "must",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "In the case the Contractor is unable to notify the Contracting Officer, then the Contractor should notify the Contract Officer's Representative (COR).",
+      "normalized": "If Contractor cannot notify the CO, Contractor should notify the COR instead.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 86,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Federal Information Security Modernization Act of2014 (FISMA) requires all individuals accessing DOJ information to complete training on records management, cybersecurity awareness, and information system privacy awareness.",
+      "normalized": "FISMA requires all individuals accessing DOJ information, including contractor personnel, to complete training on records management, cybersecurity awareness, and privacy awareness.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This requirement flows down from the Prime Contractor to all Subcontractors and lower tiered subcontracts.",
+      "normalized": "The Prime Contractor must flow down the PII safeguarding requirement to all Subcontractors and lower tiered subcontracts.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Prior to commencing work, all Contractor personnel that may have access to PII or other sensitive information shall be required to sign a Non-Disclosure Agreement (NDA) and the DOJ IT Rules of Behavior.",
+      "normalized": "Contractor personnel with access to PII or sensitive information must sign an NDA and the DOJ IT Rules of Behavior before commencing work.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(a) prohibits the Contractor from retaining or divulging any PII or other sensitive information, or derivatives therefrom, furnished by the Government or to which they may otherwise come in contact as a result of their performance of work under the contract/task order that is otherwise not publicly available, whether or not such information has been reduced to writing; and",
+      "normalized": "The Contractor is prohibited from retaining or divulging PII or sensitive information obtained during contract performance.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "b) requires the Contractor to report any loss of control, compromise, unauthorized disclosure, or unauthorized acquisition of PII or other sensitive information to the component-level or headquarters Security Operations Center within one (1) hour of discovery.",
+      "normalized": "The Contractor must report any loss, compromise, or unauthorized disclosure/acquisition of PII to the Security Operations Center within 1 hour of discovery.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor should maintain signed copies of the NDA for all employees as a record of compliance.",
+      "normalized": "The Contractor should maintain signed NDA copies for all employees as a compliance record.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor should also provide copies of each employee's signed NDA to the Contracting Officer before the employee may commence work under the contract/task order.",
+      "normalized": "The Contractor should provide copies of each employee's signed NDA to the Contracting Officer before the employee begins work.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor's invoicing, billing, and other financial or administrative records or databases is not authorized to regularly store or include any sensitive PII or other confidential government information that is created, obtained, or provided during the performance of the contract without the written permission of the Senior Component Official for Privacy (SCOP).",
+      "normalized": "The Contractor must not regularly store or include sensitive PII or confidential government information in invoicing/billing/administrative records without written SCOP permission.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractors must report any actual or suspected breach of PII within one hour of discovery.",
+      "normalized": "Contractors must report any actual or suspected PII breach within one hour of discovery.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "The report of a breach must be made to DOJ.",
@@ -2864,6 +3135,24 @@
       "page": 89,
       "verb": "must",
       "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor should be self-insured to the extent necessary to handle any reasonably foreseeable breach, with another source of income, to fully\ncover the costs of breach response, including but not limited to victim\nremediation.",
+      "normalized": "The Contractor should be self-insured with another income source sufficient to cover breach response costs including victim remediation.",
+      "section_ref": null,
+      "page": 89,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall maintain copies of certificates as a record of compliance and must submit an email notification annually to the COR\nverifying that all employees working under this contract have completed\nthe required records management",
+      "normalized": "The Contractor shall maintain training certificate copies and must submit an annual email notification to the COR verifying employee completion of required records management training.",
+      "section_ref": null,
+      "page": 89,
+      "verb": "shall",
+      "category": "performance",
       "confidence": "review"
     },
     {
@@ -3406,5 +3695,6 @@
       "category": "instruction",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 32
 }

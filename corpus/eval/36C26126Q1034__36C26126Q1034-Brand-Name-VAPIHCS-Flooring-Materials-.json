@@ -18,7 +18,7 @@
   "reviewFlagged": 51,
   "coverage": {
     "verb_occurrences": 203,
-    "captured": 141,
+    "captured": 152,
     "excluded": {
       "definitional": 0,
       "government_actor": 11
@@ -43,18 +43,29 @@
     ],
     "uncaptured_pages": [
       1,
+      10,
+      32,
+      33,
       36,
+      39,
+      40,
+      41,
       43,
+      45,
       50,
+      53,
       54,
+      55,
       64,
+      65,
       66,
       70,
+      71,
       73
     ],
-    "unresolved": 9
+    "unresolved": 31
   },
-  "unresolvedBefore": 62,
+  "unresolvedBefore": 51,
   "sweeperNewRows": 72,
   "sweeperExclusions": [
     {
@@ -2478,5 +2489,6 @@
       "category": "instruction",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 0
 }

@@ -4,10 +4,10 @@
   "model": "claude-sonnet-5",
   "pageCount": 75,
   "chunks": 10,
-  "truncations": 1,
-  "emptyChunks": 1,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 386,
-  "finalRows": 385,
+  "finalRows": 427,
   "duplicatesRemoved": 30,
   "dropped": {
     "total": 10,
@@ -18,7 +18,7 @@
   "reviewFlagged": 73,
   "coverage": {
     "verb_occurrences": 322,
-    "captured": 233,
+    "captured": 270,
     "excluded": {
       "definitional": 0,
       "government_actor": 22
@@ -50,20 +50,28 @@
     ],
     "uncaptured_pages": [
       1,
+      5,
+      6,
       10,
+      18,
       20,
+      21,
+      24,
       25,
       26,
       28,
       30,
+      31,
+      32,
+      43,
       47,
-      57,
+      56,
       64,
       70
     ],
-    "unresolved": 13
+    "unresolved": 30
   },
-  "unresolvedBefore": 89,
+  "unresolvedBefore": 52,
   "sweeperNewRows": 93,
   "sweeperExclusions": [
     {
@@ -3543,6 +3551,96 @@
       "confidence": "high"
     },
     {
+      "verbatim": "The ISO 9001 certification requirement is a minimum Pass/Fail requirement as described in M.1.1. It is not a\ncomparative discriminator among Offerors that satisfy the requirement.",
+      "normalized": "The ISO 9001 certification requirement is evaluated Pass/Fail, not as a comparative discriminator.",
+      "section_ref": "L.5.1",
+      "page": 56,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide one concise engineering-feasibility table showing the proposed or preliminary values and available\nmargins, as applicable, for:\n• Overall dimensions;\n• Gross trailer weight rating;\n• Estimated fully loaded operating weight;\n• Pin weight;\n• Axle loading;\n• Payload;\n• Generator rating;\n• Projected maximum electrical load;\n• HVAC capacity;\n• Projected thermal load;\n• Mast height;\n• Mast head load;\n• Personnel/workstation capacity; and\n• Any other physical or engineering limitation material to the proposed concept.",
+      "normalized": "The Offeror must provide one engineering-feasibility table with proposed/preliminary values and margins for the listed parameters.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify the basis of estimate for preliminary values.",
+      "normalized": "The Offeror must identify the basis of estimate for preliminary values.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Values that cannot reasonably be finalized before post-award design reviews may be identified as preliminary,\nprovided the Offeror explains the basis for the value and why sufficient design margin exists to support\nsuccessful final design.",
+      "normalized": "If a value is identified as preliminary, the Offeror must explain the basis for the value and why sufficient design margin exists.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify any material assumptions, qualifications, exceptions, or dependencies upon which the proposed concept\nrelies, including significant proprietary, supplier, subscription, licensing, or other external dependencies\naffecting the feasibility of the proposed design.",
+      "normalized": "The Offeror must identify any material assumptions, qualifications, exceptions, or dependencies affecting the proposed concept's feasibility.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete the Offeror-response columns of Attachment 3 – Master Requirements Traceability Matrix.",
+      "normalized": "The Offeror must complete the Offeror-response columns of Attachment 3 – Master Requirements Traceability Matrix.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each requirement shall be identified as:\n• Comply;\n• Exception;\n• Not Applicable; or\n• No Response Required, when designated by the Government.",
+      "normalized": "The Offeror shall identify each requirement in the matrix as Comply, Exception, Not Applicable, or No Response Required.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A detailed proposal reference and explanation are required for every Exception or Not Applicable entry and\nfor requirements specifically addressed in this Factor.",
+      "normalized": "The Offeror is required to provide a detailed proposal reference and explanation for every Exception or Not Applicable entry and for requirements specifically addressed in this Factor.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A separate narrative reference is not required for every routine Comply entry.",
+      "normalized": "The Offeror is not required to provide a separate narrative reference for every routine Comply entry.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Offeror’s signed proposal constitutes its commitment that each unqualified Comply entry will be satisfied\nwithin the proposed firm-fixed prices and in accordance with the resulting contract.",
+      "normalized": "By signing the proposal, the Offeror commits that each unqualified Comply entry will be satisfied within the proposed firm-fixed prices and per the resulting contract.",
+      "section_ref": "L.5.2",
+      "page": 57,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The approach shall address, as applicable:",
       "normalized": "Offeror's approach must address the listed items, as applicable.",
       "section_ref": null,
@@ -3559,6 +3657,195 @@
       "verb": "must",
       "category": "instruction",
       "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the Offeror’s approach for progressing from award through written Government approval of an\napproved, production-representative first article.",
+      "normalized": "The Offeror must describe its approach for progressing from award through written Government approval of the first article.",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The approach shall address, as applicable:\n• Requirements validation;\n• Concept Design Review;\n• Preliminary Design Review;\n• Digital model or physical mockup review, when ordered;\n• Critical Design Review;\n• Establishment of the final configuration baseline;\n• First-article fabrication and integration;\n• Verification and testing;\n• Deficiency correction;\n• Retesting or regression testing; and\n• Written Government approval of the first article.",
+      "normalized": "The Offeror's approach shall address the listed design-build and first-article execution elements.",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide one integrated schedule showing, at a minimum:\n• Major design and review events;\n• Government review periods;\n• Major long-lead decisions or procurements;\n• First-article fabrication and integration;\n• Testing and correction periods; and\n• Proposed first-article delivery date.",
+      "normalized": "The Offeror must provide one integrated schedule showing at minimum the listed events and dates.",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Explain how the FBI will participate in the design-review process and select among compliant alternatives\nwhile the Contractor retains responsibility for the design and its firm-fixed-price performance obligations.",
+      "normalized": "The Offeror must explain how the FBI will participate in design reviews while the Contractor retains design and firm-fixed-price performance responsibility.",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Address:\n• Government design reviews;\n• Consolidation and resolution of Government comments;\n• Included review cycles;\n• Comment adjudication;\n• Configuration control;\n• Engineering changes;\n• GFE/GFI integration;\n• Contractor correction of nonconforming or noncompliant work;\n• Design refinement included within the firm-fixed price; and\n• Government-directed changes requiring authorization by the Contracting Officer.",
+      "normalized": "The Offeror must address the listed government-participation and design-responsibility topics.",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the vehicle-specific quality and verification approach, including:\n• Development and maintenance of the vehicle-specific quality plan;\n• In-process inspection;",
+      "normalized": "The Offeror must describe the vehicle-specific quality and verification approach, including the listed elements (list continues onto next page).",
+      "section_ref": "L.5.3",
+      "page": 58,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Clearly identify how the Offeror will maintain responsibility and control over work performed by\nsubcontractors and suppliers, including quality control and integration of their work into the final vehicle.",
+      "normalized": "The Offeror must clearly identify how it will maintain responsibility and control over subcontractor/supplier work, including quality control and integration.",
+      "section_ref": "L.5.3",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the facilities, workforce, engineering, manufacturing, integration, quality, test, supplier, and\nmanagement resources the Offeror intends to use for this requirement.",
+      "normalized": "The Offeror must describe the facilities, workforce, and other resources it intends to use for the requirement.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Clearly distinguish work to be performed:\n• By the prime Contractor;\n• By major subcontractors;\n• By principal suppliers; and\n• At other proposed facilities.",
+      "normalized": "The Offeror must clearly distinguish work to be performed by the prime, major subcontractors, principal suppliers, and other facilities.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Address:\n• Resources and capacity expected to be available for first-article performance;\n• Current workload that may materially affect first-article performance;\n• In-house and subcontracted capabilities;\n• Allocation of responsibilities among team members;\n• Critical and long-lead suppliers;\n• Significant single-source dependencies;\n• Alternate sources or contingency approaches when reasonably available; and\n• The approach for scaling production if follow-on trailers are ordered.",
+      "normalized": "The Offeror must address the listed production and lifecycle-support capability topics.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror is not required to demonstrate that dedicated production capacity for all potential follow-on\ntrailers is presently reserved or idle.",
+      "normalized": "The Offeror is not required to demonstrate presently reserved/idle dedicated production capacity for follow-on trailers.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Instead, demonstrate a credible approach for:\n1. Successfully producing the first article; and\n2. If ordered, scaling production to up to twelve additional production trailers while maintaining the\napproved configuration, schedule, quality, traceability, and required vehicle-specific records.",
+      "normalized": "The Offeror must demonstrate a credible approach for producing the first article and, if ordered, scaling to up to twelve additional trailers while maintaining configuration, schedule, quality, and traceability.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify the following proposed key functions in one concise table:\n• Program Manager;\n• Lead design or systems engineer;\n• Quality lead; and",
+      "normalized": "The Offeror must identify the proposed key personnel functions (Program Manager, lead design/systems engineer, quality lead, and manufacturing/production lead) in one table.",
+      "section_ref": "L.5.4",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For each, identify:\n• Individual’s name, if known;\n• Proposed role;\n• Decision-making authority;\n• Relevant experience; and\n• Expected availability.",
+      "normalized": "For each key person, the Offeror must identify name (if known), role, decision-making authority, relevant experience, and expected availability.",
+      "section_ref": "L.5.4",
+      "page": 60,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Full resumes are not required.",
+      "normalized": "The Offeror is not required to submit full resumes for key personnel.",
+      "section_ref": "L.5.4",
+      "page": 60,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the proposed warranty and nationwide support approach, including, as applicable:\n• Warranty administration;\n• Response and repair procedures;\n• Service locations or authorized service partners;\n• Field support;\n• Parts availability;\n• Software and configuration turnover;\n• Technical-data and documentation turnover;\n• Licenses and credentials required for Government use or maintenance;\n• Recurring fees or subscriptions;\n• Proprietary restrictions;\n• Obsolescence-management approach; and\n• Supportability over the expected fifteen-year service life.",
+      "normalized": "The Offeror must describe its proposed warranty and nationwide support approach covering the listed elements.",
+      "section_ref": "L.5.4",
+      "page": 60,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify any aspect of the proposed solution that depends upon:\n• A recurring commercial subscription;\n• Continued third-party hosting;\n• Proprietary software or diagnostic tools;\n• Contractor-controlled credentials;\n• Sole-source replacement parts;\n• Remote contractor access; or\n• Any other external dependency necessary to operate, maintain, repair, or support the proposed vehicle.",
+      "normalized": "The Offeror must identify any aspect of the proposed solution depending on the listed external dependencies.",
+      "section_ref": "L.5.4",
+      "page": 60,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For each material dependency, describe the nature of the dependency and the Offeror’s proposed approach for\nmaintaining Government access to, or supportability of, the vehicle over its expected service life.",
+      "normalized": "For each material dependency, the Offeror must describe the dependency's nature and its approach for maintaining Government access/supportability over the vehicle's service life.",
+      "section_ref": "L.5.4",
+      "page": 60,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit not more than three (3) recent projects performed by the Offeror or a proposed major subcontractor.",
+      "normalized": "The Offeror must submit not more than three recent projects performed by the Offeror or a proposed major subcontractor.",
+      "section_ref": "L.6",
+      "page": 60,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For each project, identify:\n• Performing entity;\n• Performing entity’s role;\n• Approximate percentage or portion of the project performed by that entity;\n• Customer;\n• Contract or project number, if applicable;\n• Period of performance;\n• Contract or project value;\n• Scope;\n• Magnitude and complexity;\n• Vehicle or system quantity, when applicable;\n• First-article, developmental, or production content;\n• Principal technical results;\n• Warranty/support responsibilities;\n• Known adverse performance information relevant to Government evaluation; and\n• Customer point of contact, email address, and telephone number, if available.",
+      "normalized": "For each submitted project, the Offeror must identify the listed project information elements.",
+      "section_ref": "L.6",
+      "page": 61,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Projects completed within six (6) years before the proposal due date, or ongoing projects with at least one year\nof performance, will normally be considered recent.",
+      "normalized": "Projects completed within six years before the proposal due date, or ongoing projects with at least one year of performance, will normally be considered recent for evaluation purposes.",
+      "section_ref": "L.6",
+      "page": 61,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
     },
     {
       "verbatim": "Submit a completed Attachment 4 – Price Template in native Microsoft Excel format.",
@@ -3624,6 +3911,24 @@
       "confidence": "high"
     },
     {
+      "verbatim": "A separate price explanation is required only when necessary to explain:\n• A zero-dollar entry;\n• An item priced within another line;\n• An unusual escalation or discount;\n• A recurring fee or subscription;\n• A license or externally hosted service;\n• An exception or qualification affecting price; or\n• Another matter not reasonably apparent from the Price Template.",
+      "normalized": "Offeror is required to provide a separate price explanation when necessary to explain specific listed pricing conditions.",
+      "section_ref": "L.7",
+      "page": 62,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Silence does not reserve a right to take exception to a solicitation requirement after award.",
+      "normalized": "Offeror's silence on a requirement does not reserve a right to take exception after award.",
+      "section_ref": "L.8",
+      "page": 62,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Offerors are responsible for obtaining and acknowledging all solicitation amendments.",
       "normalized": "Offerors must obtain and acknowledge all solicitation amendments.",
       "section_ref": "L.9",
@@ -3648,6 +3953,87 @@
       "page": 63,
       "verb": "required",
       "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An Offeror’s failure to identify a qualification or dependency does not relieve the resultant Contractor from satisfying the contract requirements within the awarded firm-fixed prices.",
+      "normalized": "Failure by the Offeror to identify a qualification or dependency does not relieve the Contractor from satisfying contract requirements within the awarded firm-fixed prices.",
+      "section_ref": "L.8",
+      "page": 63,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A material exception to a solicitation requirement may render a proposal unacceptable and ineligible for award.",
+      "normalized": "A material exception to a solicitation requirement may render the Offeror's proposal unacceptable and ineligible for award.",
+      "section_ref": "L.8",
+      "page": 63,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Questions submitted in another format may not be answered.",
+      "normalized": "Questions submitted in a format other than Attachment 5 may not be answered.",
+      "section_ref": "L.9",
+      "page": 63,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A materially incomplete, inaccessible, unsigned, late, or otherwise nonconforming proposal may be rejected or may require clarification or discussions, as appropriate and at the Government’s discretion.",
+      "normalized": "A materially incomplete, inaccessible, unsigned, late, or otherwise nonconforming proposal may be rejected by the Government.",
+      "section_ref": "M.1",
+      "page": 64,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For an Offeror that is other than a small business concern and is required to submit a subcontracting plan, the Government will review the Small Business Subcontracting Plan for acceptability in accordance with FAR 52.219-9 and FAR Subpart 19.7.",
+      "normalized": "An Offeror that is other than a small business concern and is required to submit a subcontracting plan must have it reviewed for acceptability under FAR 52.219-9 and FAR Subpart 19.7.",
+      "section_ref": "M.1",
+      "page": 64,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Failure to submit and negotiate an acceptable subcontracting plan when required will make the Offeror ineligible for award.",
+      "normalized": "Failure to submit and negotiate an acceptable subcontracting plan when required will make the Offeror ineligible for award.",
+      "section_ref": "M.1",
+      "page": 64,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A subcontracting plan is not required from a small business concern.",
+      "normalized": "A small business concern is not required to submit a subcontracting plan.",
+      "section_ref": "M.1",
+      "page": 64,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government may reject a proposal that:\n• Takes a material exception to the solicitation;\n• Fails a mandatory Pass/Fail requirement;\n• Presents an infeasible or unreasonably high-risk approach;\n• Fails to substantiate compliance with a material requirement; or\n• Contains a price, assumption, qualification, or external dependency inconsistent with the proposed\ntechnical approach.",
+      "normalized": "The Government may reject a proposal that takes a material exception, fails a Pass/Fail requirement, presents an infeasible/high-risk approach, fails to substantiate compliance, or contains inconsistent pricing/assumptions/dependencies.",
+      "section_ref": "M.2",
+      "page": 65,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An Offeror that does not satisfy the ISO 9001 requirement will be rated Unacceptable under Factor 1 and will not be eligible for award.",
+      "normalized": "An Offeror that does not satisfy the ISO 9001 requirement will be rated Unacceptable under Factor 1 and will not be eligible for award.",
+      "section_ref": "M.3",
+      "page": 65,
+      "verb": "declaration",
+      "category": "evaluation",
       "confidence": "high"
     },
     {
@@ -3677,5 +4063,6 @@
       "category": "evaluation",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 42
 }

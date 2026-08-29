@@ -18,7 +18,7 @@
   "reviewFlagged": 22,
   "coverage": {
     "verb_occurrences": 94,
-    "captured": 80,
+    "captured": 83,
     "excluded": {
       "definitional": 1,
       "government_actor": 6
@@ -31,15 +31,16 @@
     ],
     "uncaptured_pages": [
       5,
+      6,
       7,
       8,
       14,
       19,
       22
     ],
-    "unresolved": 6
+    "unresolved": 9
   },
-  "unresolvedBefore": 14,
+  "unresolvedBefore": 11,
   "sweeperNewRows": 9,
   "sweeperExclusions": [
     {
@@ -1256,5 +1257,6 @@
       "category": "admin",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 0
 }

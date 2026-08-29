@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 342,
   "chunks": 40,
-  "truncations": 4,
-  "emptyChunks": 4,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 883,
-  "finalRows": 945,
+  "finalRows": 1008,
   "duplicatesRemoved": 90,
   "dropped": {
-    "total": 41,
-    "verbatimNotFound": 39,
+    "total": 44,
+    "verbatimNotFound": 42,
     "pageOutOfRange": 0,
     "invalidShape": 2
   },
   "reviewFlagged": 257,
   "coverage": {
     "verb_occurrences": 858,
-    "captured": 461,
+    "captured": 622,
     "excluded": {
       "definitional": 4,
       "government_actor": 101
@@ -101,6 +101,7 @@
       289,
       290,
       291,
+      292,
       294,
       306,
       308,
@@ -113,34 +114,46 @@
     "uncaptured_pages": [
       1,
       5,
+      10,
       14,
       16,
+      21,
       22,
       27,
       28,
       32,
+      33,
+      34,
       36,
       55,
       56,
       63,
       68,
       73,
+      83,
+      93,
+      96,
       97,
       98,
-      99,
       101,
       104,
+      106,
+      107,
       108,
       112,
+      113,
       116,
       117,
       120,
       121,
+      123,
+      124,
       125,
       126,
       130,
       131,
-      134,
+      133,
+      136,
       137,
       142,
       160,
@@ -156,43 +169,58 @@
       181,
       184,
       188,
+      189,
       198,
       200,
+      202,
       208,
       209,
       211,
       212,
       220,
       238,
+      239,
       240,
+      241,
       246,
+      248,
       255,
       258,
       259,
       260,
+      262,
       266,
       268,
       269,
+      270,
       280,
       283,
-      292,
+      284,
+      286,
+      287,
+      288,
+      289,
+      290,
       293,
       303,
       305,
+      308,
       312,
       313,
       315,
       319,
+      320,
       321,
       322,
+      325,
       337,
       339,
       340
     ],
-    "unresolved": 85
+    "unresolved": 146
   },
-  "unresolvedBefore": 397,
-  "sweeperNewRows": 295,
+  "unresolvedBefore": 236,
+  "sweeperNewRows": 296,
   "sweeperExclusions": [
     {
       "page": 154,
@@ -872,6 +900,11 @@
     {
       "page": 34,
       "quote": "The Government shall retain the following options, in regard to the requirements of an order under this contract:",
+      "rule": "government-actor"
+    },
+    {
+      "page": 292,
+      "quote": "For government contracts, this representative shall be the contracting officer or their designated representative",
       "rule": "government-actor"
     }
   ],
@@ -2974,6 +3007,42 @@
       "confidence": "high"
     },
     {
+      "verbatim": "(1) Services (except construction), it will not pay more than 50 percent of the amount paid by\nthe Government for contract performance to subcontractors that are not similarly situated\nentities. Any work that a similarly situated entity further subcontracts will count towards the\nprime contractor's 50 percent subcontract amount that cannot be exceeded. When a contract\nincludes both services and supplies, the 50 percent limitation shall apply only to the service\nportion of the contract;",
+      "normalized": "For services (except construction) contracts, Contractor will not pay more than 50% of Government-paid contract performance amount to non-similarly-situated subcontractors; further-subcontracted work by similarly situated entities counts toward this 50% cap which cannot be exceeded, and on mixed contracts the 50% limit applies only to the service portion.",
+      "section_ref": "52.219-14(e)(1)",
+      "page": 99,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Supplies (other than procurement from a nonmanufacturer of such supplies), it will not pay\nmore than 50 percent of the amount paid by the Government for contract performance,\nexcluding the cost of materials, to subcontractors that are not similarly situated entities. Any\nwork that a similarly situated entity further subcontracts will count towards the prime contractor's\n50 percent subcontract amount that cannot be exceeded. When a contract includes both\nsupplies and services, the 50 percent limitation shall apply only to the supply portion of the\ncontract;",
+      "normalized": "For supplies contracts (non-nonmanufacturer), Contractor will not pay more than 50% (excluding material costs) of Government-paid amount to non-similarly-situated subcontractors; the cap cannot be exceeded and on mixed contracts applies only to the supply portion.",
+      "section_ref": "52.219-14(e)(2)",
+      "page": 99,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) General construction, it will not pay more than 85 percent of the amount paid by the\nGovernment for contract performance, excluding the cost of materials, to subcontractors that\nare not similarly situated entities. Any work that a similarly situated entity further subcontracts\nwill count towards the prime contractor's 85 percent subcontract amount that cannot be\nexceeded; or",
+      "normalized": "For general construction contracts, Contractor will not pay more than 85% (excluding material costs) of Government-paid amount to non-similarly-situated subcontractors; cap cannot be exceeded.",
+      "section_ref": "52.219-14(e)(3)",
+      "page": 99,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(f) The Contractor shall comply with the limitations on subcontracting as follows:",
+      "normalized": "Contractor shall comply with the limitations on subcontracting per the (unmarked) timing options specified.",
+      "section_ref": "52.219-14(f)",
+      "page": 99,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "the small business protégé shall perform at least 40 percent of the work performed by the joint venture.",
       "normalized": "The small business protégé in an approved mentor-protégé joint venture must perform at least 40 percent of the work performed by the joint venture.",
       "section_ref": "52.219-14",
@@ -2983,13 +3052,13 @@
       "confidence": "review"
     },
     {
-      "verbatim": "Work performed by the small business protégé in the joint venture must be more than administrative functions.",
-      "normalized": "Work performed by the small business protégé in the joint venture must exceed administrative functions.",
-      "section_ref": "52.219-14",
+      "verbatim": "Work performed by the small business protégé in the\njoint venture must be more than administrative functions.",
+      "normalized": "Work performed by the small business protégé in the joint venture must be more than administrative functions.",
+      "section_ref": "52.219-14(g)(1)",
       "page": 100,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "the 8(a) participant(s) shall perform at least 40 percent of the work performed by the joint venture.",
@@ -3001,13 +3070,40 @@
       "confidence": "review"
     },
     {
-      "verbatim": "Work performed by the 8(a) participants in the joint venture must be more than administrative functions.",
-      "normalized": "Work performed by the 8(a) participants in the joint venture must exceed administrative functions.",
-      "section_ref": "52.219-14",
+      "verbatim": "Work performed by the 8(a) participants in the joint venture must\nbe more than administrative functions.",
+      "normalized": "Work performed by the 8(a) participants in the joint venture must be more than administrative functions.",
+      "section_ref": "52.219-14(g)(2)",
       "page": 100,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(g) A joint venture agrees that, in the performance of the contract, the applicable percentage\nspecified in paragraph (e) of this clause will be performed by the aggregate of the joint venture\nparticipants.",
+      "normalized": "If Contractor is a joint venture, the applicable subcontracting-limitation percentage will be performed by the aggregate of joint venture participants.",
+      "section_ref": "52.219-14(g)",
+      "page": 100,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) In a joint venture comprised of a small business protégé and its mentor approved by the\nSmall Business Administration, the small business protégé shall perform at least 40 percent of\nthe work performed by the joint venture.",
+      "normalized": "In an SBA-approved mentor-protégé joint venture, the small business protégé shall perform at least 40% of the work performed by the joint venture.",
+      "section_ref": "52.219-14(g)(1)",
+      "page": 100,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the work\nperformed by the joint venture.",
+      "normalized": "In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40% of the work performed by the joint venture.",
+      "section_ref": "52.219-14(g)(2)",
+      "page": 100,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "When a contract includes both services and supplies, the 50 percent limitation shall apply only to the service portion of the contract.",
@@ -3019,9 +3115,54 @@
       "confidence": "review"
     },
     {
+      "verbatim": "(1) Services (except construction), it will not pay more than 50 percent of the amount paid by\nthe Government for contract performance, excluding certain other direct costs and certain work\nperformed outside the United States (see paragraph (e)(1)(i)), to subcontractors that are not\nsimilarly situated entities. Any work that a similarly situated entity further subcontracts will count\ntowards the prime contractor’s 50 percent subcontract amount that cannot be exceeded. When\na contract includes both services and supplies, the 50 percent limitation shall apply only to the\nservice portion of the contract. The following services may be excluded from the 50 percent\nlimitation:",
+      "normalized": "For services (except construction) contracts, Contractor will not pay more than 50% of Government-paid amount (with stated exclusions) to non-similarly-situated subcontractors; cap cannot be exceeded, applies only to service portion on mixed contracts, and certain services may be excluded from the 50% limitation.",
+      "section_ref": "52.219-14 (Dev 2021-O0008)(e)(1)",
+      "page": 102,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Other direct costs, to the extent they are not the principal purpose of the acquisition and\nsmall business concerns do not provide the service. Examples include airline travel, work\nperformed by a transportation or disposal entity under a contract assigned the environmental\nremediation NAICS code 562910), cloud computing services, or mass media purchases.",
+      "normalized": "Certain other direct costs (e.g., airline travel, NAICS 562910 transportation/disposal, cloud computing, mass media) may be excluded from the 50% subcontracting limitation if not the acquisition's principal purpose and not provided by small businesses.",
+      "section_ref": "52.219-14 (Dev 2021-O0008)(e)(1)(i)",
+      "page": 102,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(ii) Work performed outside the United States on awards made pursuant to the Foreign\nAssistance Act of 1961, or work performed outside the United States required to be performed\nby a local contractor.",
+      "normalized": "Work performed outside the U.S. under the Foreign Assistance Act of 1961, or work required to be performed by a local contractor outside the U.S., may be excluded from the 50% limitation.",
+      "section_ref": "52.219-14 (Dev 2021-O0008)(e)(1)(ii)",
+      "page": 102,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(2) Supplies (other than procurement from a nonmanufacturer of such supplies), it will not pay\nmore than 50 percent of the amount paid by the Government for contract performance,\nexcluding the cost of materials, to subcontractors that are not similarly situated entities. Any\nwork that a similarly situated entity further subcontracts will count towards the prime contractor’s\n50 percent subcontract amount that cannot be exceeded. When a contract includes both\nsupplies and services, the 50 percent limitation shall apply only to the supply portion of the\ncontract;",
+      "normalized": "For supplies contracts (non-nonmanufacturer), Contractor will not pay more than 50% (excluding material costs) of Government-paid amount to non-similarly-situated subcontractors; cap cannot be exceeded and applies only to supply portion on mixed contracts.",
+      "section_ref": "52.219-14 (Dev 2021-O0008)(e)(2)",
+      "page": 102,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) General construction, it will not pay more than 85 percent of the amount paid by the\nGovernment for contract performance, excluding the cost of materials, to subcontractors that\nare not similarly situated entities. Any work that a similarly situated entity further subcontracts\nwill count towards the prime contractor’s 85 percent subcontract amount that cannot be\nexceeded; or",
+      "normalized": "For general construction contracts, Contractor will not pay more than 85% (excluding material costs) of Government-paid amount to non-similarly-situated subcontractors; cap cannot be exceeded.",
+      "section_ref": "52.219-14 (Dev 2021-O0008)(e)(3)",
+      "page": 102,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The Contractor shall comply with the limitations on subcontracting as follows:",
-      "normalized": "The Contractor shall comply with the limitations on subcontracting as specified in the clause.",
-      "section_ref": null,
+      "normalized": "The Contractor shall comply with the limitations on subcontracting as specified.",
+      "section_ref": "52.219-14(f)",
       "page": 103,
       "verb": "shall",
       "category": "performance",
@@ -3029,17 +3170,17 @@
     },
     {
       "verbatim": "In a joint venture comprised of a small business protégé and its mentor approved by the\nSmall Business Administration, the small business protégé shall perform at least 40 percent of\nthe work performed by the joint venture.",
-      "normalized": "In an SBA-approved mentor-protégé joint venture, the small business protégé shall perform at least 40 percent of the work performed by the joint venture.",
-      "section_ref": null,
+      "normalized": "If the joint venture comprises an SBA-approved protégé and mentor, the protégé shall perform at least 40 percent of the joint venture's work.",
+      "section_ref": "52.219-14(g)(1)",
       "page": 103,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Work performed by the small business protégé in the\njoint venture must be more than administrative functions.",
-      "normalized": "The small business protégé's work in the joint venture must be more than administrative functions.",
-      "section_ref": null,
+      "verbatim": "Work performed by the small business protégé in the joint venture must be more than\nadministrative functions.",
+      "normalized": "The protégé's work in the joint venture must be more than administrative functions.",
+      "section_ref": "52.219-14(g)(1)",
       "page": 103,
       "verb": "must",
       "category": "performance",
@@ -3047,20 +3188,47 @@
     },
     {
       "verbatim": "In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the work\nperformed by the joint venture.",
-      "normalized": "In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the work performed by the joint venture.",
-      "section_ref": null,
+      "normalized": "In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the joint venture's work.",
+      "section_ref": "52.219-14(g)(2)",
       "page": 103,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Work performed by the 8(a) participants in the joint venture must\nbe more than administrative functions.",
+      "verbatim": "Work performed by the 8(a) participants in the joint venture must be more than\nadministrative functions.",
       "normalized": "The 8(a) participants' work in the joint venture must be more than administrative functions.",
-      "section_ref": null,
+      "section_ref": "52.219-14(g)(2)",
       "page": 103,
       "verb": "must",
       "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For orders, in accordance with paragraphs (c)(4) and (5) of this clause, by the end of the\nperformance period for the order.",
+      "normalized": "For orders, the Contractor must meet the subcontracting limitation by the end of the performance period for the order.",
+      "section_ref": "52.219-14(f)(2)",
+      "page": 103,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "A joint venture agrees that, in the performance of the contract, the applicable percentage\nspecified in paragraph (e) of this clause will be performed by the aggregate of the joint venture\nparticipants.",
+      "normalized": "The joint venture will perform the applicable percentage of work as an aggregate of its participants.",
+      "section_ref": "52.219-14(g)",
+      "page": 103,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor represents its small business size status for each one of the NAICS codes\nassigned to this contract.",
+      "normalized": "The Contractor must represent its small business size status for each assigned NAICS code.",
+      "section_ref": "52.219-28 Alternate I (g)(1)",
+      "page": 104,
+      "verb": "declaration",
+      "category": "admin",
       "confidence": "high"
     },
     {
@@ -3074,37 +3242,109 @@
     },
     {
       "verbatim": "The Contractor shall rerepresent its size status in accordance with the size standard in effect\nat the time of this rerepresentation that corresponds to the North American Industry\nClassification System (NAICS) code(s) assigned to this contract.",
-      "normalized": "The Contractor must rerepresent its size status in accordance with the size standard in effect at the time of rerepresentation corresponding to the assigned NAICS code(s).",
-      "section_ref": null,
+      "normalized": "The Contractor shall rerepresent its size status using the size standard in effect at the time of rerepresentation for the assigned NAICS code(s).",
+      "section_ref": "52.219-28(c)",
       "page": 105,
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "Except as provided in paragraph (g) of this clause, the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM) and its other data in SAM, as necessary, to ensure that they reflect the Contractor's current status.",
-      "normalized": "The Contractor shall validate/update its SAM representations and other SAM data to reflect current status, except as provided in paragraph (g).",
-      "section_ref": null,
+      "verbatim": "If the Contractor represented that it was a small business concern, a small disadvantaged\nbusiness concern, or a joint venture that was any of the small business concerns identified in\n19.000(a)(3) prior to award of this contract, the Contractor shall rerepresent its size and\nsocioeconomic status according to paragraph (e) of this clause or, if applicable, paragraph (g)\nof this clause, upon occurrence of any of the following:",
+      "normalized": "If the Contractor represented itself as a small/disadvantaged business or qualifying joint venture prior to award, it shall rerepresent its size/socioeconomic status per paragraph (e) or (g) upon specified triggering events.",
+      "section_ref": "52.219-28(b)",
+      "page": 105,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 30 days after execution of a novation agreement or within 30 days after modification\nof the contract to include this clause, if the novation agreement was executed prior to inclusion\nof this clause in the contract.",
+      "normalized": "The Contractor must rerepresent within 30 days after execution of a novation agreement (or 30 days after clause inclusion if earlier).",
+      "section_ref": "52.219-28(b)(1)",
+      "page": 105,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 30 days after a merger or acquisition that does not require a novation or within 30\ndays after modification of the contract to include this clause, if the merger or acquisition\noccurred prior to inclusion of this clause in the contract.",
+      "normalized": "The Contractor must rerepresent within 30 days after a merger/acquisition not requiring novation (or 30 days after clause inclusion if earlier).",
+      "section_ref": "52.219-28(b)(2)",
+      "page": 105,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 60 to 120 days prior to the end of the fifth year of the contract; and",
+      "normalized": "For long-term contracts, the Contractor must rerepresent within 60 to 120 days prior to the end of the fifth year of the contract.",
+      "section_ref": "52.219-28(b)(3)(i)",
+      "page": 105,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 60 to 120 days prior to the date specified in the contract for exercising any option\nthereafter.",
+      "normalized": "For long-term contracts, the Contractor must rerepresent within 60 to 120 days prior to each subsequent option exercise date.",
+      "section_ref": "52.219-28(b)(3)(ii)",
+      "page": 105,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Except as provided in paragraph (g) of this clause, the Contractor shall make the\nrepresentation(s) required by paragraph (b) of this clause by validating or updating all its\nrepresentations in the Representations and Certifications section of the System for Award\nManagement (SAM) and its other data in SAM, as necessary, to ensure that they reflect the\nContractor's current status.",
+      "normalized": "Unless paragraph (g) applies, the Contractor shall make required rerepresentations by validating/updating its SAM Representations and Certifications and other SAM data.",
+      "section_ref": "52.219-28(e)",
       "page": 106,
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "The Contractor shall notify the contracting officer in writing within the timeframes specified in paragraph (b) of this clause, that the data have been validated or updated, and provide the date of the validation or update.",
-      "normalized": "The Contractor shall notify the contracting officer in writing, within the timeframes in paragraph (b), that SAM data have been validated/updated and provide the date.",
-      "section_ref": null,
+      "verbatim": "The Contractor shall notify the contracting officer in writing within the timeframes specified\nin paragraph (b) of this clause, that the data have been validated or updated, and provide the\ndate of the validation or update.",
+      "normalized": "The Contractor shall notify the contracting officer in writing, within the paragraph (b) timeframes, that SAM data have been validated/updated and provide the date.",
+      "section_ref": "52.219-28(e)",
       "page": 106,
       "verb": "shall",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "If the Contractor does not have representations and certifications in SAM, or does not have a representation in SAM for the NAICS code applicable to this contract, the Contractor is required to complete the following rerepresentation and submit it to the contracting office, along with the contract number and the date on which the rerepresentation was completed:",
-      "normalized": "If the Contractor lacks SAM representations/certifications or a NAICS-specific representation, it must complete and submit the rerepresentation with contract number and completion date.",
-      "section_ref": null,
+      "verbatim": "If the Contractor does not have representations and certifications in SAM, or does not have\na representation in SAM for the NAICS code applicable to this contract, the Contractor is\nrequired to complete the following rerepresentation and submit it to the contracting office, along\nwith the contract number and the date on which the rerepresentation was completed:",
+      "normalized": "If the Contractor lacks SAM representations/certifications for the applicable NAICS code, it is required to complete and submit the rerepresentation with contract number and completion date.",
+      "section_ref": "52.219-28(g)",
       "page": 106,
       "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "[Complete only if the Contractor represented itself as a small business concern in paragraph\n(g)(1) of this clause.] The Contractor represents that it [ ] is, [ ] is not, a small disadvantaged\nbusiness concern as defined in 13 CFR 124.1001.",
+      "normalized": "If the Contractor represented itself as a small business concern under (g)(1), it must represent whether it is a small disadvantaged business concern.",
+      "section_ref": "52.219-28(g)(2)",
+      "page": 106,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor represents that it [ ] is, [ ] is not a joint venture that complies with the\nrequirements of 13 CFR 127.506(a) through (c).",
+      "normalized": "The Contractor must represent whether it is a WOSB joint venture complying with 13 CFR 127.506(a)-(c).",
+      "section_ref": "52.219-28(g)(3)",
+      "page": 106,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor represents that it [ ] is, [ ] is not a small business concern under ____NAICS\nCode assigned to ____contract number.",
+      "normalized": "The Contractor must represent whether it is a small business concern under the specified NAICS code and contract number.",
+      "section_ref": "52.219-28(g)(1)",
+      "page": 106,
+      "verb": "declaration",
       "category": "admin",
       "confidence": "high"
     },
@@ -3766,6 +4006,15 @@
       "confidence": "review"
     },
     {
+      "verbatim": "If the Contractor furnishes its own materials that meet the definition of a commercial product\nor commercial service in Federal Acquisition Regulation (FAR) 2.101, the price to be paid for\nsuch materials shall not exceed the Contractor's established catalog or market price, adjusted\nto reflect the-\n(i) Quantities being acquired; and\n(ii) Actual cost of any modifications necessary because of contract requirements.",
+      "normalized": "If Contractor furnishes its own commercial materials, the price charged shall not exceed its established catalog or market price, adjusted for quantities and modification costs.",
+      "section_ref": null,
+      "page": 131,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "To the extent able, the Contractor shall-\n(i) Obtain materials at the most advantageous prices available with due regard to securing\nprompt delivery of satisfactory materials; and\n(ii) Take all cash and trade discounts, rebates, allowances, credits, salvage, commissions, and\nother benefits.",
       "normalized": "The Contractor shall, to the extent able, obtain materials at the most advantageous prices with due regard to prompt delivery, and take all available cash/trade discounts, rebates, allowances, credits, salvage, commissions, and other benefits.",
       "section_ref": null,
@@ -3811,6 +4060,15 @@
       "confidence": "review"
     },
     {
+      "verbatim": "If the Contractor enters into any subcontract that requires consent under the clause at\n52.244-2, Subcontracts, without obtaining such consent, the Government is not required to\nreimburse the Contractor for any costs incurred under the subcontract prior to the date the\nContractor obtains the required consent.",
+      "normalized": "If Contractor enters a subcontract requiring consent without obtaining it, Government is not required to reimburse costs incurred before consent is obtained.",
+      "section_ref": null,
+      "page": 132,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "If at any time the Contractor has reason to believe that\nthe hourly rate payments and material costs that will accrue in performing this contract in the\nnext succeeding 30 days, if added to all other payments and costs previously accrued, will\nexceed 85 percent of the ceiling price in the Schedule, the Contractor shall notify the\nContracting Officer giving a revised estimate of the total price to the Government for performing\nthis contract with supporting reasons and documentation.",
       "normalized": "If projected costs will exceed 85% of the ceiling price, the Contractor must notify the Contracting Officer with a revised price estimate and supporting documentation.",
       "section_ref": null,
@@ -3847,6 +4105,42 @@
       "confidence": "review"
     },
     {
+      "verbatim": "The Government will not be obligated to pay the Contractor any amount in excess of\nthe ceiling price in the Schedule, and the Contractor shall not be obligated to continue\nperformance if to do so would exceed the ceiling price set forth in the Schedule, unless and until\nthe Contracting Officer notifies the Contractor in writing that the ceiling price has been\nincreased and specifies in the notice a revised ceiling that shall constitute the ceiling price for\nperformance under this contract.",
+      "normalized": "Contractor is not obligated to continue performance beyond the ceiling price unless the Contracting Officer notifies it in writing of an increased ceiling.",
+      "section_ref": null,
+      "page": 133,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "When and to the extent that the ceiling price set forth in the Schedule has been increased,\nany hours expended and material costs incurred by the Contractor in excess of the ceiling price\nbefore the increase shall be allowable to the same extent as if the hours expended and material\ncosts had been incurred after the increase in the ceiling price.",
+      "normalized": "When the ceiling price is increased, hours and material costs previously incurred in excess shall be allowable as if incurred after the increase.",
+      "section_ref": null,
+      "page": 133,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor, and each assignee under an assignment entered into under this contract and in\neffect at the time of final payment under this contract, shall execute and deliver, at the time of\nand as a condition precedent to final payment under this contract, a release discharging the\nGovernment, its officers, agents, and employees of and from all liabilities, obligations, and\nclaims arising out of or under this contract, subject only to the following exceptions:",
+      "normalized": "Contractor (and assignees) shall execute and deliver a release discharging the Government as a condition precedent to final payment, subject to stated exceptions.",
+      "section_ref": null,
+      "page": 134,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Claims, together with reasonable incidental expenses, based upon the liabilities of the\nContractor to third parties arising out of performing this contract, that are not known to the\nContractor on the date of the execution of the release, and of which the Contractor gives notice\nin writing to the Contracting Officer not more than 6 years after the date of the release or the\ndate of any notice to the Contractor that the Government is prepared to make final payment,\nwhichever is earlier.",
+      "normalized": "Contractor must give written notice of unknown third-party liability claims to the Contracting Officer not more than 6 years after the release date or final payment notice, whichever is earlier.",
+      "section_ref": null,
+      "page": 134,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The Contractor shall provide the Government with one complete set of rates, terms, and conditions of service which are in effect as of the date of this contract and any subsequently approved rates.",
       "normalized": "The Contractor must provide the Government one complete set of current rates, terms, and conditions of service, plus any subsequently approved rates.",
       "section_ref": "52.241-3(c)",
@@ -3865,27 +4159,27 @@
       "confidence": "review"
     },
     {
-      "verbatim": "All service furnished by the Contractor shall be measured by suitable metering equipment of\nstandard manufacture, to be furnished, installed, maintained, repaired, calibrated, and read by\nthe Contractor at its expense.",
-      "normalized": "Contractor shall measure all furnished service with standard metering equipment, which it must furnish, install, maintain, repair, calibrate, and read at its own expense.",
-      "section_ref": "52.241-6",
+      "verbatim": "All service furnished by the Contractor shall be measured by suitable metering equipment of standard manufacture, to be furnished, installed, maintained, repaired, calibrated, and read by the Contractor at its expense.",
+      "normalized": "Contractor must measure all furnished service with standard metering equipment it furnishes, installs, maintains, repairs, calibrates, and reads at its own expense.",
+      "section_ref": "52.241-6(a)(1)",
       "page": 136,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "In the event any meter fails to\nregister (or registers incorrectly) the service furnished, the parties shall agree upon the length of\ntime of meter malfunction and the quantity of service delivered during such period of time.",
-      "normalized": "If a meter fails or misregisters, Contractor and Government shall agree on the malfunction duration and quantity of service delivered during that time.",
-      "section_ref": "52.241-6",
+      "verbatim": "In the event any meter fails to register (or registers incorrectly) the service furnished, the parties shall agree upon the length of time of meter malfunction and the quantity of service delivered during such period of time.",
+      "normalized": "If a meter fails to register or registers incorrectly, the Contractor and Government must agree on the malfunction duration and quantity of service delivered.",
+      "section_ref": "52.241-6(a)(1)",
       "page": 136,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "An\nappropriate adjustment shall be made to the next invoice for the purpose of correcting such\nerrors.",
-      "normalized": "An appropriate adjustment shall be made to the next invoice to correct metering errors.",
-      "section_ref": "52.241-6",
+      "verbatim": "An appropriate adjustment shall be made to the next invoice for the purpose of correcting such errors.",
+      "normalized": "An adjustment must be made to the next invoice to correct metering errors.",
+      "section_ref": "52.241-6(a)(1)",
       "page": 136,
       "verb": "shall",
       "category": "performance",
@@ -3901,36 +4195,36 @@
       "confidence": "review"
     },
     {
-      "verbatim": "The Contractor shall read all meters at periodic intervals of approximately 30 days or in\naccordance with the policy of the cognizant regulatory body or applicable bylaws.",
-      "normalized": "Contractor shall read all meters approximately every 30 days or per applicable regulatory/bylaw requirements.",
-      "section_ref": "52.241-6",
+      "verbatim": "The Contractor shall read all meters at periodic intervals of approximately 30 days or in accordance with the policy of the cognizant regulatory body or applicable bylaws.",
+      "normalized": "Contractor must read all meters at approximately 30-day intervals or per applicable regulatory body/bylaw policy.",
+      "section_ref": "52.241-6(a)(2)",
       "page": 136,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "All billings\nbased on meter readings of less than ____ days shall be prorated accordingly.",
-      "normalized": "Billings based on meter readings covering less than a specified number of days shall be prorated.",
-      "section_ref": "52.241-6",
+      "verbatim": "All billings based on meter readings of less than ____ days shall be prorated accordingly.",
+      "normalized": "Billings based on meter readings covering fewer than the specified number of days must be prorated.",
+      "section_ref": "52.241-6(a)(2)",
       "page": 136,
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
     {
-      "verbatim": "The Contractor, at its expense, shall periodically inspect and test Contractor-installed\nmeters at intervals not exceeding ____ year(s).",
-      "normalized": "Contractor shall, at its own expense, periodically inspect and test Contractor-installed meters at intervals not exceeding a specified number of years.",
-      "section_ref": "52.241-6",
+      "verbatim": "The Contractor, at its expense, shall periodically inspect and test Contractor-installed meters at intervals not exceeding ____ year(s).",
+      "normalized": "Contractor must, at its own expense, periodically inspect and test Contractor-installed meters at intervals not exceeding the specified number of years.",
+      "section_ref": "52.241-6(b)(1)",
       "page": 136,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "At the written request of the Contracting Officer, the Contractor shall make additional tests\nof any or all such meters in the presence of Government representatives.",
-      "normalized": "If the Contracting Officer makes a written request, Contractor shall perform additional meter tests in the presence of Government representatives.",
-      "section_ref": "52.241-6",
+      "verbatim": "At the written request of the Contracting Officer, the Contractor shall make additional tests of any or all such meters in the presence of Government representatives.",
+      "normalized": "If the Contracting Officer makes a written request, the Contractor must perform additional meter tests in the presence of Government representatives.",
+      "section_ref": "52.241-6(b)(2)",
       "page": 136,
       "verb": "conditional",
       "category": "performance",
@@ -3948,7 +4242,7 @@
     {
       "verbatim": "The Contractor shall use reasonable diligence to provide a regular and uninterrupted supply of service at each service location, but shall not be liable for damages, breach of contract or otherwise, to the Government for failure, suspension, diminution, or other variations of service occasioned by or in consequence of any cause beyond the control of the Contractor, including but not limited to acts of God or of the public enemy, fires, floods, earthquakes, or other catastrophe, strikes, or failure or breakdown of transmission or other facilities.",
       "normalized": "Contractor must use reasonable diligence to provide regular, uninterrupted service at each location, but is not liable for service variations caused by events beyond its control.",
-      "section_ref": "52.241-7",
+      "section_ref": "52.241-6(d)",
       "page": 137,
       "verb": "shall",
       "category": "performance",
@@ -3956,8 +4250,8 @@
     },
     {
       "verbatim": "If any such failure, suspension, diminution, or other variation of service shall aggregate more than ____ hour(s) during any billing period hereunder, an equitable adjustment shall be made in the monthly billing specified in this contract (including the minimum monthly charge).",
-      "normalized": "If service failure/variation aggregates more than the specified number of hours in a billing period, an equitable adjustment shall be made to the monthly billing.",
-      "section_ref": "52.241-7",
+      "normalized": "If service interruptions aggregate more than the specified number of hours in a billing period, an equitable adjustment must be made to the monthly billing.",
+      "section_ref": "52.241-6(d)",
       "page": 137,
       "verb": "conditional",
       "category": "performance",
@@ -3970,6 +4264,15 @@
       "page": 137,
       "verb": "shall",
       "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Both parties agree to enter in negotiations concerning such changes upon receipt of a written request detailing the proposed changes and specifying the reasons for the proposed changes.",
+      "normalized": "Contractor and Government must enter negotiations on proposed rate/term changes upon receipt of a written request detailing the changes and reasons.",
+      "section_ref": "52.241-8(b)",
+      "page": 137,
+      "verb": "declaration",
+      "category": "performance",
       "confidence": "review"
     },
     {
@@ -3991,6 +4294,15 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Except for changes identified in writing and signed by the Contracting Officer, the Contractor shall notify the Administrative Contracting Officer in writing promptly, within ____ (to be negotiated) calendar days from the date that the Contractor identifies any Government conduct that the Contractor regards as a change to the contract terms and conditions.",
+      "normalized": "Contractor must notify the Administrative Contracting Officer in writing promptly, within the negotiated number of calendar days, after identifying Government conduct it regards as a change, unless the change was identified in writing and signed by the CO.",
+      "section_ref": "52.243-7(b)",
+      "page": 138,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "On the basis of the most accurate information available to the Contractor, the notice shall state-",
       "normalized": "The Contractor's notice must state the items listed in (1)-(6), including date/nature of the change, personnel involved, documents/oral communications, acceleration basis, elements of performance affected, and the Contractor's estimate of Government response time.",
       "section_ref": null,
@@ -4000,9 +4312,9 @@
       "confidence": "high"
     },
     {
-      "verbatim": "the Contractor shall diligently continue performance of this contract to the maximum extent possible in accordance with its terms and conditions as construed by the Contractor, unless the notice reports a direction of the Contracting Officer or a communication from a SAR of the Contracting Officer, in either of which events the Contractor shall continue performance.",
-      "normalized": "The Contractor must diligently continue contract performance following submission of a notice, and must continue performance if directed by the CO or SAR.",
-      "section_ref": null,
+      "verbatim": "Following submission of the notice required by paragraph (b) of this clause, the Contractor shall diligently continue performance of this contract to the maximum extent possible in accordance with its terms and conditions as construed by the Contractor, unless the notice reports a direction of the Contracting Officer or a communication from a SAR of the Contracting Officer, in either of which events the Contractor shall continue performance.",
+      "normalized": "After submitting the paragraph (b) notice, Contractor must diligently continue contract performance to the maximum extent possible as it construes the terms, and must continue performance if the notice reports a CO/SAR direction or communication.",
+      "section_ref": "52.243-7(c)",
       "page": 139,
       "verb": "shall",
       "category": "performance",
@@ -4010,17 +4322,26 @@
     },
     {
       "verbatim": "However, if the Contractor regards the direction or communication as a change as described in paragraph (b) of this clause, notice shall be given in the manner provided.",
-      "normalized": "If the Contractor regards a direction/communication as a change, the Contractor must give notice in the manner provided in paragraph (b).",
-      "section_ref": null,
+      "normalized": "If the Contractor regards a direction or communication as a change under paragraph (b), it must give notice in the manner provided.",
+      "section_ref": "52.243-7(c)",
       "page": 139,
       "verb": "conditional",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "in either of which events the Contractor shall continue performance.",
       "normalized": "The Contractor shall continue performance if the notice reports a CO direction or SAR communication.",
       "section_ref": null,
+      "page": 139,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "On the basis of the most accurate information available to the Contractor, the notice shall state-\n(1) The date, nature, and circumstances of the conduct regarded as a change;\n(2) The name, function, and activity of each Government individual and Contractor official or employee involved in or knowledgeable about such conduct;\n(3) The identification of any documents and the substance of any oral communication involved in such conduct;\n(4) In the instance of alleged acceleration of scheduled performance or delivery, the basis upon which it arose;\n(5) The particular elements of contract performance for which the Contractor may seek an equitable adjustment under this clause, including-\n(i) What line items have been or may be affected by the alleged change;\n(ii) What labor or materials or both have been or may be added, deleted, or wasted by the alleged change;\n(iii) To the extent practicable, what delay and disruption in the manner and sequence of performance and effect on continued performance have been or may be caused by the alleged change;\n(iv) What adjustments to contract price, delivery schedule, and other provisions affected by the alleged change are estimated; and\n(6) The Contractor's estimate of the time by which the Government must respond to the Contractor's notice to minimize cost, delay or disruption of performance.",
+      "normalized": "The Contractor's change notice must state the date/nature/circumstances of the conduct, involved individuals, related documents/communications, acceleration basis, elements for equitable adjustment (affected line items, labor/materials, delay/disruption, price/schedule adjustments), and the Contractor's estimate of required Government response time.",
+      "section_ref": "52.243-7(b)",
       "page": 139,
       "verb": "shall",
       "category": "performance",
@@ -6845,8 +7166,8 @@
     },
     {
       "verbatim": "*Offerors shall replace \"xxxx\" with the Offerors name.",
-      "normalized": "Offerors must replace 'xxxx' in the filename with the Offeror's name.",
-      "section_ref": null,
+      "normalized": "Offeror must replace 'xxxx' placeholder with the offeror's name in file names.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
@@ -6854,17 +7175,17 @@
     },
     {
       "verbatim": "* Offers shall replace \"DOMAIN\" with the NAICS Code of the proposed Domain.",
-      "normalized": "Offerors must replace 'DOMAIN' in the filename with the NAICS Code of the proposed Domain.",
-      "section_ref": null,
+      "normalized": "Offeror must replace 'DOMAIN' placeholder with the NAICS Code of the proposed Domain in file names.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "* If Offeror is utilizing a QP (Attachment 0003) across multiple Domains they shall replace\n\"DOMAIN\" with \"MULTIDOMAIN\".",
-      "normalized": "If the Offeror uses a QP (Attachment 0003) across multiple Domains, the Offeror must replace 'DOMAIN' with 'MULTIDOMAIN' in the filename.",
-      "section_ref": null,
+      "verbatim": "* If Offeror is utilizing a QP (Attachment 0003) across multiple Domains they shall replace \"DOMAIN\" with \"MULTIDOMAIN\".",
+      "normalized": "If offeror uses a QP across multiple Domains, offeror must replace 'DOMAIN' with 'MULTIDOMAIN' in the file name.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "conditional",
       "category": "instruction",
@@ -6872,35 +7193,35 @@
     },
     {
       "verbatim": "*Offerors shall replace \"DDMMYYYY\" with date, month and year of submission.",
-      "normalized": "Offerors must replace 'DDMMYYYY' in the filename with the date, month, and year of submission.",
-      "section_ref": null,
+      "normalized": "Offeror must replace 'DDMMYYYY' placeholder with the date of submission in file names.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "** Small Business, Emerging Large Business and Large Business Offerors shall utilize and submit\nwith its proposal Attachment 0002 Amendment 04.",
-      "normalized": "Small Business, Emerging Large Business, and Large Business Offerors must utilize and submit Attachment 0002 Amendment 04 with their proposal.",
-      "section_ref": null,
+      "verbatim": "Small Business, Emerging Large Business and Large Business Offerors shall utilize and submit with its proposal Attachment 0002 Amendment 04.",
+      "normalized": "Small, Emerging Large, and Large Business offerors must submit Attachment 0002 Amendment 04 with their proposal.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "Commercial-Sector Vendor Offerors shall\nutilize and submit with its proposal Attachment 0002 Amendment 02.",
-      "normalized": "Commercial-Sector Vendor Offerors must utilize and submit Attachment 0002 Amendment 02 with their proposal.",
-      "section_ref": null,
+      "verbatim": "Commercial-Sector Vendor Offerors shall utilize and submit with its proposal Attachment 0002 Amendment 02.",
+      "normalized": "Commercial-Sector Vendor offerors must submit Attachment 0002 Amendment 02 with their proposal.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "*** Offerors shall utilize and submit with its proposal Attachment 0003 Amendment 03, unless the\nQP is LOE-Based.",
-      "normalized": "Offerors must utilize and submit Attachment 0003 Amendment 03 with their proposal, unless the QP is LOE-Based.",
-      "section_ref": null,
+      "verbatim": "Offerors shall utilize and submit with its proposal Attachment 0003 Amendment 03, unless the QP is LOE-Based.",
+      "normalized": "Offeror must submit Attachment 0003 Amendment 03 with the proposal, unless the QP is LOE-Based.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "conditional",
       "category": "instruction",
@@ -6908,8 +7229,8 @@
     },
     {
       "verbatim": "3. Each volume shall be properly identified and logically assembled.",
-      "normalized": "Each proposal volume must be properly identified and logically assembled.",
-      "section_ref": null,
+      "normalized": "Offeror must ensure each proposal volume is properly identified and logically assembled.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
@@ -6917,17 +7238,17 @@
     },
     {
       "verbatim": "Any attachments and/or information that are submitted in the wrong volume will not be considered for award.",
-      "normalized": "Attachments or information submitted in the wrong volume will not be considered for award.",
-      "section_ref": null,
+      "normalized": "Attachments/information submitted in the wrong volume will not be considered for award.",
+      "section_ref": "L.1",
       "page": 273,
-      "verb": "will",
+      "verb": "declaration",
       "category": "evaluation",
       "confidence": "high"
     },
     {
-      "verbatim": "4. The entire proposal shall remain valid for a minimum of 360 calendar days from receipt by the\nGovernment.",
-      "normalized": "The entire proposal must remain valid for at least 360 calendar days from receipt by the Government.",
-      "section_ref": null,
+      "verbatim": "4. The entire proposal shall remain valid for a minimum of 360 calendar days from receipt by the Government.",
+      "normalized": "Offeror's proposal must remain valid for at least 360 calendar days from receipt by the Government.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "admin",
@@ -6936,34 +7257,34 @@
     {
       "verbatim": "Proposals offering a shorter period will not be considered for award.",
       "normalized": "Proposals offering a validity period shorter than 360 days will not be considered for award.",
-      "section_ref": null,
+      "section_ref": "L.1",
       "page": 273,
-      "verb": "will",
+      "verb": "declaration",
       "category": "evaluation",
       "confidence": "high"
     },
     {
-      "verbatim": "5. The proposal shall be clear, concise, and shall include sufficient detail for effective evaluation\nand for substantiating the validity of stated claims.",
-      "normalized": "The proposal must be clear, concise, and include sufficient detail for effective evaluation and to substantiate stated claims.",
-      "section_ref": null,
+      "verbatim": "5. The proposal shall be clear, concise, and shall include sufficient detail for effective evaluation and for substantiating the validity of stated claims.",
+      "normalized": "Offeror's proposal must be clear, concise, and include sufficient detail for effective evaluation and to substantiate claims.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "Throughout the solicitation and its attachments,\nthe Government has identified proposal material which shall be accompanied by supporting\ndocumentation.",
-      "normalized": "Proposal material identified by the Government throughout the solicitation must be accompanied by supporting documentation.",
-      "section_ref": null,
+      "verbatim": "Throughout the solicitation and its attachments, the Government has identified proposal material which shall be accompanied by supporting documentation.",
+      "normalized": "Proposal material identified by the Government must be accompanied by supporting documentation.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
       "confidence": "review"
     },
     {
-      "verbatim": "Required supporting documentation shall be a copy of the original documentation\nand not self-produced by the Offeror.",
-      "normalized": "Required supporting documentation must be a copy of the original documentation and not self-produced by the Offeror.",
-      "section_ref": null,
+      "verbatim": "Required supporting documentation shall be a copy of the original documentation and not self-produced by the Offeror.",
+      "normalized": "Required supporting documentation must be a copy of the original, not self-produced by the offeror.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "shall",
       "category": "instruction",
@@ -6979,36 +7300,36 @@
       "confidence": "review"
     },
     {
-      "verbatim": "All supporting documentation submitted in response to this\nsolicitation must be designated as Unclassified, up to and including Controlled Unclassified\nInformation (CUI).",
-      "normalized": "All supporting documentation submitted must be designated as Unclassified, up to and including Controlled Unclassified Information (CUI).",
-      "section_ref": null,
+      "verbatim": "All supporting documentation submitted in response to this solicitation must be designated as Unclassified, up to and including Controlled Unclassified Information (CUI).",
+      "normalized": "Offeror must designate all supporting documentation as Unclassified, up to and including CUI.",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "must",
       "category": "admin",
       "confidence": "high"
     },
     {
-      "verbatim": "The submission of Classified material (Confidential, Secret, or Top Secret) is\nstrictly prohibited.",
-      "normalized": "Offerors must not submit Classified material (Confidential, Secret, or Top Secret).",
-      "section_ref": null,
+      "verbatim": "The submission of Classified material (Confidential, Secret, or Top Secret) is strictly prohibited.",
+      "normalized": "Offeror must not submit Classified material (Confidential, Secret, or Top Secret).",
+      "section_ref": "L.1",
       "page": 273,
       "verb": "declaration",
       "category": "admin",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
-      "verbatim": "Any proposal containing Classified information will be eliminated from further\nevaluation and reported as a security incident.",
-      "normalized": "Any proposal containing Classified information will be eliminated from further evaluation and reported as a security incident.",
-      "section_ref": null,
+      "verbatim": "Any proposal containing Classified information will be eliminated from further evaluation and reported as a security incident.",
+      "normalized": "Proposals containing Classified information will be eliminated from evaluation and reported as a security incident.",
+      "section_ref": "L.1",
       "page": 273,
-      "verb": "will",
+      "verb": "declaration",
       "category": "evaluation",
       "confidence": "high"
     },
     {
-      "verbatim": "All information the Offeror intends to have considered shall be submitted with the initial proposal.",
-      "normalized": "Offeror must submit all information it wants considered with the initial proposal.",
-      "section_ref": null,
+      "verbatim": "6. All information the Offeror intends to have considered shall be submitted with the initial proposal.",
+      "normalized": "Offeror must submit all information intended for consideration with the initial proposal.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "shall",
       "category": "instruction",
@@ -7016,17 +7337,17 @@
     },
     {
       "verbatim": "Offerors are responsible for including sufficient details to permit a complete, thorough, and accurate evaluation of the submitted proposal.",
-      "normalized": "Offeror is responsible for including sufficient details to permit a complete, thorough, and accurate evaluation.",
-      "section_ref": null,
+      "normalized": "Offeror is responsible for including sufficient detail to permit a complete, thorough, and accurate evaluation.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "required",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "Offerors may propose to multiple Domains, but proposals shall identify the Domain(s) in their proposal response.",
-      "normalized": "Offeror's proposal must identify the Domain(s) being proposed to.",
-      "section_ref": null,
+      "verbatim": "7. Offerors may propose to multiple Domains, but proposals shall identify the Domain(s) in their proposal response.",
+      "normalized": "If offeror proposes to multiple Domains, proposal must identify the Domain(s) in the response.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "shall",
       "category": "instruction",
@@ -7034,17 +7355,17 @@
     },
     {
       "verbatim": "Offerors shall select which Domain(s) they are proposing to on their cover letter Attachment 0001.",
-      "normalized": "Offeror must select the Domain(s) it is proposing to on cover letter Attachment 0001.",
-      "section_ref": null,
+      "normalized": "Offeror must select the Domain(s) it is proposing to on the cover letter, Attachment 0001.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "Offerors proposing to multiple Domains must ensure it submits a complete and accurate proposal package.",
-      "normalized": "If an offeror proposes to multiple Domains, it must ensure it submits a complete and accurate proposal package.",
-      "section_ref": null,
+      "verbatim": "8. Offerors proposing to multiple Domains must ensure it submits a complete and accurate proposal package.",
+      "normalized": "If offeror proposes to multiple Domains, it must ensure it submits a complete and accurate proposal package.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "conditional",
       "category": "instruction",
@@ -7052,8 +7373,8 @@
     },
     {
       "verbatim": "If applicable, Past Performance Questionnaire (PPQ) (Attachment 0004) which shall be consolidated with Attachment 0003 PDF, and",
-      "normalized": "If applicable, the Past Performance Questionnaire (Attachment 0004) must be consolidated with the Attachment 0003 PDF.",
-      "section_ref": null,
+      "normalized": "If applicable, the PPQ (Attachment 0004) must be consolidated with the Attachment 0003 PDF.",
+      "section_ref": "L.1",
       "page": 274,
       "verb": "conditional",
       "category": "instruction",
@@ -7062,20 +7383,47 @@
     {
       "verbatim": "The following volume/document shall be unique to each Domain proposed:",
       "normalized": "The Scorecard (Attachment 0002) must be unique to each Domain proposed.",
-      "section_ref": null,
+      "section_ref": "L.1",
       "page": 274,
       "verb": "shall",
       "category": "instruction",
       "confidence": "review"
     },
     {
-      "verbatim": "Offerors shall submit all proposals as full packages via the Digital Market Portal.",
+      "verbatim": "9. Offerors shall submit all proposals as full packages via the Digital Market Portal.",
       "normalized": "Offeror must submit all proposals as full packages via the Digital Market Portal.",
-      "section_ref": null,
+      "section_ref": "L.1",
       "page": 274,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors may resubmit proposals until the due date, but only the final, complete submission will be reviewed.",
+      "normalized": "Only the final, complete submission received by the due date will be reviewed.",
+      "section_ref": "L.1",
+      "page": 274,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "One (1) completed Attachment 0001 Cover Letter Form.",
+      "normalized": "Full proposal package must include one completed Attachment 0001 Cover Letter Form.",
+      "section_ref": "L.1",
+      "page": 274,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "One (1) completed Attachment 0002 Scorecard per Domain in which they are proposing to (and applicable supporting documentation for applicable business size(s)).",
+      "normalized": "Full proposal package must include one completed Attachment 0002 Scorecard per Domain proposed, with applicable supporting documentation.",
+      "section_ref": "L.1",
+      "page": 274,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
     },
     {
       "verbatim": "Each QP shall identify what Domain(s) it is being submitted for",
@@ -7097,8 +7445,8 @@
     },
     {
       "verbatim": "If the QP is expected to be completed between May 1-30 2026, the Offeror shall provide all associated CPARS for the QP as part of Attachment 0003.",
-      "normalized": "If a QP is expected to be completed between May 1-30 2026, the Offeror shall provide all associated CPARS for that QP as part of Attachment 0003.",
-      "section_ref": null,
+      "normalized": "If a QP is expected to complete between May 1-30 2026, offeror must provide all associated CPARS as part of Attachment 0003.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "conditional",
       "category": "instruction",
@@ -7106,17 +7454,17 @@
     },
     {
       "verbatim": "Large and Emerging Large Businesses shall submit one (1) Small Business Subcontracting Plan.",
-      "normalized": "Large and Emerging Large Business offerors shall submit one Small Business Subcontracting Plan.",
-      "section_ref": null,
+      "normalized": "Large and Emerging Large Business offerors must submit one Small Business Subcontracting Plan.",
+      "section_ref": "L.1",
       "page": 275,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "instruction",
       "confidence": "high"
     },
     {
       "verbatim": "A PPQ shall be submitted for each QP that does not have a CPARS assessment.",
-      "normalized": "Offeror shall submit a PPQ for each QP that does not have a CPARS assessment.",
-      "section_ref": null,
+      "normalized": "Offeror must submit a PPQ for each QP lacking a CPARS assessment.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "conditional",
       "category": "instruction",
@@ -7124,26 +7472,26 @@
     },
     {
       "verbatim": "The PPQ shall be signed by the representative of the contracting party (either Government or Private).",
-      "normalized": "The PPQ shall be signed by the representative of the contracting party.",
-      "section_ref": null,
+      "normalized": "The PPQ must be signed by the representative of the contracting party.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
-      "category": "admin",
-      "confidence": "review"
+      "category": "instruction",
+      "confidence": "high"
     },
     {
       "verbatim": "For Government contracts, this representative shall be the contracting officer or their designated representative.",
-      "normalized": "For Government contracts, the PPQ signing representative shall be the contracting officer or their designated representative.",
-      "section_ref": null,
+      "normalized": "For Government contracts, the PPQ signer must be the contracting officer or designated representative.",
+      "section_ref": "L.1",
       "page": 275,
-      "verb": "shall",
-      "category": "admin",
-      "confidence": "review"
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
     },
     {
       "verbatim": "If the PPQ does not include the signed certification of the Government and/or Private Representative the PPQ will be deemed incomplete and will not be evaluated by the Government.",
-      "normalized": "If the PPQ lacks the signed certification of the Government and/or Private Representative, the PPQ will be deemed incomplete and will not be evaluated.",
-      "section_ref": null,
+      "normalized": "If the PPQ lacks signed certification, it will be deemed incomplete and will not be evaluated.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "conditional",
       "category": "evaluation",
@@ -7151,8 +7499,8 @@
     },
     {
       "verbatim": "Offerors shall consolidate the Attachment 0004 PPQ at the end of the corresponding Attachment 0003, creating a single PDF for Attachment 0003.",
-      "normalized": "Offerors shall consolidate the Attachment 0004 PPQ at the end of the corresponding Attachment 0003 into a single PDF.",
-      "section_ref": null,
+      "normalized": "Offeror must consolidate the Attachment 0004 PPQ at the end of the corresponding Attachment 0003 into a single PDF.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
       "category": "instruction",
@@ -7160,8 +7508,8 @@
     },
     {
       "verbatim": "NOTE: Offerors must register on the Digital Market Portal before they are able to submit any proposals.",
-      "normalized": "Offerors must register on the Digital Market Portal before submitting any proposals.",
-      "section_ref": null,
+      "normalized": "Offeror must register on the Digital Market Portal before submitting any proposal.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "must",
       "category": "admin",
@@ -7186,9 +7534,9 @@
       "confidence": "review"
     },
     {
-      "verbatim": "The Offeror must select the appropriate Scorecard (Attachment 0002) corresponding to its business size for each domain for which a proposal being submitted.",
-      "normalized": "The Offeror must select the appropriate Scorecard corresponding to its business size for each domain in which a proposal is submitted.",
-      "section_ref": null,
+      "verbatim": "10. The Offeror must select the appropriate Scorecard (Attachment 0002) corresponding to its business size for each domain for which a proposal being submitted.",
+      "normalized": "Offeror must select the Scorecard (Attachment 0002) matching its business size for each Domain proposed.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "must",
       "category": "instruction",
@@ -7196,17 +7544,17 @@
     },
     {
       "verbatim": "The Offeror shall consolidate the completed scorecard, and all required supporting documentation into a single PDF file.",
-      "normalized": "The Offeror shall consolidate the completed scorecard and all required supporting documentation into a single PDF file.",
-      "section_ref": null,
+      "normalized": "Offeror must consolidate the completed scorecard and all required supporting documentation into a single PDF.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "All Attachments shall be submitted as a complete single PDF to include all supporting documentation.",
-      "normalized": "Offeror shall submit all Attachments as a complete single PDF including all supporting documentation.",
-      "section_ref": null,
+      "verbatim": "11. All Attachments shall be submitted as a complete single PDF to include all supporting documentation.",
+      "normalized": "All Attachments must be submitted as a complete single PDF including all supporting documentation.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
       "category": "instruction",
@@ -7214,8 +7562,8 @@
     },
     {
       "verbatim": "Attachment 0003 QP and Attachment 0004 PPQ (if applicable) will have to be printed to PDF, signed either electronically or hard copied and submitted as part of single PDF.",
-      "normalized": "Offeror will have to print Attachment 0003 QP and Attachment 0004 PPQ to PDF, sign them, and submit as part of a single PDF.",
-      "section_ref": null,
+      "normalized": "Attachment 0003 QP and, if applicable, Attachment 0004 PPQ must be printed to PDF, signed, and submitted as part of a single PDF.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "will",
       "category": "instruction",
@@ -7223,8 +7571,8 @@
     },
     {
       "verbatim": "Offerors shall not submit its proposal nor non-CUI supporting documentation through DoD Safe.",
-      "normalized": "Offerors shall not submit their proposal or non-CUI supporting documentation through DoD Safe.",
-      "section_ref": null,
+      "normalized": "Offeror must not submit its proposal or non-CUI supporting documentation through DoD Safe.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
       "category": "instruction",
@@ -7232,8 +7580,8 @@
     },
     {
       "verbatim": "Within the Offeror's proposal, if the requested supporting documentation is marked CUI, the Offeror shall annotate within the appropriate Volume and Section that the supporting documentation is marked CUI, what the CUI documents are, state the total page count for the CUI document(s), and confirm that these CUI documents have been submitted via DoD Safe.",
-      "normalized": "If supporting documentation is marked CUI, the Offeror shall annotate within the appropriate Volume/Section that it is CUI, identify the documents, state their page count, and confirm DoD Safe submission.",
-      "section_ref": null,
+      "normalized": "If supporting documentation is marked CUI, offeror must annotate the applicable Volume/Section with CUI marking, document identity, page count, and confirmation of DoD Safe submission.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "conditional",
       "category": "instruction",
@@ -7241,8 +7589,8 @@
     },
     {
       "verbatim": "Again, DoD Safe shall not be used for submission of the Offeror's proposal or any non-CUI files; just the specific CUI documentation.",
-      "normalized": "Offeror shall not use DoD Safe for submission of the proposal or non-CUI files, only CUI documentation.",
-      "section_ref": null,
+      "normalized": "DoD Safe must not be used for the proposal or non-CUI files; only specific CUI documentation.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "shall",
       "category": "instruction",
@@ -7251,7 +7599,7 @@
     {
       "verbatim": "Only the designated CUI documentation will be evaluated from DoD SAFE submissions.",
       "normalized": "Only designated CUI documentation submitted via DoD SAFE will be evaluated.",
-      "section_ref": null,
+      "section_ref": "L.1",
       "page": 275,
       "verb": "declaration",
       "category": "evaluation",
@@ -7259,8 +7607,8 @@
     },
     {
       "verbatim": "Any non-CUI files uploaded will not be evaluated.",
-      "normalized": "Any non-CUI files uploaded to DoD SAFE will not be evaluated.",
-      "section_ref": null,
+      "normalized": "Non-CUI files uploaded to DoD SAFE will not be evaluated.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "declaration",
       "category": "evaluation",
@@ -7268,11 +7616,56 @@
     },
     {
       "verbatim": "If the Offeror submits any supporting documentation through DoD SAFE Offerors shall name the documents as follows:",
-      "normalized": "If the Offeror submits supporting documentation through DoD SAFE, Offerors shall name the documents per the specified naming convention.",
-      "section_ref": null,
+      "normalized": "If offeror submits supporting documentation through DoD SAFE, offeror must name the documents per the specified format.",
+      "section_ref": "L.1",
       "page": 275,
       "verb": "conditional",
       "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Up to 15 Attachment 0003 Qualifying Projects (QP) and all applicable supporting documentation.",
+      "normalized": "Full proposal package may include up to 15 Attachment 0003 Qualifying Projects and supporting documentation.",
+      "section_ref": "L.1",
+      "page": 275,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors can submit up to three (3) QPs per Domain.",
+      "normalized": "Offeror may submit not more than three QPs per Domain.",
+      "section_ref": "L.1",
+      "page": 275,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each QP shall identify what Domain(s) it is being submitted for and shall be signed and certified by both the Offeror and Government and/or Private Representative POC.",
+      "normalized": "Each QP must identify the Domain(s) it is submitted for and be signed/certified by the offeror and the Government/Private POC.",
+      "section_ref": "L.1",
+      "page": 275,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government will not accept a PPQ in lieu of a CPARS assessment if a CPARS assessment exists for the QP.",
+      "normalized": "If a CPARS assessment exists for a QP, offeror's PPQ will not be accepted in lieu of it.",
+      "section_ref": "L.1",
+      "page": 275,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors shall have one (1) primary person registered in Digital Market to submit proposals; Offerors will be allowed to list one (1) alternate person in case of emergencies.",
+      "normalized": "Offeror must have one primary person registered in Digital Market to submit proposals, with one alternate allowed for emergencies.",
+      "section_ref": "L.1",
+      "page": 275,
+      "verb": "shall",
+      "category": "admin",
       "confidence": "high"
     },
     {
@@ -7353,6 +7746,33 @@
       "section_ref": null,
       "page": 276,
       "verb": "conditional",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "*Offerors shall replace \"DDMMYYYY\" with date, month and year of submission.",
+      "normalized": "Offeror must replace the placeholder 'DDMMYYYY' with the date of submission.",
+      "section_ref": null,
+      "page": 276,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "o Request Codes shall only be used for Offerors who do not have a CAC card, any Offeror who\nsubmits a request that has a CAC Card will not be answered.",
+      "normalized": "Offeror shall only use Request Codes if they do not have a CAC card; requests from CAC holders will not be answered.",
+      "section_ref": null,
+      "page": 276,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "13. Failure to comply with these instructions may result in the proposal being deemed\nnoncompliant and removed from further consideration.",
+      "normalized": "Offeror's failure to comply with submission instructions may result in the proposal being deemed noncompliant and removed from consideration.",
+      "section_ref": null,
+      "page": 276,
+      "verb": "declaration",
       "category": "evaluation",
       "confidence": "high"
     },
@@ -7438,18 +7858,45 @@
       "confidence": "high"
     },
     {
-      "verbatim": "If proposing as a Small Business Administration (SBA) Mentor-Protege arrangement, the Offeror\nmust submit evidence of SBA approval of its Mentor-Protege Agreement.",
-      "normalized": "If proposing as an SBA Mentor-Protege arrangement, the Offeror must submit evidence of SBA approval of its Mentor-Protege Agreement.",
-      "section_ref": "L.1",
-      "page": 278,
-      "verb": "conditional",
+      "verbatim": "only one (1) proposal may be submitted per Company for each Domain.",
+      "normalized": "Offeror (Company) may submit only one proposal per Domain.",
+      "section_ref": "L.1.1.2",
+      "page": 277,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Members of JVs can propose as a JV or a single offeror under each Domain, they cannot propose\nas both.",
+      "normalized": "JV members cannot propose as both a JV and a single offeror under the same Domain.",
+      "section_ref": "L.1.1.3",
+      "page": 277,
+      "verb": "declaration",
       "category": "instruction",
       "confidence": "review"
     },
     {
+      "verbatim": "The Offeror must submit a complete copy of the Joint Venture Agreement that established the\nrelationship, and the agreement must meet the requirements of FAR 52.207-6 and 13 CFR (S)\n125.8 and/or 13 CFR (S) 125.9, as applicable.",
+      "normalized": "The Offeror must submit a complete copy of the Joint Venture Agreement meeting FAR 52.207-6 and 13 CFR 125.8/125.9 requirements.",
+      "section_ref": "L.1.1.3",
+      "page": 277,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If proposing as a Small Business Administration (SBA) Mentor-Protege arrangement, the Offeror\nmust submit evidence of SBA approval of its Mentor-Protege Agreement.",
+      "normalized": "If proposing as an SBA Mentor-Protege arrangement, the Offeror must submit evidence of SBA approval of the agreement.",
+      "section_ref": "L.1.1.3",
+      "page": 278,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Failure to submit evidence of SBA approval of its Mentor-Protege Agreement (such as a copy of the approved\nMentor-Protege Agreement) with the proposal will result in the proposal being rejected.",
-      "normalized": "The proposal will be rejected if the Offeror fails to submit evidence of SBA approval of its Mentor-Protege Agreement.",
-      "section_ref": "L.1",
+      "normalized": "Failure to submit SBA Mentor-Protege approval evidence with the proposal will result in rejection.",
+      "section_ref": "L.1.1.3",
       "page": 278,
       "verb": "declaration",
       "category": "evaluation",
@@ -7562,6 +8009,33 @@
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
+    },
+    {
+      "verbatim": "In addition to the completed Cover Letter, Offerors shall consolidate the following with Attachment\n0001 Cover Letter PDF:",
+      "normalized": "Offerors shall consolidate the listed items with the Attachment 0001 Cover Letter PDF.",
+      "section_ref": "L.2.1",
+      "page": 279,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The offeror has completed the annual representations and certifications electronically in SAM website accessed through https://www.sam.gov. After reviewing the SAM information, the offeror\nverifies by submission of the offer that the representations and certifications currently posted\nelectronically that apply to this solicitation as indicated in paragraph (c) of this provision have been\nentered or updated within the last 12 months, are current, accurate, complete, and applicable to\nthis solicitation (including the business size standard applicable to the NAICS code referenced for\nthis solicitation), as of the date of this offer and are incorporated in this offer by reference (see FAR\n4.1201).",
+      "normalized": "By submitting the offer, the offeror certifies its SAM representations and certifications are current, accurate, complete, and updated within the last 12 months.",
+      "section_ref": "L.2.1",
+      "page": 279,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For pricing purposes, no more than two (2) people will be in attendance from each awardee's company, and\nthe conference will be for one (1) hour.",
+      "normalized": "No more than two people from each awardee's company will attend the one-hour Postaward Conference.",
+      "section_ref": "L.2.1.1",
+      "page": 279,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "as FFP, therefore all proposed prices shall be inclusive of all direct costs (i.e., direct labor, material, and other direct costs), associated indirect costs, and profit.",
@@ -7987,9 +8461,18 @@
       "confidence": "review"
     },
     {
+      "verbatim": "Part 1 - Provide the UEI and CAGE Code of the Business Entity that is being credited, and the point of contact information that includes the name, address, phone number, and email of the representative at DCMA, or the CFA that determined approval.",
+      "normalized": "Offeror (Large Business, property mgmt system) must provide UEI/CAGE Code and DCMA/CFA POC information.",
+      "section_ref": "L.2.2.2.1",
+      "page": 285,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The Offeror shall refer to the page number and paragraph of the audit or letter that determined the acceptability of the property management system.",
-      "normalized": "Offeror must refer to the page number and paragraph of the audit or letter determining acceptability of the property management system.",
-      "section_ref": null,
+      "normalized": "Offeror (Large Business) must cite the page/paragraph of the audit or letter establishing property management system acceptability.",
+      "section_ref": "L.2.2.2.1",
       "page": 286,
       "verb": "shall",
       "category": "instruction",
@@ -7997,8 +8480,8 @@
     },
     {
       "verbatim": "The documentation shall include a copy of a signed letter on the CPA's letterhead stating that the Accounting System has been audited and found acceptable by Generally Accepted Accounting Principles (GAAP).",
-      "normalized": "Documentation must include a signed CPA letterhead letter stating the accounting system was audited and found GAAP-acceptable.",
-      "section_ref": null,
+      "normalized": "Offeror's (Large Business) CPA documentation must include a signed CPA letterhead letter stating GAAP audit acceptance.",
+      "section_ref": "L.2.2.2.1",
       "page": 286,
       "verb": "shall",
       "category": "instruction",
@@ -8006,8 +8489,8 @@
     },
     {
       "verbatim": "The letter must include the name, address, phone number, and email of the CPA and a copy of the signer's CPA Registration such as the printout from https://cpaverify.org/.",
-      "normalized": "The CPA letter must include CPA contact details and a copy of the signer's CPA Registration (e.g., cpaverify.org printout).",
-      "section_ref": null,
+      "normalized": "Offeror's (Large Business) CPA letter must include CPA contact information and a copy of the signer's CPA Registration.",
+      "section_ref": "L.2.2.2.1",
       "page": 286,
       "verb": "must",
       "category": "instruction",
@@ -8015,10 +8498,37 @@
     },
     {
       "verbatim": "The Offeror must certify that there have been no material changes to the accounting system since the last audit of its accounting system.",
-      "normalized": "Offeror must certify no material changes occurred to its accounting system since the last audit.",
-      "section_ref": null,
+      "normalized": "Offeror (Large Business) must certify no material changes to the accounting system since the last audit.",
+      "section_ref": "L.2.2.2.1",
       "page": 286,
       "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Part 2 - Provide a copy of the Offerors official Property Management System Review report, if available and/or official letterhead from DCMA or CFA verifying the acceptable determination of the property management system.",
+      "normalized": "Offeror (Large Business) must provide a copy of the Property Management System Review report or DCMA/CFA letterhead verifying acceptability.",
+      "section_ref": "L.2.2.2.1",
+      "page": 286,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Part 1 - Provide the UEI and CAGE Code of the Business Entity that is being credited and POC information that includes the name, address, phone number, and email of the representative at the Cognizant DCMA, or CFA that determined acceptability.",
+      "normalized": "Offeror (Large Business, accounting system) must provide UEI/CAGE Code and Cognizant DCMA/CFA POC information.",
+      "section_ref": "L.2.2.2.1",
+      "page": 286,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Part 2 - Provide a copy of the Offeror's official accounting system audit report and/or official letterhead from DCMA or CFA verifying the adequacy of the accounting system.",
+      "normalized": "Offeror (Large Business) must provide a copy of the accounting system audit report or DCMA/CFA letterhead verifying adequacy.",
+      "section_ref": "L.2.2.2.1",
+      "page": 286,
+      "verb": "imperative",
       "category": "instruction",
       "confidence": "high"
     },
@@ -8060,8 +8570,8 @@
     },
     {
       "verbatim": "The letter must include the name, address, phone number, and email of the CPA and a copy of the signer's CPA Registration such as the printout from https://cpaverify.org/.",
-      "normalized": "The Offeror's letter must include the CPA's name, address, phone, email, and a copy of the CPA Registration (e.g., cpaverify.org printout).",
-      "section_ref": null,
+      "normalized": "Offeror's (Small Business) CPA letter must include CPA contact information and a copy of the signer's CPA Registration.",
+      "section_ref": "L.2.2.2.1",
       "page": 288,
       "verb": "must",
       "category": "instruction",
@@ -8069,11 +8579,11 @@
     },
     {
       "verbatim": "The Offeror must certify that there have been no material changes to the accounting system since the last audit of its accounting system.",
-      "normalized": "The Offeror must certify no material changes to its accounting system since the last audit.",
-      "section_ref": null,
+      "normalized": "Offeror (Small Business) must certify no material changes to the accounting system since the last audit.",
+      "section_ref": "L.2.2.2.1",
       "page": 288,
       "verb": "must",
-      "category": "admin",
+      "category": "instruction",
       "confidence": "high"
     },
     {
@@ -8131,6 +8641,33 @@
       "confidence": "review"
     },
     {
+      "verbatim": "Certifications that have not been reviewed and approved by the Government will not be considered valid.",
+      "normalized": "Certifications not reviewed/approved by the Government will not be considered valid for scoring.",
+      "section_ref": "L.2.2.2.1",
+      "page": 288,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Verification requirements include a copy of the Offeror's official DD Form 441 and DD Form 441-1 (if applicable).",
+      "normalized": "Offeror's TOP SECRET clearance verification must include DD Form 441 and DD Form 441-1 (if applicable).",
+      "section_ref": "L.2.2.2.1",
+      "page": 288,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Verification requirements include a copy of the Offeror's official certification from an approved CMMC Third Party Assessment Organization (C3PAO).",
+      "normalized": "Offeror's CMMC verification must include a copy of the official certification from an approved C3PAO.",
+      "section_ref": "L.2.2.2.1",
+      "page": 288,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The Offeror shall\nprovide POC information that includes the name of the certification body and name, address,\nphone number, and email address of the representative who provided the ISO 9001:2015 or 9001:\n2013 Certification.",
       "normalized": "Offeror must provide POC information (certification body name, and representative's name, address, phone, email) for the ISO 9001 certification.",
       "section_ref": "L.2",
@@ -8147,6 +8684,15 @@
       "verb": "conditional",
       "category": "instruction",
       "confidence": "high"
+    },
+    {
+      "verbatim": "For any contract/order that is a hybrid of contract types between those as defined in the above terms, the QP shall be considered a LOE QP.",
+      "normalized": "Hybrid-type contracts/orders submitted as QPs will be classified as LOE QPs.",
+      "section_ref": "L.2.3.1",
+      "page": 290,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Offerors shall fully complete Attachment 0003 \"Qualifying Project Form\" for each QP and submit it as part of their proposal.",
@@ -8236,6 +8782,51 @@
       "page": 291,
       "verb": "shall",
       "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors may submit a maximum of three (3) distinct QPs for each specific Domain they are proposing to.",
+      "normalized": "Offerors may submit no more than three distinct Qualifying Projects per Domain proposed.",
+      "section_ref": "L.2.3.2",
+      "page": 291,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors are cautioned that the Government will not accept a PPQ in lieu of a CPARS assessment if a CPARS assessment exists for the QP.",
+      "normalized": "Offerors are warned that a PPQ will not be accepted in place of an existing CPARS assessment.",
+      "section_ref": "L.2.3.2",
+      "page": 291,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The form requires two (2) signed certifications from both the offeror and the representative of the contracting party (either Government or Private).",
+      "normalized": "The QP Form requires two signed certifications: one from the offeror and one from the contracting party's representative.",
+      "section_ref": "L.2.3.2",
+      "page": 291,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the QP does not include the signed certification of the Government and/or Private Representative the QP will be deemed incomplete and will not be evaluated by the Government.",
+      "normalized": "If the QP lacks the required signed certification, it will be deemed incomplete and excluded from evaluation.",
+      "section_ref": "L.2.3.2",
+      "page": 291,
+      "verb": "conditional",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "To be considered a QP, each submitted project must meet all the following minimum criteria:",
+      "normalized": "Each submitted project must meet all listed minimum criteria to be considered a Qualifying Project.",
+      "section_ref": "L.2.3.2",
+      "page": 291,
+      "verb": "must",
+      "category": "evaluation",
       "confidence": "review"
     },
     {
@@ -8353,6 +8944,15 @@
       "page": 292,
       "verb": "shall",
       "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "and shall provide a brief description on how their QP aligns with that NAICS code; and",
+      "normalized": "The offeror shall provide a brief description of how the QP's NAICS code aligns with the identified code.",
+      "section_ref": null,
+      "page": 292,
+      "verb": "shall",
+      "category": "admin",
       "confidence": "high"
     },
     {
@@ -9390,5 +9990,6 @@
       "category": "admin",
       "confidence": "review"
     }
-  ]
+  ],
+  "patchedRowsAdded": 62
 }

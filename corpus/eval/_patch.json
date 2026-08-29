@@ -1,0 +1,178 @@
+{
+  "batchIds": [
+    "msgbatch_01THkdv2WLXHF4XbnKUNAjxh",
+    "msgbatch_01Eu2eDpLJ6waa6eEUFL71aG",
+    "msgbatch_01DB5fLKdtsijNVz6qWk48y3",
+    "msgbatch_01JmqvM4XhWAE4gouA5odrUN"
+  ],
+  "rounds": 3,
+  "chunksResubmitted": 48,
+  "halvesSubmitted": 0,
+  "unsplittable": 3,
+  "resweptPages": 2,
+  "deltas": [
+    {
+      "file": "0020153254COHEN__Attachment-1-Statement-of-Work-RFI.pdf",
+      "rowsBefore": 40,
+      "rowsAfter": 40,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 4,
+      "unresolvedAfter": 4,
+      "inventionBefore": 1,
+      "inventionAfter": 1
+    },
+    {
+      "file": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "rowsBefore": 263,
+      "rowsAfter": 621,
+      "added": 358,
+      "droppedNew": 3,
+      "unresolvedBefore": 10,
+      "unresolvedAfter": 8,
+      "inventionBefore": 3,
+      "inventionAfter": 6
+    },
+    {
+      "file": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "rowsBefore": 385,
+      "rowsAfter": 427,
+      "added": 42,
+      "droppedNew": 0,
+      "unresolvedBefore": 13,
+      "unresolvedAfter": 30,
+      "inventionBefore": 10,
+      "inventionAfter": 10
+    },
+    {
+      "file": "1616-26__RFP1620000348.pdf",
+      "rowsBefore": 353,
+      "rowsAfter": 385,
+      "added": 32,
+      "droppedNew": 2,
+      "unresolvedBefore": 17,
+      "unresolvedAfter": 24,
+      "inventionBefore": 4,
+      "inventionAfter": 6
+    },
+    {
+      "file": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "rowsBefore": 365,
+      "rowsAfter": 587,
+      "added": 222,
+      "droppedNew": 4,
+      "unresolvedBefore": 17,
+      "unresolvedAfter": 37,
+      "inventionBefore": 8,
+      "inventionAfter": 12
+    },
+    {
+      "file": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf",
+      "rowsBefore": 255,
+      "rowsAfter": 255,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 9,
+      "unresolvedAfter": 31,
+      "inventionBefore": 14,
+      "inventionAfter": 14
+    },
+    {
+      "file": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf",
+      "rowsBefore": 5,
+      "rowsAfter": 19,
+      "added": 14,
+      "droppedNew": 42,
+      "unresolvedBefore": 5,
+      "unresolvedAfter": 2,
+      "inventionBefore": 9,
+      "inventionAfter": 50
+    },
+    {
+      "file": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "rowsBefore": 1316,
+      "rowsAfter": 1674,
+      "added": 358,
+      "droppedNew": 6,
+      "unresolvedBefore": 53,
+      "unresolvedAfter": 75,
+      "inventionBefore": 13,
+      "inventionAfter": 19
+    },
+    {
+      "file": "75N98026Q00962__RFQ-75N98026Q00962.pdf",
+      "rowsBefore": 159,
+      "rowsAfter": 159,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 7,
+      "unresolvedAfter": 16,
+      "inventionBefore": 0,
+      "inventionAfter": 0
+    },
+    {
+      "file": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.pdf",
+      "rowsBefore": 132,
+      "rowsAfter": 132,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 6,
+      "unresolvedAfter": 9,
+      "inventionBefore": 2,
+      "inventionAfter": 2
+    },
+    {
+      "file": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "rowsBefore": 945,
+      "rowsAfter": 1007,
+      "added": 62,
+      "droppedNew": 3,
+      "unresolvedBefore": 85,
+      "unresolvedAfter": 146,
+      "inventionBefore": 39,
+      "inventionAfter": 42
+    },
+    {
+      "file": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "rowsBefore": 781,
+      "rowsAfter": 858,
+      "added": 77,
+      "droppedNew": 5,
+      "unresolvedBefore": 20,
+      "unresolvedAfter": 57,
+      "inventionBefore": 22,
+      "inventionAfter": 27
+    },
+    {
+      "file": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "rowsBefore": 1712,
+      "rowsAfter": 2152,
+      "added": 440,
+      "droppedNew": 2,
+      "unresolvedBefore": 65,
+      "unresolvedAfter": 150,
+      "inventionBefore": 21,
+      "inventionAfter": 23
+    },
+    {
+      "file": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "rowsBefore": 1333,
+      "rowsAfter": 1351,
+      "added": 18,
+      "droppedNew": 6,
+      "unresolvedBefore": 42,
+      "unresolvedAfter": 115,
+      "inventionBefore": 18,
+      "inventionAfter": 24
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 433609,
+    "outputTokens": 1936544,
+    "cacheReadTokens": 164528,
+    "cacheCreationTokens": 4368,
+    "usd": 10.138241800000001
+  }
+}

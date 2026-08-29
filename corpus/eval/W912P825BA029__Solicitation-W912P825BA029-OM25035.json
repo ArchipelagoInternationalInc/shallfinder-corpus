@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 246,
   "chunks": 34,
-  "truncations": 1,
-  "emptyChunks": 3,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 1201,
-  "finalRows": 1333,
+  "finalRows": 1351,
   "duplicatesRemoved": 64,
   "dropped": {
-    "total": 30,
-    "verbatimNotFound": 18,
+    "total": 36,
+    "verbatimNotFound": 24,
     "pageOutOfRange": 0,
     "invalidShape": 12
   },
   "reviewFlagged": 223,
   "coverage": {
     "verb_occurrences": 1277,
-    "captured": 879,
+    "captured": 1084,
     "excluded": {
       "definitional": 6,
       "government_actor": 35
@@ -110,45 +110,86 @@
     "uncaptured_pages": [
       3,
       5,
+      7,
+      8,
       19,
       20,
+      21,
       34,
       37,
+      43,
       44,
       46,
+      48,
+      52,
+      54,
+      55,
+      56,
       57,
+      61,
+      62,
       63,
       72,
+      75,
+      77,
+      80,
       81,
       82,
       83,
+      86,
+      97,
       98,
+      100,
+      111,
       112,
+      115,
+      116,
+      117,
+      118,
+      122,
+      123,
       131,
+      133,
+      135,
       136,
       137,
+      138,
+      141,
+      143,
       149,
+      151,
       153,
       178,
       179,
       188,
+      189,
+      190,
+      191,
       192,
       193,
       194,
       197,
       199,
+      202,
       204,
+      211,
       212,
+      220,
       222,
+      224,
+      226,
       227,
       235,
+      236,
       240,
+      241,
+      242,
       243,
       246
     ],
-    "unresolved": 42
+    "unresolved": 115
   },
-  "unresolvedBefore": 398,
+  "unresolvedBefore": 193,
   "sweeperNewRows": 491,
   "sweeperExclusions": [
     {
@@ -4448,8 +4489,8 @@
     },
     {
       "verbatim": "The Contractor shall submit ENG Form 6206 (Activity Hazard Analysis (AHA), ENG Form 6292 (Site-Specific Safety & Occupational Health Plan Worksheet), ENG Form 6293 (Accident Prevention Plan (APP) Worksheet), and ENG Form 6282 (Site Safety and Health Officer Designation Letter).",
-      "normalized": "The Contractor must submit ENG Forms 6206, 6292, 6293, and 6282 as part of the Accident Prevention Program.",
-      "section_ref": "1.4",
+      "normalized": "Contractor shall submit ENG Forms 6206, 6292, 6293, and 6282 as part of the Accident Prevention Program.",
+      "section_ref": "1.4a",
       "page": 97,
       "verb": "shall",
       "category": "performance",
@@ -4457,8 +4498,8 @@
     },
     {
       "verbatim": "The Contractor shall submit a copy of company policy statement regarding accident prevention.",
-      "normalized": "The Contractor must submit a copy of its company policy statement regarding accident prevention.",
-      "section_ref": "1.4",
+      "normalized": "Contractor shall submit a copy of its company accident-prevention policy statement.",
+      "section_ref": "1.4b",
       "page": 97,
       "verb": "shall",
       "category": "performance",
@@ -4528,22 +4569,31 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Each report shall include, as a minimum, the following: a. Phase(s) of construction underway during the inspection. b. Location(s) of areas where inspections were made.",
+      "normalized": "Each daily inspection report shall include at minimum the construction phase(s) and inspection location(s).",
+      "section_ref": "1.3.2.1",
+      "page": 97,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "All contract diving operations shall be performed in accordance with EM 385-1-1, Chapter 30.",
-      "normalized": "Contractor must perform all contract diving operations in accordance with EM 385-1-1, Chapter 30.",
-      "section_ref": null,
+      "normalized": "Contractor shall perform all diving operations in accordance with EM 385-1-1, Chapter 30.",
+      "section_ref": "1.5",
       "page": 98,
       "verb": "shall",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "At a minimum, the dive plan must address items in EM 385-1-1, Chapter 30-7.c.",
-      "normalized": "Contractor's dive plan must, at a minimum, address items in EM 385-1-1, Chapter 30-7.c.",
-      "section_ref": null,
+      "normalized": "Dive plan must at minimum address the items in EM 385-1-1, Chapter 30-7.c.",
+      "section_ref": "1.5",
       "page": 98,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "The Contractor shall furnish, erect, and maintain a safety sign at the site of the work at a location directed by the Contracting Officer or his/her authorized representative.",
@@ -4690,6 +4740,24 @@
       "confidence": "review"
     },
     {
+      "verbatim": "The sign, which will identify the work with the Corps of Engineers, shall be 4 feet by 6 feet in size and shall conform to the requirements of this paragraph and the drawings included at the end of this section.",
+      "normalized": "Project sign shall be 4 by 6 feet and conform to paragraph requirements and drawings.",
+      "section_ref": "1.7",
+      "page": 98,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where nine or fewer persons are involved, one of the means of escape may be a window (minimum dimensions 24 inch by 36 inch) that leads to a different exit route than the door.",
+      "normalized": "For areas with nine or fewer persons, one means of escape may be a window with minimum dimensions 24 by 36 inches leading to a different exit route.",
+      "section_ref": "1.8",
+      "page": 98,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The general fire alarm signal shall be in accordance with 46 CFR Ch. I; Subpart E. 109.503 of the US Coast Guard Rules and Regulations for Cargo and Miscellaneous Vessels, Subchapters I & Ia, 1 Oct 98 (CG 257).",
       "normalized": "Contractor's general fire alarm signal must comply with 46 CFR Ch. I, Subpart E, 109.503 (USCG Rules and Regulations, CG 257).",
       "section_ref": "1.9.2.1",
@@ -4778,6 +4846,33 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "A detailed plan for protection and evacuation of personnel and plant in the event of an impending hurricane or storm is required as an enclosure to the Contractor's Accident Prevention Program.",
+      "normalized": "Contractor is required to enclose a detailed hurricane protection/evacuation plan with its Accident Prevention Program.",
+      "section_ref": "1.12",
+      "page": 99,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Work being performed to satisfy the Hurricane Plan will not be measured for payment.",
+      "normalized": "Work performed to satisfy the Hurricane Plan will not be measured for separate payment.",
+      "section_ref": "1.12",
+      "page": 99,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The plan shall include at least the following: a. The time each phase will be put into effect.",
+      "normalized": "Hurricane Plan shall include at least the timing for each phase's implementation.",
+      "section_ref": "1.12",
+      "page": 99,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "An on-site review by the Contractor's supervisory personnel and the Government Inspector shall be conducted at the Government Inspector's discretion.",
@@ -4933,6 +5028,42 @@
       "confidence": "high"
     },
     {
+      "verbatim": "The Contractor's obligation to transition from RMS to CMP is a requirement of this contract.",
+      "normalized": "Contractor is required to transition from RMS to CMP as a contract requirement.",
+      "section_ref": "1.2",
+      "page": 108,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Therefore, there will be no additional time or increase in contract cost to complete this transition.",
+      "normalized": "Contractor will receive no additional time or cost for completing the RMS-to-CMP transition.",
+      "section_ref": "1.2",
+      "page": 108,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Some correspondence, including pay requests and payrolls, are also to be provided in paper format with original signatures.",
+      "normalized": "Contractor must also provide certain correspondence (e.g., pay requests, payrolls) in paper format with original signatures.",
+      "section_ref": "1.2.1",
+      "page": 108,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Paper documents will govern, in the event of discrepancy with the electronic version.",
+      "normalized": "Paper documents will govern over electronic versions in case of discrepancy.",
+      "section_ref": "1.2.1",
+      "page": 108,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The Contractor shall download, install, and be able to utilize the latest version of the RMS software within 7 calendar days of receipt of the Notice to Proceed.",
       "normalized": "Contractor must download, install, and be able to utilize the latest version of RMS software within 7 calendar days of receipt of the Notice to Proceed.",
       "section_ref": "1.3",
@@ -4958,6 +5089,15 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "Particular attention is directed to the Contract Clause entitled \"Schedules for Construction Contracts\" (FAR 52.236-15); Contract Clause entitled \"Prompt Payment for Construction Contracts\" (FAR 52.232-27); Contract Clause entitled \"Payments Under Fixed-Price Construction Contracts\" (FAR 52.232-5); Section 01 33 00 - Submittal Procedures; and Section 01 35 26 - Governmental Safety Requirements.",
+      "normalized": "Referenced FAR clauses and related sections apply and are incorporated for contract administration (clause-list admin row).",
+      "section_ref": "1.2.2",
+      "page": 109,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "The Contractor shall identify all Contractor correspondence to the Government with a serial number.",
@@ -5084,6 +5224,42 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall prefix correspondence initiated by the Contractor's site office with \"S\"",
+      "normalized": "Contractor must prefix site-office-initiated correspondence with \"S\".",
+      "section_ref": "1.5.1.3",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall prefix letters initiated by the Contractor's home (main) office with \"H\".",
+      "normalized": "Contractor must prefix home-office-initiated letters with \"H\".",
+      "section_ref": "1.5.1.3",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall prepare all progress payment requests using RMS",
+      "normalized": "Contractor must prepare all progress payment requests using RMS.",
+      "section_ref": "1.5.2.2",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall update the work completed under the contract at least monthly, measured as percent or as specific quantities.",
+      "normalized": "Contractor must update work-completed data at least monthly, measured as percent or quantities.",
+      "section_ref": "1.5.2.2",
+      "page": 110,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "The CQC System Manager shall be a construction person with a minimum of 3 years (full time) experience in related equivalent work.",
@@ -5492,8 +5668,8 @@
     },
     {
       "verbatim": "If a manatee(s) is sighted within 100 yards of the project area, all appropriate precautions shall be implemented by the Contractor to ensure protection of the manatee.",
-      "normalized": "If a manatee is sighted within 100 yards, Contractor must implement all appropriate protective precautions.",
-      "section_ref": "3.3.1",
+      "normalized": "If a manatee is sighted within 100 yards of the project area, Contractor must implement precautions to protect the manatee.",
+      "section_ref": "SOW 3.3.1.a(1)",
       "page": 117,
       "verb": "conditional",
       "category": "performance",
@@ -5501,8 +5677,8 @@
     },
     {
       "verbatim": "These precautions shall include the operation of all moving equipment no closer than 50 feet of a manatee.",
-      "normalized": "Precautions must include operating moving equipment no closer than 50 feet from a manatee.",
-      "section_ref": "3.3.1",
+      "normalized": "Contractor must operate all moving equipment no closer than 50 feet of a manatee.",
+      "section_ref": "SOW 3.3.1.a(1)",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5510,8 +5686,8 @@
     },
     {
       "verbatim": "If a manatee is closer than 50 feet to moving equipment or the project area, the equipment shall be shut down and all construction activities shall cease to ensure protection of the manatee.",
-      "normalized": "If a manatee is within 50 feet, equipment must be shut down and construction activities must cease.",
-      "section_ref": "3.3.1",
+      "normalized": "If a manatee is within 50 feet of equipment or the project area, Contractor must shut down the equipment and cease all construction activities.",
+      "section_ref": "SOW 3.3.1.a(1)",
       "page": 117,
       "verb": "conditional",
       "category": "performance",
@@ -5519,8 +5695,8 @@
     },
     {
       "verbatim": "Construction activities shall not resume until the manatee has departed and the 50-foot buffer has been reestablished.",
-      "normalized": "Construction activities must not resume until the manatee departs and the 50-foot buffer is reestablished.",
-      "section_ref": "3.3.1",
+      "normalized": "Contractor must not resume construction activities until the manatee has departed and the 50-foot buffer is reestablished.",
+      "section_ref": "SOW 3.3.1.a(1)",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5528,8 +5704,8 @@
     },
     {
       "verbatim": "If a manatee(s) is sighted in the project area, all vessels associated with the project shall operate at \"no wake/idle\" speeds at all times, and vessels will follow routes of deep water whenever possible, until the manatee has departed the project area.",
-      "normalized": "If a manatee is sighted in the project area, all project vessels must operate at no wake/idle speeds until the manatee departs.",
-      "section_ref": "3.3.1",
+      "normalized": "If a manatee is sighted in the project area, all project vessels must operate at no wake/idle speed until the manatee departs, and follow deep-water routes whenever possible.",
+      "section_ref": "SOW 3.3.1.a(2)",
       "page": 117,
       "verb": "conditional",
       "category": "performance",
@@ -5537,8 +5713,8 @@
     },
     {
       "verbatim": "Boats used to transport personnel shall be shallow-draft vessels, preferably of the light-displacement category, where navigational safety permits.",
-      "normalized": "Personnel transport boats must be shallow-draft vessels, preferably light-displacement, where safety permits.",
-      "section_ref": "3.3.1",
+      "normalized": "Contractor's personnel-transport boats must be shallow-draft vessels, preferably light-displacement, where navigational safety permits.",
+      "section_ref": "SOW 3.3.1.a(2)",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5546,8 +5722,8 @@
     },
     {
       "verbatim": "If siltation barriers are used, they shall be made of material in which manatees cannot become entangled, are properly secured, and are regularly monitored to avoid manatee entrapment.",
-      "normalized": "If siltation barriers are used, they must be non-entangling material, properly secured, and regularly monitored.",
-      "section_ref": "3.3.1",
+      "normalized": "If siltation barriers are used, Contractor must use manatee-safe material, secure the barriers, and monitor them regularly.",
+      "section_ref": "SOW 3.3.1.a(3)",
       "page": 117,
       "verb": "conditional",
       "category": "performance",
@@ -5555,8 +5731,8 @@
     },
     {
       "verbatim": "Any sightings of manatees or collisions with a manatee shall be immediately reported to the Corps of Engineers.",
-      "normalized": "Manatee sightings or collisions must be immediately reported to the Corps of Engineers.",
-      "section_ref": "3.3.1",
+      "normalized": "Contractor must immediately report any manatee sightings or collisions to the Corps of Engineers.",
+      "section_ref": "SOW 3.3.1.b",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5564,8 +5740,8 @@
     },
     {
       "verbatim": "The Contractor shall ensure that the following are done to reduce the likelihood of Sturgeon entrainment:",
-      "normalized": "Contractor must ensure listed measures are done to reduce Sturgeon entrainment likelihood.",
-      "section_ref": "3.3.2",
+      "normalized": "Contractor must ensure listed measures are followed to reduce likelihood of Sturgeon entrainment.",
+      "section_ref": "SOW 3.3.2",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5583,7 +5759,7 @@
     {
       "verbatim": "The Contractor shall provide daily trash collection and cleanup of the dredge and attendant plant.",
       "normalized": "Contractor must provide daily trash collection and cleanup of the dredge and attendant plant.",
-      "section_ref": "3.4",
+      "section_ref": "SOW 3.4.a",
       "page": 117,
       "verb": "shall",
       "category": "performance",
@@ -5600,12 +5776,12 @@
     },
     {
       "verbatim": "Debris disposal shall be in accordance with applicable Federal, State, and Local regulations, and shall be performed in a manner approved by the Contracting Officer.",
-      "normalized": "Contractor must ensure debris disposal is in accordance with applicable Federal, State, and Local regulations.",
-      "section_ref": null,
+      "normalized": "Contractor must dispose of debris per applicable Federal, State, and Local regulations and in a manner approved by the Contracting Officer.",
+      "section_ref": "SOW 3.4.b",
       "page": 118,
       "verb": "shall",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "During the life of this contract, the Contractor shall maintain all facilities constructed for pollution control for as long as the operations creating the particular pollutant are being carried out, or until the material concerned has become stabilized to the extent that pollution is no longer being created.",
@@ -5725,36 +5901,36 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Unless otherwise specified, surveys and surveying shall be in accordance with EM 1110-2-1003, Engineering and Design, Hydrographic Surveying,\nlatest edition.",
-      "normalized": "Contractor's surveys and surveying shall be in accordance with EM 1110-2-1003 (Hydrographic Surveying), latest edition, unless otherwise specified.",
-      "section_ref": "1.1",
+      "verbatim": "Unless otherwise specified, surveys and surveying shall be in accordance with EM 1110-2-1003, Engineering and Design, Hydrographic Surveying, latest edition.",
+      "normalized": "Contractor must perform surveys in accordance with EM 1110-2-1003 unless otherwise specified.",
+      "section_ref": "SURVEYS 1.1",
       "page": 120,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "All\ncosts for the work covered under this section shall be included in the\ncontract unit price per hour in the applicable \"Dredging\" and \"Option\nDredging\" items on the bidding schedule.",
-      "normalized": "Contractor shall include all costs for work under this section in the contract unit price per hour for the Dredging and Option Dredging bid items.",
-      "section_ref": "1.2",
+      "verbatim": "All costs for the work covered under this section shall be included in the contract unit price per hour in the applicable \"Dredging\" and \"Option Dredging\" items on the bidding schedule.",
+      "normalized": "Contractor must include all survey-related costs in the unit price per hour for the Dredging/Option Dredging bid schedule items.",
+      "section_ref": "SURVEYS 1.2",
+      "page": 120,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall establish and maintain quality control for the work specified in this section to assure compliance with the contract requirements and maintain records of his quality control for all surveying including but not limited to the following:",
+      "normalized": "Contractor must establish and maintain quality control and records for all surveying work.",
+      "section_ref": "SURVEYS 1.3",
       "page": 120,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "The Contractor shall establish and maintain quality control for the work\nspecified in this section to assure compliance with the contract\nrequirements and maintain records of his quality control for all surveying\nincluding but not limited to the following:",
-      "normalized": "Contractor shall establish and maintain quality control for all surveying work and maintain related records.",
-      "section_ref": "1.3",
-      "page": 120,
-      "verb": "shall",
-      "category": "performance",
-      "confidence": "high"
-    },
-    {
-      "verbatim": "The original and two copies of these reports and tests\nas well as the records of corrective action taken, shall be furnished\ndaily to the Government.",
-      "normalized": "Contractor shall furnish the original and two copies of reports, tests, and corrective action records to the Government daily.",
-      "section_ref": "1.3.b",
+      "verbatim": "The original and two copies of these reports and tests as well as the records of corrective action taken, shall be furnished daily to the Government.",
+      "normalized": "Contractor must furnish the original plus two copies of reports/tests and corrective action records to the Government daily.",
+      "section_ref": "SURVEYS 1.3.b",
       "page": 120,
       "verb": "shall",
       "category": "performance",
@@ -5770,27 +5946,27 @@
       "confidence": "high"
     },
     {
-      "verbatim": "All surveys shall be performed in the presence of the Government\nRepresentative.",
-      "normalized": "Contractor shall perform all surveys in the presence of the Government Representative.",
-      "section_ref": "1.4",
+      "verbatim": "All surveys shall be performed in the presence of the Government Representative.",
+      "normalized": "Contractor must perform all surveys in the presence of the Government Representative.",
+      "section_ref": "SURVEYS 1.4",
       "page": 120,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "All surveys shall be performed under the direction of and\ncertified by a Professional Land Surveyor currently licensed by any state\nin the United States of America.",
-      "normalized": "Contractor shall have all surveys performed under the direction of, and certified by, a Professional Land Surveyor licensed in any U.S. state.",
-      "section_ref": "1.4",
+      "verbatim": "All surveys shall be performed under the direction of and certified by a Professional Land Surveyor currently licensed by any state in the United States of America.",
+      "normalized": "Contractor must have all surveys performed under the direction of, and certified by, a licensed Professional Land Surveyor.",
+      "section_ref": "SURVEYS 1.4",
       "page": 120,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "In\naddition, the surveyor shall document at least three years of\nexperience in hydrographic surveying of navigable channels.",
-      "normalized": "The surveyor shall document at least three years of experience in hydrographic surveying of navigable channels.",
-      "section_ref": "1.4",
+      "verbatim": "In addition, the surveyor shall document at least three years of experience in hydrographic surveying of navigable channels.",
+      "normalized": "The surveyor must document at least three years of hydrographic surveying experience in navigable channels.",
+      "section_ref": "SURVEYS 1.4",
       "page": 120,
       "verb": "shall",
       "category": "performance",
@@ -5798,8 +5974,8 @@
     },
     {
       "verbatim": "The Contractor shall submit, to the Contracting Officer for review, a plan for the verification of surveying equipment described herein.",
-      "normalized": "Contractor shall submit a plan for verifying surveying equipment to the Contracting Officer for review.",
-      "section_ref": "2.1",
+      "normalized": "Contractor must submit a surveying equipment verification plan to the Contracting Officer for review.",
+      "section_ref": "SURVEYS 2.1",
       "page": 121,
       "verb": "shall",
       "category": "performance",
@@ -5807,8 +5983,8 @@
     },
     {
       "verbatim": "The plan shall include types, certifications, calibration checks, etc., for the surveying equipment.",
-      "normalized": "The submitted equipment verification plan shall include types, certifications, and calibration checks.",
-      "section_ref": "2.1",
+      "normalized": "The equipment verification plan must include types, certifications, and calibration checks for surveying equipment.",
+      "section_ref": "SURVEYS 2.1",
       "page": 121,
       "verb": "shall",
       "category": "performance",
@@ -5816,8 +5992,8 @@
     },
     {
       "verbatim": "The Contractor shall furnish survey vessel(s), diesel or gasoline powered, twin engine, not less than 30 feet in length, and equipped with the following:",
-      "normalized": "Contractor shall furnish survey vessel(s) that are diesel/gasoline powered, twin engine, at least 30 feet long, and equipped as listed.",
-      "section_ref": "2.1.1",
+      "normalized": "Contractor must furnish survey vessel(s) meeting specified power, engine, minimum 30-foot length, and equipment requirements.",
+      "section_ref": "SURVEYS 2.1.1.a",
       "page": 121,
       "verb": "shall",
       "category": "performance",
@@ -5825,8 +6001,8 @@
     },
     {
       "verbatim": "The use of motion compensation (a heave/pitch/roll sensor) is optional; however, if it is not used, then the conduct of the survey will be restricted by roll/pitch/heave sea-state limits [>10 degrees (roll-pitch), >.5 foot (heave)] as interpreted by the on-site Government Representative.",
-      "normalized": "If the contractor does not use motion compensation, survey operations will be restricted to the specified roll/pitch/heave sea-state limits.",
-      "section_ref": "2.1.1",
+      "normalized": "If Contractor does not use motion compensation, survey operations are restricted by specified roll/pitch/heave sea-state limits.",
+      "section_ref": "SURVEYS 2.1.1.a",
       "page": 121,
       "verb": "conditional",
       "category": "performance",
@@ -5834,8 +6010,8 @@
     },
     {
       "verbatim": "Additionally, if the survey system utilizes motion compensation, then a side, bow or stern mounting of the fathometer transducer is acceptable; however, if motion compensation is not available, then the transducer must be hull mounted.",
-      "normalized": "If motion compensation is not available, the contractor must mount the fathometer transducer to the hull.",
-      "section_ref": "2.1.1",
+      "normalized": "If motion compensation is not available, Contractor must hull-mount the fathometer transducer.",
+      "section_ref": "SURVEYS 2.1.1.a",
       "page": 121,
       "verb": "conditional",
       "category": "performance",
@@ -5843,8 +6019,8 @@
     },
     {
       "verbatim": "The vessel(s) must, at minimum, have a fathometer bar check apparatus as described in EM 1110-2-1003, paragraph 4-10.",
-      "normalized": "Survey vessel(s) must, at minimum, have a fathometer bar check apparatus per EM 1110-2-1003 paragraph 4-10.",
-      "section_ref": "2.1.1",
+      "normalized": "Contractor's survey vessel(s) must have, at minimum, a fathometer bar check apparatus per EM 1110-2-1003 para 4-10.",
+      "section_ref": "SURVEYS 2.1.1.a",
       "page": 121,
       "verb": "must",
       "category": "performance",
@@ -5852,8 +6028,8 @@
     },
     {
       "verbatim": "The height of the fathometer transducer face while the vessel(s) is static (draft) and in motion (settlement, squat) must be determined as described in EM 1110-2-1003, paragraph 4-13.",
-      "normalized": "Contractor must determine the fathometer transducer face height in both static and dynamic vessel conditions per EM 1110-2-1003 paragraph 4-13.",
-      "section_ref": "2.1.1",
+      "normalized": "Contractor must determine the fathometer transducer face height statically and in motion per EM 1110-2-1003 para 4-13.",
+      "section_ref": "SURVEYS 2.1.1.b",
       "page": 121,
       "verb": "must",
       "category": "performance",
@@ -5861,8 +6037,8 @@
     },
     {
       "verbatim": "A method must be established to determine and correct for any vessel draft changes during the surveying period [ex: Real-Time Kinematic (RTK) observations at static draft to increasing engine RPM (paragraph 4-13c)].",
-      "normalized": "Contractor must establish a method to determine and correct for vessel draft changes during surveying.",
-      "section_ref": "2.1.1",
+      "normalized": "Contractor must establish a method to determine and correct vessel draft changes during surveying.",
+      "section_ref": "SURVEYS 2.1.1.b",
       "page": 121,
       "verb": "must",
       "category": "performance",
@@ -5903,6 +6079,24 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "Prior to surveying operations, a hydrographic system latency bias calibration test must be performed and the latency correctors must be applied (EM 1110-2-1003, paragraph 4-15).",
+      "normalized": "Before surveying operations, Contractor must perform a latency bias calibration test and apply latency correctors per EM 1110-2-1003 para 4-15.",
+      "section_ref": "SURVEYS 2.1.1.c",
+      "page": 121,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "\"No Smoking\" signs shall be posted and no smoking will be allowed when occupied by Government personnel.",
+      "normalized": "Contractor must post No Smoking signs and disallow smoking on the survey vessel when Government personnel are aboard.",
+      "section_ref": "SURVEYS 2.1.1.d",
+      "page": 121,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "The acoustic ping rate shall be, at minimum, 10 soundings per second.",
@@ -6063,6 +6257,15 @@
       "section_ref": "2.1.2.3",
       "page": 122,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor must still be\ncapable of producing paper charts unless otherwise directed by the\nContracting Officer's Representative",
+      "normalized": "The Contractor must remain capable of producing paper charts unless otherwise directed by the COR, even if a digital fathometer is used.",
+      "section_ref": null,
+      "page": 122,
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
@@ -12879,5 +13082,6 @@
       "category": "performance",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 18
 }

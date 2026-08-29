@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 74,
   "chunks": 7,
-  "truncations": 4,
-  "emptyChunks": 4,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 174,
-  "finalRows": 263,
+  "finalRows": 621,
   "duplicatesRemoved": 6,
   "dropped": {
-    "total": 3,
-    "verbatimNotFound": 3,
+    "total": 6,
+    "verbatimNotFound": 6,
     "pageOutOfRange": 0,
     "invalidShape": 0
   },
   "reviewFlagged": 31,
   "coverage": {
     "verb_occurrences": 162,
-    "captured": 52,
+    "captured": 150,
     "excluded": {
       "definitional": 0,
       "government_actor": 3
@@ -51,16 +51,14 @@
     "uncaptured_pages": [
       15,
       19,
+      20,
       30,
-      32,
-      37,
-      39,
-      48,
-      51
+      56,
+      61
     ],
-    "unresolved": 10
+    "unresolved": 8
   },
-  "unresolvedBefore": 110,
+  "unresolvedBefore": 12,
   "sweeperNewRows": 99,
   "sweeperExclusions": [
     {
@@ -1373,9 +1371,9 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Piping materials shall bear label, stamp, or other markings of specified testing agency.",
-      "normalized": "Contractor shall ensure piping materials bear a label, stamp, or other marking of the specified testing agency.",
-      "section_ref": "221114",
+      "verbatim": "2. Piping materials shall bear label, stamp, or other markings of specified testing agency.",
+      "normalized": "Piping materials shall bear label, stamp, or other markings of specified testing agency.",
+      "section_ref": "221114 1.4.A",
       "page": 30,
       "verb": "shall",
       "category": "performance",
@@ -1490,6 +1488,69 @@
       "confidence": "review"
     },
     {
+      "verbatim": "1. Comply with standards of authorities having jurisdiction for potable-water-service piping, including materials, installation, testing, and disinfection.",
+      "normalized": "Contractor shall comply with standards of authorities having jurisdiction for potable-water-service piping.",
+      "section_ref": "221114 1.4.A",
+      "page": 30,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "3. Comply with NSF 61 for materials for water-service piping and specialties for domestic water.",
+      "normalized": "Contractor shall comply with NSF 61 for materials for water-service piping and specialties.",
+      "section_ref": "221114 1.4.A",
+      "page": 30,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "4. Comply with lead free requirements for all potable water fixtures as per Section 1417 of the Safe Drinking Water Act.",
+      "normalized": "Contractor shall comply with lead-free requirements for all potable water fixtures per Section 1417 of the Safe Drinking Water Act.",
+      "section_ref": "221114 1.4.A",
+      "page": 30,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "5. AWWA Compliance: Comply with AWWA A100 for water supply wells.",
+      "normalized": "Contractor shall comply with AWWA A100 for water supply wells.",
+      "section_ref": "221114 1.4.A",
+      "page": 30,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "6. Electrical Components, Devices, and Accessories: Listed and labeled as defined in NFPA 70, Article 100, by a testing agency acceptable to authorities having jurisdiction, and marked for intended use.",
+      "normalized": "Electrical components, devices, and accessories must be listed and labeled per NFPA 70 by an acceptable testing agency and marked for intended use.",
+      "section_ref": "221114 1.4.A",
+      "page": 30,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide compatible galvanized reducers as required at connections to pump and pitless adapter.",
+      "normalized": "Contractor shall provide compatible galvanized reducers as required at pump and pitless adapter connections.",
+      "section_ref": "221114 2.1.C",
+      "page": 30,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Torque arrestors are to also act as well-centralizers.",
+      "normalized": "Torque arrestors are also required to act as well-centralizers.",
+      "section_ref": "221114 2.1.E",
+      "page": 30,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The pipe connecting the casing to the vent shall be of adequate size to provide rapid venting of the casing.",
       "normalized": "Contractor must size the vent-connecting pipe adequately to provide rapid venting of the casing.",
       "section_ref": "221114 2.1",
@@ -1500,17 +1561,17 @@
     },
     {
       "verbatim": "There shall be no other openings in the well cap.",
-      "normalized": "Contractor shall ensure the well cap has no openings other than those specified.",
-      "section_ref": "221114 2.1",
+      "normalized": "There shall be no other openings in the well cap.",
+      "section_ref": "221114 2.1.F",
       "page": 31,
       "verb": "shall",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "The well cap shall be lockable, Baker-Monitor well cap part number 6WTCL or approved equal.",
-      "normalized": "Contractor shall provide a lockable well cap, Baker-Monitor part number 6WTCL or approved equal.",
-      "section_ref": "221114 2.1",
+      "normalized": "The well cap shall be lockable, Baker-Monitor part number 6WTCL or approved equal.",
+      "section_ref": "221114 2.1.F",
       "page": 31,
       "verb": "shall",
       "category": "performance",
@@ -1549,6 +1610,186 @@
       "section_ref": "221114 3.1.B",
       "page": 31,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Underground Piping, NPS 2.5” and Smaller: Manufactured fitting or coupling same size as, with pressure rating at least equal to and ends compatible with, piping to be joined.",
+      "normalized": "For underground piping NPS 2.5 inch and smaller, fittings/couplings must match size, pressure rating, and end compatibility of piping being joined.",
+      "section_ref": "221114 2.2.A",
+      "page": 31,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Conduct final pumping tests after new well pump, drop pipe, and appurtenances have been installed.",
+      "normalized": "Contractor shall conduct final pumping tests after installation of new well pump, drop pipe, and appurtenances.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Test pump the existing well as per Missouri Department of Natural Resources requirements and record on FS provided form (modify as needed for time of pumping/recharge).",
+      "normalized": "Contractor shall test pump the existing well per Missouri DNR requirements and record on FS-provided form.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Provide discharge piping to conduct water to locations where disposal will not create a nuisance or endanger adjacent property.",
+      "normalized": "Contractor shall provide discharge piping to convey water to disposal locations that will not create a nuisance or endanger adjacent property.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Measure elevation to water level in well.",
+      "normalized": "Contractor shall measure elevation to water level in well.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "3. Test Pump: Variable capacity test pump with capacity equal to maximum expected yields at pressure equal to drawdown in wells, plus losses in pump columns and discharge pipes.",
+      "normalized": "Test pump used must have variable capacity equal to maximum expected yields at pressure equal to drawdown plus losses.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "4. Start and adjust test pumps and equipment to required pumping rates.",
+      "normalized": "Contractor shall start and adjust test pumps and equipment to required pumping rates.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "5. Record readings of water levels in wells and pumping rates as per the FS provided form Well Pump Test and Recovery Data Sheet.",
+      "normalized": "Contractor shall record water level and pumping rate readings on the FS-provided Well Pump Test and Recovery Data Sheet.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "6. Record well recovery water levels in well as per the FS provided Well Pump and Recovery Data Sheet until the static water level has become stable.",
+      "normalized": "Contractor shall record well recovery water levels until static water level stabilizes, using the FS-provided data sheet.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "7. Remove sand, stones, and other foreign materials that may become deposited in wells after completing final tests.",
+      "normalized": "Contractor shall remove sand, stones, and other foreign materials deposited in wells after final testing.",
+      "section_ref": "221114 3.1.A",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make bacteriological, physical, and chemical analyses of water from the well and report the results.",
+      "normalized": "Contractor shall make bacteriological, physical, and chemical analyses of well water and report the results.",
+      "section_ref": "221114 3.1.B",
+      "page": 31,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "a. Must submit proof of Lab’s current EPA certification for PFAS analysis",
+      "normalized": "Contractor must submit proof of the lab's current EPA certification for PFAS analysis.",
+      "section_ref": "221114 3.1.B.22",
+      "page": 32,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "b. Analyze sample using a US EPA approved analytical method (EPA Methods 533 or 537.1)",
+      "normalized": "Contractor shall analyze PFAS sample using a US EPA approved analytical method (EPA Methods 533 or 537.1).",
+      "section_ref": "221114 3.1.B.22",
+      "page": 32,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "28. Total Coliform (2 tests, at least 24 hours apart)",
+      "normalized": "Total Coliform testing requires 2 tests at least 24 hours apart.",
+      "section_ref": "221114 3.1.B.28",
+      "page": 32,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "A. Disinfect water supply wells according to AWWA A100 and AWWA C654 before testing well pumps.",
+      "normalized": "Contractor shall disinfect water supply wells per AWWA A100 and AWWA C654 before testing well pumps.",
+      "section_ref": "221114 3.2",
+      "page": 32,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Water quality protection: Prevent well contamination, including undesirable physical and chemical characteristics.",
+      "normalized": "Contractor shall prevent well contamination, including undesirable physical and chemical characteristics.",
+      "section_ref": "221114 3.3",
+      "page": 32,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B. Provide casings, seals, sterilizing agents, and other materials to eliminate contamination; shut off contaminated water.",
+      "normalized": "Contractor shall provide casings, seals, sterilizing agents, and other materials to eliminate contamination and shut off contaminated water.",
+      "section_ref": "221114 3.3",
+      "page": 32,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A. Do not use flanges, unions, or keyed couplings for underground piping.",
+      "normalized": "Contractor shall not use flanges, unions, or keyed couplings for underground piping.",
+      "section_ref": "221114 3.4",
+      "page": 32,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Dissimilar Materials Piping Joints: Use adapters compatible with both piping materials, with OD, and with system working pressure.",
+      "normalized": "For dissimilar materials piping joints, contractor shall use adapters compatible with both piping materials, OD, and system working pressure.",
+      "section_ref": "221114 3.5.A",
+      "page": 33,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Galvanized Iron Pipe: Use proper thread compound.",
+      "normalized": "For galvanized iron pipe joints, contractor shall use proper thread compound.",
+      "section_ref": "221114 3.5.A",
+      "page": 33,
+      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
@@ -1598,9 +1839,36 @@
       "confidence": "review"
     },
     {
+      "verbatim": "Furnish all labor and materials necessary for the installation, connection, testing, and adjustment of all electrical equipment specified herein, shown, or notes on the drawings, specified or required in other portions of this specification and delivered to the Government as a complete installation in all respects ready for use.",
+      "normalized": "Contractor must furnish all labor and materials for installation, connection, testing, and adjustment of specified electrical equipment as a complete installation.",
+      "section_ref": "260010 1.1.A",
+      "page": 35,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Coordinate all sections of Division 26, within the division and with all other divisions.",
+      "normalized": "Contractor must coordinate all sections of Division 26 with each other and other divisions.",
+      "section_ref": "260010 1.1.B",
+      "page": 35,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "It is the Contractor's responsibility to perform all coordination to determine Ameren’s requirements at the time of bidding and include all costs within the contract amount.",
+      "normalized": "Contractor is responsible for determining Ameren's requirements at bid time and including all related costs in the contract amount.",
+      "section_ref": "260010 1.2.B",
+      "page": 35,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "All materials shall conform to the applicable current standards (standard rules, regulations and specifications), Institute of Electrical and Electronic Engineers (IEEE), Insulated Power Cable Engineers Association (IPCEA), NFPA-70 National Electric Code (NEC).",
-      "normalized": "Contractor's materials shall conform to applicable IEEE/IPCEA/NFPA-70 NEC standards and regulations.",
-      "section_ref": "1.4.A",
+      "normalized": "All materials shall conform to applicable IEEE, IPCEA, and NEC standards.",
+      "section_ref": "260010 1.4.A",
       "page": 36,
       "verb": "shall",
       "category": "performance",
@@ -1608,8 +1876,8 @@
     },
     {
       "verbatim": "All materials shall bear the label of, or be listed by, the Underwriter’s Laboratory, Inc., (U.L.).",
-      "normalized": "Contractor's materials shall bear the U.L. label or be U.L.-listed.",
-      "section_ref": "1.4.A",
+      "normalized": "All materials shall bear the UL label or be UL listed.",
+      "section_ref": "260010 1.4.A",
       "page": 36,
       "verb": "shall",
       "category": "performance",
@@ -1617,26 +1885,26 @@
     },
     {
       "verbatim": "Where conflicts exist between any of the above standards, the standard which is the most stringent shall take precedence.",
-      "normalized": "When standards conflict, the contractor shall apply the most stringent standard.",
-      "section_ref": "1.4.A",
+      "normalized": "The most stringent standard shall take precedence when standards conflict.",
+      "section_ref": "260010 1.4.A",
       "page": 36,
       "verb": "shall",
       "category": "performance",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
       "verbatim": "Any errors found in the plans or specifications shall be brought to the attention of the COR.",
-      "normalized": "Contractor shall bring any errors found in plans or specifications to the COR's attention.",
-      "section_ref": "1.4.B",
+      "normalized": "Errors found in plans/specifications shall be brought to the COR's attention.",
+      "section_ref": "260010 1.4.B",
       "page": 36,
       "verb": "shall",
       "category": "performance",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
       "verbatim": "Contractor is responsible for execution of all work to meet applicable codes.",
       "normalized": "Contractor is responsible for executing all work to meet applicable codes.",
-      "section_ref": "1.4.B",
+      "section_ref": "260010 1.4.B",
       "page": 36,
       "verb": "required",
       "category": "performance",
@@ -1644,17 +1912,251 @@
     },
     {
       "verbatim": "All work shall be done by electricians licensed by the State of Missouri.",
-      "normalized": "Contractor shall have all work performed by electricians licensed by the State of Missouri.",
-      "section_ref": "1.4.D",
+      "normalized": "All work shall be performed by Missouri-licensed electricians.",
+      "section_ref": "260010 1.4.D",
       "page": 36,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "Discovery of errors does not relieve contractor from responsibility to perform all work to meet standards and codes.",
+      "normalized": "Contractor remains responsible for meeting standards and codes even if errors are discovered.",
+      "section_ref": "260010 1.4.B",
+      "page": 36,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Resolve all conflicts with applicable regulations.",
+      "normalized": "Contractor must resolve all conflicts with applicable regulations.",
+      "section_ref": "260010 1.4.C",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Prepare and submit to the CO all additional clarifying details including substitute methods and materials as needed to secure the required approval and resolve conflicts.",
+      "normalized": "Contractor must prepare and submit clarifying details, including substitute methods/materials, to the CO to secure approval and resolve conflicts.",
+      "section_ref": "260010 1.4.C",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make use of all the data in the contract documents and verify information against actual field conditions.",
+      "normalized": "Contractor must use all contract document data and verify against field conditions.",
+      "section_ref": "260010 1.5.A",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install materials and equipment to conform to the available space.",
+      "normalized": "Contractor must install materials/equipment to fit available space.",
+      "section_ref": "260010 1.5.A",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain required clearances and satisfy the requirements of the governing codes.",
+      "normalized": "Contractor must maintain required clearances and satisfy governing code requirements.",
+      "section_ref": "260010 1.5.A",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Modify wiring and location, provide additional materials and work as required for proper installation in accordance with NEC or manufacturer's instructions.",
+      "normalized": "Contractor must modify wiring/location and provide additional materials/work as required for proper installation per NEC or manufacturer instructions.",
+      "section_ref": "260010 1.5.B",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit proposed deviations to COR for approval and note change(s) on record drawings prior to making such modification.",
+      "normalized": "Contractor must submit proposed deviations to COR for approval and note changes on record drawings before modifying.",
+      "section_ref": "260010 1.5.C",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit under provisions of Section 013300 – Submittals.",
+      "normalized": "Contractor must submit per Section 013300 – Submittals provisions.",
+      "section_ref": "260010 1.6.A",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Deliver and store materials in original containers, protected from the elements and theft, and accessible for inspection.",
+      "normalized": "Contractor must deliver and store materials in original containers, protected and accessible for inspection.",
+      "section_ref": "260010 1.7.A",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Store items subject to moisture in a dry, heated place.",
+      "normalized": "Contractor must store moisture-sensitive items in a dry, heated place.",
+      "section_ref": "260010 1.7.B",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Protect material against dirt, water, chemical, or mechanical injury.",
+      "normalized": "Contractor must protect materials against dirt, water, chemical, or mechanical injury.",
+      "section_ref": "260010 1.7.C",
+      "page": 36,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For the primary distribution system follow utility provider’s requirements.",
+      "normalized": "Contractor must follow utility provider's requirements for the primary distribution system.",
+      "section_ref": "260010 1.8.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At the pre-final inspection, conduct tests to determine that a complete workable electrical system has been installed conforming to the drawings, applicable codes, and specifications.",
+      "normalized": "Contractor must conduct tests at pre-final inspection to confirm the electrical system conforms to drawings, codes, and specifications.",
+      "section_ref": "260010 1.9.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide all products show complete with accessories and mounting materials.",
+      "normalized": "Contractor must provide all products complete with accessories and mounting materials.",
+      "section_ref": "260010 2.1.B",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide all materials of the same type from one manufacturer for all products used on the project.",
+      "normalized": "Contractor must provide all materials of the same type from one manufacturer for all products used on the project.",
+      "section_ref": "260010 2.2.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not supply power panels from multiple manufacturers.",
+      "normalized": "Contractor must not supply power panels from multiple manufacturers.",
+      "section_ref": "260010 2.2.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Follow manufacturer’s directions in delivery, storage, protection and installation of equipment and materials.",
+      "normalized": "Contractor must follow manufacturer's directions for delivery, storage, protection and installation.",
+      "section_ref": "260010 3.1.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Obtain submittal approval prior to installation of materials or equipment.",
+      "normalized": "Contractor must obtain submittal approval before installing materials or equipment.",
+      "section_ref": "260010 3.1.A",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notify COR of any conflicts between manufacturer’s instructions and contract documents.",
+      "normalized": "Contractor must notify COR of conflicts between manufacturer instructions and contract documents.",
+      "section_ref": "260010 3.1.B",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Underground conduit is 3” Schedule 40 PVC or equivalent HDPE unless noted otherwise.",
+      "normalized": "Underground conduit must be 3-inch Schedule 40 PVC or equivalent HDPE unless otherwise noted.",
+      "section_ref": "260010 3.2.A",
+      "page": 37,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install equipment and materials, align, level and adjust for satisfactory operation.",
+      "normalized": "Contractor must install, align, level and adjust equipment and materials for satisfactory operation.",
+      "section_ref": "260010 3.2.B",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install equipment so that all parts are easily accessible for inspection, operation, and maintenance and repair.",
+      "normalized": "Contractor must install equipment so all parts are easily accessible for inspection, operation, maintenance, and repair.",
+      "section_ref": "260010 3.2.B",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Obtain written permission of the COR before cutting or piercing structural members.",
+      "normalized": "Contractor must obtain written COR permission before cutting or piercing structural members.",
+      "section_ref": "260010 3.2.C",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install sleeves to accommodate the penetration.",
+      "normalized": "Contractor must install sleeves to accommodate penetrations.",
+      "section_ref": "260010 3.2.C",
+      "page": 37,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All openings in structure made by parts piercing waterproofing shall be sealed and made watertight.",
+      "normalized": "Openings in structure from parts piercing waterproofing shall be sealed and made watertight.",
+      "section_ref": "260010 3.2.C",
+      "page": 37,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "All penetrations through fire rated walls and floors shall be fire sealed with UL listed fire rated material.",
-      "normalized": "Contractor shall fire seal all penetrations through fire rated walls and floors with UL listed fire rated material.",
-      "section_ref": "3.2.D",
+      "normalized": "All penetrations through fire-rated walls/floors shall be fire sealed with UL listed fire rated material.",
+      "section_ref": "260010 3.2.D",
       "page": 38,
       "verb": "shall",
       "category": "performance",
@@ -1662,10 +2164,343 @@
     },
     {
       "verbatim": "All exposed conduit shall be clean and in new condition free of dents and machine markings.",
-      "normalized": "Contractor shall keep all exposed conduit clean and in new condition, free of dents and machine markings.",
-      "section_ref": "3.3.E",
+      "normalized": "All exposed conduit shall be clean and in new condition, free of dents and machine markings.",
+      "section_ref": "260010 3.3.E",
       "page": 38,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seal equipment raceways, boxes, etc., exiting through structures exposed to the weather and make watertight and insect-proof.",
+      "normalized": "Contractor must seal equipment raceways/boxes exiting through structures exposed to weather and make watertight and insect-proof.",
+      "section_ref": "260010 3.2.D",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Protect equipment outlets and conduit openings at all times that work is not in progress; utilize temporary plastic plugs or caps designed for the purpose",
+      "normalized": "Contractor must protect equipment outlets and conduit openings when work is not in progress using temporary plastic plugs or caps.",
+      "section_ref": "260010 3.2.D",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Comply with NEC Part 110-26.",
+      "normalized": "Contractor must comply with NEC Part 110-26.",
+      "section_ref": "260010 3.2.E",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No grounded equipment will be allowed in this clearance space.",
+      "normalized": "Grounded equipment is not allowed in the required clearance space.",
+      "section_ref": "260010 3.2.E",
+      "page": 38,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Conform to the following mounting height requirements unless otherwise indicated on the drawings by detail or by dimension shown.",
+      "normalized": "Contractor must conform to specified mounting height requirements unless drawings indicate otherwise.",
+      "section_ref": "260010 3.2.F",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install junction and pull boxes in locations that will be accessible after completion of the installation.",
+      "normalized": "Contractor must install junction and pull boxes in locations accessible after installation completion.",
+      "section_ref": "260010 3.2.G",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seal conduits entering external junction and outlet boxes on outer side of structure with duct seal for three inches to prevent moisture entrance.",
+      "normalized": "Contractor must seal conduits entering external junction/outlet boxes with duct seal for three inches to prevent moisture entrance.",
+      "section_ref": "260010 3.2.H",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seal raceway where entering through structure with duct seal for three inches to prevent moisture entrance.",
+      "normalized": "Contractor must seal raceway entering through structure with duct seal for three inches to prevent moisture entrance.",
+      "section_ref": "260010 3.3.A",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use raceways no smaller than ¾ inch except that ½ inc may be used for switch legs, and ground conductors to ground rods, or as shown on drawings.",
+      "normalized": "Contractor must use raceways no smaller than 3/4 inch, except 1/2 inch permitted for switch legs and ground conductors to ground rods, or as shown on drawings.",
+      "section_ref": "260010 3.3.B",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Run exposed raceways in straight lines, at right angles, or parallel with building and equipment lines.",
+      "normalized": "Contractor must run exposed raceways in straight lines, at right angles, or parallel with building/equipment lines.",
+      "section_ref": "260010 3.3.C",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install raceways to provide not less than 24 inches to finished grade unless otherwise shown on drawings.",
+      "normalized": "Contractor must install raceways with not less than 24 inches to finished grade unless otherwise shown on drawings.",
+      "section_ref": "260010 3.3.D.1",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Pitch to drain; avoid trapped runs where possible.",
+      "normalized": "Contractor must pitch raceways to drain and avoid trapped runs where possible.",
+      "section_ref": "260010 3.3.D.1",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grade trenches and place select material to provide uniform trench bottom for raceway support.",
+      "normalized": "Contractor must grade trenches and place select material for uniform trench bottom raceway support.",
+      "section_ref": "260010 3.3.D.1",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Thoroughly clean the interior of all underground conduits and other raceways of all foreign material by compressed air or swabbing.",
+      "normalized": "Contractor must thoroughly clean the interior of underground conduits/raceways of foreign material via compressed air or swabbing.",
+      "section_ref": "260010 3.3.E",
+      "page": 38,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Extend rigid steel conduit stubs at least 1 foot above slab or fill.",
+      "normalized": "Contractor must extend rigid steel conduit stubs at least 1 foot above slab or fill.",
+      "section_ref": "3.4.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At motor control panels and similar stub-ups, extend conduit stubs at least 2 inches above base of panel or into panel and\ninstall insulated grounding bushing and grounding connection on each conduit.",
+      "normalized": "Contractor must extend conduit stubs at motor control panels at least 2 inches above base/into panel and install insulated grounding bushings/connections.",
+      "section_ref": "3.4.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Locate all stub-\nups for equipment connection as close as practical to the unit.",
+      "normalized": "Contractor must locate all equipment connection stub-ups as close as practical to the unit.",
+      "section_ref": "3.4.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Extend rigid steel conduit stubs 6 inches above floor for connection to motors unless otherwise\nshown on drawings.",
+      "normalized": "Contractor must extend rigid steel conduit stubs 6 inches above floor for motor connections unless otherwise shown.",
+      "section_ref": "3.4.B",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide duct seal.",
+      "normalized": "Contractor must provide duct seal at stub-ups.",
+      "section_ref": "3.4.C",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Cap raceways immediately upon rough-in.",
+      "normalized": "Contractor must cap raceways immediately upon rough-in.",
+      "section_ref": "3.5.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Utilize temporary plastic caps designed for the\npurpose.",
+      "normalized": "Contractor must use temporary plastic caps designed for capping raceways.",
+      "section_ref": "3.5.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Circuit all feeders and branch circuits as shown on the drawings.",
+      "normalized": "Contractor must circuit all feeders and branch circuits as shown on drawings.",
+      "section_ref": "3.6.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide copper conductors for building wiring.",
+      "normalized": "Contractor must provide copper conductors for building wiring.",
+      "section_ref": "3.6.A",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where conduit size is not indicated follow NEC requirements for sizing conduit.",
+      "normalized": "If conduit size is not indicated, contractor must follow NEC requirements for sizing conduit.",
+      "section_ref": "3.6.B",
+      "page": 39,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The complete circuit shall be size indicated on drawings, unless otherwise noted.",
+      "normalized": "The complete circuit shall be sized as indicated on drawings unless otherwise noted.",
+      "section_ref": "3.6.C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide stranded copper, THWN conductors for control and motor power circuits in conduit, unless otherwise shown on drawings.",
+      "normalized": "Contractor must provide stranded copper THWN conductors for control/motor power circuits unless otherwise shown.",
+      "section_ref": "3.6.D",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide color coding to match control panel terminal block conductors.",
+      "normalized": "Contractor must provide color coding matching control panel terminal block conductors.",
+      "section_ref": "3.6.E",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Control panel wiring diagrams will be furnished to show conductor colors.",
+      "normalized": "Control panel wiring diagrams will be furnished showing conductor colors (party unspecified).",
+      "section_ref": "3.6.E",
+      "page": 39,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "No. 12 AWG copper minimum size for branch circuits and control circuits unless otherwise specified, shown on the drawings, or required by overcurrent protection.",
+      "normalized": "Minimum conductor size for branch/control circuits is No. 12 AWG copper unless otherwise specified/shown/required.",
+      "section_ref": "3.6.F",
+      "page": 39,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide one of the conductor types indicated for the function and location\nlisted below unless otherwise indicated on the drawings.",
+      "normalized": "Contractor must provide one of the listed conductor types for each function/location unless otherwise shown.",
+      "section_ref": "3.6.H",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide ground and neutral wires identical in size to circuit wires unless otherwise shown on drawings.",
+      "normalized": "Contractor must provide ground/neutral wires identical in size to circuit wires unless otherwise shown.",
+      "section_ref": "3.6.H",
+      "page": 39,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At the Contractor's option, conductors with insulation systems rated for high operating\ntemperatures may be substituted for lower temperature rated conductors; however, no reduction in conductor size will be permitted\nfrom that indicated on the drawings.",
+      "normalized": "Contractor may substitute higher-temperature-rated conductors at its option, but no reduction in conductor size from drawings is permitted.",
+      "section_ref": "3.6.H",
+      "page": 39,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When using smaller overall diameter wire than THW, do\nnot reduce conduit size below that required for type THW insulated conductor.",
+      "normalized": "If using smaller diameter wire than THW, contractor must not reduce conduit size below that required for THW insulated conductor.",
+      "section_ref": "3.6.H",
+      "page": 39,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish factory color coded 600V wire No. 6 AWG and smaller as follows:",
+      "normalized": "Contractor must furnish factory color coded 600V wire No. 6 AWG and smaller per the specified scheme.",
+      "section_ref": "3.6.J.1",
+      "page": 40,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Phase code wire size No. 4 AWG and larger utilizing waterproof, non-metallic, colored\npressure sensitive tape at all boxes, switchboards, panel boards and at equipment served.",
+      "normalized": "Contractor must phase code wire size No. 4 AWG and larger using waterproof non-metallic colored tape at all boxes/panels/equipment.",
+      "section_ref": "3.6.J.2",
+      "page": 40,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide engraved plastic nameplates for all electrical equipment as follows:",
+      "normalized": "Contractor must provide engraved plastic nameplates for all electrical equipment.",
+      "section_ref": "3.7.A",
+      "page": 40,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Panelboards. Indicate panel name, voltage, and phase, number of wires.",
+      "normalized": "Nameplates for panelboards must indicate panel name, voltage, phase, and number of wires.",
+      "section_ref": "3.7.A.1",
+      "page": 40,
+      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
@@ -1688,9 +2523,135 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Contractor shall provide motor disconnects, where specified, shown or required by code, under this division of the specifications.",
-      "normalized": "Contractor must provide motor disconnects where specified, shown, or required by code.",
-      "section_ref": "3.13",
+      "verbatim": "Identify all exposed feeder and branch conduit and control cables with nameplates.",
+      "normalized": "Contractor must identify all exposed feeder/branch conduit and control cables with nameplates.",
+      "section_ref": "3.7.B",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Designate the apparatus served and the voltage of the circuit.",
+      "normalized": "Nameplates must designate the apparatus served and circuit voltage.",
+      "section_ref": "3.7.B",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify each conduit once in each room, or\nspace, where it is exposed.",
+      "normalized": "Contractor must identify each exposed conduit once in each room or space.",
+      "section_ref": "3.7.B",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Mount labels with machine screws, except where screw penetration will injure equipment, contact\nor epoxy cement or ty-raps may be used.",
+      "normalized": "Contractor must mount labels with machine screws, except where screw penetration would injure equipment, in which case contact/epoxy cement or ty-raps may be used.",
+      "section_ref": "3.7.C",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Indicate circuit number's point of origin, voltage and phase if power cable,\nand point of disconnecting means, see 260400.",
+      "normalized": "Splice vault labeling must indicate circuit number's point of origin, voltage/phase (if power cable), and point of disconnecting means.",
+      "section_ref": "3.7.D",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide 4\" x 6\" nameplate at each power panel service or control center with the following\ndesignations:",
+      "normalized": "Contractor must provide a 4\" x 6\" nameplate at each power panel service or control center with specified designations.",
+      "section_ref": "3.7.E",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Label each end of each power and control conductor, IT wiring cables, control cables, entering\neach motor control panel on the load side of the connection terminal block and at each external\ncontrolled or pilot device (motor, sensor, float switch, disconnect, etc.) in its connection junction\nbox, and any intermediate terminal or junction box with a machine numbered band.",
+      "normalized": "Contractor must label each end of power/control conductors and cables at motor control panels, pilot devices, and junction boxes with machine numbered bands.",
+      "section_ref": "3.8.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Label all branch circuits in power distribution panels and all junction boxes and at all\nterminations, disconnects, outlets etc., with numbers corresponding to circuit numbers.",
+      "normalized": "Contractor must label all branch circuits, junction boxes, terminations, disconnects, and outlets with circuit numbers.",
+      "section_ref": "3.8.C",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Keep all conductors within the manufacturer’s allowable tension limits during installation.",
+      "normalized": "Contractor must keep all conductors within manufacturer's allowable tension limits during installation.",
+      "section_ref": "3.9.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use lubricants for wire pulling intended for use with the insulation and raceway material.",
+      "normalized": "Contractor must use lubricants intended for the insulation and raceway material when pulling wire.",
+      "section_ref": "3.9.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Observe cable manufacturer's and industry standard cable bending radius recommendations.",
+      "normalized": "Contractor must observe cable manufacturer's and industry standard bending radius recommendations.",
+      "section_ref": "3.9.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not install conductors at temperatures less than 30 degrees F.",
+      "normalized": "Contractor must not install conductors at temperatures less than 30 degrees F.",
+      "section_ref": "3.9.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide all splices and terminations including all required hardware for a complete\ninstallation.",
+      "normalized": "Contractor must provide all splices and terminations including required hardware for a complete installation.",
+      "section_ref": "3.10.A",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide overall insulation equal to that of the conductors utilized.",
+      "normalized": "Contractor must provide overall insulation equal to that of the conductors used.",
+      "section_ref": "3.10.B",
+      "page": 41,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor shall provide motor disconnects, where specified, shown or required by code, under\nthis division of the specifications.",
+      "normalized": "Contractor shall provide motor disconnects where specified, shown, or required by code.",
+      "section_ref": "3.13.C",
       "page": 42,
       "verb": "shall",
       "category": "performance",
@@ -1704,6 +2665,177 @@
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "Inspect actual field conditions at the proposed location for each splice vault and verify that it is\nfree from interference with other utilities and free of flooding due to the characteristic flow of\nsurface water.",
+      "normalized": "Contractor must inspect field conditions at each proposed splice vault location and verify freedom from utility interference and flooding.",
+      "section_ref": "3.11.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make minor relocations required to clear obstructions and minimize flooding.",
+      "normalized": "Contractor must make minor relocations required to clear obstructions and minimize flooding.",
+      "section_ref": "3.11.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Support raceways with wall brackets, perforated channel, pipe hangers, or\nceiling trapezes.",
+      "normalized": "Contractor must support raceways using wall brackets, perforated channel, pipe hangers, or ceiling trapezes.",
+      "section_ref": "3.12.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Run conduit parallel and perpendicular with each other and building lines.",
+      "normalized": "Contractor must run conduit parallel/perpendicular to each other and building lines.",
+      "section_ref": "3.12.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Wire,\nchain, or perforated plumber's strap are not acceptable for raceway supports.",
+      "normalized": "Wire, chain, or perforated plumber's strap are not acceptable raceway supports.",
+      "section_ref": "3.12.A",
+      "page": 42,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Support conduit 8'-\n0\" on centers max. and within 18\" of termination.",
+      "normalized": "Contractor must support conduit at a maximum of 8'-0\" on centers and within 18\" of termination.",
+      "section_ref": "3.12.A",
+      "page": 42,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use trapeze hangers, pipe hangers, or channel\nto support two or more conduits per run.",
+      "normalized": "Contractor must use trapeze hangers, pipe hangers, or channel to support two or more conduits per run.",
+      "section_ref": "3.12.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide hangers or other devices such as pads, channels, struts, joists, anchors, etc.,\nnecessary for the support of electrical equipment.",
+      "normalized": "Contractor must provide hangers/devices necessary for support of electrical equipment.",
+      "section_ref": "3.12.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide the design, fabrication and erection of supplementary structural framing\nrequired for attachment of hangers or other devices supporting electrical equipment.",
+      "normalized": "Contractor must provide design, fabrication, and erection of supplementary structural framing for attachment of hangers/devices.",
+      "section_ref": "3.12.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Show on shop drawing supplementary framing including design loads,\nmember size, and location.",
+      "normalized": "Contractor must show supplementary framing (design loads, member size, location) on shop drawings.",
+      "section_ref": "3.12.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Verify that dimensions are suitable for the equipment furnished.",
+      "normalized": "Contractor must verify that dimensions are suitable for the equipment furnished.",
+      "section_ref": "3.12.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide additional strength when equipment furnished is heavier than that specified.",
+      "normalized": "If equipment furnished is heavier than specified, contractor must provide additional strength.",
+      "section_ref": "3.12.B",
+      "page": 42,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide unistrut mounting channel for equipment to walls floors.",
+      "normalized": "Contractor must provide unistrut mounting channel for equipment mounted to walls/floors.",
+      "section_ref": "3.12.C",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide stainless steel material for corrosive or outdoor locations.",
+      "normalized": "Contractor must provide stainless steel material for corrosive or outdoor locations.",
+      "section_ref": "3.12.C",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide power wiring including service to apparatus and line voltage (or low voltage if specified)\ncontrol wiring.",
+      "normalized": "Contractor must provide power wiring including service to apparatus and line/low voltage control wiring.",
+      "section_ref": "3.13.A",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide branch circuit wiring to each fixture and motor sized as shown on the drawings.",
+      "normalized": "Contractor must provide branch circuit wiring to each fixture/motor sized as shown on drawings.",
+      "section_ref": "3.13.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Verify motor characteristics prior to installing wiring.",
+      "normalized": "Contractor must verify motor characteristics prior to installing wiring.",
+      "section_ref": "3.13.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "After connecting, check for proper rotation.",
+      "normalized": "Contractor must check for proper rotation after connecting.",
+      "section_ref": "3.13.B",
+      "page": 42,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide all grounding systems and connections above grade by the fusion-welding\nprocess or with bolted solderless connectors, in compliance with UL 467, and those below grade\nshall be made by a fusion-welding process.",
+      "normalized": "Contractor must provide grounding systems/connections above grade by fusion-welding or bolted solderless connectors per UL 467; below-grade connections shall be fusion-welded.",
+      "section_ref": "3.14.A",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "Where not otherwise indicated, grounding conductor size shall conform to the most stringent of the governing codes.",
@@ -1724,9 +2856,171 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Ground all line and low voltage electrical systems completely and effectively as required by code and as specified herein.",
+      "normalized": "Contractor must ground all line and low voltage electrical systems completely per code and specification.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ground all raceway systems and equipment enclosures.",
+      "normalized": "Contractor must ground all raceway systems and equipment enclosures.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ground the system to exterior ground rods and building cold water piping if any and ground ring shown.",
+      "normalized": "Contractor must ground the system to exterior ground rods, building cold water piping (if any), and ground ring shown.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Furnish an additional 30 feet of #2 AWG CU ground ring as a supplemental electrode connected to panel ground.",
+      "normalized": "Contractor must furnish an additional 30 feet of #2 AWG CU ground ring connected to panel ground.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Furnish bolted grounding conductor connections.",
+      "normalized": "Contractor must furnish bolted grounding conductor connections.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All grounding points to be accessible after installation.",
+      "normalized": "All grounding points must remain accessible after installation.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Furnish an insulated green copper equipment ground conductor installed in each conduit sized for the largest branch circuit per NEC 250-122, unless otherwise noted.",
+      "normalized": "Contractor must furnish an insulated green copper equipment ground conductor in each conduit, sized per NEC 250-122, unless otherwise noted.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Maintain continuity of equipment ground throughout the entire raceway, cabinet and equipment enclosure system.",
+      "normalized": "Contractor must maintain ground continuity throughout the raceway, cabinet, and enclosure system.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Use grounding bushings and jumpers wherever normal conduit termination does not ensure continuity.",
+      "normalized": "Contractor must use grounding bushings and jumpers wherever normal conduit termination does not ensure continuity.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Where nonmetallic conduit is used for distribution or where direct burial cables are employed, install a green with one or more yellow stripes, insulated equipment ground conductor with each circuit.",
+      "normalized": "If nonmetallic conduit or direct burial cable is used, contractor must install a green/yellow-striped insulated equipment ground conductor with each circuit.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "At all sheet steel enclosures such as panel boards, load centers, intermediate junction boxes provide grounding locknuts with a ground conductor termination lug on each locknut.",
+      "normalized": "Contractor must provide grounding locknuts with termination lugs at all sheet steel enclosures.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Bond all grounding locknuts together to enclosure with copper conductors.",
+      "normalized": "Contractor must bond all grounding locknuts to enclosure with copper conductors.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Boxes less than 12” x 12” are not required to have conduit bonding, provide setscrew bonding locknuts.",
+      "normalized": "For boxes smaller than 12x12 inches, conduit bonding is not required but contractor must provide setscrew bonding locknuts.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Bond metal parts of lighting fixtures not otherwise grounded by bolted fastenings to conduit system with bare copper wire.",
+      "normalized": "Contractor must bond metal parts of lighting fixtures not otherwise grounded to the conduit system with bare copper wire.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ground receptacles to outlet boxes with wire and machine screw.",
+      "normalized": "Contractor must ground receptacles to outlet boxes with wire and machine screw.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide each electrical buried pull vault with two copper-clad steel ground rod, 5/8-inch diameter by 10 feet long, driven through the floor of the splice vault leaving 6 inches projecting above the vault floor.",
+      "normalized": "Contractor must provide two 5/8-inch by 10-foot copper-clad steel ground rods per buried pull vault, driven through the vault floor with 6 inches projecting.",
+      "section_ref": "PWS 3.15.A",
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where pull vaults are provided provide ground rods in each vault.",
+      "normalized": "Where pull vaults are provided, contractor must provide ground rods in each vault.",
+      "section_ref": "PWS 3.15.B",
+      "page": 43,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide two 10 ft ground rods in each primary power pull vault in drain holes.",
+      "normalized": "Contractor must provide two 10-foot ground rods in each primary power pull vault, in drain holes.",
+      "section_ref": "PWS 3.15.C",
+      "page": 43,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The instrument must be equipped with a meter reading directly in ohms or fractions thereof to indicate the ground value of the ground rod or grounding systems under test.",
-      "normalized": "The ground resistance tester instrument must be equipped with a meter reading directly in ohms (or fractions) to indicate the ground value of the ground rod or grounding system under test.",
-      "section_ref": "3.17.D",
+      "normalized": "The test instrument used by contractor must have a meter reading directly in ohms to indicate ground value.",
+      "section_ref": "PWS 3.17.D",
       "page": 44,
       "verb": "must",
       "category": "performance",
@@ -1734,8 +3028,8 @@
     },
     {
       "verbatim": "Measured resistance from rod to earth shall be 25 ohms or less and less then 15 ohms for a ground ring measure at point of connection.",
-      "normalized": "Contractor shall ensure measured resistance from rod to earth is 25 ohms or less, and less than 15 ohms for a ground ring measured at the point of connection.",
-      "section_ref": "3.17.D",
+      "normalized": "Measured resistance from rod to earth shall be 25 ohms or less (15 ohms or less for a ground ring at point of connection).",
+      "section_ref": "PWS 3.17.D",
       "page": 44,
       "verb": "shall",
       "category": "performance",
@@ -1743,53 +3037,449 @@
     },
     {
       "verbatim": "Minimum resistance shall be 200 megohms.",
-      "normalized": "Contractor shall ensure minimum insulation resistance is 200 megohms.",
-      "section_ref": "3.17.E.2",
+      "normalized": "Minimum acceptable resistance shall be 200 megohms.",
+      "section_ref": "PWS 3.17.E.2",
       "page": 44,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "Coordinate with the Utility Provider Intercounty Electric for installation of primary conductors.",
+      "normalized": "Contractor must coordinate with Utility Provider Intercounty Electric for primary conductor installation.",
+      "section_ref": "PWS 3.16.A",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Perform the tests as described below.",
+      "normalized": "Contractor must perform the tests described in this section.",
+      "section_ref": "PWS 3.17.A",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notify the COR in writing five days in advance of all tests in this and other sections of this specification.",
+      "normalized": "Contractor must notify the COR in writing at least five days before all tests.",
+      "section_ref": "PWS 3.17.A",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Perform all tests in the presence of the COR.",
+      "normalized": "Contractor must perform all tests in the presence of the COR.",
+      "section_ref": "PWS 3.17.A",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Upon completion of all tests, submit written test results in duplicate for approval by the COR prior to acceptance.",
+      "normalized": "Contractor must submit written test results in duplicate to the COR for approval prior to acceptance, upon completion of tests.",
+      "section_ref": "PWS 3.17.A",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit a copy for approval of the proposed tabular data sheet to be used for each required test.",
+      "normalized": "Contractor must submit a copy of the proposed tabular data sheet for approval for each required test.",
+      "section_ref": "PWS 3.17.B.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Type column and heading titles on sheets.",
+      "normalized": "Contractor must type column and heading titles on data sheets.",
+      "section_ref": "PWS 3.17.B.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit data sheets for approval a minimum of 10 days before each test.",
+      "normalized": "Contractor must submit data sheets for approval at least 10 days before each test.",
+      "section_ref": "PWS 3.17.B.1",
+      "page": 44,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Divide sheets into columns and rows with appropriate rulings and titles.",
+      "normalized": "Contractor must divide data sheets into columns and rows with appropriate rulings and titles.",
+      "section_ref": "PWS 3.17.B.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Enter test data on tabular forms during tests by hand; do not recopy.",
+      "normalized": "Contractor must enter test data on tabular forms by hand during tests and must not recopy data.",
+      "section_ref": "PWS 3.17.B.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish data in tabular form listing required test data, name of tested device, location, serial number, type and name of measurement instrument with scale settings.",
+      "normalized": "Contractor must furnish tabular data including device name, location, serial number, instrument type/name, and scale settings.",
+      "section_ref": "PWS 3.17.B.2",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install all mechanical and electrical equipment before any preliminary electrical tests are made and final connections are made.",
+      "normalized": "Contractor must install all mechanical and electrical equipment before preliminary electrical tests and final connections.",
+      "section_ref": "PWS 3.17.C.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Test all control and power conductors including neutrals for insulation resistance and continuity as described below and in Section 260400 (before connection of conductors to control panels, controlled and pilot devices).",
+      "normalized": "Contractor must test all control and power conductors, including neutrals, for insulation resistance and continuity before connecting to control panels and pilot devices.",
+      "section_ref": "PWS 3.17.C.2",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Connect all power to distribution panels after all preliminary tests have been done as described above.",
+      "normalized": "Contractor must connect power to distribution panels only after all preliminary tests are complete.",
+      "section_ref": "PWS 3.17.C.3",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Perform ground-impedance measurements utilizing the fall-of-potential method in accordance with IEEE 81.",
+      "normalized": "Contractor must perform ground-impedance measurements using the fall-of-potential method per IEEE 81.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "On systems consisting of interconnected ground rods, perform tests after interconnections are complete.",
+      "normalized": "For interconnected ground rod systems, contractor must perform tests after interconnections are complete.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "On systems consisting of a single ground rod perform tests before any wire is connected.",
+      "normalized": "For single ground rod systems, contractor must perform tests before any wire is connected.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Take measurements in normally dry weather, not less than 48 hours after rainfall.",
+      "normalized": "Contractor must take measurements in dry weather, not less than 48 hours after rainfall.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use a portable ground resistance tester in accordance with manufacturer's instructions to test each ground or group of grounds.",
+      "normalized": "Contractor must use a portable ground resistance tester per manufacturer's instructions to test each ground or group of grounds.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide site diagram indicating location of test probes with associated distances and provide a plot of resistance vs. distance.",
+      "normalized": "Contractor must provide a site diagram of test probe locations/distances and a resistance vs. distance plot.",
+      "section_ref": "PWS 3.17.D",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Test insulation resistance under normal climatic conditions.",
+      "normalized": "Contractor must test insulation resistance under normal climatic conditions.",
+      "section_ref": "PWS 3.17.E",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Measure resistance between all insulated conductors (including neutral and isolated ground) and ground as well as each other.",
+      "normalized": "Contractor must measure resistance between all insulated conductors and ground, and between conductors themselves.",
+      "section_ref": "PWS 3.17.E.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Coordinate testing with COR so that tests can be witnessed if desired.",
+      "normalized": "Contractor must coordinate testing with the COR to allow witnessing if desired.",
+      "section_ref": "PWS 3.17.E.1",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For circuits with 600 V rated insulation, make insulation resistance measurements on each power distribution and control panel, main feeder and each branch circuit and all control circuits.",
+      "normalized": "For 600V rated insulation circuits, contractor must measure insulation resistance on each power distribution/control panel, main feeder, branch circuit, and control circuit.",
+      "section_ref": "PWS 3.17.E.2",
+      "page": 44,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make all measurements with loads disconnected and after all wiring is in place.",
+      "normalized": "Contractor must make all measurements with loads disconnected and after all wiring is installed.",
+      "section_ref": "PWS 3.17.E.2",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Perform tests with Megohm meter having a minimum 10,000 megohm scale range and apply 1000 VDC.",
+      "normalized": "Contractor must perform tests using a Megohm meter with minimum 10,000 megohm scale range, applying 1000 VDC.",
+      "section_ref": "PWS 3.17.E.2",
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "All electronic devices must be disconnected to avoid damage.",
-      "normalized": "Contractor must disconnect all electronic devices during insulation resistance testing to avoid damage.",
-      "section_ref": null,
+      "normalized": "Contractor must disconnect all electronic devices before testing to avoid damage.",
+      "section_ref": "260010 F.2",
       "page": 45,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "GFI breakers in branch panels must be removed, with the phase and neutral wires connected to an adjacent breaker for testing.",
-      "normalized": "Contractor must remove GFI breakers in branch panels and connect phase and neutral wires to an adjacent breaker for testing.",
-      "section_ref": null,
+      "normalized": "Contractor must remove GFI breakers in branch panels and connect phase/neutral wires to an adjacent breaker for testing.",
+      "section_ref": "260010 F.2",
       "page": 45,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "The neutral and isolated ground must be disconnected from ground at the main service switchgear in order to test the feeders.",
       "normalized": "Contractor must disconnect the neutral and isolated ground from ground at the main service switchgear to test the feeders.",
-      "section_ref": null,
+      "section_ref": "260010 F.5",
       "page": 45,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
       "verbatim": "Failure of any phase of the operation tests shall constitute failure of the system.",
-      "normalized": "Contractor's system testing is considered failed if any phase of the operation tests fails.",
-      "section_ref": null,
+      "normalized": "Failure of any phase of the operation tests is deemed system failure, triggering correction and retest obligations.",
+      "section_ref": "260010 G",
       "page": 45,
       "verb": "shall",
       "category": "performance",
       "confidence": "review"
     },
     {
+      "verbatim": "Perform testing after all wiring is in place, with loads disconnected.",
+      "normalized": "Contractor must perform insulation resistance testing only after all wiring is in place and loads are disconnected.",
+      "section_ref": "260010 F.2",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Open the main service switchgear disconnect switch.",
+      "normalized": "Contractor must open the main service switchgear disconnect switch during testing.",
+      "section_ref": "260010 F.3",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Close the branch panel main switch and all branch circuit breakers.",
+      "normalized": "Contractor must close the branch panel main switch and all branch circuit breakers during testing.",
+      "section_ref": "260010 F.4",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Connect Megohm meter to phase, neutral, ground and isolated ground busses in the combinations shown in the following table.",
+      "normalized": "Contractor must connect the Megohm meter to phase, neutral, ground and isolated ground busses per the specified table combinations.",
+      "section_ref": "260010 F.5",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(Minimum of 10 readings w/o isolated ground)",
+      "normalized": "Contractor must record a minimum of 10 readings without isolated ground.",
+      "section_ref": "260010 F.6",
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(Minimum of 15 readings with isolated ground)",
+      "normalized": "Contractor must record a minimum of 15 readings with isolated ground.",
+      "section_ref": "260010 F.6",
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Apply 1000 VDC.",
+      "normalized": "Contractor must apply 1000 VDC when testing wires with 600V rated insulation.",
+      "section_ref": "260010 F.7.a",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A minimum value of 200 megohm is required.",
+      "normalized": "Contractor must achieve a minimum resistance value of 200 megohm for 600V rated wires.",
+      "section_ref": "260010 F.7.a",
+      "page": 45,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this happens, reduce the voltage to a lesser value and record the megohm value.",
+      "normalized": "If an outlet arcs at less than 1000 VDC, contractor must reduce the voltage and record the megohm value.",
+      "section_ref": "260010 F.7.a.1",
+      "page": 45,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Apply voltage which does not exceed manufacturer's recommendations.",
+      "normalized": "Contractor must not exceed manufacturer's recommended voltage when testing wires under 600V rated insulation.",
+      "section_ref": "260010 F.7.b",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the megohm value is less than 200 megohms, isolate the problem circuit by opening breakers one at a time.",
+      "normalized": "If the megohm value is less than 200 megohms, contractor must isolate the problem circuit by opening breakers one at a time.",
+      "section_ref": "260010 F.8",
+      "page": 45,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Correct failures and retest system.",
+      "normalized": "Contractor must correct failures and retest the system.",
+      "section_ref": "260010 G",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Repeat until the system is operating to required specifications.",
+      "normalized": "Contractor must repeat correction/retest until the system operates to required specifications.",
+      "section_ref": "260010 G",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit dated \"Electrical System Test Reports\" indicating all tests performed and demonstrating conformance with the required system performance criteria in tabular form as described above.",
+      "normalized": "Contractor must submit dated Electrical System Test Reports showing all tests performed and conformance in tabular form.",
+      "section_ref": "260010 H.1",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Include all voltage, current, and resistance test data of the electrical service, main feeders, panelboards, motor control panels, control system tests and ground systems as applicable.",
+      "normalized": "Contractor must include all voltage, current, and resistance test data for specified equipment in the test reports.",
+      "section_ref": "260010 H.1",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit test reports prior to final inspection.",
+      "normalized": "Contractor must submit test reports prior to final inspection.",
+      "section_ref": "260010 H.1",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Correct promptly any failure or defects revealed by these tests and re-conduct tests on these corrected items.",
+      "normalized": "Contractor must promptly correct any test failures/defects and re-conduct tests on corrected items.",
+      "section_ref": "260010 I.1",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make any final adjustments for optimum operation of all equipment.",
+      "normalized": "Contractor must make final adjustments for optimum operation of all equipment.",
+      "section_ref": "260010 I.1",
+      "page": 45,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Shop drawings shall include, an overall system drawing, one-line fault current diagram with system fault calculations and Short Circuit Current Requirements (SCCR) determine and shown for all panelboards, disconnects and other equipment where a SCCR is required.",
-      "normalized": "Contractor's shop drawings must include an overall system drawing, one-line fault current diagram with fault calculations, and SCCR shown for all panelboards, disconnects, and equipment requiring SCCR.",
-      "section_ref": "260050 1.3",
+      "normalized": "Contractor's shop drawings shall include an overall system drawing, one-line fault current diagram, and SCCR calculations for all panelboards/disconnects/equipment requiring SCCR.",
+      "section_ref": "260050 1.3.C.1",
       "page": 47,
       "verb": "shall",
       "category": "performance",
@@ -1797,8 +3487,8 @@
     },
     {
       "verbatim": "Calculations shall be performed after coordination with the electric utility provider to determine the supply side transformer sizes and impedance.",
-      "normalized": "Contractor must perform calculations after coordinating with the electric utility provider to determine supply side transformer sizes and impedance.",
-      "section_ref": "260050 1.3",
+      "normalized": "Contractor shall coordinate with the electric utility provider to determine supply-side transformer sizes/impedance before performing calculations.",
+      "section_ref": "260050 1.3.C.1",
       "page": 47,
       "verb": "shall",
       "category": "performance",
@@ -1806,17 +3496,17 @@
     },
     {
       "verbatim": "For bidding purchases the contractor shall base cost on requirements shown in the drawings.",
-      "normalized": "For bidding purposes, the contractor must base cost on requirements shown in the drawings.",
-      "section_ref": "260050 1.3",
+      "normalized": "For bidding purchases, the contractor shall base cost on requirements shown in the drawings.",
+      "section_ref": "260050 1.3.C.1",
       "page": 47,
       "verb": "shall",
-      "category": "performance",
-      "confidence": "high"
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Panelboard drawings shall provide detail of the size, materials, and ratings of all panel board construction components including circuit breakers.",
-      "normalized": "Contractor's panelboard drawings must detail the size, materials, and ratings of all panelboard construction components, including circuit breakers.",
-      "section_ref": "260050 1.3",
+      "normalized": "Contractor's panelboard drawings shall detail size, materials, and ratings of all panel board construction components including breakers.",
+      "section_ref": "260050 1.3.C.1",
       "page": 47,
       "verb": "shall",
       "category": "performance",
@@ -1824,10 +3514,136 @@
     },
     {
       "verbatim": "A listing of compliance standards shall be provided.",
-      "normalized": "Contractor must provide a listing of compliance standards.",
-      "section_ref": "260050 1.3",
+      "normalized": "Contractor shall provide a listing of compliance standards with panelboard drawings.",
+      "section_ref": "260050 1.3.C.1",
       "page": 47,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish all new materials of latest standard design, which are the standard product of manufacturers who regularly engage in the production of such equipment.",
+      "normalized": "Contractor must furnish new materials of latest standard design from manufacturers regularly engaged in producing such equipment.",
+      "section_ref": "260050 1.2.A",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide material of the same type or classification and used for the same purpose of the same manufacturer.",
+      "normalized": "Contractor must provide materials of the same type/classification and manufacturer for the same purpose.",
+      "section_ref": "260050 1.2.A",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish materials, equipment, and devices approved by the Underwriters Laboratories, Inc., for the purposes for which they are used.",
+      "normalized": "Contractor must furnish UL-approved materials, equipment, and devices for their intended purposes.",
+      "section_ref": "260050 1.2.A",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit under provisions of Section 013300-Submittals.",
+      "normalized": "Contractor must submit items under the provisions of Section 013300-Submittals.",
+      "section_ref": "260050 1.3.A",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit shop drawings and equipment catalog data and manufacturer's installation operating and maintenance instructions for approval for the following items in accordance with Section 260010 and Division 1 submittal requirements.",
+      "normalized": "Contractor must submit shop drawings, catalog data, and manufacturer's O&M instructions for approval per Section 260010 and Division 1 requirements.",
+      "section_ref": "260050 1.3.B",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide manufacturer’s original PDF files with submittals in electronic form with items marked to be submitted with all accessories.",
+      "normalized": "Contractor must provide manufacturer's original PDF files electronically with submittals, marked and including all accessories.",
+      "section_ref": "260050 1.3.C",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Calculate and show Ampere Interrupt Current (AIC) for main service breakers and breakers protecting feeders and motor branch circuits.",
+      "normalized": "Contractor must calculate and show AIC for main service breakers and feeder/motor branch circuit breakers.",
+      "section_ref": "260050 1.3.C.1",
+      "page": 47,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Shop drawings shall be prepared under the direction of a Missouri licensed Electrical Engineer and include the Engineers stamp and signature.",
+      "normalized": "Contractor's shop drawings shall be prepared under a Missouri licensed Electrical Engineer's direction and include the engineer's stamp and signature.",
+      "section_ref": "260050 1.3.C.1",
+      "page": 48,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. Panel Boards and (over Current Protection Devices- Circuit Breakers - Product data, specification sheet, listing of compliance standards, installation instructions and\nOperations and Maintenance Manuals.\n3. Conduit and Raceways – Product data, specification sheet, compliance certificates.\n4. Pull and Junction Boxes - Product data, specification sheet, compliance certificates.\n5. Conduit Fittings - Product data, specification sheet, compliance certificates.\n6. Switches, Disconnect, Receptacles and Plugs - Product data, specification sheet,\ncompliance certificates.\n7. Conductors - Product data, specification sheet, compliance certificates and 1-foot samples.\n8. Identification Nameplate Schedule – Product Data\n9. Wire Number Tags – Product data\n10. Lugs and Connectors- Product data, specification sheet, compliance certificates.\n11. Insulated Terminal Ends - Product data, specification sheet, compliance certificates.\n12. Ground rods - Product data, specification sheet, compliance certificates.\n13. Ground rod enclosures - Product data.\n14. Duct Seal and Fire Stopping - Product data, specification sheet, compliance certificates.\n15. Oxide inhibiting compound - Product data, specification sheet.",
+      "normalized": "Contractor must submit product data, specification sheets, compliance certificates and related documentation for the listed material categories (items 2-15).",
+      "section_ref": "260050 1.3.C.2-15",
+      "page": 48,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide pull boxes at every 500 feet along buried conduit corridor.",
+      "normalized": "Contractor must provide pull boxes at intervals not exceeding every 500 feet along buried conduit runs.",
+      "section_ref": "260050 2.2.A",
+      "page": 48,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide code gage galvanized sheet steel NEMA 1, 3, 4, 4X SS, 7, 12 pull boxes where required or shown on the drawings.",
+      "normalized": "Contractor must provide code-gage galvanized NEMA-rated pull boxes where required or shown on drawings.",
+      "section_ref": "260050 2.2.B",
+      "page": 48,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide removable screw cover on the largest access side of the box unless otherwise detailed.",
+      "normalized": "Contractor must provide a removable screw cover on the largest access side of pull boxes unless otherwise detailed.",
+      "section_ref": "260050 2.2.B",
+      "page": 48,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where cast boxes are required or specified, provide conduit entrances with threaded hubs.",
+      "normalized": "If cast boxes are required or specified, contractor must provide conduit entrances with threaded hubs.",
+      "section_ref": "260050 2.2.B",
+      "page": 48,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide stainless steel screws at all exterior and damp locations.",
+      "normalized": "Contractor must provide stainless steel screws at all exterior and damp locations.",
+      "section_ref": "260050 2.2.B",
+      "page": 48,
+      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
@@ -1850,9 +3666,180 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Paint all pull boxes with a rust inhibiting primer and finish coat to match surrounding finish.",
+      "normalized": "Contractor must paint all pull boxes with rust-inhibiting primer and a finish coat matching surrounding finish.",
+      "section_ref": "260050 2.2.B",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide Quazite Underground Enclosure Assembly-PG1118Z80217 or approved equal.",
+      "normalized": "Contractor must provide the specified Quazite Underground Enclosure Assembly or an approved equal.",
+      "section_ref": "260050 2.3.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Cover logo to say “Electric”.",
+      "normalized": "Contractor must ensure the splice box cover logo reads 'Electric'.",
+      "section_ref": "260050 2.3.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide impact resistant white, nylon cover plates for all wiring devices in finished space unless otherwise indicated.",
+      "normalized": "Contractor must provide impact-resistant white nylon cover plates for wiring devices in finished spaces unless otherwise indicated.",
+      "section_ref": "260050 2.4.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide anodized aluminum plates for flush mounted devices in unfinished spaces.",
+      "normalized": "Contractor must provide anodized aluminum cover plates for flush-mounted devices in unfinished spaces.",
+      "section_ref": "260050 2.4.C",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where devices are installed in exposed fittings or boxes, use Appleton \"FSK\" covers.",
+      "normalized": "If devices are installed in exposed fittings or boxes, contractor must use Appleton FSK covers.",
+      "section_ref": "260050 2.4.C",
+      "page": 49,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where weatherproof devices are specified in exterior or damp location use cast malleable covers with gasket and stainless-steel screws.",
+      "normalized": "If weatherproof devices are specified in exterior/damp locations, contractor must use cast malleable covers with gasket and stainless-steel screws.",
+      "section_ref": "260050 2.4.C",
+      "page": 49,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish conductors and cable conforming to UL, Federal Specification J-C-30, or IPCEA as applicable.",
+      "normalized": "Contractor must furnish conductors/cable conforming to UL, Federal Specification J-C-30, or IPCEA as applicable.",
+      "section_ref": "260050 2.5.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide new cable manufactured within 1 year prior to installation.",
+      "normalized": "Contractor must provide new cable manufactured within 1 year prior to installation.",
+      "section_ref": "260050 2.5.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Deliver to jobsite in original cartons bearing U.L. label.",
+      "normalized": "Contractor must deliver cable to jobsite in original cartons bearing the U.L. label.",
+      "section_ref": "260050 2.5.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide copper conductors.",
+      "normalized": "Contractor must provide copper conductors for 600V power, lighting, and control circuits.",
+      "section_ref": "260050 2.5.B",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Copper conductors unless otherwise specified, conform to Federal Specification J-C-30.",
+      "normalized": "Copper conductors, unless otherwise specified, must conform to Federal Specification J-C-30.",
+      "section_ref": "260050 2.5.B",
+      "page": 49,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For cable type THWN, provide insulation conforming to Federal Specification J-C-30A.",
+      "normalized": "If cable type is THWN, contractor must provide insulation conforming to Federal Specification J-C-30A.",
+      "section_ref": "260050 2.5.B",
+      "page": 49,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For type XHHW, XLP-USE-2, provide cross-linked polyethylene insulation conforming to IPCEA S-66-524 9See 260400 for additional details and testing).",
+      "normalized": "If cable type is XHHW or XLP-USE-2, contractor must provide cross-linked polyethylene insulation conforming to IPCEA S-66-524.",
+      "section_ref": "260050 2.5.B",
+      "page": 49,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Color code insulation for wire sizes No. 14 through No. 6, No. 4 AWG and larger may be color coded with tape.",
+      "normalized": "Contractor must color code insulation for wire sizes No. 14 through No. 6; No. 4 AWG and larger may be color coded with tape.",
+      "section_ref": "260050 2.5.B",
+      "page": 49,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide permanently mounted laminated plastic engraved nameplates for all electrical equipment listed in 260010 and this section indicating name, function and rating.",
+      "normalized": "Contractor must provide permanently mounted laminated plastic engraved nameplates for all electrical equipment listed in 260010 and this section.",
+      "section_ref": "260050 2.6.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit nameplate legends for approval with shop drawings of equipment.",
+      "normalized": "Contractor must submit nameplate legends for approval along with shop drawings of equipment.",
+      "section_ref": "260050 2.6.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish black nameplates with engraved white letters for 120/240, 120/208-volt, and red with white letters for 480-volt equipment.",
+      "normalized": "Contractor must furnish black nameplates with white engraved letters for 120/240 and 120/208-volt equipment, and red nameplates with white letters for 480-volt equipment.",
+      "section_ref": "260050 2.6.A",
+      "page": 49,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Letter height 1/4 inch minimum.",
+      "normalized": "Contractor must use a minimum letter height of 1/4 inch on nameplates.",
+      "section_ref": "260050 2.6.A",
+      "page": 49,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Compression fittings shall be applied with a factory matched die in a hydraulic compression tool that stamps manufacturers name when fully compressed to manufactures specifications.",
-      "normalized": "Contractor shall apply compression fittings using a factory matched die in a hydraulic compression tool that stamps manufacturer's name when fully compressed to manufacturer's specifications.",
-      "section_ref": "2.8.D",
+      "normalized": "Contractor shall apply compression fittings using a factory matched die in a hydraulic compression tool that stamps the manufacturer's name when fully compressed.",
+      "section_ref": "260050 2.8.D",
       "page": 50,
       "verb": "shall",
       "category": "performance",
@@ -1860,21 +3847,228 @@
     },
     {
       "verbatim": "All feeder terminations shall be rated at 75 degrees C. or higher.",
-      "normalized": "Contractor shall ensure all feeder terminations are rated at 75 degrees C or higher.",
-      "section_ref": "2.8.E",
+      "normalized": "Contractor shall rate all feeder terminations at 75 degrees C or higher.",
+      "section_ref": "260050 2.8.E",
       "page": 50,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Excessive bending of the cable will not be permitted.",
-      "normalized": "Contractor must not excessively bend the cable during handling.",
-      "section_ref": "260400",
-      "page": 54,
-      "verb": "will",
+      "verbatim": "Provide vinyl cloth, machine made numbered adhesive labels for each termination of all power and control conductors.",
+      "normalized": "Contractor must provide vinyl cloth numbered adhesive labels for each termination of power and control conductors.",
+      "section_ref": "260050 2.7.A",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Number labels to correspond to schematic and wiring diagrams for each conductor.",
+      "normalized": "Contractor must number labels to correspond to schematic and wiring diagrams for each conductor.",
+      "section_ref": "260050 2.7.A",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide labels with permanent adhesion method.",
+      "normalized": "Contractor must provide labels with a permanent adhesion method.",
+      "section_ref": "260050 2.7.A",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Hand lettered labels are not acceptable.",
+      "normalized": "Contractor must not use hand lettered labels.",
+      "section_ref": "260050 2.7.A",
+      "page": 50,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Solderless insulated pressure twist-on connectors for conductor’s No. 8 or smaller for in-line splices for circuits other than motor power and control circuits.",
+      "normalized": "Contractor must use solderless insulated pressure twist-on connectors for No. 8 or smaller conductors in in-line splices (non-motor circuits).",
+      "section_ref": "260050 2.8.B",
+      "page": 50,
+      "verb": "imperative",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "Use circumferential compression fittings for No. 6 AWG and larger conductors, termination lugs and splices.",
+      "normalized": "Contractor must use circumferential compression fittings for No. 6 AWG and larger conductors, lugs, and splices.",
+      "section_ref": "260050 2.8.C",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Copper conductors - tin plated copper terminals filled with oxide inhibiting pentrox compound.",
+      "normalized": "Contractor must use tin plated copper terminals filled with oxide inhibiting pentrox compound for copper conductors.",
+      "section_ref": "260050 2.8.C",
+      "page": 50,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide insulation equal to insulation of conductors used.",
+      "normalized": "Contractor must provide insulation equal to the insulation of the conductors used.",
+      "section_ref": "260050 2.9.A",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For above ground installations, use thermoplastic tape, heat shrink tubing, pre-insulated splices, expandable insulated sleeves or resin encapsulated splices.",
+      "normalized": "For above ground installations, contractor must use thermoplastic tape, heat shrink tubing, pre-insulated splices, expandable insulated sleeves, or resin encapsulated splices.",
+      "section_ref": "260050 2.9.A",
+      "page": 50,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "NSC threads on all threaded fasteners, nuts, bolts, screws, lag bolts, expansion shield, and other miscellaneous fasteners.",
+      "normalized": "Contractor must use NSC threads on all threaded fasteners and miscellaneous hardware.",
+      "section_ref": "260050 2.12.A",
+      "page": 50,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide cadmium plated steel hardware for indoor dry locations.",
+      "normalized": "Contractor must provide cadmium plated steel hardware for indoor dry locations.",
+      "section_ref": "260050 2.12.A",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide all stainless-steel hardware, nuts bolts washers etc. for all outside locations and all wet or corrosive locations.",
+      "normalized": "Contractor must provide stainless-steel hardware for outside, wet, or corrosive locations.",
+      "section_ref": "260050 2.12.B",
+      "page": 50,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide 1-1/2\" x 1-1/2\" continuous steel channel with 17/32\" diameter holes on 1-1/2\" centers on 3 sides of channel for bolting to.",
+      "normalized": "Contractor must provide 1-1/2\" x 1-1/2\" continuous steel channel with 17/32\" holes on 1-1/2\" centers on 3 sides.",
+      "section_ref": "260050 2.13.A",
+      "page": 51,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Fourth side of channel shall have 7/8\" continuous slot for accessory hangers.",
+      "normalized": "The fourth side of the channel shall have a 7/8\" continuous slot for accessory hangers.",
+      "section_ref": "260050 2.13.A",
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish accessory mounting hardware for equipment, clamps, hangers, etc.",
+      "normalized": "Contractor must furnish accessory mounting hardware for equipment, clamps, hangers, etc.",
+      "section_ref": "260050 2.13.A",
+      "page": 51,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide 1-1/2\" x 1-1/2\" continuous stainless-steel channel as above.",
+      "normalized": "Contractor must provide 1-1/2\" x 1-1/2\" continuous stainless-steel channel as specified above.",
+      "section_ref": "260050 2.14.A",
+      "page": 51,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide stainless steel clamps, washers and screws.",
+      "normalized": "Contractor must provide stainless steel clamps, washers, and screws.",
+      "section_ref": "260050 2.14.A",
+      "page": 51,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit shop drawings and equipment catalog data and manufacturer's installation operating and maintenance instructions for approval of the following items in accordance with Section 13300 Submittal procedures.",
+      "normalized": "Contractor must submit shop drawings, catalog data, and O&M instructions for approval per Section 13300 submittal procedures.",
+      "section_ref": "260400 1.3.A",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit copies of the following:",
+      "normalized": "Contractor must submit copies of the enumerated submittal items.",
+      "section_ref": "260400 1.3.B",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide one-foot sample of each cable or conductor with submittals provide sample that shows manufacturer, catalog number size and other ratings.",
+      "normalized": "Contractor must provide a one-foot sample of each cable/conductor with submittals showing manufacturer, catalog number, size, and ratings.",
+      "section_ref": "260400 1.3.B.1",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Nameplates for cable identification provide engraving list with submittal.",
+      "normalized": "Contractor must provide an engraving list with the submittal for cable identification nameplates.",
+      "section_ref": "260400 1.3.B.7",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Follow the latest edition of the National Electrical Safety Code and NEC except where local regulations are more stringent.",
+      "normalized": "Contractor must follow the latest NESC and NEC editions except where local regulations are more stringent.",
+      "section_ref": "260400 1.4.A",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Protect all material and equipment to be incorporated in construction from the elements.",
+      "normalized": "Contractor must protect all material and equipment from the elements.",
+      "section_ref": "260400 1.5.A",
+      "page": 53,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Excessive bending of the cable will not be permitted.",
+      "normalized": "Contractor must not excessively bend the cable.",
+      "section_ref": "260400 1.5.B",
+      "page": 54,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "Non-metallic conduit and fitting shall be electrical grade, UL Listed, schedule 40 PVC and shall\nconform to applicable sections of NEMA TC2-latest edition and UL 651.",
@@ -1940,6 +4134,78 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Handle cable carefully at all times to avoid damage.",
+      "normalized": "Contractor must handle cable carefully at all times to avoid damage.",
+      "section_ref": "260400 1.5.B",
+      "page": 54,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Always seal the ends of the cable against moisture with suitable end caps.",
+      "normalized": "Contractor must always seal cable ends against moisture with suitable end caps.",
+      "section_ref": "260400 1.5.C",
+      "page": 54,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where it is necessary to cut the cable, terminate or seal ends immediately after the cutting operation.",
+      "normalized": "If cable must be cut, contractor must terminate or seal ends immediately after cutting.",
+      "section_ref": "260400 1.5.C",
+      "page": 54,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install all power in conduit as shown on drawings.",
+      "normalized": "Contractor must install all power in conduit as shown on drawings.",
+      "section_ref": "260400 2.1.A",
+      "page": 54,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where conduit size is not indicated size based on NEC requirements.",
+      "normalized": "If conduit size is not indicated, contractor must size it based on NEC requirements.",
+      "section_ref": "260400 2.1.A",
+      "page": 54,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The coilable duct shall be black with three UV-resistant red stripes extruded into the outside surface.",
+      "normalized": "Coilable duct shall be black with three UV-resistant red stripes extruded into the outside surface.",
+      "section_ref": "260400 2.1.C",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Conform to REA Specification (XLP-USE-2 insulation, cross-linked polyethylene) U-2 Type 2 for 600 volts secondary unless otherwise shown on the drawings, and as described below.",
+      "normalized": "Contractor must conform power conductors to REA Specification U-2 Type 2 for 600V secondary unless otherwise shown on drawings.",
+      "section_ref": "260400 2.2.A",
+      "page": 54,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Utilize 3M Company \"Scotchcast\" urethane resin insulation in poured kits, splices and compression connectors for underground direct burial cable No. 12 to 750 MCM or approved equal.",
+      "normalized": "Contractor must utilize 3M Scotchcast urethane resin insulation (or approved equal) for underground direct burial cable No. 12 to 750 MCM.",
+      "section_ref": "260400 2.4.A",
+      "page": 54,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Conductor shall be #10 AWG, XLP-USE insulation 0.045” thick.",
       "normalized": "Contractor shall provide tracer conductor that is #10 AWG with XLP-USE insulation 0.045 inches thick.",
       "section_ref": "2.7 TRACER CONDUCTORS",
@@ -1958,9 +4224,180 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Provide Scotch 3M 82A series poured resin splice enclosures or approved equal for straight inline splices",
+      "normalized": "Contractor must provide Scotch 3M 82A series poured resin splice enclosures (or approved equal) for straight inline splices.",
+      "section_ref": "260400 2.4.B",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide Scotch 3M 90-B1 enclosures for “Y” tap splices",
+      "normalized": "Contractor must provide Scotch 3M 90-B1 enclosures for Y tap splices.",
+      "section_ref": "260400 2.4.C",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide Scotch 3m Multimold 85-CP kit for lager splice enclosures.",
+      "normalized": "Contractor must provide Scotch 3M Multimold 85-CP kit for larger splice enclosures.",
+      "section_ref": "260400 2.4.D",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide molded plastic enclosure, pouring funnels, closure tape for splices kits.",
+      "normalized": "Contractor must provide molded plastic enclosure, pouring funnels, and closure tape for splice kits.",
+      "section_ref": "260400 2.4.E",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide 3M™ Scotchcast™ Electrical Insulating Resin 4, two-part epoxy insulating, and encapsulating resin used to splice solid cables up to 8 kV.",
+      "normalized": "Contractor must provide 3M Scotchcast Electrical Insulating Resin 4 for splicing solid cables up to 8 kV.",
+      "section_ref": "260400 2.4.F",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide compression lugs for all splices.",
+      "normalized": "Contractor must provide compression lugs for all splices.",
+      "section_ref": "260400 2.4.G",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide compression lugs with hydraulic compression tool die which imprints manufactures name when splice is properly compressed.",
+      "normalized": "Contractor must provide compression lugs applied with a hydraulic compression tool die that imprints the manufacturer's name when properly compressed.",
+      "section_ref": "260400 2.4.G.1",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Fill all lugs with Penetrox before crimping splice.",
+      "normalized": "Contractor must fill all lugs with Penetrox before crimping the splice.",
+      "section_ref": "260400 2.4.G.1",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide precast concrete splice vault approximately 4' x 4' x 4', 2905 lbs. with hinged and spring locked steel cover, 36\" x 36\" Oldcastle 444-LA with 44-332-P cover or approved equal.",
+      "normalized": "Contractor must provide a precast concrete splice vault approx. 4'x4'x4' (2905 lbs) with hinged spring-locked steel cover, Oldcastle 444-LA or approved equal.",
+      "section_ref": "260400 2.5.A",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide precast concrete splice vault approximately 2' x 2' x 2', weight approximately 800 lbs. with hinged and spring locked steel cover, 24\" x 24\" Oldcastle 3030-LA with 44-332-P cover or approved equal.",
+      "normalized": "Contractor must provide a precast concrete splice vault approx. 2'x2'x2' (800 lbs) with hinged spring-locked steel cover, Oldcastle 3030-LA or approved equal.",
+      "section_ref": "260400 2.5.B",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide locking latch mechanism to accept padlock.",
+      "normalized": "Contractor must provide a locking latch mechanism to accept a padlock.",
+      "section_ref": "260400 2.5.B",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide traffic rated lid or approved equal.",
+      "normalized": "Contractor must provide a traffic rated lid or approved equal.",
+      "section_ref": "260400 2.5.B",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Furnish plastic covered aluminum marking tape for power and control conductors.",
+      "normalized": "Contractor must furnish plastic covered aluminum marking tape for power and control conductors.",
+      "section_ref": "260400 2.6.A",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Tape width: 2\".",
+      "normalized": "Marking tape width must be 2 inches.",
+      "section_ref": "260400 2.6",
+      "page": 55,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "UNDERGROUND DETECTABLE - 5 MIL 2 Mil Polyethylene Film Reverse Printed And Laminated To Aluminum Foil Then Laminated To 2 Mil Polypropylene Film",
+      "normalized": "Marking tape must be underground detectable, 5 mil, constructed per specified laminate layers.",
+      "section_ref": "260400 2.6",
+      "page": 55,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Color: Power- Red, Control Cable-Orange.",
+      "normalized": "Marking tape color must be red for power and orange for control cable.",
+      "section_ref": "260400 2.6",
+      "page": 55,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Inscription: Power Conductors \"Caution, Buried Power Line\".",
+      "normalized": "Marking tape inscription for power conductors must read 'Caution, Buried Power Line'.",
+      "section_ref": "260400 2.6",
+      "page": 55,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Red- Buried Electrical Line Below",
+      "normalized": "Red tape inscription must read 'Buried Electrical Line Below'.",
+      "section_ref": "260400 2.6",
+      "page": 55,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide copper insulated tracer conductors for marking location of underground conduits.",
+      "normalized": "Contractor must provide copper insulated tracer conductors to mark the location of underground conduits.",
+      "section_ref": "260400 2.7.A",
+      "page": 55,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Before any backfilling operations are begun, the Contractor and COR shall jointly inspect all trenches, cable placement, splice vaults, risers, marking tape, tracer conductors and other construction not accessible after backfilling.",
-      "normalized": "Contractor and COR must jointly inspect all trenches, cable placement, splice vaults, risers, marking tape, tracer conductors, and other construction not accessible after backfilling, before backfilling begins.",
-      "section_ref": "PWS 3.1",
+      "normalized": "Contractor and COR shall jointly inspect all trenches, cable placement, splice vaults, risers, marking tape, and tracer conductors before backfilling begins.",
+      "section_ref": "260400 3.1",
       "page": 56,
       "verb": "shall",
       "category": "performance",
@@ -1968,8 +4405,8 @@
     },
     {
       "verbatim": "Trenching and backfill for electrical conduits shall conform to details shown in the drawings.",
-      "normalized": "Contractor must ensure trenching and backfill for electrical conduits conform to the drawings.",
-      "section_ref": "PWS 3.2",
+      "normalized": "Contractor's trenching and backfill for electrical conduits shall conform to the drawings.",
+      "section_ref": "260400 3.2",
       "page": 56,
       "verb": "shall",
       "category": "performance",
@@ -2084,6 +4521,78 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Where the coilable duct is to be joined with PVC conduit, the Contractor is to fuse a 24” straight pieve of matching size PVC conduit to the coilable duct.",
+      "normalized": "If coilable duct is joined with PVC conduit, the Contractor must fuse a 24-inch straight piece of matching PVC conduit to the coilable duct.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Prior to pulling cable thru conduits clean all conduits by swabbing out conduits to remove all debris.",
+      "normalized": "Contractor must clean all conduits by swabbing out debris prior to pulling cable through them.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Cap ends after cleaning prior to installing conductors.",
+      "normalized": "Contractor must cap conduit ends after cleaning and prior to installing conductors.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not lay cable when the outside temperature is below the minimum temperatures specified by the cable manufacturer.",
+      "normalized": "Contractor shall not lay cable when outside temperature is below the cable manufacturer's minimum specified temperature.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Direct burial is not allowed.",
+      "normalized": "Direct burial of cable is not allowed.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Support the reel on a stand.",
+      "normalized": "Contractor must support the cable reel on a stand.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Place cable in the trench by hand.",
+      "normalized": "Contractor must place cable in the trench by hand.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Inspect the cable as it is removed from the reel in laying operations to be certain that it is free from visible defects.",
+      "normalized": "Contractor must inspect cable as it is removed from the reel during laying to ensure it is free from visible defects.",
+      "section_ref": "260400 3.3",
+      "page": 56,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "Cable must be pulled through conduit; duct or other locations shall be lubricated with a\nsuitable cable lubricant approved by cable manufacturer prior to pulling into conduit or\nduct.",
       "normalized": "Contractor must pull cable through conduit and shall lubricate duct/other locations with a manufacturer-approved cable lubricant prior to pulling.",
       "section_ref": null,
@@ -2094,17 +4603,17 @@
     },
     {
       "verbatim": "Bends will not be permitted within 12 inches of the ends of splice.",
-      "normalized": "Contractor will not be permitted to bend cable within 12 inches of splice ends.",
-      "section_ref": null,
+      "normalized": "Bends are not permitted within 12 inches of the ends of a splice.",
+      "section_ref": "260400 3.3",
       "page": 57,
-      "verb": "will",
+      "verb": "declaration",
       "category": "performance",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
-      "verbatim": "The cable or circuit numbers and the exact location of the splices shall be noted and given\nto the COR.",
-      "normalized": "Contractor shall note cable/circuit numbers and exact splice locations and give them to the COR.",
-      "section_ref": null,
+      "verbatim": "The cable or circuit numbers and the exact location of the splices shall be noted and given to the COR.",
+      "normalized": "Contractor shall note the cable/circuit numbers and exact splice locations and give them to the COR.",
+      "section_ref": "260400 3.3",
       "page": 57,
       "verb": "shall",
       "category": "performance",
@@ -2113,16 +4622,187 @@
     {
       "verbatim": "Tracer conductor shall be tie wrapped with nylon straps to conduit every 10’.",
       "normalized": "Contractor shall tie-wrap tracer conductor to conduit with nylon straps every 10 feet.",
-      "section_ref": "3.6",
+      "section_ref": "260400 3.6",
       "page": 57,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "Cable must be pulled through conduit",
+      "normalized": "Cable must be pulled through conduit.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "duct or other locations shall be lubricated with a suitable cable lubricant approved by cable manufacturer prior to pulling into conduit or duct.",
+      "normalized": "Contractor shall lubricate duct/other locations with manufacturer-approved cable lubricant prior to pulling cable into conduit or duct.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not exceed cable pulling tension as recommended by manufacturer.",
+      "normalized": "Contractor shall not exceed manufacturer-recommended cable pulling tension.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide a pulling dynamometer to measure pulling tension on all pulls.",
+      "normalized": "Contractor must provide a pulling dynamometer to measure pulling tension on all pulls.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Leave a minimum of 24\" slack on each cable at all risers, splices, transformer pads, pedestals and terminal points.",
+      "normalized": "Contractor must leave at least 24 inches of slack on each cable at all risers, splices, transformer pads, pedestals, and terminal points.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Measure radius to the surface of the cable on the inside of the bend.",
+      "normalized": "Contractor must measure bending radius to the cable surface on the inside of the bend.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Secondary service cable (600V or less) 6 times the overall diameter of the cable.",
+      "normalized": "Minimum bending radius for secondary service cable (600V or less) must be 6 times the cable diameter.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Primary cable (more than 600V) 12 times the overall diameter of the cable.",
+      "normalized": "Minimum bending radius for primary cable (more than 600V) must be 12 times the cable diameter.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Control cable - two feet radius.",
+      "normalized": "Minimum bending radius for control cable must be two feet.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Not more than one splice for each 2000' of power or control cable installed in any one continuous run.",
+      "normalized": "Contractor shall not install more than one splice per 2000 feet of power or control cable in any continuous run.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make Cable splices in accordance with the spice manufacturer's instructions.",
+      "normalized": "Contractor must make cable splices in accordance with the splice manufacturer's instructions.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use pre-formed molded case poured \"potted\" splice kits installed in accordance with manufacturer's recommendations.",
+      "normalized": "Contractor must use pre-formed molded case poured (potted) splice kits per manufacturer's recommendations.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make all splices in splice vaults or at pedestals.",
+      "normalized": "Contractor must make all splices in splice vaults or at pedestals.",
+      "section_ref": "260400 3.3",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maximum 500 pounds as measured by a dynamometer or less if recommended by cable manufacturer.",
+      "normalized": "Maximum pulling stress must not exceed 500 pounds as measured by a dynamometer, or less if manufacturer recommends.",
+      "section_ref": "260400 3.4",
+      "page": 57,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Do not use pulling eyes or other attachments connected directly to the conductor.",
+      "normalized": "Contractor shall not use pulling eyes or other attachments connected directly to the conductor.",
+      "section_ref": "260400 3.4",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install metallic core marking tape above each electrical conduit as shown on drawings",
+      "normalized": "Contractor must install metallic core marking tape above each electrical conduit as shown on drawings.",
+      "section_ref": "260400 3.5",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install tracer conductor above each electrical conduit.",
+      "normalized": "Contractor must install tracer conductor above each electrical conduit.",
+      "section_ref": "260400 3.6",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Bring conductor up above grade at each termination and in each pull or splice vault.",
+      "normalized": "Contractor must bring tracer conductor above grade at each termination and in each pull/splice vault.",
+      "section_ref": "260400 3.6",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Coil 6’ of conductor at each location.",
+      "normalized": "Contractor must coil 6 feet of tracer conductor at each location.",
+      "section_ref": "260400 3.6",
+      "page": 57,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "All exposed ends of conduit shall be plugged during construction.",
-      "normalized": "Contractor shall plug all exposed ends of conduit during construction.",
-      "section_ref": "3.8",
+      "normalized": "Contractor shall plug all exposed conduit ends during construction.",
+      "section_ref": "260400 3.8",
       "page": 58,
       "verb": "shall",
       "category": "performance",
@@ -2130,8 +4810,8 @@
     },
     {
       "verbatim": "No bends shall be permitted within six inches of the ends of stress cones.",
-      "normalized": "Contractor shall not permit bends within six inches of the ends of stress cones.",
-      "section_ref": "3.10",
+      "normalized": "No bends are permitted within six inches of the ends of stress cones.",
+      "section_ref": "260400 3.10",
       "page": 58,
       "verb": "shall",
       "category": "performance",
@@ -2139,17 +4819,215 @@
     },
     {
       "verbatim": "Grounding shall conform to Section 260010.",
-      "normalized": "Contractor shall ensure grounding conforms to Section 260010.",
-      "section_ref": "3.11",
+      "normalized": "Contractor's grounding work shall conform to Section 260010.",
+      "section_ref": "260400 3.11",
       "page": 58,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "Conform to details shown in the drawings or as required by the Electric utility provider for primary conductors.",
+      "normalized": "Contractor's backfilling must conform to drawing details or electric utility provider requirements for primary conductors.",
+      "section_ref": "260400 3.7",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove burrs or sharp projections that might injure the cable.",
+      "normalized": "Contractor must remove burrs or sharp projections that might injure the cable.",
+      "section_ref": "260400 3.8",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make terminations in accordance with the manufacturer's instructions.",
+      "normalized": "Contractor must make cable terminations in accordance with manufacturer's instructions.",
+      "section_ref": "260400 3.9",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide a suitable ground installation at each panel board, panels, subpanels, pedestal locations and all other locations required by the NEC.",
+      "normalized": "Contractor must provide a suitable ground installation at each panel board, panels, subpanels, pedestal locations, and other NEC-required locations.",
+      "section_ref": "260400 3.11",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Solidly connect the lead from the grounding electrode to the primary neutral, unless shown otherwise on the drawings, the secondary neutral and the ground connection of all equipment at the location.",
+      "normalized": "Contractor must solidly connect the grounding electrode lead to the primary neutral (unless drawings show otherwise), the secondary neutral, and ground connections of all equipment.",
+      "section_ref": "260400 3.11",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In each pull / splice vault and at each termination, provide engraved plastic nameplates tie wrapped to conduit in all splice and pull vaults or to wall if in buildings to identify the cable as follows on each nameplate:",
+      "normalized": "Contractor must provide engraved plastic nameplates, tie-wrapped to conduit (or wall if in buildings), at each pull/splice vault and termination to identify the cable.",
+      "section_ref": "260400 3.12",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Circuit Voltage, phase, cable size either in AWG or control cable pair number and AWG size, source and termination of each cable.",
+      "normalized": "Nameplates must show circuit voltage, phase, cable size (AWG or pair number/AWG), and source/termination of each cable.",
+      "section_ref": "260400 3.12",
+      "page": 58,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Mark power and control cable location with permanent cable markers 200 feet maximum interval and at all changes in direction greater than 30 degrees.",
+      "normalized": "Contractor must mark power and control cable location with permanent cable markers at a maximum 200-foot interval and at direction changes greater than 30 degrees.",
+      "section_ref": "260400 3.13",
+      "page": 58,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide cable direction marker.",
+      "normalized": "Contractor must provide a cable direction marker.",
+      "section_ref": "260400 3.13",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install two-inch wide labeled metallic core plastic warning tape above cables as shown on drawings.",
+      "normalized": "Contractor must install two-inch wide labeled metallic core plastic warning tape above cables as shown on drawings.",
+      "section_ref": "260400 3.13",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide locating conductor above each conduit as described above and below",
+      "normalized": "Contractor must provide a locating conductor above each conduit as described.",
+      "section_ref": "260400 3.13",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Conduct tests in the presence of the COR on each length of underground power in the system, with terminations in place but disconnected.",
+      "normalized": "Contractor must conduct tests, in the COR's presence, on each length of underground power cable with terminations in place but disconnected.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "These tests apply to cable direct buried or pulled in conduit.",
+      "normalized": "The required tests apply to cable that is direct buried or pulled in conduit.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide an independent testing firm(s) that specializes in testing power and telephone cable, with demonstrated minimum of 3 years in testing cable.",
+      "normalized": "Contractor must provide an independent testing firm specializing in power/telephone cable testing with at least 3 years demonstrated experience.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide the appropriate testing equipment for high-pot, continuity and insulation resistance testing, and for fault locating.",
+      "normalized": "Contractor must provide appropriate equipment for high-pot, continuity, insulation resistance testing, and fault locating.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "After installation of the power cable and prior to backfilling and the high potential test specified below, perform a simple continuity test on the system by shorting each conductor pair together at the source and checking for continuity from the end of each tap or line with an ohmmeter.",
+      "normalized": "After cable installation and before backfilling/hi-pot testing, Contractor must perform a continuity test by shorting conductor pairs at the source and checking continuity with an ohmmeter.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Megger each conductor to ground (includes neutral) and to each other conductor to test for insulation faults prior to doing hipot tests below.",
+      "normalized": "Contractor must Megger each conductor to ground and to each other conductor to test for insulation faults prior to hipot testing.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Ground one lead to a 5-foot driven ground rod and connect the other lead to conductor with terminations disconnected.",
+      "normalized": "Contractor must ground one lead to a 5-foot driven ground rod and connect the other lead to the conductor with terminations disconnected.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Measure insulation resistance to ground and between phases with a DC Megger, 2,500 VDC, prior to doing hi pot test described below.",
+      "normalized": "Contractor must measure insulation resistance to ground and between phases using a 2,500 VDC DC Megger prior to hi-pot testing.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "After backfilling perform high - pot tests described below.",
+      "normalized": "After backfilling, Contractor must perform the high-pot tests described below.",
+      "section_ref": "260400 3.14",
+      "page": 59,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "After successful continuity, insulation resistance tests and backfilling, perform high potential tests on each length of cable in the system.",
+      "normalized": "After successful continuity/insulation resistance tests and backfilling, Contractor must perform high potential tests on each cable length.",
+      "section_ref": "260400 3.15",
+      "page": 59,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain for a minimum of five minutes a DC test potential voltage as follows:",
+      "normalized": "Contractor must maintain the DC test potential voltage for a minimum of five minutes.",
+      "section_ref": "260400 3.15",
+      "page": 59,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The number of steps shall be from five to eight.",
-      "normalized": "Contractor shall use five to eight steps when performing the stepped voltage test.",
-      "section_ref": "260400",
+      "normalized": "Contractor shall use between five and eight steps.",
+      "section_ref": "PWS 260400.F",
       "page": 60,
       "verb": "shall",
       "category": "performance",
@@ -2157,8 +5035,8 @@
     },
     {
       "verbatim": "All faults discovered by this test shall be corrected and the tests rerun until cable splice meet requirements.",
-      "normalized": "Contractor shall correct all faults discovered by the test and rerun the tests until the cable splice meets requirements.",
-      "section_ref": "260400",
+      "normalized": "Contractor shall correct all faults discovered by testing and rerun tests until the cable splice meets requirements.",
+      "section_ref": "PWS 260400.K",
       "page": 60,
       "verb": "shall",
       "category": "performance",
@@ -2166,8 +5044,8 @@
     },
     {
       "verbatim": "The conductor shall be grounded to permit any charge to drain to earth.",
-      "normalized": "Contractor shall ground the conductor to allow any charge to drain to earth.",
-      "section_ref": "260400",
+      "normalized": "Contractor shall ground the conductor to permit any charge to drain to earth.",
+      "section_ref": "PWS 260400.L",
       "page": 60,
       "verb": "shall",
       "category": "performance",
@@ -2176,7 +5054,88 @@
     {
       "verbatim": "Submit all test results in hard copy and PDF.",
       "normalized": "Contractor must submit all test results in hard copy and PDF.",
-      "section_ref": "260400",
+      "section_ref": "PWS 260400.J",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If increased continuously, increase uniformly to maximum voltage in not less than 10 seconds and in not more than approximately 60 seconds.",
+      "normalized": "Contractor must increase test voltage uniformly, taking not less than 10 seconds and not more than approximately 60 seconds, if increased continuously.",
+      "section_ref": "PWS 260400.E",
+      "page": 60,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Apply maximum test voltage for a total of five minutes.",
+      "normalized": "Contractor must apply maximum test voltage for a total of five minutes.",
+      "section_ref": "PWS 260400.E",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If applied in steps, increase from one step to the next uniformly with each step long enough for the absorption current to attain reasonable stabilization (one minute minimum).",
+      "normalized": "If voltage is applied in steps, contractor must increase steps uniformly with each step at least one minute long.",
+      "section_ref": "PWS 260400.F",
+      "page": 60,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Take current and voltage readings at the end of each step duration.",
+      "normalized": "Contractor must take current and voltage readings at the end of each step duration.",
+      "section_ref": "PWS 260400.F",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Plot leakage current in microamps DC vs. test voltage.",
+      "normalized": "Contractor must plot leakage current in microamps DC versus test voltage.",
+      "section_ref": "PWS 260400.G",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Continue plot for five minutes.",
+      "normalized": "Contractor must continue the plot for five minutes.",
+      "section_ref": "PWS 260400.G",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Correct point faults by enclosing fault area in cast in-line splice enclosure, WITHOUT SPLICING.",
+      "normalized": "Contractor must correct point faults by enclosing the fault area in a cast in-line splice enclosure without splicing.",
+      "section_ref": "PWS 260400.H",
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If wire is damaged remove and replace failed conductor with in-line compression splice lugs and poured urethane splice as above.",
+      "normalized": "If wire is damaged, contractor must remove and replace the failed conductor with in-line compression splice lugs and poured urethane splice.",
+      "section_ref": "PWS 260400.H",
+      "page": 60,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Install any splice or fault area described above in a splice vault or pedestal.",
+      "normalized": "Contractor must install any splice or fault area in a splice vault or pedestal.",
+      "section_ref": "PWS 260400.I",
       "page": 60,
       "verb": "imperative",
       "category": "performance",
@@ -2184,8 +5143,8 @@
     },
     {
       "verbatim": "Materials must be kept dry until ready to use.",
-      "normalized": "Contractor must keep seed materials dry until ready to use.",
-      "section_ref": "329200 1.3",
+      "normalized": "Contractor must keep materials dry until ready to use.",
+      "section_ref": "PWS 329200 1.3.A",
       "page": 61,
       "verb": "must",
       "category": "performance",
@@ -2194,7 +5153,7 @@
     {
       "verbatim": "Seeds shall be from Missouri eco-types or, if unavailable, from adjacent states.",
       "normalized": "Contractor shall use seeds from Missouri eco-types, or adjacent states if unavailable.",
-      "section_ref": "329200 2.1.B.1",
+      "section_ref": "PWS 329200 2.1.B.1",
       "page": 61,
       "verb": "shall",
       "category": "performance",
@@ -2203,7 +5162,7 @@
     {
       "verbatim": "Seeding shall be at a rate recommended by the vendor.",
       "normalized": "Contractor shall seed at the rate recommended by the vendor.",
-      "section_ref": "329200 2.1.B.1",
+      "section_ref": "PWS 329200 2.1.B.1",
       "page": 61,
       "verb": "shall",
       "category": "performance",
@@ -2212,16 +5171,70 @@
     {
       "verbatim": "In areas where slope is greater than 35%, then an annual rye and/or winter wheat and weed free straw shall be applied at 50 pounds per acre.",
       "normalized": "If slope exceeds 35%, contractor shall apply annual rye and/or winter wheat and weed-free straw at 50 pounds per acre.",
-      "section_ref": "329200 2.1.B.1",
+      "section_ref": "PWS 329200 2.1.B.1",
       "page": 61,
       "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
+      "verbatim": "Product Data: For each type of product indicated",
+      "normalized": "Contractor must submit product data for each type of product indicated.",
+      "section_ref": "PWS 329200 1.2.A",
+      "page": 61,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Product certificates.",
+      "normalized": "Contractor must submit product certificates.",
+      "section_ref": "PWS 329200 1.2.B",
+      "page": 61,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Deliver, store and handle materials according to manufacturer’s recommendations.",
+      "normalized": "Contractor must deliver, store, and handle materials according to manufacturer's recommendations.",
+      "section_ref": "PWS 329200 1.3.A",
+      "page": 61,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grass Seed: Fresh, clean, dry, new-crop seed complying with ASOA’s “Journal of Seed Technology; Rules for Testing Seeds” for purity and germination tolerances.",
+      "normalized": "Contractor must provide grass seed complying with ASOA's Journal of Seed Technology Rules for Testing Seeds for purity and germination tolerances.",
+      "section_ref": "PWS 329200 2.1.A",
+      "page": 61,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Sites will be revegetated using a seed mix containing River Oats (Chasmanthium latifolium), Little Bluestem (Schizachyrium scoparium), Showy Tickseed (Bidens aristosa), Partridge Pea (Chamaecrista fasciculata), Lance-Leafed Coreopsis (Coreopsis lanceolata), Wild Bergamot (Monarda fistulosa), Slender Mountain Mint (Pycnanthemum tenuifolium), and Black-Eyed Susan (Rudbeckia hirta).",
+      "normalized": "Contractor must use the specified seed mix to revegetate sites if applied November through March.",
+      "section_ref": "PWS 329200 2.1.B.1",
+      "page": 61,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Sites will be revegetated using an annual rye and/or winter wheat mixed with Little Bluestem (Schizachyrium scoparium) applied at 50 pounds per acre.",
+      "normalized": "Contractor must use annual rye and/or winter wheat mixed with Little Bluestem at 50 pounds per acre if applied April through October.",
+      "section_ref": "PWS 329200 2.1.B.2",
+      "page": 61,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Topsoil shall have a pH range of 5.5 to 7.4.",
-      "normalized": "Contractor must provide topsoil with a pH range of 5.5 to 7.4",
-      "section_ref": "2.2",
+      "normalized": "Contractor shall ensure topsoil has a pH range of 5.5 to 7.4.",
+      "section_ref": "PWS 329200 2.2.A",
       "page": 62,
       "verb": "shall",
       "category": "performance",
@@ -2229,8 +5242,8 @@
     },
     {
       "verbatim": "NOTE: The C.O.R. shall approve the Contractor’s provided soil sample prior to installation and planting",
-      "normalized": "Contractor must obtain C.O.R. approval of the provided soil sample before installation and planting begins",
-      "section_ref": "2.2",
+      "normalized": "Contractor's soil sample must be approved by the C.O.R. prior to installation and planting, creating a scheduling dependency for the contractor.",
+      "section_ref": "PWS 329200 2.2 NOTE",
       "page": 62,
       "verb": "shall",
       "category": "admin",
@@ -2238,26 +5251,224 @@
     },
     {
       "verbatim": "Spread organic topsoil at a minimum depth of 4 inches over area to be planted and integrate with the top layer of subsoil to prevent hardpan separation.",
-      "normalized": "Contractor must spread organic topsoil to a minimum depth of 4 inches over planting areas and integrate it with subsoil",
-      "section_ref": "3.2",
+      "normalized": "Contractor must spread organic topsoil at a minimum depth of 4 inches and integrate with the top layer of subsoil.",
+      "section_ref": "PWS 329200 3.2.B",
       "page": 62,
-      "verb": "required",
+      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Seed shall be installed by means of mechanical and/or hand broadcast methods to ensure even\ndistribution of seeds throughout all designated seeded areas.",
-      "normalized": "Contractor shall install seed by mechanical and/or hand broadcast methods to ensure even distribution throughout all designated seeded areas.",
-      "section_ref": "329200 I",
+      "verbatim": "Reuse surface soil on-site and amended topsoil from commercial sources.",
+      "normalized": "Contractor must reuse on-site surface soil and amended topsoil from commercial sources.",
+      "section_ref": "PWS 329200 2.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide topsoil which is fertile, friable, natural loam, surface soil which is reasonably free of subsoil, high clay content, brush, weeds, litter, stumps, rocks and any other material which may be harmful to plant growth.",
+      "normalized": "Contractor must provide topsoil meeting the specified fertile, friable, natural loam standard, free of harmful materials.",
+      "section_ref": "PWS 329200 2.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide air dry, clean, mildew- and seed-free, and certified weed-free threshed straw of wheat, rye, oats, or barley.",
+      "normalized": "Contractor must provide air-dry, clean, mildew- and seed-free, certified weed-free threshed straw of wheat, rye, oats, or barley for mulch.",
+      "section_ref": "PWS 329200 2.2.B.1",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grade planting areas to a smooth, uniform surface plane with loose, uniformly fine texture.",
+      "normalized": "Contractor must grade planting areas to a smooth, uniform surface with loose, fine texture.",
+      "section_ref": "PWS 329200 3.1.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grade to within plus or minus ½ inch of finish elevation.",
+      "normalized": "Contractor must grade to within plus or minus 1/2 inch of finish elevation.",
+      "section_ref": "PWS 329200 3.1.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Roll and rake, remove ridges, and fill depressions to meet finish grades.",
+      "normalized": "Contractor must roll and rake, remove ridges, and fill depressions to meet finish grades.",
+      "section_ref": "PWS 329200 3.1.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Limit fine grading to areas that can be planted in the immediate future.",
+      "normalized": "Contractor must limit fine grading to areas plantable in the immediate future.",
+      "section_ref": "PWS 329200 3.1.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Restore areas if eroded or otherwise disturbed after finish grading and before planting.",
+      "normalized": "If areas are eroded or disturbed after finish grading and before planting, contractor must restore them.",
+      "section_ref": "PWS 329200 3.1.B",
+      "page": 62,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Scarify existing subsoil and compacted areas prior to spreading topsoil.",
+      "normalized": "Contractor must scarify existing subsoil and compacted areas prior to spreading topsoil.",
+      "section_ref": "PWS 329200 3.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Prepare subsoil to eliminate uneven areas.",
+      "normalized": "Contractor must prepare subsoil to eliminate uneven areas.",
+      "section_ref": "PWS 329200 3.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain profiles and contours.",
+      "normalized": "Contractor must maintain profiles and contours.",
+      "section_ref": "PWS 329200 3.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make changes in grade gradual.",
+      "normalized": "Contractor must make changes in grade gradual.",
+      "section_ref": "PWS 329200 3.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Blend slopes into level areas.",
+      "normalized": "Contractor must blend slopes into level areas.",
+      "section_ref": "PWS 329200 3.2.A",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Rake the surface smooth.",
+      "normalized": "Contractor must rake the surface smooth.",
+      "section_ref": "PWS 329200 3.2.B",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Place topsoil during dry weather and on dry, unfrozen subgrade.",
+      "normalized": "Contractor must place topsoil during dry weather and on dry, unfrozen subgrade.",
+      "section_ref": "PWS 329200 3.2.C",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove foreign, non-organic material from topsoil while spreading.",
+      "normalized": "Contractor must remove foreign, non-organic material from topsoil while spreading.",
+      "section_ref": "PWS 329200 3.2.D",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Grade topsoil to eliminate rough, low or soft areas and to ensure positive drainage.",
+      "normalized": "Contractor must grade topsoil to eliminate rough, low, or soft areas and ensure positive drainage.",
+      "section_ref": "PWS 329200 3.2.E",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All seeded areas to receive a settled minimum depth of 4” of topsoil.",
+      "normalized": "Contractor must ensure all seeded areas receive a settled minimum depth of 4 inches of topsoil.",
+      "section_ref": "PWS 329200 3.2.F",
+      "page": 62,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove foreign materials, weeds and undesirable pants and their roots.",
+      "normalized": "Contractor must remove foreign materials, weeds, and undesirable plants and their roots.",
+      "section_ref": "PWS 329200 3.2.G",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remove any contaminated subsoil if present.",
+      "normalized": "If contaminated subsoil is present, contractor must remove it.",
+      "section_ref": "PWS 329200 3.2.G",
+      "page": 62,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Prepare seeding areas by removing and/or killing off any unwanted existing vegetation with a glyphosate herbicide, applied only by a state certified applicator no sooner than 2 weeks prior to seed installation.",
+      "normalized": "Contractor must prepare seeding areas by removing/killing unwanted vegetation using glyphosate herbicide applied only by a state certified applicator no sooner than 2 weeks before seed installation.",
+      "section_ref": "PWS 329200 3.2.H",
+      "page": 62,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Soils surface should be loose and free of any soil clumps exceeding 1 inch in diameter.",
+      "normalized": "Soil surface should be loose and free of clumps exceeding 1 inch in diameter.",
+      "section_ref": "PWS 329200 3.2.H",
+      "page": 62,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Seed shall be installed by means of mechanical and/or hand broadcast methods to ensure even distribution of seeds throughout all designated seeded areas.",
+      "normalized": "Contractor shall install seed by mechanical and/or hand broadcast methods to ensure even distribution.",
+      "section_ref": "PWS 329200 3.2.I",
       "page": 63,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Native seed mix shall be mixed\nthoroughly by vendor/supplier at their recommended ratios.",
-      "normalized": "Vendor/supplier shall thoroughly mix native seed mix at their recommended ratios.",
-      "section_ref": "329200 I",
+      "verbatim": "Native seed mix shall be mixed thoroughly by vendor/supplier at their recommended ratios.",
+      "normalized": "Vendor/supplier shall thoroughly mix native seed mix at recommended ratios, which contractor must ensure.",
+      "section_ref": "PWS 329200 3.2.I",
       "page": 63,
       "verb": "shall",
       "category": "performance",
@@ -2265,8 +5476,8 @@
     },
     {
       "verbatim": "Apply seed evenly in two intersecting directions.",
-      "normalized": "Contractor shall apply seed evenly in two intersecting directions.",
-      "section_ref": "329200 J",
+      "normalized": "Contractor must apply seed evenly in two intersecting directions.",
+      "section_ref": "PWS 329200 3.2.J",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
@@ -2274,17 +5485,17 @@
     },
     {
       "verbatim": "Rake in lightly, then lightly mulch with clean, weed free straw.",
-      "normalized": "Contractor shall rake in lightly, then lightly mulch with clean, weed-free straw.",
-      "section_ref": "329200 J",
+      "normalized": "Contractor must rake in seed lightly, then lightly mulch with clean, weed-free straw.",
+      "section_ref": "PWS 329200 3.2.J",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Seeded areas shall be watered immediately following installation to accelerate\ncover crop germination.",
-      "normalized": "Contractor shall water seeded areas immediately following installation to accelerate cover crop germination.",
-      "section_ref": "329200 J",
+      "verbatim": "Seeded areas shall be watered immediately following installation to accelerate cover crop germination.",
+      "normalized": "Contractor shall water seeded areas immediately following installation.",
+      "section_ref": "PWS 329200 3.2.J",
       "page": 63,
       "verb": "shall",
       "category": "performance",
@@ -2319,8 +5530,8 @@
     },
     {
       "verbatim": "Do not perform seeding in windy conditions.",
-      "normalized": "Contractor shall not perform seeding in windy conditions.",
-      "section_ref": "329200 L",
+      "normalized": "Contractor must not perform seeding in windy conditions.",
+      "section_ref": "PWS 329200 3.2.L",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
@@ -2328,44 +5539,44 @@
     },
     {
       "verbatim": "Surface layer of soil for seeded areas shall be kept moist throughout gemination period.",
-      "normalized": "Contractor shall keep surface layer of soil for seeded areas moist throughout germination period.",
-      "section_ref": "329200 M",
+      "normalized": "Contractor shall keep the surface layer of soil for seeded areas moist throughout the germination period.",
+      "section_ref": "PWS 329200 3.2.M",
       "page": 63,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Mulch\nthe areas with a light covering of clean, chopped straw to retain moisture and use a tackifier to\nprevent wind damage.",
-      "normalized": "Contractor shall mulch the areas with a light covering of clean, chopped straw to retain moisture and use a tackifier to prevent wind damage.",
-      "section_ref": "329200 M",
+      "verbatim": "Mulch the areas with a light covering of clean, chopped straw to retain moisture and use a tackifier to prevent wind damage.",
+      "normalized": "Contractor must mulch areas with a light covering of clean, chopped straw and use a tackifier to prevent wind damage.",
+      "section_ref": "PWS 329200 3.2.M",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "If installed in spring, lightly water 4-6 weeks after germination at regular\nintervals (depending on rainfall), or if an extended drought occurs throughout the summer months.",
-      "normalized": "If seed is installed in spring, contractor shall lightly water 4-6 weeks after germination at regular intervals, or if extended drought occurs during summer.",
-      "section_ref": "329200 M",
+      "verbatim": "If installed in spring, lightly water 4-6 weeks after germination at regular intervals (depending on rainfall), or if an extended drought occurs throughout the summer months.",
+      "normalized": "If installed in spring, contractor must lightly water 4-6 weeks after germination at regular intervals or during extended drought.",
+      "section_ref": "PWS 329200 3.2.M",
       "page": 63,
       "verb": "conditional",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
     },
     {
-      "verbatim": "Protect seeded areas from pedestrian traffic or vehicular trespassing with temporary fences, signs,\nbarriers, etc. while seed is germinating.",
-      "normalized": "Contractor shall protect seeded areas from pedestrian or vehicular trespassing with temporary fences, signs, barriers, etc. while seed is germinating.",
-      "section_ref": "329200 N",
+      "verbatim": "Protect seeded areas from pedestrian traffic or vehicular trespassing with temporary fences, signs, barriers, etc. while seed is germinating.",
+      "normalized": "Contractor must protect seeded areas from pedestrian and vehicular trespass with temporary fences, signs, or barriers while seed germinates.",
+      "section_ref": "PWS 329200 3.2.N",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Repair damage resulting from trespass, erosion,\nsettlement, etc.",
-      "normalized": "Contractor shall repair damage resulting from trespass, erosion, settlement, etc.",
-      "section_ref": "329200 N",
+      "verbatim": "Repair damage resulting from trespass, erosion, settlement, etc.",
+      "normalized": "Contractor must repair damage resulting from trespass, erosion, settlement, etc.",
+      "section_ref": "PWS 329200 3.2.N",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
@@ -2373,35 +5584,35 @@
     },
     {
       "verbatim": "Remove temporary protective devices after final acceptance.",
-      "normalized": "Contractor shall remove temporary protective devices after final acceptance.",
-      "section_ref": "329200 N",
+      "normalized": "Contractor must remove temporary protective devices after final acceptance.",
+      "section_ref": "PWS 329200 3.2.N",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Maintain seeded areas immediately after placement until vegetation is well established and\nexhibits a vigorous growing condition.",
-      "normalized": "Contractor shall maintain seeded areas immediately after placement until vegetation is well established and exhibits vigorous growth.",
-      "section_ref": "329200 O",
+      "verbatim": "Maintain seeded areas immediately after placement until vegetation is well established and exhibits a vigorous growing condition.",
+      "normalized": "Contractor must maintain seeded areas until vegetation is well established and vigorous.",
+      "section_ref": "PWS 329200 3.2.O",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Control the growth of weeds to the extent possible by using various methods such as line\ntrimming, mowing and selective herbicide use.",
-      "normalized": "Contractor shall control weed growth to the extent possible using line trimming, mowing, and selective herbicide use.",
-      "section_ref": "329200 P",
+      "verbatim": "Control the growth of weeds to the extent possible by using various methods such as line trimming, mowing and selective herbicide use.",
+      "normalized": "Contractor must control weed growth using methods such as line trimming, mowing, and selective herbicide use.",
+      "section_ref": "PWS 329200 3.2.P",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Apply herbicide in accordance with\nmanufacturer’s instructions.",
-      "normalized": "Contractor shall apply herbicide in accordance with manufacturer's instructions.",
-      "section_ref": "329200 P",
+      "verbatim": "Apply herbicide in accordance with manufacturer’s instructions.",
+      "normalized": "Contractor must apply herbicide in accordance with manufacturer's instructions.",
+      "section_ref": "PWS 329200 3.2.P",
       "page": 63,
       "verb": "imperative",
       "category": "performance",
@@ -2409,8 +5620,8 @@
     },
     {
       "verbatim": "Contractor will be responsible for any damage resulting from improper use of herbicides.",
-      "normalized": "Contractor is responsible for any damage resulting from improper use of herbicides.",
-      "section_ref": "329200 P",
+      "normalized": "Contractor will be responsible for any damage resulting from improper herbicide use.",
+      "section_ref": "PWS 329200 3.2.P",
       "page": 63,
       "verb": "will",
       "category": "performance",
@@ -2418,10 +5629,19 @@
     },
     {
       "verbatim": "Immediately reseed areas that show bare spots.",
-      "normalized": "Contractor shall immediately reseed areas that show bare spots.",
-      "section_ref": "329200 Q",
+      "normalized": "Contractor must immediately reseed areas showing bare spots.",
+      "section_ref": "PWS 329200 3.2.Q",
       "page": 63,
       "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An acceptable quality seed installation is defined as having: 1. No bare spots larger than 1 square foot after substantial germination. 2. No more than 10% of the total area with bare spots larger than 1 square foot. 3. A uniform coverage throughout all seeded areas.",
+      "normalized": "Seed installation must meet defined acceptance criteria for bare spots and uniform coverage to be acceptable.",
+      "section_ref": "PWS 329200 3.2.K",
+      "page": 63,
+      "verb": "declaration",
       "category": "performance",
       "confidence": "high"
     },
@@ -2461,5 +5681,6 @@
       "category": "performance",
       "confidence": "high"
     }
-  ]
+  ],
+  "patchedRowsAdded": 358
 }

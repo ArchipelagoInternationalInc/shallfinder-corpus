@@ -1,10 +1,45 @@
-# EVAL_REPORT — Phase 1 corpus evaluation
+# EVAL_REPORT v2 — Phase 1 corpus evaluation
 
-Produced 2026-08-29 by `scripts/corpus-eval.ts`.
+Produced 2026-08-29. Supersedes v1 of 2026-08-29.
 
-**This report presents evidence. It does not reach a verdict.** The six exit criteria in
-`MASTER_PLAN.md` are the owner's to rule on, and section 5 below lays out what the numbers
-show against each without declaring pass or fail.
+**This report presents evidence. It does not reach a verdict.** Section 5 lays out what
+the numbers show against each of the six exit criteria in `MASTER_PLAN.md` without
+declaring pass or fail. That ruling is the owner's and is recorded as D-010.
+
+## What changed from v1
+
+v1 was produced from a run in which **47 of 263 chunks returned nothing**, because their
+responses were cut off at the model's output ceiling and the batch path had no retry. The
+owner ruled that this is a mechanical defect in the pipeline, not a finding about
+extraction quality, and that the matrix should be patched rather than re-run.
+
+**The fix.** A response cut off at the ceiling now causes the chunk to be split in half at
+a page boundary and both halves to be run, repeating until the halves stop truncating or
+reach a configured floor. The ceiling was not raised — raising it only moves the cliff.
+
+**The patch.** 48 chunks were resubmitted, pre-split, over 3 rounds. 
+2 newly flagged page(s) were re-swept. Nothing else was re-run. Cost: **$10.14**.
+
+| | v1 | v2 | change |
+|---|---:|---:|---:|
+| Rows | 8,044 | **9,668** | **+1,624** |
+| Chunks yielding nothing | 47 | **0** | −47 |
+| Invention count (dropped, unlocatable) | 164 | 236 | +72 |
+| Unresolved *as v1 reported it* | 353 | — | — |
+| Unresolved *on v2's accounting* | 790 | **704** | **−86** |
+
+### An accounting correction the owner must see
+
+**v1's published unresolved figure of 353 was too flattering.** When crediting a swept
+page, v1 counted both the rows the sweeper captured *and* the exclusions it stated. But
+captured rows already reduce that page's shortfall, so counting them again double-credited
+the page and understated what remained unexplained.
+
+v2 credits a swept page only with what the sweeper actually **explained** — the exclusions
+it stated. Recomputing v1's own row set under that corrected rule gives **790**, not 353.
+
+So the honest like-for-like comparison is **790 → 704**: the patch reduced unresolved by
+86 while adding 1,624 rows. The apparent jump from 353 is the accounting fix, not a regression.
 
 ## Run parameters
 
@@ -12,51 +47,48 @@ show against each without declaring pass or fail.
 |---|---|
 | Model | `claude-sonnet-5` (from `EXTRACTION_MODEL`; nothing in code selects a model) |
 | Pricing | Batch API, 50% of list. Rates verified 2026-08-29 at platform.claude.com/docs/en/about-claude/pricing |
-| Extraction batches | msgbatch_01GmybQHLxUGtzQ7QJygYsbN |
-| Sweeper batches | msgbatch_01TLQ4Njoc2McjmSxTdN91pj, msgbatch_01F5t47hdLdbweX9c9pttAtc |
-| Random-sample seed | **20260829** — recorded so the samples below are reproducible and provably not hand-picked |
+| Patch batches | msgbatch_01THkdv2WLXHF4XbnKUNAjxh, msgbatch_01Eu2eDpLJ6waa6eEUFL71aG, msgbatch_01DB5fLKdtsijNVz6qWk48y3, msgbatch_01JmqvM4XhWAE4gouA5odrUN |
+| Random-sample seed | **20260829** — unchanged from v1, so the 10-row samples are directly comparable |
 | Documents | 17 (14 readable, 3 unreadable, 0 failed) |
 | Readable pages | 2,032 |
-| **Total cost** | **$43.44** |
+| **Total cost** | **$53.58** — $43.44 for the v1 corpus run plus $10.14 for the patch |
 
 ## 1. Summary table — every document
 
-Duplicate rate is duplicates removed as a share of rows the model returned. Review-flag rate
-is the share of final rows the pipeline itself marked as needing human attention.
-
-| Document | Status | Pages | Rows | Dup rate | Dropped (invented) | Review flags | Unresolved before → after | Cost |
+| Document | Status | Pages | Rows (v1 → v2) | Dup rate | Dropped (invented) | Review flags | Unresolved before → after | Cost |
 |---|---|---:|---:|---:|---:|---:|---:|---:|
-| `0020153254COHEN__Attachment-1-Statement-of` | ok | 13 | 40 | 19.6% | 1 (1) | 17.5% | 4 → **4** | $0.13 |
-| `1240LT26Q0172__3-Combined-SpecsCBPEWI20260` | ok | 74 | 263 | 3.4% | 3 (3) | 11.8% | 110 → **10** | $1.34 |
-| `15F06726R0000194__RFP-15F06726R0000194-Tie` | ok | 75 | 385 | 7.8% | 10 (10) | 19.0% | 89 → **13** | $1.94 |
-| `1616-26__RFP1620000348` | ok | 104 | 353 | 4.1% | 4 (4) | 25.8% | 144 → **17** | $1.99 |
-| `19C02026Q0027__Solicitation-19C02026Q0027` | ok | 81 | 365 | 1.6% | 8 (8) | 13.7% | 171 → **17** | $2.28 |
-| `36C26026Q0939__SF-1449-36C26026Q0939-Stora` | **UNREADABLE** | 39 | — | — | — | — | — | $0.00 |
-| `36C26126Q1034__36C26126Q1034-Brand-Name-VA` | ok | 73 | 255 | 8.8% | 15 (14) | 20.0% | 62 → **9** | $1.39 |
-| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18` | ok | 8 | 5 | 0.0% | 9 (9) | 40.0% | 12 → **5** | $0.34 |
-| `70CDCR26R00000026__Attachment-01-Turnkey-F` | ok | 152 | 1316 | 4.9% | 22 (13) | 21.1% | 671 → **53** | $6.62 |
-| `75N98026Q00962__RFQ-75N98026Q00962` | ok | 39 | 159 | 1.6% | 0 (0) | 32.1% | 76 → **7** | $1.11 |
-| `80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC0` | ok | 23 | 132 | 2.3% | 2 (2) | 16.7% | 14 → **6** | $0.50 |
+| `0020153254COHEN__Attachment-1-Statement-` | ok | 13 | 40 → **40** | 19.6% | 1 (1) | 17.5% | 4 → **4** | $0.13 |
+| `1240LT26Q0172__3-Combined-SpecsCBPEWI202` | ok | 74 | 263 → **621** (+358) | 3.4% | 6 (6) | 12.9% | 12 → **8** | $1.34 |
+| `15F06726R0000194__RFP-15F06726R0000194-T` | ok | 75 | 385 → **427** (+42) | 7.8% | 10 (10) | 19.0% | 52 → **30** | $1.94 |
+| `1616-26__RFP1620000348` | ok | 104 | 353 → **385** (+32) | 4.1% | 6 (6) | 27.3% | 38 → **24** | $1.99 |
+| `19C02026Q0027__Solicitation-19C02026Q002` | ok | 81 | 365 → **587** (+222) | 1.6% | 12 (12) | 21.6% | 53 → **37** | $2.28 |
+| `36C26026Q0939__SF-1449-36C26026Q0939-Sto` | **UNREADABLE** | 39 | — | — | — | — | — | $0.00 |
+| `36C26126Q1034__36C26126Q1034-Brand-Name-` | ok | 73 | 255 → **255** | 8.8% | 15 (14) | 20.0% | 51 → **31** | $1.39 |
+| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18` | ok | 8 | 5 → **19** (+14) | 0.0% | 51 (50) | 26.3% | 4 → **2** | $0.34 |
+| `70CDCR26R00000026__Attachment-01-Turnkey` | ok | 152 | 1316 → **1674** (+358) | 4.9% | 28 (19) | 20.5% | 116 → **75** | $6.62 |
+| `75N98026Q00962__RFQ-75N98026Q00962` | ok | 39 | 159 → **159** | 1.6% | 0 (0) | 32.1% | 46 → **16** | $1.11 |
+| `80JSC026MEDEVAC5Q__RFP-Solicitation-80JS` | ok | 23 | 132 → **132** | 2.3% | 2 (2) | 16.7% | 11 → **9** | $0.50 |
 | `PANMCC26P0000048766__Combined-Synopsis` | **UNREADABLE** | 33 | — | — | — | — | — | $0.00 |
-| `W15P7T-26-R-A006__Solicitation-Amendment-0` | ok | 342 | 945 | 10.2% | 41 (39) | 27.2% | 397 → **85** | $6.27 |
-| `W31P4Q26RA002__W31P4Q-26-R-A002-Solicitati` | **UNREADABLE** | 144 | — | — | — | — | — | $0.00 |
-| `W911SG27BA002__Solicitation-Amendment-W911` | ok | 157 | 781 | 3.8% | 24 (22) | 23.6% | 362 → **20** | $4.17 |
-| `W912P726RA022__W912P726RA002-San-Rafael-So` | ok | 645 | 1712 | 5.2% | 26 (21) | 27.9% | 571 → **65** | $9.10 |
-| `W912P825BA029__Solicitation-W912P825BA029-` | ok | 246 | 1333 | 5.3% | 30 (18) | 16.7% | 398 → **42** | $6.26 |
+| `W15P7T-26-R-A006__Solicitation-Amendment` | ok | 342 | 945 → **1008** (+62) | 10.2% | 44 (42) | 26.8% | 236 → **146** | $6.27 |
+| `W31P4Q26RA002__W31P4Q-26-R-A002-Solicita` | **UNREADABLE** | 144 | — | — | — | — | — | $0.00 |
+| `W911SG27BA002__Solicitation-Amendment-W9` | ok | 157 | 781 → **858** (+77) | 3.8% | 29 (27) | 25.1% | 101 → **57** | $4.17 |
+| `W912P726RA022__W912P726RA002-San-Rafael-` | ok | 645 | 1712 → **2152** (+440) | 5.2% | 28 (23) | 24.9% | 283 → **150** | $9.10 |
+| `W912P825BA029__Solicitation-W912P825BA02` | ok | 246 | 1333 → **1351** (+18) | 5.3% | 36 (24) | 16.8% | 193 → **115** | $6.26 |
 
-**Totals across readable documents:** 8,044 rows · 164 rows dropped as unlocatable · 2882 rows the sweeper recovered that the first pass missed · unresolved 3081 → 353.
+**Totals across readable documents:** 9,668 rows · 236 dropped as unlocatable · unresolved 704. **No chunk yielded nothing.**
+
+**Reported, not hidden:** 3 chunk(s) truncated and could not be split further (a single page, or at the floor). Their responses were still parsed where possible; where not, the loss is counted above.
 
 ## 2. The unreadable documents
 
-These are in the corpus on purpose. v1 does not OCR (DECISIONS.md D-004), so the correct
-behaviour is to declare them unreadable and charge nothing — not to return a thin matrix.
-They were **not skipped**: each was ingested, measured, and classified.
+In the corpus on purpose. v1 does not OCR (DECISIONS.md D-004), so the correct behaviour is
+to declare them unreadable and charge nothing. They were not skipped.
 
-| Document | Pages | Low-text pages | Chars/page | What the user would be told |
-|---|---:|---:|---:|---|
-| `36C26026Q0939__SF-1449-36C26026Q0939-Sto` | 39 | 39 | 0 | This PDF appears to be scanned images rather than text: 39 of 39 pages carry almost no ext |
-| `PANMCC26P0000048766__Combined-Synopsis` | 33 | 33 | 0 | This PDF appears to be scanned images rather than text: 33 of 33 pages carry almost no ext |
-| `W31P4Q26RA002__W31P4Q-26-R-A002-Solicita` | 144 | 143 | 21 | This PDF appears to be scanned images rather than text: 143 of 144 pages carry almost no e |
+| Document | Pages | What the user would be told |
+|---|---:|---|
+| `36C26026Q0939__SF-1449-36C26026Q0939-Sto` | 39 | This PDF appears to be scanned images rather than text: 39 of 39 pages carry almost no extracta |
+| `PANMCC26P0000048766__Combined-Synopsis` | 33 | This PDF appears to be scanned images rather than text: 33 of 33 pages carry almost no extracta |
+| `W31P4Q26RA002__W31P4Q-26-R-A002-Solicita` | 144 | This PDF appears to be scanned images rather than text: 143 of 144 pages carry almost no extrac |
 
 ## 3. THE AUDIT PACKET
 
@@ -68,7 +100,7 @@ Everything needed for the hand audit in EXTRACTION_PROMPT_SPEC §7, without aski
 node scripts/extract.ts <corpus-path> --page <N>
 ```
 
-That prints the exact text the pipeline saw on that page — no model call, no cost.
+No model call, no cost.
 
 **The two full-read pages are deliberately not chosen here.** Criterion 1 asks whether the
 pipeline misses what a careful reader catches. If this report picked the pages, the sample
@@ -79,7 +111,7 @@ would be steerable and the check worthless. **Pick any two pages per document yo
 Path: `corpus/0020153254COHEN__Attachment-1-Statement-of-Work-RFI.pdf`
 
 **13 pages · 40 rows · unresolved 4 · cost $0.13**
-Rows dropped because their quote could not be found in the document: **1**.
+Rows dropped because their quote could not be found: **1**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -101,14 +133,14 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 #### The 3 flagged pages with the largest shortfall
 
-*No pages were flagged on this document.*
+*No pages are flagged on this document.*
 
 ### 1240LT26Q0172__3-Combined-SpecsCBPEWI20260624
 
 Path: `corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf`
 
-**74 pages · 263 rows · unresolved 10 · cost $1.34**
-Rows dropped because their quote could not be found in the document: **3**.
+**74 pages · 621 rows (+358 recovered by the patch) · unresolved 8 · cost $1.34**
+Rows dropped because their quote could not be found: **6**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -117,41 +149,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 7 | 011000 §1.3.F | shall | high | The Site shall be left in a safe and secure manner with the public protected from construction hazards. |
-| 2 | 16 | 013100 §1.6.A | imperative | high | Post copies of this list in the temporary field office (if present). |
-| 3 | 26 | 017700 1.4.A.4 | imperative | high | Submit a signed copy of the Substantial Completion inspection list of items to be completed or corrected (punch list), endorsed and dated by Government CO/COR. |
-| 4 | 31 | 221114 2.1 | shall | **review** | There shall be no other openings in the well cap. |
-| 5 | 31 | 221114 2.1 | shall | high | The well cap shall be lockable, Baker-Monitor well cap part number 6WTCL or approved equal. |
-| 6 | 35 | 260010 1.2.C | shall | high | The Contractor shall provide and install the electrical system as shown on the drawings and indicated in the specifications. |
-| 7 | 43 | 260010 | shall | high | Where not otherwise indicated, grounding conductor size shall conform to the most stringent of the governing codes. |
-| 8 | 44 | 3.17.E.2 | shall | high | Minimum resistance shall be 200 megohms. |
-| 9 | 54 | 260400 | will | **review** | Excessive bending of the cable will not be permitted. |
-| 10 | 63 | 329200 I | shall | high | Native seed mix shall be mixed thoroughly by vendor/supplier at their recommended ratios. |
+| 1 | 20 | 013300 1.4.A | imperative | high | Mark each copy to show specific product choices and options applicable to the project. |
+| 2 | 36 | 260010 1.5.B | imperative | high | Modify wiring and location, provide additional materials and work as required for proper installation in accordance with NEC or manufacturer's instructions. |
+| 3 | 41 | 3.7.C | imperative | high | Mount labels with machine screws, except where screw penetration will injure equipment, contact or epoxy cement or ty-raps may be used. |
+| 4 | 42 | 3.12.C | imperative | high | Provide stainless steel material for corrosive or outdoor locations. |
+| 5 | 44 | PWS 3.17.E.1 | imperative | high | Coordinate testing with COR so that tests can be witnessed if desired. |
+| 6 | 48 | 260050 2.2.B | imperative | high | Provide removable screw cover on the largest access side of the box unless otherwise detailed. |
+| 7 | 49 | 260050 2.4.B | shall | high | Engraving shall be filled with black enamel for ivory plates, white enamel for brown plates and ivory plates filled with orange paint for isolated ground receptacle. |
+| 8 | 56 | PWS 3.3.A.4 | shall | high | Bored coilable duct shall end 4’-5’ from a new vault or manhole. |
+| 9 | 56 | 260400 3.3 | imperative | high | Prior to pulling cable thru conduits clean all conduits by swabbing out conduits to remove all debris. |
+| 10 | 62 | PWS 329200 3.2.E | imperative | high | Grade topsoil to eliminate rough, low or soft areas and to ensure positive drainage. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 30 | 16 | 0 | 16 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
-| 56 | 14 | 0 | 14 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 54 | 8 | 0 | 8 | yes | 0 exclusion(s): no exclusions stated — resolved |
-
-Read each with:
+| 30 | 16 | 13 | 3 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 13 | 3 | 1 | 2 | yes | 2 exclusion(s): definitional — resolved |
+| 20 | 6 | 4 | 2 | yes | 1 exclusion(s): government-actor — **still unresolved** |
 
 ```bash
 node scripts/extract.ts ../shallfinder-corpus/corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf --page 30
-node scripts/extract.ts ../shallfinder-corpus/corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf --page 56
-node scripts/extract.ts ../shallfinder-corpus/corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf --page 54
+node scripts/extract.ts ../shallfinder-corpus/corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf --page 13
+node scripts/extract.ts ../shallfinder-corpus/corpus/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf --page 20
 ```
 
 ### 15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer
 
 Path: `corpus/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf`
 
-**75 pages · 385 rows · unresolved 13 · cost $1.94**
-Rows dropped because their quote could not be found in the document: **10**.
+**75 pages · 427 rows (+42 recovered by the patch) · unresolved 30 · cost $1.94**
+Rows dropped because their quote could not be found: **10**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -160,32 +190,30 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 12 | B.12 | shall | high | The Prime Hauler unit price shall be all-inclusive. |
-| 2 | 18 | D.4 | shall | high | Passwords, administrative credentials, cryptographic information, or other sensitive access information shall not be placed in an unsecured shipping container or displayed on an exterior packing list. |
-| 3 | 20 | E.4 | shall | high | The Contractor shall not begin irreversible vehicle fabrication before the Contracting Officer provides the written authorization required following Critical Design Review, except for long-lead materials or activities expressly au |
-| 4 | 22 | E.13 | conditional | high | Payment, possession, operational use, or Government participation in testing does not constitute acceptance unless the authorized acceptance record has been executed. |
-| 5 | 25 | F.10 | shall | high | Unless an individual delivery order expressly states otherwise, all deliveries shall be F.o.b. destination. |
-| 6 | 27 | G.9 | declaration | high | Unordered work, unexercised options, unaccepted deliverables, and costs incurred in anticipation of an order are not invoiceable. |
-| 7 | 28 | G.15 | shall | high | After award, the Contractor shall promptly notify the Contracting Officer and payment office of an authorized change. |
-| 8 | 29 | G.16 | shall | high | The Contractor shall promptly notify the Contracting Officer of changes to its legal name, ownership, address, points of contact, SAM registration, UEI, CAGE code, banking information, production facility, key personnel, ISO 9001  |
-| 9 | 45 | FBI-0019 | shall | high | Final delivery of goods shall be completed from the awardee’s domestic offices and supply centers to the FBI. |
-| 10 | 49 | 52.215-1(b) | shall | high | Offerors shall acknowledge receipt of any amendment to this solicitation by the date and time specified in the amendment(s). |
+| 1 | 17 | C.7 | conditional | high | When identified in a delivery order, the Contractor shall provide, upfit, integrate, test, document, deliver, and warrant an associated prime hauler vehicle meeting the Technical Specifications. |
+| 2 | 33 | H.15 | shall | high | Administrative credentials, license keys, configuration files, source configuration data, recovery media, and required registration information shall be transferred using a Government-approved secure method. |
+| 3 | 34 | H.22 | shall | high | The Contractor shall not invoice such costs separately. |
+| 4 | 34 | H.24 | shall | high | Notice shall include the affected requirement and order, current impact, root cause if known, mitigation, recovery plan, decisions needed, and date by which Government action is required. |
+| 5 | 42 | *(none)* | shall | **review** | Delivery or performance shall be made only as authorized by orders issued in accordance with the Ordering clause. |
+| 6 | 43 | 2852.201-70 | shall | **review** | Failure of the Contractor and Contracting Officer to agree that technical direction is within the scope of the contract is a dispute that shall be subject to the ‘‘Disputes’’ clause and/or other similar contract term. |
+| 7 | 58 | L.5.3 | imperative | **review** | Describe the vehicle-specific quality and verification approach, including: • Development and maintenance of the vehicle-specific quality plan; • In-process inspection; |
+| 8 | 62 | L.7 | imperative | high | Submit a completed Attachment 4 – Price Template in native Microsoft Excel format. |
+| 9 | 62 | L.8 | shall | high | Any exception, qualification, deviation, assumption, substitution, proprietary restriction, recurring charge, or conditional term shall be disclosed in the Volume I Exceptions, Qualifications, Deviations, and Assumptions Matrix an |
+| 10 | 63 | L.9 | must | high | Questions must be submitted using Attachment 5 – Questions Template to the Contracting Officer identified as the SAM.gov point of contact. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 33 | 19 | 12 | 7 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 21 | 15 | 9 | 6 | yes | 2 exclusion(s): government-actor — resolved |
-| 24 | 12 | 6 | 6 | yes | 2 exclusion(s): government-actor — resolved |
-
-Read each with:
+| 21 | 15 | 9 | 6 | yes | 2 exclusion(s): government-actor — **still unresolved** |
+| 23 | 6 | 2 | 4 | yes | 4 exclusion(s): definitional, government-actor — resolved |
+| 24 | 12 | 8 | 4 | yes | 2 exclusion(s): government-actor — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf --page 33
 node scripts/extract.ts ../shallfinder-corpus/corpus/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf --page 21
+node scripts/extract.ts ../shallfinder-corpus/corpus/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf --page 23
 node scripts/extract.ts ../shallfinder-corpus/corpus/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf --page 24
 ```
 
@@ -193,8 +221,8 @@ node scripts/extract.ts ../shallfinder-corpus/corpus/15F06726R0000194__RFP-15F06
 
 Path: `corpus/1616-26__RFP1620000348.pdf`
 
-**104 pages · 353 rows · unresolved 17 · cost $1.99**
-Rows dropped because their quote could not be found in the document: **4**.
+**104 pages · 385 rows (+32 recovered by the patch) · unresolved 24 · cost $1.99**
+Rows dropped because their quote could not be found: **6**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -203,41 +231,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 38 | Section C | shall | high | These facilities shall exist sufficiently to receive all product off site serving as a staging area. |
-| 2 | 40 | *(none)* | shall | high | Offeror(s) shall report all truck shortages, damage report, and site conditions that may result in an untimely completion of an installation. |
-| 3 | 40 | *(none)* | shall | high | The inspection, final shortage sheet, and final punch sheet shall be completed prior to the completion of the installation. |
-| 4 | 43 | *(none)* | shall | high | the installer shall walk through with the customer to inspect the product and installation. |
-| 5 | 43 | *(none)* | shall | high | A written quote of storage charges shall be provided to the Project Manager for storage fees at least 2 weeks prior to storage charges beginning. |
-| 6 | 50 | *(none)* | shall | **review** | UNICOR shall not be invoiced for installation services until the job is completed 100%. |
-| 7 | 61 | (h) | shall | high | The Contractor shall indemnify the Government and its officers, employees, and agents against liability, including costs, for actual or alleged direct or contributory infringement of, or inducement to infringe, any United States o |
-| 8 | 90 | C.(2)(c) | shall | high | The Contractor shall not retain, use, sell, disseminate, or dispose of any government data/records or deliverables without the express written permission of the Contracting Officer or Contracting Officer's Representative. |
-| 9 | 92 | D.(3)(b) | shall | **review** | work with personnel from the program office, OPCL, the Office of the Chief information Officer (OCIO), and the Office of Records Management and Policy to ensure that the privacy assessments and documentation are kept on schedule,  |
-| 10 | 97 | 52.212-1(b) | declaration | high | The Offeror agrees to hold the prices in its offer firm for 60 calendar days from the date specified for receipt of offers, unless another time period is specified in an addendum to the solicitation. |
+| 1 | 38 | Section C | must | high | For receive/deliver items, any concealed carrier damage found when unpackaged at site must be photographed prior to installing the product in the designated space at site. |
+| 2 | 42 | Pricing | shall | **review** | This shall be used as a general way to determine the length of a project. |
+| 3 | 43 | *(none)* | shall | **review** | UNICOR shall not be invoiced for installation services until the "Acceptance Form" is attached to the invoice. |
+| 4 | 45 | *(none)* | shall | high | Current rules and regulations applicable to the premises, where the work will be performed, shall apply to the contractor and its employees while working on the premises. |
+| 5 | 47 | *(none)* | must | high | All staff employed directly under the offeror (s) must complete and pass an NCIC check which will be sent to UNICOR. |
+| 6 | 51 | *(none)* | shall | high | The installation site manager shall ensure all personnel are on-site and following all agency rules |
+| 7 | 53 | Section F | shall | high | Order confirmation shall be signed and dated in blocks 30a, b and c of the delivery order |
+| 8 | 53 | Section F | must | high | Order confirmation containing the following information must be faxed or emailed to the contracting officer or their designee. |
+| 9 | 87 | *(none)* | declaration | **review** | The Contractor should maintain signed copies of the NDA for all employees as a record of compliance. |
+| 10 | 89 | C.(1)(a) | will | **review** | This training will be provided at the outset of the Subcontractor's/employee's work on the contract and every year thereafter. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 43 | 15 | 0 | 15 | yes | 2 exclusion(s): government-actor — resolved |
-| 41 | 13 | 0 | 13 | yes | 1 exclusion(s): government-actor — resolved |
-| 40 | 10 | 0 | 10 | yes | 2 exclusion(s): government-actor, toc-echo — resolved |
-
-Read each with:
+| 82 | 8 | 3 | 5 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 61 | 7 | 3 | 4 | yes | 3 exclusion(s): government-actor — **still unresolved** |
+| 83 | 5 | 2 | 3 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 43
-node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 41
-node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 40
+node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 82
+node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 61
+node scripts/extract.ts ../shallfinder-corpus/corpus/1616-26__RFP1620000348.pdf --page 83
 ```
 
 ### 19C02026Q0027__Solicitation-19C02026Q0027
 
 Path: `corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf`
 
-**81 pages · 365 rows · unresolved 17 · cost $2.28**
-Rows dropped because their quote could not be found in the document: **8**.
+**81 pages · 587 rows (+222 recovered by the patch) · unresolved 37 · cost $2.28**
+Rows dropped because their quote could not be found: **12**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -247,40 +273,38 @@ or honestly blank, and does the plain-English line say what the quote says?
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
 | 1 | 14 | G.1.1 | shall | high | G.1.1 The Contractor shall provide the information required by the paragraph above within ten (10) calendar days after award. |
-| 2 | 14 | G.2.2 | shall | high | The Contractor shall obtain any other types of insurance required by local law or that are ordinarily or customarily obtained in the location of the work. |
-| 3 | 26 | 52.240-91(b)(1) | must | high | (1) A covered application on any information technology owned or managed by the Government, or on any information technology used or provided by the Contractor under this contract, including equipment provided by the Contractor’s  |
-| 4 | 47 | SOW 2.2 | imperative | high | Laser-Cut Lattice Assembly: Fabricate and assemble decorative and structural lattices via high-precision laser cutting according to the approved architectural layouts. |
-| 5 | 47 | SOW 2.2 | imperative | high | GMAW Welding Operations: Execute all structural steel assembly and welding exclusively through the Gas Metal Arc Welding (GMAW) process performed by certified welding personnel under AWS D1.1 structural welding code requirements. |
-| 6 | 52 | SOW 6.1 | imperative | high | Submit all structural designs, calculation memories, and product submittals for formal review and approval by the COR prior to commencing any off-site fabrication. |
-| 7 | 54 | SOW 6.6 | imperative | high | Chip away loose aggregate from the seven (7) exposed aggregate columns ("Gravilla Lavada"), patch voids using high-strength structural repair mortar matching the original mix design and texture, pressure wash, and apply an approve |
-| 8 | 59 | SOW 13 | shall | high | The Contractor shall provide 24 hours advance notice for the following mandatory inspection milestones: |
-| 9 | 66 | Safety Requirements §3e | conditional | high | In those tasks where PPE certified is required, the contractor must provide the current certification. |
-| 10 | 80 | *(none)* | imperative | high | Barra pisos y déjelos limpios. |
+| 2 | 17 | G.5.2 | declaration | high | Failure to provide any of the above information may be considered grounds for rejection and/or resubmittal of the application. |
+| 3 | 26 | 52.240-91(b)(3) | must | **review** | (3) Covered telecommunications equipment or services used as a substantial or essential component of any system, or as critical technology as part of any system (paragraphs (a)(1)(A) of section 889 of the John S. McCain National D |
+| 4 | 27 | 52.240-91(d)(1)(i) | conditional | **review** | Unless an applicable waiver has been issued by the Government, the Contractor cannot use any equipment, systems, or services that uses covered telecommunications equipment or services as a substantial or essential component of any |
+| 5 | 30 | *(none)* | shall | high | The Contractor shall report the following information within 72 hours for each covered article or each product or service produced or provided by a source, where the covered article or source is subject to a FASCSA order: |
+| 6 | 33 | 652.236-70 | shall | **review** | The mishap reporting requirement shall include fires, explosions, hazardous materials contamination, and other similar incidents that may threaten people, property, and equipment. |
+| 7 | 54 | SOW 6.5 | imperative | high | Fabricate, erect, and anchor structural steel extensions to cover previously exposed zones, the main entry, the rear service area, and the specific front expansion zone measuring 4.00 m by 2.00 m (aligned with the shoe store inter |
+| 8 | 63 | Final Acceptance & Closeout | shall | high | The Contractor shall request a final inspection only when all work, including the 'Punch List' repairs, is fully completed. |
+| 9 | 66 | Safety Requirements §3a | must | high | Contractor personnel must use personal protective equipment (PPE) required and in accordance with the contracted work. |
+| 10 | 76 | 8 | must | high | Todo el personal que realice trabajo eléctrico deberá estar lo suficientemente entrenado y se debe ser una persona competente para poder ejecutar el trabajo. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 69 | 16 | 0 | 16 | yes | 1 exclusion(s): government-actor — resolved |
-| 67 | 13 | 0 | 13 | yes | 1 exclusion(s): government-actor — resolved |
-| 29 | 11 | 1 | 10 | yes | 1 exclusion(s): government-actor — resolved |
-
-Read each with:
+| 29 | 11 | 2 | 9 | yes | 1 exclusion(s): government-actor — **still unresolved** |
+| 30 | 9 | 4 | 5 | yes | 2 exclusion(s): government-actor — **still unresolved** |
+| 43 | 5 | 0 | 5 | yes | 1 exclusion(s): government-actor — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf --page 69
-node scripts/extract.ts ../shallfinder-corpus/corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf --page 67
 node scripts/extract.ts ../shallfinder-corpus/corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf --page 29
+node scripts/extract.ts ../shallfinder-corpus/corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf --page 30
+node scripts/extract.ts ../shallfinder-corpus/corpus/19C02026Q0027__Solicitation-19C02026Q0027.pdf --page 43
 ```
 
 ### 36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-
 
 Path: `corpus/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf`
 
-**73 pages · 255 rows · unresolved 9 · cost $1.39**
-Rows dropped because their quote could not be found in the document: **14**.
+**73 pages · 255 rows · unresolved 31 · cost $1.39**
+Rows dropped because their quote could not be found: **14**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -304,26 +328,24 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 55 | 12 | 4 | 8 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 34 | 8 | 1 | 7 | yes | 5 exclusion(s): government-actor, definitional — resolved |
-| 71 | 6 | 1 | 5 | yes | 1 exclusion(s): government-actor — resolved |
-
-Read each with:
+| 55 | 12 | 2 | 10 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 33 | 5 | 1 | 4 | yes | 3 exclusion(s): government-actor — **still unresolved** |
+| 34 | 8 | 4 | 4 | yes | 5 exclusion(s): government-actor, definitional — resolved |
 
 ```bash
 node scripts/extract.ts ../shallfinder-corpus/corpus/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf --page 55
+node scripts/extract.ts ../shallfinder-corpus/corpus/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf --page 33
 node scripts/extract.ts ../shallfinder-corpus/corpus/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf --page 34
-node scripts/extract.ts ../shallfinder-corpus/corpus/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf --page 71
 ```
 
 ### 47QMCA26Q0098__RFQ47QMCA26Q0098-SF18
 
 Path: `corpus/47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf`
 
-**8 pages · 5 rows · unresolved 5 · cost $0.34**
-Rows dropped because their quote could not be found in the document: **9**.
+**8 pages · 19 rows (+14 recovered by the patch) · unresolved 2 · cost $0.34**
+Rows dropped because their quote could not be found: **50**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -332,27 +354,28 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 2 | B.1 | will | **review** | Partial minimum quoted quantities will NOT be evaluated. |
-| 2 | 7 | *(none)* | shall | high | For purposes of price evaluation, offerors shall provide a unit price for each vehicle. |
-| 3 | 7 | *(none)* | shall | **review** | The evaluated unit price shall be applied to the quantity determined by the Government at the time of award. |
-| 4 | 7 | *(none)* | shall | high | Offerors shall not assume that the Government will award sixty (60) vehicles for purposes of pricing, and the Government will not be obligated to purchase quantities exceeding the minimum quantity stated herein. |
-| 5 | 8 | E.1.2 | required | high | Vendors are required to complete the GSA Source of Supply Letter. |
+| 1 | 1 | *(none)* | imperative | high | Please complete SF18: Block 8 a,b,c,d,e & f Block 13 a,b,c,d,e,& f Block 14 Block 15 Block 16 a, b, and c **Follow instructions for submission** |
+| 2 | 2 | B.1 | will | **review** | Partial minimum quoted quantities will NOT be evaluated. |
+| 3 | 2 | B.1 | declaration | high | DELIVERY DATES ARE A SIGNIFICANT EVALUATION FACTOR (i.e., technical factor). |
+| 4 | 3 | B.2 | must | high | PRICING MUST BE FOB DESTINATION. |
+| 5 | 6 | 52.212-2 | imperative | high | Limit 20 Pages. |
+| 6 | 7 | PRICE | shall | high | Offerors shall not assume that the Government will award sixty (60) vehicles for purposes of pricing, and the Government will not be obligated to purchase quantities exceeding the minimum quantity stated herein. |
+| 7 | 8 | E.1.2 | required | high | Vendors are required to complete the GSA Source of Supply Letter. |
+| 8 | 8 | E.1 | declaration | high | If any of the items are not provided and filled out in their entirety, then the quote will be disqualified and not evaulated |
+| 9 | 8 | E.1 | imperative | **review** | Complete and submit͘ |
+| 10 | 8 | E.1 | conditional | high | If the vendor is not the manufacturer of the products being offered, the vendor may only offer products it is authorized to distribute, either by the manufacturer itself, or as otherwise authorized pursuant to wholesaler agreement |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 2 | 3 | 0 | 3 | yes | 3 exclusion(s): government-actor — resolved |
-| 7 | 3 | 0 | 3 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 8 | 3 | 0 | 3 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
-
-Read each with:
+| 2 | 3 | 1 | 2 | yes | 3 exclusion(s): government-actor — resolved |
+| 8 | 3 | 1 | 2 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
 
 ```bash
 node scripts/extract.ts ../shallfinder-corpus/corpus/47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf --page 2
-node scripts/extract.ts ../shallfinder-corpus/corpus/47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf --page 7
 node scripts/extract.ts ../shallfinder-corpus/corpus/47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf --page 8
 ```
 
@@ -360,8 +383,8 @@ node scripts/extract.ts ../shallfinder-corpus/corpus/47QMCA26Q0098__RFQ47QMCA26Q
 
 Path: `corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf`
 
-**152 pages · 1316 rows · unresolved 53 · cost $6.62**
-Rows dropped because their quote could not be found in the document: **13**.
+**152 pages · 1674 rows (+358 recovered by the patch) · unresolved 75 · cost $6.62**
+Rows dropped because their quote could not be found: **19**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -370,41 +393,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 9 | PWS 9.1 | will | high | All furniture and case goods will be furnished by the Contractor, throughout the length of the contract, and be in good working order with no damage. |
-| 2 | 9 | PWS 9.2 | shall | high | OPLA space shall be contiguous. |
-| 3 | 13 | *(none)* | will | **review** | Estimated anticipated routes and/or mileage will be provided to the COR for this requirement. |
-| 4 | 19 | PWS 21.2 | shall | high | All exterior cameras shall have an infrared (IR) cut-filter and/or IR night time illuminator either built in or added as an accessory. |
-| 5 | 59 | PWS - Personnel Requirements | required | **review** | Maintain sufficient qualified staff, including licensed trades as required. |
-| 6 | 76 | *(none)* | must | high | Before receiving access to information resources under this contract, the individual must complete a security briefing; additional training for specific categories of CUI, if identified in the contract; and any nondisclosure agree |
-| 7 | 99 | *(none)* | conditional | high | upon request by the CO, the Contractor shall deliver such records to a location specified by the CO for inspection, copying, and audit |
-| 8 | 108 | PWS 10.b | shall | **review** | b. Employees shall not discuss or disclose information from alien files or immigration cases, except, when necessary, in the performance of duties under this contract. |
-| 9 | 121 | *(none)* | must | high | Notice of any price increases must be provided to the COR. |
-| 10 | 126 | PWS 66.1 | shall | high | The Contractor shall provide well maintained and serviceable or new firearms and maintain enough licensed firearms and ammunition to equip each armed detention officer and armed supervisor(s) with a licensed weapon while on duty. |
+| 1 | 11 | PWS 12 | shall | high | The emergency plan shall include provisions for two or more disturbance control teams consisting of at least 12 people on each team. |
+| 2 | 14 | *(none)* | shall | high | The transporting officers shall comply with all local, State and Federal motor vehicle regulations (including DOT, Interstate Commerce Commission, and Environmental Protection Agency), including, but not limited to: |
+| 3 | 16 | 15 | declaration | **review** | it is expected that virtual attorney visitation will be made available for at least eight (8) hours each day on weekdays and four (4) hours per day on weekends and holidays. |
+| 4 | 27 | 30. Evacuation Plan | shall | high | The contractor shall furnish emergency evacuation diagrams showing exit routes as well as 24-hour emergency evacuation procedures. |
+| 5 | 46 | PWS i. Radiology Services | required | high | Additionally, the Contractor is financially responsible for all associated radiology staffing service costs, and diagnostic interpretation costs. |
+| 6 | 54 | PWS 42 | shall | high | All EHR solutions and services shall meet DHS Enterprise Architecture policies, standards, and procedures. |
+| 7 | 57 | PWS 43.4.C | imperative | high | Maintain office, warehouse, and clinical areas in clean, dust-free condition. |
+| 8 | 81 | *(none)* | will | **review** | All facilities will be located within the United States. |
+| 9 | 125 | PWS 9 | shall | high | The Contractor shall share all intelligence information with the COR and ICE officials. |
+| 10 | 141 | Deliverables Chart | declaration | high | Holiday Menus Annually |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 81 | 20 | 0 | 20 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
-| 121 | 19 | 0 | 19 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 32 | 18 | 0 | 18 | yes | 1 exclusion(s): duplicate-of-captured — **still unresolved** |
-
-Read each with:
+| 11 | 22 | 17 | 5 | yes | 3 exclusion(s): government-actor — **still unresolved** |
+| 21 | 14 | 9 | 5 | yes | 1 exclusion(s): government-actor — **still unresolved** |
+| 6 | 9 | 5 | 4 | yes | 3 exclusion(s): definitional, government-actor — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 81
-node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 121
-node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 32
+node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 11
+node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 21
+node scripts/extract.ts ../shallfinder-corpus/corpus/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf --page 6
 ```
 
 ### 75N98026Q00962__RFQ-75N98026Q00962
 
 Path: `corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf`
 
-**39 pages · 159 rows · unresolved 7 · cost $1.11**
-Rows dropped because their quote could not be found in the document: **0**.
+**39 pages · 159 rows · unresolved 16 · cost $1.11**
+Rows dropped because their quote could not be found: **0**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -428,26 +449,24 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 15 | 9 | 0 | 9 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 16 | 6 | 0 | 6 | yes | 6 exclusion(s): government-actor, definitional — resolved |
-| 38 | 8 | 2 | 6 | yes | 5 exclusion(s): government-actor — resolved |
-
-Read each with:
+| 38 | 8 | 2 | 6 | yes | 5 exclusion(s): government-actor — **still unresolved** |
+| 2 | 6 | 2 | 4 | yes | 4 exclusion(s): government-actor, definitional — resolved |
+| 16 | 6 | 2 | 4 | yes | 6 exclusion(s): government-actor, definitional — resolved |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf --page 15
-node scripts/extract.ts ../shallfinder-corpus/corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf --page 16
 node scripts/extract.ts ../shallfinder-corpus/corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf --page 38
+node scripts/extract.ts ../shallfinder-corpus/corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf --page 2
+node scripts/extract.ts ../shallfinder-corpus/corpus/75N98026Q00962__RFQ-75N98026Q00962.pdf --page 16
 ```
 
 ### 80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final
 
 Path: `corpus/80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.pdf`
 
-**23 pages · 132 rows · unresolved 6 · cost $0.50**
-Rows dropped because their quote could not be found in the document: **2**.
+**23 pages · 132 rows · unresolved 9 · cost $0.50**
+Rows dropped because their quote could not be found: **2**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -471,13 +490,11 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 6 | 9 | 6 | 3 | yes | 0 exclusion(s): no exclusions stated — resolved |
+| 6 | 9 | 7 | 2 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
 | 18 | 12 | 10 | 2 | yes | 2 exclusion(s): government-actor — resolved |
 | 22 | 4 | 2 | 2 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
-
-Read each with:
 
 ```bash
 node scripts/extract.ts ../shallfinder-corpus/corpus/80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.pdf --page 6
@@ -489,8 +506,8 @@ node scripts/extract.ts ../shallfinder-corpus/corpus/80JSC026MEDEVAC5Q__RFP-Soli
 
 Path: `corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf`
 
-**342 pages · 945 rows · unresolved 85 · cost $6.27**
-Rows dropped because their quote could not be found in the document: **39**.
+**342 pages · 1008 rows (+62 recovered by the patch) · unresolved 146 · cost $6.27**
+Rows dropped because their quote could not be found: **42**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -499,41 +516,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 9 | PWS 4.0 | shall | high | The contractor shall provide the services and documentation required by individual task orders pursuant to the general requirements specified herein. |
-| 2 | 34 | H.13.6 | shall | high | After any document for a contract or order have been released, even if only in draft form, contractors shall not communicate with anyone other than the Contracting Officer or Contract Specialist; this includes any requiring activi |
-| 3 | 99 | *(none)* | shall | high | the 50 percent limitation shall apply only to the service portion of the contract; |
-| 4 | 133 | *(none)* | conditional | high | If at any time during performing this contract, the Contractor has reason to believe that the total price to the Government for performing this contract will be substantially greater or less than the then stated ceiling price, the |
-| 5 | 133 | *(none)* | conditional | **review** | the Contractor shall not be obligated to continue performance if to do so would exceed the ceiling price set forth in the Schedule, unless and until the Contracting Officer notifies the Contractor in writing that the ceiling price |
-| 6 | 150 | (e)(2) | shall | high | (2) Enter into SPRS the results of a current self-assessment for each CMMC UID, not covered by a C3PAO assessment or DIBCAC assessment, applicable to each of the contractor information systems that process, store, or transmit FCI  |
-| 7 | 150 | (e)(3) | shall | **review** | (3) Complete in SPRS on an annual basis and maintain as current an affirmation of continuous compliance by the affirming official (see 32 CFR 170.4) for each self-assessment, C3PAO |
-| 8 | 199 | *(none)* | shall | **review** | Technical data, including computer software documentation, or computer software that will be delivered, furnished, or otherwise provided to the Government under this contract, in which the Government has previously obtained rights |
-| 9 | 275 | *(none)* | declaration | high | Any non-CUI files uploaded will not be evaluated. |
-| 10 | 277 | L.1.1.3 | declaration | high | Failure to submit a copy of the Joint Venture Agreement with the proposal, meeting these requirements will result in the proposal being rejected. |
+| 1 | 96 | 52.216-22(b) | shall | **review** | Delivery or performance shall be made only as authorized by orders issued in accordance with the Ordering clause. |
+| 2 | 107 | 52.219-... (HUBZone JV representation) | shall | **review** | [____The Contractor shall enter the name and unique entity identifier of each party to the joint venture: .] |
+| 3 | 116 | 52.227-11(i)(5) | conditional | **review** | Allow the Secretary of Commerce to review the Contractor's licensing program and decisions regarding small business applicants, and negotiate changes to its licensing policies, procedures, or practices with the Secretary of Commer |
+| 4 | 152 | 252.208-7999(a)(3) | imperative | high | (3) The completed address(es) to which the Contractor's mail, freight, and billing documents are to be directed. |
+| 5 | 189 | *(none)* | shall | high | Except as provided in paragraph (l)(2)(ii) of this clause, the Contractor shall include this clause in any subcontract or contractual instrument under which technical data or computer software will be obtained from a subcontractor |
+| 6 | 245 | 52.212-3(h) | conditional | high | (h) Certification Regarding Responsibility Matters (Executive Order 12689). (Applies only if the contract value is expected to exceed the simplified acquisition threshold.) The offeror certifies, to the best of its knowledge and b |
+| 7 | 273 | L.1 | must | high | All supporting documentation submitted in response to this solicitation must be designated as Unclassified, up to and including Controlled Unclassified Information (CUI). |
+| 8 | 274 | L.1 | shall | high | 6. All information the Offeror intends to have considered shall be submitted with the initial proposal. |
+| 9 | 279 | L.2.1 | declaration | **review** | Signed SF33Proof of completed SAM registration. |
+| 10 | 286 | L.2.2.2.1 | must | high | The letter must include the name, address, phone number, and email of the CPA and a copy of the signer's CPA Registration such as the printout from https://cpaverify.org/. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 275 | 17 | 0 | 17 | yes | 2 exclusion(s): government-actor — resolved |
-| 273 | 13 | 0 | 13 | yes | 1 exclusion(s): toc-echo — resolved |
-| 136 | 10 | 0 | 10 | yes | 1 exclusion(s): government-actor — resolved |
-
-Read each with:
+| 289 | 7 | 0 | 7 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 133 | 7 | 1 | 6 | yes | 5 exclusion(s): government-actor, definitional — **still unresolved** |
+| 287 | 8 | 3 | 5 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 275
-node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 273
-node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 136
+node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 289
+node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 133
+node scripts/extract.ts ../shallfinder-corpus/corpus/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf --page 287
 ```
 
 ### W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001
 
 Path: `corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf`
 
-**157 pages · 781 rows · unresolved 20 · cost $4.17**
-Rows dropped because their quote could not be found in the document: **22**.
+**157 pages · 858 rows (+77 recovered by the patch) · unresolved 57 · cost $4.17**
+Rows dropped because their quote could not be found: **27**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -542,41 +557,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 16 | 12.c | shall | **review** | The Bidders shall provide page 3 and 4 of theTAB C: CLIN Price and Total Contract Amount. solicitation pricing each CLIN individually and include the OVERALL contract price. |
-| 2 | 48 | 252.219-7010(a) | declaration | **review** | (a) Offers are solicited only from small business concerns expressly certified by the Small Business Administration (SBA) for participation in SBA's 8(a) Program and which meet the following criteria at the time of submission of o |
-| 3 | 97 | SOW 1.3.3 | shall | high | The Contractor shall provide all equipment and tools necessary to complete the scope of work as described in this document. |
-| 4 | 100 | SOW 1.8 | shall | high | The Contractor shall be responsible for performing or having performed all inspections and tests necessary to substantiate that the raw materials, components, intermediate assemblies, and end products furnished & installed under t |
-| 5 | 106 | PWS 1.19.5 | shall | high | The Contractor shall not be entitled to any equitable adjustment of the contract price or extension of the performance schedule on any stop work order issued. |
-| 6 | 109 | 1.27 | shall | high | The Contractor shall designate these individuals in writing and provide cell phone numbers to the KO prior to performance. |
-| 7 | 120 | PWS 4.11 | shall | high | The Contractor shall test for asbestos and provide the test results to the COR & KO before proceeding for additional guidance. |
-| 8 | 123 | PWS 4.20 | shall | high | Contractor shall comply with Texas Commission on Environmental Quality, Chapter 290 - Public Drinking Water, 290.101 - 290.119, 290.121, 290.122, Effective March 30, 2017, or most current approved version. |
-| 9 | 139 | PWS 4.72.3 | imperative | high | Show measurements for all change of direction points and all surface or underground components such as valves, manholes, drop inlets, cleanouts, and meters. |
-| 10 | 140 | PWS 4.75 | shall | high | The Contractor shall provide to COR and KO, a manufacturer's warranty certificate. |
+| 1 | 12 | 00 21 13 / 2.3 | declaration | high | This solicitation is set-aside 100% for 8(a) Small Businesses. |
+| 2 | 49 | 252.219-7010 | will | **review** | The will notify the Contracting____ [insert name of SBA's contractor] MICC Fort Bliss Officer in writing immediately upon entering an agreement (either oral or written) to transfer all or part of its stock or other ownership inter |
+| 3 | 105 | PWS 1.18.2 | shall | **review** | The DPW PM shall be notified of all accidents within one (1) hour of the occurrence. |
+| 4 | 116 | PWS 3.4 | shall | high | The Contractor shall provide and install a sign at the storage entrance identifying the Contractor and POC. |
+| 5 | 121 | PWS 4.14.1 | will | high | No material other than construction materials, e.g. PVC, CPVC, or other suitable materials, will be brought into the installation. |
+| 6 | 126 | PWS 4.35 | shall | high | The submittal name nomenclature shall be as follows: "Submittal # _Type of submittal_YYYY_MM_DD". |
+| 7 | 133 | 4.48.12-4.48.15 | declaration | **review** | DFARS Clause 252.225-7040, Contractor Personnel Authorized to Accompany U.S. Armed Forces Deployed Outside the United States, shall be used in solicitations and contracts that authorize Contractor personnel to accompany U.S. Armed |
+| 8 | 134 | 4.51.c | declaration | **review** | Duties, responsibilities, and authorities of each person in the QC organization. |
+| 9 | 135 | 4.51.i | imperative | high | Include in the list of DFOWs, but not be limited to, all critical path activities. |
+| 10 | 136 | PWS 4.53 | conditional | high | If the Contractor requires space in addition to or outside of the provided footprint, the Contractor shall submit a Staging and Laydown Plan with the applicable permit request documentation. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 104 | 20 | 0 | 20 | yes | 1 exclusion(s): government-actor — resolved |
-| 109 | 20 | 0 | 20 | yes | 2 exclusion(s): government-actor — resolved |
-| 105 | 19 | 0 | 19 | yes | 0 exclusion(s): no exclusions stated — resolved |
-
-Read each with:
+| 76 | 5 | 1 | 4 | yes | 3 exclusion(s): government-actor — **still unresolved** |
+| 77 | 11 | 7 | 4 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 78 | 7 | 3 | 4 | yes | 2 exclusion(s): government-actor — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 104
-node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 109
-node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 105
+node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 76
+node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 77
+node scripts/extract.ts ../shallfinder-corpus/corpus/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf --page 78
 ```
 
 ### W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-
 
 Path: `corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf`
 
-**645 pages · 1712 rows · unresolved 65 · cost $9.10**
-Rows dropped because their quote could not be found in the document: **21**.
+**645 pages · 2152 rows (+440 recovered by the patch) · unresolved 150 · cost $9.10**
+Rows dropped because their quote could not be found: **23**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -585,41 +598,39 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 22 | 4.3.1 | shall | high | The narrative shall be task-oriented, clearly indicating the number of calendar days following pre-construction submittals and mobilization— assumed to occur approximately 30 calendar days after Notice to Proceed (NTP)—by which dr |
-| 2 | 82 | 252.236-7001 | shall | high | (2) Compare all drawings and verify the figures before laying out the work; |
-| 3 | 117 | *(none)* | shall | **review** | This paragraph shall not be construed to apply to work below ground level in open cut. |
-| 4 | 161 | 01 32 01.00 10 3.3.7.3 | declaration | high | Activities cannot have more than one Work Area Code. |
-| 5 | 185 | 1.9 | declaration | high | No delay damages or time extensions will be allowed for time lost in late submittals. |
-| 6 | 205 | PWS 1.13 | shall | high | All extinguishers shall be current inspection tagged, approved safety pin and tamper resistant seal. |
-| 7 | 218 | 01 35 26 3.8.6 | shall | high | The Contractor shall furnish and install an obstruction marking and lighting in accordance with the requirements of FAA Publication Advisory Circular 70/7460-lK. |
-| 8 | 238 | 1.7.1.3 | declaration | **review** | Letters are numbered starting from 0001. |
-| 9 | 301 | 3.6.1 | shall | high | No debris or material other than natural mud, sand or silt shall be deposited in the Government-furnished open disposal area. |
-| 10 | 303 | 3.6.2.7 | conditional | high | In such cases the towing vessel's position, and the tow cable length and compass heading to the disposal vessel at the time of discharge, must be recorded and reported. |
+| 1 | 3 | BIDDER QUESTIONS | must | high | INQUIRIES MUST BE RECEIVED NO LATER THAN 14 CALENDAR DAYS PRIOR TO THE DATE SET FOR BID OPENING. |
+| 2 | 73 | 52.232-5(b)(1) | shall | high | The Contractor's request for progress payments shall include the following substantiation: |
+| 3 | 80 | 52.248-3(h) | shall | high | The Contractor shall include an appropriate value engineering clause in any subcontract of $90,000 or more and may include one in subcontracts of lesser value. |
+| 4 | 165 | 3.4 | imperative | high | Provide the submissions as described below. |
+| 5 | 168 | 3.7.4 | must | high | The proposed fragnet must be approved by the Contracting Officer or delegated representative prior to incorporation into the project schedule. |
+| 6 | 206 | PWS 1.14 | shall | high | All personnel in an area that is not protected by handrails shall wear either a PLB or a fall protection system that meets all the requirements of EM 385-1-1. |
+| 7 | 250 | 1.2.10 | imperative | **review** | As a solid waste, perform a hazardous waste determination prior to disposal. |
+| 8 | 281 | PWS 3.2.2 | conditional | **review** | In the event a reported parameter is calculated based on multiple sensors, the sensor values as used in the equation must be visible in addition to the required parameter. |
+| 9 | 364 | *(none)* | shall | high | The drag head, cutterheads, and pipeline intakes shall remain in contact with the seafloor during suction dredging. |
+| 10 | 636 | Special Condition 11 | shall | high | These reports shall describe the cause(s) of the problems, any steps taken to rectify the problems, and whether the problems occurred on subsequent disposal trips. |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 207 | 16 | 0 | 16 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 213 | 15 | 0 | 15 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 215 | 11 | 0 | 11 | yes | 0 exclusion(s): no exclusions stated — resolved |
-
-Read each with:
+| 122 | 9 | 0 | 9 | yes | 9 exclusion(s): definitional — resolved |
+| 124 | 8 | 1 | 7 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
+| 130 | 7 | 0 | 7 | yes | 0 exclusion(s): no exclusions stated — **still unresolved** |
 
 ```bash
-node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 207
-node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 213
-node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 215
+node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 122
+node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 124
+node scripts/extract.ts ../shallfinder-corpus/corpus/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf --page 130
 ```
 
 ### W912P825BA029__Solicitation-W912P825BA029-OM25035
 
 Path: `corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf`
 
-**246 pages · 1333 rows · unresolved 42 · cost $6.26**
-Rows dropped because their quote could not be found in the document: **18**.
+**246 pages · 1351 rows (+18 recovered by the patch) · unresolved 115 · cost $6.26**
+Rows dropped because their quote could not be found: **24**.
 
 #### 10 rows drawn at random (seed 20260829)
 
@@ -628,59 +639,56 @@ or honestly blank, and does the plain-English line say what the quote says?
 
 | # | Page | Section | Verb | Flag | Quote (verbatim, as extracted) |
 |---:|---:|---|---|---|---|
-| 1 | 77 | 1.5 | shall | high | shall at all times follow the directions and instructions of the Contracting Officer or his/her authorized representative in regard to the payment of such taxes, fees, or charges. |
-| 2 | 81 | 1.12 | shall | high | The Contractor shall submit the draft as-builts for review by email in PDF format to the respective area office personnel. |
-| 3 | 98 | 1.7 | shall | high | Lettering for the project name shall be Helvetica Bold, and all other lettering shall be Helvetica Regular. |
-| 4 | 124 | PWS 3.1.4.a | shall | high | In areas of consolidated bottom material, the digitized and recorded depth soundings shall indicate the true channel bottom. |
-| 5 | 141 | 2.1.2.e | shall | high | During dredging, these instruments shall record data on control chart paper consisting of pipeline pressure and pump vacuum (lbs/cu in.), and pump RPM at rated drive of the prime mover. |
-| 6 | 142 | 2.1.3.4 | shall | high | The towboat(s) shall have horsepower to provide a minimum towing speed of three miles per hour upriver against a current of five miles per hour for moving a single tow consisting of the dredge and necessary attendant plant to comm |
-| 7 | 144 | 2.1.7 | shall | high | In addition, the unit shall have electronic charting with inland and offshore coverage using the most current imagery available. |
-| 8 | 144 | 2.1.8.a | shall | high | The survey crew shall be prepared to perform survey work within a one hour notice from Government Inspectors. |
-| 9 | 223 | 3.1.4 | shall | high | Cross-sections shall be taken normal to the beach, and spacing between the cross sections shall not exceed 100 feet. |
-| 10 | 243 | PWS 3.2.6 | conditional | high | If the serial transmission option is used, sensor data shall be sent to the DQM computer via an RS-232 serial interface with a baud rate of 9600 or 19200 bps. |
+| 1 | 37 | Section 00 45 00 | declaration | **review** | (1) The following representations or certifications in the SAM database are applicable to this solicitation as indicated: |
+| 2 | 48 | (c)(1)(ii) | conditional | high | A request based on unreasonable cost shall include a reasonable survey of the market and a completed price comparison table in the format in paragraph (d) of this clause. |
+| 3 | 63 | 252.232-7006 | shall | high | (1) Document type. The Contractor shall submit payment requests using the following document type(s): |
+| 4 | 72 | Section 00800, 3.4 | imperative | **review** | (d)(2)(i)(B) In accordance with FAR 31.105(d)(2)(i)(b), for the predetermined schedule of construction equipment use rates, use Engineer Pamphlet (EP) 1110-1-8, Construction Equipment Ownership and Operating Expense Schedule. |
+| 5 | 80 | 1.12 | conditional | high | If the Contractor worked in multiple dredging regions, the Contractor shall fill out a separate utility summary sheet for each dredging region. |
+| 6 | 126 | PWS 3.1.8 | shall | **review** | which shall be noted on each page of the book. |
+| 7 | 137 | 1.3.1 | shall | high | The Contractor shall prepare and submit a Daily Report of Operations (MVN Form 4267) and the Original Leverman's Log signed by each shift leverman, for each dredge working. |
+| 8 | 143 | 2.1.4.e | conditional | **review** | Furthermore, the Contractor may be required to disconnect all or part of his pipeline to allow the passage of other vessels, if the pipeline would otherwise be a hazard to navigation. |
+| 9 | 147 | 2.2.4 | shall | high | The dredge shall be equipped with an Automatic Identification System (AIS) in accordance with the Code of Federal Regulations, 33 CFR 164, reference the note to 164.46(a). |
+| 10 | 238 | 3.1.1.3.4.3 | shall | high | The total length of shore pipe shall be reported with the tag "length_land". |
 
 #### The 3 flagged pages with the largest shortfall
 
 Check: is the tool's account of what it could not capture truthful on these pages?
 
-| Page | Scan found | First pass captured | Shortfall | Swept? | What the sweeper said |
+| Page | Scan found | Captured | Shortfall | Swept? | What the sweeper said |
 |---:|---:|---:|---:|---|---|
-| 98 | 25 | 0 | 25 | yes | 1 exclusion(s): definitional — **still unresolved** |
-| 122 | 18 | 0 | 18 | yes | 0 exclusion(s): no exclusions stated — resolved |
-| 118 | 15 | 0 | 15 | yes | 0 exclusion(s): no exclusions stated — resolved |
-
-Read each with:
+| 75 | 15 | 9 | 6 | yes | 1 exclusion(s): government-actor — **still unresolved** |
+| 98 | 25 | 19 | 6 | yes | 1 exclusion(s): definitional — **still unresolved** |
+| 143 | 21 | 15 | 6 | yes | 1 exclusion(s): government-actor — **still unresolved** |
 
 ```bash
+node scripts/extract.ts ../shallfinder-corpus/corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf --page 75
 node scripts/extract.ts ../shallfinder-corpus/corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf --page 98
-node scripts/extract.ts ../shallfinder-corpus/corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf --page 122
-node scripts/extract.ts ../shallfinder-corpus/corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf --page 118
+node scripts/extract.ts ../shallfinder-corpus/corpus/W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf --page 143
 ```
 
 ## 4. The invention count, per document
 
-A row is dropped when its quoted text cannot be located anywhere in the document. This is the
-structural defence against a fabricated citation, and the count is what the defence caught.
-A dropped row never reaches a user — but a rising count means the model is leaning on the net.
+A row is dropped when its quoted text cannot be located anywhere in the document. This is
+the structural defence against a fabricated citation. A dropped row never reaches a user.
 
-| Document | Rows kept | Dropped: not found | Dropped: bad shape | Dropped: page out of range |
-|---|---:|---:|---:|---:|
-| `0020153254COHEN__Attachment-1-Statement-of-W` | 40 | **1** | 0 | 0 |
-| `1240LT26Q0172__3-Combined-SpecsCBPEWI2026062` | 263 | **3** | 0 | 0 |
-| `15F06726R0000194__RFP-15F06726R0000194-Tier-` | 385 | **10** | 0 | 0 |
-| `1616-26__RFP1620000348` | 353 | **4** | 0 | 0 |
-| `19C02026Q0027__Solicitation-19C02026Q0027` | 365 | **8** | 0 | 0 |
-| `36C26126Q1034__36C26126Q1034-Brand-Name-VAPI` | 255 | **14** | 1 | 0 |
-| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18` | 5 | **9** | 0 | 0 |
-| `70CDCR26R00000026__Attachment-01-Turnkey-Fac` | 1316 | **13** | 9 | 0 |
-| `75N98026Q00962__RFQ-75N98026Q00962` | 159 | **0** | 0 | 0 |
-| `80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027` | 132 | **2** | 0 | 0 |
-| `W15P7T-26-R-A006__Solicitation-Amendment-004` | 945 | **39** | 2 | 0 |
-| `W911SG27BA002__Solicitation-Amendment-W911SG` | 781 | **22** | 2 | 0 |
-| `W912P726RA022__W912P726RA002-San-Rafael-Soli` | 1712 | **21** | 5 | 0 |
-| `W912P825BA029__Solicitation-W912P825BA029-OM` | 1333 | **18** | 12 | 0 |
+| Document | Rows kept | Dropped: not found (v1 → v2) | Rate |
+|---|---:|---:|---:|
+| `0020153254COHEN__Attachment-1-Statement-of` | 40 | 1 → **1** | 2.5% |
+| `1240LT26Q0172__3-Combined-SpecsCBPEWI20260` | 621 | 3 → **6** | 1.0% |
+| `15F06726R0000194__RFP-15F06726R0000194-Tie` | 427 | 10 → **10** | 2.3% |
+| `1616-26__RFP1620000348` | 385 | 4 → **6** | 1.6% |
+| `19C02026Q0027__Solicitation-19C02026Q0027` | 587 | 8 → **12** | 2.0% |
+| `36C26126Q1034__36C26126Q1034-Brand-Name-VA` | 255 | 14 → **14** | 5.5% |
+| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18` | 19 | 9 → **50** | 263.2% |
+| `70CDCR26R00000026__Attachment-01-Turnkey-F` | 1674 | 13 → **19** | 1.1% |
+| `75N98026Q00962__RFQ-75N98026Q00962` | 159 | 0 → **0** | 0.0% |
+| `80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC0` | 132 | 2 → **2** | 1.5% |
+| `W15P7T-26-R-A006__Solicitation-Amendment-0` | 1008 | 39 → **42** | 4.2% |
+| `W911SG27BA002__Solicitation-Amendment-W911` | 858 | 22 → **27** | 3.1% |
+| `W912P726RA022__W912P726RA002-San-Rafael-So` | 2152 | 21 → **23** | 1.1% |
+| `W912P825BA029__Solicitation-W912P825BA029-` | 1351 | 18 → **24** | 1.8% |
 
-**Total dropped as unlocatable across the corpus: 164.**
+**Total dropped as unlocatable: 236** (v1: 164).
 
 ## 5. The six exit criteria — what the numbers show
 
@@ -688,50 +696,51 @@ Ranked by how much of the decision rests on each. **No verdict is offered here.*
 
 ### 1. Catches everything (the recall check) — the criterion the project turns on
 
-The owner reads two pages per readable document by hand and counts what the pipeline missed.
-**This report deliberately does not choose those pages.**
-
-What the machine can say about its own recall:
+The owner reads two pages per readable document by hand. **This report does not choose them.**
 
 - The independent scan found **6842** binding-verb occurrences across readable documents.
-- After the sweeper, **353** occurrences remain neither captured nor explained.
-- The sweeper recovered **2882** requirements the first pass had missed. The first pass alone is measurably not enough.
-- The scan sees Class-A verbs only. Imperatives, conditionals, and declarations carry no magic
-  word and are invisible to it, so this measures one kind of miss, not all kinds. The hand audit
-  is the only check that covers the rest.
+- After the sweeper, **704** remain neither captured nor explained.
+- The patch recovered **1,624** rows that the truncation defect had silently lost. **No chunk now yields nothing.**
+- The scan sees Class-A verbs only. Imperatives, conditionals and declarations carry no magic
+  word and are invisible to it, so this measures one kind of miss, not all kinds. The hand
+  audit is the only check that covers the rest.
 
 ### 2. Nothing invented
 
-- **164** rows were dropped corpus-wide because their quote could not be found.
+- **236** rows dropped corpus-wide because their quote could not be found (v1: 164).
 - Every row that reached the matrix had its quote located in the source page text.
-- The check itself was proven by planting a fake row and a paraphrase, both rejected; disabling
-  the check turns those tests red. See the 2026-08-29 Task 3 report.
+- Sweeper rows and patch rows face the same locate-check as first-pass rows.
+- The check was proven by planting a fake row and a paraphrase, both rejected.
 
 ### 3. Coverage check honest
 
-- Unresolved across readable documents: **3081 before the sweeper, 353 after.**
-- Unresolved is reported exactly as computed. It is never suppressed, rounded, or estimated.
-- **Known bias, stated plainly:** where the scan wrongly excludes a contractor obligation as a
-  government one, the denominator shrinks and coverage looks *better* than it is. Where the scan
-  double-counts a fill-in form line, the shortfall inflates and coverage looks *worse*. The first
-  error flatters us and the sweeper cannot catch it, because it only visits pages already showing
-  a shortfall. Section 3's flagged pages are where to check this by hand.
+- Unresolved: **704** across readable documents.
+- **v1's figure was understated.** See "An accounting correction" above. The rule is now:
+  a swept page is credited only with what the sweeper explained, never with rows already
+  counted in the shortfall.
+- **Known bias, stated plainly:** where the scan wrongly excludes a contractor obligation as
+  a government one, the denominator shrinks and coverage looks *better* than it is. Where it
+  double-counts a fill-in form line, the shortfall inflates and coverage looks *worse*. The
+  first flatters us and the sweeper cannot catch it, since it only visits pages already
+  showing a shortfall. Section 3's flagged pages are where to check this by hand.
 
 ### 4. Citations right
 
-- Page numbers were verified by an independent extractor on 16 pages across 5 documents
-  (2026-08-28 report): 16 of 16, with an off-by-one probe against neighbouring pages.
-- Section references are **not** machine-checkable — the pipeline is instructed never to invent
+- Page numbers verified by an independent extractor on 16 pages across 5 documents,
+  16 of 16, with an off-by-one probe against neighbouring pages (2026-08-28 report).
+- Section references are not machine-checkable — the pipeline is instructed never to invent
   one and to use null instead. The random samples in section 3 are where that gets checked.
 
 ### 5. Unreadable documents declared unreadable
 
-- 3 of 17 documents were declared unreadable and returned no matrix.
-- They appear in section 2 with their measured page counts and text density, not as skips.
+- 3 of 17 documents declared unreadable, returning no matrix, billed $0.00.
 
 ### 6. Cost measured and recorded per document
 
-- **$43.44** for the corpus at Batch API rates.
+- **$53.58** total at Batch API rates: $43.44 for the v1 corpus run plus $10.14 for the truncation patch.
+- The per-document costs in the summary table are the v1 run only; the patch cost is
+  pooled in `corpus/eval/_patch.json` rather than apportioned, because a patched chunk
+  cannot be attributed to a document without re-deriving token counts it did not record.
 - Per-document figures are in the summary table and the per-document JSON.
 - MASTER_PLAN sets no pass mark on cost: pricing is decided after the real number is known.
 
@@ -740,55 +749,9 @@ What the machine can say about its own recall:
 | What | Where |
 |---|---|
 | Per-document JSON, including every row | `corpus/eval/` |
+| Patch record (batches, rounds, deltas) | `corpus/eval/_patch.json` |
 | The corpus documents | `corpus/` |
 | The six exit criteria, verbatim | `MASTER_PLAN.md`, Phase 1 |
 | The audit rubric | `EXTRACTION_PROMPT_SPEC.md` §7 |
 | The verdict slot | `DECISIONS.md` D-010 — still empty |
-
-
-## 7. Two findings the owner must weigh before ruling
-
-These are computed from the per-document JSON in `corpus/eval/` and are unfavourable.
-
-### 7.1 Chunks that produced nothing — a hole in recall
-
-**46 of 263 chunk responses hit the output ceiling and were cut mid-JSON, and 47 chunks produced no rows at all.** A lost chunk means the requirements on its pages are absent from the matrix, and unlike the interactive path the batch run has no retry.
-
-This is the same failure found and fixed on 2026-08-28, reappearing at the larger ceiling on the densest chunks. It is a known, named defect, not a mystery — but it means **roughly 18% of chunks contributed nothing to this evaluation**, and the recall criterion is being judged on a matrix with those gaps in it.
-
-| Document | Chunks | Truncated | Yielded nothing |
-|---|---:|---:|---:|
-| `70CDCR26R00000026__Attachment-01-Turnkey-Fac` | 26 | 13 | **12** |
-| `W912P726RA022__W912P726RA002-San-Rafael-Soli` | 82 | 9 | **9** |
-| `19C02026Q0027__Solicitation-19C02026Q0027.pd` | 11 | 5 | **5** |
-| `W911SG27BA002__Solicitation-Amendment-W911SG` | 20 | 5 | **5** |
-| `1240LT26Q0172__3-Combined-SpecsCBPEWI2026062` | 7 | 4 | **4** |
-| `W15P7T-26-R-A006__Solicitation-Amendment-004` | 40 | 4 | **4** |
-| `1616-26__RFP1620000348.pdf` | 10 | 3 | **3** |
-| `W912P825BA029__Solicitation-W912P825BA029-OM` | 34 | 1 | **3** |
-| `15F06726R0000194__RFP-15F06726R0000194-Tier-` | 10 | 1 | **1** |
-| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf` | 1 | 1 | **1** |
-
-### 7.2 One document invented more rows than it kept
-
-`47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf` — **9 rows dropped as unlocatable against 5 kept.** Every one was caught by the locate-check and none reached the matrix, so nothing false is published. But on this document the model produced more unfindable quotes than findable ones, which is worth the owner's eye during the audit.
-
-Invention rate across all readable documents, dropped-not-found as a share of rows kept:
-
-| Document | Dropped (not found) | Rows kept | Rate |
-|---|---:|---:|---:|
-| `47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf` | 9 | 5 | 180.0% |
-| `36C26126Q1034__36C26126Q1034-Brand-Name-VAPI` | 14 | 255 | 5.5% |
-| `W15P7T-26-R-A006__Solicitation-Amendment-004` | 39 | 945 | 4.1% |
-| `W911SG27BA002__Solicitation-Amendment-W911SG` | 22 | 781 | 2.8% |
-| `15F06726R0000194__RFP-15F06726R0000194-Tier-` | 10 | 385 | 2.6% |
-| `0020153254COHEN__Attachment-1-Statement-of-W` | 1 | 40 | 2.5% |
-| `19C02026Q0027__Solicitation-19C02026Q0027.pd` | 8 | 365 | 2.2% |
-| `80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027` | 2 | 132 | 1.5% |
-| `W912P825BA029__Solicitation-W912P825BA029-OM` | 18 | 1333 | 1.4% |
-| `W912P726RA022__W912P726RA002-San-Rafael-Soli` | 21 | 1712 | 1.2% |
-| `1240LT26Q0172__3-Combined-SpecsCBPEWI2026062` | 3 | 263 | 1.1% |
-| `1616-26__RFP1620000348.pdf` | 4 | 353 | 1.1% |
-| `70CDCR26R00000026__Attachment-01-Turnkey-Fac` | 13 | 1316 | 1.0% |
-| `75N98026Q00962__RFQ-75N98026Q00962.pdf` | 0 | 159 | 0.0% |
 

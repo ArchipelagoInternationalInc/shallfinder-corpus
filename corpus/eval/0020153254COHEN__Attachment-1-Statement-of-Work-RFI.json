@@ -405,5 +405,6 @@
       "category": "performance",
       "confidence": "review"
     }
-  ]
+  ],
+  "patchedRowsAdded": 0
 }

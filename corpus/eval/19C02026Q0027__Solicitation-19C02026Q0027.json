@@ -4,21 +4,21 @@
   "model": "claude-sonnet-5",
   "pageCount": 81,
   "chunks": 11,
-  "truncations": 5,
-  "emptyChunks": 5,
+  "truncations": 0,
+  "emptyChunks": 0,
   "rawRowCount": 243,
-  "finalRows": 365,
+  "finalRows": 587,
   "duplicatesRemoved": 4,
   "dropped": {
-    "total": 8,
-    "verbatimNotFound": 8,
+    "total": 12,
+    "verbatimNotFound": 12,
     "pageOutOfRange": 0,
     "invalidShape": 0
   },
   "reviewFlagged": 50,
   "coverage": {
     "verb_occurrences": 272,
-    "captured": 101,
+    "captured": 219,
     "excluded": {
       "definitional": 0,
       "government_actor": 15
@@ -55,25 +55,30 @@
     ],
     "uncaptured_pages": [
       5,
-      7,
-      8,
-      11,
       15,
       16,
       18,
       25,
       27,
+      28,
+      29,
+      30,
       32,
       33,
       34,
+      42,
+      43,
       45,
       55,
-      64,
-      71
+      59,
+      61,
+      67,
+      69,
+      70
     ],
-    "unresolved": 17
+    "unresolved": 37
   },
-  "unresolvedBefore": 171,
+  "unresolvedBefore": 53,
   "sweeperNewRows": 152,
   "sweeperExclusions": [
     {
@@ -247,9 +252,9 @@
       "confidence": "review"
     },
     {
-      "verbatim": "The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award, x notice to proceed.",
-      "normalized": "Contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award/notice to proceed.",
-      "section_ref": "Item 11",
+      "verbatim": "The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving\naward, x notice to proceed.",
+      "normalized": "Contractor must begin performance within 10 calendar days and complete it within 90 calendar days of receiving notice to proceed.",
+      "section_ref": "SF-1442 Item 11",
       "page": 1,
       "verb": "shall",
       "category": "performance",
@@ -257,21 +262,21 @@
     },
     {
       "verbatim": "Offers providing less than 180 calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
-      "normalized": "Offers providing less than 180 calendar days for Government acceptance after the due date will not be considered and will be rejected.",
-      "section_ref": "Item 13.d",
+      "normalized": "Offers must provide at least 180 calendar days for Government acceptance after the due date or they will be rejected.",
+      "section_ref": "SF-1442 Item 13d",
       "page": 1,
       "verb": "declaration",
-      "category": "evaluation",
+      "category": "instruction",
       "confidence": "high"
     },
     {
       "verbatim": "12A. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS?",
       "normalized": "Contractor must furnish any required performance and payment bonds.",
-      "section_ref": "Item 12A",
+      "section_ref": "SF-1442 Item 12A",
       "page": 1,
       "verb": "must",
       "category": "admin",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
       "verbatim": "An offer guarantee is, is not required.",
@@ -280,6 +285,15 @@
       "page": 1,
       "verb": "declaration",
       "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.",
+      "normalized": "All offers are subject to the work requirements and all other provisions and clauses incorporated in the solicitation.",
+      "section_ref": "SF-1442 Item 13c",
+      "page": 1,
+      "verb": "declaration",
+      "category": "instruction",
       "confidence": "review"
     },
     {
@@ -297,6 +311,33 @@
       "section_ref": "SF 1442 Item 28",
       "page": 2,
       "verb": "required",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The offeror agrees to perform the work required at the prices specified below in strict accordance with the terms of this solicitation, if this offer is accepted\nby the Government in writing within calendar days after the date offers are due.",
+      "normalized": "Offeror agrees to perform the work at the stated prices if accepted by the Government within the specified acceptance period.",
+      "section_ref": "SF-1442 Item 17",
+      "page": 2,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The offeror acknowledges receipt of amendments to the solicitation -- give number and date of each",
+      "normalized": "Offeror must list the number and date of each solicitation amendment received.",
+      "section_ref": "SF-1442 Item 19",
+      "page": 2,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "24. SUBMIT INVOICES TO ADDRESS SHOWN IN\n(4 copies unless otherwise specified)\nITEM 25.",
+      "normalized": "Contractor must submit invoices (4 copies unless otherwise specified) to the address shown in Item 25.",
+      "section_ref": "SF-1442 Item 24",
+      "page": 2,
+      "verb": "imperative",
       "category": "admin",
       "confidence": "review"
     },
@@ -320,12 +361,75 @@
     },
     {
       "verbatim": "The Contractor shall include VAT as a separate charge on the\nInvoice and as a separate line item in Section B.",
-      "normalized": "Contractor must include VAT as a separate charge on the invoice and as a separate line item in Section B.",
-      "section_ref": "A.1",
+      "normalized": "Contractor shall include VAT as a separate charge on the invoice and as a separate line item in Section B.",
+      "section_ref": "Section A.1",
       "page": 4,
       "verb": "shall",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall furnish\nand install all materials required by this contract.",
+      "normalized": "Contractor shall furnish and install all materials required by the contract.",
+      "section_ref": "Section B",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Review the attachment #1\nfor complete information.",
+      "normalized": "Contractor must review Attachment #1 for complete information.",
+      "section_ref": "Section B",
+      "page": 5,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Mark materials delivered to the site as follows:\nUS Embassy Bogota\nCarrera 45 # 24B-27\nBogota, Colombia",
+      "normalized": "Contractor must mark materials delivered to the site with the specified address.",
+      "section_ref": "Section C",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be responsible for any countermeasures or corrective action, within the\nscope of this contract, which may be required by the Contracting Officer as a result of such\ninspection.",
+      "normalized": "Contractor shall be responsible for any countermeasures or corrective action required by the Contracting Officer as a result of inspection.",
+      "section_ref": "Section D",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure of the Contracting Officer to list any item of work shall not relieve the Contractor of\nresponsibility for complying with the terms of the contract.",
+      "normalized": "Contractor remains responsible for complying with contract terms even if the Contracting Officer fails to list an item of work.",
+      "section_ref": "Section D.1",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall give the Contracting Officer\nat least five (5) days advance written notice of the date when the work will be fully completed\nand ready for final inspection and tests.",
+      "normalized": "Contractor shall give the Contracting Officer at least 5 days advance written notice before final inspection and tests.",
+      "section_ref": "Section D.2.3",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submittal by the Contractor of all documents and other items required upon completion\nof the work, including a final request for payment (Request for Final Acceptance).",
+      "normalized": "Contractor must submit all required documents and items upon completion of work, including the final request for payment.",
+      "section_ref": "Section D.2.4",
+      "page": 8,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
     },
     {
       "verbatim": "The Contractor shall be required to: (a) commence work under this contract within ten (10) calendar days after the date the Contractor receives the notice to proceed,",
@@ -428,12 +532,12 @@
     },
     {
       "verbatim": "Contractor shall identify each deliverable as required by the contract.",
-      "normalized": "Contractor must identify each deliverable as required by the contract.",
-      "section_ref": null,
+      "normalized": "Contractor shall identify each deliverable as required by the contract.",
+      "section_ref": "Section E",
       "page": 10,
       "verb": "shall",
       "category": "performance",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
       "verbatim": "When the Government has accepted any time schedule; it shall be binding upon the Contractor.",
@@ -526,6 +630,123 @@
       "confidence": "review"
     },
     {
+      "verbatim": "(e) Acceptance of Schedule: When the Government has accepted any time schedule; it shall be binding upon the Contractor.",
+      "normalized": "Once the Government accepts a time schedule, it shall be binding upon the Contractor.",
+      "section_ref": "Section E",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The completion date is fixed and may be extended only by a written contract modification signed by the Contracting Officer.",
+      "normalized": "The completion date is fixed and may only be extended by a written contract modification signed by the CO.",
+      "section_ref": "Section E",
+      "page": 10,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Acceptance or approval of any schedule or revision thereof by the Government shall not: (1) Extend the completion date or obligate the Government to do so, (2) Constitute acceptance or approval of any delay, or (3) Excuse the Contractor from or relieve the Contractor of its obligation to maintain the progress of the work and achieve final completion by the established completion date.",
+      "normalized": "Government acceptance of a schedule does not excuse Contractor from its obligation to maintain progress and achieve final completion by the established date.",
+      "section_ref": "Section E",
+      "page": 10,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor's notice shall state the effect, if any, of such change or other conditions upon the approved schedule, and shall state in what respects, if any, the relevant schedule, or the completion date should be revised.",
+      "normalized": "Contractor's delay notice shall state the effect on the schedule and any needed revisions to the schedule or completion date.",
+      "section_ref": "Section E",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall give 24 hours in advance to COR who will consider any deviation from the hours identified above.",
+      "normalized": "Contractor shall give 24 hours advance notice to the COR for any deviation from standard work hours.",
+      "section_ref": "Section E",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "DELIVERABLES - The following items shall be delivered under this contract:",
+      "normalized": "Contractor shall deliver the listed items under this contract.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section G. Securities/Insurance 1 10 days after award CO",
+      "normalized": "Contractor must deliver Securities/Insurance to the CO 10 days after award.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section E. Construction Schedule 1 10 days after award COR",
+      "normalized": "Contractor must deliver the Construction Schedule to the COR 10 days after award.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section E. Preconstruction Conference 1 10 days after award COR",
+      "normalized": "Contractor must deliver Preconstruction Conference item to the COR 10 days after award.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section G. Personnel Biographies 1 10 days after award COR",
+      "normalized": "Contractor must deliver Personnel Biographies to the COR 10 days after award.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section F. Payment Request 1\nLast calendar day\nof each month COR",
+      "normalized": "Contractor must submit Payment Request to the COR on the last calendar day of each month.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Section D. Request for Substantial Completion 1\n15 days before\ninspection COR",
+      "normalized": "Contractor must submit Request for Substantial Completion to the COR 15 days before inspection.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Section D. Request for Final Acceptance 1\n5 days before\ninspection COR",
+      "normalized": "Contractor must submit Request for Final Acceptance to the COR 5 days before inspection.",
+      "section_ref": "Section E",
+      "page": 11,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "Requests for payment, may be made no more frequently than monthly.",
       "normalized": "Contractor may submit payment requests no more frequently than monthly",
       "section_ref": "Section F",
@@ -578,6 +799,15 @@
       "verb": "conditional",
       "category": "admin",
       "confidence": "high"
+    },
+    {
+      "verbatim": "Please wait until you obtain your Purchase Order or Contract from the Procurement Office before requesting an user account in advance.",
+      "normalized": "Contractor should wait until receiving its Purchase Order or Contract before requesting an account in advance.",
+      "section_ref": "Section F",
+      "page": 12,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
     },
     {
       "verbatim": "Invoices can only be submitted through the Vendor\nPortal: https://mygrants.servicenowservices.com/mygrants",
@@ -1624,6 +1854,24 @@
       "confidence": "high"
     },
     {
+      "verbatim": "That is has obtained authorization to operate and do business in the country or countries in which this contract will be performed;",
+      "normalized": "Contractor warrants it has obtained authorization to operate and do business in the country(ies) where the contract will be performed.",
+      "section_ref": null,
+      "page": 34,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "That is has obtained all necessary licenses and permits required to perform this contract; and,",
+      "normalized": "Contractor warrants it has obtained all necessary licenses and permits required to perform the contract.",
+      "section_ref": null,
+      "page": 34,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The Offeror shall include Defense Base Act (DBA) insurance premium costs covering employees.",
       "normalized": "Offeror must include DBA insurance premium costs covering employees.",
       "section_ref": "Section J",
@@ -1669,36 +1917,225 @@
       "confidence": "high"
     },
     {
+      "verbatim": "(1) Be able to understand written and spoken English.",
+      "normalized": "Offeror must be able to understand written and spoken English.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Have an established business with a permanent address and telephone listing\nin Colombia or plans to establish an office within 30 days of contract award.",
+      "normalized": "Offeror must have an established business with a permanent Colombia address/phone, or plan to establish one within 30 days of contract award.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(4) Be able to demonstrate prior construction experience with suitable references.",
+      "normalized": "Offeror must be able to demonstrate prior construction experience with suitable references.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(5) Have the necessary personnel, equipment and financial resources available to\nperform the work.",
+      "normalized": "Offeror must have necessary personnel, equipment, and financial resources available to perform the work.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(6) Have all licenses and permits required by local law.",
+      "normalized": "Offeror must have all licenses and permits required by local law.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(7) Meet all local insurance requirements.",
+      "normalized": "Offeror must meet all local insurance requirements.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(8) Have the ability to obtain or to post adequate performance security, such as\nbonds, irrevocable letters of credit or guarantees issued by a reputable financial\ninstitution.",
+      "normalized": "Offeror must have the ability to obtain or post adequate performance security (bonds, letters of credit, or guarantees).",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(9) Have no adverse criminal record; and",
+      "normalized": "Offeror must have no adverse criminal record.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(10) Have no political or business affiliation which could be considered contrary to the\ninterests of the United States.",
+      "normalized": "Offeror must have no political or business affiliation contrary to U.S. interests.",
+      "section_ref": "Section J.A",
+      "page": 36,
+      "verb": "required",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The Offeror/Quoter shall identify and explain/justify any deviations, exceptions, or conditional\nassumptions taken with respect to any of the instructions or requirements of this request for\nquotation in the appropriate volume of the offer.",
-      "normalized": "The Offeror/Quoter shall identify and explain/justify any deviations, exceptions, or conditional assumptions from the RFQ instructions/requirements in the appropriate proposal volume.",
-      "section_ref": null,
+      "normalized": "Offeror/Quoter shall identify and justify any deviations, exceptions, or conditional assumptions in the appropriate proposal volume.",
+      "section_ref": "Section J",
       "page": 37,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "This bar chart shall be in sufficient detail to clearly show each segregable\nportion of work and its planned commencement and completion date.",
-      "normalized": "The Offeror's bar chart shall show sufficient detail for each segregable portion of work with planned commencement and completion dates.",
-      "section_ref": null,
+      "verbatim": "This bar chart shall be in sufficient detail to clearly show each segregable portion of\nwork and its planned commencement and completion date.",
+      "normalized": "The bar chart shall be in sufficient detail to show each segregable work portion and its planned dates.",
+      "section_ref": "Section J - Volume II",
       "page": 37,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "The Business Management/Technical Proposal shall be in two parts, including\nthe following information:",
-      "normalized": "The Offeror's Business Management/Technical Proposal shall be organized into two parts containing the specified information.",
-      "section_ref": null,
+      "verbatim": "(b) The Business Management/Technical Proposal shall be in two parts, including the\nfollowing information:",
+      "normalized": "The Business Management/Technical Proposal shall be in two parts as specified.",
+      "section_ref": "Section J - Volume II",
       "page": 37,
       "verb": "shall",
       "category": "instruction",
       "confidence": "high"
     },
     {
-      "verbatim": "Interested companies must send an e-mail to BogotaGSOcompras@state.gov with the representative names (2\nper company) before xxxxxxx",
-      "normalized": "Interested offeror companies must send an email with 2 representative names per company to BogotaGSOcompras@state.gov before the specified deadline.",
-      "section_ref": "C",
+      "verbatim": "(a) Present the performance schedule in the form of a \"bar chart\" indicating when the\nvarious portions of the work will be commenced and completed within the required\nschedule.",
+      "normalized": "Offeror must present the performance schedule as a bar chart showing commencement and completion of work portions.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Proposed Work Information - Provide the following:",
+      "normalized": "Offeror must provide the listed Proposed Work Information.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) A list of the names addresses and telephone numbers of the owners, partners, and\nprincipal officers of the Offeror.",
+      "normalized": "Offeror must provide a list of names, addresses, and telephone numbers of owners, partners, and principal officers.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) The name and address of the Offeror's field superintendent for this project.",
+      "normalized": "Offeror must provide the name and address of its field superintendent for the project.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) A list of the names, addresses, and telephone numbers of subcontractors and principal\nmaterials suppliers to be used on the project, indicating what portions of the work will be\nperformed by them; and,",
+      "normalized": "Offeror must provide a list of subcontractors and principal materials suppliers with contact info and work portions.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Experience and Past Performance - List all contracts and subcontracts your company has held\nover the past three years for the same or similar work.",
+      "normalized": "Offeror must list all contracts and subcontracts held over the past three years for similar work.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide the following information for each contract and subcontract:",
+      "normalized": "Offeror must provide the listed information for each contract and subcontract.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) Customer's name, address, and telephone numbers of customer's lead contract and\ntechnical personnel.",
+      "normalized": "Offeror must provide customer's name, address, and phone numbers of lead contract/technical personnel.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Contract number and type.",
+      "normalized": "Offeror must provide contract number and type.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) Date of the contract award place(s) of performance, and completion dates; Contract\ndollar value.",
+      "normalized": "Offeror must provide contract award date, place(s) of performance, completion dates, and contract dollar value.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(4) Brief description of the work, including responsibilities; and",
+      "normalized": "Offeror must provide a brief description of the work including responsibilities.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(5) Any litigation currently in process or occurring within last 5 years.",
+      "normalized": "Offeror must disclose any litigation currently in process or occurring within the last 5 years.",
+      "section_ref": "Section J - Volume II",
+      "page": 37,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Interested companies must send an e-mail to BogotaGSOcompras@state.gov with the\nrepresentative names (2 per company) before xxxxxxx",
+      "normalized": "Interested companies must email BogotaGSOcompras@state.gov with 2 representative names before the (redacted) deadline.",
+      "section_ref": "Section J.C",
       "page": 38,
       "verb": "must",
       "category": "admin",
@@ -1711,6 +2148,33 @@
       "page": 38,
       "verb": "shall",
       "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Accordingly, offerors or quoters are urged and expected to inspect the site where the work will be performed.",
+      "normalized": "Offerors/quoters are expected to inspect the site where the work will be performed.",
+      "section_ref": "Section J.C",
+      "page": 38,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "E. LATE QUOTATIONS. Late quotations shall be handled in accordance with FAR.",
+      "normalized": "Late quotations shall be handled in accordance with the FAR.",
+      "section_ref": "Section J.E",
+      "page": 38,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "THE FOLLOWING FEDERAL ACQUISITION REGULATION PROVISIONS ARE\nINCORPORATED BY REFERENCE (48 CFR CH. 1):\nPROVISION TITLE AND DATE\n52.204-7 SYSTEM FOR AWARD MANAGEMENT (NOV 2025)\n52.214-34 SUBMISSION OF OFFERS IN THE ENGLISH LANGUAGE\n(APR 1991)\n52.215-1 INSTRUCTIONS TO OFFERORS--COMPETITIVE ACQUISITION\n(NOV 2025)",
+      "normalized": "Solicitation incorporates by reference FAR provisions 52.204-7, 52.214-34, and 52.215-1 (Section J.F, page 38).",
+      "section_ref": "Section J.F",
+      "page": 38,
+      "verb": "declaration",
+      "category": "admin",
       "confidence": "high"
     },
     {
@@ -1741,6 +2205,60 @@
       "confidence": "review"
     },
     {
+      "verbatim": "It will not provide covered telecommunications equipment or services to the Government in the performance of any contract, subcontract or other contractual instrument resulting from this solicitation, except as waived by the solicitation, or as disclosed in paragraph (g); and",
+      "normalized": "Offeror represents it will not provide covered telecommunications equipment or services to the Government except as waived or disclosed.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "It does not use covered telecommunications equipment or services, or use any equipment, system, or service that uses covered telecommunications equipment or services, except as waived by the solicitation, or as disclosed in paragraph (g).",
+      "normalized": "Offeror represents it does not use covered telecommunications equipment or services except as waived or disclosed.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "By submission of this offer, the offeror represents that it has conducted a reasonable inquiry, and that the offeror does not propose to provide or use in response to this solicitation any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order in effect on the date the solicitation was issued, except as waived by the solicitation, or as disclosed in paragraph (g).",
+      "normalized": "Offeror represents, by submitting its offer, that it does not propose covered articles/sources prohibited by an effective FASCSA order, except as waived or disclosed.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "By submission of its offer, the offeror certifies, after conducting a reasonable inquiry (that looks at any information in the offeror’s possession but does not need to include an internal or third-party audit), that the offeror does not conduct any restricted business operations in Sudan.",
+      "normalized": "Offeror certifies, by submitting its offer, that it does not conduct restricted business operations in Sudan.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Represents, to the best of its knowledge and belief, that the offeror does not export any sensitive technology to the government of Iran or any entities or individuals owned or controlled by, or acting on behalf or at the direction of, the government of Iran;",
+      "normalized": "Offeror represents it does not export sensitive technology to the government of Iran or related entities/individuals.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Certifies that the offeror, or any person (as defined at section 15 of the Iran Sanctions Act of 1996, Pub. L.",
+      "normalized": "Offeror certifies regarding itself or any person as defined under the Iran Sanctions Act of 1996 (sentence continues on next page).",
+      "section_ref": null,
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The offeror shall email questions concerning sensitive technology to the Department of State at CISADA106@state.gov.",
       "normalized": "The offeror must email questions concerning sensitive technology to the Department of State at CISADA106@state.gov.",
       "section_ref": null,
@@ -1755,6 +2273,15 @@
       "section_ref": null,
       "page": 42,
       "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Certifies that the offeror, and any person owned or controlled by the offeror, does not knowingly engage in any transaction that exceeds $15,000 with Iran’s Revolutionary Guard Corps or any of its officials, agents, or affiliates, the property and interests in property of which are blocked pursuant to the International Emergency Economic Powers Act (50 U.S.C. 1701 et seq.) (see OFAC’s Specially Designated Nationals and Blocked Persons List at https://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx)",
+      "normalized": "Offeror certifies it and related persons do not knowingly engage in transactions exceeding $15,000 with Iran's Revolutionary Guard Corps or affiliates.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "declaration",
       "category": "admin",
       "confidence": "high"
     },
@@ -2722,22 +3249,85 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Utility shutdowns (if required for electrical or structural tie-ins) must be requested in writing at\nleast five (5) business days in advance and executed strictly during approved off-peak maintenance\nwindows.",
-      "normalized": "Contractor must request utility shutdowns in writing at least 5 business days in advance and execute them during approved off-peak maintenance windows",
-      "section_ref": null,
-      "page": 61,
-      "verb": "must",
+      "verbatim": "Final acceptance of the work will be granted by the COR only after the successful completion of the following criteria:",
+      "normalized": "The Contractor's work will only receive final acceptance after meeting the listed criteria.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "100% completion of all scope items in accordance with approved Autodesk Inventor designs, shop drawings, and technical specifications.",
+      "normalized": "The Contractor must achieve 100% completion of all scope items per approved designs and specifications for acceptance.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
       "category": "performance",
       "confidence": "high"
     },
     {
-      "verbatim": "Working hours shall be restricted to Monday through Friday, 08:00 to 17:00, unless explicit written\nauthorization for overtime or weekend work is granted by the COR and Security Office.",
-      "normalized": "Contractor's working hours shall be restricted to Monday-Friday 08:00-17:00 unless written authorization for overtime/weekend work is granted by COR and Security Office",
-      "section_ref": null,
+      "verbatim": "Successful passing of all quality control checks, welding inspections, water tightness tests, and HSEQ safety audits.",
+      "normalized": "The Contractor must pass all quality control checks, welding inspections, water tightness tests, and HSEQ audits for acceptance.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete resolution and sign-off on all pre-final inspection punch-list items (\"snag list\").",
+      "normalized": "The Contractor must resolve and obtain sign-off on all punch-list items for acceptance.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submission and formal approval of the complete project DOSIER, including as-built drawings, O&M manuals, calculation memories, and warranty certificates.",
+      "normalized": "The Contractor must submit and obtain formal approval of the complete project dossier for acceptance.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete removal of all construction debris, equipment, and surplus materials from the compound (Phase 8).",
+      "normalized": "The Contractor must remove all construction debris, equipment, and surplus materials by Phase 8 for acceptance.",
+      "section_ref": "SOW 15",
+      "page": 60,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Utility shutdowns (if required for electrical or structural tie-ins) must be requested in writing at least five (5) business days in advance and executed strictly during approved off-peak maintenance windows.",
+      "normalized": "If utility shutdowns are required, the Contractor must request them in writing at least five business days in advance and execute them only during approved off-peak windows.",
+      "section_ref": "SOW 18",
+      "page": 61,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Working hours shall be restricted to Monday through Friday, 08:00 to 17:00, unless explicit written authorization for overtime or weekend work is granted by the COR and Security Office.",
+      "normalized": "The Contractor's working hours shall be restricted to Monday-Friday 08:00-17:00 unless the COR and Security Office grant written authorization for overtime/weekend work.",
+      "section_ref": "SOW 18",
       "page": 61,
       "verb": "shall",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "Submission of mandatory administrative documents, company registration, tax compliance, and ability to meet the RSO security vetting timeline (namechecks) without overly burdensome initial pre-qualification hurdles.",
+      "normalized": "The offeror is evaluated on submission of mandatory administrative documents, company registration, tax compliance, and ability to meet the RSO namecheck timeline.",
+      "section_ref": "SOW 18.5",
+      "page": 61,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
     },
     {
       "verbatim": "The quantities are approximate, and the contractor must confirm and execute accordingly.",
@@ -2758,13 +3348,22 @@
       "confidence": "high"
     },
     {
-      "verbatim": "Any discrepancies in quantities must be reported to the COR during the solicitation period.",
-      "normalized": "The contractor must report any quantity discrepancies to the COR during the solicitation period.",
-      "section_ref": null,
-      "page": 63,
+      "verbatim": "Below is the quantity chart. The quantities are approximate, and the contractor must confirm and execute accordingly.",
+      "normalized": "The contractor must confirm and execute the approximate quantities in the quantity chart.",
+      "section_ref": "SOW 19",
+      "page": 62,
       "verb": "must",
       "category": "performance",
-      "confidence": "review"
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any discrepancies in quantities must be reported to the COR during the solicitation period.",
+      "normalized": "The offeror must report any quantity discrepancies to the COR during the solicitation period.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
     },
     {
       "verbatim": "The Contractor shall request a final inspection only when all work, including the 'Punch List' repairs, is fully completed.",
@@ -2796,7 +3395,7 @@
     {
       "verbatim": "All contractor personnel must undergo a mandatory Name check Process (RSO Namecheck).",
       "normalized": "All contractor personnel must undergo the mandatory RSO Namecheck process.",
-      "section_ref": "20.1",
+      "section_ref": "SOW 20.1",
       "page": 63,
       "verb": "must",
       "category": "admin",
@@ -2804,17 +3403,17 @@
     },
     {
       "verbatim": "The Contractor shall not schedule any site activities requiring the presence of personnel until the U.S. Embassy has provided formal notification that the security vetting (RSO Namecheck) for said personnel has been successfully completed and approved.",
-      "normalized": "The Contractor shall not schedule site activities requiring personnel presence until the Embassy formally confirms completed and approved security vetting for those personnel.",
-      "section_ref": "20.1",
+      "normalized": "The Contractor shall not schedule site activities requiring personnel presence until the Embassy formally confirms their security vetting is complete and approved.",
+      "section_ref": "SOW 20.1",
       "page": 63,
-      "verb": "shall",
+      "verb": "conditional",
       "category": "admin",
       "confidence": "high"
     },
     {
       "verbatim": "The Contractor is responsible for gathering and submitting all required documentation for this vetting process at least seven (7) weeks prior to the anticipated start date.",
-      "normalized": "The Contractor is responsible for gathering and submitting all required vetting documentation at least seven (7) weeks before the anticipated start date.",
-      "section_ref": "20.1",
+      "normalized": "The Contractor is responsible for gathering and submitting all vetting documentation at least seven weeks before the anticipated start date.",
+      "section_ref": "SOW 20.1",
       "page": 63,
       "verb": "required",
       "category": "admin",
@@ -2831,17 +3430,89 @@
     },
     {
       "verbatim": "All VARs must be submitted to the COR no later than three (3) working days prior to the required access date.",
-      "normalized": "The Contractor must submit all VARs to the COR no later than three (3) working days prior to the required access date.",
-      "section_ref": "20.2",
+      "normalized": "The Contractor must submit all VARs to the COR no later than three working days before the required access date.",
+      "section_ref": "SOW 20.2",
       "page": 63,
       "verb": "must",
       "category": "admin",
       "confidence": "high"
     },
     {
+      "verbatim": "Final acceptance is subject to the COR’s verification that the structure meets all structural, electrical, and safety requirements.",
+      "normalized": "The Contractor's work is subject to COR verification of structural, electrical, and safety requirements before final acceptance.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Final payment is contingent upon the submission of As-Built drawings, final warranties, and all required certifications.",
+      "normalized": "The Contractor's final payment depends on submission of As-Built drawings, final warranties, and required certifications.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor must maintain strict control of all tools",
+      "normalized": "The Contractor must maintain strict control of all tools.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "tools cannot be left in the work area when not in use.",
+      "normalized": "The Contractor must not leave tools in the work area when not in use.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Embassy reserves the right to stop work if these site control measures are not followed.",
+      "normalized": "If the Contractor fails to follow site control measures, the Embassy may stop work.",
+      "section_ref": "SOW 19",
+      "page": 63,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Once the security vetting process is officially approved by the Embassy, the Contractor must submit a Visitor Access Request (VAR) for every person and/or vehicle entering the compound.",
+      "normalized": "Once vetting is approved, the Contractor must submit a VAR for every person and/or vehicle entering the compound.",
+      "section_ref": "SOW 20.2",
+      "page": 63,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any personnel appearing at the compound without a previously submitted and approved VAR, or whose security vetting has not been finalized, will be denied access to the site.",
+      "normalized": "Personnel without an approved VAR or finalized security vetting will be denied site access.",
+      "section_ref": "SOW 20.2",
+      "page": 63,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "QUANTITIES ARE APPROXIMATE. THE CONTRACTOR MUST CONFIRM AND INSTALL ACCORDINGLY",
+      "normalized": "The contractor must confirm quantities and install accordingly since quantities are approximate.",
+      "section_ref": "Attachment 2",
+      "page": 64,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "The contractor must demonstrate understanding of his/her responsibilities related to the safety requirements by addressing hazards in preplanning processes and meetings.",
-      "normalized": "Contractor must demonstrate understanding of safety responsibilities by addressing hazards during preplanning processes and meetings.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor must demonstrate understanding of safety responsibilities by addressing hazards in preplanning and meetings.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "must",
       "category": "performance",
@@ -2849,8 +3520,8 @@
     },
     {
       "verbatim": "Prior to starting a project, the contractor is required to review the work site and identify hazards that may occur while performing the job.",
-      "normalized": "Contractor is required to review the work site and identify hazards prior to starting a project.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor is required to review the work site and identify hazards prior to starting a project.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "required",
       "category": "performance",
@@ -2858,26 +3529,26 @@
     },
     {
       "verbatim": "The contractor is required to provide the proof of payment of local insurances (EPS, ARL) of all the employees that will be involved in the project.",
-      "normalized": "Contractor is required to provide proof of payment of local insurances (EPS, ARL) for all employees involved in the project.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor is required to provide proof of payment of local insurances (EPS, ARL) for all employees involved in the project.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "required",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "Likewise, the contractor is required to provide monthly payment documents of local insurance for the length of work.",
-      "normalized": "Contractor is required to provide monthly local insurance payment documents for the length of the work.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor is required to provide monthly payment documents of local insurance for the duration of the work.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "required",
-      "category": "admin",
+      "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The contractor shall ensure individuals working at the site are trained and aware of potential hazards.",
-      "normalized": "Contractor shall ensure individuals working at the site are trained and aware of potential hazards.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor shall ensure individuals working at the site are trained and aware of potential hazards.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "shall",
       "category": "performance",
@@ -2885,8 +3556,8 @@
     },
     {
       "verbatim": "The contractor shall ensure that these individuals are provided with proper safety equipment to prevent accidental injury in accordance with the requirements of the contract.",
-      "normalized": "Contractor shall ensure individuals are provided with proper safety equipment to prevent accidental injury per contract requirements.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor shall ensure individuals are provided proper safety equipment per contract requirements.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "shall",
       "category": "performance",
@@ -2894,10 +3565,82 @@
     },
     {
       "verbatim": "The contractor must accept the safety standards set by the US Embassy.",
-      "normalized": "Contractor must accept the safety standards set by the US Embassy.",
-      "section_ref": "Attachment 3",
+      "normalized": "The contractor must accept the safety standards set by the US Embassy.",
+      "section_ref": "Attachment 3, §1",
       "page": 65,
       "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor will accept all legal requirements or regulations currently enforced that concern safety for staff and workers, as well as for the public who directly or indirectly may be affected by the work.",
+      "normalized": "The contractor will accept all currently enforced legal safety requirements/regulations for staff, workers, and the public.",
+      "section_ref": "Attachment 3",
+      "page": 65,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor will follow the more restrictive standard between the Safety and Health Requirements Manual established by the US Army Corps of Engineers\n(http://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_385-1-1.pdf) or the\nColombian laws on industrial safety as established by the Ministry of Labour as follows:",
+      "normalized": "The contractor will follow the more restrictive of the USACE Safety and Health Requirements Manual or Colombian industrial safety laws.",
+      "section_ref": "Attachment 3",
+      "page": 65,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor is expected to provide a \"competent person\" to implement Site health and safety plan and to oversee its compliance.",
+      "normalized": "The contractor is expected to provide a competent person to implement and oversee the site health and safety plan.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor will conduct a safety briefing before starting daily work.",
+      "normalized": "The contractor will conduct a safety briefing before starting daily work.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor personnel who have signs of drunkenness or who are under the influence of stimulants or hallucinogens will be denied entry to the work area.",
+      "normalized": "Contractor personnel showing signs of drunkenness or influence of stimulants/hallucinogens will be denied entry to the work area.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All workers will remove all chains, rings, watches and/or bracelets during the execution of work.",
+      "normalized": "All workers will remove chains, rings, watches, and/or bracelets during work execution.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Smoking is prohibited at the work site and will use only designated area for smokers.",
+      "normalized": "Smoking is prohibited at the work site; only the designated smoking area may be used.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor will report accidents to the COR who will pass the proper data to the POSHO or Safety Coordinator.",
+      "normalized": "The contractor will report accidents to the COR.",
+      "section_ref": "Attachment 3, §1",
+      "page": 65,
+      "verb": "will",
       "category": "performance",
       "confidence": "high"
     },
@@ -2983,18 +3726,63 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Erect and maintain for the duration of the Contract proper barricades including fencing material, traffic cones, caution tape and temporary curb ramps complying with all access codes and regulations.",
+      "normalized": "The contractor must erect and maintain proper barricades for the duration of the contract, complying with access codes/regulations.",
+      "section_ref": "Attachment 3, §2",
+      "page": 66,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Ensure that no construction materials be stored and/or placed on the path-of travel.",
+      "normalized": "The contractor must ensure no construction materials are stored or placed on the path-of-travel.",
+      "section_ref": "Attachment 3, §2",
+      "page": 66,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Maintain the construction barriers in a sound, neat, and clean condition.",
+      "normalized": "The contractor must maintain construction barriers in a sound, neat, and clean condition.",
+      "section_ref": "Attachment 3, §2",
+      "page": 66,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Inspected at regular intervals and maintain in good condition all tools in accordance with the manufacture’s specifications.",
+      "normalized": "The contractor must inspect tools at regular intervals and maintain them in good condition per manufacturer specifications.",
+      "section_ref": "Attachment 3, §5",
+      "page": 66,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ensure that tools are used for their intended purposes.",
+      "normalized": "The contractor must ensure tools are used for their intended purposes.",
+      "section_ref": "Attachment 3, §5",
+      "page": 66,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
       "verbatim": "In case of an emergency within the US Embassy facilities and/or during the execution of the contracted work, contractor personnel must follow the instructions given by the Embassy representative (escort) who is supervising the work, or security personnel.",
-      "normalized": "Contractor personnel must follow instructions given by the Embassy representative/escort or security personnel during an emergency.",
-      "section_ref": "6.a",
+      "normalized": "If an emergency occurs, contractor personnel must follow instructions from the Embassy representative/escort or security personnel.",
+      "section_ref": "Attachment 3, §6",
       "page": 67,
-      "verb": "must",
+      "verb": "conditional",
       "category": "performance",
       "confidence": "high"
     },
     {
       "verbatim": "The contractor must not obstruct emergency response equipment such as first aid kits, fire extinguishers, fire cabinets, defibrillators, spill kits, stretchers, eye wash stations or safety signs.",
-      "normalized": "Contractor must not obstruct emergency response equipment (first aid kits, fire extinguishers, defibrillators, etc.).",
-      "section_ref": "6.b",
+      "normalized": "The contractor must not obstruct emergency response equipment.",
+      "section_ref": "Attachment 3, §6",
       "page": 67,
       "verb": "must",
       "category": "performance",
@@ -3002,8 +3790,8 @@
     },
     {
       "verbatim": "The contractor shall submit certificates of training for each person who will conduct the task.",
-      "normalized": "Contractor shall submit certificates of training for each person who will conduct the task.",
-      "section_ref": "7.a",
+      "normalized": "The contractor shall submit certificates of training for each person conducting the task.",
+      "section_ref": "Attachment 3, §7",
       "page": 67,
       "verb": "shall",
       "category": "performance",
@@ -3011,8 +3799,8 @@
     },
     {
       "verbatim": "These certificates must be submitted before starting the execution of the project.",
-      "normalized": "Contractor must submit the training certificates before starting execution of the project.",
-      "section_ref": "7.a",
+      "normalized": "Training certificates must be submitted before starting project execution.",
+      "section_ref": "Attachment 3, §7",
       "page": 67,
       "verb": "must",
       "category": "performance",
@@ -3020,8 +3808,8 @@
     },
     {
       "verbatim": "The contractor shall prepare a work permit specifically for the task and must be provided to the COR before the initiation of work.",
-      "normalized": "Contractor shall prepare a work permit for the task and must provide it to the COR before initiation of work.",
-      "section_ref": "7.b",
+      "normalized": "The contractor shall prepare a task-specific work permit and provide it to the COR before work initiation.",
+      "section_ref": "Attachment 3, §7",
       "page": 67,
       "verb": "shall",
       "category": "performance",
@@ -3029,8 +3817,8 @@
     },
     {
       "verbatim": "The contractor must send a risk assessment of the task in a minimum period of eight working days before commencement of work.",
-      "normalized": "Contractor must send a risk assessment of the task at least eight working days before commencement of work.",
-      "section_ref": "7.c",
+      "normalized": "The contractor must send a risk assessment at least eight working days before commencement of work.",
+      "section_ref": "Attachment 3, §7",
       "page": 67,
       "verb": "must",
       "category": "performance",
@@ -3038,17 +3826,17 @@
     },
     {
       "verbatim": "The execution of high-risk activities will be carried out with a minimum of two people present that may give first aid or notice in case of emergency.",
-      "normalized": "High-risk activities must be executed with a minimum of two people present able to give first aid or notice in case of emergency.",
-      "section_ref": "7.d",
+      "normalized": "High-risk activities must be carried out with a minimum of two people present able to give first aid or notice in an emergency.",
+      "section_ref": "Attachment 3, §7",
       "page": 67,
-      "verb": "will",
+      "verb": "declaration",
       "category": "performance",
       "confidence": "review"
     },
     {
       "verbatim": "The contractor shall fully comply with the local regulation and the Embassy policies related with electrical safety work practices and work-de energized to prevent any incident that may impact the health of personnel and Embassy and residential units’ electrical systems",
-      "normalized": "Contractor shall fully comply with local regulations and Embassy policies on electrical safety work practices and de-energized work.",
-      "section_ref": "8.a",
+      "normalized": "The contractor shall fully comply with local regulation and Embassy policies on electrical safety work practices.",
+      "section_ref": "Attachment 3, §8",
       "page": 67,
       "verb": "shall",
       "category": "performance",
@@ -3056,17 +3844,17 @@
     },
     {
       "verbatim": "If de-energizing them introduces or increased hazards or is unfeasible, you must contact your point of contact at the Embassy to report such situation before carrying out the work.",
-      "normalized": "If de-energizing introduces increased hazards or is unfeasible, contractor personnel must contact their Embassy point of contact to report the situation before carrying out the work.",
-      "section_ref": "8.b",
+      "normalized": "If de-energizing introduces hazards or is unfeasible, the contractor must contact the Embassy point of contact before carrying out the work.",
+      "section_ref": "Attachment 3, §8",
       "page": 67,
       "verb": "conditional",
       "category": "performance",
-      "confidence": "high"
+      "confidence": "review"
     },
     {
       "verbatim": "All personnel conducting electrical work shall be sufficient trained and considered as competent persons prior to performing the work.",
       "normalized": "All personnel conducting electrical work shall be sufficiently trained and considered competent persons prior to performing the work.",
-      "section_ref": "8.c",
+      "section_ref": "Attachment 3, §8",
       "page": 67,
       "verb": "shall",
       "category": "performance",
@@ -3074,8 +3862,8 @@
     },
     {
       "verbatim": "The contractor must provide the appropriate equipment and tools for the work in compliance with the requirements of the contract.",
-      "normalized": "Contractor must provide appropriate equipment and tools for the work in compliance with contract requirements.",
-      "section_ref": "8.f",
+      "normalized": "The contractor must provide appropriate equipment and tools in compliance with contract requirements.",
+      "section_ref": "Attachment 3, §8",
       "page": 67,
       "verb": "must",
       "category": "performance",
@@ -3084,11 +3872,47 @@
     {
       "verbatim": "During the execution of work on the electrical system, contractor personnel must remove conductive jewelry such as watches, rings, chains and/or bracelets.",
       "normalized": "Contractor personnel must remove conductive jewelry during electrical system work.",
-      "section_ref": "8.g",
+      "section_ref": "Attachment 3, §8",
       "page": 67,
       "verb": "must",
       "category": "performance",
       "confidence": "high"
+    },
+    {
+      "verbatim": "It is Department policy that energized “live” parts to which an employee may be exposed must be de-\nenergized before the employee works on or near them.",
+      "normalized": "Energized live parts an employee may be exposed to must be de-energized before work on or near them.",
+      "section_ref": "Attachment 3, §8",
+      "page": 67,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor should identify any potential sources of electrical energy likely to cause death, injury, or serious physical harm.",
+      "normalized": "The contractor should identify potential sources of electrical energy likely to cause death, injury, or serious harm.",
+      "section_ref": "Attachment 3, §8",
+      "page": 67,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ensure all work is performed in accordance with local regulation and U.S. standards.",
+      "normalized": "The contractor must ensure all work is performed in accordance with local regulation and U.S. standards.",
+      "section_ref": "Attachment 3, §8",
+      "page": 67,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Non-conductive (fiberglass) ladders should be used for electrical work or near electrical hazards.",
+      "normalized": "Non-conductive (fiberglass) ladders should be used for electrical work or near electrical hazards.",
+      "section_ref": "Attachment 3, §8",
+      "page": 67,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
     },
     {
       "verbatim": "All work performed at more than 2 meters (6.5ft) is considered work at heights based on local laws, therefore the contractor must strictly comply with local Resolution 4274/2021:",
@@ -3177,6 +4001,87 @@
       "section_ref": "PWS 10.f",
       "page": 68,
       "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Scissor scaffolds are prohibited.",
+      "normalized": "Scissor scaffolds are prohibited.",
+      "section_ref": "9.e",
+      "page": 68,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Only use multi directional/modular scaffolding properly certified.",
+      "normalized": "Contractor must only use properly certified multi-directional/modular scaffolding.",
+      "section_ref": "9.e",
+      "page": 68,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use dielectric ladders to work with electricity and areas with electrical influence.",
+      "normalized": "Contractor must use dielectric ladders for electrical work or near electrical influence.",
+      "section_ref": "9.f",
+      "page": 68,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "It is forbidden to stand on or above the second top rung of the ladders.",
+      "normalized": "Standing on or above the second top rung of ladders is forbidden.",
+      "section_ref": "9.g",
+      "page": 68,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A re-training should be provided to employees at least once a year as\nrequired by local legislation.",
+      "normalized": "Employees should receive re-training at least once a year.",
+      "section_ref": "9.i",
+      "page": 68,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Scaffolds should be erected and dismantled by competent workers, under the supervision of knowledgeable\nand experienced supervisors.",
+      "normalized": "Scaffolds should be erected/dismantled by competent workers under experienced supervision.",
+      "section_ref": "10.b",
+      "page": 68,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Scaffolds should be erected on a rigid surface, capable of carrying the maximum intended load without\nsettling or displacement.",
+      "normalized": "Scaffolds should be erected on a rigid surface capable of carrying the maximum intended load.",
+      "section_ref": "10.c",
+      "page": 68,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Ensure scaffold is equipped with standard guardrails and toe boards on all open sides nd ends of platforms\nfour to ten feet in height.",
+      "normalized": "Contractor must ensure scaffolds have standard guardrails and toe boards on open sides/ends of platforms 4-10 ft high.",
+      "section_ref": "10.d",
+      "page": 68,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide an access ladder or equivalent safe access.",
+      "normalized": "Contractor must provide an access ladder or equivalent safe access.",
+      "section_ref": "10.e",
+      "page": 68,
+      "verb": "imperative",
       "category": "performance",
       "confidence": "high"
     },
@@ -3343,6 +4248,15 @@
       "confidence": "high"
     },
     {
+      "verbatim": "Before cutting or welding is permitted, the COR shall inspect the area for authorizing the operation to\nreduce the potential of an uncontrolled ignition of materials.",
+      "normalized": "Cutting or welding is not permitted until the COR inspects and authorizes the area.",
+      "section_ref": "13.a",
+      "page": 69,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
       "verbatim": "The vehicle must have the basic elements of emergency response. NTC 4532.",
       "normalized": "Contractor's vehicles must have basic emergency-response elements per NTC 4532.",
       "section_ref": "14.a",
@@ -3389,12 +4303,1101 @@
     },
     {
       "verbatim": "Whenever welding or cutting must be done in areas not specifically designed for this type ofwork, the area\nshould be inspected, and written authorization granted by the individual responsible for the hot work\nprogram.",
-      "normalized": "Whenever welding/cutting must occur in areas not designed for it, the area must be inspected and written authorization granted by the responsible individual before work begins.",
-      "section_ref": null,
+      "normalized": "Before welding/cutting in areas not designed for it, the area should be inspected and written authorization granted.",
+      "section_ref": "Hot Work Permit Guidelines",
       "page": 70,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This should be done prior to the beginning of any work.",
+      "normalized": "Inspection and authorization should occur prior to the beginning of any work.",
+      "section_ref": "Hot Work Permit Guidelines",
+      "page": 70,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "1. Ensure that the sprinkler system is in service.",
+      "normalized": "Contractor must ensure the sprinkler system is in service.",
+      "section_ref": "Hot Work Permit Guidelines",
+      "page": 70,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Sweep floors clean.",
+      "normalized": "Contractor personnel must sweep floors clean as part of hot work permit safety procedures.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Wet combustible floors or cover them with sheet metal or other noncombustiblematerial.",
+      "normalized": "Contractor personnel must wet combustible floors or cover them with sheet metal or other noncombustible material.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Remove all flammable liquids and oil deposits from the work area.",
+      "normalized": "Contractor personnel must remove all flammable liquids and oil deposits from the work area.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Move combustible material at least 35 feet away from the work area.",
+      "normalized": "Contractor personnel must move combustible material at least 35 feet away from the work area.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Station fire watch personnel with small hose or extinguisher to smother fires started bysparks.",
+      "normalized": "Contractor must station fire watch personnel with a small hose or extinguisher to smother fires started by sparks.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Do not work on walls or ceilings containing combustible insulation.",
+      "normalized": "Contractor personnel must not work on walls or ceilings containing combustible insulation.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This work permit is not valid for confined spaces and tanks. Refer to requirements in section.\n9.1 and 10.1 of the Safety, Occupational Health, and Environment Management ResourceGuide.",
+      "normalized": "Contractor must not use this work permit for confined spaces and tanks and must instead follow the referenced sections of the Safety, Occupational Health, and Environment Management Resource Guide.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Remove combustible material from ducts and enclosed equipment.",
+      "normalized": "Contractor personnel must remove combustible material from ducts and enclosed equipment.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Fire watch personnel must remain at the work area at least one-half hour after the job iscompleted to\nsuppress any fire and to ensure that there is no fire in adjoining areas.",
+      "normalized": "Fire watch personnel must remain at the work area at least one-half hour after job completion to suppress any fire and ensure no fire in adjoining areas.",
+      "section_ref": null,
+      "page": 71,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "of this Hot Work Permit is to be maintained in the",
+      "normalized": "A copy of the Hot Work Permit is to be maintained in an unspecified location (text truncated across page break).",
+      "section_ref": null,
+      "page": 72,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El contratista acepta todas las regulaciones legales vigentes en materia de seguridad y salud para el personal, así como para el público que directa o indirectamente puede verse afectado por el proyecto.",
+      "normalized": "The contractor must accept all current legal regulations on safety and health for personnel and the public affected by the project.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista dará cumplimiento a la norma más restrictiva entre el Manual de Requisitos de seguridad y de salud establecidos por el Cuerpo de Ingenieros del Ejército de los EE.UU\n(http://www.publications.usace.army.mil/Portals/76/Publications/EngineerManuals/EM_385-1-1.pdf) o las leyes\ncolombianas en materia de seguridad industrial, según lo establecido por el Ministerio de Trabajo de la siguiente\nmanera:",
+      "normalized": "The contractor will comply with whichever is more restrictive: the US Army Corps of Engineers safety/health manual or Colombian industrial safety law per the Ministry of Labor.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá demostrar comprensión de sus responsabilidades relacionas con los requisitos de\nseguridad controlando los peligros en los procesos durante planeación inicial y en las reuniones.",
+      "normalized": "The contractor shall demonstrate understanding of its safety responsibilities by controlling process hazards during initial planning and meetings.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Antes de iniciar el proyecto, el contratista deberá revisar el área de trabajo e identificar los peligros y riesgos\nque pueden repercutir en la ejecución del trabajo.",
+      "normalized": "Before starting the project, the contractor shall review the work area and identify hazards and risks that could affect execution of the work.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá proporcionar una “persona competente” para implementar el plan de seguridad y\nsalud en el lugar de trabajo y supervisar su cumplimiento.",
+      "normalized": "The contractor shall provide a 'competent person' to implement the safety and health plan and supervise compliance.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista está obligado a presentar las planillas de pago al Sistema General de Seguridad Social del\npersonal que tenga trabajando en el proyecto.",
+      "normalized": "The contractor is required to submit social security payment records for personnel working on the project.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Así mismo, el contratista está obligado a enviar\nmensualmente las planillas vigentes durante el tiempo que dure la labor para la cual fueron contratados.",
+      "normalized": "The contractor is required to send current social security payment records monthly for the duration of the contracted work.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista realizará una charla de seguridad diaria antes de iniciar la labor.",
+      "normalized": "The contractor will conduct a daily safety briefing before starting work.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Está prohibido el ingreso de personal contratista que presente signos de embriaguez o que se encuentre\nbajo efectos de sustancias estimulantes o alucinógenas.",
+      "normalized": "Contractor personnel showing signs of intoxication or under the influence of stimulants or hallucinogens are prohibited from entering.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá asegurarse que las personas trabajando en el proyecto estén capacitadas y conozcan\nlos peligros potenciales asociados a la labor.",
+      "normalized": "The contractor shall ensure that personnel working on the project are trained and aware of potential hazards associated with the work.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista debe asegurarse que estas personas reciban los equipos apropiados para evitar lesiones de\nacuerdo con los requerimientos del contrato.",
+      "normalized": "The contractor must ensure these personnel receive appropriate equipment to prevent injuries per contract requirements.",
+      "section_ref": null,
+      "page": 73,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "h. La empresa contratista deberá acoger las normas de seguridad establecidas por la Embajada.",
+      "normalized": "The contractor company must adopt the safety standards established by the Embassy.",
+      "section_ref": "1.h",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "i. La empresa contratista no permitirá a su personal el uso de cadenas, anillos, relojes y/o pulseras durante la ejecución de los trabajos.",
+      "normalized": "The contractor company will not allow its personnel to wear chains, rings, watches and/or bracelets during work execution.",
+      "section_ref": "1.i",
+      "page": 74,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "j. Está prohibido fumar en el lugar de trabajo, sólo deberán hacerlo en las áreas designadas para este fin.",
+      "normalized": "Smoking at the worksite is prohibited except in designated areas.",
+      "section_ref": "1.j",
+      "page": 74,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "k. La empresa contratista deberá reportar cualquier accidente que se presente al COR quien transmitirá la información al POSHO o al Coordinador de Seguridad y Salud en el Trabajo de la Embajada.",
+      "normalized": "The contractor company must report any accident to the COR.",
+      "section_ref": "1.k",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "a. El contratista deberá instalar barricadas provisionales y señales de advertencia con el fin de mantener un camino seguro y accesible para los peatones, incluidos aquellos con discapacidad, a fin de evitar accidentes a terceros.",
+      "normalized": "The contractor must install temporary barricades and warning signs to keep a safe accessible path for pedestrians.",
+      "section_ref": "2.a",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "b. El contratista deberá instalar y mantener durante la ejecución del proyecto barricadas tales como cercas, conos, cintas de precaución, rampas, aceras provisionales que cumplan con los códigos de acceso y regulaciones.",
+      "normalized": "The contractor must install and maintain compliant barricades throughout project execution.",
+      "section_ref": "2.b",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "c. El contratista deberá asegurar que no se almacenen materiales de construcción en las áreas destinadas para desplazamientos peatonales y/o vehiculares.",
+      "normalized": "The contractor must ensure construction materials are not stored in pedestrian/vehicular pathways.",
+      "section_ref": "2.c",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "d. Mantendrá las barricadas y cerramientos en condiciones seguras, ordenadas y limpias.",
+      "normalized": "The contractor will keep barricades and enclosures safe, orderly, and clean.",
+      "section_ref": "2.d",
+      "page": 74,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El personal contratista deberá usar los Elementos de Protección Personal (EPP) requeridos y específicos para las labores contratadas.",
+      "normalized": "Contractor personnel must use the required PPE specific to the contracted work.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista está obligada a inspeccionar y a mantener el inventario suficiente para el reemplazo de EPP en caso de daño, deterioro o pérdida.",
+      "normalized": "The contractor company is required to inspect and maintain sufficient PPE inventory for replacement.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Los EPPs usados por el personal contratista deben cumplir con las especificaciones técnicas exigidas por la legislación colombiana y las normas internaciones que los regulen.",
+      "normalized": "PPE used by contractor personnel must meet Colombian legal/technical specifications and applicable international standards.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El personal contratista que para el desarrollo de la labor deba utilizar herramientas y objetos corto-punzantes deben ser portados en canguros multi-herramientas; bajo ninguna circunstancia pueden ser portados en bolsillos del uniforme.",
+      "normalized": "If contractor personnel must use sharp/pointed tools, they must carry them in multi-tool pouches, never in uniform pockets.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "En aquellas actividades en las que se requiera EPP certificado, éste debe contar con la certificación vigente.",
+      "normalized": "If certified PPE is required for an activity, it must have current valid certification.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR registros firmados por los trabajadores de la entrega de EPP.",
+      "normalized": "The contractor company must send the COR signed records of PPE delivery to workers.",
+      "section_ref": "3",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todas las herramientas, equipos y/o maquinaria que van a ser utilizados en la ejecución de la tarea contratada deben ser inspeccionados por una persona competente antes de iniciar el proyecto.",
+      "normalized": "All tools/equipment/machinery to be used must be inspected by a competent person before the project begins.",
+      "section_ref": "4",
+      "page": 74,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá asegurar que todas las herramientas y equipos utilizadas por sus trabajadores son seguras.",
+      "normalized": "The contractor must ensure all tools/equipment used by its workers are safe.",
+      "section_ref": "5",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todas las herramientas deberán inspeccionarse periódicamente y mantenidas en buenas condiciones de acuerdo con las especificaciones del fabricante.",
+      "normalized": "All tools must be inspected periodically and kept in good condition per manufacturer specifications.",
+      "section_ref": "5",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá asegurar que las herramientas son utilizadas para los fines que fueron creadas.",
+      "normalized": "The contractor must ensure tools are used only for their intended purpose.",
+      "section_ref": "5",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "el personal contratista deberá acatar las órdenes dadas por el representante/escolta que se encuentre supervisando el trabajo, por los brigadista y/o el personal de seguridad.",
+      "normalized": "Contractor personnel must obey orders given by the supervising representative/escort, brigade members, or security personnel during an emergency.",
+      "section_ref": "6",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Seguir instrucciones dadas por RSO.",
+      "normalized": "Follow instructions given by the RSO.",
+      "section_ref": "6",
+      "page": 75,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "La empresa contratista no podrá obstruir equipos de respuesta ante emergencia tales como botiquines, extintores, gabinetes contra incendio, desfibriladores, camillas, estaciones lavaojos, o señalización de seguridad.",
+      "normalized": "The contractor company must not obstruct emergency response equipment such as first-aid kits, extinguishers, fire cabinets, defibrillators, stretchers, eyewash stations, or safety signage.",
+      "section_ref": "6",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá presentar los certificados de entrenamiento de cada persona que ejecutará la tarea.",
+      "normalized": "The contractor company must submit training certificates for each person who will perform the task.",
+      "section_ref": "7",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Estos certificados deben ser enviados antes de iniciar la ejecución del proyecto.",
+      "normalized": "These certificates must be sent before project execution begins.",
+      "section_ref": "7",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá elaborar un permiso de trabajo específicamente para dicha tarea y debe ser proporcionado al COR antes de la iniciación de la labor.",
+      "normalized": "The contractor company must prepare a work permit for the task and provide it to the COR before work begins.",
+      "section_ref": "7",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar el Análisis de Riesgo de la tarea en un plazo máximo de ocho días hábiles antes de la iniciación del trabajo.",
+      "normalized": "The contractor company must send the task Risk Analysis no later than eight business days before work begins.",
+      "section_ref": "7",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Durante la ejecución de actividades de alto riesgo siempre se debe contar con la presencia de un vigía que pueda dar aviso o primer auxilio en caso de emergencia.",
+      "normalized": "During high-risk activities, a watchperson able to alert or give first aid must always be present.",
+      "section_ref": "7",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El contratista deberá dar cumplimiento total a la normatividad local y las políticas de la Embajada relacionadas con prácticas seguras de trabajo eléctrico y trabajo des-energizado para prevenir cualquier incidente que pueda impactar la salud del personal y/o los sistemas eléctricos de la Embajada o sus propiedades residenciales.",
+      "normalized": "The contractor must fully comply with local regulations and Embassy policies on safe electrical work and de-energized work practices.",
+      "section_ref": "8",
+      "page": 75,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Es política de la Embajada de Estados Unidos, que las partes energizadas, usualmente llamadas “vivas”, a las cuales se vean expuestos empleados o contratistas, sean desenergizadas antes de que cualquier persona trabaje en o cerca de ellas.",
+      "normalized": "Energized parts exposed to employees or contractors must be de-energized before anyone works on or near them, per Embassy policy.",
+      "section_ref": "8",
+      "page": 75,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "La inconveniencia no se considera razón aceptable para trabajar en circuitos o partes energizadas.",
+      "normalized": "Inconvenience is not an acceptable reason to work on energized circuits or parts.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todo el personal que realice trabajo eléctrico deberá estar lo suficientemente entrenado y se debe ser una persona competente para poder ejecutar el trabajo.",
+      "normalized": "All personnel performing electrical work must be sufficiently trained and be a competent person.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá identificar cualquier posible fuente de energía eléctrica que pueda causar muerte, lesiones o daños físicos graves.",
+      "normalized": "The contractor must identify any potential electrical energy source that could cause death, injury, or serious physical harm.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Deberá asegurarse que todo el trabajo se realice de acuerdo con la normatividad local y los estándares americanos.",
+      "normalized": "The contractor must ensure all work is performed in accordance with local regulations and American standards.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El contratista debe proporcionar los equipos y herramientas apropiados para la labor contratada dando cumplimiento con los requerimientos del contrato.",
+      "normalized": "The contractor must provide appropriate equipment and tools for the contracted work in compliance with contract requirements.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Durante la ejecución de trabajo en el sistema eléctrico, el personal contratista debe retirarse joyas conductoras tales como relojes, anillos, cadenas y/o pulseras.",
+      "normalized": "During electrical system work, contractor personnel must remove conductive jewelry such as watches, rings, chains, and/or bracelets.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Se deben utilizar escaleras no conductivas (fibra de vidrio) para trabajos eléctricos o cerca de peligros eléctricos.",
+      "normalized": "Non-conductive (fiberglass) ladders must be used for electrical work or near electrical hazards.",
+      "section_ref": "8",
+      "page": 76,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Todo trabajo que se realice a más de 1.50 mts (5ft) se considera trabajo en alturas, por lo tanto el contratista deberá dar estricto cumplimiento a la Resolución 1409/2012:",
+      "normalized": "For work above 1.50 m (5ft), classified as work at heights, the contractor must strictly comply with Resolución 1409/2012.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todo equipo de trabajo en alturas debe cumplir, como mínimo, la norma ANSI Z359.1 o estándares europeos homólogos.",
+      "normalized": "All work-at-height equipment must, at a minimum, comply with ANSI Z359.1 or equivalent European standards.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todo personal contratista que utilice equipos para trabajos en alturas deberá acatar las instrucciones y advertencias que traen dichos equipos.",
+      "normalized": "Contractor personnel using height-work equipment must follow the equipment's instructions and warnings.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El personal contratista no utilizará como punto de anclaje para trabajo en alturas escaleras, tubería o soportes de tubería.",
+      "normalized": "Contractor personnel will not use ladders, piping, or pipe supports as anchor points for work at heights.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Si un punto de anclaje no ofrece la resistencia recomendada para protección contra caídas (5000 lbs), la empresa contratista deberá suministrar equipos de protección para alturas con amortiguadores que permitan disminuir la fuerza del impacto.",
+      "normalized": "If an anchor point lacks the recommended 5000 lb fall-protection resistance, the contractor company must supply fall-protection equipment with shock absorbers.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Están prohibidos los andamios de tijera, sólo se deben utilizar andamios modulares debidamente certificados.",
+      "normalized": "A-frame scaffolds are prohibited; only duly certified modular scaffolds may be used.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Utilice escaleras dieléctricas para trabajos con electricidad y áreas con influencia eléctrica.",
+      "normalized": "Use dielectric ladders for electrical work and areas with electrical influence.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Está prohibido pararse en los dos peldaños más altos de una escalera.",
+      "normalized": "Standing on the top two rungs of a ladder is prohibited.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Todo el personal que realice trabajos en alturas deberá utilizar como mínimo las siguientes elementos de protección personal: casco con resistencia y absorción anti-impactos, según la necesidad podrán ser dieléctrico, con barbuquejo y cuatro puntos de apoyo, gafas de seguridad que protejan a los ojos de impacto, con protección para rayos UV y deslumbramientos; protección auditiva si es necesaria, guantes antideslizantes, flexibles de alta resistencia a la abrasión, botas antideslizantes con punteras reforzada, ropa de trabajo de acuerdo a las condiciones climáticas y de los factores de riesgo y un arnés integral o de cuerpo completo.",
+      "normalized": "All personnel performing work at heights must, at a minimum, use the listed PPE (helmet, safety glasses, hearing protection if needed, anti-slip gloves, anti-slip reinforced-toe boots, weather-appropriate work clothing, and a full-body harness).",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista debe enviar al COR, en los próximos 8 días hábiles los certificados de capacitación y el entrenamiento de todos los trabajadores que realizarán trabajos en alturas.",
+      "normalized": "The contractor company must send the COR, within the next 8 business days, training certificates for all workers who will perform work at heights.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El certificado debe cumplir con lo establecido en la resolución 3673/ 2008.",
+      "normalized": "The certificate must comply with Resolución 3673/2008.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El certificado de reentrenamiento debe proporcionarse, por lo menos una vez al año como lo establece la legislación.",
+      "normalized": "The retraining certificate must be provided no less than once a year as required by legislation.",
+      "section_ref": "9",
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista es responsable de probar condiciones seguras al usar, montar y desmontar andamios.",
+      "normalized": "The contractor must ensure/test safe conditions when using, erecting, and dismantling scaffolds.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Los andamios deberán ser armados y desmontados por trabajadores competentes, bajo la supervisión de supervisor experto y con experiencia.",
+      "normalized": "Scaffolds must be erected and dismantled by competent workers under supervision of an experienced supervisor.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Los andamios deberán ser armados en una superficie rígida, capaz de soportar la carga máxima prevista sin asentamiento ni desplazamiento.",
+      "normalized": "Scaffolds must be erected on a rigid surface capable of supporting the maximum expected load without settlement or displacement.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Asegúrese de que el andamio esté equipado con barandas y rodapiés en todos los lados abiertos y en los extremos de plataformas de cuatro a diez pies de altura.",
+      "normalized": "Contractor must ensure scaffolds are equipped with guardrails and toeboards on all open sides and ends of platforms four to ten feet high.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Proporcione una escalera de acceso o un acceso seguro equivalente.",
+      "normalized": "Contractor must provide an access ladder or equivalent safe access.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Los andamios soportados con una relación entre la altura y el ancho de la base de más de cuatro a uno (4:1) deberán ser asegurados para que no se inclinen, por medios de sujeción, amarre o medios equivalentes.",
+      "normalized": "Scaffolds with height-to-base-width ratio greater than 4:1 must be secured against tipping by bracing, guying, or equivalent means.",
+      "section_ref": "10",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá cumplir con las especificaciones que la ley local y estándares Americanos exigen para su almacenamiento, manipulación y transporte.",
+      "normalized": "The contractor must comply with local law and American standards specifications for storage, handling, and transport of chemical substances.",
+      "section_ref": "11",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista es responsable de verificar el manejo correcto de cada producto tales como: almacenamiento, rotulación, EPP requerido, disposición final de los residuos generados dando cumplimiento con la normatividad, cuidado del medio ambiente.",
+      "normalized": "The contractor company is responsible for verifying correct handling of each product including storage, labeling, required PPE, and final disposal of waste in compliance with regulations.",
+      "section_ref": "11",
+      "page": 77,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá tener a la mano copia de las hojas de seguridad (SDS) de cada uno de los productos que se utilizaran en las instalaciones de la Embajada.",
+      "normalized": "The contractor must keep on hand a copy of the SDS for each product used at the Embassy facilities.",
+      "section_ref": "11",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Reenviará copia de las Hojas de seguridad al COR para su revisión.",
+      "normalized": "The contractor will resend a copy of the Safety Data Sheets to the COR for review.",
+      "section_ref": "11",
+      "page": 77,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Usará y almacenará todos los productos químicos peligrosos que se utilizarán en las instalaciones en contenedores aprobados.",
+      "normalized": "The contractor will use and store all hazardous chemical products used at the facilities in approved containers.",
+      "section_ref": "11",
+      "page": 77,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR los certificados (avalado por la ONAC) de la maquinaria empleada para la prestación del servicio (Incluye montacargas y camiones grúa) y los documentos de estos vehículos (SOAT, tarjeta de propiedad y revisión técnico mecánica si aplica).",
+      "normalized": "The contractor company must send the COR ONAC-endorsed certificates for machinery used (including forklifts and crane trucks) and vehicle documents (SOAT, ownership card, technical-mechanical inspection if applicable).",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR los certificados (avalado por la ONAC) de las eslingas, guayas, cadenas, grilletes u otros elementos empleados para el izaje de cargas.",
+      "normalized": "The contractor company must send the COR ONAC-endorsed certificates for slings, cables, chains, shackles, or other lifting elements used.",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR las certificaciones de entrenamiento y/o avales de todo el personal que estará involucrada en la tarea.",
+      "normalized": "The contractor company must send the COR training certifications and/or endorsements for all personnel involved in the task.",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR el programa de mantenimiento e inspecciones que se tengan de los equipos y la maquinaria.",
+      "normalized": "The contractor company must send the COR the maintenance and inspection program for equipment and machinery.",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR el procedimiento del cargue y descargue.",
+      "normalized": "The contractor company must send the COR the loading and unloading procedure.",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "La empresa contratista deberá realizar un plan de izaje para garantizar la capacidad de la grúa o brazo con relación a su carga.",
+      "normalized": "The contractor company must develop a lifting plan to ensure crane/arm capacity relative to its load.",
+      "section_ref": "12",
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá obtener un permiso de trabajo en caliente a través del POSHO o el Coordinador de seguridad y Salud antes de iniciar la tarea de trabajo en caliente dentro de las instalaciones que están siendo ocupadas, a 40 pies de un edificio o en áreas con riesgo potencial como un tanque de almacenamiento de combustible y espacios confinados, independientemente de la ubicación.",
+      "normalized": "Contractor must obtain a hot work permit via POSHO or the Safety and Health Coordinator before starting hot work in occupied facilities, within 40 feet of a building, or in high-risk areas.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El contratista deberá instalar cerramiento en el área de trabajo de acuerdo con la tarea a ejecutar, para proteger a peatones.",
+      "normalized": "Contractor must install barriers/enclosure at the work area appropriate to the task to protect pedestrians.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Este cerramiento debe cumplir con los estándares de OSHA y las políticas de trabajo en caliente de la Embajada.",
+      "normalized": "The work area enclosure must comply with OSHA standards and Embassy hot work policies.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Se deberá mantener un equipo adecuado y accesible para extinción de incendios en el área de trabajo.",
+      "normalized": "Adequate and accessible fire extinguishing equipment must be maintained in the work area.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El corte y la soldadura se deben realizar en áreas que son o han sido hechas a prueba de fuego.",
+      "normalized": "Cutting and welding must be performed in areas that are or have been made fire-resistant.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Cuando el trabajo no se pueda mover de manera práctica, el área debe estar segura retirando los combustibles o protegiendo los combustibles de las fuentes de ignición.",
+      "normalized": "If work cannot practically be moved, the contractor must secure the area by removing combustibles or protecting them from ignition sources.",
+      "section_ref": "PWS 13",
+      "page": 78,
       "verb": "conditional",
       "category": "performance",
       "confidence": "review"
+    },
+    {
+      "verbatim": "El contratista deberá asegurarse de que todos los operadores y ayudantes del soldador, expuestos al peligro, usen el equipo de protección personal de soldadura adecuado.",
+      "normalized": "Contractor must ensure all welder operators and helpers exposed to hazards use appropriate welding PPE.",
+      "section_ref": "PWS 13",
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El vehículo debe contar con los elementos básicos de atención de emergencias.",
+      "normalized": "Contractor vehicles must have basic emergency response elements.",
+      "section_ref": "PWS 14",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Las camionetas y vehículos pesados deben contar con pito y sensor de reversa.",
+      "normalized": "Trucks and heavy vehicles must have horn and reverse sensor.",
+      "section_ref": "PWS 14",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "La empresa contratista deberá enviar al COR los documentos de los vehículos (SOAT, tarjeta de propiedad y revisión técnico mecánica si aplica).",
+      "normalized": "Contractor must send vehicle documents (SOAT, registration card, and technical-mechanical inspection if applicable) to the COR.",
+      "section_ref": "PWS 14",
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Para cualquier trabajo que se deba realizar en un espacio confinado, debe consultar con la Oficina de Seguridad y Salud para identificar y cumplir con todos los requisitos obligatorios establecidos por SHEM.",
+      "normalized": "For any confined space work, contractor must consult the Safety and Health Office to identify and comply with all mandatory SHEM requirements.",
+      "section_ref": "PWS 15",
+      "page": 78,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Todos los trabajos de corte y remoción de árboles dentro de un mínimo de 10 pies (3 metros) de las líneas eléctricas, deben hacerse por podadores capacitados y experimentados en corte de árboles cerca de las líneas.",
+      "normalized": "All tree cutting/removal work within a minimum of 10 feet (3 meters) of power lines must be done by trained and experienced pruners.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Un segundo podador de árbol es requerido dentro de una distancia de comunicación con voz normal.",
+      "normalized": "A second tree pruner is required within normal voice communication distance.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Podadores de árboles, de cortes de línea, deben de estar conscientes y mantener una distancia apropiada mínima cuando trabajen alrededor de cables de alta tensión energizados.",
+      "normalized": "Line-clearance tree pruners must remain aware and maintain an appropriate minimum distance when working around energized high-voltage cables.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Siempre asuma que los cables eléctricos están energizados.",
+      "normalized": "Contractor personnel must always assume electrical cables are energized.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Comuníquese con la compañía de servicios para asesorarse acerca de cómo desconectar y hacer contacto a tierra o aislar los cables de las líneas eléctricas.",
+      "normalized": "Contractor personnel must contact the utility company for guidance on disconnecting, grounding, or isolating power line cables.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Use extrema cautela cuando mueva las escaleras y equipos alrededor de árboles caídos y cables de alta tensión.",
+      "normalized": "Contractor personnel must use extreme caution when moving ladders and equipment around fallen trees and high-voltage cables.",
+      "section_ref": "PWS 16",
+      "page": 78,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Manténgase alerta en todo momento.",
+      "normalized": "Contractor personnel must remain alert at all times.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "No recorte árboles en condiciones de clima peligroso.",
+      "normalized": "Contractor personnel must not trim trees in hazardous weather conditions.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Lleve a cabo una evaluación de los peligros del área de trabajo antes de comenzar a trabajar.",
+      "normalized": "Contractor personnel must perform a hazard assessment of the work area before starting work.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Elimine o disminuya la exposición a peligros en el árbol y en las áreas alrededor.",
+      "normalized": "Contractor personnel must eliminate or reduce exposure to hazards in the tree and surrounding areas.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Operadores de sierra de cadena y otros equipos deberán ser capacitados y mantener el equipo apropiadamente.",
+      "normalized": "Chainsaw and other equipment operators shall be trained and shall maintain equipment properly.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Use el equipo de protección de seguridad personal tales como guantes, gafas de seguridad, casco con barbuquejo, protección para los oídos, etc., según recomendaciones en el manual de operación del fabricante.",
+      "normalized": "Contractor personnel must use personal protective equipment (gloves, safety glasses, helmet with chin strap, ear protection, etc.) per manufacturer's operation manual recommendations.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Determine la dirección de la caída del árbol. Señale inclinaciones hacia al frente, inclinaciones hacia atrás e inclinaciones hacia los lados.",
+      "normalized": "Contractor personnel must determine the tree's fall direction and mark forward, backward, and side leans.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Determine la cantidad apropiada de articulaciones en el árbol para poder guiar la caída del árbol con seguridad.",
+      "normalized": "Contractor personnel must determine the appropriate hinge amount in the tree to safely guide its fall.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provea un camino de retirada a un lugar seguro.",
+      "normalized": "Contractor personnel must provide a retreat path to a safe location.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Inspeccione la estabilidad y la fuerza de las ramas del árbol antes de subirse.",
+      "normalized": "Contractor personnel must inspect the stability and strength of tree branches before climbing.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Podadores de árboles trabajando en la parte alta deben usar un equipo de protección contra caídas.",
+      "normalized": "Tree pruners working at height must use fall protection equipment.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No suba con herramientas en las manos.",
+      "normalized": "Contractor personnel must not climb while holding tools in hand.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Si árboles rotos están en presión, determine la dirección de la presión y haga cortes pequeños para liberarla.",
+      "normalized": "If broken trees are under pressure, contractor personnel must determine the pressure direction and make small cuts to release it.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Use cuidado extremo cuando tale un árbol que no ha caído completamente al suelo y está recostado contra otro árbol.",
+      "normalized": "Contractor personnel must use extreme care when felling a tree that has not fully fallen and is leaning against another tree.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Nunca de la espalda a un árbol caído.",
+      "normalized": "Contractor personnel must never turn their back on a fallen tree.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Esté alerta y evite que objetos revoten de un árbol cuando cae.",
+      "normalized": "Contractor personnel must stay alert and avoid objects bouncing from a falling tree.",
+      "section_ref": "PWS 16",
+      "page": 79,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "El contratista deberá seguir los lineamientos y protocolos establecidos por el Gobierno Colombiano, así como los emitidos por el Centro de Control y Prevención de Enfermedades (Centers for Disease Control and Prevention – CDC por sus siglas en inglés) para prevenir la propagación del Covid-19 y de esta manera garantizar la salud y la seguridad tanto del personal contratista como del personal de la Misión de la Embajada de Estados Unidos.",
+      "normalized": "Contractor must follow Colombian Government and CDC guidelines/protocols to prevent COVID-19 spread and ensure health/safety of contractor and Embassy personnel.",
+      "section_ref": "PWS 17",
+      "page": 79,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
     },
     {
       "verbatim": "Siempre que se deban realizar trabajos de soldaduras o cortes en zonas que no están específicamente diseñadas para este tipo de trabajo; el área debe ser inspeccionada y se debe otorgar una autorización por escrito por parte de la persona encargada del programa de trabajo en caliente.",
@@ -3522,5 +5525,6 @@
       "category": "admin",
       "confidence": "review"
     }
-  ]
+  ],
+  "patchedRowsAdded": 222
 }
