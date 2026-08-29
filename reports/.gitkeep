@@ -1,0 +1,4 @@
+# Keeps this folder in the repository.
+# Git cannot track an empty directory, so without this file reports/ would
+# vanish from a fresh clone and the session-report guard would have nowhere
+# to look. Do not delete.
