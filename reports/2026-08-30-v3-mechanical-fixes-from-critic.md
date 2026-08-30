@@ -1,4 +1,8 @@
-# 2026-08-29 — v3: mechanical fixes from the critic pass
+# 2026-08-30 — v3: mechanical fixes from the critic pass
+
+*Session ran across midnight; the work described below was done on 2026-08-29 and filed on
+2026-08-30. The session-report guard caught the date rollover and refused to let the session
+end until the report was filed under today's date — which is the guard behaving correctly.*
 
 Builder session. Deterministic throughout. **No model was invoked and no tokens were
 billed.** No extraction was re-run; model, prompt, chunk sizes and thresholds are
