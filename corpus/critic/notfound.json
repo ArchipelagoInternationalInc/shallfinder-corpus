@@ -1,0 +1,1930 @@
+[
+ {
+  "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624",
+  "citedPage": 72,
+  "verb": "imperative",
+  "section": "Appendix B",
+  "confidence": "high",
+  "quote": "Contractor to replace existing control box to coordinate with new well pump."
+ },
+ {
+  "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Section A",
+  "confidence": "review",
+  "quote": "14:00 ET 09/21/2026"
+ },
+ {
+  "doc": "1616-26__RFP1620000348",
+  "citedPage": 1,
+  "verb": "imperative",
+  "section": "Block 17b",
+  "confidence": "high",
+  "quote": "17b. CHECK IF REMITTANCE IS DIFFERENT AND PUT SUCH ADDRESS IN OFFER"
+ },
+ {
+  "doc": "1616-26__RFP1620000348",
+  "citedPage": 1,
+  "verb": "imperative",
+  "section": "Block 18b",
+  "confidence": "high",
+  "quote": "18b. SUBMIT INVOICES TO ADDRESS SHOWN IN BLOCK 18a UNLESS BLOCK BELOW IS CHECKED"
+ },
+ {
+  "doc": "1616-26__RFP1620000348",
+  "citedPage": 1,
+  "verb": "required",
+  "section": "Block 28",
+  "confidence": "high",
+  "quote": "28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN COPIES TO ISSUING OFFICE."
+ },
+ {
+  "doc": "1616-26__RFP1620000348",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Block 28",
+  "confidence": "review",
+  "quote": "CONTRACTOR AGREES TO FURNISH AND DELIVER ALL ITEMS SET FORTH OR OTHERWISE IDENTIFIED ABOVE AND ON ANY ADDITIONAL SHEETS SUBJECT TO THE TERMS AND CONDITIONS SPECIFIED"
+ },
+ {
+  "doc": "1616-26__RFP1620000348",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Blocks 27a/27b",
+  "confidence": "high",
+  "quote": "27a. SOLICITATION INCORPORATES BY REFERENCE FAR 52.212-1, 52.212-4. FAR 52.212-3 AND 52.212-5 ARE ATTACHED. ADDENDA 27b. CONTRACT/PURCHASE ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA Coll. No."
+ },
+ {
+  "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+  "citedPage": 2,
+  "verb": "required",
+  "section": "SF 1442 Item 28",
+  "confidence": "review",
+  "quote": "Contractor is required to sign this document and return copies to issuing office."
+ },
+ {
+  "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+  "citedPage": 2,
+  "verb": "imperative",
+  "section": "SF-1442 Item 24",
+  "confidence": "review",
+  "quote": "24. SUBMIT INVOICES TO ADDRESS SHOWN IN (4 copies unless otherwise specified) ITEM 25."
+ },
+ {
+  "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+  "citedPage": 11,
+  "verb": "declaration",
+  "section": "Section E",
+  "confidence": "review",
+  "quote": "Section F. Payment Request 1 Last calendar day of each month COR"
+ },
+ {
+  "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+  "citedPage": 11,
+  "verb": "declaration",
+  "section": "Section E",
+  "confidence": "review",
+  "quote": "Section D. Request for Substantial Completion 1 15 days before inspection COR"
+ },
+ {
+  "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+  "citedPage": 11,
+  "verb": "declaration",
+  "section": "Section E",
+  "confidence": "review",
+  "quote": "Section D. Request for Final Acceptance 1 5 days before inspection COR"
+ },
+ {
+  "doc": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Block 27a",
+  "confidence": "high",
+  "quote": "27a. SOLICITATION INCORPORATES BY REFERENCE FAR 52.212-1, 52.212-4. FAR 52.212-3 AND 52.212-5 ARE ATTACHED. ADDENDA ARE ARE NOT ATTACHED."
+ },
+ {
+  "doc": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18",
+  "citedPage": 1,
+  "verb": "must",
+  "section": null,
+  "confidence": "high",
+  "quote": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 4,
+  "verb": "shall",
+  "section": "PWS 3",
+  "confidence": "review",
+  "quote": "In addition to comprehensive detention services, the Contractor shall provide comprehensive operations and maintenance (O&M) services including ongoing preventive and corrective maintenance, facility operations, post-closing services, and compliance with safety, environmental, medical, IT/communicat"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 7,
+  "verb": "shall",
+  "section": "PWS 7",
+  "confidence": "review",
+  "quote": "Any expansion or renovation of the federal facility shall be subject to the existing and applicable building codes at the time of the expansion or renovation."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 14,
+  "verb": "imperative",
+  "section": null,
+  "confidence": "review",
+  "quote": "Inspecting the vehicle, using a government-approved checklist and noting any defect that could render the vehicle unsafe or inoperable;"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 30,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "The Contractor shall ensure that its healthcare system/employees solicit and triage detainees' requests for healthcare (sick call) daily and that this is tracked through a written system of accountability and within the health record with care delivered per current ICE detention standards, ACA stand"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 31,
+  "verb": "shall",
+  "section": "33.5",
+  "confidence": "review",
+  "quote": "The Contractor shall ensure that all health care providers utilized for the care of ICE detainees are credentialed, to include: primary source verification, current licensure, certifications, and/or registrations within the State and/or City where they treat the detained population, and inquiry rega"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 55,
+  "verb": "shall",
+  "section": "Section 508 Compliance Requirements",
+  "confidence": "review",
+  "quote": "Any selection of a product or service that meets less accessibility standards due to a significant difficulty or expense shall only be permitted under an undue burden claim and requires authorization from the DHS Office of Accessible Systems and Technology (OAST) in accordance with DHS MD 4010.2."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 59,
+  "verb": "shall",
+  "section": "PWS 9 (Capital Improvement Identification and Planning)",
+  "confidence": "review",
+  "quote": "The Contractor shall regularly assess all facility systems, infrastructure, and assets to identify areas requiring significant cost investment for repair, replacement, or upgrade."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 60,
+  "verb": "must",
+  "section": "PWS 44.1",
+  "confidence": "review",
+  "quote": "All hardware, software, and services provided under this task order must be compliant with DHS 4300A DHS Sensitive System Program 4300A version 13.3 Feb. 13, 2023, and attachments."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 62,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "The Contractor shall provide a packing slip which shall accompany each container or package with the information identifying the contract number, the order number, a description of the hardware/software enclosed (Manufacturer name, model number, serial number), and the customer point of contact."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 66,
+  "verb": "shall",
+  "section": "(c)(1)",
+  "confidence": "review",
+  "quote": "Contractors and subcontractors shall report all known or suspected incidents to the Component Security Operations Center (SOC) in accordance with Attachment F, Incident Response, to DHS Policy Directive 4300A Information Technology System Security Program, Sensitive Systems."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 68,
+  "verb": "shall",
+  "section": "(e)",
+  "confidence": "review",
+  "quote": "Upon the conclusion of the contract by expiration, termination, cancellation, or as otherwise indicated in the contract, the Contractor shall return all CUI to DHS and/or destroy it physically and/or logically as identified in the contract unless the contract states that return and/or destruction of"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 69,
+  "verb": "shall",
+  "section": "(h)(1)(i)",
+  "confidence": "review",
+  "quote": "The Contractor shall submit a signed copy of the SA package, validated by an independent third party, to the COR for review and approval by the Component or Headquarters CIO, or designee, at least 30 days prior to the date of operation of the information system."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 88,
+  "verb": "shall",
+  "section": "16) Identification and Authentication (Non-Organizational Users)",
+  "confidence": "review",
+  "quote": "The vendor shall support a secure, dual factor method of remote authentication and authorization to identified Vendor Administrators that will allow vendor-designated personnel the ability to perform management duties on the system.m"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 90,
+  "verb": "shall",
+  "section": "47.4 Patch Management Terms and Conditions",
+  "confidence": "review",
+  "quote": "The contractor shall be informed by DHS which patches are required by DHS through the Information Security Vulnerability Management bulletins and advisories."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 101,
+  "verb": "shall",
+  "section": "PWS 59",
+  "confidence": "review",
+  "quote": "The Contractor shall provide an organizational chart that describes the structure of authority, responsibility, and accountability within the facilities."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 108,
+  "verb": "shall",
+  "section": "PWS 10.b",
+  "confidence": "review",
+  "quote": "b. Employees shall not discuss or disclose information from alien files or immigration cases, except, when necessary, in the performance of duties under this contract."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 111,
+  "verb": "shall",
+  "section": "PWS 15.i",
+  "confidence": "review",
+  "quote": "The Contractor shall act immediately and notify the COR when the employee is removed from duty."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 113,
+  "verb": "shall",
+  "section": "PWS 19",
+  "confidence": "review",
+  "quote": "The Contractor shall provide a copy of the documentation to the COR upon successful completion of the employees’ on-the-job training."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 117,
+  "verb": "shall",
+  "section": "PWS 29",
+  "confidence": "review",
+  "quote": "All uniforms shall be clean, neat, and in good order."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 120,
+  "verb": "declaration",
+  "section": "PWS 64.1",
+  "confidence": "review",
+  "quote": "Aliens that are released should, prior to release, be given the opportunity to make a free phone call to arrange for pick up from the federal facility."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "4 Post Orders Within 30 calendar days of award of contract; updated annually and as requested by the COR."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "5 Communication Plan Within 30 days of contract award, updated as needed"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "7 Organizational Chart Within 30 days of contract award and as requested."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "review",
+  "quote": "8 Staffing Plan With proposal submission and as requested by the COR."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "9 Documentation of employee receipt of ICE Operations Policy/Procedure Manual As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "10 Service Provider employee certification for standards of conduct As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "review",
+  "quote": "11 Service Provider employee violation of standards of conduct and disciplinary action Reported immediately* to COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "12 Notification of change in employee’s health status Notification immediately to COR (immediate verbal report, with written follow-up)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "13 Employee termination, transfer, suspension, personnel action relating to disqualifying information or incidents of delinquency Notification immediately to COR (immediate verbal report, with written follow-up)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "14 Report on any contract employee misconduct Notification immediately to COR (immediate verbal report, with written follow-up)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 139,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "16 Physical Force Incident Reports Reported to COR immediately (immediate verbal report, with written report within two (2) hours of incident)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "17 Report of escapes Reported to COR immediately (immediate verbal report, with written report within two (2) hours of incident)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "18 Physical harm or threat to safety, health or welfare Reported to COR immediately (immediate verbal report, with written report within 24 hours of incident)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "19 Drug Test Results Upon EOD and as requested by COR, or reported immediately to COR upon found violation"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "21 Training Plan with Curriculum Within 30 calendar days of award of contract; Updated as Needed"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "23 Training certification and reports for formal and on the job training (including Supervisors and refresher) As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "25 Emergency Action Plan to include Auxiliary Power procedures Within 30 calendar days of award of contract; Updated as Needed"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "26 Sexual Assault & Suicide Prevention Program No later than the post award conference"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "28 Employee Weapon Permit To COR 3 days prior to EOD, and then after as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "29 Notification of employee criminal activity Reported immediately to COR and an appropriate law enforcement agency."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "31 Key, Tool Cabinet Inventory Class A and Class B Log At the beginning of day and end of each shift"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "32 Equipment Inventory Within 30 calendar days after the award of contract, then annually or as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "35 Detainee Volunteer Work Screening Form (Request Form) As required"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "36 Detainee Volunteer Work Program Training Form As required"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "42 Key Indicators Report Monthly, by 5th of each month for previous month’s data"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 140,
+  "verb": "declaration",
+  "section": "71 Deliverables",
+  "confidence": "high",
+  "quote": "43 General Supply/Inventory Plan Within 30 calendar days after the award of contract, then annually or as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "IT Security Plan Within 30 calendar days after the award of contract"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Finalized List of Approved Food Vendors Within 30 calendar days after the award of contract and upon any changes thereafter"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Detainee Death Reported immediately to COR (immediate verbal report, with written report within two (2) hours of incident)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Detainee Volunteer Food Service Worker Contingency Plan Within 30 calendar days of award of contract and after that anytime as requested by the COR."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Physical damage to the federal facility documentation Immediate verbal report to COR, with written report within five (5) days."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Emergency Food Preparation and Service Schedule Within 30 calendar days of award of contract"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "ACA Temperature Log Report (refrigerators, freezers, dishwasher temperatures and water) As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Food Handler Certification Always maintained for all food service employees, and as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "review",
+  "quote": "Authorized Detainee Worker List Weekly Schedule Weekly, or as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Detainee Volunteer Food Service Work Detail Pay List Monthly"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Monthly Medical Inspection Corrective Actions Monthly"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Certified Dietician In-Service Staff Training and Department Inspection Quarterly or as requested by the COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "review",
+  "quote": "Medical Clearance including TB test For all new employees and after diagnosed with illness or communicable disease."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Vehicle inventory log and interior specification for each vehicle type Within 30 calendar days of award of contract, annually and as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 141,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Menu Cycle (Revisions and Registered Dietician Recertification of all menus) Annually"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "review",
+  "quote": "End of Month Food Service Cost Report, including Cost Per Meal Data Annually"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Detainee or Service Provider Employee Contraband Found Report Immediately to COR (immediate verbal report, with written follow-up)"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Staff Vacancy Report To COR by 5th of each month for previous month’s data"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Additional Reports as requested by the COR As needed"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Notice of federal facility readiness 10 days prior to the end of the Transition Period"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Records related to performance by Service Provider As requested by CO or COR at any time during the term of the contract or at termination/expiration."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Litigation As requested by CO or COR at any time during the term of the contract or at/after termination/expiration."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Congressional Inquiry Immediately to COR and CO (immediate verbal report, with written follow-up) to FOD, DFOD, COR, and CO"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Correctional Officer assignment, Names of Supervisory Correctional Officers, and Shift Rosters As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Service Provider Employee Manual Within 30 calendar days of award of contract and after that anytime as requested by the COR."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Any requested Detainee medical documentation Immediately to COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Medical and Personnel Records of Service Provider Employees As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Service Provider Business Permits and Licenses Within 30 calendar days of the award of contract and after that anytime as directed by COR."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Service Provider Employee Registrations, Commissions, Permits, and Licenses Prior to EOD and then after, as requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Correctional Officer Post Assignment Record As requested by COR"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 142,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Authorization to exceed a change in duty To COR for approval prior to commencement of change of duty"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Contract Discrepancy Report, Corrective Action Plan, or outcome measures required by any inspection or accreditation review, QASP (see Attachment 03) or NDS requirements As outlined within the requiring document"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Transition-Out 1 week after notification of transition to new vendor"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": null,
+  "confidence": "review",
+  "quote": "Uniform approval by COR Within 7 days of contract award. Any changes require CO and COR approval prior to implementation"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": null,
+  "confidence": "review",
+  "quote": "Cybersecurity Compliance Plan, including the Authorization Readiness Report Within 6 months of contract effective date. See Attachment “Cybersecurity Deliverables Sensitive Information Systems_HIGH_MOD 05.08.24.”"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Uniform approval by COR Within 7 days of contract award."
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "required",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Any changes require CO and COR approval prior to implementation"
+ },
+ {
+  "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+  "citedPage": 143,
+  "verb": "declaration",
+  "section": "Deliverables Chart",
+  "confidence": "high",
+  "quote": "Cybersecurity Compliance Plan, including the Authorization Readiness Report Within 6 months of contract effective date."
+ },
+ {
+  "doc": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final",
+  "citedPage": 1,
+  "verb": "required",
+  "section": "Block 28",
+  "confidence": "high",
+  "quote": "CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN COPIES TO ISSUING OFFICE. CONTRACTOR AGREES TO FURNISH AND DELIVER ALL ITEMS SET FORTH OR OTHERWISE IDENTIFIED ABOVE AND ON ANY ADDITIONAL SHEETS SUBJECT TO THE TERMS AND CONDITIONS SPECIFIED"
+ },
+ {
+  "doc": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Block 8",
+  "confidence": "review",
+  "quote": "09/15/2026 4:00 PM CT"
+ },
+ {
+  "doc": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Block 7",
+  "confidence": "review",
+  "quote": "Kendrea Vallien - Contracting Officer Telephone calls will not be accepted, only emails."
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": null,
+  "confidence": "review",
+  "quote": "Sealed offers in original and copies for furnishings the supplies or services in the Schedule will be received at the place specified in item 8, or if hand carried, in the depository located in until local time"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 23,
+  "verb": "shall",
+  "section": "252.232-7006(c)",
+  "confidence": "review",
+  "quote": "(c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 23,
+  "verb": "shall",
+  "section": "252.232-7006(f)",
+  "confidence": "review",
+  "quote": "(f) The Contractor shall use the following information when WAWF payment instructions. submitting payment requests and receiving reports in WAWF for this contract or task or delivery order:"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 23,
+  "verb": "shall",
+  "section": "252.232-7006(f)(1)",
+  "confidence": "review",
+  "quote": "(1) The Contractor shall submit payment requests using the following Document type. document type(s):"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 24,
+  "verb": "shall",
+  "section": "(3)",
+  "confidence": "review",
+  "quote": "The Contractor shall use the information in the Routing Data Document routing. Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system."
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 26,
+  "verb": "shall",
+  "section": "252.232-7006(f)(4)",
+  "confidence": "review",
+  "quote": "(4) The Contractor shall ensure a payment request includes Payment request. documentation appropriate to the type of payment request in accordance with the payment clause, contract financing clause, or Federal Acquisition Regulation 52.216-7, Allowable Cost and Payment, as applicable."
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 26,
+  "verb": "shall",
+  "section": "252.232-7006(f)(5)",
+  "confidence": "review",
+  "quote": "(5) The Contractor shall ensure a receiving report meets the Receiving report. requirements of DFARS Appendix F."
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 124,
+  "verb": "shall",
+  "section": "52.227-21(a)",
+  "confidence": "review",
+  "quote": "The Contractor shall provide, in accordance with 41 U.S.C. 2302(e)(7), Scope of declaration. the following declaration with respect to all technical data that relate to a major system and that are delivered or required to be delivered under this contract or that are delivered within 3 years after ac"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 124,
+  "verb": "conditional",
+  "section": "52.227-21(c)",
+  "confidence": "review",
+  "quote": "The Contractor also shall, at the request of the Contracting Officer, Technical data revision. revise technical data that are subject to this clause to reflect engineering design changes made during the performance of this contract and affecting the form, fit, and function of any item (other than te"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 157,
+  "verb": "shall",
+  "section": "252.211-7003(c)(4)(i)",
+  "confidence": "review",
+  "quote": "(4) The Contractor shall ensure Data syntax and semantics of unique item identifiers. that- (i) The data elements (except issuing agency code) of the unique item identifier are encoded within the data matrix symbol that is marked on the item using one of the following three types of data qualifiers,"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 157,
+  "verb": "shall",
+  "section": "252.211-7003(c)(4)(i)(A)",
+  "confidence": "review",
+  "quote": "(4) The Contractor shall ensure Data syntax and semantics of unique item identifiers. that- (i) The data elements (except issuing agency code) of the unique item identifier are encoded within the data matrix symbol that is marked on the item using one of the following three types of data qualifiers,"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 177,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "(c) . The Contractor grants or shall obtain for Rights in technical data and computer software the Government the following royalty free, worldwide, nonexclusive, irrevocable license rights:"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 182,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "The Contractor shall not, without the written Third party copyrighted data and software approval of the Contracting Officer, incorporate any copyrighted data or software in the technical data or computer software the contractor must deliver under this contract unless the Contractor is the copyright "
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 185,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "(3) . Technical data or computer software delivered Government purpose rights markings or otherwise furnished to the Government with government purpose rights shall be marked as follows:"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 186,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "(4) . Data delivered or otherwise furnished to the Government with Limited rights markings limited rights shall be marked as follows:"
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 187,
+  "verb": "must",
+  "section": null,
+  "confidence": "review",
+  "quote": "Any reproduction of technical data, computer software, Number [Insert license identifier] ____ or portions thereof marked with this legend must also reproduce the markings."
+ },
+ {
+  "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+  "citedPage": 255,
+  "verb": "declaration",
+  "section": "52.215-6(a)",
+  "confidence": "review",
+  "quote": "(a) The offeror or respondent, in the performance of any contract resulting from this request for proposals, intends, does not intend [ ] to use one or more plants or check applicable block facilities located at a different address from the address of the offeror or respondent as indicated in this p"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 1,
+  "verb": "required",
+  "section": "SF1442 Item 13a",
+  "confidence": "review",
+  "quote": "copies to perform the work required are due at the place specified in Item 8 by (hour)"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 1,
+  "verb": "declaration",
+  "section": "Item 13d",
+  "confidence": "review",
+  "quote": "d. Offers providing less than STANDARD FORM 1442 (REV. 12/2022) Prescribed by GSA - FAR (48 CFR) 53.236-1(d) calendar days for Government acceptance after the date offers are due will not be considered and will be rejected."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 1,
+  "verb": "shall",
+  "section": "Item 11",
+  "confidence": "review",
+  "quote": "calendar days and complete it within calendar days after receiving"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 2,
+  "verb": "required",
+  "section": "Item 28",
+  "confidence": "high",
+  "quote": "Contractor is required to sign this document and return and deliver all items or perform all work requirements identified on this form and any continuation sheets for the consideration stated in this contract."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 2,
+  "verb": "shall",
+  "section": "Item 28",
+  "confidence": "review",
+  "quote": "The rights and obligations of the parties to this contract shall be governed by (a) this contract award, (b) the solicitation, and (c) the clauses, representations, certifications, and specifications incorporated by reference in or attached to this contract."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 2,
+  "verb": "conditional",
+  "section": "Item 17",
+  "confidence": "review",
+  "quote": "17. The offeror agrees to perform the work required at the prices specified below in strict accordance with the terms of this solicitation, if this offer is accepted calendar days after the date offers are due. (Insert any number equal to or greater than the minimum requirementby the Government in w"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 2,
+  "verb": "imperative",
+  "section": "Item 24",
+  "confidence": "review",
+  "quote": "24. SUBMIT INVOICES TO ADDRESS SHOWN IN (4 copies unless otherwise specified)"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 2,
+  "verb": "required",
+  "section": "Item 28",
+  "confidence": "review",
+  "quote": "28. NEGOTIATED AGREEMENT (Contractor is required to sign this document and return and deliver all items or perform all work requirements identified on this form and any continuation sheets for the consideration stated in this contract. The rights and obligations of the parties to this contract shall"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 13,
+  "verb": "must",
+  "section": "00 21 13 / 4.2",
+  "confidence": "review",
+  "quote": "All questions and requests for information (RFI) must be received NO LATER THAN 2:00PM . BIDDERS ARE STRONGLY ENCOURAGED TOMDT 21 August 2026 SUBMIT QUESTIONS EARLY IN THIS PROCESS."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 14,
+  "verb": "declaration",
+  "section": "5",
+  "confidence": "review",
+  "quote": "5. : ELECTRONIC SUBMISSION OF BIDS (TABS A-E), TO INCLUDE E-SUBMISSION OF BIDS MAIL, AND FACSIMILE TRANSMISSIONS ARE NOT AUTHORIZED."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 16,
+  "verb": "shall",
+  "section": "12.b",
+  "confidence": "review",
+  "quote": "The SF1442 shall beTAB B: Signed and completed SF 1442 along with any amendments submitted fully completed."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 16,
+  "verb": "must",
+  "section": "12.d",
+  "confidence": "review",
+  "quote": "Letter must indicate the bidder's ability to obtainTAB D: Letter from Bonding Company performance and payment bonds in the amount of their bid."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 16,
+  "verb": "declaration",
+  "section": "12.e",
+  "confidence": "review",
+  "quote": "Per FAR 52.228-1;TAB E: Bid Bond Guarantee Failure to furnish a bid guarantee in the proper form and amount, by the time set for opening of bids, may be cause for rejection of the bid."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 16,
+  "verb": "shall",
+  "section": "12.a",
+  "confidence": "review",
+  "quote": "Coversheet shall be on company letterhead and must contain your UEITAB A: Cover Sheet. number, CAGE code, Tax ID, and authorized representative(s) who can obligate your company contractually, sign the bid, and sign, other contract actions; include telephone number with area code and complete email a"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 16,
+  "verb": "shall",
+  "section": "12.c",
+  "confidence": "review",
+  "quote": "The Bidders shall provide page 3 and 4 of theTAB C: CLIN Price and Total Contract Amount. solicitation pricing each CLIN individually and include the OVERALL contract price."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 17,
+  "verb": "shall",
+  "section": "12.f",
+  "confidence": "review",
+  "quote": "Bidders shall submit a list of proposed subcontractors asTAB F: Subcontractor List (EMAIL) an attachment to their bid."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 17,
+  "verb": "shall",
+  "section": "12.g",
+  "confidence": "review",
+  "quote": "The bidder shall ensure thatTAB G: REPRESENTATIONS, CERTIFICATIONS (EMAIL) their business has completed an online Representations and Certifications at the System and Awards Management (SAM) website, which may be found at https://www.sam.gov/portal/public/SAM//."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 37,
+  "verb": "declaration",
+  "section": "Section 00 45 00",
+  "confidence": "review",
+  "quote": "52.203-18 Prohibition on Contracting with Entities that Require Certain Internal Confidentiality Agreements or Statements- Representation."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 41,
+  "verb": "conditional",
+  "section": "52.219-1(c)(2)",
+  "confidence": "review",
+  "quote": "(2) [ Complete only if the offeror represented itself as a small business concern in paragraph (c) The offeror represents that it is, is not a women-owned small (1) of this provision.] disadvantage business concern."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 41,
+  "verb": "declaration",
+  "section": "52.219-1(c)(3)",
+  "confidence": "review",
+  "quote": "(3) The Women-owned small business (WOSB) joint venture eligible under the WOSB Program. offeror represents as part of its offer that it is, is not a joint venture that complies with the requirements of 13 CFR 127.506(a) through (c)."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 41,
+  "verb": "declaration",
+  "section": "52.219-1(c)(4)",
+  "confidence": "review",
+  "quote": "(4) The Economically disadvantaged women-owned small business (EDWOSB) joint venture. offeror represents as part of its offer that it is, is not a joint venture that complies with the requirements of 13 CFR 127.506(a) through (c)."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 41,
+  "verb": "conditional",
+  "section": "52.219-1(c)(5)",
+  "confidence": "review",
+  "quote": "(5) . [ SDVOSB joint venture eligible under the SDVOSB Program Complete only if the offeror is ]. The offeror represents as part of its offer that it is, is not a certified as a SDVOSB concern SDVOSB joint venture eligible under the SDVOSB Program that complies with the requirements of 13 CFR 128.40"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 41,
+  "verb": "conditional",
+  "section": "52.219-1(c)(6)",
+  "confidence": "review",
+  "quote": "(6) [ HUBZone joint venture eligible under the HUBZone Program. Complete only if the offeror is ] The offeror represents, as part of its offer, that it is, is not a HUBZone small business concern. a HUBZone joint venture that complies with the requirements of 13 CFR 126.616(a) through (c)."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 49,
+  "verb": "will",
+  "section": "252.219-7010",
+  "confidence": "review",
+  "quote": "The will notify the Contracting____ [insert name of SBA's contractor] MICC Fort Bliss Officer in writing immediately upon entering an agreement (either oral or written) to transfer all or part of its stock or other ownership interest to any other party."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 56,
+  "verb": "conditional",
+  "section": "52.211-12",
+  "confidence": "review",
+  "quote": "(a) If the Contractor fails to complete the work within the time specified in the contract, the Contractor shall pay liquidated damages to the Government in the amount of for$1,605.54 each calendar day of delay until the work is completed or accepted."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 70,
+  "verb": "shall",
+  "section": null,
+  "confidence": "high",
+  "quote": "(d) . To permit evaluation of requests under paragraph (c) of this clause based on Data unreasonable cost, the Contractor shall include the following information and any applicable supporting data based on the survey of suppliers:"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 75,
+  "verb": "shall",
+  "section": "Performance-Based Payments (Apr 2012), para (a)",
+  "confidence": "review",
+  "quote": "Subject to such other limitations and Amount of payments and limitations on payments conditions as are specified in this contract and this clause, the amount of payments and limitations on payments shall be specified in the contract's description of the basis for payment."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 77,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "other applicable clauses of this contract ( the termination clauses) shall determine the handling and disposition of the e.g., property."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 77,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "Before delivery to and acceptance by the Government, the Contractor shall Risk of loss bear the risk of loss for property, the title to which vests in the Government under this clause, except to the extent the Government expressly assumes the risk."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 78,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "The Contractor shall promptly furnish reports, certificates, Reports and Government access financial statements, and other pertinent information requested by the Contracting Officer for the administration of this clause and to determine that an event or other criterion prompting a financing payment "
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 78,
+  "verb": "conditional",
+  "section": null,
+  "confidence": "review",
+  "quote": "If this contract is terminated under the Default clause, (1) the Special terms regarding default Contractor shall, on demand, repay to the Government the amount of unliquidated performance- based payments"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 78,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "The Contractor's request Content of Contractor's request for performance-based payment for performance-based payment shall contain the following:"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 88,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "(c) To access WAWF, the Contractor shall- WAWF access. (1) Have a designated electronic business point of contact in the System for Award Management at https://www.sam.gov; and (2) Be registered to use WAWF at https://wawf.eb.mil/ following the step-by-step procedures for self-registration available"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 88,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "(f) The Contractor shall use the following information when WAWF payment instructions. submitting payment requests and receiving reports in WAWF for this contract or task or delivery order:"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 88,
+  "verb": "shall",
+  "section": "252.232-7006",
+  "confidence": "high",
+  "quote": "(1) The Contractor shall submit payment requests using the following Document type. document type(s):"
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 89,
+  "verb": "shall",
+  "section": "252.232-7006",
+  "confidence": "high",
+  "quote": "(3) The Contractor shall use the information in the Routing Data Document routing. Table below only to fill in applicable fields in WAWF when creating payment requests and receiving reports in the system."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 90,
+  "verb": "shall",
+  "section": "(4) Payment request.",
+  "confidence": "review",
+  "quote": "The Contractor shall ensure a payment request includes Payment request. documentation appropriate to the type of payment request in accordance with the payment clause, contract financing clause, or Federal Acquisition Regulation 52.216-7, Allowable Cost and Payment, as applicable."
+ },
+ {
+  "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+  "citedPage": 90,
+  "verb": "shall",
+  "section": "(5) Receiving report.",
+  "confidence": "review",
+  "quote": "The Contractor shall ensure a receiving report meets the Receiving report. requirements of DFARS Appendix F."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 23,
+  "verb": "must",
+  "section": "5.1 Tab 1",
+  "confidence": "high",
+  "quote": "As required by FAR 52.215-1(c)(2)(i)-(v), the proposal cover sheet must include the following items: 1. Solicitation Number. 2. The name, address, CAGE code, and telephone numbers of the offeror. 3. A statement specifying the extent of agreement with all terms, conditions, and provisions Included in"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 42,
+  "verb": "conditional",
+  "section": "252.204-7017(e)",
+  "confidence": "high",
+  "quote": "If the Offeror has represented in paragraph (d) of this provision that it \"will provide covered defense telecommunications equipment or services,\" the Offeror shall provide the following information as part of the offer:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 47,
+  "verb": "shall",
+  "section": "52.228-15(c)",
+  "confidence": "high",
+  "quote": "The Contractor shall furnish all executed bonds, including any necessary reinsurance agreements, to the Contracting Officer, within the time period specified in the Bid Guarantee provision of the solicitation, or otherwise specified by the Contracting Officer, but in any event, before starting work."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 50,
+  "verb": "declaration",
+  "section": "252.204-7998 Alt A (g)",
+  "confidence": "high",
+  "quote": "The Offeror has completed the annual representations and certifications electronically via the SAM website at https://www.sam.gov After reviewing the SAM database information, the Offeror verifies by submission of the offer that the representations and certifications currently posted electronically "
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 69,
+  "verb": "declaration",
+  "section": "52.219-28(b)(3)",
+  "confidence": "high",
+  "quote": "(3) For long-term contracts- (i) Within 60 to 120 days prior to the end of the fifth year of the contract; and (ii) Within 60 to 120 days prior to the date specified in the contract for exercising any option thereafter."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 74,
+  "verb": "conditional",
+  "section": "52.232-5(c)",
+  "confidence": "review",
+  "quote": "However, if the Contractor elects to delete paragraph (c)(4) from the certification, the certification is still acceptable."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 85,
+  "verb": "shall",
+  "section": "00 73 00",
+  "confidence": "high",
+  "quote": "The contractor shall procure and maintain during the entire period of contract performance under this contract the following minimum insurance:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 124,
+  "verb": "shall",
+  "section": null,
+  "confidence": "review",
+  "quote": "EMPLOYEES PERFORMING WORK COVERED HEREIN SHALLW912P726RA022"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 153,
+  "verb": "conditional",
+  "section": "01 11 00 1.6.1",
+  "confidence": "high",
+  "quote": "Should the Contractor appear to be negligent in furnishing adequate warning and protective measures, the Contracting Officer or delegated representative will direct attention to the existence of a hazard, and the necessary warning and protective measures shall be furnished and installed by the Contr"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 153,
+  "verb": "shall",
+  "section": "PWS 1.6",
+  "confidence": "high",
+  "quote": "the necessary warning and protective measures shall be furnished and installed by the Contractor without additional cost to the Government."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 159,
+  "verb": "imperative",
+  "section": "01 32 01.00 10 3.3.1",
+  "confidence": "high",
+  "quote": "Develop the Project Schedule to the appropriate level of detail to address major milestones and to allow for satisfactory project planning and execution."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 164,
+  "verb": "must",
+  "section": "3.3.14 Original Durations",
+  "confidence": "high",
+  "quote": "Activity Original Durations (OD) must be reasonable to perform the work item."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 167,
+  "verb": "imperative",
+  "section": "3.5.3.4",
+  "confidence": "high",
+  "quote": "Group activities by CLIN number and sort by activity number."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 168,
+  "verb": "imperative",
+  "section": "3.7",
+  "confidence": "high",
+  "quote": "Also prepare a time impact analysis for each Government request for proposal (RFP) to justify time extensions."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 173,
+  "verb": "shall",
+  "section": "1.1",
+  "confidence": "high",
+  "quote": "Unless otherwise indicated in this contract, each required service shall include field-to-finish effort performed in accordance with the standards and specifications in EM 1110-2-1003."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 176,
+  "verb": "shall",
+  "section": "1.8",
+  "confidence": "high",
+  "quote": "The Contractor shall also submit two fully post-processed XYZ datasets from a 500-foot by 500-foot bordered area within the project limits: one collected at dead-slow speed with 100 percent coverage, and one collected at normal survey speed with 100 percent coverage."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 178,
+  "verb": "shall",
+  "section": "01 32 23 3.1.3.d",
+  "confidence": "high",
+  "quote": "A survey quality multibeam echo sounder shall be used for work performed on this contract."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 185,
+  "verb": "imperative",
+  "section": "1.9(a)",
+  "confidence": "high",
+  "quote": "Allow for potential resubmittal of requirements."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 187,
+  "verb": "required",
+  "section": "1.12",
+  "confidence": "high",
+  "quote": "Approval or acceptance does not relieve the Contractor of the responsibility for any error that may exist, because under the Quality Control (QC) requirements of this contract, the Contractor is responsible for ensuring information contained within each submittal accurately conforms with the require"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 198,
+  "verb": "shall",
+  "section": "1.6.1.2.2",
+  "confidence": "high",
+  "quote": "this person shall have the ability to understand and follow through on the air sampling, PPE, and instructions of a Marine Chemist, Coast Guard authorized persons, or Certified Industrial Hygienist."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 198,
+  "verb": "shall",
+  "section": "1.6.1.2.2",
+  "confidence": "high",
+  "quote": "Since this work involves marine operations that handle combustible or hazardous materials, this person shall have the ability to understand and follow through on the air sampling, PPE, and instructions of a Marine Chemist, Coast Guard authorized persons, or Certified Industrial Hygienist."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 202,
+  "verb": "must",
+  "section": "PWS 1.8",
+  "confidence": "high",
+  "quote": "AHAs must be signed by the SSHO, Superintendent, QC Manager and the subcontractor Foreman performing the work."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 204,
+  "verb": "imperative",
+  "section": "PWS 1.12.2",
+  "confidence": "high",
+  "quote": "Conduct an accident investigation for any load handling equipment accident (including rigging accidents) to establish the root cause(s) of the accident."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 205,
+  "verb": "conditional",
+  "section": "PWS 1.13",
+  "confidence": "high",
+  "quote": "When starting work in the facility, the Contractor shall require personnel to familiarize themselves with the location of the nearest fire alarm boxes and place in memory the emergency Fire Division phone number."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 206,
+  "verb": "required",
+  "section": "PWS 1.14",
+  "confidence": "high",
+  "quote": "Reduced speed is required where there is a concentration of boats."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 208,
+  "verb": "shall",
+  "section": "01 35 26",
+  "confidence": "review",
+  "quote": "In addition to the requirements of EM 385-1-1, PFDs shall be worn in the following locations and for the following operations:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 210,
+  "verb": "imperative",
+  "section": "3.3.2",
+  "confidence": "high",
+  "quote": "Protect employees from fall hazards as specified in EM 385-1-1."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 211,
+  "verb": "conditional",
+  "section": "PWS 3.3.5",
+  "confidence": "high",
+  "quote": "When personal fall arrest systems are used, ensure that the mishap victim can self-rescue or can be rescued promptly should a fall occur."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 212,
+  "verb": "imperative",
+  "section": "PWS 3.4.2.d",
+  "confidence": "high",
+  "quote": "Comply with ASME B30.5 for mobile and locomotive cranes, ASME B30.22 for articulating boom cranes, ASME B30.3 for construction tower cranes, ASME B30.8 for floating cranes and floating derricks, ASME B30.9 for slings, ASME B30.20 for below the hook lifting devices and ASME B30.26 for rigging hardwar"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 218,
+  "verb": "shall",
+  "section": "01 35 26 3.8.5",
+  "confidence": "high",
+  "quote": "The Contractor shall display signal lights and conduct operations in accordance with the General Regulations of the Department of the Army, the Coast Guard governing lights and day signals to be displayed by towing vessels with tows on which no signals can be displayed, vessels working on wrecks, dr"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 219,
+  "verb": "must",
+  "section": "01 35 26 3.10.1",
+  "confidence": "high",
+  "quote": "Contractor AIS must be capable of providing information automatically and continuously to the VTS base station and other vessels, receiving and processing information from other sources, responding to high priority and safety related calls with a minimum delay, and providing positional and maneuveri"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 228,
+  "verb": "imperative",
+  "section": "3.3.3",
+  "confidence": "high",
+  "quote": "In addition to CQC personnel specified elsewhere in the contract, provide as part of the CQC organization specialized personnel to assist the CQC System Manager for the following areas: environmental and submittals clerk,"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 231,
+  "verb": "imperative",
+  "section": "3.6.1",
+  "confidence": "high",
+  "quote": "Perform the following activities and record and provide the following data: a. Verify that testing procedures comply with contract requirements. b. Verify that facilities and testing equipment are available and comply with testing standards. c. Check test instrument calibration data against certifie"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 240,
+  "verb": "imperative",
+  "section": "1.7.4",
+  "confidence": "high",
+  "quote": "Track transmittals and update the submittal register in RMS on a daily basis throughout the duration of the contract."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 259,
+  "verb": "imperative",
+  "section": "3.1",
+  "confidence": "high",
+  "quote": "Preserve the natural resources within the project boundaries and outside the limits of permanent work."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 260,
+  "verb": "conditional",
+  "section": "3.4.1",
+  "confidence": "high",
+  "quote": "Upon such discovery or find, immediately notify the Government so that the appropriate authorities may be notified and a determination made as to their significance and what, if any, special disposition of the finds should be made."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 261,
+  "verb": "conditional",
+  "section": "3.6.1",
+  "confidence": "high",
+  "quote": "Include the name, physical address, and telephone number of the hauler, if transported by a franchised solid waste hauler."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 263,
+  "verb": "conditional",
+  "section": "3.7.4.1",
+  "confidence": "high",
+  "quote": "In the event of any releases of oil and hazardous substances, chemicals, or gases; immediately notify the Fire Department, Government and the state or local authority."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 265,
+  "verb": "imperative",
+  "section": "3.13",
+  "confidence": "high",
+  "quote": "Keep construction activities under surveillance and control to minimize environment damage by noise."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 272,
+  "verb": "shall",
+  "section": "SECTION 35 20 23 1.3.2",
+  "confidence": "review",
+  "quote": "Dredge inspectors shall be provided with hand-held GPS equipment to verify dredge disposal in SF-DODS."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 279,
+  "verb": "conditional",
+  "section": "PWS 3.1.1",
+  "confidence": "high",
+  "quote": "DQM certification is contingent upon the Contractor’s system’s ability to meet the performance requirements as outlined in SYSTEM TECHNICAL REQUIREMENTS and OPERATIONAL PERFORMANCE, REPORTING AND QA, including all subparagraphs."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 279,
+  "verb": "must",
+  "section": "3.1.2",
+  "confidence": "review",
+  "quote": "Any changes must be reported in theW912P726RA022 Page 279 of 645SOLICITATION sensor log section of the DPIP."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 280,
+  "verb": "will",
+  "section": "3.1.3",
+  "confidence": "high",
+  "quote": "The Contractor will coordinate pickup times and locations and provide transportation to and from any vessel with a DQM system to team personnel in a timely manner."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 282,
+  "verb": "must",
+  "section": "PWS 3.2.5",
+  "confidence": "high",
+  "quote": "A data point must be recorded within 1 second of the hull status going from closed to open and again within 1 second of the hull status going from open to closed."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 282,
+  "verb": "required",
+  "section": "3.2.4",
+  "confidence": "high",
+  "quote": "All data strings contain a minimum of two data parameters, a plant identifier assigned by the DQM Center and a Coordinated Universal Time (UTC) stamp based on a 24-hour format (YYYY-MM-DD HH:MM:SS)."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 293,
+  "verb": "will",
+  "section": "3.5.3.10",
+  "confidence": "review",
+  "quote": "The values will be positive below the surface and negative above the surface of the water."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 303,
+  "verb": "must",
+  "section": "3.6.2.6",
+  "confidence": "high",
+  "quote": "E-mail alerts for any disposal trip must be sent within 24 hours of the end of that trip to EPA Region 9, the San Francisco District USACE, the relevant National Marine Sanctuary if the event triggering the alert occurred in whole or in part within a Sanctuary boundary, by e-mail to the government a"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 305,
+  "verb": "shall",
+  "section": "3.6.5",
+  "confidence": "high",
+  "quote": "Reports shall include: 1. Description of reportable deficiency tracking incident. 2. Cause of deficiency. 3. Description of repair and/or tests performed and/or required by the Government. 4. Description of process used to determine that repairs were successful. 5. Certification of repairs by the Co"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 324,
+  "verb": "required",
+  "section": "APP Worksheet Part 4",
+  "confidence": "high",
+  "quote": "Prime contractor is responsible for the implementation and enforcement of the SOH program for contractor employees, subcontractors, suppliers, and visitors at the site of work?"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 324,
+  "verb": "conditional",
+  "section": "APP Worksheet Part 4",
+  "confidence": "high",
+  "quote": "If all subcontractor(s) and supplier(s) are not known at the time of initial APP submittal, Appendix 2 will be updated and resubmitted to the KO/COR for acceptance prior to the start of any work activities."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 325,
+  "verb": "will",
+  "section": "APP Worksheet Part 5",
+  "confidence": "high",
+  "quote": "All employees will be trained according to applicable EM 385-1-1, federal, state, and local requirements prior to the commencement of work."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 325,
+  "verb": "declaration",
+  "section": "APP Worksheet Part 6",
+  "confidence": "review",
+  "quote": "Proof of inspector's training/qualification is included in Appendix 3."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 326,
+  "verb": "will",
+  "section": "APP Worksheet Part 8",
+  "confidence": "high",
+  "quote": "APP and AHAs will be prepared by a QP or CP according to the EM 385-1-1 prior to the start of any work activities on the site of work (as much as the information can be known at that point in time)."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 326,
+  "verb": "must",
+  "section": "APP Worksheet Part 8",
+  "confidence": "high",
+  "quote": "Additional revisions must be incorporated as necessary to reflect changing site conditions, construction methods, personnel roles and responsibilities and construction schedules."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 326,
+  "verb": "will",
+  "section": "APP Worksheet Part 8",
+  "confidence": "high",
+  "quote": "No activity/work will be started at the site of work until the APP is reviewed and submitted to the KO/COR for acceptance, with the site-specific plans and procedures required by the EM 385-1-1 to complete the project?"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 327,
+  "verb": "will",
+  "section": "APP Worksheet Part 10",
+  "confidence": "high",
+  "quote": "No work will begin on an activity/DFOW until the initial AHA addressing the project-specific hazards has been developed, reviewed, and accepted by the KO/COR."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 327,
+  "verb": "will",
+  "section": "APP Worksheet Part 10",
+  "confidence": "high",
+  "quote": "Workers/crews will have accepted AHA(s) that reflects current site conditions, personnel, equipment, control measures, etc. while the work is being performed?"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 328,
+  "verb": "will",
+  "section": "APP Worksheet Part 11",
+  "confidence": "high",
+  "quote": "Based on a risk assessment of contracted activities and on mandatory OSHA compliance programs, the contractor will ensure that all applicable SOH risks and associated compliance plans are in place."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 328,
+  "verb": "will",
+  "section": "APP Worksheet Part 11",
+  "confidence": "high",
+  "quote": "The plans will incorporate project-wide procedures to control hazards to which the employees of all project employers may be exposed."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 328,
+  "verb": "will",
+  "section": "APP Worksheet Part 11",
+  "confidence": "high",
+  "quote": "These plans and procedures will be coordinated with all project employers and be included in project-specific emergency response and evacuation procedures."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 342,
+  "verb": "shall",
+  "section": "EM 385-1-1, Section 01, Para 01.D.05",
+  "confidence": "review",
+  "quote": "As a minimum , these records shall include exposure work hours and a record of occupational injuries and illnesses that include the data elements listed below."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 342,
+  "verb": "conditional",
+  "section": "EM 385-1-1, Section 01, Para 01.D.05",
+  "confidence": "high",
+  "quote": "If data on log provided below is revised after it is submitted to USACE, Contractor shall provide a revised report to the GDA."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 362,
+  "verb": "will",
+  "section": "17. Avoidance, Minimization, and Compensatory Mitigation Measures for Entrainment Impacts",
+  "confidence": "review",
+  "quote": "To avoid, minimize, and compensate for the entrainment impacts described above, USACE will implement measures included in the Project as described in EA/EIR Section 2.3.1.5 and the application for this Order, as well as the mitigation required in Provision 10 of this Order."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 364,
+  "verb": "will",
+  "section": "EA/EIR 2.3.1.5",
+  "confidence": "review",
+  "quote": "Under all phases of the Project, hopper dredging will be conducted in accordance with the following hydraulic dredging standard practices included in the EA/EIR section 2.3.1.5 to avoid and minimize entrainment impacts to less than significant, including:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 370,
+  "verb": "shall",
+  "section": "Order (Ordering Clause)",
+  "confidence": "review",
+  "quote": "IT IS HEREBY ORDERED, pursuant to the provisions of Division 7 of the California Water Code and regulations adopted thereunder and other State regulations, as applicable, and to the provisions of the federal Clean Water Act, as amended, and regulations and guidelines adopted thereunder, that USACE s"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 371,
+  "verb": "shall",
+  "section": "Order C.3",
+  "confidence": "review",
+  "quote": "All post-dredge and monitoring reports required by this Order shall be submitted to the Water Board no later than June 30 each year through 2030, unless specified elsewhere in this Order."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 373,
+  "verb": "shall",
+  "section": "Order C.8",
+  "confidence": "review",
+  "quote": "The report shall contain the following information:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 375,
+  "verb": "shall",
+  "section": "Order C.12",
+  "confidence": "review",
+  "quote": "A written notification of an adverse condition shall be submitted to the Water Board within 30 days of occurrence, except that for petroleum products and hazardous substances discharges, notification shall be to the California Office of Emergency Services as soon as there is knowledge of the dischar"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 396,
+  "verb": "declaration",
+  "section": "Special Condition C.2",
+  "confidence": "review",
+  "quote": "The dredge schedule should include all proposed projects for the calendar year and the estimated start and finish date, any projects anticipated to dredge outside of the environmental work windows, and the contracting schedule."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 397,
+  "verb": "shall",
+  "section": "Special Condition E - Sampling Analysis Results (SAR)",
+  "confidence": "review",
+  "quote": "USACE shall submit SARS in report form to the Commission staff and the DMMO for review and decision on the suitability of the sediment for the proposed disposal or placement site."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 402,
+  "verb": "shall",
+  "section": "LOA H",
+  "confidence": "high",
+  "quote": "At a minimum, the plan shall include the following elements: (a) On-board monitoring during active dredging; (b) Sampling during all phases of the dredging cycle; (c) Sampling both drag-arms to capture a greater percentage of the pump volume during active dredging; (d) Sampling associated with flood"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 403,
+  "verb": "shall",
+  "section": "Mitigation for Entrainment of Native and Listed Species",
+  "confidence": "high",
+  "quote": "To calculate acreage of mitigation credits needed the USACE shall use the actual volume of water and sediment pumped by the hopper dredge in the equation below:"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 405,
+  "verb": "shall",
+  "section": "Eelgrass",
+  "confidence": "high",
+  "quote": "With 60 days of completion of the post dredge eelgrass survey, the USACE shall provide a copy of the light monitoring report, inclusive of the pre-dredge and post dredge eelgrass surveys, and an analysis of any changes to the eelgrass beds within 250 meters of dredging activity."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 406,
+  "verb": "conditional",
+  "section": "M. Changes to Commission Laws, Policies, and Regulations",
+  "confidence": "review",
+  "quote": "If, at any time during the effective life of this Letter of Agreement, the Commission's laws, Bay Plan policies, or regulations are changed and are in effect as enforceable policies of the Commission's certified coastal management program under the federal Coastal Zone Management Act regarding dredg"
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 421,
+  "verb": "conditional",
+  "section": "D. Mitigation",
+  "confidence": "high",
+  "quote": "Special Condition II – H.5 requires the use of an equation to calculate the amount of mitigation credits that would be provided if an appropriate mitigation bank is available."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 636,
+  "verb": "shall",
+  "section": "Special Condition 10",
+  "confidence": "high",
+  "quote": "In addition to the requirement in Special Condition 7 above for posting data on the Web, the permittee shall maintain daily records for each disposal trip to include: the Scow Certification Checklist; the amount of material dredged and loaded into barges for disposal; the location (reach, stations, "
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 4,
+  "verb": "required",
+  "section": "Item 28",
+  "confidence": "review",
+  "quote": "Contractor is required to sign this document and return and deliver all items or perform all work requirements identified on this form and any continuation sheets for the consideration stated in this contract."
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 5,
+  "verb": "must",
+  "section": "SF 24",
+  "confidence": "high",
+  "quote": "Date Bond Executed (Must Not Be Later Than Bid Opening Date)"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 29,
+  "verb": "declaration",
+  "section": "Section 00 21 00",
+  "confidence": "high",
+  "quote": "FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.204-7 System for Award Management. Nov 2024 52.204-22 Alternative Line Item Proposal. Jan 2017 52.222-5 Construction Wage Rate Requirements-Secondary Site of the Work. May 2014 DFARS Cl"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 31,
+  "verb": "declaration",
+  "section": "Section 00 21 13",
+  "confidence": "high",
+  "quote": "FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.214-3 Amendments to Invitations for Bids. Dec 2016 52.214-4 False Statements in Bids. Apr 1984 52.214-5 Submission of Bids. Dec 2016 52.214-6 Explanation to Prospective Bidders. Apr 198"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 32,
+  "verb": "declaration",
+  "section": "Section 00 21 16",
+  "confidence": "high",
+  "quote": "FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.204-16 Commercial and Government Entity Code Reporting. Aug 2020"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 34,
+  "verb": "declaration",
+  "section": "Section 00 45 00",
+  "confidence": "high",
+  "quote": "FAR Clauses Incorporated by Reference Number Title Effective Date Alternate/ Deviation Variation Effective Date 52.204-24 Representation Regarding Certain Telecommunications and Video Surveillance Services or Equipment. Nov 2021 52.209-7 Information Regarding Responsibility Matters. Oct 2018 DFARS C"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 57,
+  "verb": "shall",
+  "section": "(c)",
+  "confidence": "review",
+  "quote": "The Contractor shall include in each subcontract for property or services (including a material supplier) for the purpose of performing this contract the following:"
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 61,
+  "verb": "declaration",
+  "section": null,
+  "confidence": "review",
+  "quote": "However, the Contractor's share of collateral savings will not exceed the contract's firm-fixed-price or estimated cost, at the time the VECP is accepted, or $100,000, whichever is greater."
+ },
+ {
+  "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+  "citedPage": 62,
+  "verb": "conditional",
+  "section": "252.215-7008",
+  "confidence": "review",
+  "quote": "(a) Cost or pricing data requirements. After initial submission of offers, if the Contracting Officer notifies the Offeror that only one offer was received, the Offeror agrees to- (1) Submit any additional cost or pricing data that is required in order to determine whether the price is fair and reas"
+ }
+]

@@ -1,0 +1,62 @@
+[
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 115,
+  "actualPage": 113,
+  "delta": -2,
+  "tier": "exact",
+  "verb": "shall",
+  "section": null,
+  "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 117,
+  "actualPage": 113,
+  "delta": -4,
+  "tier": "exact",
+  "verb": "shall",
+  "section": null,
+  "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 119,
+  "actualPage": 114,
+  "delta": -5,
+  "tier": "exact",
+  "verb": "shall",
+  "section": null,
+  "quote": "THOSE WHO WORK INSIDE RECENTLY ACTIVE, LARGE DIAMETER SEWERS, AND ALL RECENTLY ACTIVE SEWER MANHOLES SHAL RECEIVE $5.00 PER DAY ABOVE GROUP 1 WAGE RATES."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 125,
+  "actualPage": 113,
+  "delta": -12,
+  "tier": "exact",
+  "verb": "shall",
+  "section": null,
+  "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 287,
+  "actualPage": 295,
+  "delta": 8,
+  "tier": "exact",
+  "verb": "imperative",
+  "section": "3.5.1.11",
+  "quote": "Report all draft measurements in decimal feet with an accuracy of ± 0.1 ft and a resolution of 0.01 ft relative to observed physical draft readings in calm water."
+ },
+ {
+  "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+  "citedPage": 342,
+  "actualPage": 334,
+  "delta": -8,
+  "tier": "alnum",
+  "verb": "shall",
+  "section": "EM 385-1-1, Section 01, Para 01.D.05",
+  "quote": "you (the Prime Contractor) shall provide a monthly record of all exposure and accident experience incidental to the work (this includes exposure and accident experience of the Prime Contractor and its"
+ }
+]
