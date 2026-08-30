@@ -1,0 +1,3846 @@
+{
+  "file": "1616-26__RFP1620000348.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 104,
+  "chunks": 10,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 222,
+  "finalRows": 385,
+  "duplicatesRemoved": 9,
+  "dropped": {
+    "total": 6,
+    "verbatimNotFound": 6,
+    "pageOutOfRange": 0,
+    "invalidShape": 0,
+    "mangled": 0
+  },
+  "reviewFlagged": 91,
+  "coverage": {
+    "verb_occurrences": 265,
+    "captured": 227,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 8
+    },
+    "swept_pages": [
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      56,
+      60,
+      61,
+      63,
+      64,
+      66,
+      77,
+      79,
+      80,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      91,
+      101
+    ],
+    "uncaptured_pages": [
+      35,
+      43,
+      53,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      66,
+      75,
+      81,
+      83,
+      101
+    ],
+    "unresolved": 20,
+    "unresolved_items": [
+      {
+        "page": 61,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Payment shall be made for items accepted by the Government that have been delivered to the delivery destinations set forth in this contract."
+      },
+      {
+        "page": 61,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "In connection with any discount offered for early payment, time shall be computed from the date of the invoice."
+      },
+      {
+        "page": 61,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "For the purpose of computing the discount earned, payment shall be considered to have been made on the date that appears on the payment check or the specified payment date if an electronic funds trans"
+      },
+      {
+        "page": 61,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "If the Contractor becomes aware of a duplicate contract financing or invoice payment or that the Government has otherwise overpaid on a contract financing or invoice payment, the Contractor shall— STA"
+      },
+      {
+        "page": 83,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order."
+      },
+      {
+        "page": 63,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Request for Quotation 1620000348 demand for payment included in the final decision shall identify the same due date as the original demand for payment."
+      },
+      {
+        "page": 64,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Subject to the terms of this contract, the Contractor shall be paid a percentage of the contract price reflecting the percentage of the work performed prior to the notice of termination, plus reasonab"
+      },
+      {
+        "page": 66,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "1341), the following shall govern:"
+      },
+      {
+        "page": 66,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "STAIR-CARRY-1-FLIGHTS-E (1) The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor’s "
+      },
+      {
+        "page": 101,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Evaluation of options shall not obligate the Government to exercise the option(s)."
+      },
+      {
+        "page": 101,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "STAIR-CARRY-1-FLIGHTS-E A written notice of award or acceptance of an offer, mailed or otherwise furnished to the successful offeror within the time for acceptance specified in the offer, shall result"
+      },
+      {
+        "page": 35,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "A price reduction shall apply to purchases under this contract if, after the award date, the Contractor- ,,i) Revises downward its commercial catalog, price list, schedule, etc., to its best commercia"
+      },
+      {
+        "page": 43,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "UNICOR shall issue a delivery order or modify an existing"
+      },
+      {
+        "page": 53,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "LCL APPR 16.505(a) and the clause located in FAR 52.216-18 entitled \"Ordering\" and included in Section I, of this contract, any supplies and/or services to be furnished under this contract shall be or"
+      },
+      {
+        "page": 58,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(e) No adjustment shall be made if the referenced change is less than 2%."
+      },
+      {
+        "page": 59,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The Contractor shall only tender for acceptance those items that conform to the requirements of this contract."
+      },
+      {
+        "page": 60,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal, or action arising under or relating to this contract shall be a dispute to be resolve"
+      },
+      {
+        "page": 62,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The interest rate shall be the interest rate established by the Secretary of the Treasury as provided in 41 U.S.C."
+      },
+      {
+        "page": 75,
+        "verb": "is required to",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "STAIR-CARRY-1-FLIGHTS-E Sensitive compartmented information means classified information concerning or derived from intelligence sources, methods, or analytical processes, which is required to be hand"
+      },
+      {
+        "page": 81,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Request for Quotation 1620000348 does not comply with any prohibition in this clause, then the Contractor shall report the following information, or as much information is known, in writing to the con"
+      }
+    ]
+  },
+  "unresolvedBefore": 38,
+  "sweeperNewRows": 150,
+  "sweeperExclusions": [
+    {
+      "page": 40,
+      "quote": "UNICOR will not provide reimbursement for any truck rental fees, unless the customer has been quoted and agreed to pay for the rental.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 40,
+      "quote": "STAIR-CARRY-1-FLIGHTS-E",
+      "rule": "toc-echo"
+    },
+    {
+      "page": 66,
+      "quote": "the following shall govern:",
+      "rule": "government-actor"
+    },
+    {
+      "page": 66,
+      "quote": "Neither the Government nor any Government-authorized end user shall be deemed to have agreed to such clause by virtue of it appearing in the EULA, TOS, or similar legal instrument or agreement.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 66,
+      "quote": "The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor's directly pertinent records involving transactions related to this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 63,
+      "quote": "the final decision shall identify the\nsame due date as the original demand for payment.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 44,
+      "quote": "UNICOR will provide carrier information or\ntransportation logistics website for tracking purposes.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 44,
+      "quote": "UNICOR may\nrequire shipper to call in advance of a delivery but will not be\nrequired to do so.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 44,
+      "quote": "The travel time will be verified\nutilizing the offeror (s) sub-contractors address provided on the final\nshortage sheet.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 44,
+      "quote": "Exceptions for remote locations may be made by UNICOR\ncontracting on a case by case basis.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 101,
+      "quote": "Evaluation of options shall not obligate the Government to exercise the option(s).",
+      "rule": "government-actor"
+    },
+    {
+      "page": 101,
+      "quote": "A written notice of award or acceptance of an offer, mailed or otherwise furnished to the successful offeror within the time for acceptance specified in the offer, shall result in a binding contract without further action by either party.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 101,
+      "quote": "The Government will evaluate offers for award purposes by adding the total price for all options to the total price for the basic requirement.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 43,
+      "quote": "An example of this document will be provided by UNICOR.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 43,
+      "quote": "UNICOR shall issue a delivery order or modify an existing",
+      "rule": "government-actor"
+    },
+    {
+      "page": 60,
+      "quote": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal, or action arising under or relating to this contract shall be a dispute to be resolved in accordance with the clause FAR 52.233-1, Disputes, which is incorporated in this contract by reference.",
+      "rule": "clause-title"
+    },
+    {
+      "page": 41,
+      "quote": "Department of Labor Wage Determinations appropriate to each specific project will be determined as a need is identified.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "The UNICOR Quality Manager at the appropriate factory will issue a Return Authorization or approval of the proper disposition of damaged goods within 10 working days of notification of the damaged product during inspection.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "UNICOR will provide the necessary contact information for this requirement.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "UNICOR will not be responsible for downtime charges if requested delivery time is not met.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "Project management will be carbon copied for their awareness.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 91,
+      "quote": "Government data shall reside",
+      "rule": "government-actor"
+    },
+    {
+      "page": 42,
+      "quote": "NOTE: UNICOR may add services and/or installation product to the\ncontract at a later date through a modification to the awarded contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 64,
+      "quote": "The Government will send a cure notice to the Contractor, unless the reason for the termination is late delivery.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 64,
+      "quote": "the Government shall not be liable to the Contractor for any amount for supplies or services not accepted",
+      "rule": "government-actor"
+    },
+    {
+      "page": 64,
+      "quote": "such termination shall be deemed a termination for convenience.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 61,
+      "quote": "Payment shall be made for items accepted by the\nGovernment that have been delivered to the delivery destinations set\nforth in this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 61,
+      "quote": "In connection with any discount offered for early payment,\ntime shall be computed from the date of the invoice.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 61,
+      "quote": "For the purpose of computing the discount earned, payment shall be considered to have been\nmade on the date that appears on the payment check or the specified\npayment date if an electronic funds transfer payment is made.",
+      "rule": "government-actor"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 122167,
+    "outputTokens": 371889,
+    "cacheReadTokens": 50960,
+    "cacheCreationTokens": 0,
+    "usd": 1.986708
+  },
+  "rows": [
+    {
+      "verbatim": "OFFEROR TO COMPLETE BLOCKS 12, 17, 23, 24, & 30",
+      "normalized": "Offeror must complete blocks 12, 17, 23, 24, and 30 of the form.",
+      "section_ref": "SF-1449 header instruction",
+      "page": 1,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "17b. CHECK IF REMITTANCE IS DIFFERENT AND PUT SUCH ADDRESS IN\nOFFER",
+      "normalized": "Offeror must check the box and provide the remittance address in the offer if it differs from the contractor address.",
+      "section_ref": "Block 17b",
+      "page": 1,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "18b. SUBMIT INVOICES TO ADDRESS SHOWN IN BLOCK 18a UNLESS BLOCK\nBELOW IS CHECKED",
+      "normalized": "Contractor must submit invoices to the address shown in block 18a unless the alternate block is checked.",
+      "section_ref": "Block 18b",
+      "page": 1,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "28. CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN\nCOPIES TO ISSUING OFFICE.",
+      "normalized": "Contractor is required to sign this document and return copies to the issuing office.",
+      "section_ref": "Block 28",
+      "page": 1,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "CONTRACTOR AGREES TO FURNISH AND\nDELIVER ALL ITEMS SET FORTH OR OTHERWISE IDENTIFIED ABOVE AND ON ANY\nADDITIONAL SHEETS SUBJECT TO THE TERMS AND CONDITIONS SPECIFIED",
+      "normalized": "Contractor agrees to furnish and deliver all items identified above and on any additional sheets, subject to the specified terms and conditions.",
+      "section_ref": "Block 28",
+      "page": 1,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "UNICOR FUNDS 15X4500 FUNDS SHALL BE OBLIGATED BY INDIVIDUAL  DELIVERY ORDERS AND NOT BY THE CONTRACT ITSELF",
+      "normalized": "Funds under UNICOR 15X4500 shall be obligated by individual delivery orders and not by the contract itself.",
+      "section_ref": "Block 25 (Accounting and Appropriation Data)",
+      "page": 1,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "27a. SOLICITATION INCORPORATES BY REFERENCE FAR 52.212-1, 52.212-4. FAR 52.212-3 AND 52.212-5 ARE ATTACHED. ADDENDA\n27b. CONTRACT/PURCHASE ORDER INCORPORATES BY REFERENCE FAR 52.212-4. FAR 52.212-5 IS ATTACHED. ADDENDA Coll. No.",
+      "normalized": "Solicitation and resulting contract/order incorporate by reference FAR 52.212-1 and 52.212-4, with FAR 52.212-3 and 52.212-5 attached (consolidated clause-list row).",
+      "section_ref": "Blocks 27a/27b",
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Interested offerors shall read the solicitation in its entirety prior to\nsubmission of any questions,",
+      "normalized": "Offerors must read the entire solicitation before submitting any questions.",
+      "section_ref": "Section B",
+      "page": 33,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All questions shall be submitted in writing\nto Brent Ponder at Brent.Ponder@usdoj.gov and Barbara McMaster at\nBarbara.McMaster@usdoj.gov by Monday, August 25, 2026, @ 2:00 pm EST.",
+      "normalized": "Offerors must submit all questions in writing to Brent Ponder and Barbara McMaster by Monday, August 25, 2026, 2:00 pm EST.",
+      "section_ref": "Section B",
+      "page": 33,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The offer acceptance period is 120 calendar days.",
+      "normalized": "Offeror's offer must remain open/valid (acceptance period) for 120 calendar days.",
+      "section_ref": "Section B",
+      "page": 33,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "THE FOLLOWING INFORMATION IS REQUIRED TO BE COMPLETED BY THE OFFEROR:",
+      "normalized": "Offeror is required to complete the listed identifying information (SAM UEI, POC, phone/fax, email, business size).",
+      "section_ref": "Section B",
+      "page": 33,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "By submission of an offer, the offeror acknowledges the requirement that\na prospective awardee shall be registered in the SAM database (System\nAward Management) prior to award, during performance and through final\npayment of any contract resulting from this solicitation.",
+      "normalized": "Prospective awardee must be registered in SAM prior to award, during performance, and through final payment.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All offerors must complete the following information prior to submission\nof offer to be considered for award, in addition to the requirements of\nSection L.",
+      "normalized": "Offerors must complete the required information prior to proposal submission, in addition to Section L requirements.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide pricing on all services to be performed under this contract\nutilizing the excel pricing sheet attached.",
+      "normalized": "Offeror must provide pricing on all services using the attached Excel pricing sheet.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An electronic copy must be submitted by closing date and time of\nsolicitation.",
+      "normalized": "Offeror must submit an electronic copy by the solicitation closing date and time.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Electronic copy of solicitation must be returned to\nBrent.Ponder@usdoj.gov by offer closing date and listed on the SF1449.",
+      "normalized": "Offeror must return an electronic copy of the solicitation to Brent.Ponder@usdoj.gov by the offer closing date, and list it on the SF1449.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "To be considered for award, a bid must comply in all material respects\nwith the request for proposal.",
+      "normalized": "A bid must comply in all material respects with the RFP to be considered for award.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "must",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offers shall be filled out,\nexecuted, and submitted in accordance with the instructions in the\nproposal.",
+      "normalized": "Offers must be filled out, executed, and submitted in accordance with proposal instructions.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The UEI number and TIN numbers must match your information\non www.sam.gov:",
+      "normalized": "Offeror's UEI and TIN numbers must match the information on SAM.gov.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A copy of the entire proposal shall be\nsent to the two (2) individuals listed below.",
+      "normalized": "Offeror must send a copy of the entire proposal to the two listed individuals.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The proposals shall\nreference FN1616-26.",
+      "normalized": "Proposals must reference solicitation number FN1616-26.",
+      "section_ref": "Section B",
+      "page": 34,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "During the contract period, the Contractor shall report to the\nContracting Officer all price reductions offered to the category of\ncustomers that are considered by the Contractor to be their most favored\nor best commercial customer.",
+      "normalized": "Contractor must report to the CO all price reductions given to its most-favored/best commercial customers during the contract period.",
+      "section_ref": "Section B",
+      "page": 35,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall offer the price reduction to FPI with\nthe same effective date, and for the same time period, as extended to\nthe commercial customer (or category of customers).",
+      "normalized": "Contractor must offer FPI the price reduction with the same effective date and duration as given to the commercial customer.",
+      "section_ref": "Section B",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall notify the Contracting Officer of any price\nreduction subject to this clause as soon as possible, but not later than\n15 calendar days after its effective date.",
+      "normalized": "Contractor must notify the CO of any qualifying price reduction as soon as possible, and no later than 15 calendar days after its effective date.",
+      "section_ref": "Section B",
+      "page": 36,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "successful offeror(s) will be required to\ninstall seating and accessory items.",
+      "normalized": "Successful offeror(s) will be required to install seating and accessory items.",
+      "section_ref": "Section C",
+      "page": 36,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "However, if entry level electrical is noted in the statement of work it\nwill be required to be completed by a certified electrician.",
+      "normalized": "If entry-level electrical work is noted in the SOW, it must be completed by a certified electrician.",
+      "section_ref": "Section C",
+      "page": 37,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The selection and the procurement of the certified electrician should be\ndone by the awarded Offeror(s).",
+      "normalized": "Awarded offeror(s) should select and procure the certified electrician.",
+      "section_ref": "Section C",
+      "page": 37,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Successful offeror(s) shall establish installation facilities in such a\nmanner that receipt, inspection, and delivery of UNICOR product occurs\nby the customer’s due date.",
+      "normalized": "Successful offeror(s) must establish installation facilities to ensure receipt, inspection, and delivery occur by the customer's due date.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "These facilities shall exist sufficiently to receive all product off\nsite serving as a staging area.",
+      "normalized": "Offeror's facilities must be sufficient to receive all product off-site, serving as a staging area.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The facilities shall be properly equipped with equipment to load and\nunload product from delivery trucks, i.e., forklifts and pallet jacks.",
+      "normalized": "Offeror's facilities must be equipped with equipment (e.g., forklifts, pallet jacks) to load/unload delivery trucks.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installers will enter ship to information into SAP within 5 business\ndays of receipt of the award on projects with receive/deliver and notify\nUNICOR project management.",
+      "normalized": "Installers must enter ship-to information into SAP within 5 business days of award receipt and notify UNICOR project management (receive/deliver projects).",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror (s) will forward ship to information to UNICOR project manager\nif UNICOR has not provided SAP access.",
+      "normalized": "If UNICOR has not provided SAP access, offeror must forward ship-to information to UNICOR project manager.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR expects deliveries to be coordinated with the customer within 2\nbusiness days of receipt of the complete order, unless otherwise\ndirected by UNICOR.",
+      "normalized": "Deliveries must be coordinated with the customer within 2 business days of receipt of the complete order, unless otherwise directed.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Installation shall occur within 14 days of receipt of the complete\norder, unless otherwise directed by UNICOR or the customer.",
+      "normalized": "Installation must occur within 14 days of receipt of the complete order, unless otherwise directed.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the successful offeror(s) has not received the complete order by the\nestimated delivery date, they shall notify the UNICOR Project Manager\nimmediately.",
+      "normalized": "If offeror has not received the complete order by the estimated delivery date, they must immediately notify the UNICOR Project Manager.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful offeror (s) will notify the project manager and originating\nfactory of any missing product within 1 business day and any damaged\nproduct within 3 business days of receipt.",
+      "normalized": "Successful offeror(s) must notify the project manager and originating factory of any missing product within 1 business day of receipt.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notification of missing product will include part number and quantity\nwhile notification of damaged product will include both shortage sheet\nand replacement request paperwork.",
+      "normalized": "Notification of missing product must include part number and quantity.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For warehouse deliveries, photographs of packaged product will be taken\nupon delivery to ensure any damages discovered at site did not occur\nwhile in offeror (s) possession.",
+      "normalized": "For warehouse deliveries, photographs of packaged product must be taken upon delivery to document condition.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For receive/deliver items, any concealed carrier damage found when\nunpackaged at site must be photographed prior to installing the product\nin the designated space at site.",
+      "normalized": "Concealed carrier damage found when unpackaged must be photographed before installing the product (receive/deliver items).",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to provide photographs in either case will result in actual\ndamages being assessed to offeror (s).",
+      "normalized": "Failure to provide the required photographs results in actual damages being assessed to offeror.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For all projects that ship to site, within 5 business days of receipt\nof the purchase order, the installer shall contact the customer to set\nup an installation date.",
+      "normalized": "Installer must contact the customer to set up an installation date within 5 business days of receipt of the purchase order (ship-to-site projects).",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The start of the installation should be set to a date within 5 business\ndays of the original estimated delivery date, unless all parties agree\nto a different time frame.",
+      "normalized": "Installation start should be set within 5 business days of the original estimated delivery date, unless parties agree otherwise.",
+      "section_ref": "Section C",
+      "page": 38,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For on-site deliveries, all freight must be fully inventoried within 1\nbusiness day and fully inspected within 2 business days.",
+      "normalized": "For on-site deliveries, all freight must be fully inventoried within 1 business day.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR shall be notified of any damages or discrepancies within those\nrespective time frames.",
+      "normalized": "Offeror must notify UNICOR of any damages or discrepancies within the respective time frames (1/2 business days).",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the event any installer fails to inspect and/or notify the\nappropriate plant and project manager within the appropriate time\nframe, all product replacement costs as well as go-back costs shall be\nat the successful offeror(s) expense.",
+      "normalized": "If installer fails to inspect/notify within the required time frame, product replacement and go-back costs are at the offeror's expense.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If concealed damages are noted, notification will be sent to the\noriginating plant’s quality assurance manager in writing with photos of\nthe damages, so they can file a freight claim.",
+      "normalized": "If concealed damages are noted, offeror must send written notification with photos to the originating plant's QA manager.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A copy of this notice and photos shall also be sent to the UNICOR\nProject Manager.",
+      "normalized": "A copy of the damage notice and photos must also be sent to the UNICOR Project Manager.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful offeror(s) shall note on the bill of lading any visible\ncarrier damages prior to signing for acceptance of the freight unless\ncarriers equipment does not allow for this.",
+      "normalized": "Successful offeror(s) must note visible carrier damages on the bill of lading before signing for freight acceptance, unless carrier equipment does not allow it.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR’s delivery window is 9 am to noon.",
+      "normalized": "Deliveries must occur within UNICOR's delivery window of 9 am to noon.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror(s) are to provide daily receiving reports of any items received,\nand notify UNICOR warehouse shipping contacts and quality managers of\ntruck shortages/damages immediately.",
+      "normalized": "Offeror(s) must provide daily receiving reports of items received.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Project management will be carbon copied for their awareness.",
+      "normalized": "Project management must be carbon copied on notifications for their awareness.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Any noticeable damages noted at time of delivery shall be noted on the\nBOL (bill of lading) or POD (proof of delivery).",
+      "normalized": "Noticeable damages at time of delivery must be noted on the BOL or POD.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Shortage sheets shall be provided for each truck no later than 24 hours\nfrom the time of delivery.",
+      "normalized": "Shortage sheets must be provided for each truck no later than 24 hours from time of delivery.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The truck shortage sheet shall provide a full inventory of all missing\nproducts on that specific truck that are required for installation.",
+      "normalized": "The truck shortage sheet must provide a full inventory of all missing products required for installation.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The damage report (punch list) shall be provided no later than 48 hours\nfrom the time of delivery and shall provide in detail any damages to\nproduct by UNICOR part number.",
+      "normalized": "The damage report (punch list) must be provided no later than 48 hours from the time of delivery.",
+      "section_ref": "Section C",
+      "page": 39,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) are to provide photos of the damages unless prohibited by the customer.",
+      "normalized": "Offeror must provide photos of damages unless the customer prohibits it.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If photos are prohibited by the customer, the installer shall provide a written explanation to the Project Manager and factory quality assurance manager.",
+      "normalized": "If customer prohibits photos, installer shall provide a written explanation to the Project Manager and QA manager.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) shall report all truck shortages, damage report, and site conditions that may result in an untimely completion of an installation.",
+      "normalized": "Offeror shall report all truck shortages, damage reports, and site conditions that may cause untimely completion.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The inspection, final shortage sheet, and final punch sheet shall be completed prior to the completion of the installation.",
+      "normalized": "Offeror shall complete inspection, final shortage sheet, and final punch sheet prior to completion of installation.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror (s) will obtain a signed final punch list from the customer showing what items remain to be completed prior to finishing initial install.",
+      "normalized": "Offeror will obtain a signed final punch list from the customer prior to finishing initial install.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this punch list is not signed and sent, offeror (s) will be responsible for any replacement items that should have been noted on the punch list.",
+      "normalized": "If the punch list is not signed and sent, offeror will be responsible for replacement items that should have been noted on it.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) shall provide a written trip report to the project manager at the end of each day of the installation.",
+      "normalized": "Offeror shall provide a written trip report to the project manager at the end of each installation day.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This trip report will be completed following the format in attachment\nand should include before and after pictures of the site location.",
+      "normalized": "The trip report will follow the attachment format and should include before/after pictures of the site location.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For case goods product that is double stacked, offeror(s) shall provide a forklift rental quote to UNICOR if it is utilized for delivery of product directly to the customer’s installation site only.",
+      "normalized": "If case goods product is double-stacked and a forklift is used for direct delivery to the customer's installation site, offeror shall provide a forklift rental quote to UNICOR.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The quote shall be submitted to the UNICOR Project Manager and UNICOR designated email box prior to the completion of the installation",
+      "normalized": "Offeror shall submit the forklift rental quote to the UNICOR Project Manager and designated email box prior to completion of installation.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the forklift invoice shall be submitted no later than 5 business days after the completed work.",
+      "normalized": "Offeror shall submit the forklift invoice no later than 5 business days after completed work.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to submit the forklift rental quote within the specified time frame will result in the rental cost being assessed to the successful offeror(s).",
+      "normalized": "If offeror fails to submit the forklift rental quote within the specified time frame, the rental cost will be assessed to the offeror.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Costs for damages as a result of the installer or their equipment will be assessed to the installer.",
+      "normalized": "Costs for damages caused by the installer or their equipment will be assessed to the installer.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall be responsible for any damages to the building or property which occurs during delivery and installation.",
+      "normalized": "Contractor shall be responsible for any damages to building or property occurring during delivery and installation.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This responsibility will include repairing or replacing any damages.",
+      "normalized": "Contractor's responsibility for damages will include repairing or replacing the damages.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror will have an acceptable solution for repair or replacement in writing with the customer within 10 business days.",
+      "normalized": "Offeror will provide an acceptable written solution for repair/replacement to the customer within 10 business days.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This agreement must be sent to UNICOR within 10 business days.",
+      "normalized": "Offeror must send the agreement to UNICOR within 10 business days.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "It is incumbent upon the successful offeror(s) to identify and document any existing damages to the building prior to beginning installation.",
+      "normalized": "Offeror is required to identify and document any existing building damages prior to beginning installation.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) will notify the Project Manager of any building damages immediately so that UNICOR may contact",
+      "normalized": "Offeror will notify the Project Manager immediately of any building damages.",
+      "section_ref": null,
+      "page": 40,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Proper measures shall be taken to ensure material is utilized to protect all floors, carpeted areas, and walls from damages and soil during the delivery and installation.",
+      "normalized": "Contractor shall take proper measures to protect floors, carpeted areas, and walls from damage and soil during delivery and installation.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor shall cover the floors with protective materials, i.e., plywood, or similar durable covering.",
+      "normalized": "Contractor shall cover floors with protective materials such as plywood or similar durable covering.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The protective materials shall not be bolted, glued, or stapled to floors, carpeted areas, walls, ceilings, or doors",
+      "normalized": "Contractor shall not bolt, glue, or staple protective materials to floors, carpeted areas, walls, ceilings, or doors.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "but instead shall either be free-standing or braced to not cause any damages.",
+      "normalized": "Contractor shall install protective materials as free-standing or braced so as not to cause damage.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall furnish furniture padding or other acceptable protective materials for the interior of the building, including elevators, door frames, thresholds, and corners.",
+      "normalized": "Contractor shall furnish furniture padding or other acceptable protective materials for building interior, including elevators, door frames, thresholds, and corners.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Under no circumstance shall adhesive tape be used to secure the protective padding.",
+      "normalized": "Contractor shall not use adhesive tape to secure protective padding under any circumstance.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall establish and maintain this protection throughout the project.",
+      "normalized": "Contractor shall establish and maintain protective measures throughout the project.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall at all times keep the job site, including staging and storage areas used by the contractor, free from accumulation of waste material or rubbish.",
+      "normalized": "Contractor shall keep the job site, staging, and storage areas free from accumulation of waste material or rubbish at all times.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This material shall be removed on a daily basis to eliminate the accumulation of debris.",
+      "normalized": "Contractor shall remove waste material daily to eliminate debris accumulation.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Prior to completion of the work, the contractor shall remove from the site all shipping containers, packing, rubbish, unused materials, and other like material belonging to the contractor or used under the contractor's discretion.",
+      "normalized": "Contractor shall remove all shipping containers, packing, rubbish, and unused materials from the site prior to completion of work.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Before and after pictures of the staging area and job site will be included in the daily reports.",
+      "normalized": "Contractor will include before and after pictures of the staging area and job site in daily reports.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All pricing shall be based on the US Department of Labor Wage Determination.",
+      "normalized": "Offeror's pricing shall be based on the US Department of Labor Wage Determination.",
+      "section_ref": "Pricing",
+      "page": 41,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful offeror(s) will be responsible for determining when union scale wages are required.",
+      "normalized": "Successful offeror is responsible for determining when union scale wages are required.",
+      "section_ref": "Pricing",
+      "page": 41,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All offeror (s) are required to bid on all projects, if a bid is not submitted for a project, we will submit a bid from your company based on the contracted price, including volume discounts.",
+      "normalized": "All offerors are required to bid on all projects; if a bid is not submitted, a bid will be submitted on the offeror's behalf based on the contracted price, including volume discounts.",
+      "section_ref": "Pricing",
+      "page": 41,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Pricing shall be based on normal workday schedule.",
+      "normalized": "Offeror's pricing shall be based on a normal workday schedule.",
+      "section_ref": "Pricing",
+      "page": 41,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The protective materials shall not be bolted, glued, or stapled to floors, carpeted areas, walls, ceilings, or doors but instead shall either be free-standing or braced to not cause any damages.",
+      "normalized": "Protective materials shall not be bolted, glued, or stapled to surfaces, but shall be free-standing or braced instead.",
+      "section_ref": null,
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "work performed outside of normal hours will be priced on a case by case\nbasis.",
+      "normalized": "Offeror must price work performed outside normal hours on a case-by-case basis.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This shall be calculated using the contracted prices of each item installed and half of the contracted hourly rate (over-time).",
+      "normalized": "Off-hours work pricing shall be calculated using contracted item prices plus half the contracted hourly rate for overtime.",
+      "section_ref": "Pricing",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Pricing shall be based on a ten (10) workstations per day average.",
+      "normalized": "Pricing shall be based on an average of ten workstations installed per day.",
+      "section_ref": "Pricing",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This shall be used as a general way to determine the length of a project.",
+      "normalized": "The ten-workstations-per-day average shall be used to generally determine project length.",
+      "section_ref": "Pricing",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Successful offeror(s) may be required to install non-furniture items as\npart of our packaged office program to include but not limited to\nlockers, cabinets, etc.",
+      "normalized": "Successful offeror(s) may be required to install non-furniture items (e.g., lockers, cabinets) as part of the packaged office program.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "During the quoting phase of delivery orders,\ninstallation of packaged office items shall only be quoted in labor/man\nhours.",
+      "normalized": "Offeror shall quote installation of packaged office items only in labor/man hours during the quoting phase.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The\nsuccessful offeror(s) will be required to utilize the following part\nnumbers:",
+      "normalized": "Successful offeror(s) will be required to utilize UNICOR's designated installation part numbers.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If an installer is awarded an order that was originally quoted with\nreceive/deliver charges to a warehouse and a request is made by the\ncustomer through the UNICOR Project Manager/installer to change to ship\nto site, the installer shall provide UNICOR a credit for the difference.",
+      "normalized": "If a customer changes a warehouse receive/deliver order to ship-to-site, the installer shall provide UNICOR a credit for the price difference.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "However if the product has shipped to the installer’s warehouse, a\ncredit is not required.",
+      "normalized": "If the product has already shipped to the installer's warehouse, no credit is required.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror(s) shall only utilize the attached Excel spreadsheet and submit\npricing based on the product, location of the Installation site on the\nRegional Map, and scale price quantity range.",
+      "normalized": "Offeror(s) shall use only the attached Excel spreadsheet to submit pricing based on product, installation site location, and scale price quantity range.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) shall complete\nthe Excel spreadsheet in its entirety, providing a price for each item.",
+      "normalized": "Offeror(s) shall complete the Excel spreadsheet in full, providing pricing for every item.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to provide pricing for all items and every region, will result\nin the offeror(s) no longer being considered for award.",
+      "normalized": "Offerors who fail to provide pricing for all items and every region will be excluded from award consideration.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All installers shall perform in a professional manner at all times.",
+      "normalized": "All installers shall perform in a professional manner at all times.",
+      "section_ref": null,
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the installer shall walk through with the customer to inspect the product and installation.",
+      "normalized": "The installer shall walk through with the customer to inspect the product and installation upon completion.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the customer does not identify any deficiencies, the installer shall obtain the customer's signature and date on an Acceptance Form.",
+      "normalized": "If no deficiencies are identified, the installer shall obtain the customer's signature and date on the Acceptance Form.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This acceptance form will clearly note sales order numbers and/or quote numbers of any and all work that was completed.",
+      "normalized": "The acceptance form must note sales order and/or quote numbers for all completed work.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The form will be sent to the project manager as well as the designated acceptance form email inbox that UNICOR will provide upon award.",
+      "normalized": "The installer/contractor must send the form to the project manager and the designated acceptance-form email inbox provided by UNICOR upon award.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This signed acceptance form shall be attached to the invoice and submitted for payment no later than 5 business days after the customer's signature date.",
+      "normalized": "The contractor shall attach the signed acceptance form to the invoice and submit it for payment no later than 5 business days after the customer's signature date.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR shall not be invoiced for installation services until the \"Acceptance Form\" is attached to the invoice.",
+      "normalized": "The contractor shall not invoice UNICOR for installation services until the Acceptance Form is attached to the invoice.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If UNICOR receives an invoice for installation services without the appropriate \"Acceptance Form\" attached, the invoice will be considered improper and will be returned.",
+      "normalized": "If an invoice for installation services is submitted without the Acceptance Form attached, it will be deemed improper and returned to the contractor.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The aging of the invoice will not begin until it is received by UNICOR with the proper documentation.",
+      "normalized": "Invoice aging will not begin until UNICOR receives the invoice with proper documentation, affecting contractor payment timing.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the installer shall verify and note the deficiency on the \"Punch List Form\" provided by UNICOR.",
+      "normalized": "The installer shall verify and note deficiencies on the Punch List Form provided by UNICOR.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In addition, the installer shall identify any deficiencies and notate on the punch list form as well.",
+      "normalized": "The installer shall identify deficiencies and notate them on the punch list form.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The punch list shall be adequately and clearly documented with part numbers to identify any deficiencies.",
+      "normalized": "The punch list shall be adequately and clearly documented with part numbers identifying deficiencies.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This form shall be signed and dated by the installer and the customer agreeing that the listed items are the only remaining items for completion.",
+      "normalized": "The punch list form shall be signed and dated by the installer and customer, confirming the listed items are the only remaining items for completion.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This form shall then be provided to the UNICOR Project Manager for processing.",
+      "normalized": "The installer shall then provide the form to the UNICOR Project Manager for processing.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Under no circumstance shall an installer have the customer sign an \"Acceptance Form\" when there are any deficiencies noted.",
+      "normalized": "The installer shall never have the customer sign an Acceptance Form when deficiencies are noted.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "offeror(s) will submit a monthly completion report listing all awarded installs along with a percentage of completion noted for each one.",
+      "normalized": "The offeror(s) will submit a monthly completion report listing all awarded installs with a percentage of completion for each.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Storage of product shall be at no cost to UNICOR or the customer for 30 calendar days.",
+      "normalized": "The contractor shall provide storage of product at no cost to UNICOR or the customer for 30 calendar days.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any costs of storage beyond the 30 calendar days shall be communicated to the Project Manager in writing by the installer.",
+      "normalized": "The installer shall communicate in writing to the Project Manager any storage costs beyond 30 calendar days.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A written quote of storage charges shall be provided to the Project Manager for storage fees at least 2 weeks prior to storage charges beginning.",
+      "normalized": "The installer shall provide a written quote of storage charges to the Project Manager at least 2 weeks before storage charges begin.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the installer shall obtain the\ncustomer's signature and date on an Acceptance Form.",
+      "normalized": "If no deficiencies are found, the installer must obtain the customer's signature and date on an Acceptance Form.",
+      "section_ref": null,
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If\nthe installer does not provide the storage quote 2 weeks prior, the\nstorage costs will be assed to the installer unless the storage need is\ndiscovered in a lesser time frame.",
+      "normalized": "If the installer fails to provide the storage quote 2 weeks prior, storage costs will be assessed to the installer.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful Offeror(s) installation locations shall be responsible for\ntracking the shipping company to determine when product is scheduled to\narrive at their location.",
+      "normalized": "Successful offeror's installation locations shall track the shipping company to determine product arrival scheduling.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installer hours of operation for accepting deliveries\nat each of the installer locations shall be within normal business hours\n(8 am to 4 pm).",
+      "normalized": "Installer's hours of operation for accepting deliveries shall be within normal business hours (8am-4pm).",
+      "section_ref": null,
+      "page": 44,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installer is to notify UNICOR contracting and program\nmanagement in writing of any changes to hours of operation.",
+      "normalized": "Installer must notify UNICOR contracting and program management in writing of any changes to hours of operation.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the\nshipping company attempts a delivery within the defined time period and\nis unable to do so for any reason, the installer shall be responsible\nfor all costs associated with redelivery fees.",
+      "normalized": "If the shipping company attempts delivery and cannot complete it, the installer shall be responsible for all redelivery costs.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Go-back installations- Offeror(s) will be required to return to site and\ncomplete installations that have punch items or outstanding issues.",
+      "normalized": "Offeror(s) will be required to return to site and complete go-back installations with punch items or outstanding issues.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Go-backs will be scheduled within 2 business days of receipt of the\nreplacement product.",
+      "normalized": "Go-back installations will be scheduled within 2 business days of receipt of the replacement product.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror(s) will notify project management of\nscheduled dates within 24 hours of scheduling.",
+      "normalized": "Offeror(s) will notify project management of scheduled go-back dates within 24 hours of scheduling.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For UNICOR related\nissues, offeror(s) will receive payment for a maximum of 2 hours travel\ntime each way to return to site.",
+      "normalized": "For UNICOR-related issues, offeror(s) will receive payment for a maximum of 2 hours travel time each way to return to site.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Go-back quotes will be submitted\nto project management and the respective factories for review.",
+      "normalized": "Offeror(s) will submit go-back quotes to project management and the respective factories for review.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) will maintain a tracking system that contains all go-back\nquotes.",
+      "normalized": "Offeror(s) will maintain a tracking system containing all go-back quotes.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "SAP Access- Offeror(s) will be required to maintain SAP access for",
+      "normalized": "Offeror(s) will be required to maintain SAP access.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All go-back quotes and/or additional work should be completed\nonly after receipt of a purchase order/official authorization from an\nauthorized UNICOR contractor.",
+      "normalized": "Go-back quotes and additional work should be completed only after receipt of a purchase order/official authorization from an authorized UNICOR contractor.",
+      "section_ref": null,
+      "page": 44,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Installers will be responsible for utilizing SAP to update ship-to\naddresses for late product, update warehouse addresses, track product,\nand obtain UNICOR part numbers for shortage sheets and punch lists.",
+      "normalized": "Installers must use SAP to update ship-to and warehouse addresses, track product, and obtain UNICOR part numbers for shortage sheets and punch lists.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Current rules and\nregulations applicable to the premises, where the work will be\nperformed, shall apply to the contractor and its employees while working\non the premises.",
+      "normalized": "The contractor and its employees must comply with current premises rules and regulations while working on government premises.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful Offeror(s) will be required to have at a minimum, the\nfollowing individual positions:",
+      "normalized": "The successful offeror must have, at a minimum, the listed individual staffing positions.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "National Installation Manager – who shall meet with UNICOR management in\nWashington, DC unless otherwise directed elsewhere, at a minimum of\nquarterly.",
+      "normalized": "The National Installation Manager must meet with UNICOR management in Washington, DC at least quarterly, unless otherwise directed.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Periodic log-in requirements apply to maintain access.",
+      "normalized": "Offerors must meet periodic log-in requirements to maintain SAP access.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Regional Installation Managers- (One required for each of the West,\nCentral, and East regions)",
+      "normalized": "One Regional Installation Manager is required for each of the West, Central, and East regions.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Go-back Coordinator- a minimum of 2 staff dedicated to completing and\nissuing go-back paperwork, tracking project go-back status,  and\nscheduling go-backs.",
+      "normalized": "A minimum of 2 Go-back Coordinator staff must be dedicated to completing/issuing go-back paperwork, tracking status, and scheduling go-backs.",
+      "section_ref": null,
+      "page": 45,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The successful offeror(s) regional managers and go back coordinators are responsible for participating in weekly conference calls to discuss issues with existing and upcoming projects.",
+      "normalized": "Successful offeror's regional managers and go-back coordinators must participate in weekly conference calls.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "National and Regional managers may be required to participate in regularly scheduled calls with various UNICOR customers.",
+      "normalized": "Offeror's National and Regional managers may be required to join scheduled calls with UNICOR customers.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Sub-contractors will not be considered sufficient to fulfil these positional requirements.",
+      "normalized": "Offeror may not use subcontractors to satisfy the staffing positional requirements.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Positions must be staffed by full time employees of offeror (s).",
+      "normalized": "Offeror must staff required positions with its own full-time employees.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The installation company shall provide a listing of installers based on the map provided by UNICOR in the attachments.",
+      "normalized": "Offeror shall provide a listing of installers based on UNICOR's map.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The installers must be staffed at a level and physically located sufficiently to provide timely responses to customers in their territories.",
+      "normalized": "Offeror's installers must be staffed and located to provide timely customer response in their territories.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful Offeror(s) shall provide and maintain a detailed list of all installers, subcontractors and ship to locations to include but not limited to:",
+      "normalized": "Offeror shall provide and maintain a detailed list of installers, subcontractors, and ship-to locations.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This information shall be provided as part of the written proposal, utilizing the attached Excel spreadsheet.",
+      "normalized": "Offeror shall provide the installer list information as part of the written proposal using the attached Excel spreadsheet.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This information shall be updated and provided to the Chief of Sales and Program Management bi-annually.",
+      "normalized": "Offeror shall update and provide the installer list to UNICOR's Chief of Sales and Program Management bi-annually.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installer is to notify UNICOR Contracting, Chief of Sales and Program management in writing of any changes to the list of installers.",
+      "normalized": "Installer must notify UNICOR Contracting and Chief of Sales/Program Management in writing of any installer list changes.",
+      "section_ref": null,
+      "page": 46,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Installer shall within 5 calendar days of receiving any deficiency report from UNICOR provide a detailed response outlining a corrective action plan.",
+      "normalized": "Installer shall provide a corrective action plan within 5 calendar days of receiving a UNICOR deficiency report.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All deficiencies identified by UNICOR shall be corrected within 30 calendar days or less.",
+      "normalized": "Contractor shall correct all UNICOR-identified deficiencies within 30 calendar days or less.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Successful Offeror(s) staff/installers working on job sites shall have a REAL ID and pass security requirements as set forth by the agency of that install job.",
+      "normalized": "Offeror's staff/installers on job sites shall have a REAL ID and pass agency security requirements.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Extra security requirements should be included on the site survey, which is included with the SOW packet.",
+      "normalized": "Offeror should include extra security requirements on the site survey provided with the SOW packet.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All staff employed directly under the offeror (s) must complete and pass an NCIC check which will be sent to UNICOR.",
+      "normalized": "All of offeror's directly employed staff must complete and pass an NCIC check.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Forms are provided in the attachments and must be completed and returned upon award.",
+      "normalized": "Offeror must complete and return the attached forms upon award.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) will be responsible for any charges related to failing to meet security requirements.",
+      "normalized": "Offeror is responsible for charges resulting from failure to meet security requirements.",
+      "section_ref": null,
+      "page": 47,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Under no circumstances shall an offeror perform without a signed and dated delivery order or written (email) authorization from following UNICOR Contracting Officers:",
+      "normalized": "Offeror shall not perform work without a signed/dated delivery order or written authorization from a listed UNICOR Contracting Officer.",
+      "section_ref": null,
+      "page": 48,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to respond to chargeback claim within 30 days will result in chargeback automatically being processed when time period is passed.",
+      "normalized": "Offeror must respond to a chargeback claim within 30 days or the chargeback will be automatically processed.",
+      "section_ref": null,
+      "page": 48,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Before and after pictures, pictures of damaged products or site damages, and various other pictures will be included.",
+      "normalized": "Offeror's daily trip report must include before/after and damage pictures among other required pictures.",
+      "section_ref": null,
+      "page": 48,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Attached example form will be utilized by offeror(s).",
+      "normalized": "Offeror will use the attached example daily trip report form.",
+      "section_ref": null,
+      "page": 48,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror (s) employees will be responsible for tracking shipments from the factories.",
+      "normalized": "Offeror's employees are responsible for tracking shipments from the factories.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR will only accept proposal submissions electronically.",
+      "normalized": "Offeror must submit its proposal electronically, as UNICOR will not accept other submission formats.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "It is the vendor’s responsibility to verify if their proposal was received by the UNICOR Contracting Officer.",
+      "normalized": "Offeror is responsible for verifying receipt of its proposal by the UNICOR Contracting Officer.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Both installer and customer shall sign acknowledging the list is accurate and complete.",
+      "normalized": "Installer and customer shall sign the Final Punch List acknowledging accuracy and completeness.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This form shall be submitted to the quality manager and project manager at the conclusion of the installation.",
+      "normalized": "Offeror shall submit the Final Shortage Sheet to the quality manager and project manager at installation conclusion.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All sheets SHALL include UNICOR part numbers as well as all other requested information.",
+      "normalized": "Offeror shall ensure all shortage sheets include UNICOR part numbers and other requested information.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror (s) will be responsible for any costs associated with inaccurate submissions.",
+      "normalized": "Offeror is responsible for costs arising from inaccurate shortage sheet submissions.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror (s) will utilize the attached form.",
+      "normalized": "Offeror will use the attached Final Shortage Sheet form.",
+      "section_ref": null,
+      "page": 49,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installer will be required to go back in a timely manner and complete the installation at a later date.",
+      "normalized": "Installer is required to perform go-back installation work in a timely manner.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Go-back shall occur within 14 days of receipt of all product.",
+      "normalized": "Offeror shall perform go-back installation within 14 days of receiving all product.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "UNICOR shall not be invoiced for installation services until the job is completed 100%.",
+      "normalized": "Offeror shall not invoice UNICOR for installation services until the job is 100% complete.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The acceptance form shall be attached to the invoice.",
+      "normalized": "Offeror shall attach the acceptance form to each invoice.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If UNICOR receives an invoice for installation services without the appropriate acceptance form attached, the invoiced will be considered improper and will be returned.",
+      "normalized": "If an invoice lacks the acceptance form, it will be deemed improper and returned to the offeror.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "These ancillary items shall have the same receive/inspect/deliver/notification requirements that UNICOR product has.",
+      "normalized": "Offeror shall apply the same receive/inspect/deliver/notification requirements to Package Office ancillary items as to UNICOR product.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The manager shall be in constant communication with UNICOR and participate in weekly conference calls concerning current and upcoming installs.",
+      "normalized": "National Installation Manager shall maintain constant communication with UNICOR and join weekly conference calls.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This manager shall meet with UNICOR management in Washington, DC, unless otherwise directed elsewhere, at a minimum of quarterly.",
+      "normalized": "National Installation Manager shall meet with UNICOR management in Washington DC at least quarterly.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Wall contractor will coordinate with furniture install vendor upon installation award.",
+      "normalized": "Wall contractor will coordinate with the furniture install vendor upon installation award.",
+      "section_ref": null,
+      "page": 50,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Receive/Deliver- Offeror(s) will provide a warehouse address to UNICOR and all product will be shipped to that location.",
+      "normalized": "Offeror will provide a warehouse address to UNICOR for product shipment.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(The map provided by UNICOR as part of this solicitation is the only map authorized for use in the solicitation/ contract).",
+      "normalized": "Offeror must use only the UNICOR-provided regional map; no other map is authorized.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The manager shall participate in weekly conference calls concerning current and upcoming installs.",
+      "normalized": "Site Installation Manager shall participate in weekly conference calls.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The installation site manager shall ensure all personnel are on-site and following all agency rules",
+      "normalized": "Site Installation Manager shall ensure all personnel are on-site and following agency rules.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "they shall provide daily reports of progress of the job, while supervising the staff and the installation project.",
+      "normalized": "Site Installation Manager shall provide daily progress reports while supervising staff and the installation project.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Any issues on-site shall be reported immediately to the UNICOR Project Manager via phone call and/or in writing.",
+      "normalized": "Offeror's site manager shall immediately report any on-site issues to the UNICOR Project Manager by phone and/or in writing.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The site manager is also responsible for coordinating all deliveries and ensuring the deadlines are met.",
+      "normalized": "Site manager is responsible for coordinating deliveries and meeting deadlines.",
+      "section_ref": null,
+      "page": 51,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "requirements, regional site installation manager positions must be full time employees of offeror (s) and may be required by UNICOR to be on-site for high profile, high value, or problem projects.",
+      "normalized": "Regional site installation manager positions must be offeror's full-time employees and may be required to be on-site for certain projects.",
+      "section_ref": null,
+      "page": 52,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Clarifications on SOW and bid packet questions must be submitted prior to submitting final bid.",
+      "normalized": "Offeror must submit SOW/bid packet clarification questions before submitting its final bid.",
+      "section_ref": null,
+      "page": 52,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This list shall be sent to the respective factories warehouse points of contact, quality managers, and project manager within 24 hours of delivery.",
+      "normalized": "Offeror shall send the Truck Shortage Sheet to warehouse contacts, quality managers, and project manager within 24 hours of delivery.",
+      "section_ref": null,
+      "page": 52,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "El. 52.246-4 Inspection of Services-Fixed-Price. (AUG 1996)",
+      "normalized": "FAR/related clauses incorporated by reference (e.g., 52.246-4 Inspection of Services, 52.216-18 Ordering) apply to the contract, Sections E-F, pages 52-53.",
+      "section_ref": "Section E-F",
+      "page": 52,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Order confirmation shall be signed and dated in blocks 30a, b and c of the delivery order",
+      "normalized": "Offeror shall sign and date the order confirmation in blocks 30a, b, and c of the delivery order.",
+      "section_ref": "Section F",
+      "page": 53,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "written confirmation must be returned to the contracting officer within 24 hours of order receipt.",
+      "normalized": "Offeror must return written order confirmation to the contracting officer within 24 hours of order receipt.",
+      "section_ref": "Section F",
+      "page": 53,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Order confirmation containing the following information must be faxed or emailed to the contracting officer or their designee.",
+      "normalized": "Offeror must fax or email order confirmation with specified information to the contracting officer or designee.",
+      "section_ref": "Section F",
+      "page": 53,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "contract, the Contractor shall, in place of actual damages, pay to the Government liquidated damages of $__________ per calendar day of delay [Contracting Officer insert amount].",
+      "normalized": "Contractor shall pay liquidated damages per calendar day of delay in lieu of actual damages, if it fails to deliver/perform on time.",
+      "section_ref": "Section F",
+      "page": 54,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(b) If the Government terminates this contract in whole or in part under the Default-Fixed-Price Supply and Service clause, the Contractor is liable for liquidated damages accruing until the Government reasonably obtains delivery or performance of similar supplies or services.",
+      "normalized": "If the Government terminates for default, Contractor is liable for liquidated damages until replacement delivery/performance is obtained.",
+      "section_ref": "Section F",
+      "page": 54,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(d) The Contractor shall proceed promptly with performance resulting from the technical direction of the COR.",
+      "normalized": "The Contractor must proceed promptly with performance based on COR technical direction.",
+      "section_ref": "Section G",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If, in the opinion of the Contractor, any direction by the COR or the designated representative falls outside the authority of (b) above and/or within the limitations of (c) above, the Contractor shall immediately notify the Contracting Officer.",
+      "normalized": "If the Contractor believes COR direction exceeds authority, the Contractor must immediately notify the Contracting Officer.",
+      "section_ref": "Section G",
+      "page": 55,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(e) Failure of the Contractor and Contracting Officer to agree that technical direction is within the scope of the contract is a dispute that shall be subject to the “Disputes” clause and/or other similar contract term.",
+      "normalized": "Disagreements between Contractor and Contracting Officer over scope of technical direction shall be handled under the Disputes clause.",
+      "section_ref": "Section G",
+      "page": 55,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Written communications shall make reference to the contract number and shall be emailed to the address of the primary contracting officer above.",
+      "normalized": "Contractor must reference the contract number in written communications and email them to the primary contracting officer's address.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event Brent Ponder is unavailable, please mail correspondence to the secondary contact.",
+      "normalized": "If the primary contact is unavailable, correspondence must be mailed to the secondary contact.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror shall indicate below the complete mailing address (including the nine digit ZIP code) to which remittance should be mailed if such address is other than that shown in Block 15A, Page I (Standard Form 33), they shall enter it below",
+      "normalized": "Offeror must indicate the complete remittance mailing address, including nine-digit ZIP, if different from Block 15A of SF 33.",
+      "section_ref": "G3",
+      "page": 56,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All invoices shall reference purchase order number, not the contract number.",
+      "normalized": "Contractor must reference the purchase order number, not the contract number, on all invoices.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Invoices received without the purchase order number will be rejected and returned to vendor.",
+      "normalized": "Invoices lacking a purchase order number will be rejected and returned to the vendor.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror(s) shall update www.SAM.gov and submit a new ACH form whenever any payment information is changed (i.e. new bank, account, routing).",
+      "normalized": "Offeror must update SAM.gov and submit a new ACH form whenever payment information (bank, account, routing) changes.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to submit new information will result in delayed or non-payment of product/service until information is properly updated.",
+      "normalized": "Failure to submit updated payment information will result in delayed or non-payment until corrected.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Click, download form and submit with written proposal.",
+      "normalized": "Offeror must download the ACH form and submit it with the written proposal.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The ACH is the first form, just click on form and print to your printer, fill out and return to the contracting officer.",
+      "normalized": "Offeror must print, fill out, and return the ACH form to the contracting officer.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "NOTE: DUNS number on ACH form shall match information provided in SAM.",
+      "normalized": "The DUNS number on the ACH form must match the information provided in SAM.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to provide matching DUNS information may result in your firm not receiving an award.",
+      "normalized": "Mismatched DUNS information may result in the firm not receiving an award.",
+      "section_ref": "Section G",
+      "page": 56,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "if such address is other than that shown in Block 15A, Page I (Standard Form 33), they shall enter it below:",
+      "normalized": "Offeror must enter the alternate remittance address below if it differs from the address shown in Block 15A, Page I (Standard Form 33).",
+      "section_ref": null,
+      "page": 56,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "IT IS THE CONTRACTOR'S RESPONSIBILITY TO REQUEST THIS ADJUSTMENT.",
+      "normalized": "The Contractor is responsible for requesting the price adjustment.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Adjustments may be requested after the preliminary price index for the month of the anniversary of contract award has been published but not to exceed 90 days after the eligible adjustment date (i.e., anniversary of the contract award date).",
+      "normalized": "Contractor must request adjustments no later than 90 days after the eligible adjustment (anniversary) date.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Requests that are made after the 90-day limit will not be honored and the contract pricing will not be adjusted.",
+      "normalized": "Adjustment requests made after the 90-day limit will not be honored.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall submit any requests for adjustments in writing to the contracting officer.",
+      "normalized": "Contractor must submit adjustment requests in writing to the contracting officer.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Requests shall include a copy of the relevant index and must be within the allowed time period for adjustment.",
+      "normalized": "Adjustment requests must include a copy of the relevant index and be submitted within the allowed time period.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Economic price increases will not be granted if the contractor has any past due orders at time of request.",
+      "normalized": "If the contractor has past due orders at the time of request, economic price increases will not be granted.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor also is required to request downward price adjustments.",
+      "normalized": "The Contractor is required to request downward price adjustments.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If downward price adjustments are not requested and this is later revealed through audits or otherwise, the contractor shall reimburse the Government the amount overcharged plus interest.",
+      "normalized": "If downward adjustments were not requested and this is later discovered, the Contractor must reimburse the Government the overcharged amount plus interest.",
+      "section_ref": "Section H",
+      "page": 57,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Total upward adjustment for the contract period, including any option periods, shall not exceed 10% of the original contract base price, based on the original or option period contract price; downward adjustments are not limited.",
+      "normalized": "Total upward price adjustments for the contract period, including options, shall not exceed 10% of the original contract base price.",
+      "section_ref": "Section H",
+      "page": 58,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this index is temporarily unavailable or permanently discontinued, the contracting parties shall either use the index one level up (i.e., the broader index under which the selected index was listed) or agree in writing upon a substitute index.",
+      "normalized": "If the price index becomes unavailable or discontinued, the parties (including Contractor) must use the next broader index or agree in writing on a substitute.",
+      "section_ref": "Section H",
+      "page": 58,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "SECTION I – CONTRACT CLAUSES",
+      "normalized": "Contractor must comply with all FAR/DFARS clauses incorporated by reference in Section I (I1–I13, including 52.212-4), spanning pages 58–63.",
+      "section_ref": "Section I",
+      "page": 58,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+      "normalized": "Contractor must continue diligent performance of the contract while any dispute is pending final resolution.",
+      "section_ref": null,
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence.",
+      "normalized": "Contractor is liable for default unless nonperformance results from an excusable occurrence beyond its reasonable control and without its fault or negligence.",
+      "section_ref": null,
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When an excusable delay occurs, the Contractor shall—",
+      "normalized": "Contractor must take specified actions when an excusable delay occurs (actions listed in subsequent items).",
+      "section_ref": null,
+      "page": 60,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(1) Notify the Contracting Officer in writing as soon as possible;",
+      "normalized": "Contractor must notify the Contracting Officer in writing as soon as possible when an excusable delay occurs.",
+      "section_ref": null,
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Remedy the delay as quickly as possible; and",
+      "normalized": "Contractor must remedy the excusable delay as quickly as possible.",
+      "section_ref": null,
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) Notify the Contracting Officer when the occurrence is over.",
+      "normalized": "Contractor must notify the Contracting Officer when the excusable delay occurrence has ended.",
+      "section_ref": null,
+      "page": 60,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall\nsubmit invoices to the address designated in the contract to receive\ninvoices.",
+      "normalized": "The Contractor must submit invoices to the address designated in the contract for receiving invoices.",
+      "section_ref": "(g)",
+      "page": 61,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An invoice must include the information required by 5 CFR part\n1315.9(b).",
+      "normalized": "An invoice submitted by the Contractor must include the information required by 5 CFR part 1315.9(b).",
+      "section_ref": "(g)",
+      "page": 61,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall indemnify the Government and\nits officers, employees, and agents against liability, including costs,\nfor actual or alleged direct or contributory infringement of, or\ninducement to infringe, any United States or foreign patent, trademark,\nor copyright, arising out of the performance of this contract, provided\nthe Contractor is reasonably notified of such claims and proceedings.",
+      "normalized": "The Contractor must indemnify the Government and its officers, employees, and agents against patent/trademark/copyright infringement liability arising from contract performance, provided the Contractor is reasonably notified of claims.",
+      "section_ref": "(h)",
+      "page": 61,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(v) Amounts shall be due at the earliest of the following dates:",
+      "normalized": "Amounts owed (e.g., contractor debt/interest) are due at the earliest of the dates specified in the clause.",
+      "section_ref": null,
+      "page": 63,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(vi) The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on-",
+      "normalized": "The interest charge on amounts owed is computed based on the actual number of calendar days between the due date and the ending date specified.",
+      "section_ref": null,
+      "page": 63,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "risk of loss or damage to the supplies provided under this contract\nshall remain with the Contractor until, and shall pass to the Government upon—",
+      "normalized": "The Contractor bears risk of loss or damage to the supplies until the delivery point specified (FOB origin: delivery to carrier; FOB destination: delivery to Government).",
+      "section_ref": null,
+      "page": 63,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contract price includes all applicable Federal, State, and local taxes and duties.",
+      "normalized": "Contractor's contract price must include all applicable Federal, State, and local taxes and duties.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the event of such termination, the Contractor shall immediately stop all work and shall immediately cause any and all of its suppliers and subcontractors to cease work.",
+      "normalized": "Upon a termination for convenience notice, Contractor must immediately stop all work and cause its suppliers and subcontractors to cease work.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall be liable to the Government for any and all rights and remedies provided by law.",
+      "normalized": "In a termination for cause, Contractor is liable to the Government for all rights and remedies provided by law.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless specified elsewhere in this contract, title to items furnished under this contract shall pass to the Government upon acceptance, regardless of when or where the Government takes physical possession.",
+      "normalized": "Title to items furnished by the Contractor passes to the Government upon acceptance, regardless of physical possession timing.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(o) Warranty. The Contractor warrants and implies that the items",
+      "normalized": "Contractor warrants that delivered items are merchantable and fit for the particular purpose described in the contract.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose.",
+      "normalized": "Contractor is not required to comply with cost accounting standards or contract cost principles for termination-for-convenience payment purposes.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not be paid for any work performed or costs incurred which reasonably could have been avoided.",
+      "normalized": "Contractor shall not be paid for work performed or costs incurred that reasonably could have been avoided.",
+      "section_ref": null,
+      "page": 64,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor agrees to comply with 31 U.S.C. 1352 relating to limitations on the use of appropriated funds to influence certain Federal contracts; 40 U.S.C. chapter 37, Contract Work Hours and Safety Standards; 41 U.S.C. chapter 87, Kickbacks; 49 U.S.C. 40118, Government-financed air transportation; and 41 U.S.C. chapter 21 relating to procurement integrity.",
+      "normalized": "Contractor must comply with 31 U.S.C. 1352, 40 U.S.C. chapter 37, 41 U.S.C. chapter 87, 49 U.S.C. 40118, and 41 U.S.C. chapter 21 relating to Federal contracting laws.",
+      "section_ref": null,
+      "page": 65,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) The Contractor shall make available at its offices, at all reasonable times, the records, materials, and other evidence for",
+      "normalized": "Contractor must make its records, materials, and other evidence available at its offices at all reasonable times for examination/audit.",
+      "section_ref": null,
+      "page": 66,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If this contract is completely or partially terminated, the records relating to the work terminated shall be made available for 3 years after any resulting final termination settlement.",
+      "normalized": "If the contract is terminated (wholly or partly), Contractor's records relating to the terminated work must be made available for 3 years after final termination settlement.",
+      "section_ref": null,
+      "page": 67,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Records relating to appeals under the disputes clause or to litigation or the settlement of claims arising under or relating to this contract shall be made available until such appeals, litigation, or claims are finally resolved.",
+      "normalized": "Contractor's records relating to disputes-clause appeals, litigation, or claim settlements must be made available until finally resolved.",
+      "section_ref": null,
+      "page": 67,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor’s representations and certifications, including those completed electronically via the System for Award Management (SAM), are incorporated by reference into the contract.",
+      "normalized": "Contractor's SAM representations and certifications are incorporated by reference into the contract as binding.",
+      "section_ref": null,
+      "page": 67,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "I14. 52.216-22 Indefinite Quantity",
+      "normalized": "Contract incorporates by reference FAR/DFARS clauses I14 through I39 (52.216-22 Indefinite Quantity through 52.240-91 Security Prohibitions and Exclusions), binding the Contractor to their terms (see clause list, pp. 67-69).",
+      "section_ref": "Section I",
+      "page": 67,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor is prohibited from providing any products or services to the Government or using in the performance of the contract any of the following:",
+      "normalized": "Contractor must not provide or use any of the listed prohibited products/services (covered applications, Kaspersky-covered articles, or covered telecommunications equipment) in Government IT or contract performance.",
+      "section_ref": null,
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Delivering any FASC-prohibited unmanned aircraft system, which\nincludes unmanned aircraft (i.e., drones) and associated elements\n(sections 1823 and 1826 of American Security Drone Act of 2023, within\nthe National Defense Authorization Act for Fiscal Year 2024, Pub. L.\n118-31, Div. A, Title XVIII, Subtitle B, 41 U.S.C. 3901 note prec.);",
+      "normalized": "Contractor must not deliver any FASC-prohibited unmanned aircraft system.",
+      "section_ref": null,
+      "page": 76,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall search SAM for the FASC-maintained\nlist of American Security Drone Act—covered foreign entities before\nproposing, or using in performance of the contract, any unmanned\naircraft system.",
+      "normalized": "The Contractor must search SAM for the FASC-maintained list of American Security Drone Act-covered foreign entities before proposing or using any unmanned aircraft system in contract performance.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Also, the Contractor shall\nensure any effort or expenditure associated with a FASC-prohibited\nunmanned aircraft system\nis consistent with a corresponding exemption, exception, or waiver\ndetermination expressly stated in the contract.",
+      "normalized": "The Contractor must ensure any effort or expenditure associated with a FASC-prohibited unmanned aircraft system is consistent with an applicable exemption, exception, or waiver determination stated in the contract.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(ii) On or after December 22, 2025, operating a FASC-prohibited unmanned\naircraft system in the performance of the contract (section 1824 of Pub.\nL. 118-31); and",
+      "normalized": "Contractor must not operate a FASC-prohibited unmanned aircraft system in contract performance on or after December 22, 2025.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(iii) On or after December 22, 2025, using Federal funds to procure or\noperate a FASC-prohibited unmanned aircraft system (section 1825 of Pub.\nL. 118-31).",
+      "normalized": "Contractor must not use Federal funds to procure or operate a FASC-prohibited unmanned aircraft system on or after December 22, 2025.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(i) Unless an applicable waiver has been issued by the Government, the\nContractor cannot use any equipment, systems, or services that uses\ncovered telecommunications equipment or services as a substantial or\nessential component of any system, or as critical technology as part of\nany system (paragraph (a)(1)(B) of section 889 of the John S. McCain\nNational Defense Authorization Act for Fiscal Year 2019 (Pub. L.\n115-232)).",
+      "normalized": "Unless the Government issues a waiver, Contractor cannot use equipment/systems/services containing covered telecommunications equipment as a substantial/essential component or critical technology.",
+      "section_ref": null,
+      "page": 77,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Except as authorized by the Office of Foreign Assets Control (OFAC)\nin the Department of the Treasury, the Contractor shall not acquire, for\nuse in the performance of this contract, any supplies or services if any\nproclamation, Executive order, or statute administered by OFAC, or if\nOFAC’s implementing regulations at 31 CFR chapter V, would prohibit such\na transaction by a person subject to the jurisdiction of the United\nStates.",
+      "normalized": "Unless authorized by OFAC, Contractor shall not acquire supplies/services for contract performance that would violate OFAC-administered proclamations, Executive orders, statutes, or regulations.",
+      "section_ref": null,
+      "page": 78,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, the contractor shall not engage in certain activities or transactions relating to Iran (section 6(b)(1)(A) of Iran Sanctions Act (50 U.S.C. 1701 note).",
+      "normalized": "Unless an exception or waiver applies, contractor shall not engage in certain activities or transactions relating to Iran.",
+      "section_ref": "(d)(4)(i)",
+      "page": 79,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, contractor shall not export certain sensitive technology to Iran, as determined by the President, and has an active exclusion in SAM (22 U.S.C. 8515).",
+      "normalized": "Unless an exception or waiver applies, contractor shall not export certain sensitive technology to Iran and shall have an active exclusion in SAM.",
+      "section_ref": "(d)(4)(ii)",
+      "page": 79,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless the Government has issued an applicable waiver, contractors\nshall not provide or use as part of the performance of the contract any\ncovered article, or any products or services produced or provided by a",
+      "normalized": "Contractor shall not provide or use any covered article or related products/services in performance of the contract, unless the Government has issued an applicable waiver.",
+      "section_ref": null,
+      "page": 79,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor is prohibited from conducting any restricted business operations in Sudan in accordance with Accountability and Divestment Act of 2007 (Pub. L. 110-174).",
+      "normalized": "Contractor must not conduct restricted business operations in Sudan (per Pub. L. 110-174).",
+      "section_ref": "(d)(3)",
+      "page": 79,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The prohibition in paragraphs (d)(4)(i) and (d)(4)(ii) do not apply if the acquisition is subject to trade agreements and the offeror certifies that all the offered products are designated country end products or designated country construction material (see part 25).",
+      "normalized": "If the acquisition is subject to trade agreements, offeror must certify that all offered products are designated country end products or construction material for the prohibition exception to apply.",
+      "section_ref": "(d)(4)(iii)",
+      "page": 79,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless an exception applies or the Government grants a waiver, contractors are prohibited from knowingly engaging in any significant transaction (i.e., over $15,000) with Iran’s Revolutionary Guard Corps or any of its officials, agents, or affiliates, the property and interests in property of which are blocked according to the International Emergency Economic Powers Act (section 6(b)(1)(B) of Iran Sanctions Act (50 U.S.C. 1701 note)).",
+      "normalized": "Unless an exception or waiver applies, contractors must not knowingly engage in significant transactions (over $15,000) with Iran's Revolutionary Guard Corps or its officials/agents/affiliates.",
+      "section_ref": "(d)(4)(iv)",
+      "page": 79,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall search for the phrase “FASCSA order” in the System for Award Management (SAM) at https://www.sam.gov to locate applicable FASCSA orders.",
+      "normalized": "Contractor shall search SAM for the phrase 'FASCSA order' to locate applicable FASCSA orders.",
+      "section_ref": "(e)(2)",
+      "page": 80,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services.",
+      "normalized": "Contractor shall conduct a reasonable inquiry to determine if there are prohibited products or services.",
+      "section_ref": "(f)",
+      "page": 80,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall promptly make any\nnecessary changes or modifications to remove any product or service\nproduced or provided by a source that this clause prohibits.",
+      "normalized": "Contractor shall promptly make any necessary changes or modifications to remove prohibited products/services upon CO notification.",
+      "section_ref": null,
+      "page": 80,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For Federal Supply Schedules, Governmentwide acquisition contracts, multi-agency contracts or any other procurement instrument intended for use by multiple agencies, upon notification from the Contracting Officer, during the performance of the contract, the Contractor shall promptly make any necessary changes or modifications to remove any product or service produced or provided by a source that this clause prohibits.",
+      "normalized": "Upon CO notification, during contract performance, contractor shall promptly remove prohibited products/services (applies to FSS, GWACs, multi-agency contracts).",
+      "section_ref": "(g)",
+      "page": 80,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a report must be submitted to a contracting office, the Contractor shall submit the report as follows:",
+      "normalized": "If a report must be submitted to a contracting office, the Contractor shall submit the report as specified in the following subparagraphs.",
+      "section_ref": "(h)(2)",
+      "page": 82,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a Department of Defense contracting office, the Contractor shall report to the website at https://dibnet.dod.mil.",
+      "normalized": "If the contracting office is a DoD office, the Contractor shall report to https://dibnet.dod.mil.",
+      "section_ref": "(h)(2)(i)",
+      "page": 82,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For all other contracting offices, the Contractor shall report to the Contracting Officer.",
+      "normalized": "For all other contracting offices, the Contractor shall report to the Contracting Officer.",
+      "section_ref": "(h)(2)(ii)",
+      "page": 82,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order.",
+      "normalized": "For indefinite delivery contracts, the Contractor shall report to both the IDC contracting office and the contracting office for any affected order.",
+      "section_ref": "(h)(2)(iii)",
+      "page": 82,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the report provided does not contain any of the information required by paragraph (h)(1) of this clause, and the contractor later discovers new information that is required by paragraph (h)(1) of this clause, then the contractor shall submit a subsequent report within 72 hours of discovering the new information.",
+      "normalized": "If the original report is missing required (h)(1) information and the contractor later discovers it, the contractor shall submit a subsequent report within 72 hours of discovery.",
+      "section_ref": "(h)(3)",
+      "page": 82,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor shall also report the information in paragraph (h)(1) if the contractor wishes to ask for a waiver of the requirements of a new FASCSA order being applied through modification.",
+      "normalized": "If the contractor wishes to request a waiver of a new FASCSA order applied through modification, the contractor shall also report the paragraph (h)(1) information.",
+      "section_ref": "(h)(4)",
+      "page": 82,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "During contract performance, the Contractor shall review SAM at least once every three months, or as advised by the Contracting Officer, to check for covered articles subject to FASCSA order(s), or for products or services produced by a source subject to FASCSA order(s) not",
+      "normalized": "During contract performance, the Contractor shall review SAM at least once every three months (or as advised by the CO) to check for covered articles or products/services subject to FASCSA orders.",
+      "section_ref": "(i)(1)",
+      "page": 82,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If the Contractor identifies a new FASCSA order(s) that could impact their supply chain, then the Contractor shall conduct a reasonable inquiry to identify whether a covered article or product or service produced or provided by a source subject to the FASCSA order(s) was provided to the Government or used during contract performance.",
+      "normalized": "If Contractor identifies a new FASCSA order impacting its supply chain, Contractor shall conduct a reasonable inquiry into whether affected articles/products/services were provided to or used by the Government.",
+      "section_ref": "(i)(2)",
+      "page": 83,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall submit a report to the contracting office identified in paragraph (h)(2) of this clause if the Contractor identifies, including through any notification by a subcontractor at any tier, that a covered article or product or service produced or provided by a source was provided to the Government or used during contract performance and is subject to a FASCSA order(s).",
+      "normalized": "Contractor shall submit a report to the contracting office if it identifies (including via subcontractor notification) a covered article/product/service subject to a FASCSA order provided to or used by the Government.",
+      "section_ref": "(i)(3)",
+      "page": 83,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall report the following information within 72 hours for each covered article or each product or service produced or provided by a source, where the covered article or source is subject to a FASCSA order:",
+      "normalized": "Contractor shall report specified information within 72 hours for each covered article/product/service subject to a FASCSA order.",
+      "section_ref": "(i)(3)",
+      "page": 83,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall insert the substance of this clause, including this paragraph (j) but excluding subparagraphs (d)(1) and (i)(1), in all subcontracts and other contractual instruments, including subcontracts for acquiring commercial products or commercial services.",
+      "normalized": "Contractor shall insert the substance of this clause (excluding (d)(1) and (i)(1)) into all subcontracts and contractual instruments.",
+      "section_ref": "(j)",
+      "page": 83,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "52.244-6Subcontracts for Commercial Products and Commercial",
+      "normalized": "FAR clause 52.244-6 (Subcontracts for Commercial Products and Commercial Services) incorporated by reference.",
+      "section_ref": "52.244-6",
+      "page": 83,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Within 30 days of contract award, the contractor and its subcontractors\nmust distribute the “Whistleblower Information for Employees of DOJ\nContractors, Subcontractors, Grantees, or Sub-Grantees or Personal\nServices Contractors” (“Whistleblower Information”) document to their\nemployees performing work in support of the products and services\ndelivered under this contract",
+      "normalized": "Contractor and subcontractors must distribute the Whistleblower Information document to employees performing work under the contract within 30 days of contract award",
+      "section_ref": "DOJ-01",
+      "page": 84,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 45 days of award, the contractor must provide confirmation to the\ncontracting officer verifying that it has distributed the whistleblower\ninformation as required.",
+      "normalized": "Contractor must provide confirmation to the contracting officer of whistleblower information distribution within 45 days of award",
+      "section_ref": "DOJ-01",
+      "page": 84,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall perform all tasks on authorized Government networks, using Government-furnished IT and other equipment and/or WaaS and Government",
+      "normalized": "Contractor shall perform all tasks on authorized Government networks using Government-furnished IT/equipment/WaaS, unless contractor use is specifically authorized.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 84,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "information shall remain within the confines of authorized Government networks at all times.",
+      "normalized": "Government information shall remain within authorized Government networks at all times.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Any handling of Government information on Contractor networks or IT must be approved by the Senior Component Official for Privacy of the component entering into this contract.",
+      "normalized": "Any handling of Government information on Contractor networks/IT must be approved by the Senior Component Official for Privacy.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall perform all tasks described in this document at authorized Government facilities",
+      "normalized": "Contractor shall perform all tasks at authorized Government facilities (except where remote work is authorized).",
+      "section_ref": null,
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Government information shall remain within the confines of authorized Government facilities at all times.",
+      "normalized": "Government information must remain within authorized Government facilities at all times.",
+      "section_ref": null,
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor is required to obtain the Contracting Officer's approval prior to engaging in any contractual relationship (Subcontractor) in support of this contract requiring the disclosure of information, documentary material and/or records generated under or relating to this contract.",
+      "normalized": "Contractor is required to obtain CO approval before engaging any subcontractor relationship requiring disclosure of contract-related information/records.",
+      "section_ref": "DOJ-02.A(3)",
+      "page": 85,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor (and any Subcontractor) is required to abide by Government and Agency guidance for protecting sensitive and proprietary information.",
+      "normalized": "Contractor and any subcontractor are required to abide by Government/Agency guidance protecting sensitive and proprietary information.",
+      "section_ref": "DOJ-02.A(3)",
+      "page": 85,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall complete and submit an appropriate separation checklist to the Contracting Officer before any employee or Subcontractor employee terminates working on the contract.",
+      "normalized": "Contractor shall complete and submit a separation checklist to the CO before any employee/subcontractor employee terminates work on the contract.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must submit the separation checklist on or before the last day of employment or work on the contract.",
+      "normalized": "Contractor must submit the separation checklist on or before the employee's last day of employment/work.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 85,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The separation checklist must verify: ( 1) return of any Government-furnished equipment; (2) return or proper disposition of personally identifiable information (PI1) [2], in paper or electronic form, in the custody of the employee or Subcontractor employee including the sanitization of data on any computer systems or media as appropriate; and (3) termination of any technological access to the Contractor's facilities or systems that would permit the terminated employee's access to PII or other sensitive information.",
+      "normalized": "Separation checklist must verify return of GFE, proper disposition/sanitization of PII, and termination of technological access.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 85,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Prime Contractor must notify the Contracting Officer",
+      "normalized": "Prime Contractor must notify the Contracting Officer in the event of an adverse job action resulting in dismissal before the separation checklist can be completed.",
+      "section_ref": null,
+      "page": 85,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Except where remote work is specifically authorized within this contract, the Contractor shall perform all tasks described in this document at authorized Government facilities; the Contractor is prohibited from performing these tasks at or removing Government-furnished information to any other facility; and Government information shall remain within the confines of authorized Government facilities at all times.",
+      "normalized": "Unless remote work is authorized, Contractor shall perform tasks only at authorized Government facilities, is prohibited from performing tasks elsewhere or removing Government-furnished information, and Government information shall remain within authorized facilities at all times.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractors may only access classified materials on government furnished equipment in authorized government owned facilities regardless of remote work authorizations.",
+      "normalized": "Contractors may only access classified materials on government-furnished equipment in authorized government-owned facilities, regardless of remote work authorization.",
+      "section_ref": "DOJ-02.A(2)",
+      "page": 85,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event of adverse job actions resulting in the dismissal of a Contractor or Subcontractor employee before the separation checklist can be completed, the Prime Contractor must notify the Contracting Officer",
+      "normalized": "Prime Contractor must notify the CO in the event of adverse job action dismissal before the separation checklist is completed.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 85,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Contractors must complete the separation checklist with the Contracting Officer or COR by returning all Government-furnished property including, but not limited to, computer equipment, media, credentials and passports, smart cards, mobile devices, Personal Identity Verification (PIV) cards, calling cards, and keys and terminating access to all user accounts and systems.",
+      "normalized": "Contractors must complete the separation checklist with the CO/COR by returning all Government-furnished property and terminating access to all accounts/systems.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 86,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must ensure that all employees take appropriate privacy training, including Subcontractors who have access to PII as well as the creation, use, dissemination and/or destruction of PII at the outset of the employee's work on the contract and every year thereafter.",
+      "normalized": "Contractor must ensure all employees (including subcontractors with PII access) take privacy training at the outset of work and annually thereafter.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Training must include procedures on how to properly handle PII, including heightened security requirements for the transporting or transmission of sensitive PII, and reporting requirements for a suspected breach or loss of PII.",
+      "normalized": "Required training must include PII handling procedures, heightened security for PII transport/transmission, and breach/loss reporting requirements.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor employees are required to sign the \"Privacy Rules of Behavior,\" acknowledging and agreeing to abide by privacy law, policy, and certain privacy safeguards, prior to accessing DOJ information.",
+      "normalized": "Contractor employees are required to sign the Privacy Rules of Behavior before accessing DOJ information.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor should maintain copies of certificates as a record of compliance and must submit an email notification annually to the COR verifying that all employees working under this contract have completed the required privacy and cybersecurity training.",
+      "normalized": "Contractor must submit an annual email notification to the COR verifying that all employees completed required privacy and cybersecurity training.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor employees must comply with DOJ Order 0904 and other guidance published to the publicly-available Office of Privacy and Civil",
+      "normalized": "Contractor employees must comply with DOJ Order 0904 and other related guidance (sentence continues past page break).",
+      "section_ref": "B.(2) Safeguarding PII Requirements",
+      "page": 86,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the case the Contractor is unable to notify the Contracting Officer, then the Contractor should notify the Contract Officer's Representative (COR).",
+      "normalized": "If Contractor cannot notify the CO, Contractor should notify the COR instead.",
+      "section_ref": "DOJ-02.A(4)",
+      "page": 86,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Federal Information Security Modernization Act of2014 (FISMA) requires all individuals accessing DOJ information to complete training on records management, cybersecurity awareness, and information system privacy awareness.",
+      "normalized": "FISMA requires all individuals accessing DOJ information, including contractor personnel, to complete training on records management, cybersecurity awareness, and privacy awareness.",
+      "section_ref": "DOJ-02.B(1)",
+      "page": 86,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This requirement flows down from the Prime Contractor to all Subcontractors and lower tiered subcontracts.",
+      "normalized": "The Prime Contractor must flow down the PII safeguarding requirement to all Subcontractors and lower tiered subcontracts.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Prior to commencing work, all Contractor personnel that may have access to PII or other sensitive information shall be required to sign a Non-Disclosure Agreement (NDA) and the DOJ IT Rules of Behavior.",
+      "normalized": "Contractor personnel with access to PII or sensitive information must sign an NDA and the DOJ IT Rules of Behavior before commencing work.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(a) prohibits the Contractor from retaining or divulging any PII or other sensitive information, or derivatives therefrom, furnished by the Government or to which they may otherwise come in contact as a result of their performance of work under the contract/task order that is otherwise not publicly available, whether or not such information has been reduced to writing; and",
+      "normalized": "The Contractor is prohibited from retaining or divulging PII or sensitive information obtained during contract performance.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "b) requires the Contractor to report any loss of control, compromise, unauthorized disclosure, or unauthorized acquisition of PII or other sensitive information to the component-level or headquarters Security Operations Center within one (1) hour of discovery.",
+      "normalized": "The Contractor must report any loss, compromise, or unauthorized disclosure/acquisition of PII to the Security Operations Center within 1 hour of discovery.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor should maintain signed copies of the NDA for all employees as a record of compliance.",
+      "normalized": "The Contractor should maintain signed NDA copies for all employees as a compliance record.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor should also provide copies of each employee's signed NDA to the Contracting Officer before the employee may commence work under the contract/task order.",
+      "normalized": "The Contractor should provide copies of each employee's signed NDA to the Contracting Officer before the employee begins work.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor's invoicing, billing, and other financial or administrative records or databases is not authorized to regularly store or include any sensitive PII or other confidential government information that is created, obtained, or provided during the performance of the contract without the written permission of the Senior Component Official for Privacy (SCOP).",
+      "normalized": "The Contractor must not regularly store or include sensitive PII or confidential government information in invoicing/billing/administrative records without written SCOP permission.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractors must report any actual or suspected breach of PII within one hour of discovery.",
+      "normalized": "Contractors must report any actual or suspected PII breach within one hour of discovery.",
+      "section_ref": null,
+      "page": 87,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The report of a breach must be made to DOJ.",
+      "normalized": "The Contractor must ensure a breach report is made to DOJ.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must cooperate with DOJ's inquiry into the incident and efforts to minimize risks to DOJ or individuals, including remediating any harm to potential victims.",
+      "normalized": "The Contractor must cooperate with DOJ's breach inquiry and remediation efforts, including remediating harm to potential victims.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must develop and maintain an internal process by which its employees and Subcontractors are trained to identify and report the breach, consistent with DOJ Instruction\n0900.00.01 [5], Reporting and Response Procedures for a Breach of\nPersonally Identifiable Information.",
+      "normalized": "The Contractor must develop and maintain an internal process to train employees and subcontractors to identify and report breaches, consistent with DOJ Instruction 0900.00.01.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must report any such breach by its employees or\nSubcontractors to the DOJ Security Operations Center (dojcert@usdoj.gov,\n202-357-7000); Component-level Security Operations Center and\nComponent-level Management Team, where appropriate; the COR; and the\nContracting Officer within one (1) hour of the initial discovery.",
+      "normalized": "The Contractor must report any breach by its employees or subcontractors to DOJ SOC, Component-level SOC/Management Team, COR, and Contracting Officer within one (1) hour of initial discovery.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor must provide a written report to the DOJ Security\nOperations Center (dojcert@usdoj.gov, 202-357-7000) within 24 hours of\ndiscovery of the breach by its employees or Subcontractors.",
+      "normalized": "The Contractor must provide a written breach report to the DOJ Security Operations Center within 24 hours of discovery.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The report\nmust contain the following information:",
+      "normalized": "The Contractor's written breach report must contain the specified information listed below.",
+      "section_ref": null,
+      "page": 88,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide full access and cooperation for all activities determined by the Government to be required to ensure an effective incident response, including providing all requested images, log files, and event information to facilitate rapid resolution of sensitive information incidents.",
+      "normalized": "Contractor shall provide full access and cooperation for incident response activities, including images, log files, and event information.",
+      "section_ref": null,
+      "page": 89,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At DOJ's request, the Contractor is responsible for notifying victims and providing victim remediation services in the event of a breach of PII held by the Contractor, its agents, or its Subcontractors, under this contract.",
+      "normalized": "If DOJ requests, Contractor is responsible for notifying victims and providing victim remediation services after a PII breach.",
+      "section_ref": "(6) Victim Remediation",
+      "page": 89,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Victim remediation services shall include at least 18 months\nof credit monitoring and, for serious or large incidents as determined by the Government, call center help desk services for the individuals whose PII was lost or compromised.",
+      "normalized": "Victim remediation services shall include at least 18 months of credit monitoring and, for serious incidents, call center help desk services.",
+      "section_ref": "(6) Victim Remediation",
+      "page": 89,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "By performing this work, the Contractor agrees to full cooperation in the event of a breach.",
+      "normalized": "By performing the work, Contractor agrees to full cooperation in the event of a breach.",
+      "section_ref": "(6) Victim Remediation",
+      "page": 89,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must ensure that all employees and Subcontractors that have access to PII as well as to those involved in the creation, use, dissemination and/or destruction of PII take the DOJ Records and Information Training for New Employees (RIM) training course or another training approved by the Contracting Officer or COR.",
+      "normalized": "Contractor must ensure employees/Subcontractors with PII access take the DOJ RIM training or COR-approved equivalent.",
+      "section_ref": "C.(1)(a)",
+      "page": 89,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This training will be provided at the outset of the Subcontractor's/employee's work on the contract and every year thereafter.",
+      "normalized": "Training will be provided at outset of work and annually thereafter.",
+      "section_ref": "C.(1)(a)",
+      "page": 89,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall maintain copies of certificates as a record of compliance",
+      "normalized": "Contractor shall maintain copies of training certificates as compliance record.",
+      "section_ref": "C.(1)(a)",
+      "page": 89,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "must submit an email notification annually to the COR verifying that all employees working under this contract have completed the required records management",
+      "normalized": "Contractor must submit an annual email notification to the COR verifying employee completion of required records management training.",
+      "section_ref": "C.(1)(a)",
+      "page": 89,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor should be self-insured to the extent necessary to handle any reasonably foreseeable breach, with another source of income, to fully\ncover the costs of breach response, including but not limited to victim\nremediation.",
+      "normalized": "The Contractor should be self-insured with another income source sufficient to cover breach response costs including victim remediation.",
+      "section_ref": null,
+      "page": 89,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall maintain copies of certificates as a record of compliance and must submit an email notification annually to the COR\nverifying that all employees working under this contract have completed\nthe required records management",
+      "normalized": "The Contractor shall maintain training certificate copies and must submit an annual email notification to the COR verifying employee completion of required records management training.",
+      "section_ref": null,
+      "page": 89,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor agrees to comply with Federal and Agency records management policies, including those policies associated with the safeguarding of records containing PII and those covered by the Privacy Act of 1974.",
+      "normalized": "Contractor agrees to comply with Federal and Agency records management policies including PII safeguarding and Privacy Act coverage.",
+      "section_ref": "C.(1)(b)",
+      "page": 90,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not create or maintain any records not specifically tied to or authorized by the contract using Government IT equipment and/or Government records or that contain Government Agency information.",
+      "normalized": "Contractor shall not create/maintain unauthorized records using Government IT equipment or Government records/information.",
+      "section_ref": "C.(2)(a)",
+      "page": 90,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall certify, in writing, the appropriate disposition or return of all Government information at the conclusion of the contract or at a time otherwise specified in the contract.",
+      "normalized": "Contractor shall certify in writing the disposition/return of all Government information at contract conclusion or specified time.",
+      "section_ref": "C.(2)(a)",
+      "page": 90,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In accordance with 36 CFR 1222.32, the Contractor shall maintain and manage all Federal records created in the course of performing the contract in accordance with Federal law.",
+      "normalized": "Contractor shall maintain and manage all Federal records created during contract performance per 36 CFR 1222.32 and Federal law.",
+      "section_ref": "C.(2)(a)",
+      "page": 90,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Records may not be removed from the legal custody of DOJ or destroyed except in accordance with the provisions of the agency records schedules.",
+      "normalized": "Records may not be removed from DOJ custody or destroyed except per agency records schedules.",
+      "section_ref": "C.(2)(a)",
+      "page": 90,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must deliver sufficient technical documentation with all data deliverables to permit the agency to use the data.",
+      "normalized": "Contractor must deliver sufficient technical documentation with all data deliverables to permit agency use.",
+      "section_ref": "C.(2)(b)",
+      "page": 90,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall not retain, use, sell, disseminate, or dispose of any government data/records or deliverables without the express written permission of the Contracting Officer or Contracting Officer's Representative.",
+      "normalized": "Contractor shall not retain, use, sell, disseminate, or dispose of government data/records/deliverables without written CO/COR permission.",
+      "section_ref": "C.(2)(c)",
+      "page": 90,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Agency and its contractors are responsible for preventing the alienation or unauthorized destruction of records, including all forms of mutilation.",
+      "normalized": "Agency and contractors are responsible for preventing alienation or unauthorized destruction/mutilation of records.",
+      "section_ref": "C.(2)(c)",
+      "page": 90,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The use of real data containing PII from any source for testing or training purposes is generally prohibited.",
+      "normalized": "Use of real data containing PII for testing or training is generally prohibited.",
+      "section_ref": "D.(1)",
+      "page": 91,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall use synthetic or de-identified real data for testing or training whenever feasible.",
+      "normalized": "Contractor shall use synthetic or de-identified data for testing/training whenever feasible.",
+      "section_ref": "D.(1)",
+      "page": 91,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor is required to obtain an Authority To Operate (ATO) for any IT environment owned or controlled by the Contractor or any Subcontractor on which Government data shall reside for the purposes of IT system development, design, data migration, testing, training, maintenance, use, or disposal.",
+      "normalized": "Contractor is required to obtain an ATO for any Contractor/Subcontractor-controlled IT environment hosting Government data.",
+      "section_ref": "D.(2)",
+      "page": 91,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this contract requires the development, maintenance or administration of information technology [9], the Contractor shall support the completion of the Initial Privacy Assessment (IPA) document, if requested by Department personnel.",
+      "normalized": "If the contract requires IT development/maintenance/administration, Contractor shall support completion of the IPA if requested by Department personnel.",
+      "section_ref": "D.(3)(a)",
+      "page": 91,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide adequate support to complete the applicable risk assessment and PIA document in a timely manner, and shall ensure that project management plans and schedules include the IPA, PIA, and SORN (to the extent required) as milestones.",
+      "normalized": "Contractor shall provide adequate support for risk assessment/PIA completion and shall ensure project plans/schedules include IPA, PIA, SORN as milestones.",
+      "section_ref": "D.(3)(a)",
+      "page": 91,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the contract involves an IT system build or substantial development or changes to an IT system that may require privacy risk assessment and documentation, the Contractor shall provide adequate support to DOJ to ensure DOJ can complete any required assessment, and",
+      "normalized": "If the contract involves an IT system build/substantial changes requiring privacy risk assessment, Contractor shall provide adequate support to DOJ to complete the assessment.",
+      "section_ref": "D.(3)(b)",
+      "page": 91,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall provide adequate support to complete the applicable risk assessment and PIA document in a timely manner",
+      "normalized": "Contractor must provide adequate support to complete the applicable risk assessment and PIA document in a timely manner.",
+      "section_ref": "D(3)(a)",
+      "page": 91,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall ensure that project management plans and schedules include the IPA, PIA, and SORN (to the extent required) as milestones",
+      "normalized": "Contractor must ensure that project management plans and schedules include the IPA, PIA, and SORN (to the extent required) as milestones.",
+      "section_ref": "D(3)(a)",
+      "page": 91,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall provide adequate support to DOJ to ensure DOJ can complete any required assessment, and",
+      "normalized": "Contractor must provide adequate support to DOJ to ensure DOJ can complete any required assessment.",
+      "section_ref": "D(3)(b)",
+      "page": 91,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "work with personnel from the program office, OPCL, the Office of the Chief information Officer (OCIO), and the Office of Records Management and Policy to ensure that the privacy assessments and documentation are kept on schedule, that the answers to questions in the documents are thorough and complete, and that questions asked by the OPCL and other offices are answered in a timely fashion.",
+      "normalized": "Contractor shall work with program office, OPCL, OCIO, and Records Management/Policy to keep privacy assessments on schedule and answer questions thoroughly and timely.",
+      "section_ref": "D.(3)(b)",
+      "page": 92,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must ensure the completion of required PIAs and documentation of privacy controls consistent with federal law and standards, e.g. NIST 800-53, Rev. 5; and compliance with the Privacy Act of 1974, E-Government Act of 2002, Federal Information Security Modernization Act of 2014, and key 0MB guidelines, e.g., 0MB Circular A-130.",
+      "normalized": "Contractor must ensure completion of required PIAs and documentation of privacy controls consistent with federal law/standards and compliance with listed statutes/guidelines.",
+      "section_ref": "D.(3)(b)",
+      "page": 92,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractors must notify the Contracting Officer, the Contracting Officer's Representative, and JSOC (or component-level SOC) within 1 hour of discovering any incidents, including breaches, consistent with this Instruction, guidance issued by the CPCLO, NIST standards and guidelines, and the US-CERT notification guidelines.",
+      "normalized": "Contractors must notify CO, COR, and JSOC/component SOC within 1 hour of discovering any incidents/breaches.",
+      "section_ref": null,
+      "page": 93,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "52.252-2 Clauses Incorporated By Reference (Feb 1998)",
+      "normalized": "FAR/DFARS clauses incorporated by reference (list spans pages 94-96, e.g. 52.252-2, 52.203-11, 52.204-16, 52.204-17, 52.209-2, 52.209-12); consolidated single admin row.",
+      "section_ref": "Section K",
+      "page": 94,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Past Performance survey shall be submitted to the references listed in the Business management questionnaire.",
+      "normalized": "Past Performance survey shall be submitted to the references listed in the Business management questionnaire.",
+      "section_ref": "Section J",
+      "page": 94,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Offeror shall search for the phrase “FASCSA order” in the System for Award Management (SAM)( https://www.sam.gov) for any covered article, or any products or services produced or provided by a source, if there is an applicable FASCSA order described in paragraph (b)(1) of FAR 52.204-30, Federal Acquisition Supply Chain Security Act Orders—Prohibition.",
+      "normalized": "Offeror shall search SAM for the phrase 'FASCSA order' for any covered article/product/service/source if an applicable FASCSA order exists.",
+      "section_ref": "52.204-29(c)(1)",
+      "page": 95,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall review the solicitation for any FASCSA orders that are not in SAM, but are effective and do apply to the solicitation and resultant contract (see FAR 4.2303(c)(2)).",
+      "normalized": "Offeror shall review the solicitation for FASCSA orders not in SAM but effective and applicable.",
+      "section_ref": "52.204-29(c)(2)",
+      "page": 95,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "By submission of this offer, the offeror represents that it has conducted a reasonable inquiry, and that the offeror does not propose to provide or use in response to this solicitation any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order in effect on the date the solicitation was issued, except as waived by the solicitation, or as disclosed in paragraph (e).",
+      "normalized": "By submitting the offer, offeror represents it conducted a reasonable inquiry and does not propose prohibited covered articles/sources unless waived or disclosed.",
+      "section_ref": "52.204-29(d)",
+      "page": 95,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For any covered article, or any products or services produced or provided by a source, if the covered article or the source is subject to an applicable FASCSA order, and the Offeror is unable to represent compliance, then the Offeror shall provide the following information as part of",
+      "normalized": "If Offeror cannot represent FASCSA compliance for a covered article/source, Offeror shall provide specified disclosure information as part of the offer.",
+      "section_ref": "52.204-29(e)",
+      "page": 95,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the offer:\n(1) Name of the product or service provided to the Government;\n(2) Name of the covered article or source subject to a FASCSA order;\n(3) If applicable, name of the vendor, including the Commercial and\nGovernment Entity code and unique entity identifier (if known), that\nsupplied the covered article or the product or service to the Offeror;\n(4) Brand;\n(5) Model number (original equipment manufacturer number, manufacturer\npart number, or wholesaler number);\n(6) Item description;\n(7) Reason why the applicable covered article or the product or service\nis being provided or used;",
+      "normalized": "Offeror's disclosure (governing clause truncated in excerpt) must include: product/service name, covered article/source name, vendor info (if applicable), brand, model number, item description, and reason for use.",
+      "section_ref": null,
+      "page": 96,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "52.209-2 Prohibition on Contracting with Inverted Domestic\nCorporations-Representation (Nov 2015)",
+      "normalized": "Solicitation incorporates by reference numerous FAR clauses (52.209-2, 52.209-12, 52.216-27, 52.204-7, 52.229-11, 52.233-2, 52.240-90, 52.252-1) applicable to the offer/contract.",
+      "section_ref": "FAR clause list, pp.96-99",
+      "page": 96,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit signed and dated offers to the office specified in this solicitation at or before the exact time specified in\nthis solicitation.",
+      "normalized": "Offeror must submit signed and dated offers to the specified office by the exact time specified in the solicitation.",
+      "section_ref": "52.212-1(a)",
+      "page": 96,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "As a minimum, offers shall include—",
+      "normalized": "Offers shall include, at a minimum, the listed information items.",
+      "section_ref": "52.212-1(a)",
+      "page": 96,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror agrees to hold the prices in its offer firm for 60 calendar days from the date specified for receipt of offers, unless another time period is specified in an addendum to the solicitation.",
+      "normalized": "Offeror must hold offer prices firm for 60 calendar days from the date set for receipt of offers, unless the solicitation addendum specifies otherwise.",
+      "section_ref": "52.212-1(b)",
+      "page": 97,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors are responsible for submitting offers and any modifications\nor revisions to the Government office designated in the solicitation by\nthe time specified in the solicitation.",
+      "normalized": "Offeror is responsible for submitting offers and any modifications/revisions to the designated Government office by the specified time.",
+      "section_ref": "52.212-1(c)(1)",
+      "page": 97,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any offer, modification, or revision received after the time\nspecified for receipt of offers is “late” and will not be considered\nunless it is received before award is made and the Contracting Officer\ndetermines that accepting the late offer would not unduly delay the\nacquisition.",
+      "normalized": "Offers/modifications/revisions received after the specified time are late and will not be considered unless received before award and the Contracting Officer determines acceptance would not unduly delay the acquisition.",
+      "section_ref": "52.212-1(c)(2)",
+      "page": 97,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Therefore, the Offeror’s initial offer should contain the Offeror’s best terms.",
+      "normalized": "Offeror's initial offer should contain its best terms, since no discussions are anticipated.",
+      "section_ref": "52.212-1(d)",
+      "page": 98,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(a) The offeror or respondent, in the performance of any contract\nresulting from this request for proposals, □ intends, □ does not intend\n[check applicable block] to use one or more plants or facilities located\nat a different address from the address of the offeror or respondent as\nindicated in this proposal or response to request for information.",
+      "normalized": "Offeror must check whether it intends or does not intend to use plants/facilities at a different address than its own, per 52.215-6(a).",
+      "section_ref": "52.215-6(a)",
+      "page": 99,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(b) If the offeror or respondent checks \"intends\" in paragraph (a) of\nthis provision, it shall insert in the following spaces the required\ninformation:",
+      "normalized": "If the offeror checks 'intends' in paragraph (a), it shall insert the required place-of-performance information in the spaces provided.",
+      "section_ref": "52.215-6(b)",
+      "page": 99,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "INSTRUCTIONS: Offerors will identify previous federal, state, local\ngovernment and private contracts, which they are currently performing on\nor have performed on and that are similar in scope to the requirement\nbeing evaluated.",
+      "normalized": "Offeror must identify previous federal/state/local/private contracts (current or past) similar in scope to the requirement being evaluated.",
+      "section_ref": "BMQ Instructions",
+      "page": 100,
+      "verb": "will",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "List at least three (3) and no more than five (5) contracts for evaluation.",
+      "normalized": "Offeror must list at least 3 and no more than 5 contracts for evaluation.",
+      "section_ref": "BMQ Instructions",
+      "page": 100,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "References provided shall be for contracts performed within the past three (3) to five (5) years.",
+      "normalized": "References provided must be for contracts performed within the past 3 to 5 years.",
+      "section_ref": "BMQ Instructions",
+      "page": 100,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "List one reference per form. (Form may be duplicated)",
+      "normalized": "Offeror must list one reference per form; the form may be duplicated as needed.",
+      "section_ref": "BMQ Instructions",
+      "page": 100,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "NOTE: If you performed any similar contracts for UNICOR, list them\nfirst.",
+      "normalized": "If the offeror performed similar contracts for UNICOR, it must list those first among the references.",
+      "section_ref": "BMQ Instructions",
+      "page": 100,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The following factors shall be used to evaluate offers:",
+      "normalized": "The Government will use the following factors to evaluate offers: Technical, Past Performance, and Price.",
+      "section_ref": "Section M / 52.212-2",
+      "page": 101,
+      "verb": "shall",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Technical and past performance, when combined, are equally as important\nas price.",
+      "normalized": "Technical and past performance, combined, are weighted equal to price in evaluation.",
+      "section_ref": "Section M / 52.212-2",
+      "page": 101,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government may determine that an offer is unacceptable if the option prices are significantly unbalanced.",
+      "normalized": "An offer may be determined unacceptable if option prices are significantly unbalanced.",
+      "section_ref": "Section M / 52.212-2",
+      "page": 101,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Those subfactors, as set forth in \"Evaluation Criteria\", upon which a\ncomparative ranking of proposals will be based in accordance with\nrelative order of importance accorded each factor:",
+      "normalized": "Proposals will be comparatively ranked based on subfactors set forth in the Evaluation Criteria, in order of relative importance.",
+      "section_ref": "M2",
+      "page": 102,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Technical Ability will be rated as a score of Pass or Fail.",
+      "normalized": "Technical Ability factor will be rated Pass or Fail.",
+      "section_ref": "M2",
+      "page": 102,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Past Performance will be rated as a score of Excellent, Good, Fair, and\nPoor by the following criteria:",
+      "normalized": "Past Performance factor will be rated as Excellent, Good, Fair, or Poor.",
+      "section_ref": "M2",
+      "page": 102,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors’ past performance will first be evaluated for relevancy and\nrecentness.",
+      "normalized": "Offerors' past performance will first be evaluated for relevancy and recentness.",
+      "section_ref": "M2",
+      "page": 102,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors are to provide pricing for each item on the solicitation.",
+      "normalized": "Offeror must provide pricing for each item on the solicitation.",
+      "section_ref": "M2 Pricing",
+      "page": 102,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Therefore, the initial proposal should contain the offeror's best terms from a cost or price and\ntechnical standpoint.",
+      "normalized": "Offeror's initial proposal should contain its best terms from cost/price and technical standpoints, since no discussions are anticipated.",
+      "section_ref": "M3",
+      "page": 103,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Each proposal package shall consist of the following completed and\nsigned documents:\no,,SSF 1449\no,,Amendments\no,,SAM Registration\no,,Unique Entity Identification Number\no,,TIN Number\no,,(3) Business Management Questionnaires\no,,(3) Completed Past Performance Surveys\no,,Pricing - Excel Price Sheets",
+      "normalized": "Offeror must submit a proposal package containing completed and signed: SF1449, Amendments, SAM Registration, UEI Number, TIN Number, (3) Business Management Questionnaires, (3) Completed Past Performance Surveys, and Pricing - Excel Price Sheets.",
+      "section_ref": "M5",
+      "page": 103,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Vendors shall submit signed and dated offers either by postal mail and\nemail.",
+      "normalized": "Vendor must submit signed and dated offers by postal mail and email.",
+      "section_ref": "M6",
+      "page": 103,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The email address to submit offers is  brent.ponder@usdoj.gov.",
+      "normalized": "Offers must be submitted to the email address brent.ponder@usdoj.gov.",
+      "section_ref": "M6",
+      "page": 103,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All offerors shall confirm the receipt of their proposal with Peyton\nPerry Contract Specialist.",
+      "normalized": "Offeror must confirm receipt of its proposal with Peyton Perry, Contract Specialist.",
+      "section_ref": "M6",
+      "page": 103,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The date and time for receipt of proposals is Friday, September 4,\n2026 at 2:00 PM, EST.",
+      "normalized": "Proposals are due Friday, September 4, 2026, at 2:00 PM EST.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offers must indicate Solicitation No. FN1616-26, time specified for\nreceipt of offer, name, address and telephone number of offeror,\ntechnical description of the services being offered in sufficient\ndetail to evaluate compliance with the requirements in the solicitation.",
+      "normalized": "Offer must indicate the solicitation number, receipt time, offeror's name/address/phone, and a technical description sufficient to evaluate compliance.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror must ensure all SAM documentation is completed and current,\nRepresentations and Certifications FAR 52.212-3, and include\nacknowledgment of all amendments, if issued.",
+      "normalized": "Offeror must ensure SAM documentation is complete and current, include Representations and Certifications (FAR 52.212-3), and acknowledge all amendments, if issued.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any amendments issued to this solicitation shall be synopsized in the\nsame manner as this solicitation and must be acknowledged by each\nofferor.",
+      "normalized": "Each offeror must acknowledge any amendments issued to the solicitation.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offeror must hold prices firm for 120 calendar days from the date\nspecified for receipt of offers.",
+      "normalized": "Offeror must hold offer prices firm for 120 calendar days from the date specified for receipt of offers.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offers or modifications to offers received at the address specified\nfor the receipt of offers after the exact time specified may not be\nconsidered.",
+      "normalized": "Offers or modifications received after the exact specified time may not be considered.",
+      "section_ref": "M7",
+      "page": 104,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    }
+  ],
+  "patchedRowsAdded": 32,
+  "v3": {
+    "mangledDropped": 0,
+    "unresolvedV2": 24,
+    "unresolvedV3": 20
+  }
+}

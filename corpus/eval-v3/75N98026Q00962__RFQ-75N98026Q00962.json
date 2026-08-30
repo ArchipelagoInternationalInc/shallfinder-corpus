@@ -1,0 +1,1924 @@
+{
+  "file": "75N98026Q00962__RFQ-75N98026Q00962.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 39,
+  "chunks": 6,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 126,
+  "finalRows": 159,
+  "duplicatesRemoved": 2,
+  "dropped": {
+    "total": 0,
+    "verbatimNotFound": 0,
+    "pageOutOfRange": 0,
+    "invalidShape": 0,
+    "mangled": 0
+  },
+  "reviewFlagged": 51,
+  "coverage": {
+    "verb_occurrences": 145,
+    "captured": 99,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 16
+    },
+    "swept_pages": [
+      2,
+      14,
+      15,
+      16,
+      17,
+      18,
+      21,
+      23,
+      25,
+      26,
+      27,
+      28,
+      29,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "uncaptured_pages": [
+      1,
+      2,
+      14,
+      16,
+      17,
+      18,
+      20,
+      22,
+      25,
+      26,
+      27,
+      29,
+      31,
+      34,
+      35,
+      38
+    ],
+    "unresolved": 29,
+    "unresolved_items": [
+      {
+        "page": 38,
+        "verb": "shall",
+        "pageShortfall": 6,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Except as indicated in paragraph B., below, the due date for making invoice payments by the designated payment office shall be the later of the following two events:"
+      },
+      {
+        "page": 38,
+        "verb": "shall",
+        "pageShortfall": 6,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The due date for making invoice payments for meat and meat food products, perishable agricultural commodities, dairy products, and edible fats or oils, shall be in accordance with the Prompt Payment A"
+      },
+      {
+        "page": 38,
+        "verb": "shall",
+        "pageShortfall": 6,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "An interest penalty shall be paid automatically, if payment is not made by the due date and the conditions listed below are met, if applicable."
+      },
+      {
+        "page": 2,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Technical Capability and Functionality NIDA shall evaluate the offeror’s technical approach for overall capability and functionality in relation to the General Requirement, Salient Characteristics, Qu"
+      },
+      {
+        "page": 2,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Conformity to Salient Characteristics NIDA shall evaluate the offeror’s ability to provide a high level of customer service, particularly in the area of initial responsiveness and resolution of device"
+      },
+      {
+        "page": 2,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Delivery, Installation and Set-up NIDA shall evaluate the offeror’s technical approach for their capability to adhere to the period of performance requirements, with regards to delivery date and maint"
+      },
+      {
+        "page": 2,
+        "verb": "must",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "For a price to be reasonable, it must represent a price to the government that a prudent person would pay when consideration is given to prices in the market."
+      },
+      {
+        "page": 16,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Payment shall be made for items accepted by the Government that have been delivered to the delivery destinations set forth in this contract."
+      },
+      {
+        "page": 16,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "In connection with any discount offered for early payment, time shall be computed from the date of the invoice."
+      },
+      {
+        "page": 16,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "For the purpose of computing the discount earned, payment shall be considered to have been made on the date which appears on the payment check or the specified payment date if an electronic funds tran"
+      },
+      {
+        "page": 16,
+        "verb": "shall",
+        "pageShortfall": 4,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The interest rate shall be the interest rate established by the Secretary of the Treasury as provided in 41 U.S.C."
+      },
+      {
+        "page": 17,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(iv) If a demand for payment was previously issued for the debt, the demand for payment included in the final decision shall identify the same due date as the original demand for payment."
+      },
+      {
+        "page": 17,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(vi) The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on (A) The date on which the designated office receives payment from the"
+      },
+      {
+        "page": 25,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "At any time before final payment under this contract, the Contracting Officer (or authorized representative) will have access to the following (access shall be limited to the listing below unless othe"
+      },
+      {
+        "page": 29,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The order shall be specifically identified as a stop-work order issued under this clause."
+      },
+      {
+        "page": 29,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Within a period of 90 days after a stop-work is delivered to the Contractor, or within any extension of that period to which the parties shall have agreed, the Contracting Officer shall either (1) Can"
+      },
+      {
+        "page": 29,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The Contracting Officer shall make an equitable adjustment in the delivery schedule or contract price, or both, and the contract shall be modified, in writing, accordingly, if (1) The stop-work order "
+      },
+      {
+        "page": 34,
+        "verb": "shall",
+        "pageShortfall": 3,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(1) The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor’s directly pertinent recor"
+      },
+      {
+        "page": 35,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Unless otherwise indicated below, the extent of the flow down shall be as required by the clause- (i) 52.203-13, Contractor Code of Business Ethics and Conduct (Nov 2021) (41 U.S.C."
+      },
+      {
+        "page": 1,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "This requirement shall be solicited using full and open competitive procedures."
+      },
+      {
+        "page": 14,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal or action arising under or relating to this contract shall be a dispute to be resolved"
+      },
+      {
+        "page": 18,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose."
+      },
+      {
+        "page": 18,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Unless specified elsewhere in this contract, title to items furnished under this contract shall pass to the Government upon acceptance, regardless of when or where the Government takes physical posses"
+      },
+      {
+        "page": 20,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "1341), the following shall govern:"
+      },
+      {
+        "page": 22,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(ii) Failure to agree to the amount of increased cost to be charged to the Contractor shall be a dispute under the Disputes clause of the contract."
+      },
+      {
+        "page": 26,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Each payment previously made shall be subject to reduction to the extent of amounts, on preceding invoices, that are found by the Contracting Officer not to have been properly payable and shall also b"
+      },
+      {
+        "page": 27,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(iv) If a demand for payment was previously issued for the debt, the demand for payment included in the final decision shall identify the same due date as the original demand for payment."
+      },
+      {
+        "page": 27,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "(vi) The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on (A) The date on which the designated office receives payment from the"
+      },
+      {
+        "page": 31,
+        "verb": "shall",
+        "pageShortfall": 1,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "Off Off Off Off Off Off Off Off Yes Off Off Off Yes (22) (23) (24) (25) (26) Off Yes Yes Off Yes (16) (17) (18) Off (19) Off (20) (21) Off (27) (28) (29) (30) 52.219-4 52.219-6 52.219-7 52.219-8 52.21"
+      }
+    ]
+  },
+  "unresolvedBefore": 46,
+  "sweeperNewRows": 53,
+  "sweeperExclusions": [
+    {
+      "page": 28,
+      "quote": "The Government will make payment in accordance with the Prompt Payment Act (31 U.S.C. 3903) and prompt payment regulations at 5 CFR part 1315.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 28,
+      "quote": "the Government shall not be liable to the Contractor for any amount for supplies or",
+      "rule": "government-actor"
+    },
+    {
+      "page": 26,
+      "quote": "The Government within 30 days will pay any such increases, unless the parties agree otherwise.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 26,
+      "quote": "The Contrac payment will be made by check.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 26,
+      "quote": "The Contracting Officer will issue a final decision as required by 33.211 if",
+      "rule": "government-actor"
+    },
+    {
+      "page": 26,
+      "quote": "Each payment previously made shall be subject to reduction to the extent of amounts, on preceding invoices, that are found by the Contracting Officer not to have been properly payable and shall also be subject to reduction for overpayments or to increase for underpayments.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 36,
+      "quote": "The Comptroller General of the United States, an appropriate Inspector General appointed under section 3 or 8 G of the Inspector General Act of 1978 (5 U.S.C. App.), or an authorized representative of either of the foregoing officials shall have access to and right to—(i) Examine any of the Contractor’s or any subcontractors’ records that pertain to, and involve transactions relating to, this cont",
+      "rule": "government-actor"
+    },
+    {
+      "page": 14,
+      "quote": "The Government must exercise its post-acceptance rights",
+      "rule": "government-actor"
+    },
+    {
+      "page": 27,
+      "quote": "the demand for payment included in the final decision shall identify the same due date as the original demand for payment.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 27,
+      "quote": "The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on",
+      "rule": "government-actor"
+    },
+    {
+      "page": 27,
+      "quote": "any outstanding balances will be paid within 30 days unless the parties agree otherwise.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 38,
+      "quote": "Shipping costs will be reimbursed only if authorized by the Contract/Purchase Order.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 38,
+      "quote": "Except as indicated in paragraph B., below, the due date for making invoice payments by the designated payment office shall be the later of the following two events:",
+      "rule": "government-actor"
+    },
+    {
+      "page": 38,
+      "quote": "The due date for making invoice payments for meat and meat food products, perishable agricultural commodities, dairy products, and edible fats or oils, shall be in accordance with the Prompt Payment Act, as amended.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 38,
+      "quote": "An interest penalty shall be paid automatically, if payment is not made by the due date and the conditions listed below are met, if applicable.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 38,
+      "quote": "Determination of interest and penalties due will be made in accordance with the provisions of the Prompt Payment Act, as amended, the Contract Disputes Act, and regulations issued by the Office of Management and Budget.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 29,
+      "quote": "such termination shall be deemed a termination for convenience.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 29,
+      "quote": "The order shall be specifically identified as a stop-work order issued under this clause.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 34,
+      "quote": "The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor's directly pertinent records involving transactions related to this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 23,
+      "quote": "The Government will pay the Contractor as follows upon the submission of commercial invoices approved by the Contracting Officer:",
+      "rule": "government-actor"
+    },
+    {
+      "page": 23,
+      "quote": "Labor hours incurred to perform tasks for which labor qualifications were specified in the contract will not be paid to the extent the work is performed by individuals that do not meet the qualifications specified in the contract, unless specifically authorized by the Contracting Officer.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 25,
+      "quote": "access\nshall be limited to the listing below unless otherwise agreed to by the Contractor and the\nContracting Officer",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "NIDA shall evaluate the offeror’s technical approach for overall capability and functionality in relation to the General Requirement, Salient Characteristics, Quantity and Deliverables as described in the Purchase Description.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "NIDA shall evaluate the offeror’s ability to provide a high level of customer service, particularly in the area of initial responsiveness and resolution of device and service problems.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "NIDA shall evaluate the offeror’s technical approach for their capability to adhere to the period of performance requirements, with regards to delivery date and maintenance and service details with regards to service, within the period of warranty and options.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "For a price to be reasonable, it must represent a price to the government that a prudent person would pay when consideration is given to prices in the market.",
+      "rule": "definitional"
+    },
+    {
+      "page": 17,
+      "quote": "The Contracting Officer will issue a final decision as required by 33.211 if",
+      "rule": "government-actor"
+    },
+    {
+      "page": 17,
+      "quote": "the demand for payment included in the final decision shall identify the same due date as the original demand for payment.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 17,
+      "quote": "The interest charge shall be computed for the actual number of calendar days involved beginning on the due date and ending on",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "such termination shall be deemed a termination for convenience.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "title to items furnished under this contract shall pass to the Government upon acceptance, regardless of when or where the Government takes physical possession.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "the Government shall not be liable to the Contractor for any amount for supplies or services not accepted",
+      "rule": "government-actor"
+    },
+    {
+      "page": 37,
+      "quote": "the Contractor will be notified of the defect within 7 days after the date the designated billing office received the\ninvoice",
+      "rule": "government-actor"
+    },
+    {
+      "page": 37,
+      "quote": "Untimely notification will be considered in the computation of any interest penalty owed the\nContractor.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 16,
+      "quote": "Invoices will be handled in accordance with the Prompt Payment Act (31 U.S.C. 3903) and Office of Management and Budget (OMB) prompt payment regulations at 5 CFR Part 1315.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 16,
+      "quote": "Payment shall be made for items accepted by the Government that have been delivered to the delivery destinations set forth in this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 16,
+      "quote": "The Government will make payment in accordance with the Prompt Payment Act (31 U.S.C. 3903) and prompt payment regulations at 5 CFR Part 1315.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 16,
+      "quote": "In connection with any discount offered for early payment, time shall be computed from the date of the invoice.",
+      "rule": "definitional"
+    },
+    {
+      "page": 16,
+      "quote": "For the purpose of computing the discount earned, payment shall be considered to have been made on the date which appears on the payment check or the specified payment date if an electronic funds transfer payment is made.",
+      "rule": "definitional"
+    },
+    {
+      "page": 16,
+      "quote": "The interest rate shall be the interest rate established by the Secretary of the Treasury as provided in 41 U.S.C. 7109 , which is applicable to the period in which",
+      "rule": "definitional"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 60974,
+    "outputTokens": 208503,
+    "cacheReadTokens": 33488,
+    "cacheCreationTokens": 0,
+    "usd": 1.1068378
+  },
+  "rows": [
+    {
+      "verbatim": "Delivery shall be made 30 days after award date.",
+      "normalized": "Contractor must deliver 30 days after award date.",
+      "section_ref": "para vii",
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Delivery shall be made to the following:\nAttn: Dr. Nan-ping Weng\nBiomedical Research Center\n251 Bayview Boulevard\nBaltimore, Maryland 21224",
+      "normalized": "Contractor must deliver to the specified address (Dr. Nan-ping Weng, Biomedical Research Center, Baltimore, MD).",
+      "section_ref": "para vii",
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The provision at FAR Clause 52.212-1 Instructions to Offerors—Commercial Items is applicable to this solicitation.",
+      "normalized": "FAR clauses 52.212-1 through 52.212-5 are incorporated and applicable to this solicitation (clause list; see paras viii-xii, pages 1-3).",
+      "section_ref": "para viii-xii",
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each proposal must document the feasibility of successful implementation of the requirements of the SOLICITATION.",
+      "normalized": "Offeror's proposal must document feasibility of successful implementation of the solicitation requirements.",
+      "section_ref": null,
+      "page": 2,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors must submit information sufficient to evaluate their proposals based on the detailed factors listed below.",
+      "normalized": "Offeror must submit information sufficient to evaluate proposals against the detailed factors.",
+      "section_ref": null,
+      "page": 2,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Price evaluation will not be conducted on any Offeror determined to be technically unacceptable.",
+      "normalized": "Offerors found technically unacceptable will not have their price evaluated (evaluation gate).",
+      "section_ref": null,
+      "page": 2,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Responses to this solicitation must include sufficient information to establish the interested parties’ bona-fide capabilities of providing the product or service.",
+      "normalized": "Offeror's response must include sufficient information establishing bona-fide capability to provide the product/service.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Responses to this solicitation must include clear and convincing evidence of the Offeror’s capability of fulfilling the requirement as it relates to the government requirements stated in this solicitation.",
+      "normalized": "Offeror's response must include clear and convincing evidence of capability to fulfill the requirement.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Basic cost and price information in the Offeror’s proposal must contain sufficient information to allow the Government to perform a basic analysis of the reasonableness of the Offeror to supply the required goods/services.",
+      "normalized": "Offeror's proposal must contain sufficient cost/price information to allow a basic price-reasonableness analysis.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall submit its quote electronically.",
+      "normalized": "Contractor must submit its quote electronically.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors MUST include a completed copy of the provision at 52.212-3, Offeror Representations and Certifications Commercial Items, with their offer, OR provide a copy of the valid certifications registrations and Representation and Certifications from the System of Award Management (SAM) applications at www.SAM.gov, which may be indicated on the Offeror’s cover sheet.",
+      "normalized": "Offeror must include a completed 52.212-3 certification with its offer, or provide the equivalent SAM.gov certifications.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In addition the vendor Unique Entity Identifier (UEI) and the certification of business size must be included in the response.",
+      "normalized": "Offeror must include its UEI and business size certification in the response.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All Offerors must have an active registration in the System for Award Management (SAM) www.sam.gov.”",
+      "normalized": "Offeror must have an active SAM registration.",
+      "section_ref": "para xv",
+      "page": 3,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All responses must be received no later than September 8, 2026, 12:00 pm EST.",
+      "normalized": "Offeror's response must be received no later than September 8, 2026, 12:00 pm EST.",
+      "section_ref": null,
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Late responses will not be accepted.",
+      "normalized": "Late responses will not be accepted (gate criterion).",
+      "section_ref": null,
+      "page": 3,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All responses must reference solicitation number 75N98026Q00960.",
+      "normalized": "Offeror's response must reference solicitation number 75N98026Q00960.",
+      "section_ref": null,
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Responses must be submitted electronically to",
+      "normalized": "Offeror's response must be submitted electronically to the specified email address (sentence continues on next page).",
+      "section_ref": null,
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Questions and requests for clarification must be submitted electronically to the Contract Specialist, Scott Duernberger, at scott.duernberger@nih.gov on or before 11:00 AM EST, September 2, 2026.",
+      "normalized": "Offeror must submit questions/clarification requests electronically to the Contract Specialist by 11:00 AM EST, September 2, 2026.",
+      "section_ref": "para xvi",
+      "page": 4,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Fax responses will NOT be accepted.",
+      "normalized": "Fax responses (to questions) will not be accepted.",
+      "section_ref": "para xvi",
+      "page": 4,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Independently and not as an agent of the Government, the Contractor shall furnish all the necessary services, qualified personnel, material, and equipment, not otherwise provided by the Government as needed to perform the Statement of Work below.",
+      "normalized": "Contractor must furnish all necessary services, personnel, material, and equipment needed to perform the SOW.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide preventative maintenance and on-demand repair services for Amnis image.",
+      "normalized": "Contractor must provide preventative maintenance and on-demand repair services for the Amnis image instrument.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Contractor shall schedule and perform onsite preventive maintenance from 8:00 am – 5:00 pm Monday through Friday, excluding Federal holidays.",
+      "normalized": "Contractor must schedule and perform onsite preventive maintenance Mon-Fri, 8am-5pm, excluding Federal holidays.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Due to the critical nature of these units the contractor must ensure the following: 1. The contractor shall make commercially reasonable efforts to obtain any required part within the targeted 48 hours of the service technician assessment.",
+      "normalized": "Contractor must make commercially reasonable efforts to obtain any required part within 48 hours of the service technician's assessment.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. The service technicians need to be factory certified.",
+      "normalized": "Contractor's service technicians must be factory certified.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "3. All services provided under the Service Agreement will be performed in a workmanlike manner.",
+      "normalized": "Contractor's services under the Service Agreement will be performed in a workmanlike manner.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 5,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "software or proprietary diagnostic software and software enhancements must be OEM certified (new or like-new) and compatible with the subject equipment.",
+      "normalized": "Diagnostic software and enhancements provided by contractor must be OEM certified and compatible with the subject equipment.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 6,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Contractor shall be required to provide written progress reports in achieving this statement of work during the period of performance.",
+      "normalized": "Contractor must provide written progress reports on SOW achievement during the period of performance.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The original documentation shall be provided by the vendor to show they completed service on the instrument and should document technical progress with the POC.",
+      "normalized": "Vendor must provide original documentation showing completed service on the instrument and document technical progress with the POC.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Service shall include labor and parts coverage, on-site labor response, technical telephone response (call-back to schedule), planned maintenance, and preferred labor rate",
+      "normalized": "Contractor's service must include labor and parts coverage, on-site labor response, technical telephone call-back, planned maintenance, and preferred labor rate.",
+      "section_ref": "SOW - Scope of Work",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Maintain its working conditions.",
+      "normalized": "Contractor must maintain the equipment's working conditions.",
+      "section_ref": "SOW - General Requirements",
+      "page": 6,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall provide dCODE Dextramer® with the following specifications:",
+      "normalized": "Contractor must provide dCODE Dextramer® items per the listed specifications.",
+      "section_ref": "SOW - Specific Requirements",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The field service technician will be required to notify the POC from the NIA/IRP for access to the subject equipment.",
+      "normalized": "The contractor's field service technician must notify the POC from the NIA/IRP to obtain access to the equipment.",
+      "section_ref": "Government Responsibilities",
+      "page": 12,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Documentation shall be provided by the vendor to show they completed the service on the equipment and left with the COR or POC.",
+      "normalized": "The vendor shall provide documentation showing completed service, left with the COR or POC.",
+      "section_ref": "Delivery or Deliverable",
+      "page": 12,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The service technician is to present a service ticket that briefly details the work performed to the POC for signature and a copy of the ticket is to be left with the POC.",
+      "normalized": "The service technician must present a service ticket detailing work performed to the POC for signature and leave a copy with the POC.",
+      "section_ref": "Delivery or Deliverable",
+      "page": 12,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A detailed written report of any service is to be submitted to the Contracting Officer’s Representative, or a delegated entity, within 24 hours of service being performed.",
+      "normalized": "The contractor must submit a detailed written report of any service to the COR (or delegated entity) within 24 hours of service performance.",
+      "section_ref": "Delivery or Deliverable",
+      "page": 12,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All travel time should be included within the provided service agreement\nquote.",
+      "normalized": "The contractor should include all travel time within the provided service agreement quote.",
+      "section_ref": "Travel",
+      "page": 12,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless it is an “undue burden” or compliant products or services do not exist, the products must conform to Section 508.",
+      "normalized": "Unless it is an undue burden or compliant products/services do not exist, the contractor's products must conform to Section 508.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 12,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor should state that they will comply with the requirements of Section 508 or cite a justifiable reason for an exception.",
+      "normalized": "The contractor should state compliance with Section 508 or cite a justifiable reason for exception.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 12,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If any additional costs for compliance are anticipated, these should be identified.",
+      "normalized": "If additional Section 508 compliance costs are anticipated, the contractor should identify them.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 12,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The contractor must ensure that all EIT products that are less than fully compliant are offered pursuant to extensive market research which ensures that they are the most compliant products and services available.",
+      "normalized": "The contractor must ensure less-than-fully-compliant EIT products are offered based on extensive market research confirming they are the most compliant available.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 13,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For every EIT product that does not comply with 36 CFR Part 1194, the contractor shall on 30 days’ notice, make every effort to replace or upgrade it with a compliant equivalent product or service, if commercially available and cost neutral.",
+      "normalized": "For non-compliant EIT products, the contractor shall, on 30 days' notice, make every effort to replace/upgrade with a compliant equivalent if commercially available and cost neutral.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 13,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For existing systems, the contractor may not be able to identify all costs for compliance if the contractor did not develop that system, but should state that any development performed during the course of this DO will be compliant.",
+      "normalized": "For existing systems the contractor did not develop, the contractor should state that any development performed during the DO will be Section 508 compliant.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 13,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If significant difficulty or expense is involved, a commercial non-availability is declared.",
+      "normalized": "If significant difficulty or expense is involved in Section 508 compliance, a commercial non-availability is declared.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 13,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Within 30 days of task award, the contractor should provide a plan for compliance for the system as a whole, including any costs associated with compliance.",
+      "normalized": "Within 30 days of task award, the contractor should provide a Section 508 compliance plan for the system, including associated costs.",
+      "section_ref": "Section 508—Electronic and Information Technology Standards",
+      "page": 13,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Follow government rules",
+      "normalized": "The contractor must follow government rules regarding confidentiality of information.",
+      "section_ref": "Confidentiality of Information",
+      "page": 13,
+      "verb": "imperative",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "FAR CLAUSE 52.212-4\nCONTRACT TERMS AND CONDITIONS COMMERCIAL ITEMS (JANUARY 2017)",
+      "normalized": "FAR Clause 52.212-4 (Contract Terms and Conditions—Commercial Items) is incorporated, spanning pages 14-18, containing multiple standard contractor obligations (inspection/acceptance, invoicing, payment, disputes, termination, etc.).",
+      "section_ref": "Attachment 2 - Commercial Contract Terms and Conditions",
+      "page": 14,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall only tender for acceptance those items that conform to the requirements of this contract.",
+      "normalized": "Contractor must only tender for acceptance items that conform to the contract's requirements.",
+      "section_ref": "FAR 52.212-4(a)",
+      "page": 14,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+      "normalized": "Contractor must continue diligent performance of the contract while any dispute is pending final resolution.",
+      "section_ref": "FAR 52.212-4(d)",
+      "page": 14,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence such as, acts of God or the public enemy, acts of the Government in either its sovereign or contractual capacity, fires, floods, epidemics, quarantine restrictions, strikes, unusually severe weather, and delays of common carriers.",
+      "normalized": "Contractor is liable for default unless nonperformance results from specified excusable occurrences beyond its reasonable control.",
+      "section_ref": "Attachment 2 (f)",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall notify the Contracting Officer in writing as soon as it is reasonably possible after the commencement of any excusable delay, setting forth the full particulars in connection therewith",
+      "normalized": "Contractor must notify the Contracting Officer in writing as soon as reasonably possible after an excusable delay begins, providing full particulars.",
+      "section_ref": "Attachment 2 (f)",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall remedy such occurrence with all reasonable dispatch",
+      "normalized": "Contractor must remedy the excusable delay occurrence with all reasonable dispatch.",
+      "section_ref": "Attachment 2 (f)",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall promptly give written notice to the Contracting Officer of the cessation of such occurrence",
+      "normalized": "Contractor must promptly give the Contracting Officer written notice when the excusable delay occurrence ceases.",
+      "section_ref": "Attachment 2 (f)",
+      "page": 15,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall submit an original invoice and three copies (or electronic invoice, if authorized) to the address designated in the contract to receive invoices.",
+      "normalized": "Contractor must submit an original invoice plus three copies (or electronic invoice if authorized) to the designated invoice address.",
+      "section_ref": "Attachment 2 (g)(1)",
+      "page": 15,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An invoice must include",
+      "normalized": "Contractor's invoice must include the enumerated required elements (i) through (x).",
+      "section_ref": "Attachment 2 (g)(1)",
+      "page": 15,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall include its TIN on the invoice only if required elsewhere in this contract.",
+      "normalized": "Contractor must include its Taxpayer Identification Number on the invoice only if required elsewhere in the contract.",
+      "section_ref": "Attachment 2 (g)(1)(ix)",
+      "page": 15,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall include EFT banking information on the invoice only if required elsewhere in this contract.",
+      "normalized": "Contractor must include EFT banking information on the invoice only if required elsewhere in the contract.",
+      "section_ref": "Attachment 2 (g)(1)(x)(A)",
+      "page": 15,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If EFT banking information is not required to be on the invoice, in order for the invoice to be a proper invoice, the Contractor shall have submitted correct EFT banking information in accordance with the applicable solicitation provision, contract clause (e.g., 52.232-33, Payment by Electronic Funds Transfer System for Award Management, or 52.232-34, Payment by Electronic Funds Transfer Other Than System for Award Management), or applicable agency procedures.",
+      "normalized": "If EFT banking information is not required on the invoice, Contractor must have already submitted correct EFT banking information per the applicable solicitation provision, contract clause, or agency procedures for the invoice to be proper.",
+      "section_ref": "Attachment 2 (g)(1)(x)(B)",
+      "page": 15,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall indemnify the Government and its officers, employees and agents against liability, including costs, for actual or alleged direct or contributory infringement of, or inducement to infringe, any United States or foreign patent, trademark or copyright, arising out of the performance of this contract, provided the Contractor is reasonably notified of such claims and proceedings.",
+      "normalized": "Contractor shall indemnify the Government against patent/trademark/copyright infringement claims arising from contract performance, provided it is reasonably notified.",
+      "section_ref": "Attachment 2 (h)",
+      "page": 16,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(5) Overpayments. If the Contractor becomes aware of a duplicate contract financing or\ninvoice payment or that the Government has otherwise overpaid on a contract financing\nor invoice payment, the Contractor shall\n(i) Remit the overpayment amount to the payment office cited in the contract along with a\ndescription of the overpayment including the\n(A) Circumstances of the overpayment (e.g., duplicate payment, erroneous payment,\nliquidation errors, date(s) of overpayment);\n(B) Affected contract number and delivery order number, if applicable;\n(C) Affected line item or subline item, if applicable; and\n(D) Contractor point of contact.\n(ii) Provide a copy of the remittance and supporting documentation to the Contracting\nOfficer.",
+      "normalized": "If the Contractor becomes aware of a duplicate or overpaid contract financing/invoice payment, it shall remit the overpayment with specified details and provide the Contracting Officer a copy of the remittance and supporting documentation.",
+      "section_ref": "Attachment 2 (i)(5)",
+      "page": 16,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) All amounts that become payable by the Contractor to the Government under this\ncontract shall bear simple interest from the date due until paid unless paid within 30 days\nof becoming due.",
+      "normalized": "Amounts payable by the Contractor to the Government shall bear simple interest from the due date until paid, unless paid within 30 days of becoming due.",
+      "section_ref": "Attachment 2 (i)(6)",
+      "page": 16,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Amounts shall be due at the earliest of the following dates:",
+      "normalized": "Amounts owed by the Contractor become due at the earliest of the dates specified in the clause.",
+      "section_ref": "(i)(6)(v)",
+      "page": 17,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless the contract specifically provides otherwise, risk of loss or damage to the supplies provided under this contract shall remain with the Contractor until, and shall pass to the Government upon:",
+      "normalized": "The Contractor must bear risk of loss or damage to supplies until delivery to a carrier (f.o.b. origin) or to the Government at destination (f.o.b. destination), at which point risk passes to the Government.",
+      "section_ref": "(j) Risk of loss",
+      "page": 17,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall immediately stop all work hereunder",
+      "normalized": "Contractor must immediately stop all work upon termination for convenience.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "shall\nimmediately cause any and all of its suppliers and subcontractors to cease work.",
+      "normalized": "Contractor must immediately cause its suppliers and subcontractors to cease work upon termination for convenience.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government may terminate this contract, or any part hereof, for\ncause in the event of any default by the Contractor, or if the Contractor fails to comply with any\ncontract terms and conditions, or fails to provide the Government, upon request, with adequate\nassurances of future performance.",
+      "normalized": "If requested, Contractor must provide the Government adequate assurances of future performance and must comply with contract terms and conditions, or risk termination for cause.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the\nContractor shall be liable to the Government for any and all rights and remedies provided by law.",
+      "normalized": "Contractor is liable to the Government for all rights and remedies provided by law upon termination for cause.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor warrants and implies that the items delivered hereunder are\nmerchantable and fit for use for the particular purpose described in this contract.",
+      "normalized": "Contractor warrants that delivered items are merchantable and fit for the purpose described in the contract.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall comply with all applicable Federal, State and local\nlaws, executive orders, rules and regulations applicable to its performance under this contract.",
+      "normalized": "Contractor must comply with all applicable federal, state, and local laws, executive orders, rules, and regulations applicable to its performance.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Subject to the terms of this contract, the Contractor shall be paid a percentage of the contract price reflecting the percentage of the work performed prior to the notice of termination, plus reasonable charges the Contractor can demonstrate to the satisfaction of the Government using its standard record keeping system, have resulted from the termination.",
+      "normalized": "Upon termination for convenience, the Contractor shall be paid a percentage of the contract price reflecting work performed prior to notice of termination, plus reasonable, demonstrable charges resulting from the termination.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the Contractor will not be liable to the Government for consequential damages resulting from any defect or deficiencies in accepted items.",
+      "normalized": "Except as otherwise provided by an express warranty, the Contractor will not be liable to the Government for consequential damages resulting from any defect or deficiencies in accepted items.",
+      "section_ref": null,
+      "page": 18,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor agrees to comply with\n31 U.S.C. 1352 relating to limitations on the use of appropriated funds to influence certain\nFederal contracts; 18 U.S.C. 431 relating to officials not to benefit; 40 U.S.C. chapter 37,\nContract Work Hours and Safety Standards; 41 U.S.C. chapter 87, Kickbacks; 41 U.S.C. 4712\nand 10 U.S.C. 2409 relating to whistleblower protections; 49 U.S.C. 40118, Fly American; and\n41 U.S.C. chapter 21 relating to procurement integrity.",
+      "normalized": "Contractor must comply with the listed statutory requirements (appropriated funds limitations, anti-gratuity, Contract Work Hours and Safety Standards, Kickback Act, whistleblower protections, Fly America Act, procurement integrity).",
+      "section_ref": null,
+      "page": 19,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the Contractor is responsible during\nperformance and through final payment of any contract for the accuracy and completeness\nof the data within the SAM database, and for any liability resulting from the\nreliance on inaccurate or incomplete data.",
+      "normalized": "Contractor is responsible for the accuracy and completeness of SAM database data through final payment, and for liability from reliance on inaccurate/incomplete data.",
+      "section_ref": null,
+      "page": 19,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "To remain registered in the SAM database after the initial registration, the Contractor is\nrequired to review and update on an annual basis from the date of initial registration or\nsubsequent updates its information in the SAM\ndatabase to ensure it is current, accurate and complete.",
+      "normalized": "Contractor must review and update its SAM registration information annually to ensure it remains current, accurate, and complete.",
+      "section_ref": null,
+      "page": 19,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall\nnotification of its intention to (A) change the name in the SAM database; (B) comply with\nthe requirements of subpart 42.12; and (C) agree in writing to the timeline and procedures",
+      "normalized": "If the Contractor has changed its name/division or transferred assets without completing novation, it must notify of its intention to change the SAM name, comply with FAR subpart 42.12, and agree in writing to the timeline/procedures.",
+      "section_ref": null,
+      "page": 19,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must provide with the\nnotification sufficient documentation to support the legally changed name.",
+      "normalized": "Contractor must provide sufficient documentation to support the legally changed name along with the notification.",
+      "section_ref": null,
+      "page": 20,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall not change the name or address for EFT payments or manual\npayments, as appropriate, in the SAM record to reflect an assignee for the purpose of\nassignment of claims (see subpart 32.8, Assignment of Claims).",
+      "normalized": "Contractor must not change the SAM EFT/manual payment name or address to reflect an assignee for purposes of assignment of claims.",
+      "section_ref": null,
+      "page": 20,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Assignees shall be\nrecord that indicates payments, including those made by EFT, to an ultimate recipient other\nthan that Contractor will be considered to be incorrect information within the meaning of\ncontract.",
+      "normalized": "Unclear/garbled requirement regarding assignee payment records being treated as incorrect SAM information.",
+      "section_ref": null,
+      "page": 20,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(v) certifications, including\nthose completed electronically via the System for Award Management (SAM), are\nincorporated by reference into the contract.",
+      "normalized": "Contractor's certifications, including those completed electronically via SAM, are incorporated by reference into the contract.",
+      "section_ref": null,
+      "page": 21,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If the Government performs inspection or tests on the premises of the Contractor or\na subcontractor, the Contractor shall furnish and shall require subcontractors to furnish\nall reasonable facilities and assistance for the safe and convenient performance of these\nduties.",
+      "normalized": "If the Government inspects/tests on Contractor or subcontractor premises, Contractor must furnish, and require subcontractors to furnish, all reasonable facilities and assistance for safe and convenient inspection.",
+      "section_ref": null,
+      "page": 21,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "At any time during contract performance, but not later than 6 months (or such other\ntime as may be specified in the contract) after acceptance of the services or materials\nlast delivered under this contract, the Government may require the Contractor to\nreplace or correct services or materials that at time of delivery failed to meet contract\nrequirements.",
+      "normalized": "Government may require Contractor to replace/correct nonconforming services or materials at any time, but not later than 6 months after acceptance of the last delivered items, creating a contractor dependency window.",
+      "section_ref": null,
+      "page": 21,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not tender for acceptance materials and services required to be replaced\nor corrected without disclosing the former requirement for replacement or correction",
+      "normalized": "Contractor must not tender for acceptance previously rejected materials/services without disclosing the prior replacement/correction requirement.",
+      "section_ref": null,
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "and, when required, shall disclose\nthe corrective action taken.",
+      "normalized": "Contractor must disclose the corrective action taken, when required.",
+      "section_ref": null,
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall furnish and shall require subcontractors to furnish all reasonable facilities and assistance for the safe and convenient performance of these duties.",
+      "normalized": "The Contractor shall furnish and shall require subcontractors to furnish all reasonable facilities and assistance for safe and convenient performance of inspection/test duties.",
+      "section_ref": "52.212-4 Alt I (a)(2)",
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Except as otherwise specified in paragraph (a)(6) of this clause, the cost of replacement or correction shall be determined under paragraph (i) of this clause, but reduced to exclude that portion of the rate attributable to profit.",
+      "normalized": "The cost of replacement or correction shall be determined under paragraph (i) of this clause, reduced to exclude the profit portion of the rate, unless otherwise specified in paragraph (a)(6).",
+      "section_ref": "52.212-4 Alt I (a)(4)",
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not tender for acceptance materials and services required to be replaced or corrected without disclosing the former requirement for replacement or correction, and, when required, shall disclose the corrective action taken.",
+      "normalized": "The Contractor shall disclose the corrective action taken, when required, in addition to not tendering for acceptance materials/services requiring replacement or correction without disclosure.",
+      "section_ref": "52.212-4 Alt I (a)(4)",
+      "page": 21,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Government may at any time\nrequire the Contractor to remedy by correction or replacement, without cost to the\nGovernment, any failure by the Contractor to comply with the requirements of this\ncontract, if the failure is due to\n(i) Fraud, lack of good faith, or willful misconduct on the part of the\nContractor's managerial personnel; or",
+      "normalized": "If Contractor's failure to meet contract requirements is due to fraud, lack of good faith, or willful misconduct by managerial personnel, Government may require Contractor to remedy by correction/replacement at no cost to the Government.",
+      "section_ref": null,
+      "page": 22,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Labor hours incurred to perform tasks for\nwhich labor qualifications were specified in the contract will not be paid to the extent the\nwork is performed by individuals that do not meet the qualifications specified in the\ncontract, unless specifically authorized by the Contracting Officer.",
+      "normalized": "Contractor will not be paid for labor hours performed by individuals who do not meet contract-specified labor qualifications, unless authorized by the Contracting Officer.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "When requested by the Contracting Officer or the authorized representative,\nthe Contractor shall substantiate invoices (including any subcontractor hours reimbursed at\nthe hourly rate in the schedule) by evidence of actual payment, individual daily job\ntimecards, records that verify the employees meet the qualifications for the labor categories\nspecified in the contract, or other substantiation specified in the contract.",
+      "normalized": "If requested by the CO or authorized representative, Contractor must substantiate invoices with evidence of actual payment, timecards, qualification records, or other specified substantiation.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless the Schedule prescribes otherwise, the hourly rates in the Schedule\nshall not be varied by virtue of the Contractor having performed work on an overtime basis.",
+      "normalized": "Unless the Schedule states otherwise, Contractor's billed hourly rates must not be varied due to overtime work.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The amounts shall be computed by multiplying the appropriate hourly rates prescribed in the contract by the number of direct labor hours performed.",
+      "normalized": "Payment amounts shall be computed by multiplying the prescribed hourly rates by the number of direct labor hours performed.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Fractional parts of an hour shall be payable on a prorated basis.",
+      "normalized": "Fractional parts of an hour shall be payable on a prorated basis.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The rates shall be paid for all labor performed on the contract that meets the labor qualifications specified in the contract.",
+      "normalized": "The rates shall be paid for all labor performed on the contract that meets the specified labor qualifications.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If no overtime rates are provided in the Schedule and the Contracting Officer\napproves overtime work in advance, overtime rates shall be negotiated.",
+      "normalized": "If no overtime rates are in the Schedule and the CO approves overtime in advance, overtime rates must be negotiated.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If the Schedule provides rates for overtime, the premium portion of those rates\nwill be reimbursable only to the extent the overtime is approved by the Contracting Officer.",
+      "normalized": "Overtime premium rate reimbursement is limited to overtime that is approved in advance by the Contracting Officer.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the Government will reimburse the Contractor the actual cost of materials (less any rebates, refunds, or discounts received by the contractor that are identifiable to the contract)\nprovided the Contractor\n(1) Has made payments for materials in accordance with the terms and conditions\nof the agreement or invoice; or\n(2)",
+      "normalized": "Government will reimburse actual material costs only if Contractor has made payments for materials per the agreement/invoice terms (or meets alternative condition).",
+      "section_ref": null,
+      "page": 24,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the Contractor shall\n(1) Obtain materials at the most advantageous prices available with due regard to\nsecuring prompt delivery of satisfactory materials",
+      "normalized": "Contractor must obtain materials at the most advantageous prices available while securing prompt delivery of satisfactory materials.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Give credit to the Government for cash and trade discounts, rebates, scrap,\ncommissions, and other amounts that are identifiable to the contract.",
+      "normalized": "Contractor must give the Government credit for cash/trade discounts, rebates, scrap, commissions, and other contract-identifiable amounts.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless listed below, other direct and indirect costs will not be\nreimbursed.",
+      "normalized": "Other direct and indirect costs will not be reimbursed unless specifically listed.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "To the extent able, the Contractor shall\n(1) Obtain materials at the most advantageous prices available with due regard to\nsecuring prompt delivery of satisfactory materials; and\n(2) Give credit to the Government for cash and trade discounts, rebates, scrap,\ncommissions, and other amounts that are identifiable to the contract.",
+      "normalized": "The Contractor shall, to the extent able, obtain materials at the most advantageous prices with due regard to prompt delivery and give the Government credit for discounts, rebates, scrap, commissions, and other identifiable amounts.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "provided the Contractor\n(1) Has made payments for materials in accordance with the terms and conditions\nof the agreement or invoice; or",
+      "normalized": "The Contractor's reimbursement for material costs is conditioned on having made payments for materials per the terms of the agreement or invoice.",
+      "section_ref": null,
+      "page": 24,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "It is estimated that the total cost to the Government for the performance\nof this contract shall not exceed the ceiling price set forth in the Schedule and the\nContractor agrees to use its best efforts to perform the work specified in the Schedule and\nall obligations under this contract within such ceiling price.",
+      "normalized": "The Contractor must use its best efforts to perform all contract work within the ceiling price, which shall not exceed the amount set forth in the Schedule.",
+      "section_ref": null,
+      "page": 25,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If at any time the Contractor has\nreason to believe that the hourly rate payments and material costs that will accrue in\nperforming this contract in the next succeeding 30 days, if added to all other payments and\ncosts previously accrued, will exceed 85 percent of the ceiling price in the Schedule, the\nContractor shall notify the Contracting Officer giving a revised estimate of the total price to\nthe Government for performing this contract with supporting reasons and documentation.",
+      "normalized": "If projected costs in the next 30 days will push total accrued costs above 85% of the ceiling price, the Contractor shall notify the CO with a revised price estimate and supporting documentation.",
+      "section_ref": null,
+      "page": 25,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If\nat any time during the performance of this contract, the Contractor has reason to believe that\nthe total price to the Government for performing this contract will be substantially greater or\nless than the then stated ceiling price, the Contractor shall so notify the Contracting Officer,\ngiving a revised estimate of the total price for performing this contract, with supporting\nreasons and documentation.",
+      "normalized": "If the Contractor believes the total price will be substantially greater or less than the stated ceiling price, it shall notify the CO with a revised price estimate and supporting documentation.",
+      "section_ref": null,
+      "page": 25,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall not be\nobligated to continue performance if to do so would exceed the ceiling price set forth in the\nSchedule, unless and until the Contracting Officer notifies the Contractor in writing that the\nceiling price has been increased and specifies in the notice a revised ceiling that shall\nconstitute the ceiling price for performance under this contract.",
+      "normalized": "The Contractor is not obligated to continue performance beyond the ceiling price unless the CO notifies it in writing of an increased ceiling.",
+      "section_ref": null,
+      "page": 25,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "any hours expended and\nmaterial costs incurred by the Contractor in excess of the ceiling price before the increase\nshall be allowable to the same extent as if the hours expended and material costs had been\nincurred after the increase in the ceiling price.",
+      "normalized": "Hours expended and material costs incurred by the Contractor in excess of the ceiling price before an increase shall be allowable to the same extent as if incurred after the increase.",
+      "section_ref": null,
+      "page": 25,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall promptly pay any\nsuch reduction within 30 days unless the parties agree otherwise.",
+      "normalized": "The Contractor shall promptly pay any payment reduction within 30 days unless the parties agree otherwise.",
+      "section_ref": null,
+      "page": 26,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Contractor becomes aware of a duplicate invoice\npayment or that the Government has otherwise overpaid on an invoice payment, the\nContractor shall\n(i) Remit the overpayment amount to the payment office cited in the contract along\nwith a description of the overpayment including the\n(A) Circumstances of the overpayment (e.g., duplicate payment, erroneous\npayment, liquidation errors, date(s) of overpayment);\n(B) Affected contract number and delivery order number, if applicable;\n(C) Affected line item or subline item, if applicable; and\n(D) Contractor point of contact.\n(ii) Provide a copy of the remittance and supporting documentation to the\nContracting Officer.",
+      "normalized": "If the Contractor becomes aware of a duplicate or overpaid invoice, it shall remit the overpayment with a description (circumstances, contract/order number, line item, POC) and provide a copy of the remittance and supporting documentation to the CO.",
+      "section_ref": null,
+      "page": 26,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All amounts that become payable by the Contractor to the Government under this contract shall bear simple interest from the date due until paid unless paid within 30 days of becoming due.",
+      "normalized": "Contractor amounts payable to the Government shall bear simple interest from the date due until paid, unless paid within 30 days of becoming due.",
+      "section_ref": "Attachment 2",
+      "page": 26,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The interest rate shall be the interest rate established by the Secretary of the Treasury, as provided in 41 U.S.C. 7109, which is applicable to the period in which the amount becomes due, and then at the rate applicable for each six month period as established by the Secretary until the amount is paid.",
+      "normalized": "The interest rate applied to Contractor amounts payable shall be the rate established by the Secretary of the Treasury under 41 U.S.C. 7109, updated each six-month period until paid.",
+      "section_ref": "Attachment 2",
+      "page": 26,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Amounts shall be due at the earliest of the following dates:\n(A) The date fixed under this contract.\n(B) The date of the first written demand for payment, including any demand for\npayment resulting from a default termination.",
+      "normalized": "Amounts owed by the Contractor shall be due at the earliest of the contract-fixed date or the date of the first written demand for payment.",
+      "section_ref": null,
+      "page": 27,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The completion invoice, and supporting\ndocumentation, shall be submitted by the Contractor as promptly as practicable following\ncompletion of the work under this contract, but in no event later than 1 year (or such longer\nperiod as the Contracting Officer may approve in writing) from the date of completion.",
+      "normalized": "The Contractor shall submit the completion invoice and supporting documentation as promptly as practicable, but no later than 1 year from the date of completion (unless the CO approves a longer period in writing).",
+      "section_ref": null,
+      "page": 27,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor, and each assignee under an assignment entered into under this contract and in effect at the time of final payment under this contract, shall\nexecute and deliver, at the time of and as a condition precedent to final payment under this\ncontract, a release discharging the Government, its officers, agents, and employees of and\nfrom all liabilities, obligations, and claims arising out of or under this contract, subject only\nto the following exceptions.",
+      "normalized": "The Contractor (and any assignee) shall execute and deliver a release of the Government from liabilities/claims as a condition precedent to final payment, subject to stated exceptions.",
+      "section_ref": null,
+      "page": 27,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Amounts shall be due at the earliest of the following dates:",
+      "normalized": "Amounts owed under the debt provisions are due at the earliest of the specified dates.",
+      "section_ref": null,
+      "page": 27,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Claims, together with reasonable incidental expenses, based upon the liabilities\nof the Contractor to third parties arising out of performing this contract, that are not known\nto the Contractor on the date of the execution of the release, and of which the Contractor\ngives notice in writing to the Contracting Officer not more than 6 years after the date of the\nrelease or the date of any notice to the Contractor that the Government is prepared to make\nfinal payment, whichever is earlier.",
+      "normalized": "The Contractor must give written notice to the CO of qualifying unknown third-party claims not more than 6 years after the release date (or notice of final payment, whichever is earlier) to preserve them as an exception to the release.",
+      "section_ref": null,
+      "page": 28,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the event of such\ntermination, the Contractor shall immediately stop all work hereunder and shall\nimmediately cause any and all of its suppliers and subcontractors to cease work.",
+      "normalized": "Upon termination for convenience, the Contractor shall immediately stop all work and cause suppliers/subcontractors to cease work.",
+      "section_ref": null,
+      "page": 28,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In connection with any discount offered for early payment, time shall be computed from the date of the invoice.",
+      "normalized": "For early-payment discounts, time shall be computed from the invoice date.",
+      "section_ref": "(10)",
+      "page": 28,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For the purpose of computing the discount earned, payment shall be considered to have been made on the date that appears on the payment check or the specified payment date if an electronic funds transfer payment is made.",
+      "normalized": "Payment shall be deemed made on the date on the payment check or the specified EFT payment date, for discount computation purposes.",
+      "section_ref": "(10)",
+      "page": 28,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Subject to the terms of this contract, the Contractor shall be paid an amount for direct labor hours (as defined in the Schedule of the contract) determined by multiplying the number of direct labor hours expended before the effective date of termination by the hourly rate(s) in the contract, less any hourly rate payments already made to the Contractor plus reasonable charges the Contractor can demonstrate to the satisfaction of the Government using its standard record keeping system that have resulted from the termination.",
+      "normalized": "Upon termination for convenience, the Contractor shall be paid an amount for direct labor hours per the stated formula, subject to substantiated charges.",
+      "section_ref": "(l)",
+      "page": 28,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose.",
+      "normalized": "The Contractor shall not be required to comply with cost accounting standards or contract cost principles for termination-payment purposes.",
+      "section_ref": "(l)",
+      "page": 28,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "services not accepted, and the Contractor shall be liable to the Government for any and all\nrights and remedies provided by law.",
+      "normalized": "Upon termination for cause, the Contractor shall be liable to the Government for any and all rights and remedies provided by law.",
+      "section_ref": null,
+      "page": 29,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Upon receipt of the order, the Contractor shall immediately comply with its terms and take all\nreasonable steps to minimize the incurrence of costs allocable to the work covered by the order\nduring the period of work stoppage.",
+      "normalized": "Upon receipt of a stop-work order, the Contractor shall immediately comply with its terms and take reasonable steps to minimize costs during the stoppage.",
+      "section_ref": null,
+      "page": 29,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a stop-work order issued under this clause is canceled or the period of the order or any\nextension thereof expires, the Contractor shall resume work.",
+      "normalized": "If the stop-work order is canceled or expires, the Contractor shall resume work.",
+      "section_ref": null,
+      "page": 29,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor asserts its right to the adjustment within 30 days after the end of the\nperiod of work stoppage; provided, that, if the Contracting Officer decides the facts justify the\naction, the Contracting Officer may receive and act upon the claim submitted at any time before\nfinal payment under this contract.",
+      "normalized": "The Contractor must assert its right to an equitable adjustment within 30 days after the end of the work stoppage period to qualify for the adjustment.",
+      "section_ref": null,
+      "page": 29,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall resume work.",
+      "normalized": "Contractor must resume work once a stop-work order is canceled or its period (or extension) expires.",
+      "section_ref": "FAR 52.242-15(b)",
+      "page": 29,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor asserts its right to the adjustment within 30 days after the end of the period of work stoppage",
+      "normalized": "Contractor must assert its right to an equitable adjustment within 30 days after the end of the work-stoppage period, if the stop-work order increased time or cost.",
+      "section_ref": "FAR 52.242-15(b)(2)",
+      "page": 29,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall comply with the following Federal Acquisition Regulation (FAR) clauses, which are incorporated in this contract by reference, to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services:",
+      "normalized": "Contractor must comply with the listed FAR clauses incorporated by reference under paragraph (a) of 52.212-5.",
+      "section_ref": "52.212-5(a)",
+      "page": 30,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall comply with the FAR clauses in this paragraph (b) that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial items:",
+      "normalized": "Contractor must comply with the CO-checked FAR clauses listed under paragraph (b) of 52.212-5.",
+      "section_ref": "52.212-5(b)",
+      "page": 30,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall comply with the FAR clauses in this paragraph (c), applicable to commercial services, that the Contracting Officer has indicated as being incorporated in this contract by reference to implement provisions of law or Executive orders applicable to acquisitions of commercial products and commercial services",
+      "normalized": "Contractor must comply with the CO-checked FAR clauses listed under paragraph (c) of 52.212-5 applicable to commercial services.",
+      "section_ref": "52.212-5(c)",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall comply with the provisions of this paragraph (d) if this contract was awarded using other than sealed bid, is in excess of the simplified acquisition threshold, as defined in FAR 2.101, on the date of award of this contract, and does not contain the clause at 52.215-2, Audit and Records-Negotiation.",
+      "normalized": "If the contract was awarded other than by sealed bid, exceeds the simplified acquisition threshold, and lacks clause 52.215-2, contractor must comply with paragraph (d) (Comptroller General Examination of Record).",
+      "section_ref": "52.212-5(d)",
+      "page": 34,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall make available at its offices at all reasonable times the records, materials, and other evidence for examination, audit, or reproduction, until 3 years after final payment under this contract or for any shorter period specified in FAR subpart 4.7, Contractor Records Retention, of the other clauses of this contract.",
+      "normalized": "Contractor must make records, materials, and evidence available at its offices for examination/audit/reproduction until 3 years after final payment (or shorter period per FAR 4.7).",
+      "section_ref": "52.212-5(d)(2)",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this contract is completely or partially terminated, the records relating to the work terminated shall be made available for 3 years after any resulting final termination settlement.",
+      "normalized": "If the contract is completely or partially terminated, contractor must make records relating to the terminated work available for 3 years after final termination settlement.",
+      "section_ref": "52.212-5(d)(2)",
+      "page": 34,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Records relating to appeals under the disputes clause or to litigation or the settlement of claims arising under or relating to this contract shall be made available until such appeals, litigation, or claims are finally resolved.",
+      "normalized": "Contractor must make records relating to disputes-clause appeals, litigation, or claims settlement available until such matters are finally resolved.",
+      "section_ref": "52.212-5(d)(2)",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notwithstanding the requirements of the clauses in paragraphs (a), (b), (c), and (d) of this clause, the Contractor is not required to flow down any FAR clause, other than those in this paragraph (e)(1), in a subcontract for commercial products or commercial services.",
+      "normalized": "Contractor is not required to flow down any FAR clause other than those listed in paragraph (e)(1) into subcontracts for commercial products or commercial services.",
+      "section_ref": "52.212-5(e)(1)",
+      "page": 35,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the subcontract (except subcontracts to small business concerns) exceeds the applicable threshold specified in FAR 19.702(a) on the date of subcontract award, the subcontractor must include 52.219-8 in lower tier subcontracts that offer subcontracting opportunities.",
+      "normalized": "If a subcontract (other than to a small business) exceeds the FAR 19.702(a) threshold at award, the subcontractor must include clause 52.219-8 in lower-tier subcontracts offering subcontracting opportunities.",
+      "section_ref": "52.212-5(e)(1)(viii)",
+      "page": 35,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless otherwise indicated below, the extent of the flow down shall be as required by the clause-",
+      "normalized": "The Contractor shall apply the flow-down extent as required by each listed clause unless otherwise indicated.",
+      "section_ref": "FAR 52.212-5 Alt II (e)(1)",
+      "page": 36,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "FAR 52.212-5 as of FAC 2024-03 (2/23/2024) Edited 2/27/2024",
+      "normalized": "Contractor is bound by the FAR 52.212-5 Alternate II clause and its flow-down subclause list (A)-(Y) incorporated by reference on this page.",
+      "section_ref": "52.212-5",
+      "page": 36,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor is not required to flow down any FAR clause in a subcontract for commercial products or commercial services, other than—",
+      "normalized": "The Contractor is not required to flow down any FAR clause in commercial subcontracts except those specifically listed in paragraph (e)(1).",
+      "section_ref": "FAR 52.212-5 Alt II (e)(1)",
+      "page": 36,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "the subcontractor must include 52.219-8 in lower tier subcontracts that offer subcontracting opportunities.",
+      "normalized": "The subcontractor must include clause 52.219-8 in lower-tier subcontracts that offer subcontracting opportunities, if the subcontract exceeds the applicable threshold.",
+      "section_ref": "FAR 52.212-5 Alt II (e)(1)(H)",
+      "page": 36,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A proper invoice is an \"Original\" which must include the items listed in subdivisions 1 through 12, below, in addition to the requirements of FAR 32.9.",
+      "normalized": "Contractor's proper invoice must include items 1-12 listed plus FAR 32.9 requirements.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Remittance name must match exactly with name on original order/contract.",
+      "normalized": "Contractor's invoice remittance name must match exactly the name on the original order/contract.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Remittance name differs from the Legal Business Name, then both names must appear on the invoice.",
+      "normalized": "If remittance name differs from legal business name, contractor must show both names on the invoice.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "NBS document number formats must be included for awards created in the NBS: Contract Number; Purchase Order Number; Task or Delivery Order Number and Source Award Number (e.g., Indefinite Delivery Contract number; General Services Administration number); or, BPA Call Number and BPA Parent Award Number.",
+      "normalized": "Contractor must include the applicable NBS document number format on invoices for NBS-created awards.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In those rare cases where a contractor does not have a UEI number or TIN, a Vendor Identification Number (VIN)must be referenced on the invoice.",
+      "normalized": "If contractor lacks a UEI or TIN, contractor must reference a Vendor Identification Number (VIN) on the invoice.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Identify that payment is to be made using a three-way match.",
+      "normalized": "Contractor must identify on the invoice that payment is to be made using a three-way match.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Freight or delivery charge must be billed as shown on the award.",
+      "normalized": "Contractor must bill freight or delivery charges as shown on the award.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If it is included in the item price do not bill it separately.",
+      "normalized": "If freight/delivery is included in the item price, contractor must not bill it separately.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If identified in the award as a separate line item, it must be billed separately.",
+      "normalized": "If freight/delivery is identified as a separate line item in the award, contractor must bill it separately.",
+      "section_ref": "Attachment 3",
+      "page": 37,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If your invoice must differ from the line items on the award, please contact the Contracting Officer before submitting the invoice.",
+      "normalized": "If contractor's invoice must differ from the award's line items, contractor must contact the Contracting Officer before submitting the invoice.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Shipping costs will be reimbursed only if authorized by the Contract/Purchase Order.",
+      "normalized": "Shipping costs are reimbursed to contractor only if authorized by the Contract/Purchase Order.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If authorized, shipping costs must be itemized.",
+      "normalized": "If shipping costs are authorized, contractor must itemize them on the invoice.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Where shipping costs exceed $100, the invoice must be supported by a bill of lading or a paid carrier's receipt.",
+      "normalized": "If shipping costs exceed $100, contractor's invoice must be supported by a bill of lading or paid carrier's receipt.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall submit invoices to the Department of Treasury’s Invoice Processing Platform (IPP) at https://www.ipp.gov with a copy to the approving official, as directed below.",
+      "normalized": "Contractor shall submit invoices to Treasury's IPP with a copy to the approving official.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall submit a copy of the electronic invoice to the ApprovingOfficial (Contracting Officer) and Technical Point of Contact or Contracting Officer’s Representative.",
+      "normalized": "Contractor shall submit a copy of the electronic invoice to the Approving Official and the Technical Point of Contact or COR.",
+      "section_ref": "Attachment 3",
+      "page": 38,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Upon receipt of accelerated payments from the Government, the Contractor shall make accelerated payments to its small business subcontractors under this contract, to the maximum extent practicable and prior to when such payment is otherwise required under the applicable contract or subcontract, after receipt of a proper invoice and all other required documentation from the small business subcontractor.",
+      "normalized": "Upon receipt of accelerated payments from the Government, contractor shall make accelerated payments to small business subcontractors to the maximum extent practicable.",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Include the substance of this clause, including this paragraph (c), in all subcontracts with small business concerns, including subcontracts with small business concerns for the acquisition of commercial products or commercial services.",
+      "normalized": "Contractor must include the substance of the accelerated-payment clause (including paragraph (c)) in all subcontracts with small business concerns.",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The payment request must comply with the requirements identified in FAR 32.905(b), ‘‘Content of Invoices’’ and the applicable Payment clause included in this contract.",
+      "normalized": "Contractor's payment request must comply with FAR 32.905(b) Content of Invoices and the applicable Payment clause.",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Except as provided in paragraph (c) of this clause, the Contractor shall submit payment requests electronically using the Department of Treasury Invoice Processing Platform (IPP) or successor system.",
+      "normalized": "Contractor shall submit payment requests electronically via IPP or successor system, except as provided in paragraph (c).",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor may submit payment requests using other than IPP only when the Contracting Officer authorizes alternate procedures in writing in accordance with HHS procedures.",
+      "normalized": "Contractor may submit payment requests other than via IPP only if the Contracting Officer authorizes alternate procedures in writing.",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If alternate payment procedures are authorized, the Contractor shall include a copy of the Contracting Officer’s written authorization with each payment request.",
+      "normalized": "If alternate payment procedures are authorized, contractor shall include a copy of the Contracting Officer's written authorization with each payment request.",
+      "section_ref": "Attachment 3",
+      "page": 39,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    }
+  ],
+  "patchedRowsAdded": 0,
+  "v3": {
+    "mangledDropped": 0,
+    "unresolvedV2": 16,
+    "unresolvedV3": 29
+  }
+}

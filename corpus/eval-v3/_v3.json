@@ -1,0 +1,292 @@
+{
+  "seed": 20260829,
+  "summary": [
+    {
+      "doc": "0020153254COHEN__Attachment-1-Statement-of-Work-RFI",
+      "rowsV2": 40,
+      "rowsV3": 40,
+      "mangled": 0,
+      "unresolvedV2": 4,
+      "unresolvedV3": 0
+    },
+    {
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624",
+      "rowsV2": 621,
+      "rowsV3": 621,
+      "mangled": 0,
+      "unresolvedV2": 8,
+      "unresolvedV3": 3
+    },
+    {
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer",
+      "rowsV2": 427,
+      "rowsV3": 427,
+      "mangled": 0,
+      "unresolvedV2": 30,
+      "unresolvedV3": 29
+    },
+    {
+      "doc": "1616-26__RFP1620000348",
+      "rowsV2": 385,
+      "rowsV3": 385,
+      "mangled": 0,
+      "unresolvedV2": 24,
+      "unresolvedV3": 20
+    },
+    {
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027",
+      "rowsV2": 587,
+      "rowsV3": 587,
+      "mangled": 0,
+      "unresolvedV2": 37,
+      "unresolvedV3": 16
+    },
+    {
+      "doc": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-",
+      "rowsV2": 255,
+      "rowsV3": 255,
+      "mangled": 0,
+      "unresolvedV2": 31,
+      "unresolvedV3": 24
+    },
+    {
+      "doc": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18",
+      "rowsV2": 19,
+      "rowsV3": 19,
+      "mangled": 0,
+      "unresolvedV2": 2,
+      "unresolvedV3": 4
+    },
+    {
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem",
+      "rowsV2": 1674,
+      "rowsV3": 1674,
+      "mangled": 0,
+      "unresolvedV2": 75,
+      "unresolvedV3": 52
+    },
+    {
+      "doc": "75N98026Q00962__RFQ-75N98026Q00962",
+      "rowsV2": 159,
+      "rowsV3": 159,
+      "mangled": 0,
+      "unresolvedV2": 16,
+      "unresolvedV3": 29
+    },
+    {
+      "doc": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final",
+      "rowsV2": 132,
+      "rowsV3": 132,
+      "mangled": 0,
+      "unresolvedV2": 9,
+      "unresolvedV3": 5
+    },
+    {
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006",
+      "rowsV2": 1008,
+      "rowsV3": 1008,
+      "mangled": 0,
+      "unresolvedV2": 146,
+      "unresolvedV3": 122
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "rowsV2": 858,
+      "rowsV3": 841,
+      "mangled": 17,
+      "unresolvedV2": 57,
+      "unresolvedV3": 63
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "rowsV2": 2152,
+      "rowsV3": 2149,
+      "mangled": 3,
+      "unresolvedV2": 150,
+      "unresolvedV3": 154
+    },
+    {
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035",
+      "rowsV2": 1351,
+      "rowsV3": 1351,
+      "mangled": 0,
+      "unresolvedV2": 115,
+      "unresolvedV3": 72
+    }
+  ],
+  "mangled": [
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 2,
+      "section": "Item 17",
+      "quote": "17. The offeror agrees to perform the work required at the prices specified below in strict accordance with the terms of this solicitation, if this offer is accepted calendar days after the date offer"
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 13,
+      "section": "00 21 13 / 4.2",
+      "quote": "All questions and requests for information (RFI) must be received NO LATER THAN 2:00PM . BIDDERS ARE STRONGLY ENCOURAGED TOMDT 21 August 2026 SUBMIT QUESTIONS EARLY IN THIS PROCESS."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 16,
+      "section": "12.b",
+      "quote": "The SF1442 shall beTAB B: Signed and completed SF 1442 along with any amendments submitted fully completed."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 16,
+      "section": "12.d",
+      "quote": "Letter must indicate the bidder's ability to obtainTAB D: Letter from Bonding Company performance and payment bonds in the amount of their bid."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 16,
+      "section": "12.e",
+      "quote": "Per FAR 52.228-1;TAB E: Bid Bond Guarantee Failure to furnish a bid guarantee in the proper form and amount, by the time set for opening of bids, may be cause for rejection of the bid."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 16,
+      "section": "12.a",
+      "quote": "Coversheet shall be on company letterhead and must contain your UEITAB A: Cover Sheet. number, CAGE code, Tax ID, and authorized representative(s) who can obligate your company contractually, sign the"
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 16,
+      "section": "12.c",
+      "quote": "The Bidders shall provide page 3 and 4 of theTAB C: CLIN Price and Total Contract Amount. solicitation pricing each CLIN individually and include the OVERALL contract price."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 17,
+      "section": "12.f",
+      "quote": "Bidders shall submit a list of proposed subcontractors asTAB F: Subcontractor List (EMAIL) an attachment to their bid."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 17,
+      "section": "12.g",
+      "quote": "The bidder shall ensure thatTAB G: REPRESENTATIONS, CERTIFICATIONS (EMAIL) their business has completed an online Representations and Certifications at the System and Awards Management (SAM) website, "
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 41,
+      "section": "52.219-1(c)(1)(ii)",
+      "quote": "The offeror shall enter the name and____________ unique entity identifier of each party to the joint venture: __."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 41,
+      "section": "52.219-1(c)(2)",
+      "quote": "(2) [ Complete only if the offeror represented itself as a small business concern in paragraph (c) The offeror represents that it is, is not a women-owned small (1) of this provision.] disadvantage bu"
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 41,
+      "section": "52.219-1(c)(5)",
+      "quote": "(5) . [ SDVOSB joint venture eligible under the SDVOSB Program Complete only if the offeror is ]. The offeror represents as part of its offer that it is, is not a certified as a SDVOSB concern SDVOSB "
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 41,
+      "section": "52.219-1(c)(5)",
+      "quote": "The offeror shall enter the name and unique entity identifier of each____ party to the joint venture:__."
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 49,
+      "section": "252.219-7010",
+      "quote": "The will notify the Contracting____ [insert name of SBA's contractor] MICC Fort Bliss Officer in writing immediately upon entering an agreement (either oral or written) to transfer all or part of its "
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 56,
+      "section": "52.211-12",
+      "quote": "(a) If the Contractor fails to complete the work within the time specified in the contract, the Contractor shall pay liquidated damages to the Government in the amount of for$1,605.54 each calendar da"
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 64,
+      "section": "52.219-28(g)(3)",
+      "quote": "[ The Contractor shall enter the name and unique entity____ identifier of each party to the joint venture: __.]"
+    },
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "page": 64,
+      "section": "52.219-28(g)(6)",
+      "quote": "[ Contractor to sign and date and insert____ authorized signer's name and title.]"
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "page": 23,
+      "section": "5.1 Tab 1",
+      "quote": "As required by FAR 52.215-1(c)(2)(i)-(v), the proposal cover sheet must include the following items: 1. Solicitation Number. 2. The name, address, CAGE code, and telephone numbers of the offeror. 3. A"
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "page": 124,
+      "section": null,
+      "quote": "EMPLOYEES PERFORMING WORK COVERED HEREIN SHALLW912P726RA022"
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "page": 279,
+      "section": "3.1.2",
+      "quote": "Any changes must be reported in theW912P726RA022 Page 279 of 645SOLICITATION sensor log section of the DPIP."
+    }
+  ],
+  "pageFixes": [
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "from": 115,
+      "to": null,
+      "resolution": "ambiguous - identical text on 17 pages (113, 114, 116, 119, 120, 121, ...); left on cited page and flagged review",
+      "section": null,
+      "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "from": 117,
+      "to": null,
+      "resolution": "ambiguous - identical text on 17 pages (113, 114, 116, 119, 120, 121, ...); left on cited page and flagged review",
+      "section": null,
+      "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "from": 119,
+      "to": null,
+      "resolution": "ambiguous - identical text on 15 pages (114, 115, 116, 117, 120, 122, ...); left on cited page and flagged review",
+      "section": null,
+      "quote": "THOSE WHO WORK INSIDE RECENTLY ACTIVE, LARGE DIAMETER SEWERS, AND ALL RECENTLY ACTIVE SEWER MANHOLES SHAL RECEIVE $5.00 PER DAY ABOVE GROUP 1 WAGE RATES."
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "from": 125,
+      "to": null,
+      "resolution": "ambiguous - identical text on 17 pages (113, 114, 116, 119, 120, 121, ...); left on cited page and flagged review",
+      "section": null,
+      "quote": "LABORERS WORKING OFF OR WITH OR FROM BOS'N CHAIRS, SWINGING SCAFFOLDS, BELTS SHALL RECEIVE $0.25 PER HOUR ABOVE THE APPLICABLE WAGE RATE."
+    },
+    {
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-",
+      "from": 287,
+      "to": 295,
+      "resolution": "corrected (unique match)",
+      "section": "3.5.1.11",
+      "quote": "Report all draft measurements in decimal feet with an accuracy of ± 0.1 ft and a resolution of 0.01 ft relative to observed physical draft readings in calm water."
+    }
+  ],
+  "affectedSamples": [
+    {
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001",
+      "sampleNo": 2,
+      "change": "DROPPED (mangled)",
+      "oldPage": 49,
+      "newPage": "-",
+      "quote": "The will notify the Contracting____ [insert name of SBA's contractor] MICC Fort Bliss Officer in writing immediately upon entering an agreement (either oral or written) to transfer all or part of its "
+    }
+  ],
+  "unresolvedTotalV3": 593
+}

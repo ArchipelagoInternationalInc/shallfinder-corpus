@@ -1,0 +1,275 @@
+{
+  "file": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 8,
+  "chunks": 1,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 0,
+  "finalRows": 19,
+  "duplicatesRemoved": 0,
+  "dropped": {
+    "total": 51,
+    "verbatimNotFound": 50,
+    "pageOutOfRange": 0,
+    "invalidShape": 0,
+    "mangled": 0
+  },
+  "reviewFlagged": 2,
+  "coverage": {
+    "verb_occurrences": 12,
+    "captured": 8,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 0
+    },
+    "swept_pages": [
+      2,
+      7,
+      8
+    ],
+    "uncaptured_pages": [
+      2,
+      8
+    ],
+    "unresolved": 4,
+    "unresolved_items": [
+      {
+        "page": 2,
+        "verb": "must",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "RĞƐƉŽŶĚĞŶƚƐ\u0003ŵƵƐƚ\u0003ĐŽŵƉůĞƚĞ\u0003ĂŶĚ\u0003ƌĞƚƵƌŶ\u0003all ƌĞƋƵŝƌĞĚ\u0003ĚŽĐƵŵĞŶƚĂƚŝŽŶ ďǇ\u0003ƚŚĞ\u0003ƋƵŽƚĞ\u0003ĚƵĞ\u0003ĚĂƚĞ͘\u0003 ZĞƐƉŽŶĚĞŶƚƐ\u0003ŵƵƐƚ\u0003ĂĐŬŶŽǁůĞĚŐĞ\u0003Ăůů\u0003ƐŽůŝĐŝƚĂƚŝŽŶ\u0003ĂŵĞŶĚŵĞŶƚƐ\u0003ĂƐ\u0003ƉĂƌƚ\u0003ŽĨ\u0003ƌĞƐƉŽŶƐĞͬƋƵŽƚĞ\u0003Žƌ\u0003ƚŚĞ\u0003ƋƵŽƚĞ\u0003 ǁŝůů\u0003ŶŽƚ\u0003ďĞ\u0003ĞǀĂ"
+      },
+      {
+        "page": 2,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "\u0004ůů\u0003ĐŽŵŵƵŶŝĐĂƚŝŽŶƐ\u0003ƌĞŐĂƌĚŝŶŐ\u0003ƚŚŝƐ\u0003ƐŽůŝĐŝƚĂƚŝŽŶ\u0003to include quote submission shall be sent via email to:"
+      },
+      {
+        "page": 2,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "\u0004Ɖƌŝů\u0003^ƚĂŶĐŚ͕\u0003\u0004Ɖƌŝů͘^ƚĂŶĐŚΛŐƐĂ͘ŐŽǀ \u0004E\u0018\u0003\u001cĚ\u0003,ŽĚŐĞƐ\u0003ũŽŚŶ͘ŚŽĚŐĞƐΛŐƐĂ͘ŐŽǀ͘ B.1.1 ADDITIONAL INSTRUCTIONS TO RESPONDENTS WƌŝŽƌ\u0003ƚŽ\u0003ƐƵďŵŝƚƚŝŶŐ\u0003Ă\u0003ƋƵŽƚĞ͕\u0003ƚŚĞ\u0003ƌĞƐƉŽŶĚĞŶƚ\u0003ƐŚĂůů\u0003ƌĞǀŝĞǁ\u0003ƚŚŝƐ\u0003ƐŽůŝĐŝƚĂƚŝŽŶ ŝŶ\u0003ŝƚƐ\u0003ĞŶƚ"
+      },
+      {
+        "page": 8,
+        "verb": "shall",
+        "pageShortfall": 2,
+        "why": "binding-verb occurrence on a page with a shortfall, matched to no captured row",
+        "sentence": "^ƵďŵŝƐƐŝŽŶ\u0003\u001cŵĂŝů\u0003- Subject line of the submission email shall be ƚŚĞ\u0003Z&Y\u0003ŶƵŵďĞƌ͘ 2."
+      }
+    ]
+  },
+  "unresolvedBefore": 4,
+  "sweeperNewRows": 5,
+  "sweeperExclusions": [
+    {
+      "page": 2,
+      "quote": "'ĞŶĞƌĂů^ĞƌǀŝĐĞƐĚŵŝŶŝƐƚƌĂƚŝŽŶƌĞƋƵŝƌĞƐƉƌŽĐƵƌĞŵĞŶƚŽĨa minimum of thirty;30Ϳvehicles\nĂůůĚĞůŝǀĞƌĞĚiawƚƚĂĐŚŵĞŶƚƐĂŶĚ͘",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "The Government intends to award to ONE Vendor, a minimum quantity of thirty (30) vehicles and may award up\nto a maximum quantity of sixty (60) vehicles under this solicitation.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 2,
+      "quote": "The actual quantity awarded may be\nany quantity between thirty (30) and sixty (60) vehicles, at the Government's discretion, based on the\nGovernment's requirements, available funding, and the results of the evaluation.",
+      "rule": "government-actor"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 35975,
+    "outputTokens": 60844,
+    "cacheReadTokens": 5824,
+    "cacheCreationTokens": 0,
+    "usd": 0.3407774
+  },
+  "rows": [
+    {
+      "verbatim": "Any representations and/or certifications attached to this Request for Quotation must be completed by the quoter.",
+      "normalized": "The quoter must complete any representations and/or certifications attached to the RFQ.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Please complete SF18:\nBlock 8 a,b,c,d,e & f\nBlock 13 a,b,c,d,e,& f\nBlock 14\nBlock 15\nBlock 16 a, b, and c\n**Follow instructions for submission**",
+      "normalized": "The quoter must complete SF18 Blocks 8(a-f), 13(a-f), 14, 15, and 16(a-c) and follow submission instructions.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Partial minimum quoted\nquantities will NOT be evaluated.",
+      "normalized": "Partial minimum quoted quantities submitted by offerors will not be evaluated.",
+      "section_ref": "B.1",
+      "page": 2,
+      "verb": "will",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "DELIVERY DATES ARE A SIGNIFICANT EVALUATION FACTOR (i.e., technical factor).",
+      "normalized": "Delivery dates will be treated as a significant technical evaluation factor.",
+      "section_ref": "B.1",
+      "page": 2,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "PRICING MUST BE FOB DESTINATION.",
+      "normalized": "Offeror's pricing must be quoted FOB Destination.",
+      "section_ref": "B.2",
+      "page": 3,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Technical shall include the delivery date.",
+      "normalized": "The technical volume must include the delivery date.",
+      "section_ref": "52.212-2",
+      "page": 6,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Limit 20 Pages.",
+      "normalized": "Offeror must limit the technical volume to 20 pages.",
+      "section_ref": "52.212-2",
+      "page": 6,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Limit 1 page, 1 documents to include all window stickers.",
+      "normalized": "Offeror must limit window sticker documentation to 1 page (1 document) covering all window stickers.",
+      "section_ref": "52.212-2",
+      "page": 6,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For purposes of price evaluation, offerors shall provide a unit price for each vehicle.",
+      "normalized": "Offerors shall provide a unit price for each vehicle for purposes of price evaluation.",
+      "section_ref": "PRICE",
+      "page": 7,
+      "verb": "shall",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The evaluated unit price shall be applied to the quantity determined by the Government at the time of award.",
+      "normalized": "The evaluated unit price must be applied to the quantity the Government determines at time of award.",
+      "section_ref": null,
+      "page": 7,
+      "verb": "shall",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offerors shall not assume\nthat the Government will award sixty (60) vehicles for purposes of pricing, and the Government will not be\nobligated to purchase quantities exceeding the minimum quantity stated herein.",
+      "normalized": "Offerors shall not assume the Government will award sixty (60) vehicles for purposes of pricing.",
+      "section_ref": "PRICE",
+      "page": 7,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If Attachment A is not\nfilled out in its entirety, the quote will not be evaluated.",
+      "normalized": "If Attachment A is not filled out in its entirety, the quote will not be evaluated.",
+      "section_ref": "PRICE",
+      "page": 7,
+      "verb": "conditional",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Vendors are required to complete the GSA\nSource of Supply Letter.",
+      "normalized": "Vendors must complete the GSA Source of Supply Letter.",
+      "section_ref": "E.1.2",
+      "page": 8,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If any of the items are not provided and filled out in their entirety, then the quote will be disqualified and not evaulated",
+      "normalized": "If any required submission item is not provided and fully filled out, the quote will be disqualified and not evaluated.",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit all pages 1 - 8",
+      "normalized": "Offeror must submit all pages 1-8 of the SF18 cover page.",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Complete and submit͘",
+      "normalized": "Offeror must complete and submit the Price/Delivery Schedule document (Excel attachment).",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Limit to 1 PDF",
+      "normalized": "Offeror must limit the Manufacturer's Vehicle Window Sticker submission to 1 PDF with all window stickers enclosed in one document.",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Attachment F - Addendum to FAR Clause 52-212-4",
+      "normalized": "Solicitation incorporates FAR clause 52.212-4 addendum by reference (Attachment F).",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "If the vendor is not the manufacturer of the products being offered, the vendor may only offer products it is authorized to distribute, either by the manufacturer itself, or as otherwise authorized pursuant to wholesaler agreements or other policies establishing the vendor’s authority to distribute offered products.",
+      "normalized": "If the vendor is not the manufacturer, the vendor may only offer products it is authorized to distribute (by manufacturer authorization or wholesaler agreement).",
+      "section_ref": "E.1",
+      "page": 8,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    }
+  ],
+  "patchedRowsAdded": 14,
+  "v3": {
+    "mangledDropped": 0,
+    "unresolvedV2": 2,
+    "unresolvedV3": 4
+  }
+}

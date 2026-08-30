@@ -1,0 +1,33 @@
+{
+  "file": "W31P4Q26RA002__W31P4Q-26-R-A002-Solicitation-SCOS.pdf",
+  "status": "unreadable",
+  "model": "claude-sonnet-5",
+  "pageCount": 144,
+  "chunks": 0,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 0,
+  "finalRows": 0,
+  "duplicatesRemoved": 0,
+  "dropped": {
+    "total": 0,
+    "verbatimNotFound": 0,
+    "pageOutOfRange": 0,
+    "invalidShape": 0
+  },
+  "reviewFlagged": 0,
+  "coverage": null,
+  "unresolvedBefore": 0,
+  "sweeperNewRows": 0,
+  "sweeperExclusions": [],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 0,
+    "outputTokens": 0,
+    "cacheReadTokens": 0,
+    "cacheCreationTokens": 0,
+    "usd": 0
+  },
+  "rows": []
+}
