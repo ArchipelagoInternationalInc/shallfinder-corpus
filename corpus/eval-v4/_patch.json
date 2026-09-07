@@ -1,0 +1,1325 @@
+{
+  "batchIds": [
+    "msgbatch_01CRAF2iU6ynCVMdmaVxyej1",
+    "msgbatch_015BQHpTR4v6YWxCLVZcRdYD",
+    "msgbatch_01KzNaMw5k8JCwkFKB4mASz2",
+    "msgbatch_01WkHCGHRqFVt1CdAMirEGQf",
+    "msgbatch_01Sq8qdEHMoM9wbYYhqZuzfG"
+  ],
+  "rounds": 4,
+  "chunksResubmitted": 60,
+  "halvesSubmitted": 0,
+  "unresolvedChunks": [
+    {
+      "round": 3,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 103,
+      "lastPage": 103,
+      "words": 396,
+      "stopReason": "refusal",
+      "cause": "refusal"
+    },
+    {
+      "round": 4,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 102,
+      "lastPage": 102,
+      "words": 435,
+      "stopReason": "refusal",
+      "cause": "refusal"
+    }
+  ],
+  "requestLog": [
+    {
+      "id": "p1_0",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 281,
+      "lastPage": 285,
+      "words": 1627
+    },
+    {
+      "id": "p1_1",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 286,
+      "lastPage": 288,
+      "words": 1143
+    },
+    {
+      "id": "p1_2",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 16,
+      "lastPage": 23,
+      "words": 1550
+    },
+    {
+      "id": "p1_3",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 24,
+      "lastPage": 29,
+      "words": 1266
+    },
+    {
+      "id": "p1_4",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 28,
+      "lastPage": 30,
+      "words": 1623
+    },
+    {
+      "id": "p1_5",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 31,
+      "lastPage": 35,
+      "words": 1341
+    },
+    {
+      "id": "p1_6",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 154,
+      "lastPage": 160,
+      "words": 1748
+    },
+    {
+      "id": "p1_7",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 161,
+      "lastPage": 163,
+      "words": 1210
+    },
+    {
+      "id": "p1_8",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 211,
+      "lastPage": 213,
+      "words": 1399
+    },
+    {
+      "id": "p1_9",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 214,
+      "lastPage": 216,
+      "words": 1273
+    },
+    {
+      "id": "p1_10",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 206,
+      "lastPage": 209,
+      "words": 1602
+    },
+    {
+      "id": "p1_11",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 210,
+      "lastPage": 211,
+      "words": 943
+    },
+    {
+      "id": "p1_12",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 271,
+      "lastPage": 275,
+      "words": 1478
+    },
+    {
+      "id": "p1_13",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 276,
+      "lastPage": 279,
+      "words": 1458
+    },
+    {
+      "id": "p1_14",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 43,
+      "lastPage": 48,
+      "words": 1699
+    },
+    {
+      "id": "p1_15",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 49,
+      "lastPage": 51,
+      "words": 1037
+    },
+    {
+      "id": "p1_16",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 106,
+      "lastPage": 108,
+      "words": 1666
+    },
+    {
+      "id": "p1_17",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 109,
+      "lastPage": 111,
+      "words": 1323
+    },
+    {
+      "id": "p1_18",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 74,
+      "lastPage": 77,
+      "words": 1824
+    },
+    {
+      "id": "p1_19",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 78,
+      "lastPage": 79,
+      "words": 987
+    },
+    {
+      "id": "p1_20",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 38,
+      "lastPage": 42,
+      "words": 1587
+    },
+    {
+      "id": "p1_21",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 43,
+      "lastPage": 46,
+      "words": 1354
+    },
+    {
+      "id": "p1_22",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 13,
+      "lastPage": 15,
+      "words": 1461
+    },
+    {
+      "id": "p1_23",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 16,
+      "lastPage": 18,
+      "words": 1317
+    },
+    {
+      "id": "p1_24",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 177,
+      "lastPage": 181,
+      "words": 1652
+    },
+    {
+      "id": "p1_25",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 182,
+      "lastPage": 184,
+      "words": 1072
+    },
+    {
+      "id": "p1_26",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 63,
+      "lastPage": 65,
+      "words": 2002
+    },
+    {
+      "id": "p1_27",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 66,
+      "lastPage": 70,
+      "words": 752
+    },
+    {
+      "id": "p1_28",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 45,
+      "lastPage": 49,
+      "words": 1512
+    },
+    {
+      "id": "p1_29",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 50,
+      "lastPage": 55,
+      "words": 1250
+    },
+    {
+      "id": "p1_30",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 92,
+      "lastPage": 95,
+      "words": 1565
+    },
+    {
+      "id": "p1_31",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 96,
+      "lastPage": 98,
+      "words": 1111
+    },
+    {
+      "id": "p1_32",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 30,
+      "lastPage": 32,
+      "words": 1501
+    },
+    {
+      "id": "p1_33",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 33,
+      "lastPage": 35,
+      "words": 1370
+    },
+    {
+      "id": "p1_34",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 224,
+      "lastPage": 228,
+      "words": 1668
+    },
+    {
+      "id": "p1_35",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 229,
+      "lastPage": 231,
+      "words": 1096
+    },
+    {
+      "id": "p1_36",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 295,
+      "lastPage": 300,
+      "words": 1559
+    },
+    {
+      "id": "p1_37",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 301,
+      "lastPage": 302,
+      "words": 971
+    },
+    {
+      "id": "p1_38",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 55,
+      "lastPage": 59,
+      "words": 1726
+    },
+    {
+      "id": "p1_39",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 60,
+      "lastPage": 66,
+      "words": 1146
+    },
+    {
+      "id": "p1_40",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 94,
+      "lastPage": 98,
+      "words": 1733
+    },
+    {
+      "id": "p1_41",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 99,
+      "lastPage": 101,
+      "words": 866
+    },
+    {
+      "id": "p1_42",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 65,
+      "lastPage": 68,
+      "words": 1514
+    },
+    {
+      "id": "p1_43",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 69,
+      "lastPage": 71,
+      "words": 1427
+    },
+    {
+      "id": "p1_44",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 12,
+      "lastPage": 16,
+      "words": 1753
+    },
+    {
+      "id": "p1_45",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 17,
+      "lastPage": 21,
+      "words": 1049
+    },
+    {
+      "id": "p1_46",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 163,
+      "lastPage": 166,
+      "words": 1580
+    },
+    {
+      "id": "p1_47",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 167,
+      "lastPage": 169,
+      "words": 1221
+    },
+    {
+      "id": "p1_48",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 8,
+      "lastPage": 12,
+      "words": 1473
+    },
+    {
+      "id": "p1_49",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 13,
+      "lastPage": 17,
+      "words": 1468
+    },
+    {
+      "id": "p1_50",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 23,
+      "lastPage": 26,
+      "words": 1622
+    },
+    {
+      "id": "p1_51",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 27,
+      "lastPage": 30,
+      "words": 1248
+    },
+    {
+      "id": "p1_52",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 1,
+      "lastPage": 8,
+      "words": 1668
+    },
+    {
+      "id": "p1_53",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 9,
+      "lastPage": 12,
+      "words": 1272
+    },
+    {
+      "id": "p1_54",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 255,
+      "lastPage": 259,
+      "words": 1787
+    },
+    {
+      "id": "p1_55",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 260,
+      "lastPage": 262,
+      "words": 1205
+    },
+    {
+      "id": "p1_56",
+      "round": 1,
+      "doc": "1616-26__RFP1620000348.pdf",
+      "firstPage": 78,
+      "lastPage": 83,
+      "words": 1584
+    },
+    {
+      "id": "p1_57",
+      "round": 1,
+      "doc": "1616-26__RFP1620000348.pdf",
+      "firstPage": 84,
+      "lastPage": 87,
+      "words": 1340
+    },
+    {
+      "id": "p1_58",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 249,
+      "lastPage": 252,
+      "words": 1618
+    },
+    {
+      "id": "p1_59",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 253,
+      "lastPage": 255,
+      "words": 1198
+    },
+    {
+      "id": "p1_60",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 139,
+      "lastPage": 142,
+      "words": 1728
+    },
+    {
+      "id": "p1_61",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 143,
+      "lastPage": 144,
+      "words": 958
+    },
+    {
+      "id": "p1_62",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 112,
+      "lastPage": 116,
+      "words": 1499
+    },
+    {
+      "id": "p1_63",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 117,
+      "lastPage": 119,
+      "words": 1172
+    },
+    {
+      "id": "p1_64",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 29,
+      "lastPage": 32,
+      "words": 1507
+    },
+    {
+      "id": "p1_65",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 33,
+      "lastPage": 37,
+      "words": 1429
+    },
+    {
+      "id": "p1_66",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 192,
+      "lastPage": 197,
+      "words": 1569
+    },
+    {
+      "id": "p1_67",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 198,
+      "lastPage": 200,
+      "words": 1068
+    },
+    {
+      "id": "p1_68",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 56,
+      "lastPage": 61,
+      "words": 1615
+    },
+    {
+      "id": "p1_69",
+      "round": 1,
+      "doc": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "firstPage": 62,
+      "lastPage": 66,
+      "words": 1272
+    },
+    {
+      "id": "p1_70",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 279,
+      "lastPage": 282,
+      "words": 1591
+    },
+    {
+      "id": "p1_71",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 283,
+      "lastPage": 285,
+      "words": 992
+    },
+    {
+      "id": "p1_72",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 288,
+      "lastPage": 292,
+      "words": 1818
+    },
+    {
+      "id": "p1_73",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 293,
+      "lastPage": 295,
+      "words": 1102
+    },
+    {
+      "id": "p1_74",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 58,
+      "lastPage": 62,
+      "words": 1679
+    },
+    {
+      "id": "p1_75",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 63,
+      "lastPage": 65,
+      "words": 1266
+    },
+    {
+      "id": "p1_76",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 1,
+      "lastPage": 8,
+      "words": 1525
+    },
+    {
+      "id": "p1_77",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 9,
+      "lastPage": 17,
+      "words": 1467
+    },
+    {
+      "id": "p1_78",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 125,
+      "lastPage": 127,
+      "words": 1329
+    },
+    {
+      "id": "p1_79",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 128,
+      "lastPage": 130,
+      "words": 1283
+    },
+    {
+      "id": "p1_80",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 78,
+      "lastPage": 81,
+      "words": 1623
+    },
+    {
+      "id": "p1_81",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 82,
+      "lastPage": 84,
+      "words": 1201
+    },
+    {
+      "id": "p1_82",
+      "round": 1,
+      "doc": "1616-26__RFP1620000348.pdf",
+      "firstPage": 32,
+      "lastPage": 38,
+      "words": 1777
+    },
+    {
+      "id": "p1_83",
+      "round": 1,
+      "doc": "1616-26__RFP1620000348.pdf",
+      "firstPage": 39,
+      "lastPage": 41,
+      "words": 1121
+    },
+    {
+      "id": "p1_84",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 67,
+      "lastPage": 70,
+      "words": 1765
+    },
+    {
+      "id": "p1_85",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 71,
+      "lastPage": 74,
+      "words": 1111
+    },
+    {
+      "id": "p1_86",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 324,
+      "lastPage": 328,
+      "words": 1687
+    },
+    {
+      "id": "p1_87",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 329,
+      "lastPage": 336,
+      "words": 1158
+    },
+    {
+      "id": "p1_88",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 285,
+      "lastPage": 288,
+      "words": 1654
+    },
+    {
+      "id": "p1_89",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 289,
+      "lastPage": 291,
+      "words": 1310
+    },
+    {
+      "id": "p1_90",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 52,
+      "lastPage": 55,
+      "words": 1938
+    },
+    {
+      "id": "p1_91",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 56,
+      "lastPage": 58,
+      "words": 792
+    },
+    {
+      "id": "p1_92",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 27,
+      "lastPage": 33,
+      "words": 1412
+    },
+    {
+      "id": "p1_93",
+      "round": 1,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 34,
+      "lastPage": 38,
+      "words": 1338
+    },
+    {
+      "id": "p1_94",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 78,
+      "lastPage": 80,
+      "words": 1470
+    },
+    {
+      "id": "p1_95",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 81,
+      "lastPage": 85,
+      "words": 1337
+    },
+    {
+      "id": "p1_96",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 111,
+      "lastPage": 114,
+      "words": 1838
+    },
+    {
+      "id": "p1_97",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 115,
+      "lastPage": 116,
+      "words": 1021
+    },
+    {
+      "id": "p1_98",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 18,
+      "lastPage": 21,
+      "words": 1651
+    },
+    {
+      "id": "p1_99",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 22,
+      "lastPage": 23,
+      "words": 1035
+    },
+    {
+      "id": "p1_100",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 122,
+      "lastPage": 124,
+      "words": 1355
+    },
+    {
+      "id": "p1_101",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 125,
+      "lastPage": 127,
+      "words": 1050
+    },
+    {
+      "id": "p1_102",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 392,
+      "lastPage": 394,
+      "words": 1402
+    },
+    {
+      "id": "p1_103",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 395,
+      "lastPage": 397,
+      "words": 1239
+    },
+    {
+      "id": "p1_104",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 194,
+      "lastPage": 197,
+      "words": 1440
+    },
+    {
+      "id": "p1_105",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 198,
+      "lastPage": 200,
+      "words": 1232
+    },
+    {
+      "id": "p1_106",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 236,
+      "lastPage": 239,
+      "words": 1416
+    },
+    {
+      "id": "p1_107",
+      "round": 1,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 240,
+      "lastPage": 244,
+      "words": 1287
+    },
+    {
+      "id": "p1_108",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 231,
+      "lastPage": 236,
+      "words": 1635
+    },
+    {
+      "id": "p1_109",
+      "round": 1,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 237,
+      "lastPage": 239,
+      "words": 1113
+    },
+    {
+      "id": "p1_110",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 51,
+      "lastPage": 55,
+      "words": 1725
+    },
+    {
+      "id": "p1_111",
+      "round": 1,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 56,
+      "lastPage": 59,
+      "words": 1125
+    },
+    {
+      "id": "p1_112",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 101,
+      "lastPage": 104,
+      "words": 1642
+    },
+    {
+      "id": "p1_113",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 105,
+      "lastPage": 109,
+      "words": 1014
+    },
+    {
+      "id": "p1_114",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 24,
+      "lastPage": 27,
+      "words": 1639
+    },
+    {
+      "id": "p1_115",
+      "round": 1,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 28,
+      "lastPage": 29,
+      "words": 911
+    },
+    {
+      "id": "p1_116",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 116,
+      "lastPage": 119,
+      "words": 1396
+    },
+    {
+      "id": "p1_117",
+      "round": 1,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 120,
+      "lastPage": 122,
+      "words": 1297
+    },
+    {
+      "id": "p1_118",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 1,
+      "lastPage": 9,
+      "words": 1598
+    },
+    {
+      "id": "p1_119",
+      "round": 1,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 10,
+      "lastPage": 14,
+      "words": 1401
+    },
+    {
+      "id": "p2_0",
+      "round": 2,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 324,
+      "lastPage": 326,
+      "words": 1035
+    },
+    {
+      "id": "p2_1",
+      "round": 2,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 327,
+      "lastPage": 328,
+      "words": 652
+    },
+    {
+      "id": "p2_2",
+      "round": 2,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 74,
+      "lastPage": 76,
+      "words": 1375
+    },
+    {
+      "id": "p2_3",
+      "round": 2,
+      "doc": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "firstPage": 77,
+      "lastPage": 77,
+      "words": 449
+    },
+    {
+      "id": "p2_4",
+      "round": 2,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 101,
+      "lastPage": 103,
+      "words": 917
+    },
+    {
+      "id": "p2_5",
+      "round": 2,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 104,
+      "lastPage": 104,
+      "words": 725
+    },
+    {
+      "id": "p2_6",
+      "round": 2,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 45,
+      "lastPage": 47,
+      "words": 777
+    },
+    {
+      "id": "p2_7",
+      "round": 2,
+      "doc": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "firstPage": 48,
+      "lastPage": 49,
+      "words": 735
+    },
+    {
+      "id": "p2_8",
+      "round": 2,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 111,
+      "lastPage": 113,
+      "words": 1369
+    },
+    {
+      "id": "p2_9",
+      "round": 2,
+      "doc": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "firstPage": 114,
+      "lastPage": 114,
+      "words": 469
+    },
+    {
+      "id": "p2_10",
+      "round": 2,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 271,
+      "lastPage": 274,
+      "words": 961
+    },
+    {
+      "id": "p2_11",
+      "round": 2,
+      "doc": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "firstPage": 275,
+      "lastPage": 275,
+      "words": 517
+    },
+    {
+      "id": "p2_12",
+      "round": 2,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 139,
+      "lastPage": 141,
+      "words": 1257
+    },
+    {
+      "id": "p2_13",
+      "round": 2,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 142,
+      "lastPage": 142,
+      "words": 471
+    },
+    {
+      "id": "p2_14",
+      "round": 2,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 24,
+      "lastPage": 26,
+      "words": 1249
+    },
+    {
+      "id": "p2_15",
+      "round": 2,
+      "doc": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "firstPage": 27,
+      "lastPage": 27,
+      "words": 390
+    },
+    {
+      "id": "p2_16",
+      "round": 2,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 281,
+      "lastPage": 283,
+      "words": 1126
+    },
+    {
+      "id": "p2_17",
+      "round": 2,
+      "doc": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "firstPage": 284,
+      "lastPage": 285,
+      "words": 501
+    },
+    {
+      "id": "p3_0",
+      "round": 3,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 101,
+      "lastPage": 102,
+      "words": 521
+    },
+    {
+      "id": "p3_1",
+      "round": 3,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 103,
+      "lastPage": 103,
+      "words": 396
+    },
+    {
+      "id": "p4_0",
+      "round": 4,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 101,
+      "lastPage": 101,
+      "words": 86
+    },
+    {
+      "id": "p4_1",
+      "round": 4,
+      "doc": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "firstPage": 102,
+      "lastPage": 102,
+      "words": 435
+    }
+  ],
+  "resweptPages": 3,
+  "deltas": [
+    {
+      "file": "0020153254COHEN__Attachment-1-Statement-of-Work-RFI.pdf",
+      "rowsBefore": 39,
+      "rowsAfter": 39,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 3,
+      "unresolvedAfter": 3,
+      "inventionBefore": 0,
+      "inventionAfter": 0
+    },
+    {
+      "file": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.pdf",
+      "rowsBefore": 152,
+      "rowsAfter": 519,
+      "added": 367,
+      "droppedNew": 8,
+      "unresolvedBefore": 22,
+      "unresolvedAfter": 14,
+      "inventionBefore": 2,
+      "inventionAfter": 10
+    },
+    {
+      "file": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.pdf",
+      "rowsBefore": 325,
+      "rowsAfter": 394,
+      "added": 69,
+      "droppedNew": 3,
+      "unresolvedBefore": 14,
+      "unresolvedAfter": 27,
+      "inventionBefore": 3,
+      "inventionAfter": 6
+    },
+    {
+      "file": "1616-26__RFP1620000348.pdf",
+      "rowsBefore": 325,
+      "rowsAfter": 344,
+      "added": 19,
+      "droppedNew": 0,
+      "unresolvedBefore": 18,
+      "unresolvedAfter": 34,
+      "inventionBefore": 1,
+      "inventionAfter": 1
+    },
+    {
+      "file": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
+      "rowsBefore": 262,
+      "rowsAfter": 458,
+      "added": 196,
+      "droppedNew": 14,
+      "unresolvedBefore": 36,
+      "unresolvedAfter": 49,
+      "inventionBefore": 6,
+      "inventionAfter": 19
+    },
+    {
+      "file": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf",
+      "rowsBefore": 154,
+      "rowsAfter": 154,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 54,
+      "unresolvedAfter": 87,
+      "inventionBefore": 3,
+      "inventionAfter": 3
+    },
+    {
+      "file": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.pdf",
+      "rowsBefore": 1265,
+      "rowsAfter": 1414,
+      "added": 149,
+      "droppedNew": 10,
+      "unresolvedBefore": 72,
+      "unresolvedAfter": 130,
+      "inventionBefore": 7,
+      "inventionAfter": 17
+    },
+    {
+      "file": "75N98026Q00962__RFQ-75N98026Q00962.pdf",
+      "rowsBefore": 120,
+      "rowsAfter": 120,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 14,
+      "unresolvedAfter": 33,
+      "inventionBefore": 3,
+      "inventionAfter": 3
+    },
+    {
+      "file": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.pdf",
+      "rowsBefore": 118,
+      "rowsAfter": 118,
+      "added": 0,
+      "droppedNew": 0,
+      "unresolvedBefore": 4,
+      "unresolvedAfter": 12,
+      "inventionBefore": 0,
+      "inventionAfter": 0
+    },
+    {
+      "file": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.pdf",
+      "rowsBefore": 824,
+      "rowsAfter": 854,
+      "added": 30,
+      "droppedNew": 4,
+      "unresolvedBefore": 87,
+      "unresolvedAfter": 173,
+      "inventionBefore": 8,
+      "inventionAfter": 12
+    },
+    {
+      "file": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
+      "rowsBefore": 710,
+      "rowsAfter": 755,
+      "added": 45,
+      "droppedNew": 4,
+      "unresolvedBefore": 32,
+      "unresolvedAfter": 87,
+      "inventionBefore": 8,
+      "inventionAfter": 12
+    },
+    {
+      "file": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.pdf",
+      "rowsBefore": 1211,
+      "rowsAfter": 1732,
+      "added": 521,
+      "droppedNew": 34,
+      "unresolvedBefore": 128,
+      "unresolvedAfter": 196,
+      "inventionBefore": 47,
+      "inventionAfter": 81
+    },
+    {
+      "file": "W912P825BA029__Solicitation-W912P825BA029-OM25035.pdf",
+      "rowsBefore": 1180,
+      "rowsAfter": 1221,
+      "added": 41,
+      "droppedNew": 2,
+      "unresolvedBefore": 87,
+      "unresolvedAfter": 205,
+      "inventionBefore": 30,
+      "inventionAfter": 32
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 506131,
+    "outputTokens": 2553722,
+    "cacheReadTokens": 427136,
+    "cacheCreationTokens": 9024,
+    "usd": 13.328734599999999
+  }
+}

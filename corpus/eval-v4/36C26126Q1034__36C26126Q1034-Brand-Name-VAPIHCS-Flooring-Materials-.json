@@ -1,0 +1,1907 @@
+{
+  "file": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 73,
+  "chunks": 10,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 175,
+  "finalRows": 154,
+  "duplicatesRemoved": 24,
+  "fragmentsRemoved": 10,
+  "fragmentsDropped": [
+    {
+      "verbatim": "The Contractor shall indemnify the Government and its officers, employees, and agents against liability, including costs, for actual or alleged direct or contributory infringement of, or inducement to infringe, any United States or foreign patent, trademark, or copyright, arising out of the performance of this contract, provided the Contractor is reasonably notified of such claims and proceedings.",
+      "normalized": "Contractor shall indemnify Government against patent/trademark/copyright infringement claims, provided it is reasonably notified.",
+      "section_ref": "C.1 52.212-4(h)",
+      "page": 32,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Contractor becomes aware of a duplicate contract financing or invoice payment or that the Government has otherwise overpaid on a contract financing or invoice payment, the Contractor shall—\n(i) Remit the overpayment amount to the payment office cited in the contract along with a description of the overpayment including the—\n(A) Circumstances of the overpayment (e.g., duplicate payment, erroneous payment,\nliquidation errors, date(s) of overpayment);\n(B) Affected contract number and delivery order number, if applicable;\n(C) Affected line item or subline item, if applicable;\n(D) Contractor point of contact; and\n(ii) Provide a copy of the remittance and supporting documentation to the Contracting\nOfficer.",
+      "normalized": "If Contractor becomes aware of an overpayment/duplicate payment, it shall remit the overpayment with a description (circumstances, contract/DO number, line item, POC) and provide a copy of remittance and supporting documentation to the CO.",
+      "section_ref": "C.1 52.212-4(i)(4)",
+      "page": 32,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All amounts that become payable by the Contractor to the Government under this contract\nshall bear simple interest from the date due until paid unless paid within 30 days of becoming due.",
+      "normalized": "Amounts payable by Contractor to Government shall bear simple interest from date due unless paid within 30 days.",
+      "section_ref": "C.1 52.212-4(i)(5)",
+      "page": 32,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall update the information in the Federal Awardee Performance and Integrity Information System (FAPIIS) on a semi-annual basis, throughout the life of the contract, by posting the required information in the System for Award Management via https://www.sam.gov.",
+      "normalized": "Contractor must update FAPIIS information semi-annually throughout contract life via SAM.gov.",
+      "section_ref": "52.209-9",
+      "page": 38,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order.",
+      "normalized": "For IDIQ contracts, Contractor shall report to both the IDIQ contracting office and the affected order's contracting office.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No used, refurbished, or remanufactured supplies or equipment/parts shall be provided.",
+      "normalized": "Contractor must not provide used, refurbished, or remanufactured supplies or equipment/parts.",
+      "section_ref": "C.13",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "This procurement is for new Original Equipment Manufacturer (OEM) items only.",
+      "normalized": "Only new OEM items are acceptable for this procurement.",
+      "section_ref": "C.13",
+      "page": 56,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "No gray market items shall be provided.",
+      "normalized": "Contractor must not provide gray market items.",
+      "section_ref": "C.13",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No counterfeit supplies or equipment/ parts shall be provided.",
+      "normalized": "Contractor must not provide counterfeit supplies or equipment/parts.",
+      "section_ref": "C.13",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Vendor shall be an OEM, authorized dealer, authorized distributor, or authorized reseller for the proposed equipment/system, verified by an authorization letter or other documents from the OEM.",
+      "normalized": "Vendor must be an OEM, authorized dealer, distributor, or reseller for the proposed equipment/system, verified by authorization documentation from the OEM.",
+      "section_ref": "C.13",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    }
+  ],
+  "scheduleRows": 0,
+  "sectionScheme": {
+    "allowedPrefixes": [
+      "PWS",
+      "SOW"
+    ],
+    "specSections": [],
+    "ucfSections": [
+      "SECTION B",
+      "SECTION C",
+      "SECTION D",
+      "SECTION E"
+    ],
+    "clauseHeadings": 36
+  },
+  "runningLinesStripped": 144,
+  "pageBreakJoins": 11,
+  "garbledPages": 0,
+  "unreadableReason": null,
+  "dropped": {
+    "total": 10,
+    "verbatimNotFound": 3,
+    "pageOutOfRange": 0,
+    "invalidShape": 0,
+    "mangled": 7
+  },
+  "reviewFlagged": 30,
+  "coverage": {
+    "verb_occurrences": 203,
+    "captured": 93,
+    "excluded": {
+      "definitional": 0,
+      "government_actor": 11,
+      "schedule": 0
+    },
+    "swept_pages": [
+      1,
+      5,
+      6,
+      10,
+      11,
+      31,
+      32,
+      33,
+      34,
+      35,
+      39,
+      40,
+      41,
+      42,
+      43,
+      45,
+      55,
+      65,
+      71
+    ],
+    "uncaptured_pages": [
+      1,
+      5,
+      6,
+      10,
+      31,
+      32,
+      33,
+      36,
+      39,
+      40,
+      41,
+      42,
+      43,
+      45,
+      50,
+      54,
+      55,
+      64,
+      65,
+      66,
+      70,
+      71,
+      72,
+      73
+    ],
+    "unresolved": 87,
+    "not_processed": [],
+    "unresolved_items": [
+      {
+        "page": 1,
+        "verbs": [
+          "is required to"
+        ],
+        "count": 1,
+        "sentence": "CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN _______________ 29."
+      },
+      {
+        "page": 6,
+        "verbs": [
+          "must"
+        ],
+        "count": 6,
+        "sentence": "Must meet ASTM E84 – Flammability Class A Must meet ASTM F925 – Chemical Resistance Excellent Must meet ASTM F137 and ASTM F1515 – Flexibility Excellent/ Light Stability ∆E ≤ 8 Achieved NSF/ANSI 332 Level 1 Certification Hard Set Adhesive-Prevail 3500 Hard-set Adhesive Must be solvent free, acrylic "
+      },
+      {
+        "page": 6,
+        "verbs": [
+          "must"
+        ],
+        "count": 6,
+        "sentence": "Must meet ASTM E648 Flooring Radiant Panel Must be< 0.007 Must pass Resistance to Mold/Mildew (ASTM G21/E2180)- PASSES Must be compatible with Mannington Commercial Weld Rods/MCS-42 Chemical Seam Sealer/Mannington Seam Coater for high traffic areas Must pass Resistance to Heat (ASTM Fl514) passes < "
+      },
+      {
+        "page": 6,
+        "verbs": [
+          "must"
+        ],
+        "count": 2,
+        "sentence": "0.45 watts/cm2 Must meet Flexibility (ASTM Fl37) standards passes 1 1/2' Mandrel - No Crack/Break Must be compatible with all BioSpec Accessories 1500 series."
+      },
+      {
+        "page": 6,
+        "verbs": [
+          "must"
+        ],
+        "count": 13,
+        "sentence": "(weld rod, ideal base, wall base) Carpet Tile (Commercial/Healthcare grade) -Mohawk -Must meet modular carpet tile format 24”x24” and 12”x36” (if applicable) - Must meet solution dyed nylon - Must be high density tufted for dimensional stability - Must be PVC free thermoplastic backing or equivalent"
+      },
+      {
+        "page": 10,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "The Contractor shall ensure that the appropriate personnel, administrative, technical, and physical safeguards are established to ensure the security and confidentiality of this information, data, documentary material, records and/or equipment is properly protected."
+      },
+      {
+        "page": 11,
+        "verbs": [
+          "must"
+        ],
+        "count": 1,
+        "sentence": "To the extent an agency requires contractors to complete records management training, the agency must provide the training to the contractor.]"
+      },
+      {
+        "page": 31,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "Failure of the parties to this contract to reach agreement on any request for equitable adjustment, claim, appeal or action arising under or relating to this contract shall be a dispute to be resolved in accordance with the clause FAR 52.233-1, Disputes, which is incorporated in this contract by ref"
+      },
+      {
+        "page": 32,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "Payment shall be made for items accepted by the Government that have been delivered to the delivery destinations set forth in this contract."
+      },
+      {
+        "page": 32,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "The interest rate shall be the interest rate established by the Secretary of the"
+      },
+      {
+        "page": 33,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "(iv) If a demand for payment was previously issued for the debt, the demand for payment included in the final decision shall identify the same due date as the original demand for payment."
+      },
+      {
+        "page": 33,
+        "verbs": [
+          "shall"
+        ],
+        "count": 2,
+        "sentence": "Unless the contract specifically provides otherwise, risk of loss or damage to the supplies provided under this contract shall remain with the Contractor until, and shall pass to the Government upon— (1) Delivery of the supplies to a carrier, if transportation is f.o.b."
+      },
+      {
+        "page": 34,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "Subject to the terms of this contract, the Contractor shall be paid a percentage of the contract price reflecting the percentage of the work performed prior to the notice of termination, plus reasonable charges the Contractor can demonstrate to the satisfaction of the Government using its standard r"
+      },
+      {
+        "page": 34,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "The Contractor shall not be required to comply with the cost accounting standards or contract cost principles for this purpose."
+      },
+      {
+        "page": 35,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "1341), the following shall govern:"
+      },
+      {
+        "page": 35,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "(1) The Comptroller General of the United States, or an authorized representative of the Comptroller General, shall have access to and right to examine any of the Contractor’s directly pertinent records involving transactions related to this contract."
+      },
+      {
+        "page": 39,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "(End of Provision) C.5 52.216-18 ORDERING (AUG 2020) (a) Any supplies and services to be furnished under this contract shall be ordered by issuance of delivery orders or task orders by the individuals or activities designated in the Schedule."
+      },
+      {
+        "page": 39,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "In the event of conflict between a delivery order or task order and this contract, the contract shall control."
+      },
+      {
+        "page": 42,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "An independent contractor shall be considered a subcontractor."
+      },
+      {
+        "page": 42,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "(f) The Contractor shall comply with the limitations on subcontracting as follows:"
+      },
+      {
+        "page": 43,
+        "verbs": [
+          "not to exceed"
+        ],
+        "count": 1,
+        "sentence": "However, the term does not include contracts that exceed five years in duration because the period of performance has been extended for a cumulative period not to exceed six months under the clause at 52.217-8, Option to Extend Services, or other appropriate authority."
+      },
+      {
+        "page": 50,
+        "verbs": [
+          "is required to"
+        ],
+        "count": 1,
+        "sentence": "Sensitive compartmented information means classified information concerning or derived from intelligence sources, methods, or analytical processes, which is required to be handled within formal access control systems established by the Director of National Intelligence."
+      },
+      {
+        "page": 73,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "(c) A written notice of award or acceptance of an offer, mailed or otherwise furnished to the successful offeror within the time for acceptance specified in the offer, shall result in a binding contract without further action by either party."
+      }
+    ]
+  },
+  "unresolvedBefore": 110,
+  "sweeperNewRows": 46,
+  "sweeperExclusions": [
+    {
+      "page": 65,
+      "quote": "any person who misrepresents a firm's status as a business concern that is small, HUBZone small, small disadvantaged, service-disabled veteran-owned small, economically disadvantaged women-owned small, or women-owned small eligible under the WOSB Program in order to obtain a contract to be awarded under the preference programs established pursuant to section 8, 9, 15, 31, and 36 of the Small Busin",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "Any supplies and services to be furnished under this contract shall be ordered by issuance of delivery orders or task orders by the individuals or activities designated in the Schedule.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 39,
+      "quote": "In the event of conflict between a delivery order or task order and this contract, the contract shall control.",
+      "rule": "definitional"
+    },
+    {
+      "page": 11,
+      "quote": "All deliverables under the contract are the property of the U.S. Government for which [FACILITY] shall have unlimited rights to use, dispose of, or disclose such data contained therein as it determines to be in the public interest.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 11,
+      "quote": "[Note: To the extent an agency requires contractors to complete records management training, the agency must provide the training to the contractor.]",
+      "rule": "government-actor"
+    },
+    {
+      "page": 45,
+      "quote": "Each HUBZone small business concern participating in the HUBZone joint venture must be certified as a HUBZone concern.",
+      "rule": "definitional"
+    },
+    {
+      "page": 32,
+      "quote": "Payment shall be made for items accepted by the Government that have\nbeen delivered to the delivery destinations set forth in this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 32,
+      "quote": "The interest rate shall be the interest rate established by the Secretary of the",
+      "rule": "government-actor"
+    },
+    {
+      "page": 33,
+      "quote": "The Contracting Officer will issue a final decision as required by FAR part 33 if—",
+      "rule": "government-actor"
+    },
+    {
+      "page": 33,
+      "quote": "the demand for payment\nincluded in the final decision shall identify the same due date as the original demand for\npayment.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 10,
+      "quote": "The agency must report promptly to NARA in accordance with\n36 CFR 1230.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 41,
+      "quote": "The Government shall order at least the quantity of supplies or services designated in the Schedule as the \"minimum.\"",
+      "rule": "government-actor"
+    },
+    {
+      "page": 55,
+      "quote": "The inquiry will look at any information in the entity's possession but does not need to include an internal or third-party audit.",
+      "rule": "permission"
+    },
+    {
+      "page": 35,
+      "quote": "Neither the Government nor any Government-authorized end user shall be deemed to\nhave agreed to such clause by virtue of it appearing in the EULA, TOS, or similar legal\ninstrument or agreement.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 35,
+      "quote": "The Comptroller General of the United States, or an authorized representative of the\nComptroller General, shall have access to and right to examine any of the Contractor’s directly\npertinent records involving transactions related to this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 1,
+      "quote": "18a. PAYMENT WILL BE MADE BY CODE",
+      "rule": "government-actor"
+    },
+    {
+      "page": 71,
+      "quote": "The Contracting Officer will review disclosures\nprovided in paragraph (g) to determine if any applicable waiver may be sought.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 71,
+      "quote": "The Contracting Officer may choose not to pursue a waiver and may instead make an award to an Offeror that\ndoes not require a waiver.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 71,
+      "quote": "Upon request, the Contracting Officer will make\ntheir full text available.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 71,
+      "quote": "In lieu of submitting\nthe full text of those provisions, the offeror may identify the provision by paragraph identifier and\nprovide the appropriate information with its quotation or offer.",
+      "rule": "permission"
+    },
+    {
+      "page": 42,
+      "quote": "An independent contractor shall be considered a subcontractor.",
+      "rule": "definitional"
+    },
+    {
+      "page": 34,
+      "quote": "The Government will send a cure notice to the Contractor, unless the reason for the termination is late delivery.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 34,
+      "quote": "the Government shall not be liable to the Contractor for any amount for supplies or services not accepted",
+      "rule": "government-actor"
+    },
+    {
+      "page": 34,
+      "quote": "such termination shall be deemed a termination for convenience.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 31,
+      "quote": "The Government must exercise its post acceptance rights—\n(1) Within a reasonable time after the defect was discovered or should have been discovered; and\n(2) Before any substantial change occurs in the condition of the item, unless the change is due to the defect in the item.",
+      "rule": "government-actor"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 100680,
+    "outputTokens": 288269,
+    "cacheReadTokens": 81216,
+    "cacheCreationTokens": 6016,
+    "usd": 1.5576666000000001
+  },
+  "rows": [
+    {
+      "verbatim": "Submission of your response shall be received no later than\nAugust 31, 2026 at 1500 PDT at victoria.torres@va.gov.",
+      "normalized": "Offeror must have its response received no later than August 31, 2026 at 1500 PDT.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any question or concerns regarding this solicitation\nshould be forwarded in writing via email to the Point of\nContact listed at Victoria Torres, Contract Specialist,\nvictoria.torres@va.gov by August 24, 2026 at 1500 PDT.",
+      "normalized": "Offeror questions must be forwarded in writing via email to the Contract Specialist by August 24, 2026 at 1500 PDT.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "27a. SOLICITATION INCORPORATES BY REFERENCE FAR 52.212-1, 52.212-4. FAR 52.212-3 AND 52.212-5 ARE ATTACHED. ADDENDA X ARE ARE NOT ATTACHED.",
+      "normalized": "Solicitation incorporates by reference FAR 52.212-1 and 52.212-4, with FAR 52.212-3 and 52.212-5 attached, and addenda attached; clause list, page 1.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "3. INVOICES: Invoices shall be submitted in arrears:\na. Quarterly []\nb. Semi-Annually []\nc. Other [X] Upon Delivery and Government Acceptance",
+      "normalized": "Contractor shall submit invoices in arrears, specifically upon delivery and Government acceptance.",
+      "section_ref": "B.1",
+      "page": 4,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All Invoices from the contractor shall be submitted\nelectronically in accordance with VAAR Clause 852.232-72 Electronic Submission of Payment\nRequests.",
+      "normalized": "Contractor shall submit all invoices electronically per VAAR Clause 852.232-72.",
+      "section_ref": "B.1",
+      "page": 4,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Invoicing shall be in accordance with the requirements of The Department of\nVeterans Affairs Financial Services Center (VAFSC).",
+      "normalized": "Contractor's invoicing shall comply with VAFSC requirements.",
+      "section_ref": "B.1",
+      "page": 4,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The latest information shall be used for invoicing and payments and may change during the period of performance of this acquisition.",
+      "normalized": "Contractor shall use the latest invoicing/payment information, which may change during performance.",
+      "section_ref": "B.1",
+      "page": 4,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor is required to provide brand name flooring materials.",
+      "normalized": "Contractor is required to provide brand name flooring materials.",
+      "section_ref": "SOW 2",
+      "page": 5,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor must be able to provide any base materials necessary to replace existing flooring.",
+      "normalized": "Contractor must be able to provide base materials necessary to replace existing flooring.",
+      "section_ref": "SOW 2",
+      "page": 5,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Installation will not be required.",
+      "normalized": "Installation of flooring materials is not required of the contractor under this contract.",
+      "section_ref": "SOW 2",
+      "page": 5,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Luxury Vinyl Plank (LVP)/Luxury Vinyl Tile (LVT) -MetroFlor Deja New San Marcos Oak Pumice\nWash DN1445105\nMust be Luxury Vinyl Plank (LVP) commercial-grade strength and waterproof properties for high\ntraffic areas.\nMust be a standard ASTM F1700 specification with Class III, Type B classification\nMust be 9 x 60 in. Plank (228.6 x 1,524 mm) tile size to properly fit area dimensions.\nMust have a wear layer thickness of 0.5mm 20 mil and overall thickness of 2.5 mm (0.098 in.)\nMust have a Micro-Bevel Edge profile\nMust meet ASTM E648 Critical Radiant Flux (Radiant Panel) Class I > 0.45 W/Sq. cm. rating in\naccordance with the fire-test-response standard\nMust meet ASTM F970 static load > 0.5 with static load of 0.005 in., 1,400 psi\nMust meet ASTM D2047 Coefficient of Friction / Slip Resistance > 0.6 (Dry)\nMust meet ASTM D4060 Abrasion Resistance Average > 20,000 cycles\nMust pass ASTM tests for chemical resistance, residential indentation, and flexibility.\nMust be complaint with Heat (ASTM F 1514) and Light (ASTM F 1515) color stability by color\nchange < 8.\nMust have finish design options including wood, abstract, and stone looks.\nMust have an FX3 antimicrobial and floor protection finish.\nMust meet the Manufacturer’s compatibility guidelines (to preserve warranties)",
+      "normalized": "Contractor's LVP/LVT flooring product (MetroFlor Deja New San Marcos Oak Pumice Wash DN1445105) must meet a specification table of 14 performance/material characteristics.",
+      "section_ref": "SOW 2",
+      "page": 5,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Cove Base- Flexco 6” Wallflowers TS Rubber Base Cove 4’ Gray 036 Base\nMust meet ASTM F1861 – Resilient Wall Base Type TS, Group 1, Styles A & B\nMust meet ASTM E648 (NFPA 253) – Critical Radiant Flux Class I, ≥ 0.45 W/cm2",
+      "normalized": "Contractor's Cove Base product (Flexco 6\" Wallflowers TS Rubber Base Cove 4' Gray 036 Base) must meet a specification table of 2 performance characteristics.",
+      "section_ref": "SOW 2",
+      "page": 5,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Sheet Vinyl Flooring (Healthcare grade)-Mannington Resillient Sheet including BioSpec\nMD",
+      "normalized": "Flooring materials specification table (adhesive, sheet vinyl, carpet tile, rubber flooring, epoxy floor coatings) listing required ASTM/NSF/CRI performance and certification characteristics for each material type; page 6, approximately 33 'Must meet/be/pass' spec items across 5 material categories.",
+      "section_ref": "SOW",
+      "page": 6,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "3. Contract Line Items",
+      "normalized": "Contract Line Items table listing unit and included materials for each flooring CLIN (LVP/LVT, Vinyl, Carpet Tile, Rubber, Epoxy, VCT, Freight/Delivery), pages 7-8, 7 items.",
+      "section_ref": "SOW 3",
+      "page": 7,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Deliveries for any Hawaiian Island locations will take place between 8:00am-4:00pm HST (see 7.2).",
+      "normalized": "Deliveries to Hawaiian Island locations occur between 8:00am-4:00pm HST, constraining contractor delivery timing.",
+      "section_ref": "SOW 7.1",
+      "page": 8,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall replace any rejected materials at no additional cost.",
+      "normalized": "Contractor shall replace any rejected materials at no additional cost.",
+      "section_ref": "SOW 7.1",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Invoices shall reference:\nContract Number\nDelivery Order Number\nContract Line Item\nDescription of flooring materials\nDelivery date and location",
+      "normalized": "Contractor invoices shall reference contract number, delivery order number, contract line item, description of flooring materials, and delivery date/location; 5 required items.",
+      "section_ref": "SOW 8",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Invoices shall be submitted through the VA Invoice Processing Platform (IPP) unless otherwise\ndirected.",
+      "normalized": "Contractor shall submit invoices through the VA Invoice Processing Platform (IPP) unless otherwise directed.",
+      "section_ref": "SOW 8",
+      "page": 9,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "1. Contractor(s) shall comply with all applicable records management laws and regulations, as\nwell as National Archives and Records Administration (NARA) records policies, including but not\nlimited to the Federal Records Act (44 U.S.C. chs. 21, 29, 31, 33), NARA regulations at 36 CFR\nChapter XII Subchapter B, and those policies associated with the safeguarding of records covered\nby the Privacy Act of 1974 (5 U.S.C. 552a). These policies include the preservation of all records,\nregardless of form or characteristics, mode of transmission, or state of completion.",
+      "normalized": "Contractor(s) shall comply with all applicable records management laws, regulations, and NARA policies, including the Federal Records Act, 36 CFR Chapter XII Subchapter B, and Privacy Act protections.",
+      "section_ref": "SOW 9.C.1",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "2. In accordance with 36 CFR 1222.32, all data created for Government use and delivered to, or\nfalling under the legal control of, the Government are Federal records subject to the provisions of\n44 U.S.C. chapters 21, 29, 31, and 33, the Freedom of Information Act (FOIA) (5 U.S.C. 552), as\namended, and the Privacy Act of 1974 (5 U.S.C. 552a), as amended and must be managed and\nscheduled for disposition only as permitted by statute or regulation.",
+      "normalized": "Data created for Government use and delivered to or under Government legal control must be managed and scheduled for disposition only as permitted by statute or regulation.",
+      "section_ref": "SOW 9.C.2",
+      "page": 10,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "3. In accordance with 36 CFR 1222.32, Contractor shall maintain all records created for\nGovernment use or created in the course of performing the contract and/or delivered to, or under\nthe legal control of the Government and must be managed in accordance with Federal law.\nElectronic records and associated metadata must be accompanied by sufficient technical\ndocumentation to permit understanding and use of the records and data.",
+      "normalized": "Contractor shall maintain all records created for or delivered to the Government, managed per Federal law, with electronic records and metadata accompanied by sufficient technical documentation.",
+      "section_ref": "SOW 9.C.3",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "4. [FACILITY] and its contractors are responsible for preventing the alienation or unauthorized\ndestruction of records, including all forms of mutilation.",
+      "normalized": "Contractor is responsible for preventing the alienation or unauthorized destruction of records, including all forms of mutilation.",
+      "section_ref": "SOW 9.C.4",
+      "page": 10,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Records may not be removed from the legal custody of VAPIHCS or destroyed except for in\naccordance with the provisions of the agency records schedules and with the written concurrence\nof the Head of the Contracting Activity.",
+      "normalized": "Records may not be removed from VAPIHCS legal custody or destroyed except in accordance with agency records schedules and with written concurrence of the Head of the Contracting Activity.",
+      "section_ref": "SOW 9.C.4",
+      "page": 10,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the event of any unlawful or accidental removal, defacing, alteration, or destruction of records,\nContractor must report to VAPIHCS",
+      "normalized": "If any unlawful or accidental removal, defacing, alteration, or destruction of records occurs, Contractor must report to VAPIHCS.",
+      "section_ref": "SOW 9.C.4",
+      "page": 10,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "5. The Contractor(s) shall immediately notify the appropriate Contracting Officer upon discovery of\nany inadvertent or unauthorized disclosures of information, data, documentary materials, records\nor equipment.",
+      "normalized": "Contractor(s) shall immediately notify the Contracting Officer upon discovery of any inadvertent or unauthorized disclosures of information, data, documentary materials, records, or equipment.",
+      "section_ref": "SOW 9.C.5",
+      "page": 10,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Disclosure of non-public information is limited to authorized personnel with a need-\nto-know as described in the SOW.",
+      "normalized": "Disclosure of non-public information is limited to authorized personnel with a need-to-know as described in the SOW.",
+      "section_ref": "SOW 9.C.5",
+      "page": 10,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall not remove material from Government facilities or\nsystems, or facilities or systems operated or maintained on the Government’s behalf, without the\nexpress written permission of the Head of the Contracting Activity.",
+      "normalized": "Contractor shall not remove material from Government facilities or systems, or facilities/systems operated on the Government's behalf, without written permission of the Head of the Contracting Activity.",
+      "section_ref": "SOW 9.C.5",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When information, data,\ndocumentary material, records and/or equipment is no longer required, it shall be returned to\nVAPIHCS control or the Contractor must hold it until otherwise directed.",
+      "normalized": "When information, data, documentary material, records, and/or equipment are no longer required, they shall be returned to VAPIHCS control or the Contractor must hold them until otherwise directed.",
+      "section_ref": "SOW 9.C.5",
+      "page": 11,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Items returned to the\nGovernment shall be hand carried, mailed, emailed, or securely electronically transmitted to the\nContracting Officer or address prescribed in the [contract vehicle].",
+      "normalized": "Items returned to the Government shall be hand carried, mailed, emailed, or securely electronically transmitted to the Contracting Officer or prescribed address.",
+      "section_ref": "SOW 9.C.5",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Destruction of records is\nEXPRESSLY PROHIBITED unless in accordance with Paragraph (4).",
+      "normalized": "Destruction of records is expressly prohibited unless in accordance with Paragraph (4).",
+      "section_ref": "SOW 9.C.5",
+      "page": 11,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "6. The Contractor(s) is required to obtain the Contracting Officer's approval prior to engaging in any\ncontractual relationship (sub-contractor) in support of this contract requiring the disclosure of\ninformation, documentary material and/or records generated under, or relating to, contracts.",
+      "normalized": "Contractor(s) is required to obtain the Contracting Officer's approval prior to engaging in any subcontractor relationship requiring disclosure of information, documentary material, and/or records.",
+      "section_ref": "SOW 9.C.6",
+      "page": 11,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor (and any\nsub-contractor) is required to abide by Government and [FACILITY] guidance for protecting sensitive, proprietary information, classified, and controlled unclassified\ninformation.",
+      "normalized": "Contractor (and any subcontractor) is required to abide by Government and facility guidance for protecting sensitive, proprietary, classified, and controlled unclassified information.",
+      "section_ref": "SOW 9.C.6",
+      "page": 11,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "7. The Contractor(s) shall only use Government IT equipment for purposes specifically tied to or\nauthorized by the contract and in accordance with [FACILITY] policy.",
+      "normalized": "Contractor(s) shall only use Government IT equipment for purposes specifically tied to or authorized by the contract and in accordance with facility policy.",
+      "section_ref": "SOW 9.C.7",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "8. The Contractor(s) shall not create or maintain any records containing any non-public [FACILITY]\ninformation that are not specifically tied to or authorized by the contract.",
+      "normalized": "Contractor(s) shall not create or maintain any records containing non-public facility information not specifically tied to or authorized by the contract.",
+      "section_ref": "SOW 9.C.8",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "9. The Contractor(s) shall not retain, use, sell, or disseminate copies of any deliverable that\ncontains information covered by the Privacy Act of 1974 or that which is generally protected from\npublic disclosure by an exemption to the Freedom of Information Act.",
+      "normalized": "Contractor(s) shall not retain, use, sell, or disseminate copies of any deliverable containing information covered by the Privacy Act or protected from disclosure under FOIA exemptions.",
+      "section_ref": "SOW 9.C.9",
+      "page": 11,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any Contractor rights in the data or deliverables must be identified as\nrequired by FAR 52.227-11 through FAR 52.227-20.",
+      "normalized": "Any Contractor rights in the data or deliverables must be identified as required by FAR 52.227-11 through FAR 52.227-20.",
+      "section_ref": "SOW 9.C.10",
+      "page": 11,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "11. Training. All Contractor employees assigned to this contract who create, work with, or\notherwise handle records are required to take VHA-provided records management training.",
+      "normalized": "All Contractor employees assigned to this contract who create, work with, or otherwise handle records are required to take VHA-provided records management training.",
+      "section_ref": "SOW 9.C.11",
+      "page": 11,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor is\nresponsible for confirming training has been completed according to agency policies,\nincluding initial training and any annual or refresher training.",
+      "normalized": "Contractor is responsible for confirming that training has been completed according to agency policies, including initial and any annual or refresher training.",
+      "section_ref": "SOW 9.C.11",
+      "page": 11,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "B.2 PRICE/COST SCHEDULE",
+      "normalized": "Price/Cost Schedule table listing CLINs 0001-0008 (Base period), 1001-1008 (Option 1), 2001-2008 (Option 2), and 3001-3008 (Option 3) for flooring materials and freight/delivery, pages 12-19, 32 line items total.",
+      "section_ref": "Section B.2",
+      "page": 12,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "3001 28,750.00 SF ________________ ________________",
+      "normalized": "CLIN line-item/quantity table for flooring materials and freight (Options 3-4), pages 18-21; 16 items total.",
+      "section_ref": "SECTION B",
+      "page": 18,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "B.3 DELIVERY SCHEDULE",
+      "normalized": "Delivery schedule table (Section B.3) for items 0001-4008, pages 22-30; offeror must indicate delivery timeline in quotation for each shipped item, FOB Destination; 16 items total.",
+      "section_ref": "B.3",
+      "page": 22,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall only tender for acceptance those items that conform to the requirements of this contract.",
+      "normalized": "Contractor shall tender for acceptance only conforming items.",
+      "section_ref": "C.1 52.212-4(b)",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "However, when a third party makes payment (e.g., use of the Governmentwide\ncommercial purchase card), the Contractor may not assign its rights to receive payment under\nthis contract.",
+      "normalized": "Contractor may not assign payment rights when a third party makes payment (e.g., purchase card use).",
+      "section_ref": "C.1 52.212-4(c)",
+      "page": 31,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Changes in the terms and conditions of this contract may be made only by written agreement of the parties.",
+      "normalized": "Contract changes require written agreement of both parties.",
+      "section_ref": "C.1 52.212-4(d)",
+      "page": 31,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall proceed diligently with performance of this contract, pending final resolution of any dispute arising under the contract.",
+      "normalized": "Contractor shall continue diligent performance during dispute resolution.",
+      "section_ref": "C.1 52.212-4(e)",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be liable for default unless nonperformance is caused by an occurrence beyond the reasonable control of the Contractor and without its fault or negligence.",
+      "normalized": "Contractor shall be liable for default unless nonperformance is excusable per stated conditions.",
+      "section_ref": "C.1 52.212-4(f)",
+      "page": 31,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "When an excusable delay occurs, the Contractor shall—\n(1) Notify the Contracting Officer in writing as soon as possible;",
+      "normalized": "If an excusable delay occurs, Contractor shall notify the Contracting Officer in writing as soon as possible (list continues on p.32 with items (2) and (3); 3 items total).",
+      "section_ref": "C.1 52.212-4(f)",
+      "page": 31,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall submit invoices to the address designated in the contract to receive invoices.",
+      "normalized": "Contractor shall submit invoices to the designated address.",
+      "section_ref": "C.1 52.212-4(g)",
+      "page": 32,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "An invoice must include the information required by 5 CFR part 1315.9(b).",
+      "normalized": "Invoices must include information required by 5 CFR 1315.9(b).",
+      "section_ref": "C.1 52.212-4(g)",
+      "page": 32,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(h) Patent indemnity. The Contractor shall indemnify the Government and its officers, employees, and agents against liability, including costs, for actual or alleged direct or contributory infringement of, or inducement to infringe, any United States or foreign patent, trademark, or copyright, arising out of the performance of this contract, provided the Contractor is reasonably notified of such claims and proceedings.",
+      "normalized": "Contractor must indemnify the Government against patent/trademark/copyright infringement claims arising from contract performance, provided Contractor is reasonably notified.",
+      "section_ref": "52.212-4(h)",
+      "page": 32,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(4) Overpayments. If the Contractor becomes aware of a duplicate contract financing or invoice payment or that the Government has otherwise overpaid on a contract financing or invoice payment, the Contractor shall—\n(i) Remit the overpayment amount to the payment office cited in the contract along with a description of the overpayment including the—\n(A) Circumstances of the overpayment (e.g., duplicate payment, erroneous payment,\nliquidation errors, date(s) of overpayment);\n(B) Affected contract number and delivery order number, if applicable;\n(C) Affected line item or subline item, if applicable;\n(D) Contractor point of contact; and\n(ii) Provide a copy of the remittance and supporting documentation to the Contracting\nOfficer.",
+      "normalized": "If Contractor becomes aware of an overpayment, it must remit the amount with a description (circumstances, contract/DO number, line item, POC) and provide the CO a copy of remittance and supporting documentation.",
+      "section_ref": "52.212-4(i)(4)",
+      "page": 32,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(5) Interest.\n(i) All amounts that become payable by the Contractor to the Government under this\ncontract shall bear simple interest from the date due until paid unless paid within 30 days of\nbecoming due.",
+      "normalized": "Amounts owed by Contractor to Government bear simple interest from due date unless paid within 30 days of becoming due.",
+      "section_ref": "52.212-4(i)(5)",
+      "page": 32,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In connection with any discount offered for early payment, time shall be\ncomputed from the date of the invoice.",
+      "normalized": "Time for early-payment discount purposes is computed from the invoice date.",
+      "section_ref": "Section C",
+      "page": 32,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "For the purpose of computing the discount earned,\npayment shall be considered to have been made on the date that appears on the payment\ncheck or the specified payment date if an electronic funds transfer payment is made.",
+      "normalized": "For discount computation, payment is deemed made on the check date or specified EFT payment date.",
+      "section_ref": "Section C",
+      "page": 32,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(v) Amounts shall be due at the earliest of the following dates:\n(A) The date fixed under this contract.\n(B) The date of the first written demand for payment, including any demand for payment\nresulting from a termination for cause.",
+      "normalized": "Contractor debt amounts are due at the earliest of: the date fixed under the contract, or the date of first written demand for payment.",
+      "section_ref": "52.212-4(i)(5)(v)",
+      "page": 33,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(vi) The interest charge shall be computed for the actual number of calendar days involved\nbeginning on the due date and ending on-\n(A) The date on which the designated office receives payment from the Contractor;\n(B) The date of issuance of a Government check to the Contractor from which an amount\notherwise payable has been withheld as a credit against the contract debt; or\n(C) The date on which an amount withheld and applied to the contract debt would\notherwise have become payable to the Contractor.",
+      "normalized": "The interest charge on Contractor debt shall be computed for the actual number of calendar days between the due date and one of three specified ending events.",
+      "section_ref": null,
+      "page": 33,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "In the event of such termination, the Contractor shall immediately stop all work and shall immediately cause any and all of its suppliers and subcontractors to cease work.",
+      "normalized": "Upon termination for convenience, Contractor must immediately stop all work and cause suppliers/subcontractors to cease work.",
+      "section_ref": "52.212-4(l)",
+      "page": 34,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "the Contractor shall be liable to the Government for any and all rights and remedies provided by law.",
+      "normalized": "Upon termination for cause, Contractor shall be liable to the Government for all rights and remedies provided by law.",
+      "section_ref": "Section C (m)",
+      "page": 34,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(o) Warranty. The Contractor warrants and implies that the items delivered under this contract are merchantable and fit for use for the particular purpose described in this contract.",
+      "normalized": "Contractor warrants delivered items are merchantable and fit for the described purpose.",
+      "section_ref": "52.212-4(o)",
+      "page": 34,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(q) Compliance with laws unique to Government contracts. The Contractor agrees to comply with 31 U.S.C. 1352 relating to limitations on the use of appropriated funds to influence certain\nFederal contracts; 40 U.S.C. chapter 37, Contract Work Hours and Safety Standards; 41 U.S.C.\nchapter 87, Kickbacks; 49 U.S.C. 40118, Government-financed air transportation; and 41 U.S.C.\nchapter 21 relating to procurement integrity.",
+      "normalized": "Contractor must comply with listed statutes: 31 U.S.C. 1352, 40 U.S.C. ch.37, 41 U.S.C. ch.87, 49 U.S.C. 40118, and 41 U.S.C. ch.21.",
+      "section_ref": "52.212-4(q)",
+      "page": 34,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall not be paid for any work performed or costs incurred which reasonably could have been avoided.",
+      "normalized": "Contractor shall not be paid for work performed or costs incurred that reasonably could have been avoided, in a termination for convenience.",
+      "section_ref": "Section C (l)",
+      "page": 34,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Unless specified elsewhere in this contract, title to items furnished under this contract shall pass to the Government upon acceptance, regardless of when or where the Government takes physical possession.",
+      "normalized": "Title to items furnished under the contract shall pass to the Government upon acceptance unless the contract specifies otherwise.",
+      "section_ref": "Section C (n)",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Except as otherwise provided by an express warranty, the Contractor will not be liable to the Government for consequential damages resulting from any defect or deficiencies in accepted items.",
+      "normalized": "Contractor will not be liable to the Government for consequential damages from defects/deficiencies in accepted items, except as otherwise provided by an express warranty.",
+      "section_ref": "Section C (p)",
+      "page": 34,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Any inconsistencies in this solicitation or contract shall be resolved by\ngiving precedence in the following order:\n(1) The schedule of supplies/services.",
+      "normalized": "Inconsistencies in the solicitation/contract shall be resolved using an order of precedence, beginning with the schedule of supplies/services (list continues beyond excerpt).",
+      "section_ref": "Section C (r)",
+      "page": 34,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall make available at its offices, at all reasonable times, the records,\nmaterials, and other evidence for examination, audit, or reproduction, until 3 years after final\npayment under this contract or for any shorter period specified in FAR part 4, longer period required by statute, or periods specified in other clauses of this contract.",
+      "normalized": "Contractor must make records, materials, and other evidence available at its offices at all reasonable times for examination, audit, or reproduction, retained until 3 years after final payment (or other specified period).",
+      "section_ref": "Section C",
+      "page": 35,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If this contract is\ncompletely or partially terminated, the records relating to the work terminated shall be made\navailable for 3 years after any resulting final termination settlement.",
+      "normalized": "If the contract is terminated, records relating to terminated work must be made available for 3 years after final termination settlement.",
+      "section_ref": "52.212-4(t)(2)",
+      "page": 36,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Records relating to appeals under the disputes clause or to litigation or the settlement of claims arising under or relating to\nthis contract shall be made available until such appeals, litigation, or claims are finally resolved.",
+      "normalized": "Records relating to appeals, litigation, or claims must be made available until finally resolved.",
+      "section_ref": "52.212-4(t)(2)",
+      "page": 36,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(u) Incorporation by reference. The Contractor's representations and certifications, including\nthose completed electronically via the System for Award Management (SAM), are incorporated\nby reference into the contract.",
+      "normalized": "Contractor's SAM representations and certifications are incorporated by reference into the contract.",
+      "section_ref": "52.212-4(u)",
+      "page": 36,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(c) If the offeror checked \"has\" in paragraph (b) of this provision, the offeror represents, by submission of this offer, that the information it has entered in the Federal Awardee Performance and Integrity Information System (FAPIIS) is current, accurate, and complete as of the date of submission of this offer with regard to the following information:\n(1) Whether the offeror, and/or any of its principals, has or has not, within the last five years, in\nconnection with the award to or performance by the offeror of a Federal contract or grant, been the\nsubject of a proceeding, at the Federal or State level that resulted in any of the following\ndispositions:\n(i) In a criminal proceeding, a conviction.\n(ii) In a civil proceeding, a finding of fault and liability that results in the payment of a monetary\nfine, penalty, reimbursement, restitution, or damages of $5,000 or more.\n(iii) In an administrative proceeding, a finding of fault and liability that results in–\n(A) The payment of a monetary fine or penalty of $5,000 or more; or\n(B) The payment of a reimbursement, restitution, or damages in excess of $100,000.\n(iv) In a criminal, civil, or administrative proceeding, a disposition of the matter by consent or\ncompromise with an acknowledgment of fault by the Contractor if the proceeding could have led\nto any of the outcomes specified in paragraphs (c)(1)(i), (c)(1)(ii), or (c)(1)(iii) of this provision.\n(2) If the offeror has been involved in the last five years in any of the occurrences listed in (c)(1) of\nthis provision, whether the offeror has provided the requested information with regard to each\noccurrence.",
+      "normalized": "If offeror checked 'has' in (b), offeror represents its FAPIIS entries are current/accurate/complete regarding proceedings and dispositions listed in (1)-(2).",
+      "section_ref": "C.2 52.209-6(c)",
+      "page": 37,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(d) The offeror shall post the information in paragraphs (c)(1)(i) through (c)(1)(iv) of this provision in FAPIIS as\nrequired through maintaining an active registration in the System for Award Management, which can be accessed\nvia https://www.sam.gov (see 52.204-7).",
+      "normalized": "Offeror must post the (c)(1)(i)-(iv) information in FAPIIS by maintaining an active SAM registration.",
+      "section_ref": "C.2 52.209-6(d)",
+      "page": 37,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(a) The Contractor shall update the information in the Federal Awardee Performance and Integrity Information\nSystem (FAPIIS) on a semi-annual basis, throughout the life of the contract, by posting the required information in\nthe System for Award Management via https://www.sam.gov.",
+      "normalized": "Contractor must update FAPIIS information semi-annually throughout contract life via SAM.gov.",
+      "section_ref": "C.3 52.209-9(a)",
+      "page": 38,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contractor must cite 52.209-9 and\nrequest removal within 7 calendar days of the posting to FAPIIS.",
+      "normalized": "Contractor must cite 52.209-9 and request removal of contested FAPIIS posting within 7 calendar days of posting.",
+      "section_ref": "C.3 52.209-9(c)(1)",
+      "page": 38,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event the Contractor becomes either an inverted domestic corporation, or a subsidiary of an inverted domestic corporation during contract performance, the Contractor shall give written notice to the Contracting Officer within five business days from the date of the inversion event.",
+      "normalized": "If Contractor becomes an inverted domestic corporation or subsidiary during performance, it shall notify the Contracting Officer in writing within 5 business days.",
+      "section_ref": "52.209-10",
+      "page": 39,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Notwithstanding paragraphs (b) and (c) of this section, the Contractor shall honor any order exceeding the maximum order limitations in paragraph (b), unless that order (or orders) is returned to the ordering office within 3 days after issuance, with written notice stating the Contractor's intent not to ship the item (or items) called for and the reasons.",
+      "normalized": "Contractor shall honor any order exceeding the maximum order limitations unless it returns the order to the ordering office within 3 days after issuance with written notice of intent not to ship and reasons.",
+      "section_ref": "C.6 52.216-19",
+      "page": 40,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not exceed 6 months.",
+      "normalized": "The total extension of contractor performance under the option provision shall not exceed 6 months.",
+      "section_ref": "C.7 52.217-8",
+      "page": 40,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Delivery or performance shall be made only as authorized by orders issued in accordance with the Ordering clause.",
+      "normalized": "Delivery or performance shall be made only as authorized by orders under the Ordering clause.",
+      "section_ref": "52.216-22",
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall furnish to the Government, when and if ordered, the supplies or services specified in the Schedule up to and including the quantity designated in the Schedule as the \"maximum.\"",
+      "normalized": "Contractor shall furnish ordered supplies/services up to the maximum quantity designated in the Schedule.",
+      "section_ref": "52.216-22",
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Any order issued during the ordering period of this contract and not completed within that period shall be completed by the Contractor within the time specified in the order, which may include order options to be exercised after the ordering period of this contract but before the end of the period of performance of the order.",
+      "normalized": "Contractor shall complete any order not finished within the ordering period, within the time specified in the order.",
+      "section_ref": "52.216-22",
+      "page": 41,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The contract shall govern the Contractor's and Government's rights and obligations with respect to that order, including options exercised, to the same extent as if the order were completed during the contract's ordering period; provided, that the Contractor shall not be required to make any deliveries under this contract after 09/13/2031.",
+      "normalized": "Contractor is not required to make deliveries under the contract after 09/13/2031.",
+      "section_ref": "52.216-22",
+      "page": 41,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(e) By submission of an offer and execution of a contract, the Contractor agrees that in\nperformance of a contract assigned a North American Industry Classification System (NAICS)\ncode for—\n(1) Services (except construction), it will not pay more than 50 percent of the amount paid by\nthe Government for contract performance to subcontractors that are not similarly situated\nentities. Any work that a similarly situated entity further subcontracts will count towards the\nprime contractor’s 50 percent subcontract amount that cannot be exceeded. When a contract\nincludes both services and supplies, the 50 percent limitation shall apply only to the service\nportion of the contract;\n(2) Supplies (other than procurement from a nonmanufacturer of such supplies), it will not pay\nmore than 50 percent of the amount paid by the Government for contract performance,\nexcluding the cost of materials, to subcontractors that are not similarly situated entities. Any\nwork that a similarly situated entity further subcontracts will count towards the prime contractor’s\n50 percent subcontract amount that cannot be exceeded. When a contract includes both\nsupplies and services, the 50 percent limitation shall apply only to the supply portion of the\ncontract;\n(3) General construction, it will not pay more than 85 percent of the amount paid by the\nGovernment for contract performance, excluding the cost of materials, to subcontractors that\nare not similarly situated entities. Any work that a similarly situated entity further subcontracts\nwill count towards the prime contractor’s 85 percent subcontract amount that cannot be\nexceeded; or\n(4) Construction by special trade contractors, it will not pay more than 75 percent of the\namount paid by the Government for contract performance, excluding the cost of materials, to\nsubcontractors that are not similarly situated entities. Any work that a similarly situated entity\nfurther subcontracts will count towards the prime contractor’s 75 percent subcontract amount\nthat cannot be exceeded.",
+      "normalized": "Contractor agrees to subcontracting percentage limitations by NAICS category: (1) services ≤50% to non-similarly-situated subs, (2) supplies ≤50%, (3) general construction ≤85%, (4) special trade construction ≤75%; 4 items total.",
+      "section_ref": "52.219-14",
+      "page": 42,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "A joint venture agrees that, in the performance of the contract, the applicable percentage\nspecified in paragraph (e) of this clause will be performed by the aggregate of the joint venture\nparticipants.",
+      "normalized": "Joint venture agrees the applicable subcontracting percentage will be met by the aggregate of JV participants.",
+      "section_ref": "52.219-14",
+      "page": 43,
+      "verb": "will",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In a joint venture comprised of a small business protégé and its mentor approved by the\nSmall Business Administration, the small business protégé shall perform at least 40 percent of\nthe work performed by the joint venture. Work performed by the small business protégé in the\njoint venture must be more than administrative functions.",
+      "normalized": "In protégé-mentor JVs, the small business protégé shall perform at least 40% of JV work, and that work must be more than administrative.",
+      "section_ref": "52.219-14",
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In an 8(a) joint venture, the 8(a) participant(s) shall perform at least 40 percent of the\nwork performed by the joint venture. Work performed by the 8(a) participants in the joint venture must\nbe more than administrative functions.",
+      "normalized": "In 8(a) JVs, the 8(a) participant(s) shall perform at least 40% of JV work, and that work must be more than administrative.",
+      "section_ref": "52.219-14",
+      "page": 43,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Contractor represented that it was a small business concern, a small disadvantaged\nbusiness concern, or a joint venture that was any of the small business concerns identified in\n19.000(a)(3) prior to award of this contract, the Contractor shall rerepresent its size and socioeconomic status according to paragraph (e) of this clause or, if applicable, paragraph (g) of this clause, upon occurrence of any of the following:",
+      "normalized": "If the Contractor represented it was a small business (or related) concern before award, the Contractor shall rerepresent its size and socio-economic status per paragraph (e) or (g) upon occurrence of the listed events.",
+      "section_ref": "C.10 52.219-28",
+      "page": 43,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall rerepresent its size status in accordance with the size standard in effect at the time of this rerepresentation that corresponds to the North American Industry Classification System (NAICS) code(s) assigned to this contract.",
+      "normalized": "Contractor shall rerepresent its size status using the size standard applicable to the NAICS code(s) assigned to the contract.",
+      "section_ref": "Section C",
+      "page": 44,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Except as provided in paragraph (g) of this clause, the Contractor shall make the representation(s) required by paragraph (b) of this clause by validating or updating all its representations in the Representations and Certifications section of the System for Award Management (SAM) and its other data in SAM, as necessary, to ensure that they reflect the Contractor's current status.",
+      "normalized": "Contractor shall validate/update its SAM representations and certifications to reflect its current status, except as provided in paragraph (g).",
+      "section_ref": "Section C",
+      "page": 44,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall notify the contracting officer in writing within the timeframes specified in paragraph (b) of this clause, that the data have been validated or updated, and provide the date of the validation or update.",
+      "normalized": "Contractor shall notify the contracting officer in writing, within the paragraph (b) timeframes, that SAM data was validated/updated, and provide the date.",
+      "section_ref": "Section C",
+      "page": 44,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(g) If the Contractor does not have representations and certifications in SAM, or does not have\na representation in SAM for the NAICS code applicable to this contract, the Contractor is\nrequired to complete the following rerepresentation and submit it to the contracting office, along\nwith the contract number and the date on which the rerepresentation was completed:\n(1) The Contractor represents that it [ ] is, [ ] is not a small business concern under NAICS\nCode 238330 assigned to contract number .\n(2) [Complete only if the Contractor represented itself as a small business concern in\nparagraph (g)(1) of this clause.] The Contractor represents that it [ ] is, [ ] is not, a small\ndisadvantaged business concern as defined in 13 CFR 124.1001.\n(3) Women-owned small business (WOSB) joint venture eligible under the WOSB Program.\nThe Contractor represents that it [ ] is, [ ] is not a joint venture that complies with the\nrequirements of 13 CFR 127.506(a) through (c). [The Contractor shall enter the name and\nunique entity identifier of each party to the joint venture: _____.]\n(4) Economically disadvantaged women-owned small business (EDWOSB) joint venture. The\nContractor represents that it [ ] is, [ ] is not a joint venture that complies with the requirements of\n13 CFR 127.506(a) through (c). [The Contractor shall enter the name and unique entity identifier\nof each party to the joint venture: _____.]\n(5) Service-disabled veteran-owned small business (SDVOSB) joint venture eligible under the\nSDVOSB Program. The Contractor represents that it [ ] is, [ ] is not an SDVOSB joint venture\neligible under the SDVOSB Program that complies with the requirements of 13 CFR 128.402.\n[The Contractor shall enter the name and unique entity identifier of each party to the joint\nventure: _____.]\n(6) HUBZone joint venture eligible under the HUBZone Program. [Complete only if the offeror\nis a HUBZone small business concern.] The offeror represents, as part of its offer, that It [ ] is, [ ]\nis not a HUBZone joint venture that complies with the requirements of 13 CFR 126.616(a)\nthrough (c). [The Contractor shall enter the name and unique entity identifier of each party to the\njoint venture: _____.] Each HUBZone small business concern participating in the HUBZone joint\nventure must be certified as a HUBZone concern.",
+      "normalized": "If the Contractor lacks SAM representations/certifications for the applicable NAICS code, it is required to complete and submit a rerepresentation covering small business, small disadvantaged business, WOSB/EDWOSB/SDVOSB/HUBZone joint venture status, along with contract number and completion date; 6 items total.",
+      "section_ref": "Section C",
+      "page": 45,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(b) In connection with the performance of work under this contract, the Contractor agrees as\nfollows:\n(1) The Contractor will not engage in any racially discriminatory DEI activities;\n(2) The Contractor will furnish all information and reports, including providing access to\nbooks, records, and accounts, as required by the Contracting Officer, for purposes of\nascertaining compliance with this clause;\n(3) In the event of the Contractor's or a subcontractor's noncompliance with this clause, this\ncontract may be canceled, terminated, or suspended in whole or in part, and the Contractor or\nsubcontractor may be declared ineligible for further Government contracts;\n(4) The Contractor will report any subcontractor's known or reasonably knowable conduct that\nmay violate this clause to the Contracting Officer and take any appropriate remedial actions\ndirected by the Contracting Officer; and\n(5) The Contractor will inform the Contracting Officer if a subcontractor sues the Contractor\nand the suit puts at issue, in any way, the validity of this clause.\n(6) The Contractor recognizes that compliance with the requirements of this clause are\nmaterial to the Government's payment decisions for purposes of 31 U.S.C. 3729(b)(4).",
+      "normalized": "Contractor agrees to: not engage in racially discriminatory DEI activities; furnish information/reports/access as required by the CO; accept possible cancellation/termination/ineligibility for noncompliance; report and remediate subcontractor violations; inform the CO of related subcontractor suits; and recognize compliance is material to Government payment decisions; 6 items total.",
+      "section_ref": "C.11 52.222-90",
+      "page": 46,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor must include the substance of this clause, including this paragraph (c), in\nsubcontracts at any tier, including those for commercial products and commercial services,\nexcept those where the place of delivery or performance is outside the United States.",
+      "normalized": "Contractor must include the substance of this clause in subcontracts at any tier, except those performed outside the United States.",
+      "section_ref": "C.11 52.222-90(c)",
+      "page": 46,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Unless a waiver or exception applies, the Contractor is prohibited from providing any products or services to the Government or using in the performance of the contract any of the following: (1) A covered application on any information technology owned or managed by the Government, or on any information technology used or provided by the Contractor under this contract, including equipment provided by the Contractor's employees (section 102 of Division R of the Consolidated Appropriations Act, 2023 (Pub. L. 117-328)); (2) A Kaspersky Lab-covered article (Section 1634 of Division A of the National Defense Authorization Act for Fiscal Year 2018 (Pub. L. 115-91)); (3) Covered telecommunications equipment or services used as a substantial or essential component of any system, or as critical technology as part of any system (paragraphs (a)(1)(A) of section 889 of the John S. McCain National Defense Authorization Act for Fiscal Year 2019 (Pub. L. 115-232)). This does not prohibit contractors from providing— (i) A service that connects to the facilities of a third-party, such as backhaul, roaming, or interconnection arrangements; or (ii) Telecommunications equipment that cannot route or redirect user data traffic or cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.",
+      "normalized": "Contractor is prohibited from providing/using covered applications, Kaspersky Lab-covered articles, or covered telecom equipment/services as defined, unless a waiver/exception applies; certain third-party connecting services and non-routing telecom equipment are excepted.",
+      "section_ref": "Section C",
+      "page": 51,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Procedures. The Contractor shall search SAM for the FASC-maintained list of American Security Drone Act—covered foreign entities before proposing, or using in performance of the contract, any unmanned aircraft system.",
+      "normalized": "Contractor shall search SAM for the FASC-maintained list of covered foreign entities before proposing or using any unmanned aircraft system.",
+      "section_ref": "Section C",
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Also, the Contractor shall ensure any effort or expenditure associated with a FASC-prohibited unmanned aircraft system is consistent with a corresponding exemption, exception, or waiver determination expressly stated in the contract.",
+      "normalized": "Contractor shall ensure any effort/expenditure on a FASC-prohibited unmanned aircraft system matches a stated exemption/exception/waiver determination in the contract.",
+      "section_ref": "Section C",
+      "page": 51,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) Certain telecommunications and video surveillance equipment, systems, or services. (i) Unless an applicable waiver has been issued by the Government, the Contractor cannot use any equipment, systems, or services that uses covered telecommunications equipment or services as a substantial or essential component of any system, or as critical technology as part of any system (paragraph (a)(1)(B) of section 889 of the John S. McCain National Defense Authorization Act for Fiscal Year 2019 (Pub. L. 115-232)). (ii) This prohibition applies to using covered telecommunications equipment or services, regardless of whether that use is in performance of work under a Federal contract. This does not prohibit the contractor from using— (A) A service that connects to the facilities of a third party, such as backhaul, roaming, or interconnection arrangements; or (B) Telecommunications equipment that cannot route or redirect user data traffic or cannot permit visibility into any user data or packets that such equipment transmits or otherwise handles.",
+      "normalized": "Contractor cannot use covered telecommunications equipment/services as a substantial component or critical technology, regardless of contract connection, unless waived; certain non-routing equipment/third-party services excepted.",
+      "section_ref": "Section C",
+      "page": 52,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) Office of Foreign Assets Control Restrictions. (i) Except as authorized by the Office of Foreign Assets Control (OFAC) in the Department of the Treasury, the Contractor shall not acquire, for use in the performance of this contract, any supplies or services if any proclamation, Executive order, or statute administered by OFAC, or if OFAC's implementing regulations at 31 CFR chapter V, would prohibit such a transaction by a person subject to the jurisdiction of the United States.",
+      "normalized": "Contractor shall not acquire supplies/services for contract performance if OFAC-administered law would prohibit the transaction, unless OFAC-authorized.",
+      "section_ref": "Section C",
+      "page": 52,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, the contractor shall not engage in certain activities or transactions relating to Iran (section 6(b)(1)(A) of Iran Sanctions Act (50 U.S.C. 1701 note).",
+      "normalized": "Contractor shall not engage in certain Iran-related activities/transactions unless an exception or waiver applies.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(ii) Unless an exception applies according to paragraph (d)(4)(iii) or the Government grants a waiver, contractor shall not export certain sensitive technology to Iran, as determined by the President, and has an active exclusion in SAM (22 U.S.C. 8515).",
+      "normalized": "Contractor shall not export certain sensitive technology to Iran unless an exception or waiver applies.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(iii) The prohibition in paragraphs (d)(4)(i) and (d)(4)(ii) do not apply if the acquisition is subject to trade agreements and the offeror certifies that all the offered products are designated country end products or designated country construction material (see part 25).",
+      "normalized": "If the acquisition is subject to trade agreements, the offeror must certify all offered products are designated country end products/construction material for the Iran prohibitions not to apply.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(iv) Unless an exception applies or the Government grants a waiver, contractors are prohibited from knowingly engaging in any significant transaction (i.e., over $15,000) with Iran's Revolutionary Guard Corps or any of its officials, agents, or affiliates, the property and interests in property of which are blocked according to the International Emergency Economic Powers Act (section 6(b)(1)(B) of Iran Sanctions Act (50 U.S.C. 1701 note)).",
+      "normalized": "Contractor is prohibited from knowingly engaging in significant transactions (over $15,000) with Iran's Revolutionary Guard Corps unless an exception/waiver applies.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(e) Governmentwide exclusion and removal orders. (1) Unless the Government has issued an applicable waiver, contractors shall not provide or use as part of the performance of the contract any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order as follows: (i) For solicitations and contracts awarded by a Department of Defense contracting office, DoD FASCSA orders apply. (ii) For all other solicitations and contracts, DHS FASCSA orders apply.",
+      "normalized": "Contractor shall not provide/use covered articles or products/services from a source prohibited by an applicable FASCSA order (DoD or DHS as applicable) unless waived.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) The Contractor shall search for the phrase \"FASCSA order\" in the System for Award Management (SAM) at https://www.sam.gov to locate applicable FASCSA orders.",
+      "normalized": "Contractor shall search SAM for the phrase \"FASCSA order\" to locate applicable FASCSA orders.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(f)Reasonable inquiry. The contractor shall conduct a reasonable inquiry to determine if there are any prohibited products or services. The inquiry will look at any information in the entity's possession but does not need to include an internal or third-party audit.",
+      "normalized": "Contractor shall conduct a reasonable inquiry (using information in its possession, no audit required) to determine if any prohibited products/services exist.",
+      "section_ref": "Section C",
+      "page": 53,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(g) Removal of prohibited products and services. For Federal Supply Schedules, Governmentwide acquisition contracts, multi-agency contracts or any other procurement instrument intended for use by multiple agencies, upon notification from the Contracting Officer, during the performance of the contract, the Contractor shall promptly make any necessary changes or modifications to remove any product or service produced or provided by a source that this clause prohibits.",
+      "normalized": "Upon CO notification, Contractor shall promptly modify/change to remove any prohibited product/service source under multi-agency instruments.",
+      "section_ref": "Section C",
+      "page": 54,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(h) General report. (1) If the Contractor identifies or is notified by any source, (including a subcontractor at any tier), that any product or service provided or used (or to be provided or used) during contract performance does not comply with any prohibition in this clause, then the Contractor shall report the following information, or as much information is known, in writing to the contracting office as identified in paragraph (h)(2) within 72 hours: (i) Contract number and order number, if applicable; (ii) The specific prohibition the product or service is not complying with; (iii) A description of the products or services that the Contractor identifies or has reason to suspect is prohibited (include brand; model number, such as the original equipment manufacturer (OEM) number, manufacturer part number, or wholesaler number; and item description, as applicable); (iv) The entity that produced the product or service (include entity name, unique entity identifier, Contractor and Government Entity (CAGE) code, facilities responsible for design, fabrication, assembly, packaging, and test of the product, and whether the entity was the OEM or a distributor (provide manufacturer codes and distributor codes used for the product)); (v) Description of the functionality of the product or service and how that functionality impacts the risk to the product or service; (vi) An explanation of any factors relevant to determining if the product or service should be permitted by an applicable exception, exemption, or waiver (if the contractor would like the Government to consider a waiver, and asks for such a waiver); (vii) Whether alternative products or services are available that would comply with the prohibition; (viii) If the product or service is related to item maintenance, include the following information on the item being maintained: (A) Brand; (B) Model number, OEM number, manufacturer part number, or wholesaler number; and (C) Item description, as applicable. (ix) Any readily available information about mitigation actions implemented or recommended.",
+      "normalized": "If Contractor identifies/is notified of non-compliant product/service during performance, Contractor shall report specified information in writing to the contracting office within 72 hours; 9 required contents in total.",
+      "section_ref": "Section C",
+      "page": 54,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) If a report must be submitted to a contracting office, the Contractor shall submit the report as follows: (i) If a Department of Defense contracting office, the Contractor shall report to the website at https://dibnet.dod.mil. (ii) For all other contracting offices, the Contractor shall report to the Contracting Officer. (iii) For indefinite delivery contracts, the Contractor shall report to both the contracting office for the indefinite delivery contract and the contracting office for any affected order.",
+      "normalized": "Contractor shall submit required reports to the specified contracting office (DoD website, Contracting Officer, or both offices for IDIQ contracts).",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) If the report provided does not contain any of the information required by paragraph (h)(1) of this clause, and the contractor later discovers new information that is required by paragraph (h)(1) of this clause, then the contractor shall submit a subsequent report within 72 hours of discovering the new information.",
+      "normalized": "If a prior report was incomplete and new required information is later discovered, Contractor shall submit a subsequent report within 72 hours of discovery.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(4) The contractor shall also report the information in paragraph (h)(1) if the contractor wishes to ask for a waiver of the requirements of a new FASCSA order being applied through modification.",
+      "normalized": "If Contractor wants a waiver for a new FASCSA order applied via modification, Contractor shall report the paragraph (h)(1) information.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) During contract performance, the Contractor shall review SAM at least once every three months, or as advised by the Contracting Officer, to check for covered articles subject to FASCSA order(s), or for products or services produced by a source subject to FASCSA order(s) not currently identified under paragraph (e) of this clause.",
+      "normalized": "Contractor shall review SAM at least every three months (or as advised by CO) to check for new FASCSA-order-covered articles/sources.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(2) If the Contractor identifies a new FASCSA order(s) that could impact their supply chain, then the Contractor shall conduct a reasonable inquiry to identify whether a covered article or product or service produced or provided by a source subject to the FASCSA order(s) was provided to the Government or used during contract performance. The inquiry will look at any information in the entity's possession but does not need to include an internal or third-party audit.",
+      "normalized": "If Contractor identifies a new FASCSA order impacting its supply chain, Contractor shall conduct a reasonable inquiry (using information in its possession, no audit required) into whether a covered article/source was provided/used.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) The Contractor shall submit a report to the contracting office identified in paragraph (h)(2) of this clause if the Contractor identifies, including through any notification by a subcontractor at any tier, that a covered article or product or service produced or provided by a source was provided to the Government or used during contract performance and is subject to a FASCSA order(s).",
+      "normalized": "If Contractor identifies (including via subcontractor notification) that a covered article/source subject to a FASCSA order was provided/used, Contractor shall submit a report to the identified contracting office.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall report the following information within 72 hours for each covered article or each product or service produced or provided by a source, where the covered article or source is subject to a FASCSA order: (i) Contract number and order number, if applicable; (ii) Name of the covered article or source subject to a FASCSA order; (iii) The specific FASCSA order the product or service does not comply with; (iv) The elements of (h)(1)(iii) through (ix) of this clause.",
+      "normalized": "Contractor shall report specified information within 72 hours for each covered article/source subject to a FASCSA order; 4 required contents in total.",
+      "section_ref": "Section C",
+      "page": 55,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(j) Subcontracts. The Contractor shall insert the substance of this clause, including this paragraph (j) but excluding subparagraphs (d)(1) and (i)(1), in all subcontracts and other contractual instruments, including subcontracts for acquiring commercial products or commercial services.",
+      "normalized": "Contractor shall flow down the substance of this clause (excluding (d)(1) and (i)(1)) into all subcontracts and contractual instruments.",
+      "section_ref": "Section C",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(a) No used, refurbished, or remanufactured supplies or equipment/parts shall be provided. This procurement is for new Original Equipment Manufacturer (OEM) items only.",
+      "normalized": "Contractor shall not provide used, refurbished, or remanufactured supplies or equipment/parts; only new OEM items may be provided.",
+      "section_ref": "C.13 VAAR 852.212-71",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "No gray market items shall be provided. Gray market items are OEM goods intentionally or unintentionally sold outside an authorized sales territory or sold by non-authorized dealers in an authorized sales territory.",
+      "normalized": "Contractor shall not provide gray market items (OEM goods sold outside authorized territory or by non-authorized dealers).",
+      "section_ref": "C.13 VAAR 852.212-71",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(b) No counterfeit supplies or equipment/ parts shall be provided.",
+      "normalized": "Contractor shall not provide counterfeit supplies or equipment/parts.",
+      "section_ref": "C.13 VAAR 852.212-71",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(c) Vendor shall be an OEM, authorized dealer, authorized distributor, or authorized reseller for the proposed equipment/system, verified by an authorization letter or other documents from the OEM.",
+      "normalized": "Vendor shall be an OEM, authorized dealer, distributor, or reseller for the proposed equipment/system, verified by OEM authorization letter/documents.",
+      "section_ref": "C.13 VAAR 852.212-71",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All software licensing, warranty and service associated with the equipment/system shall be in accordance with the OEM terms and conditions.",
+      "normalized": "All software licensing, warranty, and service associated with the equipment/system shall comply with OEM terms and conditions.",
+      "section_ref": "C.13 VAAR 852.212-71",
+      "page": 56,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "FAR Title Date\nNumber\n52.203-6 RESTRICTIONS ON SUBCONTRACTOR SALES TO THE JUN 2020\nGOVERNMENT ALTERNATE I (NOV 2021)",
+      "normalized": "List of FAR/VAAR clauses incorporated by reference (52.203-6 through 852.246-71), page 57; 32+ clauses in total.",
+      "section_ref": "SECTION C",
+      "page": 57,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Submit signed and dated offers to the office specified in this solicitation at or before the exact time specified in this solicitation.",
+      "normalized": "Offeror must submit signed and dated offers to the specified office at or before the exact time stated in the solicitation.",
+      "section_ref": "E.1",
+      "page": 59,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "As a minimum, offers shall include—\n(1) The solicitation number;\n(2) The name, address, telephone number of the Offeror;\n(3) The Offeror’s Unique Entity Identifier (UEI) and, if applicable, Electronic Funds Transfer\n(EFT) indicator;\n(4) Information necessary to evaluate the factors contained in the provision at 52.212-2 or as\ndescribed in the solicitation;\n(5) Responses to provisions that require Offeror completion of information, representations,\nand certifications (other than those collected via the System for Award Management (SAM));\nand\n(6) A statement specifying the extent of agreement with all terms, conditions, and provisions\nincluded in the solicitation and any solicitation amendments.",
+      "normalized": "Offeror must include at minimum six specified elements in its offer: solicitation number, offeror identification, UEI/EFT info, evaluation-factor information, responses to representations/certifications, and a statement of agreement with solicitation terms.",
+      "section_ref": "E.1",
+      "page": 59,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror agrees to hold the prices in its offer firm for 60 calendar days from the date specified for receipt of offers, unless another time period is specified in an addendum to the solicitation.",
+      "normalized": "Offeror must hold offered prices firm for 60 calendar days from the date specified for receipt of offers, unless another period is stated in an addendum.",
+      "section_ref": "E.1",
+      "page": 59,
+      "verb": "required",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors are responsible for submitting offers and any modifications or revisions to the Government office designated in the solicitation by the time specified in the solicitation.",
+      "normalized": "Offerors are responsible for submitting offers and any modifications/revisions to the designated Government office by the specified time.",
+      "section_ref": "E.1",
+      "page": 59,
+      "verb": "required",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Failure to respond to all the evaluation factors or respond in sufficient detail for the\nGovernment to conduct a meaningful evaluation may result in your quote being\neliminated from competition prior to evaluation.",
+      "normalized": "Offeror's quote may be eliminated from competition if it fails to respond to all evaluation factors or fails to respond in sufficient detail.",
+      "section_ref": "E.1",
+      "page": 60,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If it’s determined that the Government cannot conduct a meaningful evaluation due to\nlack of response to an evaluation factor(s), your quote may be eliminated from\ncompetition.",
+      "normalized": "If the Government cannot conduct a meaningful evaluation due to lack of response to an evaluation factor, the offeror's quote may be eliminated from competition.",
+      "section_ref": "E.1",
+      "page": 60,
+      "verb": "conditional",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Make note of the solicitation closing date and time listed on the first page of the\nsolicitation.",
+      "normalized": "Offeror must note the solicitation closing date and time listed on the first page.",
+      "section_ref": "E.1",
+      "page": 60,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Quote format and content – The quote must have information identifying the quoter, the\nsolicitation number, and the contents as outlined below.",
+      "normalized": "Offeror's quote must identify the quoter, the solicitation number, and contain the contents outlined below.",
+      "section_ref": "E.1",
+      "page": 61,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The quote must be complete, self-sufficient, and respond directly to the requirements of this solicitation.",
+      "normalized": "Offeror's quote must be complete, self-sufficient, and respond directly to the solicitation's requirements.",
+      "section_ref": "E.1",
+      "page": 61,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "To be considered for award, quotes must include:\nFactor 1: Technical\n- Offeror is technically capable of providing all required line items and provides\nauthorized distributor’s letter for branded flooring materials.\nFactor 2: Delivery\n- Offeror provides an overview of the delivery timeline. Indicate if there are any\nsupply chain and/or long lead timelines.\nFactor 3: Socioeconomic Considerations:\n- In an effort to achieve socioeconomic small business goals, the Government will\nevaluate proposed participation in performance of the contract by Service-Disabled\nVeteran-Owned Small Businesses (“SDVOSB”) and Veteran-Owned Small\nBusinesses (“VOSB”). The following clauses, which are included in the Addendum to\nFAR 52.212-4 in Section C in of this Solicitation, set forth what will be considered\nunder this evaluation factor.\n- VAAR 852.215-70, SDVOSB and VOSB Evaluation Factors (DEC 2009)\n- VAAR 852.215-71, Evaluation Factor Commitments (DEC 2009)\n- VAAR 852.219-76, VA Notice of Limitations on Subcontracting – Certificate of\nCompliance for Supplies and Products (JAN 2023) (DEVIATION)\nFactor 4: Price\n- Complete all contract line-item numbers (CLIN) listed in section B2 Price/Cost\nSchedule.",
+      "normalized": "To be considered for award, offeror's quote must include the four listed factors (Technical, Delivery, Socioeconomic Considerations, Price) with their specified content.",
+      "section_ref": "E.1",
+      "page": 61,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(c) If the offeror checked \"has\" in paragraph (b) of this provision, the offeror represents, by\nsubmission of this offer, that the information it has entered in the Federal Awardee Performance\nand Integrity Information System (FAPIIS) is current, accurate, and complete as of the date of\nsubmission of this offer with regard to the following information:\n(1) Whether the offeror, and/or any of its principals, has or has not, within the last five years,\nin connection with the award to or performance by the offeror of a Federal contract or grant,\nbeen the subject of a proceeding, at the Federal or State level that resulted in any of the\nfollowing dispositions:\n(i) In a criminal proceeding, a conviction.\n(ii) In a civil proceeding, a finding of fault and liability that results in the payment of a\nmonetary fine, penalty, reimbursement, restitution, or damages of $5,000 or more.\n(iii) In an administrative proceeding, a finding of fault and liability that results in—\n(A) The payment of a monetary fine or penalty of $5,000 or more; or\n(B) The payment of a reimbursement, restitution, or damages in excess of $100,000.\n(iv) In a criminal, civil, or administrative proceeding, a disposition of the matter by consent or\ncompromise with an acknowledgment of fault by the Contractor if the proceeding could have led\nto any of the outcomes specified in paragraphs (c)(1)(i), (c)(1)(ii), or (c)(1)(iii) of this provision.\n(2) If the offeror has been involved in the last five years in any of the occurrences listed in\n(c)(1) of this provision, whether the offeror has provided the requested information with regard to\neach occurrence.",
+      "normalized": "If the offeror checked 'has' in paragraph (b), the offeror represents that its FAPIIS-entered information is current, accurate, and complete regarding five categories of proceedings/dispositions and whether required information was provided.",
+      "section_ref": "E.2",
+      "page": 62,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The offeror shall post the information in paragraphs (c)(1)(i) through (c)(1)(iv) of this\nprovision in FAPIIS as required through maintaining an active registration in the System for\nAward Management, which can be accessed via https://www.sam.gov (see 52.204-7).",
+      "normalized": "Offeror must post the specified FAPIIS information by maintaining an active SAM registration.",
+      "section_ref": "E.2",
+      "page": 62,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "[The offeror shall enter the name and unique entity identifier of each party to the joint venture: _________________.]",
+      "normalized": "If the offeror represents itself as a small business joint venture, it shall enter the name and unique entity identifier of each party to the joint venture.",
+      "section_ref": "52.219-1(c)(1)(ii)",
+      "page": 64,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "[The offeror shall enter the name and unique entity identifier of each party to the joint venture: _________________.]",
+      "normalized": "If the offeror represents itself as an EDWOSB joint venture, it shall enter the name and unique entity identifier of each party to the joint venture.",
+      "section_ref": "52.219-1(c)(4)",
+      "page": 65,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each HUBZone small business concern participating in the HUBZone joint venture must be certified as a HUBZone concern.",
+      "normalized": "Each HUBZone small business concern participating in a HUBZone joint venture must be certified as a HUBZone concern.",
+      "section_ref": "52.219-1(c)(6)",
+      "page": 65,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(d) For purposes of withholding under 26 U.S.C. 5000C, the Offeror represents that (1) It □ is □ is not a foreign person; and (2) If the Offeror indicates \"is\" in paragraph (d)(1) of this provision, then the Offeror represents that—I am claiming on the IRS Form W-14 □ a full exemption, or □ partial or no exemption [Offeror shall select one] from the excise tax.",
+      "normalized": "Offeror must represent whether it is a foreign person and, if so, shall select and represent either full or partial/no exemption on IRS Form W-14.",
+      "section_ref": "52.229-11(d)",
+      "page": 66,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(2) The Offeror shall submit with its offer the IRS Form W-14. If the IRS Form W-14 is not submitted with the offer, exemptions will not be applied to any resulting contract and the Government will withhold a full 2 percent of each payment.",
+      "normalized": "If the offeror represents it is a foreign person, it shall submit the IRS Form W-14 with its offer, or exemptions will not be applied.",
+      "section_ref": "52.229-11(e)(2)",
+      "page": 67,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(a) Protests, (as defined in FAR 33.102), that are filed directly with an agency, and copies of any protests that are filed with the Government Accountability Office (GAO), must be served on the Contracting Officer identified in the solicitation by obtaining written and dated acknowledgment of receipt from them.",
+      "normalized": "Protests filed with an agency, and copies of GAO protests, must be served on the Contracting Officer with written and dated acknowledgment of receipt.",
+      "section_ref": "52.233-2(a)",
+      "page": 67,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(b) The copy of any protest must be received in the office designated above within one day of filing a protest with the GAO.",
+      "normalized": "A copy of any protest must be received in the designated office within one day of filing with the GAO.",
+      "section_ref": "52.233-2(b)",
+      "page": 67,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) Covered telecommunications and video surveillance. The Offeror shall review the list of excluded parties in the System for Award Management (SAM) at https://www.sam.gov for entities excluded from receiving federal awards for “covered telecommunications equipment or services.”",
+      "normalized": "Offeror shall review the SAM excluded parties list for entities excluded for covered telecommunications equipment or services.",
+      "section_ref": "52.240-90(b)(1)",
+      "page": 68,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(i) The Offeror shall search in SAM for the phrase “FASCSA order” for any covered article, or any products or services produced or provided by a source, if there is an applicable FASCSA order described in paragraph (e) of FAR 52.240-91, Security Prohibitions and Exclusions.",
+      "normalized": "Offeror shall search SAM for the phrase 'FASCSA order' for any covered article or source with an applicable FASCSA order.",
+      "section_ref": "52.240-90(b)(2)(i)",
+      "page": 68,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(ii) The Offeror shall review the solicitation for any FASCSA orders that are not in SAM but are effective and apply to the solicitation and resultant contract (see FAR 40.204-1(c)(2)).",
+      "normalized": "Offeror shall review the solicitation for FASCSA orders not in SAM that are effective and apply to the solicitation/contract.",
+      "section_ref": "52.240-90(b)(2)(ii)",
+      "page": 68,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(c) Covered telecommunications equipment or services representations. By submission of its offer, the Offeror represents that, after conducting a reasonable inquiry (that looks at any information in the Offeror’s possession but does not need to include an internal or third-party audit)— (1) It will not provide covered telecommunications equipment or services to the Government in the performance of any contract, subcontract or other contractual instrument resulting from this solicitation, except as waived by the solicitation, or as disclosed in paragraph (g); and (2) It does not use covered telecommunications equipment or services, or use any equipment, system, or service that uses covered telecommunications equipment or services, except as waived by the solicitation, or as disclosed in paragraph (g).",
+      "normalized": "By submitting its offer, the offeror represents (after reasonable inquiry) that it will not provide, and does not use, covered telecommunications equipment or services, except as waived or disclosed.",
+      "section_ref": "52.240-90(c)",
+      "page": 69,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(d) FASCSA Representation. By submission of this offer, the offeror represents that it has conducted a reasonable inquiry, and that the offeror does not propose to provide or use in response to this solicitation any covered article, or any products or services produced or provided by a source, if the covered article or the source is prohibited by an applicable FASCSA order in effect on the date the solicitation was issued, except as waived by the solicitation, or as disclosed in paragraph (g).",
+      "normalized": "By submitting its offer, the offeror represents it does not propose to provide or use any covered article/source prohibited by an applicable FASCSA order, except as waived or disclosed.",
+      "section_ref": "52.240-90(d)",
+      "page": 69,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(e) Sudan certification. By submission of its offer, the offeror certifies, after conducting a reasonable inquiry (that looks at any information in the offeror’s possession but does not need to include an internal or third-party audit), that the offeror does not conduct any restricted business operations in Sudan.",
+      "normalized": "By submitting its offer, the offeror certifies (after reasonable inquiry) that it does not conduct restricted business operations in Sudan.",
+      "section_ref": "52.240-90(e)",
+      "page": 69,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(f) Iran Representation and Certifications. (1) Except as provided in paragraph (f)(2) of this provision or if a waiver has been granted in accordance with FAR 40.203-3, the offeror, after conducting a reasonable inquiry (that looks at any information in the offeror’s possession but does not need to include an internal or third-party audit), by submission of its offer— (i) Represents, to the best of its knowledge and belief, that the offeror does not export any sensitive technology to the government of Iran or any entities or individuals owned or controlled by, or acting on behalf or at the direction of, the government of Iran; (ii) Certifies that the offeror, or any person (as defined at section 15 of the Iran Sanctions Act of 1996, Pub. L. 104-172, 50 U.S.C. 1701 note) owned or controlled by the offeror, does not engage in any activities for which sanctions may be imposed under section 5 of the Act. These sanctioned activities are in the areas of development of the petroleum resources of Iran, production of refined petroleum products in Iran, sale and provision of refined petroleum products to Iran, and contributing to Iran’s ability to acquire or develop certain weapons or technologies; and (iii) Certifies that the offeror, and any person owned or controlled by the offeror, does not knowingly engage in any transaction that exceeds $15,000 with Iran’s Revolutionary Guard",
+      "normalized": "By submission of its offer (subject to exceptions), offeror represents/certifies it does not export sensitive technology to Iran's government, does not engage in Iran-sanctionable petroleum activities, and does not knowingly engage in transactions exceeding $15,000 with Iran's Revolutionary Guard; 3 items, third item truncated in excerpt.",
+      "section_ref": "52.240-90(f)(1)",
+      "page": 69,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The offeror shall email questions concerning sensitive technology to the Department of State at CISADA106@state.gov.",
+      "normalized": "Offeror shall email questions concerning sensitive technology to the Department of State at the listed email address.",
+      "section_ref": "Section E",
+      "page": 70,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(1) If the Offeror is not able to represent compliance with the prohibitions in paragraphs (c) or\n(d), then the Offeror shall disclose within 72 hours to the contracting office identified in\nparagraph (g)(2) the following information for each product or service not compliant:\n(i) Contract number and order number, if applicable;\n(ii) Identification of whether this disclosure relates to paragraph (c) on covered\ntelecommunication equipment or services, or to paragraph (d) on FASCSA orders;\n(iii) A description of the products or services that the Contractor identifies or has reason to\nsuspect is prohibited (include brand; model number, such as the original equipment\nmanufacturer (OEM) number, manufacturer part number, or wholesaler number; and item\ndescription, as applicable);\n(iv) The entity that produced the product or service (include entity name, unique entity\nidentifier, Contractor and Government Entity (CAGE) code, facilities responsible for design,\nfabrication, assembly, packaging, and test of the product, and whether the entity was the OEM\nor a distributor (provide manufacturer codes and distributor codes used for the product));\n(v) Description of the functionality of the product or service and how that functionality\nimpacts the risk to the product or service;\n(vi) An explanation of any factors relevant to determining if the product or service should be\npermitted by an applicable exception, exemption, or waiver (if the offeror would like the\nGovernment to consider a waiver);\n(vii) Whether alternative products or services are available that would be compliant with the\nprohibition;\n(viii) If the product or service is related to item maintenance, include the following\ninformation on the item being maintained:",
+      "normalized": "If Offeror cannot represent compliance with (c)/(d) prohibitions, Offeror shall disclose within 72 hours the required information for each non-compliant product/service; 9 required items total across pages 70-71.",
+      "section_ref": "Section E",
+      "page": 70,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The offeror is cautioned that the listed provisions may include blocks that\nmust be completed by the offeror and submitted with its quotation or offer.",
+      "normalized": "If a listed incorporated provision includes fill-in blocks, the offeror must complete those blocks and submit them with its quotation or offer.",
+      "section_ref": "E.8 52.252-1",
+      "page": 71,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "(2) If a disclosure is required to be submitted to a contracting office, the offeror shall submit\nthe disclosure as follows:\n(i) If a Department of Defense contracting office, the offeror shall submit the disclosure to\nthe website at https://dibnet.dod.mil.\n(ii) For all other contracting offices, the Offeror shall submit the disclosure to the Contracting\nOfficer.",
+      "normalized": "If a disclosure is required, offeror shall submit it to DoD's dibnet.dod.mil website (if DoD office) or to the Contracting Officer (all other offices).",
+      "section_ref": "Section E",
+      "page": 71,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "(3) If the disclosure provided does not contain any of the information required by paragraph (1), and the Offeror later discovers new information that is required by paragraph (1), then the Offeror shall submit a subsequent disclosure within 72 hours of discovering the new information.",
+      "normalized": "If the original disclosure was incomplete and the offeror later discovers required information, offeror shall submit a subsequent disclosure within 72 hours of discovery.",
+      "section_ref": "Section E",
+      "page": 71,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "FAR Title Date\nNumber\n52.203-11 CERTIFICATION AND DISCLOSURE REGARDING SEP 2024\nPAYMENTS TO INFLUENCE CERTAIN FEDERAL\nTRANSACTIONS\n52.203-18 PROHIBITION ON CONTRACTING WITH ENTITIES THAT JAN 2017\nREQUIRE CERTAIN INTERNAL CONFIDENTIALITY\nAGREEMENTS OR STATEMENTS—REPRESENTATION\n52.204-7 SYSTEM FOR AWARD MANAGEMENT—REGISTRATION NOV 2025\n(DEVIATION)\n852.215-72 NOTICE OF INTENT TO RE-SOLICIT OCT 2019\n852.233-70 PROTEST CONTENT/ALTERNATIVE DISPUTE OCT 2018\nRESOLUTION\n852.233-71 ALTERNATE PROTEST PROCEDURE OCT 2018\n852.239-75 INFORMATION AND COMMUNICATION TECHNOLOGY FEB 2023\nACCESSIBILITY NOTICE",
+      "normalized": "Clause list incorporated by reference in the Addendum to 52.212-1, Section E, page 72; 7 clauses shown (document notes 32 more elsewhere).",
+      "section_ref": "Addendum to 52.212-1",
+      "page": 72,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The following factors shall be used to evaluate offers:\nFactor 1: Technical\n- Offeror is technically capable of providing all required line items and provides authorized\ndistributor’s letter for branded flooring materials.\nFactor 2: Delivery / Period of Performance\n- Provide an overview of the delivery timeline. Indicate if there are any supply chain\nand/or long lead timelines. The Government will review the lead time for delivery and\ncompletion. A shorter delivery time will be considered more favorable.\nFactor 3: Socioeconomic Considerations\n- Socioeconomic Considerations: In an effort to achieve socioeconomic small business\ngoals, the Government will evaluate proposed participation in performance of the\ncontract by Service-Disabled Veteran-Owned Small Businesses (“SDVOSB”) and",
+      "normalized": "Evaluation will use listed factors (Technical, Delivery/Period of Performance, Socioeconomic Considerations, and a 4th factor Price on the next page); offeror must demonstrate technical capability/authorized distributor letter and provide delivery timeline overview; 4 factors total across pages 72-73.",
+      "section_ref": "E.10 52.212-2",
+      "page": 72,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Veteran-Owned Small Businesses (“VOSB”). The following clauses, which are included\nin the Addendum to FAR 52.212-4 in Section C in of this Solicitation, set forth what will\nbe considered under this evaluation factor.\n- VAAR 852.215-70, SDVOSB and VOSB Evaluation Factors (DEC 2009)\n- VAAR 852.215-71, Evaluation Factor Commitments (DEC 2009)\n- VAAR 852.219-76, VA Notice of Limitations on Subcontracting – Certificate of\nCompliance for Supplies and Products (JAN 2023) (DEVIATION)",
+      "normalized": "Continuation of Factor 3 (Socioeconomic Considerations) evaluation criteria, referencing VAAR clauses 852.215-70, 852.215-71, and 852.219-76 that govern this factor.",
+      "section_ref": "E.10 52.212-2",
+      "page": 73,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "- Complete all contract line-item numbers (CLIN) listed in section B2 Price/Cost Schedule.",
+      "normalized": "Offeror must complete all CLINs listed in Section B2 Price/Cost Schedule.",
+      "section_ref": "E.10 52.212-2",
+      "page": 73,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Price quote must be submitted separately from the other factor submissions.",
+      "normalized": "Offeror must submit the price quote separately from the other factor submissions.",
+      "section_ref": "E.10 52.212-2",
+      "page": 73,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    }
+  ],
+  "patchedRowsAdded": 0,
+  "truncationsRecovered": 0,
+  "emptyChunksRecovered": 0,
+  "truncationsOutstanding": 0,
+  "costExcludesPatch": true
+}
