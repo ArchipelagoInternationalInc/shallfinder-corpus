@@ -1,0 +1,1203 @@
+{
+  "file": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.pdf",
+  "status": "ok",
+  "model": "claude-sonnet-5",
+  "pageCount": 23,
+  "chunks": 4,
+  "truncations": 0,
+  "emptyChunks": 0,
+  "rawRowCount": 120,
+  "finalRows": 114,
+  "duplicatesRemoved": 2,
+  "fragmentsRemoved": 0,
+  "fragmentsDropped": [],
+  "scheduleRows": 0,
+  "sectionScheme": {
+    "allowedPrefixes": [
+      "SOW"
+    ],
+    "specSections": [],
+    "ucfSections": [
+      "SECTION B",
+      "SECTION C",
+      "SECTION D",
+      "SECTION E",
+      "SECTION F",
+      "SECTION G",
+      "SECTION H",
+      "SECTION I",
+      "SECTION J",
+      "SECTION K",
+      "SECTION L",
+      "SECTION M"
+    ],
+    "clauseHeadings": 17
+  },
+  "runningLinesStripped": 44,
+  "pageBreakJoins": 2,
+  "garbledPages": 0,
+  "unreadableReason": null,
+  "dropped": {
+    "total": 5,
+    "verbatimNotFound": 2,
+    "pageOutOfRange": 0,
+    "invalidShape": 0,
+    "mangled": 3
+  },
+  "reviewFlagged": 18,
+  "coverage": {
+    "verb_occurrences": 95,
+    "captured": 78,
+    "excluded": {
+      "definitional": 1,
+      "government_actor": 6,
+      "schedule": 0
+    },
+    "swept_pages": [
+      5,
+      6,
+      7,
+      8,
+      18,
+      22
+    ],
+    "uncaptured_pages": [
+      1,
+      14,
+      23
+    ],
+    "unresolved": 3,
+    "not_processed": [],
+    "unresolved_items": [
+      {
+        "page": 1,
+        "verbs": [
+          "is required to"
+        ],
+        "count": 1,
+        "sentence": "CONTRACTOR IS REQUIRED TO SIGN THIS DOCUMENT AND RETURN 29."
+      },
+      {
+        "page": 7,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "The Contractor shall provide, within 60 calendar days of contract start and update annually for currency by Oct 1st, a Medical Facility Support Plan for each of the Russia and Kazakhstan medical facilities identified by NASA which contains the following:"
+      },
+      {
+        "page": 14,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "NASA approval shall be based on applicable law and policy governing the use of the NASA name and initials."
+      },
+      {
+        "page": 18,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "All responsible sources may submit an offer, which shall be considered by the Agency."
+      },
+      {
+        "page": 18,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "The Offeror shall explain its capabilities and expected operational timelines/durations with medical support for NASA travelers with minor medical emergencies and medical scenarios that require commercial air business class transportation return to the US."
+      },
+      {
+        "page": 22,
+        "verbs": [
+          "shall"
+        ],
+        "count": 1,
+        "sentence": "As this procurement will result in a firm-fixed-price purchase order, Offerors shall provide firm-fixed pricing that is all- inclusive (including profit and fees) for the required services on the within Section B – Supplies or Services & Prices above."
+      }
+    ]
+  },
+  "unresolvedBefore": 17,
+  "sweeperNewRows": 12,
+  "sweeperExclusions": [
+    {
+      "page": 5,
+      "quote": "NASA will not provide arbitration or remediation to resolve disputes between the Contractor and traveler regarding reimbursements of uncovered expenses.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 5,
+      "quote": "*NASA will recognize other equivalent regulatory agencies when carriers are not governed by the aforementioned federal aviation regulations.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 8,
+      "quote": "Travelers will not be required to be pre-enrolled or registered in a Contractor’s system in order for the Contractor to provide services covered under this contract.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "This request shall not be construed as authorization to proceed with or be paid for charges incurred by performing any of the work called for in this solicitation.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "will permit a competitive evaluation of the Offeror's proposal",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "The information solicited will demonstrate the Offeror's competence and understanding of\nrequirements and the capability to successfully complete all the requirements specified in the Medevac SOW.",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "which shall be considered by the Agency",
+      "rule": "government-actor"
+    },
+    {
+      "page": 18,
+      "quote": "All responsible sources may submit an offer",
+      "rule": "permission"
+    }
+  ],
+  "cost": {
+    "model": "claude-sonnet-5",
+    "known": true,
+    "inputTokens": 33708,
+    "outputTokens": 125328,
+    "cacheReadTokens": 22664,
+    "cacheCreationTokens": 5666,
+    "usd": 0.6696969
+  },
+  "rows": [
+    {
+      "verbatim": "NOTE: OFFEROR TO COMPLETE BLOCKS 12, 17, 23, 24, AND 30.",
+      "normalized": "Offeror must complete blocks 12, 17, 23, 24, and 30 of the SF1449.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "a. NAME b. TELEPHONE NUMBER (No collect 8. OFFER DUE DATE/\n7. FOR SOLICITATION calls) LOCAL TIME\nINFORMATION CALL: Telephone calls will not be 09/15/2026\nKendrea Vallien - Contracting Officer\naccepted, only emails. 4:00 PM CT",
+      "normalized": "Offeror's proposal is due 09/15/2026, 4:00 PM CT.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All pricing shall be prepared in accordance with the instructions see Section L – Instruction of Offerors below.",
+      "normalized": "Offeror shall prepare all pricing in accordance with Section L instructions.",
+      "section_ref": "Section B",
+      "page": 2,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Section B - Supplies or Services & Prices\nFIRM FIXED PRICE (FFP) GROUP MEMBERSHIP",
+      "normalized": "Section B pricing schedule (Tables 1.a, 1.b, 2.a, 2.b, 3.a, 3.b) for FFP Group Membership, NASA Identified Independent Traveler Membership, and Air Ambulance Reservation/Call-up pricing, pages 2-4, 6 rate tables total.",
+      "section_ref": "Section B",
+      "page": 2,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All additional costs shall be the responsibility of the Contractor and no additional cost beyond the Table 3.a\nprice per reservation fee, and Table 3.b, if executed, will be incurred by NASA.",
+      "normalized": "Contractor is responsible for all additional costs beyond the Table 3.a/3.b prices.",
+      "section_ref": "Section B",
+      "page": 3,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be responsible for the overall performance of the contract and provide all necessary resources to\nmeet contract requirements.",
+      "normalized": "Contractor shall be responsible for overall contract performance and provide all necessary resources to meet requirements.",
+      "section_ref": "SOW 1.1.1",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All work completed under this contract shall comply with contract requirements.",
+      "normalized": "All work completed under the contract shall comply with contract requirements.",
+      "section_ref": "SOW 1.1.1",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All\ndeliverables under this contract shall not be marked proprietary or confidential or with any other markings limiting\nthe Government’s use, unless otherwise specified by the Government.",
+      "normalized": "Deliverables shall not be marked proprietary/confidential or otherwise restrict Government use, unless the Government specifies otherwise.",
+      "section_ref": "SOW 1.1.1",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide services globally without exception.",
+      "normalized": "Contractor shall provide services globally without exception.",
+      "section_ref": "SOW 1.1.2",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event that the Contractor cannot provide a\nmedevac in specific parts of the world, then the Contractor shall provide sufficient rationale to the NASA COR why\nit cannot and provide an alternate solution at no additional cost beyond the prepaid amount.",
+      "normalized": "If the Contractor cannot provide medevac in a region, it shall provide rationale to the NASA COR and propose an alternate solution at no additional cost.",
+      "section_ref": "SOW 1.1.2",
+      "page": 5,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall be responsible for all medevac and medical travel service costs.",
+      "normalized": "Contractor shall be responsible for all medevac and medical travel service costs.",
+      "section_ref": "SOW 1.1.3",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall ensure that any of the contractor’s owned, leased, or chartered aircraft used in the performance\nof this contract comply with all applicable local and long‑distance aircraft and pilot requirements, including those\napplicable to both prime contractors and subcontractors.",
+      "normalized": "Contractor shall ensure all owned/leased/chartered aircraft comply with applicable aircraft and pilot requirements, including for subcontractors.",
+      "section_ref": "SOW 1.1.4",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Aircraft used for NASA traveler transportation shall be certificated, operated, and maintained in accordance with the\nrequirements of 14 CFR:\na. Part 21—Certification Procedures for Products and Parts\nb. Part 25—Airworthiness Standards: Transport Category Airplanes Part 29—Airworthiness Standards:\nTransport Category Rotorcraft Part 39—Airworthiness Directives\nc. Part 43—Maintenance, Preventative Maintenance, Rebuilding, and Alteration Part 61—Certification: Pilots,\nFlight Instructors, and Ground Instructors\nd. Part 65—Certification: Airmen Other Than Flight Crewmembers Part 91—General Operating and Flight Rules\ne. Part 135—Operating Requirements: Commuter and On-Demand Operations",
+      "normalized": "Aircraft used for NASA traveler transport shall be certificated, operated, and maintained per listed 14 CFR parts; 5 lettered items in total.",
+      "section_ref": "SOW 1.1.4",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall have a documented Safety Management System (SMS) in accordance with International Civil\nAviation Organization (ICAO), Federal, and industry standards. Requirements include the following:\na. A structured means of safety risk management decision making.\nb. A means of demonstrating safety management capability before system failures occur.\nc. Increased confidence in risk controls through structured safety assurance processes.\nd. An effective interface for knowledge sharing.\ne. A safety promotion framework to support a sound safety culture.",
+      "normalized": "Contractor shall maintain a documented SMS per ICAO/Federal/industry standards, including 5 listed requirements.",
+      "section_ref": "SOW 1.1.5",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall indemnify the Government for any occurrence, action, or claim that might trigger the\nGovernment's liability; unless the Government is found to be liable.",
+      "normalized": "Contractor shall indemnify the Government for claims triggering Government liability, unless the Government is found liable.",
+      "section_ref": "SOW 1.1.6",
+      "page": 5,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The rights and obligations of the parties under\nthis clause shall survive the termination, expiration, or completion of this contract.",
+      "normalized": "Rights and obligations under this clause shall survive contract termination/expiration/completion.",
+      "section_ref": "SOW 1.1.6",
+      "page": 5,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall provide medical travel services in response to a worldwide medical event for NASA’s Human\nSpaceflight Mission Directorate (HSMD), Johnson Space Center (JSC), or other travelers identified by NASA\n(referred to as ‘traveler(s)’ throughout) on a pre-paid basis regardless of traveler’s home location or country of\norigin. These services include the following:\na. Provide transportation of patient from site of injury to appropriate medical facilities;\nb. Coordinate with medical providers to ensure timely access to medical care;\nc. Provide pharmacy assistance;\nd. Obtain medical monitoring;\ne. Provide assistance obtaining medications, vaccines, blood transfers, and medical devices;\nf. Obtain medical referrals and consultations with English-speaking doctors;\ng. Provide patient advocacy;\nh. Provide bed side case management services such as in-person interaction and care;\ni. Provide medical translation and interpretation services to include telephonic language assistance with medical\nincidents and medical translations of medical records to the extent required to resolve the medical emergency;\nj. Coordinate uninterrupted hospital admittance and discharge;\nk. Coordinate hospital payments including direct billing between insurer, medical provider and traveler, without\nany involvement or responsibility of the Government;\nl. Coordinate insurance information between the patient, insurers, and medical providers, without any\ninvolvement or responsibility of the Government;\nm. Provide Guarantee of Payment (GOP) services and pay medical costs as an agent for the traveler to ensure\ntimely care and immediate discharge. The Contractor and the traveler will handle all subsequent GOP and pay\nas agent reimbursements directly between themselves. The Government has no involvement, liability, or\nresponsibility for these financial transactions;\nn. Provide repatriation of mortal remains for travelers to the location specified by NASA;",
+      "normalized": "Contractor shall provide medical travel services worldwide, including 14 listed services (a-n).",
+      "section_ref": "SOW 2.1.1",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall transport the injured or ill traveler to nearest appropriate medical facility that practices U.S.\nstandards of medical care.",
+      "normalized": "Contractor shall transport injured/ill traveler to nearest facility meeting U.S. standards of medical care.",
+      "section_ref": "SOW 2.1.2",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event that the medical facility does not meet the U.S. standards of medical care, the Contractor shall\nprovide sufficient rationale to the NASA/JSC Chief Medical Officer and NASA Contracting Officer\nRepresentative (COR) for using the proposed facility.",
+      "normalized": "If the medical facility does not meet U.S. standards, Contractor shall provide rationale to NASA/JSC CMO and COR.",
+      "section_ref": "SOW 2.1.2.a",
+      "page": 6,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall co-develop with NASA the notification process for timely communication, integration and\noperational protocols with NASA physicians, and dissemination of confidential medical reports.",
+      "normalized": "Contractor shall co-develop with NASA the notification process for communication, integration, protocols, and dissemination of medical reports.",
+      "section_ref": "SOW 2.1.3",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall obtain all necessary insurance information from the traveler, as required, and shall coordinate\nthe payment of personal medical expenses incurred by the traveler that are not arranged for or provided directly by\nthe Contractor.",
+      "normalized": "Contractor shall obtain insurance info from traveler and coordinate payment of personal medical expenses not arranged by Contractor.",
+      "section_ref": "SOW 2.1.4",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Such coordination shall be conducted exclusively between the Contractor, the traveler, and the\ntraveler’s insurer, without any involvement from the Government.",
+      "normalized": "Such coordination shall occur exclusively between Contractor, traveler, and insurer, without Government involvement.",
+      "section_ref": "SOW 2.1.4",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide group membership as specified in Section B Firm Fixed Price (FFP) Group\nMembership.",
+      "normalized": "Contractor shall provide group membership per Section B FFP Group Membership.",
+      "section_ref": "SOW 2.1.5",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide an “Air Ambulance Medical Evacuation” (medevac) service in response to a\nworldwide medical emergency for NASA’s Human Spaceflight Mission Directorate (HSMD), Johnson Space\nCenter (JSC), or other travelers identified by NASA (referred to as ‘traveler(s)’ throughout) on a pre-paid basis\nregardless of traveler’s home location or country of origin.",
+      "normalized": "Contractor shall provide Air Ambulance Medical Evacuation service worldwide for NASA-identified travelers on a pre-paid basis.",
+      "section_ref": "SOW 2.2.1",
+      "page": 6,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide transportation for three accompanying travelers specified by NASA on the same transport as the injured/ill individual requiring a medevac.",
+      "normalized": "Contractor must provide transportation for three NASA-specified accompanying travelers on the same medevac transport as the injured/ill individual.",
+      "section_ref": "SOW 2.2.1.b",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In the event that the same transport cannot accommodate all three accompanying travelers, at least one accompanying traveler specified by NASA shall be accommodated on the same transport.",
+      "normalized": "If the same transport cannot accommodate all three accompanying travelers, Contractor must accommodate at least one NASA-specified accompanying traveler on the same transport.",
+      "section_ref": "SOW 2.2.1.c",
+      "page": 7,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide sufficient rationale to the NASA Contracting Officer Representative (COR) why it cannot transport all accompanying travelers and provide alternate transportation for the remaining accompanying travelers within 24 hours to the same location as the injured or ill traveler.",
+      "normalized": "Contractor must provide rationale to COR when unable to transport all accompanying travelers and must provide alternate transportation for remaining travelers within 24 hours to the same location.",
+      "section_ref": "SOW 2.2.1.d",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor provided services shall meet the Commission on Accreditation Medical Transport Services (CAMTS), National Accreditation Alliance of Medical Transport Applications (NAAMTA) Global, and European Aero-Medical Institute (EURAMI) accreditation standards or equivalent for personnel and assets.",
+      "normalized": "Contractor-provided services must meet CAMTS, NAAMTA Global, and EURAMI accreditation standards or equivalent for personnel and assets.",
+      "section_ref": "SOW 2.2.2",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Active credentials must be maintained according to the standard renewal timelines dictated by the respective accrediting body.",
+      "normalized": "Contractor must maintain active credentials per the accrediting body's standard renewal timelines.",
+      "section_ref": "SOW 2.2.2",
+      "page": 7,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Any deviations must be reported to the JSC Chief Medical Officer and Contracting Officer Representative (COR), and approved by NASA prior to implementation, unless otherwise specified by the Contracting Officer.",
+      "normalized": "Contractor must report any accreditation deviations to the JSC Chief Medical Officer and COR and obtain NASA approval prior to implementation, unless the Contracting Officer specifies otherwise.",
+      "section_ref": "SOW 2.2.2",
+      "page": 7,
+      "verb": "must",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The decision to perform a medevac shall be made jointly (50/50) by NASA and the Contractor, who will apply U.S. standards of medical care.",
+      "normalized": "The decision to perform a medevac must be made jointly by NASA and the Contractor, applying U.S. standards of medical care.",
+      "section_ref": "SOW 2.2.3.a",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "This independent third party will be mutually agreed upon within 30 calendar days of contract award.",
+      "normalized": "NASA and Contractor must mutually agree on the independent third party within 30 calendar days of contract award.",
+      "section_ref": "SOW 2.2.3.a",
+      "page": 7,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The Contractor shall provide a medical evacuation using a Portable Medical Isolation Unit (e.g. infectious disease) upon request by NASA.",
+      "normalized": "Contractor must provide a medical evacuation using a Portable Medical Isolation Unit upon NASA's request.",
+      "section_ref": "SOW 2.2.4",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a medical event occurs, all costs for evacuation and additional medical travel services shall be the responsibility of the Contractor and no additional cost beyond the prepaid provided group membership as specified in Section B Firm Fixed Price (FFP) Group Membership amount will be incurred by NASA or its travelers.",
+      "normalized": "If a medical event occurs, Contractor is responsible for all evacuation and additional medical travel service costs beyond the prepaid FFP group membership amount.",
+      "section_ref": "SOW 2.2.5.a",
+      "page": 7,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall conduct a program status meeting each contract year with NASA management and JSC's Chief Medical Officer, with the first meeting happening within 90 calendar days of the start of the contract.",
+      "normalized": "Contractor must conduct a program status meeting each contract year with NASA management and JSC's Chief Medical Officer, first meeting within 90 days of contract start.",
+      "section_ref": "SOW 2.3.1",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall participate in NASA Contingency Tabletop simulations of evacuation events to validate communication and operations plans and decision-making procedures (estimate twice per year).",
+      "normalized": "Contractor must participate in NASA Contingency Tabletop simulations of evacuation events, approximately twice per year.",
+      "section_ref": "SOW 2.3.2",
+      "page": 7,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall establish and provide, within 60 calendar days of contract start and maintain for the duration\nof the contract, the GOP advance service agreements with the specific medical facilities that NASA identifies as\ncritical medical facilities in Russia and Kazakhstan.",
+      "normalized": "Contractor must establish and maintain, within 60 days of contract start and for the duration of the contract, GOP advance service agreements with NASA-identified critical medical facilities in Russia and Kazakhstan.",
+      "section_ref": "SOW 2.3.4",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Contractor cannot establish a GOP advance service agreement at one of NASA’s identified medical facilities in Russia/Kazakhstan by the end of that 60-day period, then the Contractor shall notify the NASA COR and provide an alternate course of action to meet the intent of the GOP advance service agreement.",
+      "normalized": "If Contractor cannot establish a GOP advance service agreement within 60 days, it must notify the NASA COR and provide an alternate course of action.",
+      "section_ref": "SOW 2.3.4",
+      "page": 8,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Annually by December 15th, the Contractor shall provide a written summary report on the status of GOP advance service agreements for the NASA identified hospitals.",
+      "normalized": "Contractor must provide a written summary report on GOP advance service agreement status by December 15th annually.",
+      "section_ref": "SOW 2.3.4",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall establish and provide, within 60 calendar days of contract start and updated annually for\ncurrency by Oct 1st, a written medevac plan of action/response for each location that NASA frequently visits to\ninclude Moscow, Russia; Baikonur, Kazakhstan; Karaganda, Kazakhstan; Nordwijk, Netherlands; Montreal,\nCanada; Tsukuba, Japan; and Tanegashima, Japan. The plan shall include at a minimum:\na. Specific points of contact the Contractor will utilize to access restricted airports or facilities;\nb. Unique country and local specific requirements for medevac services and plans on how to address each;\nc. Specific facilities, capabilities, and transport services in country the Contractor will utilize for bed-to-bed\nmedical transport including any operational limitations or risk factors;\nd. Transport and Access Considerations, including typical timelines and constraints for access to airports, border\ncrossings, restricted areas, or local authorities.\ne. Regional Risk Assessment, summarizing relevant geopolitical, infrastructure, transportation, or environmental\nrisks, along with proposed mitigation strategies.\nf. Whether selected medical providers accept U.S Government employee medical insurance plans;\ng. List of data and documentation the Contractor requires NASA to provide to support medevac.\nh. Verification and Validation Procedures, describing how the Contractor annually confirms the accuracy of\nfacility information, capabilities, and points of contact data.",
+      "normalized": "Contractor must establish, within 60 days of contract start (updated annually by Oct 1), a written medevac plan of action/response for each of 7 named locations, containing at minimum 8 elements: points of contact, country-specific requirements, transport capabilities, access considerations, risk assessment, insurance acceptance, required NASA data, and verification procedures.",
+      "section_ref": "SOW 2.3.5",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide, within 10 calendar days of contract start, a secure electronic registration capability\nthat:\na. Provides travelers with a description of the scope of Contractor’s services in accordance with this SOW.\nb. Educates travelers on specific instructions to follow should a medical incident or emergency occur and\ntraveler’s responsibilities in accordance with this SOW.\nc. Captures critical information from travelers that expedites medical assistance and evacuation when\nnecessary.\nd. Meets industry standards for data protection, accessibility, storage, and retention requirements of private\nmedical and personal information (e.g. Personally Identifiable Information, Health Insurance, etc.).",
+      "normalized": "Contractor must provide, within 10 days of contract start, a secure electronic registration capability meeting 4 requirements: describes service scope, educates travelers on procedures/responsibilities, captures critical traveler information, and meets data protection/retention standards.",
+      "section_ref": "SOW 2.3.6",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide a weekly report on current and historical NASA traveler enrollment and critical traveler information.",
+      "normalized": "Contractor must provide a weekly report on NASA traveler enrollment and critical traveler information.",
+      "section_ref": "SOW 2.3.7",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide, by Sept 30th annually, a summary report of all medical incidents by date and\nincidence level (Levels 1-4), medical evacuations, reservations and call-ups of medical transport via air\nambulance for Soyuz landings (if executed) supported by the Contractor during that year.",
+      "normalized": "Contractor must provide, by Sept 30th annually, a summary report of medical incidents, evacuations, and Soyuz-related transport reservations/call-ups for that year.",
+      "section_ref": "SOW 2.3.9",
+      "page": 8,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide, within 60 calendar days after contract award, wallet sized cards to the NASA COR\nfor every NASA traveler with information including an international call number for support for medical support\nand emergencies.",
+      "normalized": "Contractor must provide wallet-sized cards with an international call number to the NASA COR for every NASA traveler within 60 days after contract award.",
+      "section_ref": "SOW 2.3.10",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Approximately 1,200 cards are required annually for NASA travelers.",
+      "normalized": "Contractor must produce approximately 1,200 wallet cards annually for NASA travelers.",
+      "section_ref": "SOW 2.3.10",
+      "page": 9,
+      "verb": "required",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The cards shall be updated for currency and provided annually thereafter to the NASA COR by Oct 1st.",
+      "normalized": "Contractor must update and provide the wallet cards annually to the NASA COR by Oct 1st.",
+      "section_ref": "SOW 2.3.10",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall provide a Reservation and Call-up/Execution service for medical transport via air ambulance\nfor Soyuz crew landing event.",
+      "normalized": "Contractor must provide a Reservation and Call-up/Execution service for medical transport via air ambulance for Soyuz crew landing events.",
+      "section_ref": "SOW 3.1.1",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Within 36 hours of NASA reservation, the Contractor shall provide a Reservation Readiness Package consisting of a dedicated tail-number assignment, overflight and landing permits,\ndiplomatic route clearances, aircraft medical and transport capabilities, and staffing plan.",
+      "normalized": "Within 36 hours of NASA's reservation, Contractor must provide a Reservation Readiness Package consisting of tail-number assignment, overflight/landing permits, diplomatic route clearances, aircraft medical/transport capabilities, and staffing plan.",
+      "section_ref": "SOW 3.1.2",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "NASA will provide call-up/execute notification to the Contractor no later than 36 hours prior to the Soyuz landing event.",
+      "normalized": "NASA will notify the Contractor of call-up/execution no later than 36 hours prior to Soyuz landing, establishing the Contractor's response deadline.",
+      "section_ref": "SOW 3.1.3",
+      "page": 9,
+      "verb": "will",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "The crew member and the associated NASA flight surgeon shall be transported to Houston, Texas.",
+      "normalized": "Contractor must transport the crew member and associated NASA flight surgeon to Houston, Texas.",
+      "section_ref": "SOW 3.1.3",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Within 3 hours of the NASA call-up, the Contractor shall activate the asset and personnel and provide an\nOperational Deployment Package consisting of a copy of the officially filed International Civil Aviation\nOrganization (ICAO) flight plan, crew-rest compliance, real-time satellite tracking link, confirmation of NASA\npassengers on flight manifest, finalized staffing plan, and communications matrix.",
+      "normalized": "Within 3 hours of NASA call-up, Contractor must activate asset/personnel and provide an Operational Deployment Package with ICAO flight plan, crew-rest compliance, satellite tracking link, passenger manifest confirmation, staffing plan, and communications matrix.",
+      "section_ref": "SOW 3.1.3",
+      "page": 9,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If a reservation or call-up for medical transport via air ambulance occurs, all costs for the reservation and medical\ntransport via air ambulance shall be the responsibility of the Contractor and no additional cost beyond the prepaid\nreservation fee and call-up fee as specified in Section B Firm Fixed Price (FFP) Group Membership amount will\nbe incurred by NASA or its travelers.",
+      "normalized": "If a reservation or call-up occurs, Contractor is responsible for all reservation and transport costs beyond the prepaid FFP fees.",
+      "section_ref": "SOW 3.1.5",
+      "page": 9,
+      "verb": "conditional",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Additional Regulation or Supplement Clauses Incorporated by Reference\nNumber Title Effective Date\nJSC 52.204-92 NASA Security Program and Identification of Employees Jul 2022",
+      "normalized": "Section G additional regulation clause list, page 13, containing 1 clause (JSC 52.204-92).",
+      "section_ref": "Section G",
+      "page": 13,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Additional Regulation or Supplement Clauses Incorporated by Reference\nNumber Title Effective Date\nNFS 1852.232-77 Limitations of Funds (Fixed Price Contract) Mar 1989",
+      "normalized": "Section H additional regulation clause list, page 14, containing 1 clause (NFS 1852.232-77).",
+      "section_ref": "Section H",
+      "page": 14,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall not use the words \"National Aeronautics and Space Administration\" or the letters \"NASA\" in connection with a product or service in a manner\nreasonably calculated to convey any impression that such product or service has the authorization, support, sponsorship, or\nendorsement of NASA, which does not, in fact, exist.",
+      "normalized": "Contractor must not use NASA's name or initials in a manner that falsely implies NASA authorization, support, sponsorship, or endorsement.",
+      "section_ref": "H.1",
+      "page": 14,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "In addition, the Contractor shall submit in advance any proposed public use of the NASA name or initials for NASA review and approval.",
+      "normalized": "Contractor must submit any proposed public use of the NASA name or initials in advance for NASA review and approval.",
+      "section_ref": "H.1",
+      "page": 14,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Contractor shall not publicly use such emblems/ devices without prior NASA review and approval in accordance with such regulations.",
+      "normalized": "Contractor must not publicly use NASA emblems/devices without prior NASA review and approval.",
+      "section_ref": "H.1",
+      "page": 14,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "FAR Clauses Incorporated by Reference\nNumber Title Effective Date\n52.202-1 Definitions Jun 2020\n52.203-17 Contractor Employee Whistleblower Rights Nov 2023\n52.204-13 System for Award Management - Maintenance Nov 2025\n52.204-19 Incorporation by Reference of Representations and Certifications. Dec 2014\n52.212-1 Instructions to Offerors—Commercial Products and Commercial Services Sep 2023\n52.212-4 Terms and Conditions - Commercial Products and Commercial Services Nov 2023\n52.222-50 Alternate I Combatting Trafficking in Persons Alternate I Nov 2025\n52.222-90 Addressing DEI Discrimination by Federal Contractors Apr 2026\n52.226-8 Encouraging Contractor Policies to Ban Text Messaging While Driving May 2024\n52.232-1 Payments Apr 1984\n52.232-39 Unenforceability of Unauthorized Obligations. Jun 2013\n52.232-40 Providing Accelerated Payments to Small Business Subcontractors Mar 2023\n52.233-2 Service Protest Sep 2006\n52.233-4 Applicable Law for Breach of Contract Claim Nov 2025\n52.243-1 Alternate I Changes—Fixed-Price Alternate I Apr 1984\n52.244-6 Subcontracts for Commercial Products and Commercial Services Nov 2025\n52.247-34 F.O.B. Destination Nov 1991",
+      "normalized": "Section I FAR clause list, page 15, containing 17 clauses.",
+      "section_ref": "Section I",
+      "page": 15,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Additional Regulation or Supplement Clauses Incorporated by Reference\nNumber Title Effective Date\nNFS 1852.203-71 Requirement to Inform Employees of Whistleblower Rights Sep 2025\nNFS 1852.215-84 Ombudsman Nov 2023\nNFS 1852.225-70 Export Licenses Dec 2025\nNFS 1852.225-71 Restriction on Funding Activity with China Dec 2025\nNFS 1852.225-74 Emergency Medical Services and Evacuation Feb 2026\nNFS 1852.226-73 Major Breach of Safety or Security Feb 2026\nNFS 1852.232-80 Submission Of Vouchers for Payment Apr 2018\nNFS 1852.237-72 Access to Sensitive Information Dec 2025\nNFS 1852.237-73 Release of Sensitive Information Dec 2025\nNFS 1852.240-75 Security Classification Requirements Sep 2025\nNFS 1852.240-76 Security Requirements for Unclassified Information Technology Resources Jan 2026\nNFS 1852.242-72 Denied Access to NASA Facilities Dec 2025",
+      "normalized": "Section I additional (NFS) clause list, page 15, containing 12 clauses.",
+      "section_ref": "Section I",
+      "page": 15,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The option provision may be exercised more than once, but the total extension of performance hereunder shall not\nexceed 6 months.",
+      "normalized": "Total extension of performance under the Option to Extend Services clause must not exceed 6 months.",
+      "section_ref": "I.1",
+      "page": 15,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The total duration of this contract, including the exercise of any options under this clause, shall not exceed 5 years.",
+      "normalized": "Total contract duration, including exercised options, must not exceed 5 years.",
+      "section_ref": "I.2",
+      "page": 15,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror must submit a statement of verification that, as of the date of its offer, its representations and certifications posted\nelectronically in www.SAM.gov for the provisions listed in FAR 52.204-19 - Incorporation by Reference of Representations\nand Certifications Section I above, are current, accurate, and complete.",
+      "normalized": "Offeror must submit a statement verifying its SAM.gov representations and certifications for FAR 52.204-19 provisions are current, accurate, and complete as of the offer date.",
+      "section_ref": "Section K",
+      "page": 17,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall prepare their proposal in accordance with the instructions in this solicitation.",
+      "normalized": "Offeror shall prepare its proposal per the solicitation instructions.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Information contained in the Offeror’s proposal must be in sufficient detail to allow adequate assessment of for Technical Capability and Price.",
+      "normalized": "Offeror's proposal must contain sufficient detail to allow assessment of Technical Capability and Price.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offerors’ proposal must contain the absolute best offer as the Government has the right to award without discussions.",
+      "normalized": "Offeror's proposal must contain its absolute best offer.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "All proposal data shall be provided in Microsoft Excel, Microsoft Word or PDF formats only.",
+      "normalized": "Offeror shall provide all proposal data only in Excel, Word, or PDF formats.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The proposal shall include the following:\n1. Technical Capability\na. Questions/Responses as annotated below.\nb. Scenarios as annotated below.\n2. Pricing - Must include “Offeror Fill-In” (OFI) blocks with table as annotated in Section B above.\n3. Representations and Certifications – Statement of verification as annotated in Section K above.",
+      "normalized": "Offeror's proposal shall include Technical Capability (Q&A, Scenarios), Pricing (OFI blocks per Section B), and Representations/Certifications (per Section K); 3 required contents in total.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Please only submit an electronic copy of your proposal.",
+      "normalized": "Offeror shall submit only an electronic copy of the proposal.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "DO NOT compress any electronic files.",
+      "normalized": "Offeror must not compress any electronic files.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "DO NOT password protect any portion of your electronic submission.",
+      "normalized": "Offeror must not password protect any portion of the electronic submission.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Government intends to make a single award for all items on an \"all or none\" basis; therefore, Offerors must provide a proposal that responds to all items below.",
+      "normalized": "Offeror must provide a proposal responding to all items, since award will be all-or-none.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Partial quotes will not be considered responsible to this solicitation and therefore not accepted.",
+      "normalized": "Proposals submitted as partial quotes will be rejected as non-responsive.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall state in their offer their size status for this procurement.",
+      "normalized": "Offeror shall state its small business size status in its offer.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors must provide responses to these areas in sufficient detail to demonstrate responsiveness to the solicitation.",
+      "normalized": "Offeror must provide responses in sufficient detail to demonstrate responsiveness to the minimum requirements.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Responses shall be submitted in a Microsoft Word document in Times New Roman, size 12 font.",
+      "normalized": "Offeror shall submit Technical Capability Q&A responses in MS Word, Times New Roman, 12 pt.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the offeror’s approach, teaming arrangements, resources, processes and procedures to provide worldwide medical evacuation and medical travel services capabilities per the requirements of the Statement of Work (SOW).",
+      "normalized": "Offeror shall describe its approach, teaming, resources, processes and procedures to provide worldwide medevac/travel services per the SOW.",
+      "section_ref": "Section L",
+      "page": 18,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall explain its capabilities and expected operational timelines/durations with medical extractions for potential life or death circumstances with a point of origin in a non-western country similar in size, scope, and complexity to the requirements in the SOW and scenarios.",
+      "normalized": "Offeror shall explain capabilities/timelines for life-or-death extractions from non-western countries per SOW.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall explain how it flows down the contract terms and conditions to its subcontractors and teaming partners.",
+      "normalized": "Offeror shall explain how contract terms flow down to subcontractors/teaming partners.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall explain its capabilities and expected operational timelines/durations with medical transport via air ambulance reservation and call up for NASA Astronauts participating in Soyuz landings and return to the US.",
+      "normalized": "Offeror shall explain capabilities/timelines for air ambulance reservation/call-up for Soyuz landing astronauts.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall provide a compliance matrix (cross-walk table) explicitly mapping each element of the Statement of Work (SOW) to the specific section and page number where it is addressed in the Technical Capability Proposal.",
+      "normalized": "Offeror shall provide a compliance matrix mapping each SOW element to its location in the Technical Capability Proposal.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For each SOW element, the table must point to a narrative explaining the Offeror's specific methodology and implementation approach; a restatement or acknowledgment of the requirement is insufficient for evaluation.",
+      "normalized": "For each SOW element, the compliance matrix must point to a narrative on methodology/implementation; mere restatement is insufficient.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe the air and ground transportation assets (type/design/age/capabilities/locations) your company uses to provide worldwide medical evacuations per the requirements of the Statement of Work (SOW).",
+      "normalized": "Offeror shall describe air/ground transportation assets used for worldwide medevac per the SOW.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide evidence showing your company is capable of providing each of the following services:\n1. Advanced airway management including ventilator support/oxygenation\n2. Advanced medication management in flight (anti-seizure meds, IV meds, etc.)\n3. Advanced Cardiac Life Support\n4. Medical Escort Services\n5. Medevac Using Portable Medical Isolation Unit (e.g. infectious disease medevac)",
+      "normalized": "Offeror shall provide evidence of capability for 5 listed medical services (airway mgmt, in-flight medication, ACLS, medical escort, isolation-unit medevac).",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Describe how your company will apply US standards of medical care for travelers under this contract?",
+      "normalized": "Offeror shall describe how it will apply US standards of medical care for travelers.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Provide evidence that demonstrates how your quality assurance program ensures that only appropriately trained, certified, and credentialed medical staff, equipment and transports are used to provide services within your company’s limits.",
+      "normalized": "Offeror shall provide evidence of its QA program ensuring only appropriately trained/certified/credentialed staff, equipment, and transport are used.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Please provide similar evidence for any subcontractors.",
+      "normalized": "Offeror shall provide similar QA evidence for any subcontractors.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Additionally, please submit proof of CAMTS, NAAMTA Global and/or EURAMI certification or equivalent.",
+      "normalized": "Offeror shall submit proof of CAMTS, NAAMTA Global, and/or EURAMI certification or equivalent.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "For equivalent certification, please provide narrative on applicability and a compliance mapping matrix alongside the technical proposal.",
+      "normalized": "If offering equivalent certification instead of CAMTS/NAAMTA/EURAMI, offeror shall provide a narrative on applicability and a compliance mapping matrix with the technical proposal.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "conditional",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Provide all steps required to execute a Contractor-provided medical evacuation under this contract.",
+      "normalized": "Offeror shall provide all steps required to execute a Contractor-provided medical evacuation.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Please specify all steps required by the Government with rationale to support the medical evacuation.",
+      "normalized": "Offeror shall specify all Government-required steps, with rationale, to support the medical evacuation.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "imperative",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors shall describe how they would respond to (4) four medical scenarios provided below assuming they occur at the time of the solicitation.",
+      "normalized": "Offeror shall describe its response to the four provided medical scenarios.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The response for each scenario shall not exceed two pages each.",
+      "normalized": "Each scenario response shall not exceed two pages.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Responses shall be submitted in a Microsoft Word document in Times New Roman, size 12 font.",
+      "normalized": "Offeror shall submit scenario responses in MS Word, Times New Roman, 12 pt.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offeror’s responses shall include action plans; decision points; operational timelines; specific resources, personnel, equipment, transport and other assets used at each stage; travel route from origin of incident to hospital of choice; permits, licenses, certifications, etc. required to execute the Offeror’s response; interfaces with the Government; all operational assumptions; and any other information that will illustrate your company’s capabilities to perform the requirements in the Statement of Work, including how their plan complies with the SOW even if assumptions fail.",
+      "normalized": "Offeror's scenario responses shall include action plans, decision points, timelines, resources/personnel/equipment, travel route, required permits/licenses, Government interfaces, assumptions, and SOW-compliance information; multiple required contents in total.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors shall state in their response the specific SOW requirements the steps in their solution addresses.",
+      "normalized": "Offeror shall state which SOW requirements each step of its scenario solution addresses.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors must demonstrate their ability to apply US standards of medical care to its patients during a Medevac scenario.",
+      "normalized": "Offeror must demonstrate ability to apply US medical care standards during a Medevac scenario.",
+      "section_ref": "Section L",
+      "page": 19,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors must also demonstrate their ability to include NASA officials in the medical transportation decision process as well as demonstrate its quality assurance program, which ensures that only appropriately trained, certificated and credentialed medical staff, equipment and transportation are provided for medical care within the company’s limits.",
+      "normalized": "Offeror must demonstrate ability to include NASA officials in transport decisions and demonstrate its QA program for trained/certificated staff, equipment, and transportation.",
+      "section_ref": "Section L",
+      "page": 20,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors must also demonstrate their ability to provide a GOP and state the steps involved.",
+      "normalized": "Offeror must demonstrate ability to provide a GOP and state the steps involved.",
+      "section_ref": "Section L",
+      "page": 20,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Each scenario response shall include a scenario-specific confirmation that “all services provided are fully included in the fixed price membership with no additional charges in accordance with the SOW”.",
+      "normalized": "Each scenario response shall include a confirmation that all services are fully included in the fixed-price membership with no additional charges.",
+      "section_ref": "Section L",
+      "page": 20,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Accordingly, the Contractor is expected to cover 60,000 travel days for the Base period of performance under the resulting contract, and 20,000 travel days per year for each of the remaining Option periods, if exercised.",
+      "normalized": "Contractor is expected to cover 60,000 travel days in the Base period and 20,000 travel days/year in each Option period.",
+      "section_ref": "Section L",
+      "page": 20,
+      "verb": "declaration",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Please review these attachments carefully to best understand the requirements of this procurement.",
+      "normalized": "Offeror shall review the listed attachments carefully to understand the procurement requirements.",
+      "section_ref": "Section L",
+      "page": 20,
+      "verb": "imperative",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Technical Capability is approximately of equal importance to Price.",
+      "normalized": "Technical Capability and Price are of approximately equal evaluation importance.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Proposals that are rated Unacceptable by the Government for Technical Capability will not receive a Price evaluation.",
+      "normalized": "Proposals rated Unacceptable on Technical Capability will not receive a Price evaluation (gate criterion).",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Technical Capability for each proposal will be evaluated as defined with the ratings as follows:\n“Acceptable” (A) Rating – A proposal will be rated “Acceptable” under the Technical Capability Factor, where ALL Subfactors are individually rated acceptable based on the level of reasonableness, feasibility, and completeness, such that there are no associated risks that would jeopardize an acceptable level of contract performance.\n“Unacceptable” (U) Rating – A proposal will be rated “Unacceptable” under the Technical Capability Factor, where ANY Subfactor is individually rated unacceptable based on the level of reasonableness, feasibility, and completeness, such that associated risks do jeopardize an acceptable level of contract performance.\n“Potentially Acceptable” (PA) Rating – A proposal will be rated “Potentially Acceptable” under the Technical Capability Factor, when after the initial evaluation, the proposal does not fully meet the definition for an “Acceptable” or “Unacceptable” rating and the Government anticipates that additional information obtained during discussions could result in a proposal rating of “Acceptable”.",
+      "normalized": "Technical Capability will be rated Acceptable, Unacceptable, or Potentially Acceptable per the three defined criteria; 3 rating definitions in total.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Technical Capability will be determined by review of information submitted by the Offeror to the following Sections:\n1. Technical Capability Questions/Responses\n2. Scenarios",
+      "normalized": "Technical Capability rating will be based on the Offeror's submitted Technical Capability Q&A and Scenarios sections.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "declaration",
+      "category": "evaluation",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Offerors shall provide pricing for all “Offeror Fill-In” (OFI) blocks within Section B – Supplies or Services & Prices above.",
+      "normalized": "Offeror shall provide pricing for all OFI blocks in Section B.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "Additional pricing terms will not be accepted.",
+      "normalized": "Offeror's proposals containing additional pricing terms will not be accepted.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "The Offeror shall submit a completed Proposal Pricing within Section B - Supplies or Services & Prices above with their proposal.",
+      "normalized": "Offeror shall submit a completed Proposal Pricing (Section B) with its proposal.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "shall",
+      "category": "instruction",
+      "confidence": "high"
+    },
+    {
+      "verbatim": "If the Government orders Medevac Using Portable Medical Isolation Unit (e.g. infectious disease) coverage for the stated periods, the sum of tables \"a\" and \"b\" shall represent the total price of services.",
+      "normalized": "If the Government orders infectious-disease Medevac coverage for the stated periods, the offeror's combined 'a' and 'b' table prices shall equal the total price of services.",
+      "section_ref": "Section M",
+      "page": 22,
+      "verb": "conditional",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "All contractual and technical questions related to this solicitation must be emailed to Kendrea Vallien at\nkendrea.d.vallien@nasa.gov no later than September 03, 2026, at 4:00PM Central Time (CT),",
+      "normalized": "Offeror must email all contractual and technical questions to Kendrea Vallien no later than September 03, 2026, 4:00PM CT.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "and shall not be marked as confidential, proprietary, competition sensitive, business information, etc.",
+      "normalized": "Offeror shall not mark submitted questions as confidential, proprietary, competition sensitive, or business information.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "shall",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Telephone questions will not be accepted.",
+      "normalized": "Offerors may not submit questions by telephone; only the specified method (email) is accepted.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "declaration",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "Offers for the items(s) described above are due no later than September 15, 2026, at 4:00PM CT to\nkendrea.d.vallien@nasa.gov",
+      "normalized": "Offeror must submit offers no later than September 15, 2026, 4:00PM CT to the specified email address.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "must include solicitation number, FOB destination to the Johnson Space Center, discount/payment terms, warranty duration, taxpayer identification number (TIN), identification of any special commercial terms, and be signed by an authorized company representative with a proposal validity date.",
+      "normalized": "Offeror's offer must include: solicitation number, FOB destination (Johnson Space Center), discount/payment terms, warranty duration, TIN, any special commercial terms, and signature by an authorized company representative with a proposal validity date; 7 required contents in total.",
+      "section_ref": null,
+      "page": 23,
+      "verb": "must",
+      "category": "instruction",
+      "confidence": "review"
+    }
+  ]
+}
