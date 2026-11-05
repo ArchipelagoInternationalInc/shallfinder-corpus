@@ -4,9 +4,9 @@
   "count": 136,
   "summary": {
     "keep": 54,
-    "correct": 78,
+    "correct": 82,
     "remove": 0,
-    "unresolved": 4
+    "unresolved": 0
   },
   "entries": [
     {
@@ -616,15 +616,17 @@
       "id": "19C02026Q0027:0",
       "document": "19C02026Q0027",
       "originalIndex": 0,
-      "disposition": "unresolved",
+      "disposition": "correct",
       "evidence": {
         "pdf": "19C02026Q0027__Solicitation-19C02026Q0027.pdf",
         "pdfSha256": "4c1f1f7bcb9b60bfe2b75c3aec6d2957671eccb621e62563af8c182d12f6068a",
-        "reader": "plain",
-        "match": "read-by-hand",
-        "citedPage": 1
+        "reader": "layout",
+        "match": "normalized-exact",
+        "sourcePassage": "11. The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award, x notice to proceed. This performance period is x mandatory negotiable. (See ).",
+        "excludedPageFurniture": [],
+        "ownerDecision": "2026-11-05"
       },
-      "rationale": "This row comes from a fill-in government form. The form's printed words and its filled-in values are interleaved in the PDF text, so the row's wording cannot be confirmed as the document's own word order. Flagged for a person to read against the form; the original row is preserved in the audit.",
+      "rationale": "Fill-in government form row. Owner decision 2026-11-05: Correct. The quote is source text of the form line, matched against the PDF; the summary is written from the printed form, where the tick marks show (they are lost in the text). Confidence is set to review so a reader checks the form itself.",
       "originalRow": {
         "verbatim": "The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving\naward, x notice to proceed. This performance period is x mandatory negotiable. (See).",
         "normalized": "Contractor shall begin performance within 10 calendar days and complete within 90 calendar days after receiving award or notice to proceed; performance period is mandatory.",
@@ -634,7 +636,16 @@
         "category": "performance",
         "confidence": "high"
       },
-      "correctedRow": null
+      "correctedRow": {
+        "verbatim": "11. The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award, x notice to proceed. This performance period is x mandatory negotiable. (See ).",
+        "normalized": "Contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving notice to proceed; the performance period is mandatory.",
+        "section_ref": null,
+        "page": 1,
+        "verb": "shall",
+        "category": "performance",
+        "confidence": "review"
+      },
+      "furniture_skipped": []
     },
     {
       "id": "19C02026Q0027:43",
@@ -1393,15 +1404,17 @@
       "id": "W911SG27BA002:5",
       "document": "W911SG27BA002",
       "originalIndex": 5,
-      "disposition": "unresolved",
+      "disposition": "correct",
       "evidence": {
         "pdf": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
         "pdfSha256": "ccb8fda0ab290a3348af94a18b508f25006166ddccd7964e05b688c92c3bc085",
-        "reader": "plain",
-        "match": "read-by-hand",
-        "citedPage": 1
+        "reader": "product",
+        "match": "product-reader-exact",
+        "sourcePassage": "11. The contractor shall begin performance within calendar days and complete it within 364 calendar days after receiving\naward, notice to proceed. This performance period is mandatory negotiable. (See FAR 52.211-10).",
+        "excludedPageFurniture": [],
+        "ownerDecision": "2026-11-05"
       },
-      "rationale": "This row comes from a fill-in government form. The form's printed words and its filled-in values are interleaved in the PDF text, so the row's wording cannot be confirmed as the document's own word order. Flagged for a person to read against the form; the original row is preserved in the audit. The row also drops the filled-in start value (7 calendar days).",
+      "rationale": "Fill-in government form row. Owner decision 2026-11-05: Correct. The quote is source text of the form line, matched against the PDF; the summary is written from the printed form, where the tick marks show (they are lost in the text). Confidence is set to review so a reader checks the form itself.",
       "originalRow": {
         "verbatim": "11. The contractor shall begin performance within calendar days and complete it within 364 calendar days after receiving\naward, notice to proceed. This performance period is mandatory negotiable. (See FAR 52.211-10).",
         "normalized": "Contractor shall begin performance within a specified number of calendar days and complete performance within 364 calendar days after receiving notice to proceed.",
@@ -1411,21 +1424,31 @@
         "category": "performance",
         "confidence": "review"
       },
-      "correctedRow": null
+      "correctedRow": {
+        "verbatim": "11. The contractor shall begin performance within calendar days and complete it within 364 calendar days after receiving\naward, notice to proceed. This performance period is mandatory negotiable. (See FAR 52.211-10).",
+        "normalized": "Contractor shall begin performance within 7 calendar days and complete it within 364 calendar days after receiving notice to proceed (see FAR 52.211-10).",
+        "section_ref": null,
+        "page": 1,
+        "verb": "shall",
+        "category": "performance",
+        "confidence": "review"
+      }
     },
     {
       "id": "W911SG27BA002:7",
       "document": "W911SG27BA002",
       "originalIndex": 7,
-      "disposition": "unresolved",
+      "disposition": "correct",
       "evidence": {
         "pdf": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
         "pdfSha256": "ccb8fda0ab290a3348af94a18b508f25006166ddccd7964e05b688c92c3bc085",
-        "reader": "plain",
-        "match": "read-by-hand",
-        "citedPage": 1
+        "reader": "product",
+        "match": "product-reader-exact",
+        "sourcePassage": "12a. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b. CALENDAR DAYS\n(If \"YES\", indicate within how many calendar days after award in Item 12b.)\nYES NO 15",
+        "excludedPageFurniture": [],
+        "ownerDecision": "2026-11-05"
       },
-      "rationale": "This row comes from a fill-in government form. The form's printed words and its filled-in values are interleaved in the PDF text, so the row's wording cannot be confirmed as the document's own word order. Flagged for a person to read against the form; the original row is preserved in the audit.",
+      "rationale": "Fill-in government form row. Owner decision 2026-11-05: Correct. The quote is source text of the form line, matched against the PDF; the summary is written from the printed form, where the tick marks show (they are lost in the text). Confidence is set to review so a reader checks the form itself.",
       "originalRow": {
         "verbatim": "12a. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b. CALENDAR DAYS\n(If \"YES\", indicate within how many calendar days after award in Item 12b.)\nYES NO 15",
         "normalized": "Contractor must furnish any required performance and payment bonds, within 15 calendar days after award if applicable.",
@@ -1435,21 +1458,31 @@
         "category": "admin",
         "confidence": "review"
       },
-      "correctedRow": null
+      "correctedRow": {
+        "verbatim": "12a. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b. CALENDAR DAYS\n(If \"YES\", indicate within how many calendar days after award in Item 12b.)\nYES NO 15",
+        "normalized": "Contractor must furnish performance and payment bonds within 15 calendar days after award (the form ticks YES; item 10 also says bonds are required).",
+        "section_ref": null,
+        "page": 1,
+        "verb": "must",
+        "category": "admin",
+        "confidence": "review"
+      }
     },
     {
       "id": "W911SG27BA002:8",
       "document": "W911SG27BA002",
       "originalIndex": 8,
-      "disposition": "unresolved",
+      "disposition": "correct",
       "evidence": {
         "pdf": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.pdf",
         "pdfSha256": "ccb8fda0ab290a3348af94a18b508f25006166ddccd7964e05b688c92c3bc085",
-        "reader": "plain",
-        "match": "read-by-hand",
-        "citedPage": 1
+        "reader": "product",
+        "match": "product-reader-exact",
+        "sourcePassage": "13. ADDITIONAL SOLICITATION REQUIREMENTS:\na. Sealed offers in original and copies to perform the work required are due at the place specified in Item 8 by 09:00 AM (hour)\nlocal time 10 SEP 2026 (date). If this is a sealed bid solicitation, offers will be publicly opened at that time. Sealed envelopes\ncontaining offers shall be marked to show the offeror's name and address, the solicitation number, and the date and time offers are due.\nb. An offer guarantee is, is not required.\nc. All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.\nd. Offers providing less than 90calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
+        "excludedPageFurniture": [],
+        "ownerDecision": "2026-11-05"
       },
-      "rationale": "This row comes from a fill-in government form. The form's printed words and its filled-in values are interleaved in the PDF text, so the row's wording cannot be confirmed as the document's own word order. Flagged for a person to read against the form; the original row is preserved in the audit.",
+      "rationale": "Fill-in government form row. Owner decision 2026-11-05: Correct. The quote is source text of the form line, matched against the PDF; the summary is written from the printed form, where the tick marks show (they are lost in the text). Confidence is set to review so a reader checks the form itself.",
       "originalRow": {
         "verbatim": "13. ADDITIONAL SOLICITATION REQUIREMENTS:\na. Sealed offers in original and copies to perform the work required are due at the place specified in Item 8 by 09:00 AM (hour)\nlocal time 10 SEP 2026 (date). If this is a sealed bid solicitation, offers will be publicly opened at that time. Sealed envelopes\ncontaining offers shall be marked to show the offeror's name and address, the solicitation number, and the date and time offers are due.\nb. An offer guarantee is, is not required.\nc. All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.\nd. Offers providing less than 90calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
         "normalized": "Offerors must submit sealed offers by 09:00 AM local time on 10 SEP 2026, mark envelopes with required identifying information, comply with offer guarantee requirements, remain subject to incorporated provisions, and provide at least 90 calendar days for Government acceptance or the offer will be rejected.",
@@ -1459,7 +1492,15 @@
         "category": "instruction",
         "confidence": "high"
       },
-      "correctedRow": null
+      "correctedRow": {
+        "verbatim": "13. ADDITIONAL SOLICITATION REQUIREMENTS:\na. Sealed offers in original and copies to perform the work required are due at the place specified in Item 8 by 09:00 AM (hour)\nlocal time 10 SEP 2026 (date). If this is a sealed bid solicitation, offers will be publicly opened at that time. Sealed envelopes\ncontaining offers shall be marked to show the offeror's name and address, the solicitation number, and the date and time offers are due.\nb. An offer guarantee is, is not required.\nc. All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.\nd. Offers providing less than 90calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
+        "normalized": "Sealed offers (the original and 1 copy) are due at the place in Item 8 by 09:00 AM local time on 10 SEP 2026, in envelopes marked with the offeror's name and address, the solicitation number and the due date and time. An offer guarantee is required. Offers must allow at least 90 calendar days for Government acceptance or they will be rejected.",
+        "section_ref": null,
+        "page": 1,
+        "verb": "declaration",
+        "category": "instruction",
+        "confidence": "review"
+      }
     },
     {
       "id": "W911SG27BA002:95",

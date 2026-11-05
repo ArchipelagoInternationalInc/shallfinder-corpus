@@ -7,7 +7,7 @@
   "truncations": 7,
   "emptyChunks": 7,
   "rawRowCount": 113,
-  "finalRows": 456,
+  "finalRows": 457,
   "duplicatesRemoved": 0,
   "fragmentsRemoved": 0,
   "fragmentsDropped": [],
@@ -38,16 +38,16 @@
   "garbledPages": 0,
   "unreadableReason": null,
   "dropped": {
-    "total": 22,
+    "total": 21,
     "verbatimNotFound": 19,
     "pageOutOfRange": 0,
     "invalidShape": 0,
-    "mangled": 2
+    "mangled": 1
   },
   "reviewFlagged": 58,
   "coverage": {
     "verb_occurrences": 272,
-    "captured": 197,
+    "captured": 198,
     "excluded": {
       "definitional": 0,
       "government_actor": 15,
@@ -125,7 +125,7 @@
       68,
       70
     ],
-    "unresolved": 69,
+    "unresolved": 68,
     "not_processed": [],
     "unresolved_items": [
       {
@@ -135,14 +135,6 @@
         ],
         "count": 1,
         "sentence": "DATE ISSUED\u0003 PAGE 1\u0003 OF\u0003\u001b1 SOLICITATION, OFFER, PAGES 19C02026Q0027 SEALED BID (IFB) 8/10\u0015\u0013\u00156 AND AWARD (Construction, Alteration, or Repair) NEGOTIATED (RFP) IMPORTANT - The \"offer\" section on the reverse must be fully completed by offeror."
-      },
-      {
-        "page": 1,
-        "verbs": [
-          "shall"
-        ],
-        "count": 1,
-        "sentence": "The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award, x notice to proceed."
       },
       {
         "page": 1,
@@ -871,6 +863,15 @@
     "usd": 2.5644223999999998
   },
   "rows": [
+    {
+      "verbatim": "11. The contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving award, x notice to proceed. This performance period is x mandatory negotiable. (See ).",
+      "normalized": "Contractor shall begin performance within 10 calendar days and complete it within 90 calendar days after receiving notice to proceed; the performance period is mandatory.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
     {
       "verbatim": "12A. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12B. CALENDAR DAYS\n(If “YES,” indicate within how many calendar days after award in Item 12B.)\nYES x NO",
       "normalized": "Contractor must furnish any required performance and payment bonds (YES indicated on form).",
@@ -4986,9 +4987,9 @@
     "adjudicated": 8,
     "dispositions": {
       "keep": 5,
-      "correct": 2,
+      "correct": 3,
       "remove": 0,
-      "unresolved": 1
+      "unresolved": 0
     }
   }
 }

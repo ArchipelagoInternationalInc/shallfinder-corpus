@@ -7,7 +7,7 @@
   "truncations": 4,
   "emptyChunks": 4,
   "rawRowCount": 523,
-  "finalRows": 752,
+  "finalRows": 755,
   "duplicatesRemoved": 17,
   "fragmentsRemoved": 7,
   "fragmentsDropped": [
@@ -89,16 +89,16 @@
   "garbledPages": 0,
   "unreadableReason": null,
   "dropped": {
-    "total": 34,
+    "total": 31,
     "verbatimNotFound": 12,
     "pageOutOfRange": 0,
     "invalidShape": 0,
-    "mangled": 22
+    "mangled": 19
   },
   "reviewFlagged": 137,
   "coverage": {
     "verb_occurrences": 689,
-    "captured": 526,
+    "captured": 527,
     "excluded": {
       "definitional": 2,
       "government_actor": 32,
@@ -211,7 +211,7 @@
       145,
       146
     ],
-    "unresolved": 70,
+    "unresolved": 67,
     "not_processed": [],
     "unresolved_items": [
       {
@@ -229,30 +229,6 @@
         ],
         "count": 1,
         "sentence": "“FAILURE TO FURNISH A BID GUARANTEE IN THE PROPER FORM AND AMOUNT, BY THE TIME SET FOR OPENING OF BIDS, MAY CAUSE FOR REJECTION OF BIDS.” ALL BID BONDS MUST BE ORIGINALS;"
-      },
-      {
-        "page": 1,
-        "verbs": [
-          "shall"
-        ],
-        "count": 1,
-        "sentence": "The contractor shall begin performance within calendar days and complete it within 364 calendar days after receiving award, notice to proceed."
-      },
-      {
-        "page": 1,
-        "verbs": [
-          "must"
-        ],
-        "count": 1,
-        "sentence": "THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b."
-      },
-      {
-        "page": 1,
-        "verbs": [
-          "shall"
-        ],
-        "count": 1,
-        "sentence": "Sealed envelopes containing offers shall be marked to show the offeror's name and address, the solicitation number, and the date and time offers are due."
       },
       {
         "page": 2,
@@ -1355,6 +1331,15 @@
       "confidence": "high"
     },
     {
+      "verbatim": "11. The contractor shall begin performance within calendar days and complete it within 364 calendar days after receiving\naward, notice to proceed. This performance period is mandatory negotiable. (See FAR 52.211-10).",
+      "normalized": "Contractor shall begin performance within 7 calendar days and complete it within 364 calendar days after receiving notice to proceed (see FAR 52.211-10).",
+      "section_ref": null,
+      "page": 1,
+      "verb": "shall",
+      "category": "performance",
+      "confidence": "review"
+    },
+    {
       "verbatim": "IMPORTANT - The \"offer\" section on the reverse must be fully completed by offeror.",
       "normalized": "Offeror must fully complete the offer section on the reverse of the form.",
       "section_ref": null,
@@ -1362,6 +1347,24 @@
       "verb": "must",
       "category": "instruction",
       "confidence": "high"
+    },
+    {
+      "verbatim": "12a. THE CONTRACTOR MUST FURNISH ANY REQUIRED PERFORMANCE AND PAYMENT BONDS? 12b. CALENDAR DAYS\n(If \"YES\", indicate within how many calendar days after award in Item 12b.)\nYES NO 15",
+      "normalized": "Contractor must furnish performance and payment bonds within 15 calendar days after award (the form ticks YES; item 10 also says bonds are required).",
+      "section_ref": null,
+      "page": 1,
+      "verb": "must",
+      "category": "admin",
+      "confidence": "review"
+    },
+    {
+      "verbatim": "13. ADDITIONAL SOLICITATION REQUIREMENTS:\na. Sealed offers in original and copies to perform the work required are due at the place specified in Item 8 by 09:00 AM (hour)\nlocal time 10 SEP 2026 (date). If this is a sealed bid solicitation, offers will be publicly opened at that time. Sealed envelopes\ncontaining offers shall be marked to show the offeror's name and address, the solicitation number, and the date and time offers are due.\nb. An offer guarantee is, is not required.\nc. All offers are subject to the (1) work requirements, and (2) other provisions and clauses incorporated in the solicitation in full text or by reference.\nd. Offers providing less than 90calendar days for Government acceptance after the date offers are due will not be considered and will be rejected.",
+      "normalized": "Sealed offers (the original and 1 copy) are due at the place in Item 8 by 09:00 AM local time on 10 SEP 2026, in envelopes marked with the offeror's name and address, the solicitation number and the due date and time. An offer guarantee is required. Offers must allow at least 90 calendar days for Government acceptance or they will be rejected.",
+      "section_ref": null,
+      "page": 1,
+      "verb": "declaration",
+      "category": "instruction",
+      "confidence": "review"
     },
     {
       "verbatim": "28. NEGOTIATED AGREEMENT (Contractor is required to sign this document 29. AWARD (Contractor is not required to sign this document.) Your offer on this\nand return copies to issuing office.)",
@@ -8088,9 +8091,9 @@
     "adjudicated": 14,
     "dispositions": {
       "keep": 11,
-      "correct": 0,
+      "correct": 3,
       "remove": 0,
-      "unresolved": 3
+      "unresolved": 0
     }
   }
 }
