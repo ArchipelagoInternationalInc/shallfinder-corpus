@@ -42,3 +42,11 @@ At least 12 solicitations, varied deliberately rather than conveniently:
 
 `CORPUS_INDEX.md` lists what was chosen, with the measured page count and file size
 of each document and the reason it earns its place in the set.
+
+## Result sets
+
+- `eval/`, `eval-v3/`, `eval-v4/`, `eval-v4-corrected/` (v4c): earlier runs, kept unchanged.
+- `eval-v5-repaired/` (v5r, 2026-11-07): v4c rebuilt with no model call by the Phase 1 repair
+  round: corrected coverage check, section labels checked against the document's headings, and
+  rows added for list items cut off by a page break and binding sentences no row held (each
+  marked `origin` and confidence `review`). See `reports/2026-11-07-phase1-repair-audit-round3.md`.

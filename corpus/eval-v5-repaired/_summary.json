@@ -1,0 +1,296 @@
+{
+  "built": "2026-11-07",
+  "source": "eval-v4-corrected",
+  "modelCalls": 0,
+  "documents": [
+    {
+      "file": "0020153254COHEN__Attachment-1-Statement-of-Work-RFI.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/0020153254COHEN__Attachment-1-Statement-of-Work-RFI.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 39,
+        "unresolved": 12,
+        "items": 12
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 1,
+      "backstops": 3,
+      "addedRowsDropped": 1,
+      "after": {
+        "rows": 43,
+        "unresolved": 1,
+        "items": 1
+      }
+    },
+    {
+      "file": "1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/1240LT26Q0172__3-Combined-SpecsCBPEWI20260624.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 519,
+        "unresolved": 6,
+        "items": 6
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 1,
+      "backstops": 1,
+      "addedRowsDropped": 0,
+      "after": {
+        "rows": 521,
+        "unresolved": 0,
+        "items": 0
+      }
+    },
+    {
+      "file": "15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/15F06726R0000194__RFP-15F06726R0000194-Tier-II-MCPV-Trailer.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 394,
+        "unresolved": 83,
+        "items": 78
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 5,
+      "backstops": 30,
+      "addedRowsDropped": 1,
+      "after": {
+        "rows": 429,
+        "unresolved": 2,
+        "items": 2
+      }
+    },
+    {
+      "file": "1616-26__RFP1620000348.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/1616-26__RFP1620000348.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 342,
+        "unresolved": 46,
+        "items": 43
+      },
+      "sectionLabelsChanged": 29,
+      "listContinuations": 1,
+      "backstops": 19,
+      "addedRowsDropped": 5,
+      "after": {
+        "rows": 362,
+        "unresolved": 8,
+        "items": 7
+      }
+    },
+    {
+      "file": "19C02026Q0027__Solicitation-19C02026Q0027.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/19C02026Q0027__Solicitation-19C02026Q0027.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 457,
+        "unresolved": 68,
+        "items": 68
+      },
+      "sectionLabelsChanged": 135,
+      "listContinuations": 3,
+      "backstops": 18,
+      "addedRowsDropped": 0,
+      "after": {
+        "rows": 478,
+        "unresolved": 2,
+        "items": 2
+      }
+    },
+    {
+      "file": "36C26026Q0939__SF-1449-36C26026Q0939-Storage-Tank.json",
+      "status": "unreadable"
+    },
+    {
+      "file": "36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/36C26126Q1034__36C26126Q1034-Brand-Name-VAPIHCS-Flooring-Materials-.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 154,
+        "unresolved": 72,
+        "items": 40
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 2,
+      "backstops": 34,
+      "addedRowsDropped": 1,
+      "after": {
+        "rows": 190,
+        "unresolved": 2,
+        "items": 2
+      }
+    },
+    {
+      "file": "47QMCA26Q0098__RFQ47QMCA26Q0098-SF18.json",
+      "status": "unreadable"
+    },
+    {
+      "file": "70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/70CDCR26R00000026__Attachment-01-Turnkey-Facility-PWS-Non-IHSC-Requirem.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 1414,
+        "unresolved": 252,
+        "items": 230
+      },
+      "sectionLabelsChanged": 845,
+      "listContinuations": 7,
+      "backstops": 70,
+      "addedRowsDropped": 0,
+      "after": {
+        "rows": 1491,
+        "unresolved": 2,
+        "items": 2
+      }
+    },
+    {
+      "file": "75N98026Q00962__RFQ-75N98026Q00962.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/75N98026Q00962__RFQ-75N98026Q00962.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 120,
+        "unresolved": 33,
+        "items": 29
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 0,
+      "backstops": 44,
+      "addedRowsDropped": 1,
+      "after": {
+        "rows": 164,
+        "unresolved": 1,
+        "items": 1
+      }
+    },
+    {
+      "file": "80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/80JSC026MEDEVAC5Q__RFP-Solicitation-80JSC027R0003-MedEvac-Final.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 118,
+        "unresolved": 12,
+        "items": 10
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 1,
+      "backstops": 5,
+      "addedRowsDropped": 1,
+      "after": {
+        "rows": 124,
+        "unresolved": 2,
+        "items": 2
+      }
+    },
+    {
+      "file": "PANMCC26P0000048766__Combined-Synopsis.json",
+      "status": "unreadable"
+    },
+    {
+      "file": "W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/W15P7T-26-R-A006__Solicitation-Amendment-004-W15P7T26RA006.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 853,
+        "unresolved": 242,
+        "items": 228
+      },
+      "sectionLabelsChanged": 4,
+      "listContinuations": 11,
+      "backstops": 133,
+      "addedRowsDropped": 10,
+      "after": {
+        "rows": 997,
+        "unresolved": 14,
+        "items": 13
+      }
+    },
+    {
+      "file": "W31P4Q26RA002__W31P4Q-26-R-A002-Solicitation-SCOS.json",
+      "status": "unreadable"
+    },
+    {
+      "file": "W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/W911SG27BA002__Solicitation-Amendment-W911SG27BA002-0001.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 755,
+        "unresolved": 67,
+        "items": 65
+      },
+      "sectionLabelsChanged": 0,
+      "listContinuations": 9,
+      "backstops": 60,
+      "addedRowsDropped": 7,
+      "after": {
+        "rows": 824,
+        "unresolved": 12,
+        "items": 10
+      }
+    },
+    {
+      "file": "W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/W912P726RA022__W912P726RA002-San-Rafael-Solicitation-Specs-FINAL-8-.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 1732,
+        "unresolved": 311,
+        "items": 294
+      },
+      "sectionLabelsChanged": 1135,
+      "listContinuations": 4,
+      "backstops": 127,
+      "addedRowsDropped": 30,
+      "after": {
+        "rows": 1863,
+        "unresolved": 37,
+        "items": 35
+      }
+    },
+    {
+      "file": "W912P825BA029__Solicitation-W912P825BA029-OM25035.json",
+      "status": "ok",
+      "source": "eval-v4-corrected/W912P825BA029__Solicitation-W912P825BA029-OM25035.json",
+      "built": "2026-11-07",
+      "modelCalls": 0,
+      "before": {
+        "rows": 1221,
+        "unresolved": 309,
+        "items": 299
+      },
+      "sectionLabelsChanged": 700,
+      "listContinuations": 2,
+      "backstops": 89,
+      "addedRowsDropped": 11,
+      "after": {
+        "rows": 1312,
+        "unresolved": 16,
+        "items": 15
+      }
+    }
+  ]
+}
